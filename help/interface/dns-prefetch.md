@@ -1,32 +1,32 @@
 ---
 description: 다양한 솔루션 및 서비스에서 페이지 로드 시간을 줄이는 데 도움이 되도록 DNS 프리페치를 구현합니다.
 seo-description: 다양한 솔루션 및 서비스에서 페이지 로드 시간을 줄이는 데 도움이 되도록 DNS 프리페치를 구현합니다.
-seo-title: 다른 솔루션 및 서비스와 함께 DNS 프리페치 사용
+seo-title: 다양한 솔루션 및 서비스에서 DNS 프리페치 사용
 solution: Experience Cloud
-title: 다른 솔루션 및 서비스와 함께 DNS 프리페치 사용
-uuid: 4220 E 223-E 00 E -46 B 1-8 BDE -52248913 BEA 1
-translation-type: tm+mt
+title: 다양한 솔루션 및 서비스에서 DNS 프리페치 사용
+uuid: 4220e223-e00e-46b1-8bde-52248913bea1
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
 
 
-# 다른 솔루션 및 서비스와 함께 DNS 프리페치 사용
+# 다양한 솔루션 및 서비스에서 DNS 프리페치 사용
 
 다양한 솔루션 및 서비스에서 페이지 로드 시간을 줄이는 데 도움이 되도록 DNS 프리페치를 구현합니다.
 
-## DNS Prefetch 이해 {#section_772BF9CB7C4141DE9B0355146E2CD962}
+## DNS 프리페치 이해하기 {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-브라우저에서는 DNS 프리페치를 사용하여 웹 페이지에 링크된 도메인 이름을 해당 IP 주소로 자동으로 확인합니다. 브라우저에서 웹 페이지를 로드하면 프리페치 프로세스가 시작됩니다. 예를 들어 페이지에 클릭 가능한 링크가 포함되어 `www.adobe.com`있다고 가정합니다. 브라우저에 이 페이지가 로드되면 [DNS 시스템](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/)을 사용하여 링크된 도메인 이름을 검색하고 해당 숫자 IP 주소로 확인합니다. 사이트 방문자가 해당 링크 또는 단추를 클릭하기 전에 도메인 이름이 이미 IP 주소로 확인되었으므로 DNS 프리페치는 페이지 성능을 향상시키는 데 도움이 됩니다. DNS 프리페치 프로세스는 사용자에게 투명합니다.
+브라우저에서는 DNS 프리페치를 사용하여 웹 페이지에 링크된 도메인 이름을 해당 IP 주소로 자동으로 확인합니다. 브라우저에서 웹 페이지를 로드하면 프리페치 프로세스가 시작됩니다. 예를 들어 페이지에 `www.adobe.com`에 대한 클릭 가능한 링크가 포함되어 있다고 가정하겠습니다. 브라우저에 이 페이지가 로드되면 [DNS 시스템](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/)을 사용하여 링크된 도메인 이름을 검색하고 해당 숫자 IP 주소로 확인합니다. 사이트 방문자가 해당 링크 또는 단추를 클릭하기 전에 도메인 이름이 이미 IP 주소로 확인되었으므로 DNS 프리페치는 페이지 성능을 향상시키는 데 도움이 됩니다. DNS 프리페치 프로세스는 사용자에게 투명합니다.
 
-## DNS Prefetch 및 Adobe Experience Cloud 솔루션 {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
+## DNS 프리페치 및 Adobe Experience Cloud 솔루션 {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
 DNS 프리페치는 페이지에 포함된 정적 링크에서 자동으로 작동합니다. 즉, 다음과 같은 이유로 다른 [!UICONTROL Experience Cloud] 솔루션 및 서비스에서는 자동 DNS 프리페치가 작동하지 않습니다.
 
 * 각 Experience Cloud 솔루션 또는 서비스는 페이지가 로드될 때 동적으로 DNS 호출을 생성합니다.
 * 이러한 호출을 수행하기 전에 브라우저에서 IP 주소로 도메인 이름을 확인할 수 없습니다.
 
-하지만 Experience Cloud 솔루션으로 DNS 프리페치를 수동으로 구현할 수 있습니다. 이렇게 하려면 아래와 `<dns-prefetch>` 같이 페이지 코드의 `<head>` 섹션에 HTML 태그를 추가합니다. 제대로 구현되면 DNS 프리페치가 페이지 로드 시간을 몇 밀리초 줄일 수 있습니다.
+하지만 Experience Cloud 솔루션으로 DNS 프리페치를 수동으로 구현할 수 있습니다. 아래 그림과 같이 HTML `<dns-prefetch>` 태그를 페이지 코드의 `<head>` 섹션에 추가하면 됩니다. 제대로 구현되면 DNS 프리페치가 페이지 로드 시간을 몇 밀리초 줄일 수 있습니다.
 
 ## DNS 프리페치 코드 샘플 {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
@@ -38,11 +38,11 @@ DNS 프리페치는 페이지에 포함된 정적 링크에서 자동으로 작�
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Experience Cloud ID 서비스:**`<link rel="dns-prefetch" href="//fast. *`여기에 파트너 ID 삽입`*.demdex.net">`
+* **Experience Cloud ID 서비스:** `<link rel="dns-prefetch" href="//fast. *`여기에 파트너 ID 삽입`*.demdex.net">`
 
-* **DTM (다이내믹 태그 관리자** ): 필요하지 않습니다. DTM 링크는 페이지가 로드되는 즉시 사용 가능합니다.
+* **Dynamic Tag Manager** (DTM): 필요하지 않습니다. DTM 링크는 페이지가 로드되는 즉시 사용 가능합니다.
 
-* **Media Optimizer (Ad Cloud):**
+* **Media Optimizer(Ad Cloud):**
 
    * `<link rel="dns-prefetch" href="//pixel.everesttech.net">`
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
@@ -50,7 +50,7 @@ DNS 프리페치는 페이지에 포함된 정적 링크에서 자동으로 작�
 
 * **Target:** `<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
 
->[!MORE_ like_ this]
+>[!MORE_LIKE_THIS]
 >
 >* [DNS 프리페치](https://www.chromium.org/developers/design-documents/dns-prefetching)
 
