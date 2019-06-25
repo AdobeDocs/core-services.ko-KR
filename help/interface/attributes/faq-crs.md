@@ -5,8 +5,8 @@ seo-description: Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 
 seo-title: FAQ, 제한 사항 및 우수 사례
 solution: Experience Cloud
 title: FAQ, 제한 사항 및 우수 사례
-uuid: E 93 EB 531-23 C 7-4 D 75-92 E 8-75699 F 58546 A
-translation-type: tm+mt
+uuid: e93eb531-23c7-4d75-92e8-75699f58546a
+translation-type: ht
 source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
 
 ---
@@ -24,7 +24,7 @@ Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
 | 문제 | 설명 |
 |--- |--- |
 | 고객 속성 등록 제한 사항 | Analytics Premium으로 업그레이드할 때 추가 특성은 24시간 후에 사용할 수 있습니다. 이 시간 중에 속성 가입 최대값 오류가 표시될 수 있습니다. |
-| 사용자 정의 Analytics ID(s.visitorID) | Analytics에서 사용자를 식별하는 방법은  s. visitorid는 Analytics에서 사용자를 식별하는 방법입니다. 그러나 ID 서비스를 사용하여 Analytics 데이터를 내보내거나 가져오는 통합은 방문자가 s.visitorID를 사용하여 식별되는 경우 작동하지 않습니다.<br>여기에는 공유 대상, Analytics for Target(A4T) 및 고객 속성이 포함되지만, 이에 제한되지 않습니다.<br>이러한 통합의 경우 사용자 지정 Analytics ID를 설정할 수 없습니다. |
+| 사용자 정의 Analytics ID(s.visitorID) | Analytics에서 사용자를 식별하는 방법은 s.visitorID를 사용하여 고객 ID를 설정하는 것입니다. 그러나 ID 서비스를 사용하여 Analytics 데이터를 내보내거나 가져오는 통합은 방문자가 s.visitorID를 사용하여 식별되는 경우 작동하지 않습니다.<br>여기에는 공유 대상, Analytics for Target(A4T) 및 고객 속성이 포함되지만, 이에 제한되지 않습니다.<br>이러한 통합의 경우 사용자 지정 Analytics ID를 설정할 수 없습니다. |
 | Analytics의 문자 길이 제한 | Analytics 구독을 만들 때 업로드된 파일의 필드 길이는 255자로 잘립니다. |
 
 ## 고객 속성에 대한 FAQ {#section_E47866EEA83348E09FE43CEC5E44C461}
@@ -47,7 +47,7 @@ Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
     <ol id="ol_1FACEF0990B6486B8DE86245D17695A8"> 
      <li id="li_F0C1542853684F8591FDC1B441D31A56"> <p>제공을 받습니다. </p> <p><b>Analytics</b> 사용자인 경우 Adobe가 고객 속성을 제공합니다. <b>Target</b>만 사용하고 Analytics가 없는 경우 고객 지원 센터에 연락하여 핵심 서비스를 제공하도록 요청해야 합니다. </p> </li> 
      <li id="li_444FEDEE4B7244F79BA847662F5B17CB"> <p>CRM 팀과 대화합니다. Analytics 및 Experience Cloud 전체에서 사용하려는 고객 데이터 종류를 알아봅니다. </p> </li> 
-     <li id="li_32D4AAF8C29748A78801A0E1BFB37AF5"> <p>핵심 서비스를 구현합니다. </p> <p>핵심 서비스에 대한 구현을 현대화하는 방법에 대한 단계에 대해서는 <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 시작하기 - 핵심 서비스에</a> 대한 솔루션 활성화를 참조하십시오. 자세한 내용은 고객 ID 동기화에 대한 섹션을 참조하십시오. </p> </li> 
+     <li id="li_32D4AAF8C29748A78801A0E1BFB37AF5"> <p>핵심 서비스를 구현합니다. </p> <p>핵심 서비스에 대한 구현을 현대화하는 방법에 대한 단계에 대해서는 <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">시작하기 - 핵심 서비스용 솔루션을 사용하도록 설정</a>을 참조하십시오. 자세한 내용은 고객 ID 동기화에 대한 섹션을 참조하십시오. </p> </li> 
     </ol> <p> <b>참고:</b> 핵심 서비스 구현에 대한 관리자의 FAQ는 <a href="../admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91" format="dita" scope="local"> 여기</a>에서 확인하십시오. </p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
      <ul id="ul_9C473434B5DA4C6299AAB209DEDFCDE7"> 
       <li id="li_8BC10EB2825F4ADF8CA61F71D4994A28"> <b>Adobe Analytics</b>: 강력히 권장됨 </li> 
       <li id="li_56F518E3F3DF4C93B6F7EF3B40ACC52F"> <b>Adobe Target:</b> 필수 </li> 
-     </ul> </p> <p>ID 서비스를 사용하면 실시간 대상, Target 현대화, Analytics 통합 및 비디오 하트비트 추적을 비롯한 최신 Experience Cloud 기능을 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 핵심 서비스 - 솔루션 활성화 방법</a>. </p> <p> <b></b>참고: <span class="term"> Experience Cloud ID 서비스는</span> <span class="term"> 이전에 Analytics 방문자 ID 서비스로 알려진 기능의 현대화된</span>구현입니다. </p> </td> 
+     </ul> </p> <p>ID 서비스를 사용하면 실시간 대상, Target 현대화, Analytics 통합 및 비디오 하트비트 추적을 비롯한 최신 Experience Cloud 기능을 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 핵심 서비스 - 솔루션 활성화 방법</a>. </p> <p> <b>참고</b>: <span class="term">Experience Cloud ID 서비스</span>는 이전에 <span class="term">Analytics 방문자 ID 서비스</span>로 알려진 기능의 현대화된 구현입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>고객 속성 기능은 Adobe Audience Manager와 어떤 관련이 있습니까? </p> </td> 
@@ -82,7 +82,7 @@ Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(Target 전용)</b> 고객 속성 데이터를 공유 대상 데이터와 결합하여 슈퍼 대상을 만들 수 있습니까? </p> </td> 
-   <td colname="col2"> <p>아닙니다. 공유된 대상 데이터는 완전한 대상입니다. </p> </td> 
+   <td colname="col2"> <p>아니요. 공유된 대상 데이터는 완전한 대상입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(Target 전용) </b>고객 속성 기능을 Target의 벌크 프로필 API와 어떻게 비교합니까? </p> </td> 
@@ -95,7 +95,7 @@ Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(Target 전용)</b> 고객 속성에서 Adobe Target으로 데이터를 업로드하면 Target 방문자의 프로필 라이프타임이 연장됩니까? </p> </td> 
-   <td colname="col2"> <p>예. Adobe Target 도움말의 <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">방문자 프로필 라이프타임</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>예. Adobe Target 도움말의 <a href="https://marketing.adobe.com/resources/help/ko_KR/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">방문자 프로필 라이프타임</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> (Target 전용)</b> 방문자가 고객 ID로 식별되면 바로 고객 속성에 업로드된 데이터를 타깃팅할 수 있습니까? </p> </td> 
