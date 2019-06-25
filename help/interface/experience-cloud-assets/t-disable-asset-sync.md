@@ -5,8 +5,8 @@ seo-description: Creative Cloud 파일 폴더 내에서 공유된 Experience Clo
 seo-title: 공유 폴더의 동기화 비활성화
 solution: Experience Cloud
 title: 공유 폴더의 동기화 비활성화
-uuid: 17 C 42 B 39-614 C -45 E 4-BFB 1-C 6 CB 2 FD 66150
-translation-type: tm+mt
+uuid: 17c42b39-614c-45e4-bfb1-c6cb2fd66150
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -18,12 +18,12 @@ Creative Cloud 파일 폴더 내에서 공유된 Experience Cloud 폴더의 동�
 
 >[!NOTE]
 >
->소유한 폴더만 동기화를 해제할 수 있습니다.
+>소유하는 폴더만 동기화를 해제할 수 있습니다.
 <p class="head"> <b>Windows</b> </p>
 
 1. Windows 탐색기를 엽니다.
 
-1. 즐겨찾기 아래에서 **[!UICONTROL Creative Cloud 파일]** 폴더를 마우스 오른쪽 단추로 클릭한 다음 동기화할 공유 폴더 **[!UICONTROL 선택을]** 클릭합니다.
+1. 즐겨찾기에서 **[!UICONTROL Creative Cloud 파일]** 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 동기화할 공유 폴더 선택]** 을 클릭합니다.
 
    ![](assets/select_sync_folders.png)
 
@@ -35,7 +35,7 @@ Creative Cloud 파일 폴더 내에서 공유된 Experience Cloud 폴더의 동�
 
 1. 사용자 폴더로 이동합니다.
 
-1. Control 키를 누른 상태에서 **[!UICONTROL Creative Cloud 파일을]** 클릭한 다음 동기화할 공유 폴더 **[!UICONTROL 선택을]** 클릭합니다.
+1. Control 키를 누른 채로 **[!UICONTROL Creative Cloud 파일]** 을 클릭하고 **[!UICONTROL 동기화할 공유 폴더 선택]** 을 클릭합니다.
 
    ![](assets/select_sync_folders_mac.png)
 
