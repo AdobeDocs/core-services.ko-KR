@@ -1,12 +1,12 @@
 ---
-description: Experience Cloud 트리거를 구성하는 방법
-keywords: 통합; 트리거
-seo-description: Experience Cloud 트리거를 구성하는 방법
+description: Experience Cloud 트리거 구성 방법.
+keywords: 통합,트리거
+seo-description: Experience Cloud 트리거 구성 방법.
 seo-title: Triggers
 solution: Marketing Cloud
 title: Triggers
-uuid: DAB 536 E 3-1969-4661-919 E -5 B 15 F 423 FECD
-translation-type: tm+mt
+uuid: dab536e3-1969-4661-919e-5b15f423fecd
+translation-type: ht
 source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 ## 트리거 개요 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
-*트리거를 통해* 주요 소비자 행동을 식별, 정의 및 모니터링할 수 있고 교차 솔루션 커뮤니케이션을 생성하여 방문자를 다시 연결할 수 있습니다. 실시간 의사 결정 및 개인화에서 트리거를 사용할 수 있습니다.
+*트리거*를 통해 주요 소비자 행동을 식별, 정의 및 모니터링한 다음 교차 솔루션 커뮤니케이션을 생성하여 방문자를 다시 참여하도록 할 수 있습니다. 실시간 의사 결정 및 개인화에서 트리거를 사용할 수 있습니다.
 
 * 장바구니 포기 또는 제품이 제거된 장바구니 포기에 대한 재마케팅의 신속한 구성
 * 불완전한 양식 및 애플리케이션
@@ -26,9 +26,9 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 **트리거 유형**
 
-일반적으로 트리거는 마케팅 캠페인을 시작하는 데 15-90 분 정도 걸릴 수 있습니다. 이것은 데이터 수집 구현, 파이프라인 로드, 정의된 트리거의 사용자 지정 구성 및 Adobe Campaign의 워크플로우에 따라 달라집니다.
+일반적으로 트리거는 마케팅 캠페인을 시작하는 데 15-90분 정도 걸릴 수 있습니다. 이것은 데이터 수집 구현, 파이프라인 로드, 정의된 트리거의 사용자 지정 구성 및 Adobe Campaign의 워크플로우에 따라 달라집니다.
 
-* **포기:** 방문자가 제품을 보고 장바구니에 추가하지 않을 경우에 실행할 트리거를 만들 수 있습니다. 장바구니를 포기한 후 고객의 경향을 이해할 수 있도록 [성향 점수를](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334) 구성합니다.
+* **포기:** 방문자가 제품을 보고 장바구니에 추가하지 않을 경우에 실행할 트리거를 만들 수 있습니다. [성향 점수](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334)를 구성하여 고객이 장바구니를 포기한 후 하지 않을 경향을 이해합니다.
 * **작업:** 예를 들어 뉴스레터 등록, 이메일 구독 또는 신용 카드 신청(확인) 후에 실행할 트리거를 만들 수 있습니다. 유통업의 경우 회원 프로그램에 등록한 방문자를 대상으로 트리거를 만들 수 있습니다. 미디어 및 엔터테인먼트에서는 특정 프로그램을 시청하고 설문 조사에 응답하기를 원하는 방문자를 대상으로 트리거를 만들 수 있습니다.
 * **세션 시작 및 세션 종료:** 세션 시작 및 세션 종료 이벤트에 대한 트리거를 만듭니다.
 
@@ -40,14 +40,14 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 >[!NOTE]
 >
->현재 100 개의 트리거가 기술적 제한이 있습니다.
+>현재 트리거는 100개로 기술적 제한이 있습니다.
 
-1. Experience Cloud에서를 클릭하고 ![](assets/menu-icon.png)**[!UICONTROL 활성화를 클릭합니다]**.
-1. [!UICONTROL 트리거] 카드를 찾은 다음 **[!UICONTROL 시작을 클릭합니다]**.
+1. Experience Cloud에서 ![](assets/menu-icon.png)을 클릭한 다음 **[!UICONTROL 활성화]** 를 클릭합니다.
+1. [!UICONTROL 트리거] 카드를 찾은 다음 **[!UICONTROL 시작]** 을 클릭합니다.
 
    ![단계 결과](assets/activation-triggers.png)
 
-1. **[!UICONTROL 새 트리거를]** 클릭한 다음 트리거 유형을 지정합니다.
+1. **[!UICONTROL 새 트리거]** 를 클릭한 다음 트리거 유형을 지정합니다.
 
    ![단계 결과](assets/add-trigger.png)
 
@@ -57,17 +57,17 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
    |--- |--- |
    | 이름 | 이 트리거의 이름입니다. |
    | 설명 | 사용하는 방식 등 트리거에 대한 설명입니다. |
-   | 보고서 세트 | 이 트리거에서 사용하는 Analytics [보고서 세트](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html)입니다. 이 설정은 사용할 보고 데이터를 식별합니다. |
-   | 포함 필수 방문<br>방문이 포함되지 않음 다음에 트리거가 포함되면<br>안 됩니다<br>. 메타 데이터 포함 | 발생을 원하는 기준이나 방문자 행동과 발생을 원하지 않는 행동을 정의할 수 있습니다.  예를 들어, 다음과 같은 간단한 장바구니 포기 트리거를 만들 수 있습니다.<ul><li>방문은 다음을 포함해야 합니다. 장바구니 추가 (지표) 및 존재함. (특정 제품 보기 또는 브라우저 유형과 같은 기준으로 규칙을 세분화할 수 있습니다.)</li><li>방문은 다음을 포함할 수 없습니다. 체크아웃.</li><li>다음에 대해 작업이 없는 후 트리거: 10 분</li><li>메타데이터 포함: 특정 캠페인 차원 또는 방문자 행동에 관련된 변수를 추가할 수 있습니다. 이 필드는 정확한 재마케팅 이메일을 만들기 위해 Adobe Campaign에서 사용할 수 있습니다.</li></ul><br>규칙에 중요한 기준에 따라 컨테이너 내에 OR OR OR 로직을 지정할 수 있습니다. |
-   | 컨테이너 | 컨테이너는 트리거를 정의하는 규칙, 조건 또는 필터를 설정하고 저장하는 위치입니다. 동시에 발생하기를 원하는 이벤트의 경우, 동일한 컨테이너에 있어야 합니다. 각 컨테이너는 히트 수준에서 독립적으로 처리됩니다.  예를 들어 AND 연산자로 두 개의 컨테이너가 연결된 경우 두 개의 히트가 요구 사항을 충족하면 규칙이 자격을 갖추게 될 수 있습니다. |
+   | 보고서 세트 | 이 트리거에 사용된 Analytics [보고서 세트](https://marketing.adobe.com/resources/help/ko_KR/analytics/getting-started/report-suites.html)입니다. 이 설정은 사용할 보고 데이터를 식별합니다. |
+   | 포함 필수 방문<br>배제 필수 방문<br>작업 없음 이후의 트리거<br>메타데이터 포함 | 발생을 원하는 기준이나 방문자 행동과 발생을 원하지 않는 행동을 정의할 수 있습니다.  예를 들어, 다음과 같은 간단한 장바구니 포기 트리거를 만들 수 있습니다.<ul><li>포함 필수 방문: 장바구니 추가 수(지표) 및 존재함. (특정 제품 보기 또는 브라우저 유형과 같은 기준으로 규칙을 세분화할 수 있습니다.)</li><li>배제 필수 방문: 체크아웃</li><li>작업 없음 이후의 트리거: 10분</li><li>메타데이터 포함: 특정 캠페인 차원 또는 방문자 행동에 관련된 변수를 추가할 수 있습니다. 이 필드는 정확한 재마케팅 이메일을 만들기 위해 Adobe Campaign에서 사용할 수 있습니다.</li></ul><br>규칙에 중요한 기준에 따라 컨테이너 내에 또는 컨테이너 간에 Any, And 또는 Or 로직을 지정할 수 있습니다. |
+   | 컨테이너 | 컨테이너는 트리거를 정의하는 규칙, 조건 또는 필터를 설정하고 저장하는 위치입니다. 동시에 발생하기를 원하는 이벤트의 경우, 동일한 컨테이너에 있어야 합니다. 각 컨테이너는 히트 수준에서 독립적으로 처리됩니다.  예를 들어 AND 연산자로 두 개의 컨테이너가 연결된 경우 두 개의 히트 수가 요구 사항을 충족하면 규칙이 유효할 수 있습니다. |
    | 후에 새로운 세션 시작 | 세션 시작 및 세션 종료 이벤트에 대한 트리거를 만듭니다. |
 
-1. (선택 사항) 포기 트리거에서 성향 점수를 적용할 [](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334)수 있습니다.
+1. (선택 사항) 포기 트리거에서 [성향 점수](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334)를 적용할 수 있습니다.
 
    ![단계 결과](assets/propensity-scoring.png)
 
 1. **[!UICONTROL 저장을 클릭합니다]**.
-1. 실시간 리마케팅에 [트리거를](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html) 사용합니다 [!DNL Adobe Campaign].
+1. [!DNL Adobe Campaign]에서 [실시간 리마케팅](https://docs.campaign.adobe.com/doc/standard/kr/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html)에 트리거를 사용합니다.
 
 ### 예제 트리거
 
@@ -79,7 +79,7 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 **레퍼러 트리거**
 
-다음 트리거는 제품이 남성용 부츠이고 레퍼러가 Facebook인 히트일 때 동작합니다. 두 개의 기준( *products* and *referrer*) to be evaluate in the same hit, they should be added to the same container.
+다음 트리거는 제품이 남성용 부츠이고 레퍼러가 Facebook인 히트일 때 동작합니다. 두 개의 기준( *제품* 및 *레퍼러*)은 동일한 히트에서 평가될 수 있도록, 동일한 컨테이너에 추가되어야 합니다.
 
 ![](assets/fb-boots-promo.png)
 
