@@ -5,8 +5,8 @@ seo-description: ' Exchange Marketplace는 앱을 통해 디지털 마케팅 확
 seo-title: Exchange 마켓플레이스
 solution: Experience Cloud
 title: Exchange 마켓플레이스
-uuid: 73 DB 5 CC 5-5 FB 2-43 A 2-A 164-5 CBCA 9 E 9 A 206
-translation-type: tm+mt
+uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
  Exchange Marketplace는 앱을 통해 디지털 마케팅 확장 기능을 검색, 탐색, 선택, 지불, 다운로드할 수 있는 단일 대상입니다. 앱에는 Data Connectors, Adobe의 핵심 제품에 대한 사용자 지정 구성, 타사 애플리케이션 및 보고서가 포함됩니다.
 
-**[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 도움말]** &gt; **[!UICONTROL Exchange]**
+**[!UICONTROL Experience Cloud]&gt;****[!UICONTROL 도움말]&gt;****[!UICONTROL Exchange]**
 
 <!-- <p>https://wiki.corp.adobe.com/display/marketingcloud/Marketing+Cloud+Exchange </p> 
 <p>https://wiki.corp.adobe.com/display/marketingcloud/Marketplace+Implementation#MarketplaceImplementation-Anonymousvsauthenticatedexperience </p> -->
