@@ -5,8 +5,8 @@ seo-description: 특성 규칙을 사용하여 Experience Cloud에서 대상을 
 seo-title: 대상자 만들기
 solution: Experience Cloud
 title: 대상자 만들기
-uuid: 7 E 622539-296 E -4 FF 3-93 B 0-EC 1 C 08 B 35429
-translation-type: tm+mt
+uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -35,13 +35,13 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 다음 예에서는 복합 대상에 대한 규칙을 만드는 방법을 보여 줍니다. 이 대상은 다음으로 구성됩니다.
 
 * 페이지 데이터 또는 원시 Analytics 데이터에서 파생된 홈/가든 섹션
-* 세그먼트에 게시된 세그먼트에서 파생된 [!DNL Adobe Analytics] Chrome [및 Safari](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) 사용자 [!DNL Experience Cloud].
+* [!DNL Experience Cloud]에 [게시된](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) [!DNL Adobe Analytics]세그먼트에서 파생된 Chrome 및 Safari 사용자.
 
 
    ![](assets/audience_create.png)
 
-1. 에서 [!DNL Experience Cloud]**[!UICONTROL [사람]** ] &gt; **[!UICONTROL [대상 라이브러리]**] 를 클릭합니다.
-1. [!UICONTROL 대상] 페이지에서 **[!UICONTROL 새로 만들기를]** 클릭합니다. ![](assets/add_icon_small.png)
+1. [!DNL Experience Cloud]에서 **[!UICONTROL ]사용자** &gt; **[!UICONTROL 대상 라이브러리를 클릭합니다]**.
+1. [!UICONTROL 대상] 페이지에서 **[!UICONTROL 새로 만들기]** 를 클릭합니다. ![](assets/add_icon_small.png)
 
 ![단계 결과](assets/audience_create_new.png)
 
@@ -52,32 +52,32 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
    >[!NOTE]
    >
-   >캐싱으로 인해, Analytics에서 삭제된 보고서 세트는 삭제가 Experience Cloud에 표시되기 12 시간이 되어야 합니다.
+   >캐싱으로 인해, Analytics에서 삭제된 보고서 세트는 삭제가 Experience Cloud에 표시되는 데 12시간이 필요합니다.
 
-* **[!UICONTROL Experience Cloud:]** 소스에서 파생된 속성 [!DNL Experience Cloud] 데이터. 예를 들어 [!DNL Analytics]에서 만든 대상 세그먼트의 데이터이거나 [!DNL Audience Manager]의 데이터일 수 있습니다.
+* **[!UICONTROL Experience Cloud:]**[!DNL Experience Cloud] 소스에서 파생된 특성 데이터입니다. 예를 들어 [!DNL Analytics]에서 만든 대상 세그먼트의 데이터이거나 [!DNL Audience Manager]의 데이터일 수 있습니다.
 
 1. 대상 규칙 정의 
 
 >[!NOTE]
 >
->대상 규칙을 정의할 때 구현 변수를 이해해야 합니다.
+>이러한 규칙을 작성할 때 구현 변수를 이해해야 합니다.
 
-[!UICONTROL 규칙에서]*`Home & Garden`* 속성 선택 사항을 정의합니다.
+[!UICONTROL 규칙]에서 *`Home & Garden`* 속성 선택 사항을 정의합니다.
 
 * **[!UICONTROL 속성 소스:]** 원시 Analytics 데이터
 * **[!UICONTROL 보고서 세트:]** 보고서 세트 31
-* Dimension = **[!UICONTROL store (Merch) (v 6)]** &gt; **[!UICONTROL Equals]** &gt; **[!UICONTROL Home &amp; Garden]**
+* 차원 = **[!UICONTROL Store (Merch) (v6)]&gt;****[!UICONTROL Equals]&gt;****[!UICONTROL Home &amp; Garden]**
 
    ![](assets/home_garden.png)
 
-   *Chrome 및 Safari 방문자는* Analytics에서 공유되는 대상 세그먼트입니다.
+   *Chrome 및 Safari 방문자*는 Analytics에서 공유되는 대상 세그먼트입니다.
 
 * **[!UICONTROL 특성 소스:]** Experience Cloud
 * **[!UICONTROL 차원:]** Chrome/Safari 방문자
 
    ![](assets/chrome_safari.png)
 
-   비교를 위해 *OR* 규칙을 추가하여 뜰 및 가구와 같은 사이트 섹션의 모든 방문자를 볼 수 있습니다.
+   비교를 위해 *OR* 규칙을 추가하여 뜰/가구와 같은 사이트 섹션의 모든 방문자를 볼 수 있습니다.
 
    ![](assets/audiences_rule_patio.png)
 
@@ -93,6 +93,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 지정된 기간 동안 데이터 수집이 완료되면 원이 합쳐지면서 정의된 대상을 표시합니다.
 
-1. 규칙을 정의한 후 **[!UICONTROL 저장을 클릭합니다]**.
+1. 규칙을 정의한 후에 **[!UICONTROL 저장]** 을 클릭합니다.
 
 대상이 저장되면 다른 솔루션에 사용할 수 있습니다. 예를 들어 공유 대상을 대상 활동에 포함할 수 있습니다.
