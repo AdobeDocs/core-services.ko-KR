@@ -4,8 +4,8 @@ seo-description: 'Experience Cloud 자산은 솔루션 간에 공유할 수 있�
 seo-title: 자산
 solution: Experience Cloud
 title: 자산
-uuid: 97 A 849 EC -1555-4630-9416-2 AB 484373 F 5 C
-translation-type: tm+mt
+uuid: 97a849ec-1555-4630-9416-2ab484373f5c
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -45,7 +45,7 @@ Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준�
 
 ![](assets/asset-nav.png)
 
-## 도구 모음 액세스 {#section_EC2E401D225148818F3753248556BE6B}
+## 도구 모음에 액세스 {#section_EC2E401D225148818F3753248556BE6B}
 
 자산(또는 자산 디렉토리)으로 이동한 후 **[!UICONTROL 선택을 클릭합니다]**.
 
@@ -77,15 +77,15 @@ Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준�
 
 ## 피드에 자산 공유 {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
 
-자산을 **[!UICONTROL 다른]** Experience Cloud 사용자에게 [피드로](../feed.md#concept_9256B8768A294009A777282DD8719213) 공유하려면 도구 모음에서 공유를 클릭합니다.
+도구 모음에서 **[!UICONTROL 공유]** 를 클릭하여 자산을 [피드](../feed.md#concept_9256B8768A294009A777282DD8719213)로 다른 Experience Cloud 사용자에게 공유할 수 있습니다.
 
 ![](assets/assets-share-card.png)
 
-공유하면 [피드] 페이지 및 카드를 공유한 모든 사람에게 이미지가 표시됩니다.
+공유하면 피드 페이지 및 카드를 공유한 모든 사람에게 이미지가 표시됩니다.
 
 ## 전체 화면 자산 보기 및 확대/축소 {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-**[!UICONTROL 보기]** &gt; **[!UICONTROL 이미지를]** 클릭하여 전체 자산 이미지를 보고 확대/축소를 활성화합니다.
+**[!UICONTROL 보기]** &gt; **[!UICONTROL 이미지]** 를 클릭하여 전체 자산 이미지를 보고 확대/축소를 활성화합니다.
 
 ![](assets/asset-zoom.png)
 
@@ -93,7 +93,7 @@ Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준�
 
 속성을 사용한 카드 보기, 목록 보기, 열 보기 중 선택하여 자산을 쉽게 찾을 수 있습니다.
 
-**[!UICONTROL 보기]** &gt; **[!UICONTROL 속성을]** 클릭하여 자산의 속성을 봅니다.
+**[!UICONTROL 보기]** &gt; **[!UICONTROL 속성]** 을 클릭하여 자산의 속성을 확인합니다.
 
 ![](assets/asset-properties.png)
 
@@ -101,6 +101,6 @@ Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준�
 
 사용자 수, 사용된 저장소 및 전체 자산을 참조하십시오.
 
-**[!UICONTROL 도구]** &gt; **[!UICONTROL 보고서]** &gt; **[!UICONTROL 사용량 보고서를 클릭합니다.]**
+**[!UICONTROL 도구]** &gt; **[!UICONTROL 보고서]** &gt; **[!UICONTROL 사용량 보고서]** 를 클릭합니다.
 
 ![](assets/assets-usage-report.png)
