@@ -1,12 +1,12 @@
 ---
 description: Adobe Experience Cloud에서 업로드되고 사용되는 PII(개인 식별 정보)와 관련된 고려 사항 및 우수 사례입니다.
-keywords: 고객 속성; 핵심 서비스
+keywords: 고객 속성;핵심 서비스
 seo-description: Adobe Experience Cloud에서 업로드되고 사용되는 PII(개인 식별 정보)와 관련된 고려 사항 및 우수 사례입니다.
 seo-title: 개인 정보 고려 사항 - 고객 속성
 solution: Experience Cloud
 title: 개인 정보 고려 사항 - 고객 속성
-uuid: 5666 dc 4 e -55 fa -4196-9985-cf 530 cfb 9247
-translation-type: tm+mt
+uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -34,7 +34,7 @@ Adobe는 광고주가 해당 사이트를 방문하거나 애플리케이션을 
 
 Adobe는 이러한 유형의 마케팅 및 광고 결정 시 고객 개인 정보를 고려할 수 있다는 것을 알고 있습니다. Adobe에서 광고주가 소비자의 기대를 충족하도록 도와주는 내장된 개인 정보 컨트롤을 제공하는 것도 바로 이러한 이유 때문입니다. Adobe는 광고주가 마케팅 목적으로 사용하기 적합한 정보를 고려하고 어떤 상황에서 광고주가 이러한 정보를 사용할 수 있는지 신중히 고려할 것을 권장합니다.
 
-**모범 사례**
+**우수 사례**
 
 Adobe Analytics 또는 Target에 PII를 업로드할 때 고객은 PII를 해시 처리한 후 Adobe에 업로드하는 것이 좋습니다. 해시 처리된 정보는 여전히 분석 및 마케팅 용도로 사용할 수 있습니다. 다시 말해서 Adobe는 광고주가 의료 기록, 금융 계좌 정보 및 미성년자에 대한 정보 등의 민감한 개인 정보를 Adobe Analytics 및 Target에 보내지 못하게 합니다.
 
