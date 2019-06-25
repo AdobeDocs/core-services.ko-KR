@@ -1,12 +1,12 @@
 ---
 description: 고객 속성을 Experience Cloud에 업로드하기 위한 데이터 파일 요구 사항 및 여러 데이터 소스입니다.
-keywords: 고객 속성; 핵심 서비스
+keywords: 고객 속성;핵심 서비스
 seo-description: 고객 속성을 Experience Cloud에 업로드하기 위한 데이터 파일 요구 사항 및 여러 데이터 소스입니다.
 seo-title: 고객 속성에 대한 데이터 파일 및 데이터 소스에 대해
 solution: Experience Cloud
 title: 고객 속성에 대한 데이터 파일 및 데이터 소스에 대해
-uuid: 9 DD 0 E 364-889 B -45 DB-B 190-85 C 0930 A 101 E
-translation-type: tm+mt
+uuid: 9dd0e364-889b-45db-b190-85c0930a101e
+translation-type: ht
 source-git-commit: bae7ac2bc620fc0f9ac149f7dce84fa70e1355c9
 
 ---
@@ -16,9 +16,9 @@ source-git-commit: bae7ac2bc620fc0f9ac149f7dce84fa70e1355c9
 
 고객 속성을 Experience Cloud에 업로드하기 위한 데이터 파일 요구 사항 및 여러 데이터 소스입니다.
 
-엔터프라이즈에서 CRM 또는 비슷한 데이터에 액세스해야 합니다. Experience Cloud에 업로드하는 데이터는 [!DNL .csv] 파일이어야 합니다. FTP 또는 SFTP를 통해 업로드하는 경우 [!DNL .fin] 파일도 업로드합니다.
+엔터프라이즈에서 CRM 또는 비슷한 데이터에 액세스해야 합니다. Experience Cloud에 업로드하는 데이터는 [!DNL .csv] 파일이어야 합니다. FTP 또는 sFTP를 통해 업로드하는 경우 [!DNL .fin] 파일도 업로드합니다.
 
-고객 속성은 하루에 몇 개의 파일을 처리하도록 설계되었습니다. 처리가 지연되는 작은 수의 파일이 있는 문제를 방지하기 위해 동일한 조직에서 이전 묶음의 30 분 이내에 전송된 파일이 우선순위가 낮은 대기열로 전달됩니다.
+고객 속성은 하루에 몇 개의 파일을 처리하도록 설계되었습니다. 작은 파일이 대량으로 있어 처리가 지연되는 문제를 방지하기 위해 동일한 조직의 이전 배치에서 30분 이내에 전송된 파일은 우선순위가 낮은 큐로 라우팅됩니다.
 
 <!-- <p>Articulate difference between this and SAINT. </p> -->
 
@@ -81,7 +81,7 @@ CSV 파일은 다음 형식을 따라야 합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>고객 ID 열 </p> </td> 
-   <td colname="col2"> <p> 첫 번째 열은 고유한 고객 ID여야 합니다. 사용된 ID는 Experience Cloud ID 서비스에 전달되는 ID에 해당해야 합니다. </p> <p>Analytics의 경우 prop 또는 eVar에 저장되는 ID입니다. </p> <p>Target의 경우 setCustomerID 값입니다. (<a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics &amp; Target - 고객 ID 동기화</a> 참조 ) </p> <p> 이 고객 ID는 CRM가 데이터베이스의 각 사용자에 대해 사용하는 고유한 식별자입니다. 나머지 열은 CRM에서 가져오는 속성입니다. 업로드할 속성 수를 선택합니다. </p> <p>열 제목에는 읽을 수 있는 친근한 이름이 권장되지만 필수는 아닙니다. 업로드 후에 스키마의 유효성을 검사할 때 업로드한 행 및 열에 친근한 이름을 매핑할 수 있습니다. </p> <p> <b>고객 ID에 대해</b> </p> <p>일반적으로 기업에서는 CRM 시스템의 고객 ID를 사용합니다. 이 ID는 사용자가 로그인할 때 <span class="codeph">setCustomerID</span> 호출을 사용하여 설정됩니다. 이 ID는 Experience Cloud에 업로드된 CRM 파일의 키로도 사용됩니다.   <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> 별칭 ID</a>는 Audience Manager에서 별칭 데이터가 저장되는 데이터 저장소용의 친근한 이름입니다. 이 시스템에서는 별칭을 데이터 저장소(setCustomerID를 통해)로 보냅니다. CRM 파일은 이 데이터 저장소의 데이터에 적용됩니다. </p> <p><span class="codeph">setCustomerIDs</span> 정보에 대해서는 <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html" format="https" scope="external">고객 ID 및 인증 상태</a>를 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p> 첫 번째 열은 고유한 고객 ID여야 합니다. 사용된 ID는 Experience Cloud ID 서비스에 전달되는 ID에 해당해야 합니다. </p> <p>Analytics의 경우 prop 또는 eVar에 저장되는 ID입니다. </p> <p>Target의 경우 setCustomerID 값입니다. (<a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics &amp; Target - 고객 ID 동기화</a> 참조 ) </p> <p> 이 고객 ID는 CRM가 데이터베이스의 각 사용자에 대해 사용하는 고유한 식별자입니다. 나머지 열은 CRM에서 가져오는 속성입니다. 업로드할 속성 수를 선택합니다. </p> <p>열 제목에는 읽을 수 있는 친근한 이름이 권장되지만 필수는 아닙니다. 업로드 후에 스키마의 유효성을 검사할 때 업로드한 행 및 열에 친근한 이름을 매핑할 수 있습니다. </p> <p> <b>고객 ID에 대해</b> </p> <p>일반적으로 기업에서는 CRM 시스템의 고객 ID를 사용합니다. 이 ID는 사용자가 로그인할 때 <span class="codeph">setCustomerID</span> 호출을 사용하여 설정됩니다. 이 ID는 Experience Cloud에 업로드된 CRM 파일의 키로도 사용됩니다.   <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> 별칭 ID</a>는 Audience Manager에서 별칭 데이터가 저장되는 데이터 저장소용의 친근한 이름입니다. 이 시스템에서는 별칭을 데이터 저장소(setCustomerID를 통해)로 보냅니다. CRM 파일은 이 데이터 저장소의 데이터에 적용됩니다. </p> <p><span class="codeph">setCustomerIDs</span> 정보에 대해서는 <a href="https://marketing.adobe.com/resources/help/ko_KR/mcvid/mcvid-authenticated-state.html" format="https" scope="external">고객 ID 및 인증 상태</a>를 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>후속 머리글 및 열 </p> </td> 
@@ -113,9 +113,9 @@ CSV 파일은 다음 형식을 따라야 합니다.
    <td colname="col1"> <p>FTP 지침 및 크기 제한 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E157EE6F98914EADA0C103D1D1E705D3"> 
-      <li id="li_84FBD455DD164A28AC16F4A5AB19E4B3">FTP의 최대 파일 크기 제한은 업로드당 4 GB 입니다. </li> 
-      <li>업로드당 10 MB의 최소 파일 크기 제한입니다. </li>
-      <li>30 분마다 한 파일을 업로드할 수 있습니다. </li>
+      <li id="li_84FBD455DD164A28AC16F4A5AB19E4B3">FTP의 최대 파일 크기 제한은 업로드당 4GB입니다. </li> 
+      <li>최소 파일 크기 제한은 업로드당 10mb입니다. </li>
+      <li>30분마다 1개 파일을 업로드할 수 있습니다. </li>
       <li id="li_B69A20C51D824727AA99C1F6F78537A4"> FTP 사이트의 루트 폴더에 <span class="filepath">.csv</span>(및 <span class="filepath">.fin</span>) 파일을 추가해야 합니다. </li> 
      </ul> </p> <p> <p>중요: FTP 계정에 대해 허용되는 총 공간은 40GB입니다. 처리된 파일을 삭제하는 것은 사용자의 책임입니다. </p> </p> </td> 
   </tr> 
@@ -125,7 +125,7 @@ CSV 파일은 다음 형식을 따라야 합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>여러 파일 </p> </td> 
-   <td colname="col2"> <p>고객 속성 데이터를 업로드할 때, 빠르게 연속해서 업로드할 파일이 여러 개 있고 특히 파일이 큰 경우 다음 파일을 업로드하기 전에 이전 파일이 처리되었는지 확인하십시오. 이전 파일이 고객 속성 FTP 계정에서 처리 또는 실패한 폴더로 이동되었는지 여부를 확인하여 이를 모니터링할 수 있습니다. </p> <p> 큰 파일을 작은 파일로 분할하여 빠르게 연속하면 다음 제출 전에 각 파일이 완전히 처리되도록 할 수 없는 경우 처리가 느려질 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>고객 속성 데이터를 업로드할 때, 빠르게 연속해서 업로드할 파일이 여러 개 있으며 특히 파일이 큰 경우 다음 파일을 업로드하기 전에 이전 파일이 처리되었는지 확인하십시오. 이전 파일이 고객 속성 FTP 계정에서 처리 또는 실패한 폴더로 이동되었는지 여부를 확인하여 이를 모니터링할 수 있습니다. </p> <p> 큰 파일을 작은 파일로 분할하여 빠르게 연속하여 제출하는 경우, 다음 파일을 제출하기 전에 각 파일이 완전히 처리되지 않는 한 실제 처리 속도가 느려질 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>문자 인코딩 </p> </td> 
@@ -143,13 +143,13 @@ CSV 파일은 다음 형식을 따라야 합니다.
 </table>
 
 
-## 다양한 데이터 소스 활용 {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
+## 여러 데이터 소스 활용 {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
 고객 속성 소스를 만들거나, 수정하거나 삭제할 때, ID가 새 데이터 소스와의 동기화를 시작하기 전에 약 한 시간의 지연이 있습니다.
 
 각 고객 속성 소스에 대한 별칭 ID는 고유해야 합니다. 동일한 ID를 활용하는 데이터 소스가 여러 개 있는 경우, 다음과 같이 설정해야 합니다.
 
-**다이내믹 태그 관리의 VisitorAPI.js 또는 Experience Cloud ID 도구에서 다음을 수행합니다.**
+**Dynamic Tag Management의 VisitorAPI.js 또는 Experience Cloud ID 도구에서 다음을 수행합니다.**
 
 적절한 데이터 소스에 해당하는 두 개의 고객 ID를 설정하십시오.
 
@@ -160,8 +160,8 @@ Visitor.setCustomerIDs({
 });
 ```
 
-(자세한 내용은 [고객 ID 및 인증 상태](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids)를 참조하십시오.)
+(자세한 내용은 [고객 ID 및 인증 상태](https://marketing.adobe.com/resources/help/ko_KR/mcvid/?f=mcvid_customer_ids)를 참조하십시오)
 
-**[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL People]** &gt; **[!UICONTROL 고객 속성에서]** 다음을 수행합니다.
+**[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 사람][!UICONTROL &gt;****고객 속성]** 에서 다음을 수행합니다.
 
 위의 고객 ID에 해당하는 고유한 별칭 ID를 사용하여 두 개의 고객 속성 소스를 만듭니다. 이 방법을 사용하면 동일한 참조 ID를 여러 고객 속성 소스로 보낼 수 있습니다
