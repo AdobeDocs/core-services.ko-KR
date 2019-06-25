@@ -5,8 +5,8 @@ seo-description: Experience Cloud의 새로운 기능 및 업데이트에 대한
 seo-title: Experience Cloud의 새로운 기능
 solution: Experience Cloud
 title: Experience Cloud의 새로운 기능
-uuid: bc 1 b 1542-1 a 37-4 da 1-bcfd-fc 86 af 881642
-translation-type: tm+mt
+uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -18,23 +18,23 @@ Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 
 ## 2018년 8월 {#section_7388CDAB723B49809AABEFEE85CF6378}
 
-2018 년 8 월 수정 사항 및 개선 사항.
+2018년 8월, 수정 사항 및 개선 사항.
 
 * Creative Cloud와 Experience Cloud 간 자산 주석 동기화를 개선했습니다. (CORE-15971)
-* Experience Cloud-Creative Cloud 자산 동기화를 제어하는 기능 플래그가 추가되었습니다. (CORE-15938)
+* Experience Cloud-Creative Cloud 자산 동기화를 제어하는 기능 플래그를 추가했습니다. (CORE-15938)
 * 향상된 검색 및 목록 생성 환경을 포함하여 대상 세그먼트 생성을 개선했습니다. (CORE-5833, CORE-14278)
-* MAC에서 Creative Cloud 로의 폴더 공유를 차단한 우선순위가 높은 문제가 해결되었습니다. (CORE-16677)
+* MAC에서 Creative Cloud로의 폴더 공유를 차단한 우선순위가 높은 문제를 해결했습니다. (CORE-16677)
 
 ## 2018년 7월 19일 {#section_EBB549EBABB7480884A180237ADCCD02}
 
-2018 년 7 월 수정 사항 및 개선 사항.
+2018년 7월, 수정 사항 및 개선 사항.
 
 * Marketing Cloud와 AEM 및 Marketing Cloud와 Creative Cloud 간의 자산 공유를 제어하기 위해 백엔드 기능을 배포했습니다. (CORE-14386)
 * 일부 환경에서 새 임차인 제공이 차단되는 문제를 해결했습니다. (CORE-15509)
 * [!DNL marketing.adobe.com] (안전함) 대신 [!DNL experiencecloud.adobe.com]를 통해 [!DNL http]에 액세스할 때 사용자가 [!DNL https]으로 리디렉션되는 문제를 해결했습니다. (CORE-15587)
 * 일부 새로운 임차인에 대한 알림이 차단되는 문제를 해결했습니다. (CORE-15240)
 
-## 2018 년 6 월 14 일 {#section_7ABC327992CB46B0B8E4A631B8B68899}
+## 2018년 6월 14일 {#section_7ABC327992CB46B0B8E4A631B8B68899}
 
 2018년 6월, 수정 사항 및 개선 사항입니다.
 
@@ -49,13 +49,13 @@ Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 
 | 기능 | 설명 |
 |--- |--- |
-| 새 관리 랜딩 페이지 | Experience Cloud에 로그인하여 [관리] 페이지로 이동하면 새로운 직관적인 인터페이스를 사용하여 Experience Cloud 솔루션 및 핵심 서비스에 빠르게 액세스할 수 있습니다. |
+| 새 관리 랜딩 페이지 | Experience Cloud에 로그인하여 관리 페이지로 이동하면 새로운 직관적인 인터페이스를 사용하여 Experience Cloud 솔루션 및 핵심 서비스에 빠르게 액세스할 수 있습니다. |
 **수정 사항**
 
 * Scene7 업데이트로 인해 이미지 업로드가 실패하던 문제를 해결했습니다. (CORE-12746)
 * 보안 취약성을 제거하기 위해 PCI에서 지정한 대로 TLS 1.0 프로토콜에 대한 지원을 중단하도록 업데이트했습니다. (CORE-7695)
 
-## 2017 년 10 월 26 일 {#section_11195859B4094177A939C0561428B525}
+## 2017년 10월 26일 {#section_11195859B4094177A939C0561428B525}
 
 **알려진 문제**
 
@@ -67,16 +67,16 @@ Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 |--- |--- |
 | 알림 - 세부 설정 | [사용자 특성](../attributes/attributes.md) 업로드 활동에 대한 알림을 포함하여 제품 및 솔루션 이벤트 및 활동에 대한 알림을 활성화할 수 있습니다. |
 | 알림 - 유지 관리 알림 | 알림 설정에서 제품 및 솔루션에 대한 유지 관리 알림을 활성화할 수 있습니다. |
-| Experience Cloud 솔루션에 대한 Admin Console | 새 Experience Cloud 고객은 전체 조직에서 Adobe 자격을 관리할 중앙 위치인 Admin Console을 사용할 수 있습니다.<br>사용자 관리를 위한 Admin Console로의 마이그레이션은 지속적으로 진행됩니다. Adobe는 마이그레이션할 때가 되면 시스템 관리자에게 연락합니다.<br>Analytics 관리자는 [Analytics 마이그레이션](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)을 참조하십시오. |
+| Experience Cloud 솔루션에 대한 Admin Console | 새 Experience Cloud 고객은 전체 조직에서 Adobe 자격을 관리할 중앙 위치인 Admin Console을 사용할 수 있습니다.<br>사용자 관리를 위한 Admin Console로의 마이그레이션은 지속적으로 진행됩니다. Adobe는 마이그레이션할 때가 되면 시스템 관리자에게 연락합니다.<br>Analytics 관리자는 [Analytics 마이그레이션](https://marketing.adobe.com/resources/help/ko_KR/experience-cloud/admin-console/analytics-migration/)을 참조하십시오. |
 
-## 2017 년 5 월 22 일 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
+## 2017년 5월 22일 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
 | 기능 | 설명 |
 |--- |--- |
 | 벌크 보고서 세트 매핑 | 이제 관리 &gt; 보고서 세트 매핑에서 여러 보고서 세트를 선택한 다음 조직에 매핑할 수 있습니다 (이전에는 보고서를 개별적으로 매핑해야 했음).  <br>[보고서 세트를 단일 조직에 매핑하면 Experience Cloud에서 교차 솔루션 기능과 서비스를 사용할 수 있습니다.](../core-services/core-services.md) |
-| Experience Cloud 대상 업데이트 | **보고서 세트**<br>적용이제 [모든 대상 규칙에 보고서 세트를 적용할](../audience-library/t-audience-create.md)수 있습니다. (이전에는 각 규칙 정의에 보고서 세트를 지정해야 했음.) <br>**Prop 및 변수이제**<br>실시간 대상에 Analytics Prop 및 기본 변수 (evar 및 이벤트 포함) 를 포함할 수 있습니다. |
+| Experience Cloud 대상 업데이트 | **보고서 세트 적용**<br>이제 모든 [대상 규칙](../audience-library/t-audience-create.md)에 보고서 세트를 적용할 수 있습니다. (이전에는 각 규칙 정의에 보고서 세트를 지정해야 했음.) <br>**Prop 및 변수**<br>이제 실시간 대상에 Analytics Prop 및 기본 변수(eVars 및 이벤트 포함)를 포함할 수 있습니다. |
 
-## 2016 년 11 월 8 일 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
+## 2016년 11월 8일 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
 | 기능 | 설명 |
 |--- |--- |
