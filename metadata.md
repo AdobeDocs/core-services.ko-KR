@@ -2,14 +2,14 @@
 cloud: experience-cloud
 product: 핵심 서비스
 solution-title: 핵심 서비스
-solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
-solution-icon: help/interface/assets/experience-cloud-logo -24. png
+solution-hub-url: https://helpx.adobe.com/kr/support/experience-cloud/core-services.html
+solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: 시작하기
-getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/kr/experience-cloud-core-services/get-started.html
 tutorials-title: 자습서
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 git-repo: https://github.com/AdobeDocs/core-services.en
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6537c8eaf9720819e4a1ccd1dc0ff708d4374bed
 
 ---
