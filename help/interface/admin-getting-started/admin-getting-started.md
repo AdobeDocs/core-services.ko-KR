@@ -44,7 +44,7 @@ Adobe Experience Cloud 사용자 관리의 최신 기능에 대해 알아보십�
 
 **Admin Console에 로그인하려면**
 
-1. [https://adminconsole.adobe.com/enterprise/]()로 이동합니다.
+1. [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#)로 이동합니다.
 1. [Adobe ID 또는 Enterprise ID](https://helpx.adobe.com/kr/enterprise/help/identity.html) 및 암호를 입력합니다.
 
 
