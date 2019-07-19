@@ -3,8 +3,8 @@ audience: 최종 사용자
 user-guide-title: 핵심 서비스 사용 안내서
 user-guide-url: https://www.adobe.com/kr/
 index: true
-translation-type: ht
-source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
+translation-type: tm+mt
+source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
 
 ---
 
@@ -27,8 +27,8 @@ source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
    + [컨텐츠 포함](admin-getting-started/oembed.md)
 + 활성화 {#activation}
    + [활성화 개요](activation/activation.md)
-   + [Launch 사용 안내서](https://marketing.adobe.com/resources/help/ko_KR/experience-cloud/launch/)
-   + [DTM 사용 안내서](https://marketing.adobe.com/resources/help/ko_KR/dtm/)
+   + [실행 안내서](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [DTM 사용 안내서](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + 자산 {#assets}
    + [자산 개요](experience-cloud-assets/experience-cloud-assets.md)
@@ -59,7 +59,7 @@ source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
    + [누적 릴리스 노트](marketing-cloud-interface/release-notes.md)
 + [Exchange 마켓플레이스](exchange.md)
 + [피드](feed.md)
-+ [모바일 서비스](https://marketing.adobe.com/resources/help/ko_KR/mobile/)
++ [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 + 추가 리소스 {#more-resources}
    + [포럼](https://forums.adobe.com/community/experience-cloud)
    + [용어](terms.md)
