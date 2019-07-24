@@ -3,7 +3,7 @@ audience: 최종 사용자
 user-guide-title: 핵심 서비스 사용 안내서
 user-guide-url: https://www.adobe.com/kr/
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
    + [컨텐츠 포함](admin-getting-started/oembed.md)
 + 활성화 {#activation}
    + [활성화 개요](activation/activation.md)
-   + [실행 안내서](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [Launch 사용 안내서](https://docs.adobe.com/content/help/en/launch/using/overview.html)
    + [DTM 사용 안내서](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + 자산 {#assets}
