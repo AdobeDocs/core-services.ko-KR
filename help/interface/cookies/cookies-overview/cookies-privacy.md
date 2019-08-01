@@ -1,0 +1,37 @@
+---
+description: 'Adobe는 고객 개인 정보 및 데이터 보안을 유지하는 것을 매우 중요하게 생각합니다. Adobe는 여러 개인 정보 기관에 참여하고 있으며 개인 정보 규제 기관 및 자율 규제 정책(예: Digital Advertising Alliance AdChoices 프로그램)과 협력하여 고객에게 고객 정보 사용 방식과 관련한 정보와 사용 선택권을 제공합니다.'
+keywords: 쿠키; 개인 정보 보호
+seo-description: 'Adobe는 고객 개인 정보 및 데이터 보안을 유지하는 것을 매우 중요하게 생각합니다. Adobe는 여러 개인 정보 기관에 참여하고 있으며 개인 정보 규제 기관 및 자율 규제 정책(예: Digital Advertising Alliance AdChoices 프로그램)과 협력하여 고객에게 고객 정보 사용 방식과 관련한 정보와 사용 선택권을 제공합니다.'
+seo-title: 쿠키 및 개인 정보에 대한 정보
+solution: Marketing Cloud, Analytics, Target, Social
+title: 쿠키 및 개인 정보에 대한 정보
+uuid: 7 FB 36845-6282-438 A-BBC 6-0 C 3 CF 95 DE 1 C 9
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
+
+---
+
+
+# 쿠키 및 개인 정보에 대한 정보{#about-cookies-and-privacy}
+
+Adobe는 고객 개인 정보 및 데이터 보안을 유지하는 것을 매우 중요하게 생각합니다. Adobe는 여러 개인 정보 기관에 참여하고 있으며 개인 정보 규제 기관 및 자율 규제 정책(예: Digital Advertising Alliance AdChoices 프로그램)과 협력하여 고객에게 고객 정보 사용 방식과 관련한 정보와 사용 선택권을 제공합니다.
+
+Experience Cloud 제품에서 설정하는 대부분의 쿠키는 개인 식별이 가능한 정보를 포함하지 않습니다. 이러한 쿠키 및 관련 데이터는 안전하며 귀사의 보고서 및 관련 컨텐트와 광고를 제공하는 데만 사용됩니다. 데이터는 업계 집계 보고서에 사용되는 경우를 제외하고 타사나 다른 Adobe 고객에게 제공되지 않습니다. For example, the [!DNL Digital Marketing Insight Report] analyzes aggregated and anonymous data across retailers.
+
+Adobe는 회사 간 브라우저 수준의 정보를 병합하지 않습니다. 고객 데이터의 개인 정보 보호 및 보안을 위해 Experience Cloud의 일부 서비스는 추적된 사이트별로 별도의 쿠키 세트를 사용할 수 있는 기능을 제공합니다. 일부 Suite 서비스는 고객의 자체 도메인 이름을 쿠키 소유자로 사용할 수 있는 기능도 제공합니다. 이를 통해 Experience Cloud 쿠키를 *퍼스트 파티 쿠키*&#x200B;로 만들어 회사 사이트에 영구적으로 속하도록 함으로써 개인 정보 및 보안에 추가 레이어를 생성합니다.
+
+쿠키는 쿠키에 이전에 보관된 정보만 저장하고 제공할 수 있으며 코드를 실행하거나 컴퓨터에 저장된 다른 정보에 액세스할 수 없습니다. 또한, 웹 브라우저는 쿠키 데이터에 대한 액세스를 제한합니다. 브라우저는 모든 쿠키 데이터를 원래 정보를 설정한 웹사이트에서만 사용할 수 있도록 하는 쿠키 보안 정책을 적용합니다.
+
+예를 들면 Adobe.com 웹사이트의 쿠키 세트에 포함된 데이터는 Adobe.com을 제외한 다른 웹사이트에서 볼 수 없습니다.
+
+다음 다이어그램은 표준 이미지 요청에 대한 쿠키 사용을 보여줍니다.
+
+![](assets/CookiesProcessGraphic-01.png)
+
+다음 다이어그램은 직접 이미지 요청에 대한 쿠키 사용을 보여줍니다(JS 파일이 로딩되지 않은 시나리오에 사용).
+
+![](assets/CookiesProcessGraphic2.png)
+
