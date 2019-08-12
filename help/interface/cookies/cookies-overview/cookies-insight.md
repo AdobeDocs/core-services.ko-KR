@@ -1,15 +1,15 @@
 ---
 description: Data Workbench는 쿠키를 사용하여 대용량의 빠르게 변화하는 데이터를 실시간으로 분석합니다.
-keywords: 쿠키; 개인 정보 보호
+keywords: cookies;privacy
 seo-description: Data Workbench는 쿠키를 사용하여 대용량의 빠르게 변화하는 데이터를 실시간으로 분석합니다.
 seo-title: Data Workbench 쿠키
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Data Workbench 쿠키
-uuid: C 15013 F 4-C 47 D -4950-AA 19-BE 9 AFD 25 CD 5 F
+uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
