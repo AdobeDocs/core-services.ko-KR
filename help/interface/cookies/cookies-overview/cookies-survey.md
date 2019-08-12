@@ -1,15 +1,15 @@
 ---
 description: Survey는 쿠키를 사용하여 서로 다른 브라우저의 요청을 구분하고 고객 감정을 더 잘 이해하는 데 사용되는 유용한 정보를 저장합니다.
-keywords: 쿠키; 개인 정보 보호
+keywords: cookies;privacy
 seo-description: Survey는 쿠키를 사용하여 서로 다른 브라우저의 요청을 구분하고 고객 감정을 더 잘 이해하는 데 사용되는 유용한 정보를 저장합니다.
 seo-title: Survey 쿠키
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Survey 쿠키
-uuid: E 57 D 9 B 58-3 C 62-463 A-AD 52-E 2 A 0 DE 2 E 1 EE 1
+uuid: e57d9b58-3c62-463a-ad52-e2a0de2e1ee1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -88,5 +88,5 @@ Survey는 쿠키를 사용하여 서로 다른 브라우저의 요청을 구분�
 
 >[!NOTE]
 >
->s_ sv_ s 1 또는 s_ sv_ p 1에 저장될 정보가 너무 큰 경우, 필요에 따라 s_ sv_ s 2, s_ sv_ s 3 등의 쿠키나 s_ sv_ s 2, s_ sv_ p 3 등으로 분할되어 저장됩니다.
+>s_sv_s1 또는 s_sv_p1에 저장될 정보가 너무 큰 경우 필요에 따라 분산되어 추가 쿠키에 저장되며, s_sv_s2, s_sv_s3 등으로 또는 s_sv_p2, s_sv_p3 등으로 이름이 지정됩니다.
 
