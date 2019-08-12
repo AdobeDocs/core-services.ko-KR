@@ -1,15 +1,15 @@
 ---
 description: Scene7은 쿠키를 사용하여 브라우저에 동적 미디어 제공 시 사용할 수 있는 유용한 정보를 저장합니다.
-keywords: 쿠키; 개인 정보 보호
+keywords: cookies;privacy
 seo-description: Scene7은 쿠키를 사용하여 브라우저에 동적 미디어 제공 시 사용할 수 있는 유용한 정보를 저장합니다.
 seo-title: Scene7 쿠키
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Scene7 쿠키
-uuid: F 9 B 9 D 13 A -17 E 5-4139-8 C 84-6 FE 5 D 22 C 4196
+uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -34,8 +34,8 @@ AS2 Flash eCatalog 뷰어의 경우, 쿠키:
 최신 AS3 뷰어는 세션 지속성을 구현하지 않습니다.
 
 * [쿠키 이름: VatLogin.jsp](../cookies-overview/cookies-s7.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
-* [쿠키 이름: s 7 js. flyout. infomessage. displayed. state](../cookies-overview/cookies-s7.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
-* [쿠키 이름: s 7 js. flyout. infomessage. displayed_ idx. ant](../cookies-overview/cookies-s7.md#section-05d1c52c478541609f4a18a9c1eb032f)
+* [쿠키 이름: s7js.flyout.InfoMessage.displayed.state](../cookies-overview/cookies-s7.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
+* [쿠키 이름: s7js.flyout.InfoMessage.displayed_idx.ant](../cookies-overview/cookies-s7.md#section-05d1c52c478541609f4a18a9c1eb032f)
 
 ## 쿠키 이름: VatLogin.jsp {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
@@ -44,7 +44,7 @@ AS2 Flash eCatalog 뷰어의 경우, 쿠키:
 | 저장되는 정보 | 세션 쿠키를 설정합니다. IPS ImageServer(IS, IR 및 SWFs/skins와 동영상 컨텍스트)에 삽입된 AuthFilter는 쿠키를 사용해 액세스를 승인합니다. 이 쿠키가 있는 경우, HTTP 요청이 통과하도록 허용합니다. 그렇지 않으면 권한이 없다는 메시지를 표시합니다. |
 | 만료 | 이 쿠키는 세션 쿠키입니다. 현재 세션 만료는 Scene7 IPS [!DNL web.xml]에 45분으로 설정되어 있습니다. |
 
-## 쿠키 이름: s 7 js. flyout. infomessage. displayed<assetId>.state {#section-14ad50dfcd7342f9ac80283b1f0d3400}
+## 쿠키 이름: s7js.flyout.InfoMessage.displayed<assetId>.state {#section-14ad50dfcd7342f9ac80283b1f0d3400}
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
@@ -65,7 +65,7 @@ AS2 Flash eCatalog 뷰어의 경우, 쿠키:
  </tbody> 
 </table>
 
-## 쿠키 이름: s 7 js. flyout. infomessage. displayed<assetId>_ idx<id>.ant {#section-05d1c52c478541609f4a18a9c1eb032f}
+## 쿠키 이름: s7js.flyout.InfoMessage.displayed<assetId>_idx<id>.ant {#section-05d1c52c478541609f4a18a9c1eb032f}
 
 기존 DHTML 뷰어에서 상태 정보와 스티커 노트 데이터를 저장하기 위해 브라우저 쿠키를 사용합니다. 또한, 멀티스크린 DHTML 플라이아웃에서 메시지 표시기를 세션별로 만들도록 하기 위해 사용합니다.
 
