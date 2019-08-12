@@ -1,15 +1,15 @@
 ---
 description: 데스크톱 및 모바일 브라우저에서 모든 쿠키를 차단한 사용자를 삭제하십시오.
-keywords: 쿠키; 개인 정보 보호
+keywords: cookies;privacy
 seo-description: 데스크톱 및 모바일 브라우저에서 모든 쿠키를 차단한 사용자를 삭제하십시오.
 seo-title: 브라우저 쿠키에 대한 개인 정보 설정 활성화
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: 브라우저 쿠키에 대한 개인 정보 설정 활성화
-uuid: f 6 a 56 e 8 b-b 021-49 db -8 eb 4-6 c 14 af 0 c 7243
+uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -21,15 +21,15 @@ source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 이 설정을 사용하면 브라우저 쿠키 설정에서 모든 쿠키를 차단하는 경우 Analytics의 처리를 중지하려는 사용자의 의도를 존중할 수 있습니다.
 
-1. **[!UICONTROL 관리 도구]** &gt; **[!UICONTROL 보고서 세트로 이동합니다]**.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Privacy Settings]**.
-1. **[!UICONTROL 개인 정보 설정]** (데스크탑 또는 모바일) 를 활성화합니다.
+1. **[!UICONTROL 관리 도구]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;로 이동합니다.
+1. **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 일반]** &gt; **[!UICONTROL 개인 정보 설정]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 개인 정보 설정]**&#x200B;을 활성화합니다(데스크톱 또는 모바일의 경우).
 
    이 기능을 활성화하면 사용자가 브라우저에서 모든 쿠키를 차단하도록 설정한 데스크톱 브라우저에서 수집된 데이터는 Analytics 보고서에서 제외됩니다. Adobe에서 브라우저를 인식하지 못할 경우에는 데이터가 Analytics 보고서에 포함됩니다.
 
 >[!IMPORTANT]
 >
->많은 모바일 앱 (예: Facebook 또는 Twitter 용 앱 브라우저) 는 표준 모바일 브라우저로 표시되지만 모든 쿠키를 허용하지 않을 수 있습니다. 이 기능을 활성화하면 모바일 트래픽 중 많은 양이 Analytics 보고서에서 제외될 수 있습니다.
+>많은 모바일 앱(예: Facebook 또는 Twitter 인앱 브라우저)은 표준 모바일 브라우저로 표시될 수 있지만 모든 쿠키를 허용하지는 않습니다. 이 기능을 활성화하면 모바일 트래픽 중 많은 양이 Analytics 보고서에서 제외될 수 있습니다.
 
 **브라우저 개인 정보 설정에 대하여**
 
