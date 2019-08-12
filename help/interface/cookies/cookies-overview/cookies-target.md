@@ -1,15 +1,15 @@
 ---
 description: Target은 쿠키를 사용하여 웹사이트 운영자가 어떤 온라인 콘텐츠 및 오퍼가 방문자와 관련이 있는지 테스트할 수 있도록 합니다.
-keywords: 쿠키; 개인 정보 보호
+keywords: cookies;privacy
 seo-description: Target은 쿠키를 사용하여 웹사이트 운영자가 어떤 온라인 콘텐츠 및 오퍼가 방문자와 관련이 있는지 테스트할 수 있도록 합니다.
 seo-title: Target 쿠키
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Target 쿠키
-uuid: 44 F 7 E 32 E -8 D 99-4682-8 B 54-8364 D 001 B 403
+uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -23,7 +23,7 @@ Target은 쿠키를 사용하여 웹사이트 운영자가 어떤 온라인 콘�
 
 >[!NOTE]
 >
->Target 사용자는 사용자 지정된 타사 쿠키를 만들 수도 있습니다.
+>Target 사용자는 사용자 지정 타사 쿠키를 생성할 수도 있습니다.
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
@@ -54,7 +54,7 @@ Target은 쿠키를 사용하여 웹사이트 운영자가 어떤 온라인 콘�
 
 >[!NOTE]
 >
->If any of your domain names include a country code, such as [!DNL mycompany.co.uk], work with your Client Services to configure your [!DNL mbox.js] to support this.
+>도메인 이름에 [!DNL mycompany.co.uk]와 같은 국가 코드가 포함되어 있는 경우 클라이언트 서비스와 작업하여 이 코드를 지원하도록 [!DNL mbox.js]를 구성하십시오.
 
 쿠키는 방문자가 Target 캠페인을 경험하는 방식을 관리하기 위해 많은 값을 유지합니다.
 
