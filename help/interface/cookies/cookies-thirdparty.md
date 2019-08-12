@@ -1,15 +1,15 @@
 ---
 description: 타사 쿠키에 대한 지원이 브라우저 간에 점점 더 많이 제한됨에 따라 Adobe는 고객 요구 사항과 Adobe Experience Cloud 솔루션 전반에 걸친 소비자의 개인 정보 보호 권리 간에 신중하게 균형을 잡는 새로운 솔루션을 개발해왔습니다.
-keywords: 쿠키; 개인 정보 보호
+keywords: cookies;privacy
 seo-description: 타사 쿠키에 대한 지원이 브라우저 간에 점점 더 많이 제한됨에 따라 Adobe는 고객 요구 사항과 Adobe Experience Cloud 솔루션 전반에 걸친 소비자의 개인 정보 보호 권리 간에 신중하게 균형을 잡는 새로운 솔루션을 개발해왔습니다.
 seo-title: 타사 쿠키 지원 변경으로 인한 고객 영향
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: 타사 쿠키 지원 변경으로 인한 고객 영향
-uuid: 27332 E 0 D -6932-4 A 6 E-B 97 B -0 Adeced 0 B 050
+uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -28,7 +28,7 @@ Test
 -->
 
 * 퍼스트 파티 구현을 사용하는 고객은 크게 영향을 받지 않습니다.
-* 퍼스트 파티 구현을 사용하지 않는 고객은 [방문자 ID 서비스](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service)를 구현하여 퍼스트 파티 구현 없이 ID 쿠키를 퍼스트 파티 쿠키로 저장할 수 있습니다.
+* 자사 구현을 사용하지 않는 고객은 [방문자 ID 서비스](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/?f=visid_service)를 구현하여 자사 구현 없이 ID 쿠키를 자사 쿠키로 저장할 수 있습니다.
 
 **Adobe Experience Manager**
 
