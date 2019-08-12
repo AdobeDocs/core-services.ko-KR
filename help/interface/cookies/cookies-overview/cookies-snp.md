@@ -1,15 +1,15 @@
 ---
 description: Search&Promote는 쿠키를 사용하여 방문자 검색 의도를 이해하고 예측합니다.
-keywords: 쿠키; 개인 정보 보호
+keywords: cookies;privacy
 seo-description: Search&Promote는 쿠키를 사용하여 방문자 검색 의도를 이해하고 예측합니다.
 seo-title: Search&Promote 쿠키
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Search&Promote 쿠키
-uuid: 65 bf 24 e 0-0564-4 dc 2-b 652-9 fd 9 db 57 d 23 f
+uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
