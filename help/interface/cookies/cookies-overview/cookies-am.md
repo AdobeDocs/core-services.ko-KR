@@ -3,13 +3,13 @@ description: Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다
 keywords: cookies
 seo-description: Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능을 수행합니다. 이러한 기능에는 ID 할당, 데이터 호출 기록, 오류 추적 및 쿠키 설정 여부 테스트 등이 포함됩니다. 이 섹션에서는 Audience Manager에서 설정한 다양한 쿠키를 나열하고 설명합니다.
 seo-title: Audience Manager 쿠키
-solution: Marketing Cloud, Audience Manager
+solution: Marketing Cloud,Audience Manager
 title: Audience Manager 쿠키
-uuid: 8 b 384 c 38-b 85 a -4 e 93-b 00 e -41 a 9 d 3 ae 2 b 21
+uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -75,7 +75,7 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
    <td colname="col1"> <p> <b>컨텐츠</b> </p> </td> 
    <td colname="col2"> <p><span class="wintitle">dextp</span> 쿠키에는 데이터 공급자 이름 또는 ID와,파이프로 구분된 문자열 형식의 UNIX UTC 타임스탬프가 들어 있습니다 예에서 <i>기울임꼴</i>은 가변 자리 표시자를 나타냅니다. </p> <p> 
      <ul id="ul_80D0BC3FCF06470991E12712401D784A"> 
-      <li id="li_03747A433CEB4756A26CD866E716B89D">이전 스타일: <span class="codeph"> <span class="varname"> 데이터 공급자 이름 </span>- 1490307822097| <span class="varname"> 데이터 공급자 이름 </span>- 1490307822038 </span> </li> 
+      <li id="li_03747A433CEB4756A26CD866E716B89D">이전 스타일: <span class="codeph"> <span class="varname"> 데이터 공급자 이름 </span>-1490307822097| <span class="varname"> 데이터 공급자 이름 </span>-1490307822038 </span> </li> 
       <li id="li_79E7000E82DB4ADA9E9887B017343B2D">새 스타일: <span class="codeph">21-1-1490307821616|544-1-1490307821793|3-1-1490307821852|420-1-1490307822038| </span> </li> 
      </ul> </p> <p>아래의 dextp 데이터 구문 섹션을 참조하십시오. </p> </td> 
   </tr> 
@@ -107,11 +107,11 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
    <td colname="col2"> <p>데이터 공급자 이름 또는 ID의 위치는, 쿠키가 새로운 스타일의 서식과 이전 스타일의 서식 중 어느 것을 사용하는지에 따라 다릅니다. </p> <p> <b>이전 스타일 서식:</b> </p> <p> 
      <ul id="ul_5BFBF40E3FE849CA859030F2D070FDF6"> 
       <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">구문: <span class="codeph"> <span class="varname"> 데이터 공급자 이름 </span> - <span class="varname"> UNIX UTC 타임스탬프 </span></span> </li> 
-      <li id="li_7CD8B101156140F49EA97B18E9591402">Example: <span class="codeph"> dataProvider1 - 1490307822038 </span> </li> 
+      <li id="li_7CD8B101156140F49EA97B18E9591402">예: <span class="codeph"> dataProvider1 - 1490307822038 </span> </li> 
      </ul> </p> <p>이전 스타일의 쿠키는 읽을 수 있는 이름으로 데이터 공급자를 식별합니다. </p> <p> <b>새 스타일 서식:</b> </p> <p> 
      <ul id="ul_AC6225CA781746148C125F21DFED1ED9"> 
-      <li id="li_29C4B52E398B4EA28944980A15B05A57">구문: <span class="codeph"> <span class="varname"> 데이터 공급자 ID </span> - 1|2 - <span class="varname"> UNIX UTC 타임스탬프 </span></span> </li> 
-      <li id="li_3BF30CA5FED242DF96E0B54AFC64B06F">Example: <span class="codeph"> 123345 - 1 - 1490307822038 </span> </li> 
+      <li id="li_29C4B52E398B4EA28944980A15B05A57">구문: <span class="codeph"> <span class="varname"> 데이터 공급자 ID </span> - 1|2 - <span class="varname"> UNIX UTC 타임스탬프 </span> </span> </li> 
+      <li id="li_3BF30CA5FED242DF96E0B54AFC64B06F">예: <span class="codeph"> 123345 - 1 - 1490307822038 </span> </li> 
      </ul> </p> <p>새 스타일 쿠키: </p> <p> 
      <ul id="ul_F05A91A455FA44C7A71186C0C9E31630"> 
       <li id="li_A8C9638173684359BABC4207845A4F48">읽을 수 있는 데이터 공급자 이름을 숫자 ID로 바꿉니다. </li> 
@@ -143,7 +143,7 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
    <td colname="col1"> <p> <b>컨텐츠</b> </p> </td> 
    <td colname="col2"> <p> <span class="wintitle">DST</span> 쿠기에는 파이프로 구분된 문자열 형식의 대상 ID 및 UNIX 타임스탬프 세트가 들어 있습니다. 예에서 <i>기울임꼴</i>은 가변 자리 표시자를 나타냅니다. </p> <p> 
      <ul id="ul_CE98076A02DA413486C1D341E9806889"> 
-      <li id="li_850209D956644749B98C7A208C825C15">Syntax: <span class="codeph"> <span class="varname"> destination ID </span> - <span class="varname"> UNIX UTC timestamp </span> </span> </li> 
+      <li id="li_850209D956644749B98C7A208C825C15">구문: <span class="codeph"> <span class="varname"> 대상 ID </span> - <span class="varname"> UNIX UTC 타임스탬프 </span> </span> </li> 
       <li id="li_4A22152C70844733982230EBF7B9EB78">예: <span class="codeph">067797-1490349684|1010788-1490349692|1067797-1490349692 </span> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -160,12 +160,12 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
 
 ## _dp 쿠키 {#section-0d1fea09c83249dfa944cc028a8ef840}
 
-임시 쿠키입니다. [!DNL Audience Manager][!DNL _dp] 쿠키를 설정하여 타사 컨텍스트에서 demdex. net 도메인의 다른 쿠키를 설정할 수 있는지 여부를 결정합니다. When [!DNL _dp] is set it contains a value of 1. [!DNL Audience Manager] 이 값을 읽고 즉시 쿠키를 제거합니다. [!DNL _dp] 쿠키가 없으면 쿠키를 설정할 수 없음을 [!DNL Audience Manager] 알고 있어야 합니다.
+임시 쿠키입니다. [!DNL Audience Manager]는 [!DNL _dp] 쿠키를 설정하여 타사 컨텍스트에서 demdex.net 도메인의 다른 쿠키를 설정할 수 있는지 확인합니다. [!DNL _dp]이(가) 설정되면 값 1이 포함됩니다. [!DNL Audience Manager]는 이 값을 읽고 즉시 쿠키를 제거합니다. [!DNL _dp] 쿠키가 없으면 [!DNL Audience Manager]는 쿠키를 설정할 수 없다는 것을 알게 됩니다.
 
 >[!MORE_LIKE_THIS]
 >
 >* [Demdex 도메인에 대한 호출 이해](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html)
->* [Adobe 개인 정보 보호 센터](http://www.adobe.com/privacy.html)
+>* [Adobe 개인정보 보호 센터](https://www.adobe.com/kr/privacy.html)
 >* [Audience Manager 데이터 보안 및 개인 정보 보호](https://marketing.adobe.com/resources/help/en_US/aam/c_data_security_and_privacy.html)
->* [Audience Manager 개인 정보 보호 및 데이터 보존 관련 FAQ](https://marketing.adobe.com/resources/help/en_US/aam/faq_privacy.html)
+>* [Audience Manager 개인 정보 보호 및 데이터 유지 FAQ](https://marketing.adobe.com/resources/help/en_US/aam/faq_privacy.html)
 
