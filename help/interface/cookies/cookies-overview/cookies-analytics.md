@@ -1,15 +1,15 @@
 ---
 description: Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청을 구분하고 응용 프로그램이 나중에 사용할 수 있도록 유용한 정보를 저장합니다. 또한 쿠키는 탐색 정보를 고객 기록과 연결하는 데 사용되기도 합니다.
-keywords: 쿠키; 개인 정보 보호
+keywords: cookies;privacy
 seo-description: Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청을 구분하고 응용 프로그램이 나중에 사용할 수 있도록 유용한 정보를 저장합니다. 또한 쿠키는 탐색 정보를 고객 기록과 연결하는 데 사용되기도 합니다.
 seo-title: Analytics 쿠키
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Analytics 쿠키
-uuid: E 2 D 3 D 61 D -2708-48 B 2-A 7 E 6-2331 F 2 AED 8 E 0
+uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -21,7 +21,7 @@ Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청�
 
 특히 Analytics는 쿠키를 사용하여 새 방문자를 익명으로 정의하고 클릭스트림 데이터를 분석하며 특정 캠페인이나 구매 주기 길이에 대한 응답 같은 웹 사이트의 활동 내역을 추적합니다.
 
-* [쿠키 이름: s_ ecid](../cookies-overview/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
+* [쿠키 이름: s_ecid](../cookies-overview/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [쿠키 이름: AMCV_###@AdobeOrg](../cookies-overview/cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
 * [쿠키 이름: s_cc](../cookies-overview/cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
 * [쿠키 이름: s_cc](../cookies-overview/cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
@@ -30,9 +30,9 @@ Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청�
 * [쿠키 이름: s_fid](../cookies-overview/cookies-analytics.md#section-65e33f9bfc264959ac1513e2f4b10ac7)
 * [플러그인에 의해 설정되는 쿠키](../cookies-overview/cookies-analytics.md#section-a6b1cae8454945fab9eea5c7884c40fc)
 
-[퍼스트 파티 쿠키](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html)에 대한 자세한 내용은 Analytics 도움말을 참조하십시오.
+자세한 내용은 [자사 쿠키](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html)에 대한 Analytics 도움말에서 찾아볼 수 있습니다.
 
-## Cookie Name: s_ecid {#section-32fd753c3fa54452acd62b021434919a}
+## 쿠키 이름: s_ecid {#section-32fd753c3fa54452acd62b021434919a}
 
 <table id="table_FF4C70D3D4CC425BA65162D5A9504F7D"> 
  <thead> 
@@ -44,7 +44,7 @@ Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>저장되는 정보 </p> </td> 
-   <td colname="col2"> <p> Experience Cloud ID (ECID) 또는 MID의 사본을 포함합니다. mid는 이 구문 s_ ecid = mcmid 다음에 오는 키-값 쌍에 저장됩니다. |&lt; ecid &gt; </p> </td> 
+   <td colname="col2"> <p> Experience Cloud ID(ECID) 또는 MID의 사본을 포함합니다. MID는 이 구문, s_ecid=MCMID|&lt;ECID&gt;를 따르는 키-값 쌍에 저장됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 만료 </p> </td> 
@@ -52,11 +52,11 @@ Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 사용 </p> </td> 
-   <td colname="col2"> <p>이 쿠키는 클라이언트가 AMCV 쿠키를 설정한 후에 고객의 도메인에 의해 설정됩니다. 이 쿠키의 목적은 1 ^ st ^ party 상태의 지속적인 ID 추적을 허용하는 것이며 AMCV 쿠키가 만료된 경우 참조 ID로 사용됩니다. 자세한 내용은 AMCV 쿠키를 확인하십시오. </p> </td> 
+   <td colname="col2"> <p>이 쿠키는 클라이언트가 AMCV 쿠키를 설정한 후에 고객의 도메인에 의해 설정됩니다. 이 쿠키의 목적은 자사 상태의 지속적인 ID 추적을 허용하는 것이며 AMCV 쿠키가 만료된 경우 참조 ID로 사용됩니다. 자세한 내용은 AMCV 쿠키를 확인하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 위치 </p> </td> 
-   <td colname="col2"> <p>CNAME 고객에게만 해당. 3 ^ rd ^ party 시나리오에 해당되지 않습니다. 쿠키는 CNAME와 Analytics 이미지 요청에 사용된 동일한 도메인에 저장됩니다. </p> </td> 
+   <td colname="col2"> <p>CNAME 고객에게만 해당됩니다. 타사 시나리오에 해당되지 않습니다. 쿠키는 CNAME 및 Analytics 이미지 요청에 사용된 동일한 도메인에 저장됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 크기 </p> </td> 
@@ -166,7 +166,7 @@ Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청�
 
 >[!NOTE]
 >
->각 Analytics 방문자 ID는 Adobe 서버의 방문자 프로필과 연관되어 있습니다. 방문자 프로필은 모든 방문자 ID 쿠키 만료와 관계없이 비활성 기간 1년 후 삭제됩니다.
+>각각의 Analytics 방문자 ID는 Adobe 서버의 방문자 프로필과 연결됩니다. 방문자 프로필은 모든 방문자 ID 쿠키 만료와 관계없이 비활성 기간 1년 후 삭제됩니다.
 
 ## 쿠키 이름: s_fid {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
