@@ -9,8 +9,8 @@ uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
+translation-type: tm+mt
+source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
 
@@ -36,10 +36,3 @@ source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 법률 및 규제 지침에는 쿠키를 차단하는 사용자의 동작이 프로파일링에 참여하지 않는 동작과 동일한 것으로 명시되어 있습니다. 이 기능을 활성화하면 사용자가 브라우저에서 모든 쿠키를 차단하도록 설정한 데스크톱 브라우저에서 수집된 데이터는 Analytics 보고서에서 제외됩니다. Adobe에서 웹 브라우저를 인식하지 못할 경우에는 데이터가 Analytics 보고서에 포함됩니다.
 
 전 세계의 입법자들은 쿠키 브라우저 설정이 프로파일링을 거부하는 사용자 선호도를 나타낸다고 안내 및 합의에 명시했습니다. 특히, 이 입법자들은 타사 쿠키를 차단하는 브라우저 설정이 타사(사이트 간) 추적을 통한 옵트아웃 요청이고, 모든 쿠키를 차단하는 것은 모든 추적에 대한 옵트아웃 요청임을 명시했습니다. 서버 측 식별자(예: IP 주소 또는 사용자 에이전트)는 쿠키 브라우저 설정을 우회하는 바람직한 옵션일 수 있지만 일부 입법자는 이를 사용자 선택을 무시하는 것으로 간주합니다.
-
-<!--
-<p>Awaiting content from Vinay May 20 2015 </p>
-<p>https://wiki.corp.adobe.com/display/omtrcache/Inferred+Opt+Out </p>
-<p>https://wiki.corp.adobe.com/display/omtrplatform/Auto-opt-out+For+Users+Who+Block+Cookies </p>
--->
-
