@@ -3,8 +3,8 @@ audience: 최종 사용자
 user-guide-title: 핵심 서비스 사용 안내서
 user-guide-url: https://www.adobe.com/kr/
 index: true
-translation-type: ht
-source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
+translation-type: tm+mt
+source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
 
@@ -18,6 +18,21 @@ source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
    + [조직에 보고서 세트 매핑](core-services/report-suite-mapping.md)
    + [Experience Cloud의 새 클라우드 이름 정보](solutions-core-services.md)
 + [Experience Cloud 통합](marketing-cloud-integrations.md)
++ Experience Cloud cookies {#ec-cookies}
+   + [Cookokies 개요](cookies/cookies-privacy.md)
+   + [퍼스트 파티 쿠키](cookies/cookies-first-party.md)
+   + [Analytics 쿠키](cookies/cookies-analytics.md)
+   + [Audience Manager 쿠키](cookies/cookies-am.md)
+   + [데이터 커넥터 쿠키](cookies/cookies-dc.md)
+   + [데이터 워크벤치 쿠키](cookies/cookies-insight.md)
+   + [Experience Cloud 쿠키](cookies/cookies-mc.md)
+   + [Advertising Cloud 쿠키](cookies/cookies-advertising-cloud.md)
+   + [Scene 7 쿠키](cookies/cookies-s7.md)
+   + [쿠키 검색 및 홍보](cookies/cookies-snp.md)
+   + [설문 조사 쿠키](cookies/cookies-survey.md)
+   + [타겟 쿠키](cookies/cookies-target.md)
+   + [브라우저 쿠키에 대한 개인 정보 설정 활성화](cookies/browser-cookie-settings.md)
+   + [타사 쿠키 지원 변경으로 인한 고객 영향](cookies/cookies-thirdparty.md)
 + 사용자 및 제품 관리 {#manage-users-and-products}
    + [Experience Cloud 사용자 및 제품 관리](admin-getting-started/admin-getting-started.md)
    + [FAQ](admin-getting-started/faq.md)
@@ -27,7 +42,7 @@ source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
    + [컨텐츠 포함](admin-getting-started/oembed.md)
 + 활성화 {#activation}
    + [활성화 개요](activation/activation.md)
-   + [Launch 사용 안내서](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [실행 안내서](https://docs.adobe.com/content/help/en/launch/using/overview.html)
    + [DTM 사용 안내서](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + 자산 {#assets}
