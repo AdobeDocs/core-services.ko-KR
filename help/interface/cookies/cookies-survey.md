@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
 
 ---
 
@@ -19,9 +19,9 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 Survey는 쿠키를 사용하여 서로 다른 브라우저의 요청을 구분하고 고객 감정을 더 잘 이해하는 데 사용되는 유용한 정보를 저장합니다.
 
-* [쿠키 이름: s_sv_sid](../cookies-overview/cookies-survey.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
-* [쿠키 이름: s_sv_s1](../cookies-overview/cookies-survey.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
-* [쿠키 이름: s_sv_p1](../cookies-overview/cookies-survey.md#section-05d1c52c478541609f4a18a9c1eb032f)
+* [쿠키 이름: s_sv_sid](../cookies/cookies-survey.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
+* [쿠키 이름: s_sv_s1](../cookies/cookies-survey.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
+* [쿠키 이름: s_sv_p1](../cookies/cookies-survey.md#section-05d1c52c478541609f4a18a9c1eb032f)
 
 ## 쿠키 이름: s_sv_sid {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
