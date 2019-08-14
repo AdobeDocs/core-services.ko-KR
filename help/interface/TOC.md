@@ -4,7 +4,7 @@ user-guide-title: 핵심 서비스 사용 안내서
 user-guide-url: https://www.adobe.com/kr/
 index: true
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
 
 ---
 
@@ -29,7 +29,6 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
    + [Advertising Cloud 쿠키](cookies/cookies-advertising-cloud.md)
    + [Scene 7 쿠키](cookies/cookies-s7.md)
    + [쿠키 검색 및 홍보](cookies/cookies-snp.md)
-   + [설문 조사 쿠키](cookies/cookies-survey.md)
    + [타겟 쿠키](cookies/cookies-target.md)
    + [브라우저 쿠키에 대한 개인 정보 설정 활성화](cookies/browser-cookie-settings.md)
    + [타사 쿠키 지원 변경으로 인한 고객 영향](cookies/cookies-thirdparty.md)
