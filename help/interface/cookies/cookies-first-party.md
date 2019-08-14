@@ -8,7 +8,7 @@ title: 퍼스트 파티 쿠키
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: 7428f95c3e06e6bad1290540789e203608e113e4
 
 ---
 
@@ -23,7 +23,7 @@ Analytics는 쿠키를 사용하여 이미지 요청과 브라우저 세션 간�
 
 * 경험 플랫폼 ID 서비스. ID 서비스는 JavaScript를 사용하여 퍼스트 파티 컨텍스트에서 쿠키를 설정할 수 있습니다.
 * 회사 DNS 서버의 DNS 항목입니다.
-* 사이트에 `https://` 프로토콜을 사용하여 보안 페이지가 있고 Experience Platform ID 서비스를 사용하지 않는 경우, 퍼스트 파티 쿠키를 구현하기 위해 Adobe에서 SSL 인증서를 얻을 수 있습니다.
+* 사이트에 `https:` 프로토콜을 사용하여 보안 페이지가 있고 Experience Platform ID 서비스를 사용하지 않는 경우, 퍼스트 파티 쿠키를 구현하기 위해 Adobe에서 SSL 인증서를 얻을 수 있습니다.
 
 SSL 인증서 발급 프로세스는 종종 혼란스럽고 시간이 걸릴 수 있습니다. 그 결과 Adobe는 업계 선도적인 인증 기관 (CA) 인 digicert 와의 파트너십을 구축했으며 이러한 인증서의 구매 및 관리를 자동화하는 통합 프로세스를 개발했습니다.
 
