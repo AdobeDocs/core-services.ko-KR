@@ -9,8 +9,8 @@ uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
+translation-type: tm+mt
+source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
 
@@ -23,12 +23,8 @@ source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 **Adobe Analytics 및 Target**
 
-<!--
-Test
--->
-
 * 퍼스트 파티 구현을 사용하는 고객은 크게 영향을 받지 않습니다.
-* 자사 구현을 사용하지 않는 고객은 [방문자 ID 서비스](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/?f=visid_service)를 구현하여 자사 구현 없이 ID 쿠키를 자사 쿠키로 저장할 수 있습니다.
+* Customers that are not using first-party implementation can implement the [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) to store the ID cookie as a first-party cookie without a first-party implementation.
 
 **Adobe Experience Manager**
 
