@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
+source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
 
@@ -19,16 +19,7 @@ source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
 
 Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능을 수행합니다. 이러한 기능에는 ID 할당, 데이터 호출 기록, 오류 추적 및 쿠키 설정 여부 테스트 등이 포함됩니다. 이 섹션에서는 Audience Manager에서 설정한 다양한 쿠키를 나열하고 설명합니다.
 
-내용:
-
-<ul class="simplelist"> 
- <li> <a href="../cookies/cookies-am.md#section-089407f3e2fe4f489b97164df3cd036c" format="dita" scope="local"> demdex 쿠키 </a> </li> 
- <li> <a href="../cookies/cookies-am.md#section-a71050d788d54350adc6b3f6ebf32398" format="dita" scope="local"> dextp 쿠키 </a> </li> 
- <li> <a href="../cookies/cookies-am.md#section-670ae9e671874576b528b46e8a1d24ac" format="dita" scope="local"> dstjs 쿠키 </a> </li> 
- <li> <a href="../cookies/cookies-am.md#section-0d1fea09c83249dfa944cc028a8ef840" format="dita" scope="local"> _dp 쿠키 </a> </li> 
-</ul>
-
-## demdex 쿠키 {#section-089407f3e2fe4f489b97164df3cd036c}
+**demdex 쿠키**
 
 <table id="table_1CCF7EA2BC9E421F8DEECA5F611E33F6"> 
  <thead> 
@@ -57,7 +48,7 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
  </tbody> 
 </table>
 
-## dextp 쿠키 {#section-a71050d788d54350adc6b3f6ebf32398}
+**dextp 쿠키**
 
 <table id="table_7343C9C9ADD24D3FA693ECC76E4A4045"> 
  <thead> 
@@ -90,7 +81,7 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
  </tbody> 
 </table>
 
-**dextp 쿠키 데이터 구문**
+dextp 쿠키 데이터 구문:
 
 다음 표는 [!DNL dextp] 쿠키의 요소들을 데이터 문자열의 위치별로 나열하고 정의합니다.
 
@@ -125,7 +116,7 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
  </tbody> 
 </table>
 
-## dst 쿠키 {#section-670ae9e671874576b528b46e8a1d24ac}
+**dst 쿠키**
 
 <table id="table_83AE9B6350C6408BAECD9FCF33022B98"> 
  <thead> 
@@ -158,14 +149,6 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
  </tbody> 
 </table>
 
-## _dp 쿠키 {#section-0d1fea09c83249dfa944cc028a8ef840}
+**_dp 쿠키**
 
 임시 쿠키입니다. [!DNL Audience Manager]는 [!DNL _dp] 쿠키를 설정하여 타사 컨텍스트에서 demdex.net 도메인의 다른 쿠키를 설정할 수 있는지 확인합니다. [!DNL _dp]이(가) 설정되면 값 1이 포함됩니다. [!DNL Audience Manager]는 이 값을 읽고 즉시 쿠키를 제거합니다. [!DNL _dp] 쿠키가 없으면 [!DNL Audience Manager]는 쿠키를 설정할 수 없다는 것을 알게 됩니다.
-
->[!MORE_LIKE_THIS]
->
->* [Demdex 도메인에 대한 호출 이해](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html)
->* [Adobe 개인 정보 보호 센터](http://www.adobe.com/privacy.html)
->* [Audience Manager 데이터 보안 및 개인 정보 보호](https://marketing.adobe.com/resources/help/en_US/aam/c_data_security_and_privacy.html)
->* [Audience Manager 개인 정보 보호 및 데이터 보존 관련 FAQ](https://marketing.adobe.com/resources/help/en_US/aam/faq_privacy.html)
-
