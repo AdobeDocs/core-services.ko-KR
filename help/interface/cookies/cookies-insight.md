@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 Data Workbench는 쿠키를 사용하여 대용량의 빠르게 변화하는 데이터를 실시간으로 분석합니다.
 
-## 쿠키 이름: v1st {#section-5d50a078de444d12b7d927d68ff3b679}
+**쿠키 이름: v1st**
 
 | 특성 | 설명 |
 |---|---|
