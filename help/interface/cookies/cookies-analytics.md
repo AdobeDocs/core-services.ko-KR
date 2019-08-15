@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
 
@@ -30,139 +30,47 @@ Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청�
 * [쿠키 이름: s_fid](../cookies/cookies-analytics.md#section-65e33f9bfc264959ac1513e2f4b10ac7)
 * [플러그인에 의해 설정되는 쿠키](../cookies/cookies-analytics.md#section-a6b1cae8454945fab9eea5c7884c40fc)
 
-[퍼스트 파티 쿠키](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html)에 대한 자세한 내용은 Analytics 도움말을 참조하십시오.
+[퍼스트 파티 쿠키](/help/interface/cookies/cookies-first-party.md)에 대한 자세한 내용은 Analytics 도움말을 참조하십시오.
 
 ## 쿠키 이름: s_ecid {#section-32fd753c3fa54452acd62b021434919a}
 
-<table id="table_FF4C70D3D4CC425BA65162D5A9504F7D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>특성 </p> </th> 
-   <th colname="col2" class="entry"> <p>설명 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>저장되는 정보 </p> </td> 
-   <td colname="col2"> <p> Experience Cloud ID(ECID) 또는 MID의 사본을 포함합니다. MID는 이 구문, s_ecid=MCMID|&lt;ECID&gt;를 따르는 키-값 쌍에 저장됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 만료 </p> </td> 
-   <td colname="col2"> <p>2년 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 사용 </p> </td> 
-   <td colname="col2"> <p>이 쿠키는 클라이언트가 AMCV 쿠키를 설정한 후에 고객의 도메인에 의해 설정됩니다. 이 쿠키의 목적은 자사 상태의 지속적인 ID 추적을 허용하는 것이며 AMCV 쿠키가 만료된 경우 참조 ID로 사용됩니다. 자세한 내용은 AMCV 쿠키를 확인하십시오. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 위치 </p> </td> 
-   <td colname="col2"> <p>CNAME 고객에게만 해당됩니다. 타사 시나리오에 해당되지 않습니다. 쿠키는 CNAME 및 Analytics 이미지 요청에 사용된 동일한 도메인에 저장됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 크기 </p> </td> 
-   <td colname="col2"> <p>45바이트 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 특성 | 설명 |
+|--- |--- |
+| 저장되는 정보 | Experience Cloud ID(ECID) 또는 MID의 사본을 포함합니다. mid는 이 구문 s_ ecid = mcmid 다음에 오는 키-값 쌍에 저장됩니다. | <ECID> |
+| 만료 | 2년 |
+| 사용 | 이 쿠키는 클라이언트가 AMCV 쿠키를 설정한 후에 고객의 도메인에 의해 설정됩니다. 이 쿠키의 목적은 자사 상태의 지속적인 ID 추적을 허용하는 것이며 AMCV 쿠키가 만료된 경우 참조 ID로 사용됩니다. 자세한 내용은 AMCV 쿠키를 확인하십시오. |
+| 위치 | CNAME 고객에게만 해당됩니다. 타사 시나리오에 해당되지 않습니다. 쿠키는 CNAME 및 Analytics 이미지 요청에 사용된 동일한 도메인에 저장됩니다. |
+| 크기 | 45바이트 |
 
 ## 쿠키 이름: s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
-<table id="table_34AA90F2FFB84500A77D8F4C5008D453"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>특성 </p> </th> 
-   <th colname="col2" class="entry"> <p>설명 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>저장되는 정보 </p> </td> 
-   <td colname="col2"> <p> 이 쿠키는 활성화 여부를 확인하기 위해 JavaScript 코드로 설정하고 읽습니다(간단하게 "True"로 설정). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 만료 </p> </td> 
-   <td colname="col2"> <p> 이 쿠키는 세션 쿠키로 브라우저를 닫으면 만료됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 사용 </p> </td> 
-   <td colname="col2"> <p> 모든 계정에 대하여 하나의 쿠키만 사용됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 위치 </p> </td> 
-   <td colname="col2"> <p> 이 쿠키는 페이지의 도메인에 저장됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 크기 </p> </td> 
-   <td colname="col2"> <p> 4바이트 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 특성 | 설명 |
+|--- |--- |
+| 저장되는 정보 | 이 쿠키는 활성화 여부를 확인하기 위해 JavaScript 코드로 설정하고 읽습니다(간단하게 "True"로 설정). |
+| 만료 | 이 쿠키는 세션 쿠키로 브라우저를 닫으면 만료됩니다. |
+| 사용 | 모든 계정에 대하여 하나의 쿠키만 사용됩니다. |
+| 위치 | 이 쿠키는 페이지의 도메인에 저장됩니다. |
+| 크기 | 4바이트 |
 
 ## 쿠키 이름: s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
-<table id="table_05EEB54B5EA2409DB1D071FD1484E8F9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>특성 </p> </th> 
-   <th colname="col2" class="entry"> <p>설명 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>저장되는 정보 </p> </td> 
-   <td colname="col2"> <p> 이 쿠키는 사용자가 클릭했던 이전 링크에 대한 정보를 포함하고 있으며 ClickMap 기능과 Activity Map 기능을 사용하는 경우 JavaScript 코드로 설정하고 읽습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 만료 </p> </td> 
-   <td colname="col2"> <p> 이 쿠키는 세션 쿠키로 브라우저를 닫으면 만료됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 사용 </p> </td> 
-   <td colname="col2"> <p> 모든 계정에 대하여 하나의 쿠키만 사용됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 위치 </p> </td> 
-   <td colname="col2"> <p> 이 쿠키는 페이지의 도메인에 저장됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 크기 </p> </td> 
-   <td colname="col2"> <p> 페이지 URL 크기에 따라 다르지만 일반적으로 100-200바이트입니다. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 특성 | 설명 |
+|--- |--- |
+| 저장되는 정보 | 이 쿠키는 사용자가 클릭했던 이전 링크에 대한 정보를 포함하고 있으며 ClickMap 기능과 Activity Map 기능을 사용하는 경우 JavaScript 코드로 설정하고 읽습니다. |
+| 만료 | 이 쿠키는 세션 쿠키로 브라우저를 닫으면 만료됩니다. |
+| 사용 | 모든 계정에 대하여 하나의 쿠키만 사용됩니다. |
+| 위치 | 이 쿠키는 페이지의 도메인에 저장됩니다. |
+| 크기 | 페이지 URL 크기에 따라 다르지만 일반적으로 100-200 바이트입니다. |
 
 ## 쿠키 이름: s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
-<table id="table_774F04AA9E3847D9AE7803520B5AAAE3"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>특성 </p> </th> 
-   <th colname="col2" class="entry"> <p>설명 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>저장되는 정보 </p> </td> 
-   <td colname="col2"> <p> 고유 방문자 ID 시간/날짜 스탬프 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 만료 </p> </td> 
-   <td colname="col2"> <p> 2년 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 사용 </p> </td> 
-   <td colname="col2"> <p> 이 쿠키는 고유 방문자를 식별하는 데 사용됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 위치 </p> </td> 
-   <td colname="col2"> <p> 타사 쿠키를 사용하는 경우 이 쿠키는 일반적으로 207.net인 이미지 요청 도메인에 저장되며 자사 쿠키를 사용하는 경우 사용자의 도메인에 저장됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 크기 </p> </td> 
-   <td colname="col2"> <p> 44바이트 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 특성 | 설명 |
+|--- |--- |
+| 저장되는 정보 | 고유 방문자 ID 시간/날짜 스탬프 |
+| 만료 | 2년 |
+| 사용 | 이 쿠키는 고유 방문자를 식별하는 데 사용됩니다. |
+| 위치 | 타사 쿠키를 사용하는 경우 이 쿠키는 일반적으로 207.net인 이미지 요청 도메인에 저장되며 자사 쿠키를 사용하는 경우 사용자의 도메인에 저장됩니다. |
+| 크기 | 44바이트 |
 
 >[!NOTE]
 >
@@ -170,36 +78,13 @@ Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청�
 
 ## 쿠키 이름: s_fid {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
-<table id="table_B0EDB50677D14A86A1BFB7CCAAE95C88"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>특성 </p> </th> 
-   <th colname="col2" class="entry"> <p>설명 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>저장되는 정보 </p> </td> 
-   <td colname="col2"> <p> 대체 고유 방문자 ID 시간/날짜 스탬프 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 만료 </p> </td> 
-   <td colname="col2"> <p>5년 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 사용 </p> </td> 
-   <td colname="col2"> <p> 타사 쿠키 제한으로 인해 표준 <span class="codeph">s_vi</span> 쿠키를 사용할 수 없는 경우 쿠키는 고유 방문자를 식별하는 데 사용됩니다. 퍼스트 파티 쿠키를 사용하는 구현에는 사용되지 않습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 위치 </p> </td> 
-   <td colname="col2"> <p> 이 쿠키는 도메인에 퍼스트 파티 쿠키로 저장됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 크기 </p> </td> 
-   <td colname="col2"> <p> 33바이트 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 특성 | 설명 |
+|--- |--- |
+| 저장되는 정보 | 대체 고유 방문자 ID 시간/날짜 스탬프 |
+| 만료 | 5년 |
+| 사용 | 타사 쿠키 제한으로 인해 표준 s_vi 쿠키를 사용할 수 없는 경우 쿠키는 고유 방문자를 식별하는 데 사용됩니다. 퍼스트 파티 쿠키를 사용하는 구현에는 사용되지 않습니다. |
+| 위치 | 이 쿠키는 도메인에 퍼스트 파티 쿠키로 저장됩니다. |
+| 크기 | 33바이트 |
 
 ## 플러그인에 의해 설정되는 쿠키 {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
