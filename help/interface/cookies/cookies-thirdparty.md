@@ -10,31 +10,31 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
 
 
-# 타사 쿠키 지원 변경으로 인한 고객 영향{#how-changes-to-third-party-cookie-support-impacts-customers}
+# 타사 쿠키 지원 변경 사항이 고객에게 미치는 영향{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 타사 쿠키에 대한 지원이 브라우저 간에 점점 더 많이 제한됨에 따라 Adobe는 고객 요구 사항과 Adobe Experience Cloud 솔루션 전반에 걸친 소비자의 개인 정보 보호 권리 간에 신중하게 균형을 잡는 새로운 솔루션을 개발해왔습니다.
 
 다음 목록은 타사 쿠키 지원이 Adobe Experience Cloud 솔루션의 현재 구현에 미치는 영향을 설명합니다:
 
-**Adobe Analytics 및 Target**
+## Adobe Analytics 및 Adobe Target
 
-* 퍼스트 파티 구현을 사용하는 고객은 크게 영향을 받지 않습니다.
+* Customers with a [first-party implementation](/help/interface/cookies/cookies-first-party.md) would remain largely unaffected.
 * Customers that are not using first-party implementation can implement the [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) to store the ID cookie as a first-party cookie without a first-party implementation.
 
-**Adobe Experience Manager**
+## Adobe Experience Manager
 
-* Adobe Experience Manager는 전적으로 고객 도메인 내에서 운영되므로 타사 쿠키와는 최소한의 상호 작용만 있고 따라서 영향을 최소화할 수 있습니다.
+* Adobe Experience Manager는 고객의 도메인 전체를 운영하므로 서드파티 쿠키와 최소한의 인터랙션이 가능하므로 전혀 영향을 받지 않습니다.
 
-**Adobe Social**
+## Adobe Social
 
 * 고객이 최신 버전의 코드를 가지고 있는 한 Social은 영향을 받지 않습니다.
 
-**Adobe Media Optimizer**
+## Adobe Advertising Cloud
 
 * 검색:
 
