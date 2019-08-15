@@ -8,7 +8,7 @@ title: 퍼스트 파티 쿠키
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21bab04d9df4f75afbd1dc5940842b57c34ecb24
+source-git-commit: 345b1fda364d9f7e884e94f32807bb99cc0c3476
 
 ---
 
@@ -41,12 +41,10 @@ Adobe 관리 인증서 프로그램에서는 추가 비용 없이 자사 쿠키�
 
 1. 요청 양식을 작성하고 Adobe Managed Program에서 퍼스트 파티 쿠키를 설정하도록 요청하는 고객 지원 센터를 통해 티켓을 엽니다. 문서 내에 각 필드가 예와 함께 설명되어 있습니다.
 
-1. CNAME 레코드를 만듭니다. 티켓을 받으면 FPSSL 전문가가 CNAME 레코드 쌍을 제공해야 합니다. Adobe가 귀하를 대신하여 인증서를 구입할 수 있으려면 먼저 회사의 DNS 서버에서 이러한 기록을 구성해야 합니다. CNAME는 다음과 유사합니다.
+1. CNAME 레코드를 만듭니다 (아래 지침 참조). 티켓을 받으면 FPSSL 전문가가 CNAME 레코드 쌍을 제공해야 합니다. Adobe가 귀하를 대신하여 인증서를 구입할 수 있으려면 먼저 회사의 DNS 서버에서 이러한 기록을 구성해야 합니다. CNAME는 다음과 유사합니다.
 
 * **보안 -** 예를 들어 호스트 이름은 `smetrics.example.com` 다음을 가리킵니다. `example.com.ssl.d1.omtrdc.net`.
 * **비보안** - 예를 들어 호스트 이름은 `metrics.example.com` 다음을 가리킵니다. `example.com.d1.omtrdc.net`.
-
-자세한 내용은 CNAME 레코드 만들기를 참조하십시오.
 
 1. 이러한 CNAME 이 준비되면 Adobe는 digicert와 협력하여 Adobe 프로덕션 서버에 인증서를 구매 및 설치합니다. 기존 구현이 있는 경우 기존 방문자를 유지하기 위해 방문자 마이그레이션을 고려해야 합니다. 인증서가 Adobe의 프로덕션 환경에 라이브로 푸시된 후 추적 서버 변수를 새로운 호스트 이름으로 업데이트할 수 있습니다. 즉, 사이트가 안전하지 않은 경우 (HTTPS) 를 `s.trackingServer`업데이트합니다. 사이트가 보안 (https) 인 경우 `s.trackingServer` 및 `s.trackingServerSecure` 변수를 모두 업데이트합니다.
 
