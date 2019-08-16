@@ -8,7 +8,7 @@ title: 퍼스트 파티 쿠키
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 345b1fda364d9f7e884e94f32807bb99cc0c3476
+source-git-commit: 2bdc4b7287ccacfc4d968278b2c3ffdaeddfc105
 
 ---
 
@@ -39,12 +39,9 @@ Adobe 관리 인증서 프로그램에서는 추가 비용 없이 자사 쿠키�
 
 퍼스트 파티 쿠키를 위한 새 퍼스트 파티 SSL 인증서를 구현하는 방법은 다음과 같습니다.
 
-1. 요청 양식을 작성하고 Adobe Managed Program에서 퍼스트 파티 쿠키를 설정하도록 요청하는 고객 지원 센터를 통해 티켓을 엽니다. 문서 내에 각 필드가 예와 함께 설명되어 있습니다.
+1. [퍼스트 파티 쿠키 요청 양식을](/help/interface/cookies/assets/FPC_Request_Form.xlsx) 작성하고 Adobe Managed Program에서 퍼스트 파티 쿠키를 설정하도록 요청하는 고객 지원 센터를 통해 티켓을 엽니다. 문서 내에 각 필드가 예와 함께 설명되어 있습니다.
 
-1. CNAME 레코드를 만듭니다 (아래 지침 참조). 티켓을 받으면 FPSSL 전문가가 CNAME 레코드 쌍을 제공해야 합니다. Adobe가 귀하를 대신하여 인증서를 구입할 수 있으려면 먼저 회사의 DNS 서버에서 이러한 기록을 구성해야 합니다. CNAME는 다음과 유사합니다.
-
-* **보안 -** 예를 들어 호스트 이름은 `smetrics.example.com` 다음을 가리킵니다. `example.com.ssl.d1.omtrdc.net`.
-* **비보안** - 예를 들어 호스트 이름은 `metrics.example.com` 다음을 가리킵니다. `example.com.d1.omtrdc.net`.
+1. CNAME 레코드를 만듭니다 (아래 지침 참조). 티켓을 받으면 FPSSL 전문가가 CNAME 레코드 쌍을 제공해야 합니다. Adobe가 귀하를 대신하여 인증서를 구입할 수 있으려면 먼저 회사의 DNS 서버에서 이러한 기록을 구성해야 합니다. CNAME는 다음과 비슷합니다. **보안 -** 예를 들어 호스트 이름은 `smetrics.example.com` 다음을 가리킵니다. `example.com.ssl.d1.omtrdc.net`. **비보안** - 예를 들어 호스트 이름은 `metrics.example.com` 다음을 가리킵니다. `example.com.d1.omtrdc.net`.
 
 1. 이러한 CNAME 이 준비되면 Adobe는 digicert와 협력하여 Adobe 프로덕션 서버에 인증서를 구매 및 설치합니다. 기존 구현이 있는 경우 기존 방문자를 유지하기 위해 방문자 마이그레이션을 고려해야 합니다. 인증서가 Adobe의 프로덕션 환경에 라이브로 푸시된 후 추적 서버 변수를 새로운 호스트 이름으로 업데이트할 수 있습니다. 즉, 사이트가 안전하지 않은 경우 (HTTPS) 를 `s.trackingServer`업데이트합니다. 사이트가 보안 (https) 인 경우 `s.trackingServer` 및 `s.trackingServerSecure` 변수를 모두 업데이트합니다.
 
@@ -109,9 +106,9 @@ CNAME 레코드가 올바르게 설정되지 않았거나 활성화되지 않으
 
 자사 쿠키를 활용하도록 사이트에서 코드를 편집하려면 먼저 다음 전제 조건을 완료하십시오.
 
-* Adobe 관리 인증서 프로그램의 구현 단계에 설명된 대로 SSL 인증서를 요청합니다.
-* CNAME 레코드를 만듭니다.
-* 호스트 이름 Ping.
+* Adobe 관리 인증서 프로그램의 구현 단계에서 설명한 대로 SSL 인증서를 요청합니다.
+* CNAME 레코드를 만듭니다 (위 참조).
+* 호스트 이름 Ping (위 참조).
 
 호스트 이름이 응답하고 Adobe 데이터 수집 서버로 전달하는 것을 확인한 후에는 구현을 변경하여 자신의 데이터 수집 호스트 이름을 가리키도록 할 수 있습니다.
 
@@ -119,6 +116,7 @@ CNAME 레코드가 올바르게 설정되지 않았거나 활성화되지 않으
 1.  코드 버전을 업데이트하려면 전체`s_code.js/AppMeasurement.js`   파일을 최신 버전으로 바꾸고 플러그인 또는 사용자 지정으로 바꿉니다. **또는**&#x200B;자사 쿠키와 관련된 코드만 업데이트하려면 s. trackingserver 및 s. trackingserversecure (SSL 사용 시) 를 찾아 새로운 데이터 수집 호스트 이름을 지정합니다. Using mysite.com as an example:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. 업데이트된 코어 JavaScript 파일을 사이트에 업로드합니다.
+
 1. 장기간 구현에서 퍼스트 파티 쿠키로 이동하거나 다른 자사 컬렉션 호스트 이름으로 변경하려는 경우 이전 도메인에서 새 도메인으로 방문자를 마이그레이션하는 것이 좋습니다.
 
 Analytics 구현 안내서에서 [방문자 마이그레이션을](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) 참조하십시오.
