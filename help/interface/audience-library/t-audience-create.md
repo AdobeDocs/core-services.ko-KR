@@ -6,8 +6,8 @@ seo-title: 대상자 만들기
 solution: Experience Cloud
 title: 대상자 만들기
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
@@ -40,8 +40,8 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
    ![](assets/audience_create.png)
 
-1. [!DNL Experience Cloud]에서 **[!UICONTROL ]사용자** &gt; **[!UICONTROL 대상 라이브러리를 클릭합니다]**.
-1. [!UICONTROL 대상] 페이지에서 **[!UICONTROL 새로 만들기]** 를 클릭합니다. ![](assets/add_icon_small.png)
+1. In the [!DNL Experience Cloud], under [!DNL Experience Platform], click **[!UICONTROL People]** &gt; **[!UICONTROL Audience Library]**.
+1. [!UICONTROL 대상] 페이지에서 **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다. ![](assets/add_icon_small.png)
 
 ![단계 결과](assets/audience_create_new.png)
 
@@ -70,7 +70,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
    ![](assets/home_garden.png)
 
-   *Chrome 및 Safari 방문자*는 Analytics에서 공유되는 대상 세그먼트입니다.
+   *Chrome 및 Safari 방문자*&#x200B;는 Analytics에서 공유되는 대상 세그먼트입니다.
 
 * **[!UICONTROL 특성 소스:]** Experience Cloud
 * **[!UICONTROL 차원:]** Chrome/Safari 방문자
@@ -93,6 +93,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 지정된 기간 동안 데이터 수집이 완료되면 원이 합쳐지면서 정의된 대상을 표시합니다.
 
-1. 규칙을 정의한 후에 **[!UICONTROL 저장]** 을 클릭합니다.
+1. 규칙을 정의한 후에 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 대상이 저장되면 다른 솔루션에 사용할 수 있습니다. 예를 들어 공유 대상을 대상 활동에 포함할 수 있습니다.
