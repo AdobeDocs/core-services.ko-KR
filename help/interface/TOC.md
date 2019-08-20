@@ -4,7 +4,7 @@ user-guide-title: 핵심 서비스 사용 안내서
 user-guide-url: https://www.adobe.com/kr/
 index: true
 translation-type: tm+mt
-source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
+source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
 
@@ -18,18 +18,18 @@ source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
    + [조직에 보고서 세트 매핑](core-services/report-suite-mapping.md)
    + [Experience Cloud의 새 클라우드 이름 정보](solutions-core-services.md)
 + [Experience Cloud 통합](marketing-cloud-integrations.md)
-+ Experience Cloud cookies {#ec-cookies}
-   + [Cookokies 개요](cookies/cookies-privacy.md)
-   + [퍼스트 파티 쿠키](cookies/cookies-first-party.md)
++ Experience Cloud 쿠키 {#ec-cookies}
+   + [쿠키 개요](cookies/cookies-privacy.md)
+   + [자사 쿠키](cookies/cookies-first-party.md)
    + [Analytics 쿠키](cookies/cookies-analytics.md)
    + [Audience Manager 쿠키](cookies/cookies-am.md)
-   + [데이터 커넥터 쿠키](cookies/cookies-dc.md)
-   + [데이터 워크벤치 쿠키](cookies/cookies-insight.md)
+   + [Data Connectors 쿠키](cookies/cookies-dc.md)
+   + [Data Workbench 쿠키](cookies/cookies-insight.md)
    + [Experience Cloud 쿠키](cookies/cookies-mc.md)
    + [Advertising Cloud 쿠키](cookies/cookies-advertising-cloud.md)
-   + [Scene 7 쿠키](cookies/cookies-s7.md)
-   + [쿠키 검색 및 홍보](cookies/cookies-snp.md)
-   + [타겟 쿠키](cookies/cookies-target.md)
+   + [Scene7 쿠키](cookies/cookies-s7.md)
+   + [Search &amp; Promote 쿠키](cookies/cookies-snp.md)
+   + [Target 쿠키](cookies/cookies-target.md)
    + [브라우저 쿠키에 대한 개인 정보 설정 활성화](cookies/browser-cookie-settings.md)
    + [타사 쿠키 지원 변경으로 인한 고객 영향](cookies/cookies-thirdparty.md)
 + 사용자 및 제품 관리 {#manage-users-and-products}
@@ -54,7 +54,7 @@ source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
    + [공유 폴더의 동기화 비활성화](experience-cloud-assets/t-disable-asset-sync.md)
    + [공유를 위한 자산 파일 요구 사항](experience-cloud-assets/assets-file-reqs.md)
    + [공유 폴더 동작](experience-cloud-assets/asset-behavior.md)
-+ 대상자{#audiences}
++ 대상자 {#audiences}
    + [대상 개요](audience-library/audience-library.md)
    + [대상자 만들기](audience-library/t-audience-create.md)
    + [Analytics 대상 세그먼트 게시](audience-library/t-publish-audience-segment.md)
@@ -69,7 +69,7 @@ source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
    + [스키마 업데이트](attributes/t-update-schema.md)
    + [개인 정보 고려 사항 - 고객 속성](attributes/privacy-mac.md)
 + 릴리스 노트 {#release-notes}
-   + [Experience Cloud의 새로운 기능](marketing-cloud-interface/marketing-cloud-interface.md)
+   + [Experience Cloud의 새로운 기능](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [누적 릴리스 노트](marketing-cloud-interface/release-notes.md)
 + [Exchange 마켓플레이스](exchange.md)
 + [피드](feed.md)
