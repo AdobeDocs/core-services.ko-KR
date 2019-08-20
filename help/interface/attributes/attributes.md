@@ -6,8 +6,8 @@ seo-title: 고객 속성
 solution: Experience Cloud
 title: 고객 속성
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ## 개요
 
-Experience Cloud의 [!UICONTROL 고객 속성] 기능은 여기에서 확인할 수 있습니다.
-
-**[!UICONTROL 사람]** &gt; **[!UICONTROL 고객 속성]**
+[!UICONTROL 고객 속성을] 찾으려면 **[!DNL Experience Platform]** &gt; **[!UICONTROL 사람]** &gt; **[!UICONTROL 고객 속성으로 이동합니다.]**
 
 CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 업로드했으면 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 활용합니다.
 
@@ -31,14 +29,14 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 
 * **그룹 멤버십:** 고객 속성 데이터를 업로드하려면 사용자가 [고객 속성 그룹](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)의 멤버여야 합니다. 또한 Adobe Analytics 그룹 또는 Adobe Target 그룹에 속해야 합니다.
 
-   고객 속성에 액세스할 수 있는지 확인하려면 [!DNL Experience Cloud] 관리자가 [!DNL Experience Cloud]에 로그인해야 합니다. **[!UICONTROL 관리]** &gt; **[!UICONTROL Admin Console 시작]** &gt; **[!UICONTROL 그룹]** 으로 이동합니다. *고객 속성*이 이 그룹 중 하나로 표시되면 작업을 시작할 수 있습니다.
+   고객 속성에 액세스할 수 있는지 확인하려면 [!DNL Experience Cloud] 관리자가 [!DNL Experience Cloud]에 로그인해야 합니다. **[!UICONTROL 관리]** &gt; **[!UICONTROL Admin Console 시작]** &gt; **[!UICONTROL 그룹]**&#x200B;으로 이동합니다. *고객 속성*&#x200B;이 이 그룹 중 하나로 표시되면 작업을 시작할 수 있습니다.
 
    고객 속성 그룹에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!UICONTROL 고객 속성] 메뉴 항목이 표시됩니다.
 
 * **Target mbox:** 고객 속성에 대해 mbox.js 버전 58 이상이 필요합니다.
 
 
-   [Mbox.js 구현](https://marketing.adobe.com/resources/help/ko_KR/target/ov/t_mbox_download.html)을 참조하십시오.
+   [Mbox.js 구현](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html)을 참조하십시오.
 
 * **at.js:** 모든 버전.
 
@@ -53,7 +51,7 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 
 ![](assets/01_crs_usecase.png)
 
-데이터 파일을 만든 후에 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 고객 속성]** 에서 만든 고객 속성 소스에 업로드할 수 있습니다.
+데이터 파일을 만든 후에 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 고객 속성]**&#x200B;에서 만든 고객 속성 소스에 업로드할 수 있습니다.
 
 이 워크플로우에 대한 자세한 내용은 [고객 속성 데이터 업로드](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)를 참조하십시오.
 
