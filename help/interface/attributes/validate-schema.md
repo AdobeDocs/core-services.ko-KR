@@ -6,8 +6,8 @@ seo-title: 스키마 유효성 검사
 solution: Experience Cloud
 title: 스키마 유효성 검사
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 * **[!UICONTROL FTP Setup:]** [FTP를 통해 데이터를 업로드합니다](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
-* **[!UICONTROL ID Lookup:]** [!DNL .csv]의 CID(고객 ID)를 입력하여 해당 ID에 대한 Experience Cloud 정보를 조회합니다. 이 기능은 방문자에 대한 특성 데이터가 표시되지 않는 문제를 해결하는 데 유용합니다.
+* **[!UICONTROL ID Lookup:]** `.csv`의 CID(고객 ID)를 입력하여 해당 ID에 대한 Experience Cloud 정보를 조회합니다. 이 기능은 방문자에 대한 특성 데이터가 표시되지 않는 문제를 해결하는 데 유용합니다.
 
    * **[!UICONTROL MCID(Experience Cloud ID):]** 최신 Experience Cloud ID 서비스를 사용하는 경우에 표시됩니다. MCID 서비스를 사용하고 있지만 ID가 표시되지 않는 경우 Experience Cloud가 해당 CID에 대한 별칭을 수신하지 못한 것입니다. 방문자가 로그인되어 있지 않거나 해당 ID가 구현되지 않은 것입니다.
 
@@ -51,9 +51,9 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 Experience Cloud에서 고객 속성 소스 및 FTP 계정을 만든 후에 FTP를 통해 데이터를 업로드할 수도 있습니다. 속성 소스당 FTP 계정을 1개 만듭니다. 업로드한 파일은 해당 계정의 루트 폴더에 저장됩니다. 데이터는 .csv 형식이어야 하며 업로드가 완료되었음을 나타내는 .fin 파일도 있어야 합니다.
 
-문자열, 정수 및 숫자에 적용하는 이름은 [!DNL Analytics] 지표를 만드는 데 사용됩니다. 자세한 내용은 [!DNL Analytics] 도움말의 [고객 속성 보고서](https://marketing.adobe.com/resources/help/ko_KR/reference/?f=reports_customer_attributes)를 참조하십시오.
+문자열, 정수 및 숫자에 적용하는 이름은 [!DNL Analytics] 지표를 만드는 데 사용됩니다. 자세한 내용은 도움말의 [고객 속성 보고서](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes)를 참조하십시오.[!DNL Analytics]
 
-* **[!UICONTROL Attribute:]** 업로드한 [!DNL .csv] 파일에서 읽어오는 속성 데이터입니다.
+* **[!UICONTROL Attribute:]** 업로드한 `.csv` 파일에서 읽어오는 속성 데이터입니다.
 
 * **[!UICONTROL Type:]** 다음과 같은 데이터 유형:
 
@@ -66,7 +66,7 @@ Experience Cloud에서 고객 속성 소스 및 FTP 계정을 만든 후에 FTP�
 
 
 
-* **[!UICONTROL Display Name:]** 속성의 이름입니다. 예를 들어, 속성 *customer age*를 *Customer Since*로 변경할 수 있습니다.
+* **[!UICONTROL Display Name:]** 속성의 이름입니다. 예를 들어, 속성 *customer age*&#x200B;를 *Customer Since*&#x200B;로 변경할 수 있습니다.
 
 * **[!UICONTROL Description:]** 속성에 대한 설명입니다.
 
