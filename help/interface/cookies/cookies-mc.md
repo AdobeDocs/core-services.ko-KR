@@ -9,7 +9,7 @@ uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -54,7 +54,7 @@ Adobe Experience Cloud는 쿠키를 사용하여 Experience Cloud 솔루션에�
 
 **쿠키 이름: AMCV_###@AdobeOrg**
 
-[경험 플랫폼 ID 서비스는 JavaScript](https://docs.adobe.com/content/help/en/id-service/using/home.html) 를 사용하여 현재 웹 사이트 도메인의 `AMCV_###@AdobeOrg` 쿠키에 고유한 방문자 ID를 저장합니다. 여기서는 `###` 임의의 문자열을 나타냅니다. 예, `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`. [쿠키 및 ID 서비스](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)를 참조하십시오.
+[Experience Platform ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)는 JavaScript를 사용하여 현재 웹 사이트의 도메인에 있는 `AMCV_###@AdobeOrg` 쿠키에 고유한 방문자 ID를 저장합니다. 여기서 `###`는 임의의 문자열을 나타냅니다. 예, `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`. [쿠키 및 ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/intro/cookies.html)를 참조하십시오.
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
