@@ -9,7 +9,7 @@ uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -66,7 +66,7 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
    <td colname="col1"> <p> <b>컨텐츠</b> </p> </td> 
    <td colname="col2"> <p><span class="wintitle">dextp</span> 쿠키에는 데이터 공급자 이름 또는 ID와,파이프로 구분된 문자열 형식의 UNIX UTC 타임스탬프가 들어 있습니다 예에서 <i>기울임꼴</i>은 가변 자리 표시자를 나타냅니다. </p> <p> 
      <ul id="ul_80D0BC3FCF06470991E12712401D784A"> 
-      <li id="li_03747A433CEB4756A26CD866E716B89D">Old style: <span class="codeph"> <span class="varname"> data provider name here </span>-1490307822097| <span class="varname"> data provider name here </span>-1490307822038 </span> </li> 
+      <li id="li_03747A433CEB4756A26CD866E716B89D">이전 스타일: <span class="codeph"><span class="varname"> 데이터 공급자 이름 </span>-1490307822097| <span class="varname"> 데이터 공급자 이름 </span>-1490307822038 </span> </li> 
       <li id="li_79E7000E82DB4ADA9E9887B017343B2D">새 스타일: <span class="codeph">21-1-1490307821616|544-1-1490307821793|3-1-1490307821852|420-1-1490307822038| </span> </li> 
      </ul> </p> <p>아래의 dextp 데이터 구문 섹션을 참조하십시오. </p> </td> 
   </tr> 
