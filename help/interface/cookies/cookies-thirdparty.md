@@ -9,13 +9,13 @@ uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
 
 
-# 타사 쿠키 지원 변경 사항이 고객에게 미치는 영향{#how-changes-to-third-party-cookie-support-impacts-customers}
+# 타사 쿠키 지원 변경 방법이 고객에게 미치는 영향{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 타사 쿠키에 대한 지원이 브라우저 간에 점점 더 많이 제한됨에 따라 Adobe는 고객 요구 사항과 Adobe Experience Cloud 솔루션 전반에 걸친 소비자의 개인 정보 보호 권리 간에 신중하게 균형을 잡는 새로운 솔루션을 개발해왔습니다.
 
@@ -23,12 +23,12 @@ source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ## Adobe Analytics 및 Adobe Target
 
-* Customers with a [first-party implementation](/help/interface/cookies/cookies-first-party.md) would remain largely unaffected.
-* Customers that are not using first-party implementation can implement the [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) to store the ID cookie as a first-party cookie without a first-party implementation.
+* [자사 구현](/help/interface/cookies/cookies-first-party.md)을 사용하는 고객은 크게 영향을 받지 않습니다.
+* 자사 구현을 사용하지 않는 고객은 [Experience Platform ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/implementation-guides/implementation-guides.html)를 구현하여 자사 구현 없이 ID 쿠키를 자사 쿠키로 저장할 수 있습니다.
 
 ## Adobe Experience Manager
 
-* Adobe Experience Manager는 고객의 도메인 전체를 운영하므로 서드파티 쿠키와 최소한의 인터랙션이 가능하므로 전혀 영향을 받지 않습니다.
+* Adobe Experience Manager는 전적으로 고객 도메인 내에서 운영되므로 타사 쿠키와는 최소한의 상호 작용만 있고 따라서 영향을 최소화할 수 있습니다.
 
 ## Adobe Social
 
