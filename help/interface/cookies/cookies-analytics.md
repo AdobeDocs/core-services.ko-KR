@@ -9,7 +9,7 @@ uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
@@ -36,7 +36,7 @@ Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청�
 
 | 특성 | 설명 |
 |--- |--- |
-| 저장되는 정보 | Experience Cloud ID(ECID) 또는 MID의 사본을 포함합니다. mid는 이 구문 s_ ecid = mcmid 다음에 오는 키-값 쌍에 저장됩니다. | <ECID> |
+| 저장되는 정보 | Experience Cloud ID(ECID) 또는 MID의 사본을 포함합니다. MID는 이 구문, s_ecid=MCMID를 따르는 키-값 쌍에 저장됩니다. | <ECID> |
 | 만료 | 2년 |
 | 사용 | 이 쿠키는 클라이언트가 AMCV 쿠키를 설정한 후에 고객의 도메인에 의해 설정됩니다. 이 쿠키의 목적은 자사 상태의 지속적인 ID 추적을 허용하는 것이며 AMCV 쿠키가 만료된 경우 참조 ID로 사용됩니다. 자세한 내용은 AMCV 쿠키를 확인하십시오. |
 | 위치 | CNAME 고객에게만 해당됩니다. 타사 시나리오에 해당되지 않습니다. 쿠키는 CNAME 및 Analytics 이미지 요청에 사용된 동일한 도메인에 저장됩니다. |
@@ -60,7 +60,7 @@ Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청�
 | 만료 | 이 쿠키는 세션 쿠키로 브라우저를 닫으면 만료됩니다. |
 | 사용 | 모든 계정에 대하여 하나의 쿠키만 사용됩니다. |
 | 위치 | 이 쿠키는 페이지의 도메인에 저장됩니다. |
-| 크기 | 페이지 URL 크기에 따라 다르지만 일반적으로 100-200 바이트입니다. |
+| 크기 | 페이지 URL 크기에 따라 다르지만 일반적으로 100-200바이트입니다 |
 
 ## 쿠키 이름: s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
