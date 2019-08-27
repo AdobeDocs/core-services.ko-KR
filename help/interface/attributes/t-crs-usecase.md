@@ -6,7 +6,7 @@ seo-title: 고객 속성 소스를 만들고 데이터 파일 업로드
 solution: Experience Cloud
 title: 고객 속성 소스를 만들고 데이터 파일 업로드
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 # 고객 속성 소스를 만들고 데이터 파일 업로드
 
-고객 속성 소스 (CSV 및 FIN 파일) 를 만들고 데이터를 업로드합니다. 준비가 되면 데이터 소스를 활성화할 수도 있습니다. 데이터 소스가 활성화되면 속성 데이터를 Analytics 및 Target과 공유합니다.
+고객 속성 소스(CSV 및 FIN 파일)를 생성하고 데이터를 업로드하십시오. 준비가 되면 데이터 소스를 활성화할 수도 있습니다. 데이터 소스가 활성화되면 속성 데이터를 Analytics 및 Target과 공유합니다.
 
 ## 고객 속성 워크플로우 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
@@ -75,7 +75,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
 
 1. [!DNL Experience Cloud]에서 메뉴 ![](assets/menu-icon.png) 아이콘을 클릭합니다.
-1. 아래에서 **[!DNL Experience Platform]****[!UICONTROL [사람]** ] &gt; **[!UICONTROL [고객 속성]**] 를 클릭합니다.
+1. **[!DNL Experience Platform]**&#x200B;에서 **[!UICONTROL 사람]** &gt; **[!UICONTROL 고객 속성]**&#x200B;을 클릭합니다.
 
    [!UICONTROL 고객 속성] 페이지에서 기존 특성 데이터 소스를 관리 및 편집할 수 있습니다.
 
@@ -94,9 +94,9 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
       별칭 ID는 추가 고객 ID 값을 설정하는 특정 영역에 해당합니다. 예:
 
-      * **다이내믹 태그 관리:** 별칭 ID는 Experience Cloud *ID 서비스* 도구에서 [!UICONTROL 고객 설정]아래의 통합 [코드 값에](https://marketing.adobe.com/resources/help/en_US/dtm/?f=macid) 해당합니다.
+      * **Dynamic Tag Management:** 별칭 ID는 [Experience Cloud ID 서비스](https://marketing.adobe.com/resources/help/ko_KR/dtm/?f=macid) 도구의 [!UICONTROL 고객 설정]에 있는 *통합 코드* 값에 해당합니다.
 
-      * **방문자 API:**&#x200B;별칭 ID는 각 방문자에게 연결할 수 있는 [고객 ID](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids)에 해당합니다.
+      * **방문자 API:** 별칭 ID는 각 방문자와 연결할 수 있는 추가 [고객 ID](https://marketing.adobe.com/resources/help/ko_KR/mcvid/?f=mcvid_customer_ids)에 해당합니다.
 
          예를 들어 *"crm_id"*:
 
@@ -106,14 +106,14 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
          ```
 
 
-      * **iOS:** 별칭 ID는 visitorsyncidentifiers의 *"idtype"* [에 해당합니다. 식별자입니다](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=methods).
+      * **iOS:** 별칭 ID는 [visitorSyncIdentifiers:identifiers](https://marketing.adobe.com/resources/help/ko_KR/mobile/ios/?f=methods)에 있는 *"idType"*&#x200B;에 해당합니다.
 
          예:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
 
-      * **Android:** 별칭 ID는 syncidentifiers의 *"idtype"* [에 해당합니다](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=methods).
+      * **Android:** 별칭 ID는 [syncIdentifiers](https://marketing.adobe.com/resources/help/ko_KR/mobile/android/?f=methods)에 있는 *"idType"*&#x200B;에 해당합니다.
 
          예:
 
@@ -175,13 +175,13 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
 **속성 소스를 활성화하려면**
 
-[!UICONTROL 고객 속성 소스 만들기 [또는] 고객 속성 소스 편집] 페이지에서 [!UICONTROL 활성화] 제목을 찾은 후 **[!UICONTROL 활성]**&#x200B;을 클릭합니다.
+[!UICONTROL 새로 만들기[ 또는 ]고객 속성 소스] 편집 페이지에서 [!UICONTROL 활성화] 제목을 찾은 후 **[!UICONTROL 활성]**&#x200B;을 클릭합니다.
 
 ![단계 결과](assets/activate_attribute_source.png)
 
 ## Adobe Analytics에서 고객 속성 사용 {#task_7EB0680540CE4B65911B2C779210915D}
 
-With the data available available in solutions like
+
 <keyword>
 Adobe Analytics
 </keyword>와 같은 솔루션에서 사용 가능한 데이터로 마케팅 캠페인에서 데이터를 보고하고 분석하며 적절한 작업을 수행할 수 있습니다.
@@ -192,7 +192,7 @@ Adobe Analytics
 
 Experience Cloud에 게시한 세그먼트는 Experience Cloud 대상 및 Audience Manager에서 사용할 수 있습니다.
 
-자세한 내용은 Analytics 도움말의 [고객 속성 보고서](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes)를 참조하십시오.
+자세한 내용은 Analytics 도움말의 [고객 속성 보고서](https://marketing.adobe.com/resources/help/ko_KR/reference/?f=reports_customer_attributes)를 참조하십시오.
 
 ## Adobe Target에서 고객 속성 사용 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -200,4 +200,4 @@ Target에서는 대상을 만들 때 방문자 프로필 섹션에서 고객 속
 
 ![](assets/crs-add-attribute-target.png)
 
-Target 도움말의 [새 대상 만들기](https://marketing.adobe.com/resources/help/en_US/target/target/?f=t_creating_a_new_audience)를 참조하십시오.
+Target 도움말에서 [새 대상 만들기](https://marketing.adobe.com/resources/help/ko_KR/target/target/?f=t_creating_a_new_audience)를 참조하십시오.
