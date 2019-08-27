@@ -6,7 +6,7 @@ seo-title: 선택 사항 - FTP를 통해 데이터 파일 업로드
 solution: Experience Cloud
 title: 선택 사항 - FTP를 통해 데이터 파일 업로드
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -26,7 +26,7 @@ Experience Cloud에서 고객 속성 소스 및 FTP 계정을 만든 후에 데�
 고객 속성 FTP 사이트로의 파일 업로드는 FTP 또는 SFTP를 통해 수행될 수 있습니다.
 
 * SFTP 연결을 지원하는 클라이언트가 필요합니다.
-* [여기](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/?f=ftp_sftp_cert_auth)에 설명된 것처럼 사용자 이름/암호를 사용하거나 암호를 사용하지 않고 SFTP를 통해 연결할 수 있습니다.
+* [여기](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/ftp/?f=ftp_sftp_cert_auth) 설명된 대로 사용자 이름/암호 또는 암호 없음을 사용하여 SFTP와 연결할 수 있습니다.
 
 
 
