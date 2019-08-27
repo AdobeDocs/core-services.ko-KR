@@ -6,7 +6,7 @@ seo-title: 고객 속성
 solution: Experience Cloud
 title: 고객 속성
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ## 개요
 
-[!UICONTROL 고객 속성을] 찾으려면 **[!DNL Experience Platform]** &gt; **[!UICONTROL 사람]** &gt; **[!UICONTROL 고객 속성으로 이동합니다.]**
+[!UICONTROL 고객 속성]을 찾으려면 **[!DNL Experience Platform]** &gt; **[!UICONTROL 사용자]** &gt; **[!UICONTROL 고객 속성]**&#x200B;으로 이동합니다.
 
 CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 업로드했으면 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 활용합니다.
 
@@ -36,7 +36,7 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 * **Target mbox:** 고객 속성에 대해 mbox.js 버전 58 이상이 필요합니다.
 
 
-   [Mbox.js 구현](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html)을 참조하십시오.
+   [Mbox.js 구현](https://marketing.adobe.com/resources/help/ko_KR/target/ov/t_mbox_download.html)을 참조하십시오.
 
 * **at.js:** 모든 버전.
 
