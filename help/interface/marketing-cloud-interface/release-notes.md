@@ -6,7 +6,7 @@ seo-title: 누적 릴리스 노트
 solution: Experience Cloud
 title: 누적 릴리스 노트
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
@@ -18,16 +18,16 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 
 설명서 업데이트 목록은 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)를 참조하십시오.
 
-모든 솔루션에 적용되는 릴리스 노트에 대해서는 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)를 참조하십시오.
+모든 솔루션에 적용되는 릴리스 노트는 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/)를 참조하십시오.
 
-## 2019 년 8 월
+## 2019년 8월
 
 * Experience Cloud 로그인 시 일부 사용자의 세션이 로그아웃되는 중요한 문제를 해결했습니다. (MCUI-6908)
 * 성능을 개선하고 지연을 줄이도록 Experience Cloud 로그인을 업데이트했습니다. (MCUI-6854, MCUI-6869, MCUI-6883)
 * 인터페이스 외관이 업데이트되었습니다. (MCUI-6861, MCUI-6911, MCUI-6862)
 * [!UICONTROL Trigger] 정의에서 _Like_ 절을 잘못 해석하는 Experience Cloud [!UICONTROL Triggers] 문제를 수정했습니다. (MCUI-6611)
 
-## 2019 년 4 월
+## 2019년 4월
 
 * Experience Cloud 솔루션 세트에 Marketo가 포함되도록 앱 전환기가 업데이트되고, 브랜드가 Experience Platform으로 업데이트되었습니다. (MCUI-6529)
 * 피드 및 관리 페이지에 대한 탐색 링크를 포함하도록 Experience Cloud 홈이 업데이트되었습니다. (MCUI-6682)
@@ -116,7 +116,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 
 >[!NOTE]
 >
->Microsoft에서 Internet Explorer 8, 9 및 10에 대한 [지원을 종료](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support)할 예정입니다. 따라서 Adobe에서는 이러한 버전의 Internet Explorer에 대해 보고된 문제는 수정하지 않습니다.
+>Microsoft는 Internet Explorer 8, 9 및 10의 [지원을 종료](https://www.microsoft.com/ko-kr/WindowsForBusiness/End-of-IE-support)합니다. 따라서 Adobe에서는 이러한 버전의 Internet Explorer에 대해 보고된 문제는 수정하지 않습니다.
 
 ## 릴리스 15.10 - 2015년 10월 14일 {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -162,7 +162,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>왼쪽 탐색 메뉴가 모든 핵심 서비스 및 솔루션에 액세스할 수 있도록 업데이트 및 구성되었습니다. 주목할 만한 변경 사항은 다음과 같습니다. </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">the <span class="term">대상 라이브러리 </span>및 <span class="term">사용자 특성 </span>메뉴 선택이 이제 <span class="term">대상자</span> 아래에 있습니다. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"> <span class="term">대상 라이브러리 </span>및 <span class="term">사용자 특성 </span>메뉴 선택이 이제 <span class="term">대상자</span> 아래에 있습니다. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4"><span class="term">Exchange</span> 메뉴 선택 사항은 도움말 드롭다운 메뉴에서 왼쪽 탐색 레일로 이동되었습니다. </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> 솔루션</span>은 제거되었습니다. 탐색 레일의 하단에서 모든 솔루션을 시작할 수 있습니다. </li> 
     </ul> </td> 
@@ -171,7 +171,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 </table>
 
 * 일부 고객의 경우 고객 속성이 동기화되지 않던 문제를 수정했습니다.
-* [Adobe Target 제품 설명서](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) 페이지가 일본어로 표시되지 않던 문제를 수정했습니다.
+* [Adobe Target 제품 설명서](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) 페이지가 일본어로 표시되지 않는 문제를 해결했습니다.
 * [!DNL Creative Cloud]와 [!DNL Experience Cloud] 간 주석에서 일본어 텍스트를 사용할 수 없던 문제를 수정했습니다.
 
 ## 릴리스 15.4.1 - 2015년 4월 8일 {#section_75634120CC934B3381EDEA7F6F976F0A}
