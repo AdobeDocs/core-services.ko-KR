@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloud의 솔루션에 대한 도움말 및 제품 �
 description: Adobe Experience Cloud의 솔루션에 대한 도움말 및 제품 설명서입니다.
 seo-description: Experience Cloud 도움말
 translation-type: tm+mt
-source-git-commit: 2231240b6697d95ad448cb21c55368ecbe13a517
+source-git-commit: 5f30d2584cec9cae16066b6ed2a750a48aaf2920
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Experience Cloud에 대한 도움말 및 제품 설명서입니다.
 **Audience Manager 도움말**
 
 * [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/)
-* Audience Manager 관리자
+* [Audience Manager 관리자](https://marketing.adobe.com/resources/help/en_US/aam/admin/index.html)
 
 **Target 도움말**
 
