@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloud의 솔루션에 대한 도움말 및 제품 �
 description: Adobe Experience Cloud의 솔루션에 대한 도움말 및 제품 설명서입니다.
 seo-description: Experience Cloud 도움말
 translation-type: tm+mt
-source-git-commit: 247c11a53752c953ef70f51b2888c548a1ff471b
+source-git-commit: bdeec0dfde7c5415c921aaea4303f3f08c6894e9
 
 ---
 
@@ -13,9 +13,7 @@ source-git-commit: 247c11a53752c953ef70f51b2888c548a1ff471b
 
 Adobe Experience Cloud에 대한 도움말 및 제품 설명서입니다.
 
-![](assets/experience_cloud_appicon_32.png)
-
-## Experience Cloud 도움말
+## ![](assets/experience_cloud_appicon_32.png) Experience Cloud 도움말
 
 * [Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) (모든 제품)
 * [Experience Cloud 인터페이스 및 핵심 서비스 도움말](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
