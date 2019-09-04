@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: 0172e141dfad5ec323e1b6c330a02f3cc723a2db
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 이벤트에 매핑하고 해당 정보를 사용하여 광고 입찰을 최적화합니다.
 
-쿠키 이름: _lcc
+## 쿠키 이름: _lcc
 
 <table id="table_821F8EBE91F244CBA72B0975B961B908"> 
  <thead> 
@@ -50,7 +50,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  </tbody> 
 </table>
 
-쿠키 이름: adcloud
+## 쿠키 이름: adcloud
 
 <table id="table_D7CD238736BC4571883F92F47673F57C"> 
  <thead> 
@@ -83,7 +83,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  </tbody> 
 </table>
 
-쿠키 이름: ev_sync_*
+## 쿠키 이름: ev_sync_*
 
 (ev_sync_ax, ev_sync_bk, ev_sync_dd, ev_sync_fs, ev_sync_ix, ev_sync_nx, ev_sync_ox, ev_sync_pm, ev_sync_rc, ev_sync_tm, ev_sync_yh)
 
@@ -118,7 +118,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  </tbody> 
 </table>
 
-쿠키 이름: everest_g_v2
+## 쿠키 이름: everest_g_v2
 
 <table id="table_04043292A43B41B69EAF17AF4E217C69"> 
  <thead> 
@@ -151,7 +151,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  </tbody> 
 </table>
 
-쿠키 이름: everest_session_v2
+## 쿠키 이름: everest_session_v2
 
 <table id="table_1A3AE4CA71304ADB943CB1F64BE695F5"> 
  <thead> 
@@ -184,7 +184,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  </tbody> 
 </table>
 
-쿠키 이름: ev_tm
+## 쿠키 이름: ev_tm
 
 <table id="table_6C4D9DCFA4BF4FB2BD445E027550955F"> 
  <thead> 
@@ -217,7 +217,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  </tbody> 
 </table>
 
-쿠키 이름: _tmae
+## 쿠키 이름: _tmae
 
 <table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
  <thead> 
