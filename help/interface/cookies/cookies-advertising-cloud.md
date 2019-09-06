@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0172e141dfad5ec323e1b6c330a02f3cc723a2db
+source-git-commit: 4273ac4e98516e496a26dd83fe72c5197e876896
 
 ---
 
@@ -29,11 +29,11 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p>저장되는 정보 </p> </td> 
-   <td colname="col2"> <p>검색 클릭 수의 ID 및 타임스탬프(yyyymmdd 형식) </p> </td> 
+   <td colname="col2"> <p>검색 클릭 수의 ID 및 타임스탬프(yyyymmdd 형식)</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>만료 </p> </td> 
-   <td colname="col2"> <p>15분/p&gt; </p> </td> 
+   <td colname="col2"> <p>15분</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용 </p> </td> 
@@ -50,6 +50,39 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  </tbody> 
 </table>
 
+## 쿠키 이름: _tmae
+
+<table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> 특성 </th> 
+   <th colname="col2" class="entry"> 설명 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>저장되는 정보 </p> </td> 
+   <td colname="col2"> <p>Advertising Cloud DSP 추적을 사용한 광고 참여용 인코딩된 ID 및 타임스탬프 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>만료 </p> </td> 
+   <td colname="col2"> <p>1년 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>사용 </p> </td> 
+   <td colname="col2"> <p>"2016년 6월 30일에 마지막으로 본 광고 xyz123"과 같이 사용자의 참여를 광고로 저장하는 타사 쿠키 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>위치 </p> </td> 
+   <td colname="col2"> <p>everesttech.net </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>크기 </p> </td> 
+   <td colname="col2"> <p>변수, 데이터가 인코딩되고 일반적으로 1KB보다 적음 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ## 쿠키 이름: adcloud
 
 <table id="table_D7CD238736BC4571883F92F47673F57C"> 
@@ -62,7 +95,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p>저장되는 정보 </p> </td> 
-   <td colname="col2"> <p>서퍼 ID, 광고주의 웹 사이트에 대한 서퍼의 마지막 방문과 검색 클릭의 타임스탬프 및 사용자가 광고를 클릭할 때 생성된 ef_ id/p&gt; </p> </td> 
+   <td colname="col2"> <p>surfer ID, surfer의 마지막 방문자에 대한 마지막 방문 타임스탬프 및 surfer의 마지막 검색 클릭 및 사용자가 광고를 클릭할 때 생성된 ef_ id</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>만료 </p> </td> 
@@ -216,37 +249,3 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
   </tr> 
  </tbody> 
 </table>
-
-## 쿠키 이름: _tmae
-
-<table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 특성 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>저장되는 정보 </p> </td> 
-   <td colname="col2"> <p>Advertising Cloud DSP 추적을 사용한 광고 참여용 인코딩된 ID 및 타임스탬프 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>만료 </p> </td> 
-   <td colname="col2"> <p>1년 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>사용 </p> </td> 
-   <td colname="col2"> <p>"2016년 6월 30일에 마지막으로 본 광고 xyz123"과 같이 사용자의 참여를 광고로 저장하는 타사 쿠키 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>위치 </p> </td> 
-   <td colname="col2"> <p>everesttech.net </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>크기 </p> </td> 
-   <td colname="col2"> <p>변수, 데이터가 인코딩되고 일반적으로 1KB보다 적음 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
