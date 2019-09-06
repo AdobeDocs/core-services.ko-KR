@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4273ac4e98516e496a26dd83fe72c5197e876896
+source-git-commit: b6950426a81f22757387b297f349377d34865842
 
 ---
 
@@ -16,6 +16,39 @@ source-git-commit: 4273ac4e98516e496a26dd83fe72c5197e876896
 # Advertising Cloud 쿠키{#advertising-cloud-cookies}
 
 Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 이벤트에 매핑하고 해당 정보를 사용하여 광고 입찰을 최적화합니다.
+
+## 쿠키 이름: id_ adcloud
+
+<table id="id_adcloud"> 
+<thead> 
+<tr> 
+<th colname="col1" class="entry"> 특성 </th> 
+<th colname="col2" class="entry"> 설명 </th> 
+</tr> 
+</thead>
+<tbody> 
+<tr> 
+<td colname="col1"> <p>저장되는 정보 </p> </td> 
+<td colname="col2"> <p>Surfer ID </p> </td> 
+</tr> 
+<tr> 
+<td colname="col1"> <p>만료 </p> </td> 
+<td colname="col2"> <p>91 일 </p> </td> 
+</tr> 
+<tr> 
+<td colname="col1"> <p>사용 </p> </td> 
+<td colname="col2"> <p>쿠키가 퍼스트 파티 도메인에 설정되었지만 아직 사용되지 않음 </p> </td> 
+</tr> 
+<tr> 
+<td colname="col1"> <p>위치 </p> </td> 
+<td colname="col2"> <p>광고주의 최상위 수준 도메인(예: example.com) </p> </td> 
+</tr> 
+<tr> 
+<td colname="col1"> <p>크기 </p> </td> 
+<td colname="col2"> <p>16바이트 </p> </td> 
+</tr> 
+</tbody> 
+</table>
 
 ## 쿠키 이름: _lcc
 
