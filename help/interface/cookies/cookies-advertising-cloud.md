@@ -7,7 +7,7 @@ uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfb43724e2fcc36d54ddfee33cfcae66eba8710f
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: dfb43724e2fcc36d54ddfee33cfcae66eba8710f
 
 Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 이벤트에 매핑하고 해당 정보를 사용하여 광고 입찰을 최적화합니다.
 
-## 쿠키 이름: id_ adcloud
+## 쿠키 이름: id_adcloud
 
 <table id="id_adcloud"> 
 <thead> 
@@ -29,15 +29,15 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
 <tbody> 
 <tr> 
 <td colname="col1"> <p>저장되는 정보 </p> </td> 
-<td colname="col2"> <p>Surfer ID </p> </td> 
+<td colname="col2"> <p>서퍼 ID </p> </td> 
 </tr> 
 <tr> 
 <td colname="col1"> <p>만료 </p> </td> 
-<td colname="col2"> <p>91 일 </p> </td> 
+<td colname="col2"> <p>91일 </p> </td> 
 </tr> 
 <tr> 
 <td colname="col1"> <p>사용 </p> </td> 
-<td colname="col2"> <p>쿠키가 퍼스트 파티 도메인에 설정되었지만 아직 사용되지 않음 </p> </td> 
+<td colname="col2"> <p>쿠키가 자사 도메인에 설정되었지만 아직 사용되지 않음 </p> </td> 
 </tr> 
 <tr> 
 <td colname="col1"> <p>위치 </p> </td> 
@@ -128,7 +128,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p>저장되는 정보 </p> </td> 
-   <td colname="col2"> <p>surfer ID, surfer의 마지막 방문자에 대한 마지막 방문 타임스탬프 및 surfer의 마지막 검색 클릭 및 사용자가 광고를 클릭할 때 생성된 ef_ id</p> </td> 
+   <td colname="col2"> <p>서퍼 ID, 광고주의 웹 사이트에 대한 서퍼의 마지막 방문과 검색 클릭의 타임스탬프 및 사용자가 광고를 클릭할 때 생성된 ef_id</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>만료 </p> </td> 
@@ -283,7 +283,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  </tbody> 
 </table>
 
-## 쿠키 이름: id_ adcloud
+## 쿠키 이름: id_adcloud
 
 <table> 
  <thead> 
@@ -295,15 +295,15 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p>저장되는 정보 </p> </td> 
-   <td colname="col2"> <p>Surfer ID </p> </td> 
+   <td colname="col2"> <p>서퍼 ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>만료 </p> </td> 
-   <td colname="col2"> <p>91 일 </p> </td> 
+   <td colname="col2"> <p>91일 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용 </p> </td> 
-   <td colname="col2"> <p>쿠키가 퍼스트 파티 도메인에 설정되었지만 아직 사용되지 않음 </p> </td> 
+   <td colname="col2"> <p>쿠키가 자사 도메인에 설정되었지만 아직 사용되지 않음 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>위치 </p> </td> 
