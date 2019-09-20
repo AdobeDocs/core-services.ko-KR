@@ -2,9 +2,10 @@
 audience: 최종 사용자
 user-guide-title: 핵심 서비스 사용 안내서
 user-guide-url: https://www.adobe.com/kr/
+product: 핵심 서비스
 index: true
-translation-type: ht
-source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
+translation-type: tm+mt
+source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
 
 ---
 
@@ -42,7 +43,7 @@ source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
    + [컨텐츠 포함](admin-getting-started/oembed.md)
 + 활성화 {#activation}
    + [활성화 개요](activation/activation.md)
-   + [Launch 사용 안내서](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [사용 안내서 시작](https://docs.adobe.com/content/help/en/launch/using/overview.html)
    + [DTM 사용 안내서](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + 자산 {#assets}
@@ -70,7 +71,7 @@ source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
    + [스키마 업데이트](attributes/t-update-schema.md)
    + [개인 정보 고려 사항 - 고객 속성](attributes/privacy-mac.md)
 + 릴리스 노트 {#release-notes}
-   + [Experience Cloud의 새로운 기능](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)
+   + [Experience Cloud의 새로운 기능](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [누적 릴리스 노트](marketing-cloud-interface/release-notes.md)
 + [Exchange 마켓플레이스](exchange.md)
 + [피드](feed.md)
