@@ -6,7 +6,7 @@ seo-title: 고객 속성
 solution: Experience Cloud
 title: 고객 속성
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -36,7 +36,7 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 * **Target mbox:** 고객 속성에 대해 mbox.js 버전 58 이상이 필요합니다.
 
 
-   [Mbox.js 구현](https://marketing.adobe.com/resources/help/ko_KR/target/ov/t_mbox_download.html)을 참조하십시오.
+   [Mbox.js 구현](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html)을 참조하십시오.
 
 * **at.js:** 모든 버전.
 
