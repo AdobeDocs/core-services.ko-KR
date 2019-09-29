@@ -6,7 +6,7 @@ seo-title: Experience Cloud의 새로운 기능
 solution: Experience Cloud
 title: Experience Cloud의 새로운 기능
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -67,7 +67,7 @@ Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 |--- |--- |
 | 알림 - 세부 설정 | [사용자 특성](../attributes/attributes.md) 업로드 활동에 대한 알림을 포함하여 제품 및 솔루션 이벤트 및 활동에 대한 알림을 활성화할 수 있습니다. |
 | 알림 - 유지 관리 알림 | 알림 설정에서 제품 및 솔루션에 대한 유지 관리 알림을 활성화할 수 있습니다. |
-| Experience Cloud 솔루션에 대한 Admin Console | 새 Experience Cloud 고객은 전체 조직에서 Adobe 자격을 관리할 중앙 위치인 Admin Console을 사용할 수 있습니다.<br>사용자 관리를 위한 Admin Console로의 마이그레이션은 지속적으로 진행됩니다. Adobe는 마이그레이션할 때가 되면 시스템 관리자에게 연락합니다.<br>Analytics 관리자는 [Analytics 마이그레이션](https://marketing.adobe.com/resources/help/ko_KR/experience-cloud/admin-console/analytics-migration/)을 참조하십시오. |
+| Experience Cloud 솔루션에 대한 Admin Console | 새 Experience Cloud 고객은 전체 조직에서 Adobe 자격을 관리할 중앙 위치인 Admin Console을 사용할 수 있습니다.<br>사용자 관리를 위한 Admin Console로의 마이그레이션은 지속적으로 진행됩니다. Adobe는 마이그레이션할 때가 되면 시스템 관리자에게 연락합니다.<br>Analytics 관리자는 [Analytics 마이그레이션](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)을 참조하십시오. |
 
 ## 2017년 5월 22일 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
