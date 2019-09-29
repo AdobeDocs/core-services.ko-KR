@@ -6,7 +6,7 @@ seo-title: 활성화
 solution: Experience Cloud
 title: 활성화
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 관련 고객 환경을 운영하는 데 필요한 분석, 마케팅 및 광고 태그를 배포하고 관리합니다.
 
-[Experience Platform Launch](https://marketing.adobe.com/resources/help/ko_KR/experience-cloud/launch/)을 참조하십시오.
+[Launch, Adobe 제공](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/)를 참조하십시오.
 
 ## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
@@ -35,15 +35,15 @@ Dynamic Tag Management를 시작하려면 **[!UICONTROL 활성화]를 클릭하�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/getting-started/add-adobe-analytics-dtm-tool.html" format="html" scope="external"> Adobe Analytics 배포 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/add-adobe-analytics-dtm-tool.html" format="html" scope="external"> Adobe Analytics 배포 </a> </p> </td> 
    <td colname="col2"> <p> Adobe Dynamic Tag Management를 사용하여 Adobe Analytics를 추가하는 단계별 지침입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/ko_KR/mcvid/mcvid-implementation-guides.html" format="html" scope="external"> Experience Cloud ID 서비스 구현 가이드 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html" format="html" scope="external"> Experience Cloud ID 서비스 구현 가이드 </a> </p> </td> 
    <td colname="col2"> <p>Experience Cloud ID 서비스를 통해 , 대상 공유 및 트리거를 포함한 전체 Experience Cloud 솔루션에서 핵심 기능이 활성화됩니다. Adobe는 ID 서비스를 구현하여 이러한 기능을 활용할 것을 강력히 권장합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/ko_KR/dtm/" format="https" scope="external"> Dynamic Tag Management 제품 설명서 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dtm/" format="https" scope="external"> Dynamic Tag Management 제품 설명서 </a> </p> </td> 
    <td colname="col2"> <p>Dynamic Tag Management와 함께 Experience Cloud 솔루션 배포에 대해 자세히 알아보십시오. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ Dynamic Tag Management 구현에 대한 도움이 필요한 경우 계정 관리
 
 ## Experience Cloud 트리거 {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
-*트리거*를 통해 마케터는 주요 소비자 행동을 정의하고 모니터링한 다음, 실시간 의사 결정 및 개인화에 사용할 솔루션 간 커뮤니케이션을 생성할 수 있습니다.
+*트리거*&#x200B;를 통해 마케터는 주요 소비자 행동을 정의하고 모니터링한 다음, 실시간 의사 결정 및 개인화에 사용할 솔루션 간 커뮤니케이션을 생성할 수 있습니다.
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
@@ -79,4 +79,4 @@ Dynamic Tag Management 구현에 대한 도움이 필요한 경우 계정 관리
 
 Chrome용 Adobe Experience Cloud Debugger 확장 프로그램은 웹 페이지를 검사하고 Experience Cloud 솔루션이 구현되는 방식에 대한 문제를 찾는 데 도움이 됩니다.
 
-도움이 필요하면 [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/ko_KR/experience-cloud-debugger/)를 참조하십시오.
+See Experience Cloud Debugger for help.[](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)
