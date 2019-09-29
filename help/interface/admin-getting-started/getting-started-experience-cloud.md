@@ -6,7 +6,7 @@ seo-title: 로그인 및 프로필 설정 관리
 solution: Marketing Cloud
 title: 로그인 및 프로필 설정 관리
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -30,25 +30,25 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 로그인한 다음 올바른 [조직](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)에 속해 있는지 확인하십시오.
 
-1. Experience Cloud 풀다운 메뉴(![](assets/menu-icon.png))를 클릭한 다음 **[!UICONTROL 관리]** 를 클릭합니다.
+1. Experience Cloud 풀다운 메뉴(![](assets/menu-icon.png))를 클릭한 다음 **[!UICONTROL 관리]**&#x200B;를 클릭합니다.
 
    ![](assets/admin-link.png)
 
    **[!UICONTROL 관리]** 링크가 표시되지 않으면 표시된 [조직](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)(이 예제의 경우 Adobe Corp)의 Experience Cloud 관리자가 아닌 것입니다. 관리자가 되는 것과 관련하여 지원이 필요한 경우 귀사의 고객 지원 또는 기존 Experience Cloud 관리자에게 문의하십시오.
-1. **[!UICONTROL 관리]** 를 클릭합니다.
+1. **[!UICONTROL 관리]**&#x200B;를 클릭합니다.
 
    ![](assets/admin-landing.png)
 1. 링크 중 하나를 클릭하여 계속하십시오. 
 
 | 요소 | 설명 |
 |--- |--- |
-| [Admin Console 기본 사항](https://helpx.adobe.com/kr/marketing-cloud/how-to/first-time-setup.html) | Experience Cloud 솔루션을 사용하여 시작하는 데 필요한 초기 단계에 대해 알아봅니다. |
-| [ID 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html) | 최종 사용자를 인증할 ID 시스템을 정의하고 설정합니다. |
-| [사용자 관리](https://helpx.adobe.com/kr/enterprise/using/users.html) | Admin Console에 로그인 및 Experience Cloud 사용자 권한 및 제품 프로필 관리 방법에 대해 알아봅니다. |
+| [Admin Console 기본 사항](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Experience Cloud 솔루션을 사용하여 시작하는 데 필요한 초기 단계에 대해 알아봅니다. |
+| [ID 설정](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | 최종 사용자를 인증할 ID 시스템을 정의하고 설정합니다. |
+| [사용자 관리](https://helpx.adobe.com/enterprise/using/users.html) | Admin Console에 로그인 및 Experience Cloud 사용자 권한 및 제품 프로필 관리 방법에 대해 알아봅니다. |
 | [Admin Console 시작](../admin-getting-started/admin-getting-started.md) | Admin Console은 전체 조직에서 Adobe 사용자 및 제품 자격을 관리하는 중앙 위치입니다.<br>[직접 연결되는 링크](https://adminconsole.adobe.com)를 사용하여 Admin Console에 로그인할 수도 있습니다. |
 | [Creative Cloud 사용자 관리](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assets를 통해 마케터는 Creative Cloud를 사용하여 디자이너 및 다른 창의적인 자산과 폴더를 공유, 동기화 및 공동 작업할 수 있습니다. 여기서 조직과 공동 작업하도록 승인된 Creative Cloud 사용자를 관리할 수 있습니다. |
 | [보고서 세트 매핑](../core-services/core-services.md) | (Analytics 전용) Experience Cloud 핵심 서비스는 개별 보고서 세트 대신 조직과 연결됩니다. 이러한 서비스가 올바르게 작동하도록 하려면 각 Analytics 보고서 세트를 조직에 매핑해야 합니다. (이 작업은 [핵심 서비스용 Analytics 활성화](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)에 대한 광범위한 작업 과정의 일부입니다.) |
-| [조직 ID](../admin-getting-started/organizations.md) | * 조직 ID*는 관리 페이지의 맨 아래에 있습니다. 이 ID는 공급된 Experience Cloud 회사와 연관된 ID입니다. 이 ID는 24자의 영숫자 문자열과 @AdobeOrg(포함 필수)로 구성됩니다. |
+| [조직 ID](../admin-getting-started/organizations.md) | *조직 ID*&#x200B;는 관리 페이지의 맨 아래에 있습니다. 이 ID는 공급된 Experience Cloud 회사와 연관된 ID입니다. 이 ID는 24자의 영숫자 문자열과 @AdobeOrg(포함 필수)로 구성됩니다. |
 
 ## Experience Cloud에 로그인(사용자) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -58,8 +58,8 @@ Experience Cloud에 로그인하는 관리자 이외의 사용자를 위한 도�
 1. [조직](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF)이 Experience Cloud에서 프로비저닝되었는지 관리자에게 확인합니다.
 
 
-1. [Adobe Experience Cloud](https://marketing.adobe.com) ([!DNL marketing.adobe.com])로 이동합니다.
-1. **[!UICONTROL Adobe ID로 로그인]** 을 클릭합니다.
+1. [Adobe Experience Cloud](https://marketing.adobe.com)([!DNL marketing.adobe.com])로 이동합니다. 
+1. **[!UICONTROL Adobe ID로 로그인]**&#x200B;을 클릭합니다.
 
    Experience Cloud 관리자가 계정 유형(Adobe ID 또는 Enterprise ID)을 확인하는 데 도움을 줄 수 있습니다.
 
@@ -76,10 +76,10 @@ Experience Cloud에 로그인한 후 개인 세부 사항을 편집하고, 표�
 1. Experience Cloud에 로그인한 다음, 프로필 아이콘을 클릭합니다.
 
    ![](assets/edit-profile.png)
-1. **[!UICONTROL 프로필 편집]** 을 클릭합니다.
+1. **[!UICONTROL 프로필 편집]**&#x200B;을 클릭합니다.
 
    ![](assets/default-organization.png)
-1. 개인 정보를 계속 구성 및 편집한 후 **[!UICONTROL 변경 사항 저장]** 을 클릭합니다.
+1. 개인 정보를 계속 구성 및 편집한 후 **[!UICONTROL 변경 사항 저장]**&#x200B;을 클릭합니다.
 
 ## 알림 활성화 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
@@ -124,9 +124,9 @@ Experience Cloud 프로필을 편집하고 기본 조직 및 랜딩 페이지 �
 1. Experience Cloud 메뉴에서 프로필 사진을 클릭합니다.
 
    ![](assets/edit-profile.png)
-1. **[!UICONTROL 프로필 편집]** 을 클릭합니다.
+1. **[!UICONTROL 프로필 편집]**&#x200B;을 클릭합니다.
 
-   프로필 및 암호 페이지의 개인 세부 정보 아래의 필드 및 옵션을 작성합니다.
+   [프로필 및 암호] 페이지의 [개인 세부 정보] 아래의 필드 및 옵션을 작성합니다.
 
 ## 암호 복구 {#task_46541A2806164CB1A4AE8239604E4EB1}
 
@@ -153,10 +153,10 @@ Experience Cloud 프로필을 편집하고 기본 조직 및 랜딩 페이지 �
 
 >[!NOTE]
 >
->URL을 `destURL` 매개 변수에 전달하기 전에 인코딩해야 합니다. ([URL Decoder / Encoder](https://meyerweb.com/eric/tools/dencoder/)와 같은 인코더 사이트를 이용할 수 있습니다.)
+>URL을 `destURL` 매개 변수에 전달하기 전에 인코딩해야 합니다. (Encoder sites like [URL Decoder / Encoder](https://meyerweb.com/eric/tools/dencoder/) are available.)
 
 | 매개 변수 | 설명 | 예 | 필수/선택적 |
 |--- |--- |--- |--- |
-| tenantId | 사용자가 로그인해야 하는 테넌트의 이름입니다. | aem62tenant | 선택적 |
-| destURL | 사용자가 이동해야 하는 위치의 전체 URL입니다. | https://sc.omniture.com/x/1_7xxzf | 선택적 |
+| tenantId | 사용자가 로그인해야 하는 테넌트의 이름입니다. | aem62tenant | 선택 사항입니다 |
+| destURL | 사용자가 이동해야 하는 위치의 전체 URL입니다. | https://sc.omniture.com/x/1_7xxzf | 선택 사항입니다 |
 | solutionname | destURL 매개 변수의 소유자인 MAC 솔루션의 이름입니다. 사용자가 URL 소유자인 솔루션에 액세스할 수 있음을 확인하는 데 사용됩니다.  solutionname이 destURL 매개 변수와 동기화 상태임을 확인하는 것은 솔루션입니다.  예: URL에 solutionname이 소셜로 포함되어 있고 제공된 destURL이 Analytics URL인 경우, 사용자가 Analytics에 액세스할 수 없는 경우에도 이 URL로 리디렉션됩니다. MAC에서는 destURL의 소유자가 솔루션 이름과 동기화 상태인지 확인하지 않습니다. | analytics | destURL 매개 변수가 사용되는 경우 필수입니다. |
