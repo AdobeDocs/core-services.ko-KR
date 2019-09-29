@@ -6,7 +6,7 @@ seo-title: Exchange 마켓플레이스
 solution: Experience Cloud
 title: Exchange 마켓플레이스
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
