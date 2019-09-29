@@ -5,7 +5,7 @@ seo-title: 다양한 솔루션 및 서비스에서 DNS 프리페치 사용
 solution: Experience Cloud
 title: 다양한 솔루션 및 서비스에서 DNS 프리페치 사용
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -30,7 +30,7 @@ DNS 프리페치는 페이지에 포함된 정적 링크에서 자동으로 작�
 
 ## DNS 프리페치 코드 샘플 {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
-다음 예는 서로 다른 [!DNL Experience Cloud] 솔루션 및 서비스에 DNS 프리페치를 호출하는 방법을 보여 줍니다. 일부 프리페치 호출에는 [!DNL Adobe] 조직 ID 또는 추적 서버 정보가 필요합니다. 이러한 예에서 *이탤릭체*로 된 코드는 변수 자리 표시자를 나타냅니다. 해당 코드를 자체 [!DNL Adobe] 파트너 ID, 고객 코드 또는 추적 서버 정보 등으로 교체합니다.
+다음 예는 서로 다른 [!DNL Experience Cloud] 솔루션 및 서비스에 DNS 프리페치를 호출하는 방법을 보여 줍니다. 일부 프리페치 호출에는 [!DNL Adobe] 조직 ID 또는 추적 서버 정보가 필요합니다. 이러한 예에서 *이탤릭체*&#x200B;로 된 코드는 변수 자리 표시자를 나타냅니다. 해당 코드를 자체 [!DNL Adobe] 파트너 ID, 고객 코드 또는 추적 서버 정보 등으로 교체합니다.
 
 * **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
