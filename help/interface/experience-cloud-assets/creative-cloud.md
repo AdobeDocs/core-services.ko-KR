@@ -6,7 +6,7 @@ seo-title: Creative Cloud와 Experience Cloud 폴더 및 자산 공유
 solution: Experience Cloud
 title: Creative Cloud와 Experience Cloud 폴더 및 자산 공유
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -30,12 +30,12 @@ Creative Cloud 사용자가 자산에 액세스하려면 Experience Cloud에서 
 
 [!DNL Adobe Target]에서 활동을 만들면 컨텐츠 라이브러리에서 이미지를 변경하여 공유 이미지 자산을 사용할 수 있습니다.
 
-[!DNL Target] 도움말에서 [컨텐츠 라이브러리](https://marketing.adobe.com/resources/help/ko_KR/target/target/?f=c_manage_content)를 참조하십시오.
+[ 도움말의 ](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content)컨텐츠 라이브러리[!DNL Target]를 참조하십시오.
 
 ## Adobe Social과의 자산 공유 정보 {#section_96BFBB9FF3074B2AB49A9B7932DB25EF}
 
 [!DNL Adobe Social]에서는 [!UICONTROL 게시자]의 [!UICONTROL 자산 선택기]를 사용하여 공유 이미지 자산을 삽입할 수 있습니다. 폴더를 검색하고, 찾은 후 해당 자산을 Facebook 또는 Twitter 게시물에 첨부할 수 있습니다.
 
-[!DNL Social] 도움말에서 [발행자 페이지](https://marketing.adobe.com/resources/help/ko_KR/social/?f=c_pub_publisher)를 참조하십시오.
+[ 도움말의 ](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher)게시자 페이지[!DNL Social]를 참조하십시오.
 
 공유 폴더 및 자산은 클라우드 간에 자동으로 동기화됩니다.
