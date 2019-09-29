@@ -6,7 +6,7 @@ seo-title: FAQ
 solution: Experience Cloud
 title: FAQ
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9c9b5250ec4143b396623341ecfeb61244469754
 
 ---
@@ -22,7 +22,7 @@ Experience Cloud를 사용하는 관리자를 위한 일반적인 질문과 대�
 
 
 1. [Experience Cloud에 참여 및 관리자 되기](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)(또는 새 [Experience Platform Launch)](https://marketing.adobe.com/resources/help/ko_KR/experience-cloud/launch/)를 사용하여 Experience Cloud ID 서비스 구현
+1. [다이내믹 태그 관리자](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)(또는 새 [Launch, Adobe 제공](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/))를 사용하여 Experience Cloud ID 서비스 구현
 1. [보고서 세트를 Experience Cloud 조직에 매핑](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(Analytics 전용) Analytics AppMeasurement 코드 현대화](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Target 전용) Adobe Target 구현 현대화](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -33,7 +33,7 @@ Experience Cloud를 사용하는 관리자를 위한 일반적인 질문과 대�
 
 
 
-자세한 지원은 [Adobe 지원 센터에 문의](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)하십시오.
+자세한 내용은 [Adobe 지원에 문의](https://helpx.adobe.com/marketing-cloud/contact-support.html)하십시오.
 
 **Adobe에서 우리 회사에 Experience Cloud 액세스를 위한 비용을 청구합니까?**
 
@@ -45,7 +45,7 @@ Experience Cloud 인터페이스에서 제공하는 기능은 귀하의 비즈�
 
 **우리 회사 마이그레이션에 대한 우려를 해결하려면 어떻게 해야 합니까?**
 
-[Adobe 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 문의하십시오.
+[Adobe 지원 서비스에 문의할 수 있습니다](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
 ***`provisioning`*?**
 
@@ -58,17 +58,17 @@ Experience Cloud의 프로비저닝은 다음을 의미합니다.
 
 **사용자 및 제품 프로필을 관리하려면 어떻게 해야 합니까?**
 
-* 도움이 필요하면 [Admin Console 사용 안내서](https://helpx.adobe.com/kr/enterprise/administering/user-guide.html)를 참조하십시오.
+* 도움말은 [Admin Console 사용 안내서](https://helpx.adobe.com/enterprise/administering/user-guide.html)를 참조하십시오.
 
 * 사용자 자격 및 제품 관리는 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)(제품 링크)에서 수행됩니다.
 
-* **중요:** Analytics 관리자의 경우, Analytics 관리 도구에서 Admin Console로의 사용자 ID 마이그레이션에 대한 정보는 [Admin Console에서 Analytics 사용자 관리](https://marketing.adobe.com/resources/help/ko_KR/experience-cloud/admin-console/analytics-migration/)를 참조하십시오.
+* **중요:** Analytics 관리자는 [Admin Console의 Analytics 사용자 관리](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)에서 사용자 ID를 Analytics 관리 도구에서 Admin Console로 마이그레이션하는 작업에 대해 참조하십시오.
 
 **Experience Cloud에 로그인할 수 없으면 어떻게 해야 합니까?**
 
 Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있습니다. 사용자에게 로그인 지침이 포함된 전자 메일이 전송됩니다.
 
-[Adobe 지원에 문의](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)하여 회사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
+[Adobe 지원에 문의](https://helpx.adobe.com/marketing-cloud/contact-support.html)하여 회사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
 
 **사용자가 계정 링크를 관리하려면 어디로 이동해야 합니까?**
 
@@ -82,7 +82,7 @@ Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있
 
 **조직이란?**
 
-*조직*은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 해주는 엔티티입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
+*조직*&#x200B;은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 해주는 엔티티입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
 
 **IMS 조직 ID는 어디에서 찾을 수 있습니까?**
 
@@ -106,7 +106,7 @@ ID는 다음과 같습니다.
 
 **Adobe ID란?**
 
-[ID 유형](https://helpx.adobe.com/kr/enterprise/help/identity.html)을 참조하십시오.
+[ID 유형](https://helpx.adobe.com/enterprise/help/identity.html)을 참조하십시오.
 
 **사용자의 솔루션 계정을 연결할 수 있습니까?**
 
