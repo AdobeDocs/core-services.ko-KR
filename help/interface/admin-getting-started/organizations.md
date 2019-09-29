@@ -6,7 +6,7 @@ seo-title: 조직 및 계정 연결
 solution: Marketing Cloud
 title: 조직 및 계정 연결
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 ## 조직 식별 {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-*조직*은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 해주는 엔티티입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
+*조직*&#x200B;은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 해주는 엔티티입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
 
 또한 지원을 위해 조직 ID를 찾아야 할 수도 있습니다. **[!UICONTROL 조직]메뉴를 사용하여 올바른 조직에 있는지 확인하거나 조직 간에 전환할 수 있습니다.**
 
@@ -28,9 +28,9 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 ## 조직 ID 찾기 {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-**조직 ID** 는 공급된 Experience Cloud 회사와 연결된 ID입니다. 이 ID는 24자의 영숫자 문자열과 @AdobeOrg(포함 필수)로 구성됩니다.
+**조직 ID**&#x200B;는 공급된 Experience Cloud 회사와 연결된 ID입니다. 이 ID는 24자의 영숫자 문자열과 @AdobeOrg(포함 필수)로 구성됩니다.
 
-조직 ID를 보려면 Experience Cloud 랜딩 페이지로 이동하거나( ![](assets/menu-icon.png))를 클릭한 다음 **[!UICONTROL 관리]** 를 클릭합니다. [!UICONTROL Experience Cloud에서 시작하기] 페이지 하단 또는 [!UICONTROL 관리] 페이지에서 조직 ID를 찾을 수 있습니다.
+조직 ID를 보려면 Experience Cloud 랜딩 페이지로 이동하거나( ![](assets/menu-icon.png))를 클릭한 다음 **[!UICONTROL 관리]**&#x200B;를 클릭합니다. [!UICONTROL Experience Cloud에서 시작하기] 페이지 하단 또는 [!UICONTROL 관리] 페이지에서 조직 ID를 찾을 수 있습니다.
 
 ![](assets/administration-page.png)
 
@@ -50,7 +50,7 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
    ![](assets/analytics-link-accounts.png)
 
    이 유형의 메시지는 적절한 그룹에 속하거나 솔루션에 대한 권한이 있지만, 계정 자격 증명을 아직 Adobe ID에 연결하지 않은 경우 표시됩니다.
-1. **[!UICONTROL 계정 연결]** 을 클릭한 다음 자격 증명을 제공합니다.
+1. **[!UICONTROL 계정 연결]**&#x200B;을 클릭한 다음 자격 증명을 제공합니다.
 
 ## 기본 조직 및 랜딩 페이지 지정 {#concept_6A191B42A9874A9780882903BA18F071}
 
@@ -70,5 +70,5 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 일반적으로, 계정 연결은 Adobe ID가 이전 사용자에게 연결되어 있어서 실패합니다. 계정 연결에 실패하면,
 
-* [Adobe 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 문의하십시오.
+* [Adobe 지원 서비스에 문의할 수 있습니다](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 * 문제가 해결되는 동안 여전히 표준 로그인을 사용하여 솔루션에 액세스할 수 있습니다.
