@@ -6,7 +6,7 @@ seo-title: 용어
 solution: Experience Cloud
 title: 용어
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c50c0e49f87bb03b36354bc2fba162e043f7e948
 
 ---
@@ -29,10 +29,10 @@ Experience Cloud 사용자를 위한 용어 참조 및 Creative Cloud에서 그�
 | 피드 | Creative Cloud 홈은 Experience Cloud 피드와 유사합니다.<br>홈은 Creative Cloud 계정에서 발생한 전체 활동 요약으로 정의될 수 있는 데스크탑 클라이언트입니다. 활동에는 소프트웨어, 글꼴의 설치와 업데이트, Behance의 임의 활동 및 업로드된 파일과 관련된 모든 활동이 포함됩니다. | Experience Cloud에서 피드는 사용자가 만들거나 다른 사용자에 의해 또는 Adobe Experience Cloud 솔루션에서 사용자와 공유한 카드 집합입니다.<br>처음 Experience Cloud에 로그인한 경우에는 피드가 비어 있을 수도 있습니다. 보드와 카드를 만들고 다른 사용자가 사용자와 컨텐츠를 공유하면 피드가 자동으로 추가되어 사용자와 사용자 팀 구성원이 계속 최신 정보를 알 수 있습니다.<br>[피드](feed.md)를 참조하십시오. |
 | 연결 | 특별한 용도는 없습니다.  연결은 하이퍼링크 탐색 및 글꼴, 속성, 레이어 등의 항목 연결을 나타냅니다. | Experience Cloud에서 연결은 일반적으로 서로 다른 솔루션 계정을 인터페이스에 연결하는 것을 말합니다.<br>[조직 및 계정 연결](admin-getting-started/organizations.md)을 참조하십시오.<br>또한 다른 사용자에게 전송된 Analytics 보고서에 대한 표준 URL을 연결이라고도 합니다. |
 | 위치 | Creative Cloud에서 위치는 파일 위치 또는 열린 이미지나 문서의 위치를 나타냅니다. | Experience Cloud에서 위치는 대상이 컨텐츠를 보고 상호 작용할 수 있는 장소입니다. 위치와 컨텐츠 간의 연관성이 다소 정적이거나 캠페인 규칙에 따라 동적으로 관리할 수 있습니다. 위치는 컨텐츠를 배달할 수 있는 방법 및 지표를 수집할 수 있는 방법을 결정하는 특정 채널에 항상 속합니다.<br>해당 예는 다음과 같습니다.<ul><li>사이트</li><li>속성(소셜)</li><li>재고 표시</li><li>랜딩 페이지</li><li>모바일 애플리케이션</li><li>슬롯(비디오)</li></ul> |
-| 지표 | 일반적으로 Creative Cloud에서는 사용되지 않습니다. | 주요 개념 및 목표에 대한 숫자들을 집계합니다.  Analytics에서 지표는 보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 판매량, 주문 수, 매출액 등과 같은 방문자 활동에 대한 수량 정보입니다.  [지표 설명](https://marketing.adobe.com/resources/help/ko_KR/reference/?f=metrics)을 참조하십시오. |
+| 지표 | 일반적으로 Creative Cloud에서는 사용되지 않습니다. | 주요 개념 및 목표에 대한 숫자들을 집계합니다.  Analytics에서 지표는 보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 판매량, 주문 수, 매출액 등과 같은 방문자 활동에 대한 수량 정보입니다.  [지표 설명](https://marketing.adobe.com/resources/help/en_US/reference/?f=metrics)을 참조하십시오. |
 | 조직 | 일반적으로 Creative Cloud에서는 사용되지 않습니다. | 조직은 관리자가 사용자와 제품을 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 해주는 Experience Cloud 엔티티입니다. 대부분의 경우, 조직은 청구 회사입니다. |
 | 포트폴리오 | 여러 파일 또는 자산의 어셈블리입니다. | 캠페인 컨테이너. |
-| 제품 프로필 | [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-products-and-profiles.html)를 참조하십시오. | 사용자가 제품 또는 서비스를 사용할 자격이 있는 경우 사용자는 제품 프로필의 일부여야 합니다. 제품 관리자는 사용자가 구입한 플랜과 연결하여 제품 프로필에 라이센스를 지정합니다.<br>사용자는 여러 제품 프로필에 속할 수 있으며 각각 사용자에게 서로 다른 라이센스가 부여됩니다. 사용자의 최종 자격 요건은 해당 사용자에게 각 제품 프로필로 제공된 모든 라이센스의 통합입니다. |
+| 제품 프로필 | [제품 및 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)를 참조하십시오. | 사용자가 제품 또는 서비스를 사용할 자격이 있는 경우 사용자는 제품 프로필의 일부여야 합니다. 제품 관리자는 사용자가 구입한 플랜과 연결하여 제품 프로필에 라이센스를 지정합니다.<br>사용자는 여러 제품 프로필에 속할 수 있으며 각각 사용자에게 서로 다른 라이센스가 부여됩니다. 사용자의 최종 자격 요건은 해당 사용자에게 각 제품 프로필로 제공된 모든 라이센스의 통합입니다. |
 | 예약 | Adobe Story의 장면 시퀀스 또는 ColdFusion의 예약된 작업일 수 있습니다. | Experience Cloud에서 예약은 캠페인, 채널 및 활동 활성화의 시작 날짜(년, 월, 일) 및 종료 날짜입니다. 활동 예약에는 분 단위까지의 세부기간이 있습니다. 예약을 변경하면 카드가 만들어집니다.<br>해당 예는 다음과 같습니다.<ul><li>캠페인 예약</li><li>채널 예약</li><li>활동 예약</li></ul> |
 | 공유 | Creative Cloud에서는 플랫폼 간에 외부적으로 파일을 공유할 수 있습니다(소셜, 커뮤니티, 이메일 등). | Experience Cloud에서 인터페이스 내의 보드 안에서 자산을 카드로만 공유할 수 있습니다. 사이트에 로그인한 사람은 공유를 사용할 수 있습니다. |
 | 솔루션 | 특별한 용도는 없습니다. | Experience Cloud에서 솔루션은 Analytics, Social, Target 등과 같은 제품으로 알려져 있습니다.<br>Experience Cloud의 새 클라우드 이름 정보](solutions-core-services.md)를 참조하십시오. |
