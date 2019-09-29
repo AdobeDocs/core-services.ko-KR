@@ -1,6 +1,6 @@
 ---
 source-git-commit: 58ccef353b492b1c2adfbb8c2471e1f92263e6e4
-translation-type: ht
+translation-type: tm+mt
 
 ---
 # 지침
@@ -17,7 +17,7 @@ translation-type: ht
 
 + 사용 안내서 소개는 `overview.md`라고 합니다.
 + 사용 안내서의 각 주제에는 고유한 디렉토리가 있습니다.
-   + 안내서에 *구현*이라는 주제가 있으면 해당 디렉토리가 `/implementation`입니다.
+   + 안내서에 *구현*&#x200B;이라는 주제가 있으면 해당 디렉토리가 `/implementation`입니다.
 + 모든 이미지 자산은 사용 안내서의 루트에 있는 `/assets`에 저장됩니다.
    + `/assets` 디렉토리의 모든 이미지는 현지화됩니다.
    + `/no-localize` 디렉토리에 있는 모든 이미지는 현지화되지 않습니다. loc 버전에서 특정 자산이 불필요하게 재생되지 않는지 확인하는 데 사용할 수 있습니다.
