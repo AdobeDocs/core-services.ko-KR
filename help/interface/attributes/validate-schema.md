@@ -6,7 +6,7 @@ seo-title: 스키마 유효성 검사
 solution: Experience Cloud
 title: 스키마 유효성 검사
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -51,7 +51,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 Experience Cloud에서 고객 속성 소스 및 FTP 계정을 만든 후에 FTP를 통해 데이터를 업로드할 수도 있습니다. 속성 소스당 FTP 계정을 1개 만듭니다. 업로드한 파일은 해당 계정의 루트 폴더에 저장됩니다. 데이터는 .csv 형식이어야 하며 업로드가 완료되었음을 나타내는 .fin 파일도 있어야 합니다.
 
-문자열, 정수 및 숫자에 적용하는 이름은 [!DNL Analytics] 지표를 만드는 데 사용됩니다. 자세한 내용은 [!DNL Analytics] 도움말의 [고객 속성 보고서](https://marketing.adobe.com/resources/help/ko_KR/reference/?f=reports_customer_attributes)를 참조하십시오.
+문자열, 정수 및 숫자에 적용하는 이름은 [!DNL Analytics] 지표를 만드는 데 사용됩니다. 자세한 내용은 도움말의 [고객 속성 보고서](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes)를 참조하십시오.[!DNL Analytics]
 
 * **[!UICONTROL 속성:]** 업로드한 `.csv` 파일에서 읽어오는 속성 데이터입니다.
 
