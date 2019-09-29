@@ -5,7 +5,7 @@ seo-title: 대상자
 solution: Experience Cloud
 title: 대상자
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -37,10 +37,10 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 | 솔루션 | 설명 |
 |--- |--- |
-| Experience Cloud 대상 | [대상 라이브러리](../audience-library/audience-library.md) 인터페이스를 사용하여 대상을 기본적으로 만들고, 관리하고, 공유합니다. 다음을 수행할 수 있습니다.<ul><li>원시 분석 속성을 사용하여 실시간 대상 사용</li><li>대상을 조합하여 복합 대상을 만들고 실시간 및 내역 데이터 연결</li><li>예상되는 대상 크기의 그래픽 보기 참조</li></ul><br>만들려는 대상 유형에 대한 제안은 [Experience Cloud 대상](https://helpx.adobe.com/kr/marketing-cloud-core/kb/People/Audience-Creation-Options.html)을 참조하십시오. |
+| Experience Cloud 대상 | [대상 라이브러리](../audience-library/audience-library.md) 인터페이스를 사용하여 대상을 기본적으로 만들고, 관리하고, 공유합니다. 다음을 수행할 수 있습니다.<ul><li>원시 분석 속성을 사용하여 실시간 대상 사용</li><li>대상을 조합하여 복합 대상을 만들고 실시간 및 내역 데이터 연결</li><li>예상되는 대상 크기의 그래픽 보기 참조</li></ul><br>만들려는 대상 유형에 대한 추천 사항은 [ Experience Cloud 대상](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html)을 참조하십시오. |
 | Analytics | 세그멘테이션에서 세그먼트를 빌드하여 보고서 세트와 함께 결합한 다음 [세그먼트를 Marketing Cloud에 게시](../audience-library/audience-library.md)할 수 있습니다. 세그먼트를 게시하면 [대상](../audience-library/audience-library.md) 페이지에 세그먼트가 표시됩니다. 또한 대상을 Adobe Target에서 전달된 캠페인 환경의 타깃팅된 대상으로 그리고 Audience Manager에서 사용할 수 있습니다.   대상을 Analytics에서 공유하고 활성 캠페인에서 사용하기 위해 선택하면, 지난 90일 동안의 세그먼트 정의 기준을 충족한 모든 방문자 프로필이 Experience Cloud 대상 서비스 플랫폼으로 전송됩니다.   중요: 처리가 지연되는 것을 방지하기 위해 Analytics에서 공유하는 대상 수를 20명으로 제한해야 합니다. Analytics에서 Experience Cloud로 공유하는 대상은 2천만 명의 고유 구성원을 초과할 수 없습니다. 또한 캐싱으로 인해, Analytics의 삭제된 보고서 세트가 Experience Cloud에 표시되려면 12시간이 필요합니다. |
-| Mobile Services | [장치 유형](https://marketing.adobe.com/resources/help/ko_KR/mobile/?f=reports_devices)에서 Sunburst 시각화를 사용하여 모바일 트래픽을 분석합니다. |
-| Target | [ID 서비스](https://marketing.adobe.com/resources/help/ko_KR/mcvid/) 는 방문자 ID와 데이터를 솔루션 간에 사용하기 위해 실행 가능한 단일 프로필로 통합합니다. Adobe Analytics의 세그먼트 작성 프로세스 동안 [Marketing Cloud에 게시](../audience-library/audience-library.md) 확인란을 선택하면 Adobe Target의 사용자 지정 대상 라이브러리 내에서 세그먼트를 사용할 수 있습니다. Analytics나 Audience Manager에서 만들어진 세그먼트는 Target의 활동에 사용할 수 있습니다.  예를 들어 Analytics에서 만들어진 대상 세그먼트 및 Analytics 전환 지표에 따라 캠페인 활동을 만들 수 있습니다. |
+| Mobile Services | Analyze mobile traffic using the sunburst visualization in the [Device Types](https://marketing.adobe.com/resources/help/en_US/mobile/?f=reports_devices). |
+| Target | [ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)는 방문자 ID 및 데이터를 여러 솔루션에서 사용하기 위해 실행 가능한 하나의 프로필에 통합합니다. Adobe Analytics의 세그먼트 작성 프로세스 동안 [Marketing Cloud에 게시](../audience-library/audience-library.md) 확인란을 선택하면 Adobe Target의 사용자 지정 대상 라이브러리 내에서 세그먼트를 사용할 수 있습니다. Analytics나 Audience Manager에서 만들어진 세그먼트는 Target의 활동에 사용할 수 있습니다.  예를 들어 Analytics에서 만들어진 대상 세그먼트 및 Analytics 전환 지표에 따라 캠페인 활동을 만들 수 있습니다. |
 | Audience Manager | 공유 대상은 Audience Manager 세그멘테이션에서 사용할 수 있습니다. 모든 Experience Cloud 대상은 기본적으로 다음 기능을 제공하는 Audience Manager에서 사용할 수 있습니다.<ul><li>내장된 자동화(솔루션 워크플로우에서 공유 및 소비되는 방식에 관계없음)</li><li>오프사이트 대상</li><li>유사 잠재고객 모델링</li></ul> |
 | 캠페인 | <ul><li>다양한 Adobe Experience Cloud 솔루션의 공유 대상을 Adobe Campaign에 가져오기.</li><li>공유 대상의 양식에서 받는 사람 목록 내보내기. 이러한 공유 대상은 사용하는 여러 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다.</li></ul> |
 | Media Optimizer | 대상을 타겟으로 사용합니다. |
@@ -56,8 +56,8 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 | 도움말 | 리소스 |
 |--- |--- |
 | 대상을 찾을 수 없습니까? | 프로비저닝되었는지 확인합니다. 자세한 내용은 [시작하기 - 핵심 서비스용 솔루션을 사용하도록 설정](../core-services/core-services.md)을 참조하십시오.<br>프로필 및 대상(통합 프로비저닝 양식)에 대한 액세스를 요청하려면 [여기](https://www.adobe.com/go/audiences)를 클릭하십시오. |
-| 사용 사례 | 사용할 솔루션에 대한 자세한 내용은 기술 자료에서 [대상 만들기 옵션](https://helpx.adobe.com/kr/marketing-cloud-core/kb/People/Audience-Creation-Options.html)을 참조하십시오. |
-| 포럼 | [대상 포럼](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences)은 대상 지원을 요청할 수 있는 추가 리소스입니다. |
+| 사용 사례 | 사용할 솔루션에 대한 자세한 내용을 보려면 기술 자료의 [대상 만들기 옵션](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html)으로 이동하십시오. |
+| 포럼 | [대상 포럼](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences)은 대상에 대한 도움말을 볼 수 있는 추가 리소스입니다. |
 
 
 ## 대상 라이브러리 인터페이스 요소 {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
