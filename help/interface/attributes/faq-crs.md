@@ -6,7 +6,7 @@ seo-title: FAQ, 제한 사항 및 우수 사례
 solution: Experience Cloud
 title: FAQ, 제한 사항 및 우수 사례
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
 
 ---
@@ -95,11 +95,11 @@ Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(Target 전용)</b> 고객 속성에서 Adobe Target으로 데이터를 업로드하면 Target 방문자의 프로필 라이프타임이 연장됩니까? </p> </td> 
-   <td colname="col2"> <p>예. Adobe Target 도움말의 <a href="https://marketing.adobe.com/resources/help/ko_KR/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">방문자 프로필 라이프타임</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>예. Adobe Target 도움말의 <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">방문자 프로필 라이프타임</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> (Target 전용)</b> 방문자가 고객 ID로 식별되면 바로 고객 속성에 업로드된 데이터를 타깃팅할 수 있습니까? </p> </td> 
-   <td colname="col2"> <p>예.  </p> <p>Target에 대한 서버 호출 시 여기에 mbox 타사 ID가 포함되면 모든 고객 속성 데이터를 사용할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>예. </p> <p>Target에 대한 서버 호출 시 여기에 mbox 타사 ID가 포함되면 모든 고객 속성 데이터를 사용할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
