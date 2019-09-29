@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Analytics Premium 및 Experience Cloud로 업그레이드
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -25,7 +25,7 @@ Adobe Analytics Premium으로 업그레이드하면 Data Warehouse, Ad Hoc Analy
 Analytics Premium을 사용하면 다음 항목을 사용할 수 있습니다.
 
 * 250개의 전환 변수(eVar)에 대한 액세스
-* [모바일 앱 분석](https://marketing.adobe.com/resources/help/ko_KR/mobile/)
+* [모바일 앱 분석](https://marketing.adobe.com/resources/help/en_US/mobile/)
 * Data Workbench (시각적 데이터 쿼리, 규칙 기반 특성, 크로스 채널 분석)
 
 
@@ -55,7 +55,7 @@ Analytics Premium Complete에서는 [Analytics Premium](../admin-getting-started
 
 | 제품 | 업그레이드 |
 |--- |--- |
-| Reports &amp; Analytics | <ul><li>[기여도 분석](https://marketing.adobe.com/resources/help/ko_KR/analytics/contribution/)</li><li>[고객 속성](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)(최대 200개)</li></ul> |
+| Reports &amp; Analytics | <ul><li>[기여도 분석](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/)</li><li>[고객 속성](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)(최대 200개)</li></ul> |
 | Data Workbench | <ul><li>알고리즘 속성</li><li>사전 빌드된 작업 공간</li></ul> |
 | Analytics Platform | [라이브 스트림](https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1)(원시 데이터, 대시보드, 트리거) |
 
@@ -66,7 +66,7 @@ Predictive Intelligence로 업그레이드하면 [Analytics Premium](../admin-ge
 
 | 제품 | 업그레이드 |
 |---|---|
-| Reports &amp; Analytics | [기여도 분석](https://marketing.adobe.com/resources/help/ko_KR/analytics/contribution/) |
+| Reports &amp; Analytics | [기여도 분석](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/) |
 | Data Workbench | 대상 자격 조건 및 예측 마케팅을 위해 사전 빌드된 작업 공간. |
 | Analytics Platform | 라이브 스트림(대시보드 및 트리거) |
 
@@ -96,24 +96,24 @@ TechOps에서는 계약 약속을 검토하고 적절한 관리 인프라의 용
 
 **Premium Complete** 및 **Advanced Attribution**
 
-사전 설치된 템플릿의 규칙 기반 속성에 대해서는 [규칙 기반 속성](https://marketing.adobe.com/resources/help/ko_KR/insight/client/?f=c_rules_attrib)을 참조하십시오.
+사전 빌드된 템플릿에 있는 규칙 기반 속성에 대해서는 [규칙 기반 속성](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib)을 참조하십시오.
 
-알고리즘 속성의 경우 [Best Fit Attribution](https://marketing.adobe.com/resources/help/ko_KR/insight/client/?f=c_attrib_algorithmic)을 참조하십시오.
+알고리즘 속성에 대해서는 [가장 적절한 속성](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_attrib_algorithmic)을 참조하십시오.
 
 **Predictive Intelligence**
 
 Data Workbench의 Predictive intelligence에는 다음의 시각화 기능들이 포함됩니다.
 
-* [대상 성향 점수](https://marketing.adobe.com/resources/help/ko_KR/insight/client/?f=c_visitor_propensity)
-* [방문자 클러스터링](https://marketing.adobe.com/resources/help/ko_KR/insight/client/?f=c_visitor_cluster)
-* [상관관계 분석](https://marketing.adobe.com/resources/help/ko_KR/insight/client/?f=c_correlation_analysis)
+* [대상 성향 점수](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_visitor_propensity)
+* [방문자 클러스터링](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_visitor_cluster)
+* [상관 관계 분석](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_correlation_analysis)
 
 
 **Customer 360** 및 **Advanced Attribution**
 
-[규칙 기반 속성](https://marketing.adobe.com/resources/help/ko_KR/insight/client/?f=c_rules_attrib)에서 사전 설치된 템플릿의 Analytics 규칙 기반 속성을 참조하십시오.
+[규칙 기반 속성](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib)의 사전 빌드된 템플릿에 있는 Analytics 규칙 기반 속성을 참조하십시오.
 
-[Best Fit Attribution](https://marketing.adobe.com/resources/help/ko_KR/insight/client/?f=c_attrib_algorithmic)에서 알고리즘 속성 템플릿을 참조하십시오.
+[가장 적절한 속성](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_attrib_algorithmic)의 알고리즘 속성 템플릿을 참조하십시오.
 
 ## Experience Cloud - 사용자 및 제품 관리 {#section_6471C54454024301B2E0B687F79F6738}
 
@@ -123,7 +123,7 @@ Experience Cloud에 참여하면 [!DNL marketing.adobe.com]의 Experience Cloud�
 
 **사용자 및 그룹 관리**
 
-사용자 관리는 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/help/aedash.html)(제품 링크)에서 수행됩니다.
+사용자 관리는 [Adobe Admin Console](https://helpx.adobe.com/enterprise/help/aedash.html)(제품 링크)에서 수행됩니다.
 
 Adobe Admin Console에서 만든 그룹과 솔루션 그룹(예: Adobe Analytics) 간에 1:1 매핑을 설정할 수 있습니다. 그런 다음 매핑된 Admin Console 그룹에 추가된 새 사용자는 자동으로 생성되고 사용자의 Adobe ID에 연결된 Analytics 솔루션 계정을 갖게 됩니다. (기존 사용자가 Experience Cloud 로그인을 통해 솔루션에 액세스하려면 자신의 솔루션 계정 자격 증명을 수동으로 연결해야 합니다.)
 
