@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloud의 솔루션에 대한 도움말 및 제품 �
 description: Adobe Experience Cloud의 솔루션에 대한 도움말 및 제품 설명서입니다.
 seo-description: Experience Cloud 도움말
 translation-type: tm+mt
-source-git-commit: 7e09e666cf9102ab02bab85b5546f9dc6f2ca635
+source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
 
 ---
 
@@ -18,6 +18,7 @@ Adobe Experience Cloud에 대한 도움말 및 제품 설명서입니다.
 * Subscribe to the [Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) to receive release notes each month.
 * 제품 비디오: 제품 비디오는 [Adobe 비디오 학습](https://helpx.adobe.com/experience-cloud/tutorials.html)에서 사용할 수 있습니다.
 * Experience League: Visit the [Adobe Experience League](https://landing.adobe.com/experience-league/) for guided learning.
+* Experience Cloud 도움말 센터
 
 ## ![Experience Cloud 도움말](assets/experience_cloud_appicon_32.png) Experience Cloud 도움말
 
@@ -50,7 +51,7 @@ Adobe Experience Cloud에 대한 도움말 및 제품 설명서입니다.
 
 ## ![Target 도움말](assets/mc_target_32.png) Target 도움말
 
-* [Target release notes](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
+* [Target 릴리스 노트](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
 * [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
 ## ![Experience Manager 도움말](assets/mc_experiencemanager_32.png) Experience Manager 도움말
