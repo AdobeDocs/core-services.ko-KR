@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 고객 속성에 대한 데이터 파일 및 데이터 소스에 대해
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
+source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>쉼표로 구분된 값 파일(예: Excel에서 만든 파일)입니다. 고객 속성 데이터를 포함하는 파일입니다. </p> <p> <b>이름 지정 요구 사항:</b> 파일 이름 확장명에 공백 또는 ".", "..", "/", ":" 문자가 포함되지 않아야 합니다. </p> </td> 
+   <td colname="col2"> <p>쉼표로 구분된 값 파일(예: Excel에서 만든 파일)입니다. 고객 속성 데이터를 포함하는 파일입니다. </p> <p> <b>이름 지정 요구 사항:</b> 파일 이름 확장명에 공백이 들어 있지 않은지 확인하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
