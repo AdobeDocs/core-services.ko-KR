@@ -5,7 +5,7 @@ seo-title: 조직에 보고서 세트 매핑
 title: 조직에 보고서 세트 매핑
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: d9d6cebc0e9e14eac2471dc79b91276a154e35e0
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -107,7 +107,7 @@ Experience Cloud ID 서비스가 현재 보고서 세트에 배포된 경우 보
 
 **Experience Cloud 조직에 대한 조직 ID만 알면 어떻게 합니까? 내 조직 ID의 이름을 찾으려면 어떻게 해야 합니까?**
 
-[조직 및 계정 설정](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=organizations)에서 조직 이름을 찾을 수 있습니다.
+[조직 및 계정 설정](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)에서 조직 이름을 찾을 수 있습니다.
 
 **"매핑된 날짜" 열에 날짜가 표시됩니다. 누가 매핑했습니까?**
 
