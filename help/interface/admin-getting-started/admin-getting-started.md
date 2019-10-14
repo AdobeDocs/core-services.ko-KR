@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: Experience Cloud 사용자 및 제품 관리
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 ---
 
@@ -15,19 +15,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 # Experience Cloud 사용자 및 제품 관리 {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
 Admin Console에 로그인 및 Experience Cloud 사용자 권한 및 제품 프로필 관리 방법에 대해 알아봅니다.
-
-
-<!-- marketing-cloud-identity-management.xml -->
-
-<!-- user_mgmt_admin.xml -->
-
-<!-- domain change for 2018 
-<ul id="ul_6654B3993EBE4DE0A3FBCFA5173A52D1"> 
- <li id="li_BE41EB31960B4C079E864FAA2E322BB4"> Private Beta - Support new domain alongside old domain for selected customers (June, 2018) </li> 
- <li id="li_0513CA457FAA4F37A9D5E514DEAF2067"> General Rollout - Serve both old and new domains seamlessly for all customers (Aug, 2018) </li> 
- <li id="li_AB89A6D00A274EB7863D0243757322DE"> Public Beta - Drive solution teams and customers to switch references from old domain to new domain (Aug - Oct, 2018) </li> 
- <li id="li_6FED48B1F361493082102E823EA335F4"> General Availability - Redirect all old domain requests to new domain (Oct, 2018) </li> 
-</ul> -->
 
 >[!IMPORTANT]
 >
@@ -37,7 +24,6 @@ Admin Console에 로그인 및 Experience Cloud 사용자 권한 및 제품 프�
 
 Adobe Experience Cloud 사용자 관리의 최신 기능에 대해 알아보십시오.
 
-
 ## Admin Console에 로그인 {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
 관리자는 더 이상 솔루션으로 사용자를 관리하지 않습니다. 이제 Experience Cloud에 대한 사용자 및 제품 관리가 Admin Console에서 발생합니다.
@@ -46,7 +32,6 @@ Adobe Experience Cloud 사용자 관리의 최신 기능에 대해 알아보십�
 
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. [Adobe ID 또는 Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) 및 암호를 입력합니다.
-
 
 또는 Experience Cloud 메뉴(![](assets/menu-icon.png))에서 **[!UICONTROL 관리]&gt;****Admin Console 시작[!UICONTROL 을 클릭합니다]**.
 
@@ -93,9 +78,6 @@ Target에서 작업 공간은 제품 프로필입니다. 이를 통해 조직에
 * [제품 및 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * 비디오: [Adobe Admin Console에서 Target 작업 공간을 구성하는 방법](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
-
-
-
 ## 캠페인 - 제품 프로필, 임차인 및 보안 그룹 {#section_09CDF75366444CF5810CF321B7C712F3}
 
 캠페인의 *임차인*&#x200B;은 Admin Console 제품 페이지에서 *제품*&#x200B;으로 표시됩니다.
@@ -139,7 +121,6 @@ Audience [Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_admini
 * Target 도움말의 [Enterprise 사용자 권한](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html)
 * 비디오: [Adobe Admin Console에서 Target 작업 공간을 구성하는 방법](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
-
 ## 제품 프로필에 Analytics 액세스 권한 지정 {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
 제품 프로필에 Analytics 보고서 액세스 권한(보고서 세트, 지표, 차원 등)을 지정합니다.
@@ -150,7 +131,6 @@ Audience [Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_admini
 1. 그런 다음 제품 프로필에서 **[!UICONTROL 권한]**(관리자만 사용 가능)을 클릭합니다.
 1. 프로필의 권한 구성:
 
-
 | 요소 | 설명 |
 |--- |--- |
 | 보고서 세트 | 특정 보고서 세트에 대한 권한을 사용하도록 설정합니다. |
@@ -159,12 +139,8 @@ Audience [Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_admini
 | 보고서 세트 도구 | 웹 서비스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항목에 대한 사용자 권한을 활성화합니다. |
 | Analytics 도구 | 일반 항목(청구, 로그 등), 회사 관리, 도구, 웹 서비스 액세스, Report Builder 및 Data Connectors 통합에 대한 사용자 권한을 활성화합니다. 관리 콘솔 사용자 지정 카테고리의 회사 설정이 Analytics 도구로 이동되었습니다. |
 
-
-
 ## 사용자에게 관리자 역할 위임 {#task_3A072C4AA9734BC59FFA7E015271BC7E}
 
-
-<!-- t_admin-roles.xml -->
 Admin Console에서 조직의 다른 사용자에게 제한된 관리 권한을 위임할 수 있습니다. 위임된 역할을 통해 사용자는 최종 사용자에 대한 소프트웨어 액세스를 관리하고, 액세스 배포 기능을 제공하고, 지원 위임자 역할을 할 수 있습니다.
 
 예를 들어 다음 작업을 수행할 수 있습니다.
@@ -172,7 +148,6 @@ Admin Console에서 조직의 다른 사용자에게 제한된 관리 권한을 
 * 제작 감독이 Creative Cloud에 대한 액세스 권한을 부여하도록 할 수 있습니다.
 * 마케팅 관리자가 Experience Cloud에 대한 액세스 권한을 부여하도록 할 수 있습니다.
 * 이러한 두 역할이 서로의 역할을 넘지 않도록 구분합니다.
-
 
 이러한 역할을 사용하면 필요 이상으로 더 많은 기능을 제공하지 않고 다른 사람에게 관리를 동시에 위임할 수 있습니다.
 
@@ -185,8 +160,6 @@ Admin Console에서 조직의 다른 사용자에게 제한된 관리 권한을 
 
 Experience Cloud에서 지원되는 브라우저입니다.
 
-
-<!-- browsers.xml -->
 **Experience Cloud 핵심 서비스**
 
 * Microsoft의 최신 Internet Explorer입니다. (Microsoft에서 Internet Explorer 8, 9 및 10에 대한 [지원을 종료](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support)했습니다. 따라서 Adobe에서는 이러한 버전의 Internet Explorer에 대해 보고된 문제는 수정하지 않습니다.)
@@ -194,14 +167,8 @@ Experience Cloud에서 지원되는 브라우저입니다.
 * Mozilla Firefox
 * Apple Safari
 
-
 **솔루션 및 제품 요구 사항**
 
-* [Analysis Workspace 및 Reports &amp; Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/?f=requirements)(Adobe Social 포함)
-* [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/?f=system_requirements)
-* [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/index.html?f=c_sys_reqs)
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/install/?f=c_Data_Workbench_Client_install)
-* [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/ov/?f=r_supported_browsers)
-* [Adobe Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_supported_browsers)
-* [Adobe Campaign Standard](https://helpx.adobe.com/campaign/standard/start/using/compatible-browsers.html)
-* [Adobe Campaign Classic](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) (Adobe Social 포함)
+* [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
+* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
