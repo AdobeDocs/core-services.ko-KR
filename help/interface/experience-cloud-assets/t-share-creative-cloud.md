@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Experience Cloud 자산 폴더 공유
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -50,8 +50,8 @@ Creative Cloud 사용자와 Experience Cloud 자산 폴더를 공유합니다.
 Creative Cloud 사용자를 모두 제거했으면 폴더가 공유 취소되고 Creative Cloud 사용자는 더 이상 액세스할 수 없습니다.
 공유 자산을 사용하는 추가 방법에는 다음이 포함됩니다.
 
-* 소셜 게시를 위해 [!UICONTROL 의 ]자산 선택기 [!DNL Adobe Social]에서 자산을 사용합니다. [게시자 페이지](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher)를 참조하십시오.
-* 활동의 이미지에 대해서는 [의 ](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content)컨텐츠 라이브러리[!DNL Adobe Target]에서 자산을 로드하거나 교체합니다.
+* 소셜 게시를 위해 [!UICONTROL 의 ]자산 선택기 [!DNL Adobe Social]에서 자산을 사용합니다.
+* Load or swap assets in the [Offers Library](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] for images in activities.
 
 Creative Cloud에 폴더를 공유하면 폴더에 Creative Cloud 로고가 표시됩니다.
 
