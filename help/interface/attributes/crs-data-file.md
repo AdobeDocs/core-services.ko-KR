@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 고객 속성에 대한 데이터 파일 및 데이터 소스에 대해
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -160,7 +160,7 @@ Visitor.setCustomerIDs({
 });
 ```
 
-(자세한 내용은 [고객 ID 및 인증 상태](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids)를 참조하십시오.)
+(자세한 내용은 [고객 ID 및 인증 상태](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)를 참조하십시오.)
 
 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 사람][!UICONTROL &gt;****고객 속성]**&#x200B;에서 다음을 수행합니다.
 
