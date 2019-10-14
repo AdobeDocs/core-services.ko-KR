@@ -1,61 +1,114 @@
 ---
-description: Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 제품입니다. 또한 클라우드 솔루션 및 핵심 서비스에 빠르게 액세스할 수 있는 직관적인 인터페이스입니다.
+description: Adobe Experience Cloud에 대한 자체 도움말, 제품 설명서 및 기술 문서 Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 제품입니다.
 keywords: 핵심 서비스
-seo-description: Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 제품입니다. 또한 클라우드 솔루션 및 핵심 서비스에 빠르게 액세스할 수 있는 직관적인 인터페이스입니다.
-seo-title: Experience Cloud 및 핵심 서비스 도움말
-solution: Experience Cloud
+seo-description: 이 페이지에서는 Experience Cloud에 대한 자체 도움말, 제품 설명서 및 기술 설명서를 제공합니다.
+seo-title: Adobe Experience Cloud 및 핵심 서비스 도움말 및 제품 설명서
+solution: Adobe Experience Cloud
 title: Experience Cloud 및 핵심 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
 
-# Experience Cloud 및 핵심 서비스 도움말
+# Experience Cloud 및 핵심 서비스 제품 설명서
 
-Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 제품입니다. 또한 클라우드 솔루션 및 핵심 서비스에 빠르게 액세스할 수 있는 직관적인 인터페이스입니다.
+이 페이지에서는 Adobe Experience Cloud 솔루션 및 서비스에 대한 자체 도움말, 지원, 기술 및 제품 설명서를 제공합니다. Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 제품입니다. 또한 클라우드 솔루션 및 핵심 서비스에 빠르게 액세스할 수 있는 직관적인 인터페이스입니다.
 
-모든 솔루션 도움말에 액세스하려면 [Experience Cloud 제품 설명서](landing/experience-cloud-home.md)를 참조하십시오.
+## 릴리스 노트 및 커뮤니티 리소스
 
-![](assets/experience-cloud-core-services.png)
+릴리스 노트, 비디오, 커뮤니티 포럼 및 지원:
 
-## 핵심 서비스 제품 설명서
+* [Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) - 모든 제품
+* [우선 순위 제품](https://www.adobe.com/subscription/priority-product-update.html) 업데이트 - 매월 릴리스 노트를 받으려면 구독)
+* [Adobe 비디오 학습](https://helpx.adobe.com/experience-cloud/tutorials.html)
+* [Adobe Experience League](https://landing.adobe.com/experience-league/) - 가이드 학습
+* [고객 지원 센터에 문의](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud)
+* [Experience Cloud 학습 및 지원](https://helpx.adobe.com/support/experience-cloud.html)
+* [Adobe 교육 및 자습서](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Customer Experience 블로그](https://theblog.adobe.com/customer-experience/) (블로그)
+* [핵심 서비스 개요](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/)(블로그)
 
-| 서비스 | 설명 |
-|--- |--- |
-| [활성화](activation/activation.md) | 활성화는 Experience Cloud 솔루션을 구현하고 배포할 수 있는 핵심 서비스입니다. 이러한 서비스에는 다음이 포함됩니다.<ul><li>[Launch, by Adobe](https://docs.adobelaunch.com/) (최신 태그 관리 솔루션)</li><li>[다이내믹 태그 관리자](https://marketing.adobe.com/resources/help/en_US/dtm/)</li><li>[Triggers](activation/triggers.md)</li><li>[감사기](https://marketing.adobe.com/resources/help/en_US/auditor/)</li><li>[Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)</li></ul> |
-| [관리](admin-getting-started/admin-getting-started.md) | Experience Cloud 사용자 자격 및 제품 프로필을 관리합니다. |
-| [자산](experience-cloud-assets/experience-cloud-assets.md) | Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준비가 끝난 자산에 대해 중앙 집중식 단일 저장소를 제공합니다. |
-| [Exchange](https://experiencecloud.adobeexchange.com/) | 최상의 확장 프로그램, 스크립트 등을 사용하여 Adobe Experience Cloud 기능을 확장합니다. 검색 막대로 탐색하거나 제품 또는 앱 유형별로 정렬합니다. |
-| [피드](feed.md) | Experience Cloud 피드를 사용하여 다른 사용자와 직접 자산 및 Analytics 보고서를 공유하거나 게시합니다. |
-| [Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/) | Mobile Services는 Adobe Marketing Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능을 가져와서 사용자의 모바일 애플리케이션 참여를 이해하고 개선할 수 있도록 해줍니다. |
-| [사람](audience-library/audience-library.md) | 대상 라이브러리에서는 대상을 만들고, 기존 대상을 결합하여 복합 대상을 만들고, 모든 공유 대상을 볼 수 있습니다.<br>[고객 속성](attributes/attributes.md)에서 엔터프라이즈 고객 데이터를 Experience Cloud에 업로드할 수도 있습니다. |
+## ![Experience Cloud 도움말](assets/experience_cloud_appicon_32.png) Experience Cloud 및 핵심 서비스 도움말
 
-## 관리 및 활성화
+프로필, 대상, 고객 속성, Experience Cloud ID Service, Adobe Mobile 등에 대한 도움말입니다.
+
+* [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
+* [대상자](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
+* [자산](experience-cloud-assets/experience-cloud-assets.md)
+* [고객 속성](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)
+* [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
+* [다이내믹 태그 관리](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+* [Exchange](https://experiencecloud.adobeexchange.com/)
+* [Experience Cloud ID 서비스](https://docs.adobe.com/content/help/en/id-service/using/home.html)
+* [Experience Platform Launch](https://docs.adobelaunch.com/)
+* [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)
+* [피드](feed.md)
+* [일반 데이터 보호 규정(GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+
+### 관리 및 활성화
+
+사용자 및 제품 관리:
 
 * [사용자 및 제품 관리](admin-getting-started/admin-getting-started.md)(Admin Console)
 * [핵심 서비스용 솔루션을 사용하도록 설정](core-services/core-services.md)
 * [FAQ](admin-getting-started/admin-getting-started.md)
 * [조직 및 계정 연결](admin-getting-started/organizations.md)
-* [Experience Cloud ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)
 * [통합](marketing-cloud-integrations.md)
-* [Adobe Target과 Experience Cloud 통합](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_integrating_target_with_mac.html)
+* [Adobe Target과 Experience Cloud 통합](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 * [Experience Cloud 개인 정보 보호 및 보안 개요](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Adobe Experience Cloud의 프로필](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) 관리(블로그)
 * [DNS 프리페치](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
-## 릴리스 노트
+## ![Analytics 도움말](assets/mc_analytics_32.png) 분석 도움말
 
-* [Experience Cloud의 새로운 기능](marketing-cloud-interface/marketing-cloud-interface.md#concept_9A4370BD59744928BDC9F87E978798B3)
-* [릴리스 노트 - 누적 수정사항](marketing-cloud-interface/release-notes.md#concept_F5C9FF69A5B44395BB5FA0552F4E9175)
+웹 분석, 마케팅 및 크로스채널 분석, 기여도 분석 및 예측 분석:
 
-## 커뮤니티 리소스 및 블로그
+* [분석 도움말 홈](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
+* [도구](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
+* [관리](https://docs.adobe.com/content/help/en/analytics/admin/home.html)
+* [구현](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
+* [구성 요소](https://docs.adobe.com/content/help/en/analytics/components/home.html)
+* [내보내기](https://docs.adobe.com/content/help/en/analytics/export/home.html)
+* [가져오기](https://docs.adobe.com/content/help/en/analytics/import/home.html)
+* [통합](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
+* [Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
+* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
 
-* [Experience Cloud 학습 및 지원](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [연락처 지원](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Experience Cloud 커뮤니티](https://forums.adobe.com/community/experience-cloud)
-* [Adobe 교육 및 자습서](https://helpx.adobe.com/learning.html?promoid=KAUDK)
-* [Adobe Customer Experience 블로그](https://theblog.adobe.com/customer-experience/) (블로그)
-* [핵심 서비스 개요](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/)(블로그)
+## ![Audience Manager 도움말](assets/mc_audiencemanager_32.png) Audience Manager 도움말
+
+데이터 관리 플랫폼, 고객 세분화, 고객 인사이트, 실시간 작업:
+
+* [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
+
+## ![Target 도움말](assets/mc_target_32.png) 타겟 도움말
+
+A/B 및 다변량 테스트, 옴니채널 개인화, AI 기반의 자동화 및 확장성:
+
+* [Target 릴리스 노트](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
+* [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
+
+## ![Experience Manager 도움말](assets/mc_experiencemanager_32.png) Experience Manager 도움말
+
+콘텐츠 관리 시스템, 디지털 자산 관리, 디지털 등록 및 양식, 관리 서비스:
+
+* [Adobe Experience Manager 학습 및 지원](https://helpx.adobe.com/support/experience-manager.html)
+
+## ![캠페인 도움말](assets/mc_campaign_32.png) 캠페인 도움말
+
+이메일 마케팅, 고객 여정, 옴니채널 마케팅:
+
+* Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
+* Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+
+## ![Advertising Cloud](assets/advertisingcloud_appicon_32.png) 도움말 Advertising Cloud 도움말
+
+광고 구매 플랫폼, 검색 마케팅 관리, TV 광고, 크리에이티브 관리
+
+Advertising Cloud에 대한 도움말을 보려면 페이지의 맨 위에 있는 **도움말** 아이콘(?)을 클릭합니다.
+
+## ![Primetime 도움말](assets/primetime_app_32.png) Primetime 도움말
+
+* [Primetime 도움말](http://help.adobe.com/en_US/primetime/)
