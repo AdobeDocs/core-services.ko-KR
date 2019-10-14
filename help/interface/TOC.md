@@ -4,14 +4,13 @@ user-guide-title: 핵심 서비스 사용 안내서
 user-guide-url: https://www.adobe.com/kr/
 index: true
 translation-type: tm+mt
-source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
 
 # 핵심 서비스 사용 안내서 {#interface}
 
-+ [Experience Cloud 제품 설명서](landing/experience-cloud-home.md)
 + [Experience Cloud 및 핵심 서비스 도움말](experience-cloud.md)
 + 핵심 서비스 정보 {#about-core-services}
    + [핵심 서비스 개요](core-services-landing.md)
