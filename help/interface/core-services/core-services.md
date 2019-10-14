@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 핵심 서비스용 솔루션을 사용하도록 설정
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: b4809ff0b4546f105ac6270eca1bfce2b6467876
+source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 ---
 
@@ -30,12 +30,9 @@ Experience Cloud에 참여하기 위해 수행할 작업:
 * **Adobe Analytics:** Standard 또는 Premium(이전SiteCatalyst SKU 아님).
 * **Adobe Target:** Standard 또는 Premium.
 
-
-
 >[!NOTE]
 >
 >For Target, [migrate to at.js from mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov2/t_target-migrate-atjs.html).
-
 
 ![](assets/step2_icon.png) 구현을 현대화하고 관리자가 프로비저닝되도록 합니다.
 
@@ -47,7 +44,7 @@ Experience Cloud에 참여하기 위해 수행할 작업:
 
 **관리자 액세스**
 
-관리자가 되면 [marketing.adobe.com](https://marketing.adobe.com)에 로그인할 수 있습니다.
+After you are an administrator, you can log in at [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 
 Experience Cloud 메뉴 탐색에 **[!UICONTROL 관리]링크가 표시됩니다.**
 
@@ -59,7 +56,7 @@ Experience Cloud에 로그인하려면 사용자가 다음을 수행해야 합�
 
 
 1. Adobe ID를 보유합니다.
-1. [!DNL marketing.adobe.com]에 로그인합니다.
+1. Sign in at [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 1. 엔터프라이즈 그룹에 매핑된 솔루션 그룹에 속합니다.
 1. 필요한 경우 솔루션 계정을 Adobe ID에 연결합니다(아래에 설명).
 
@@ -79,35 +76,35 @@ Analytics &gt; 관리 도구에서 관리한 Analytics 그룹처럼 이미 솔�
 
 ## 2단계. Dynamic Tag Manager 또는 Experience Platform Launch를 사용하여 Experience Cloud ID 서비스 구현{#section_3C9F6DF37C654D939625BB4D485E4354}
 
-Experience Cloud 핵심 서비스를 사용하는 가장 간단한 방법은 다이내믹 태그 관리자에서 [Experience Cloud ID 서비스 도구](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-dtm-implement.html)를 통해 Analytics 및 Target에 대해 자동으로 활성화하는 것입니다. (또는 Experience Platform Launch)
+Experience Cloud 핵심 서비스를 사용하는 가장 간단한 방법은 다이내믹 태그 관리자에서 [Experience Cloud ID 서비스 도구](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/standard.html)를 통해 Analytics 및 Target에 대해 자동으로 활성화하는 것입니다. (또는 Experience Platform Launch)
 
 ![](assets/menu-activation-shell.png)
 
-전체 Experience Cloud ID 서비스(이전의 방문자 ID)를 보려면 [여기](https://marketing.adobe.com/resources/help/en_US/mcvid/)로 이동하십시오.
+For complete Experience Cloud ID service help (formerly, visitor ID), go [here](https://docs.adobe.com/content/help/en/id-service/using/home.html).
 
-또한 차세대 태그 관리 제품은 ](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/)Launch, Adobe 제공[입니다.
+또한 차세대 태그 관리 제품은 ](https://docs.adobelaunch.com/getting-started)Launch, Adobe 제공[입니다.
 
 **Dynamic Tag Management 또는 Launch를 사용하지 않습니까?**
 
 Dynamic Tag Management를 사용하지 않는 경우 다음과 같이 JavaScript 배포([!DNL VisitorAPI.js])를 사용하여 ID 서비스를 수동으로 구현합니다.
 
-1. [Analytics에 대한 Experience Cloud ID 서비스 구현](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html)에 설명된 단계를 수행합니다.
+1. [Analytics에 대한 Experience Cloud ID 서비스 구현](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-analytics.html)에 설명된 단계를 수행합니다.
 
-   추가 [고객 ID](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)를 설정하는 것도 좋습니다. 이러한 ID는 각 방문자와 연결되며 Experience Cloud 핵심 서비스의 현재 및 향후 기능을 활성화합니다.
+   추가 [고객 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)를 설정하는 것도 좋습니다. 이러한 ID는 각 방문자와 연결되며 Experience Cloud 핵심 서비스의 현재 및 향후 기능을 활성화합니다.
 
 1. 기존 [!DNL s_code]를 버전 H.27.3 이상으로 업데이트하거나 기존 [!DNL AppMeasurement.js]를 버전 1.4 이상으로 업데이트합니다.
 
-   이러한 파일은 Analytics 관리 도구의 [코드 관리자](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=code_manager_admin)에서 다운로드할 수 있습니다.
+   이러한 파일은 Analytics 관리 도구의 [코드 관리자](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html)에서 다운로드할 수 있습니다.
 
-   ([에 대한 추가 정보가 필요한 경우 ](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html)JavaScript 구현[!DNL AppMeasurement.js] 안내서를 이용할 수 있습니다.)
+   ([에 대한 추가 정보가 필요한 경우 ](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html)JavaScript 구현[!DNL AppMeasurement.js] 안내서를 이용할 수 있습니다.)
 
 1. Analytics에 대한 고객 ID를 동기화합니다. [Analytics - 고객 ID 동기화](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437)(아래)를 참조하십시오.
 
 ## Analytics 및 Target - 고객 ID 동기화 {#section_AD473A6A21C1446498E700363F9A8437}
 
-Experience Cloud ID 서비스 설정의 일부로, Analytics 및 Target에 대해 [고객 ID](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)를 Experience Cloud와 동기화하는 것이 좋습니다.
+Experience Cloud ID 서비스 설정의 일부로, Analytics 및 Target에 대해 [고객 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)를 Experience Cloud와 동기화하는 것이 좋습니다.
 
-Target에서 [!DNL mbox3rdpartyid]는 고객 ID를 가져와서 Target에 보내야 합니다. (Target에서 [고객 속성 작업](https://marketing.adobe.com/resources/help/en_US/target/target/c_working-with-customer-attributes.html)을 참조하십시오.)
+Target에서 [!DNL mbox3rdpartyid]는 고객 ID를 가져와서 Target에 보내야 합니다. (Target에서 [고객 속성 작업](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)을 참조하십시오.)
 
 방문자가 사용자의 웹 사이트에서 인증을 받거나 다른 방식으로 식별될 경우 페이지나 앱에 해당 개인의 CRM 고객 ID가 제공되어야 합니다. 그러면 해당 기능 호출을 사용하여 고객 ID를 Experience Cloud와 동기화할 수 있습니다. 이와 같이 동기화가 진행되면 방문자의 CRM 고객 ID가 Experience Cloud에 저장되고 Experience Cloud에서 사용할 해당 고객의 특성이 활성화됩니다.
 
@@ -121,7 +118,7 @@ Target에서 [!DNL mbox3rdpartyid]는 고객 ID를 가져와서 Target에 보내
 
 **Mobile SDK**
 
-See the *Experience Cloud ID service* section for syntax examples about how to set additional customer IDs in [Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=methods) and [iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=methods) Mobile applications.
+Android *및 iOS Mobile 애플리케이션에서 추가 고객 ID를 설정하는 방법에 대한 구문 예는 Experience Cloud ID 서비스*[](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) 섹션을 [참조하십시오](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html) .
 
 **이전 데이터의 속성 활성화**
 
@@ -137,17 +134,17 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스 및 사용자)는 
 
 ## 4단계. (Adobe Analytics) Analytics AppMeasurement 코드 현대화 {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-지역 데이터 수집(RDC)에서 작업 중인지 확인합니다. 데이터 수집 도메인이 [!DNL omtrdc.net]이거나 CNAME이 [!DNL omtrdc.net]으로 매핑된 경우 RDC를 사용해야 합니다. 자세한 내용은 [RDC로 전환](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/?f=rdc_transition)을 참조하십시오. 자사 쿠키를 사용하는 경우 [CNAME 및 방문자 ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_cname)에서 데이터 수집 CNAME 및 도메인 간 추적에 대해 알아보십시오.
+지역 데이터 수집(RDC)에서 작업 중인지 확인합니다. 데이터 수집 도메인이 [!DNL omtrdc.net]이거나 CNAME이 [!DNL omtrdc.net]으로 매핑된 경우 RDC를 사용해야 합니다. 자세한 내용은 [RDC로 전환](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)을 참조하십시오. If you are using first-party cookies, refer to [CNAME and the Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) for information about data collection CNAMEs and cross-domain tracking.
 
 방문자 API를 비롯한 JavaScript 라이브러리를 업데이트하여 Analytics 구현을 현대화하는 것이 좋습니다. Dynamic Tag Management에서 [!DNL Adobe Analytics] 도구를 추가하고 구성 방법으로 *`Automatic`*&#x200B;을 지정하는 간편한 방법입니다.
 
-Dynamic Tag Management에서 **[!UICONTROL <Web Property Name>]**&gt;**[!UICONTROL 개요]**&gt;**[!UICONTROL 도구 추가]**&gt;**[!UICONTROL Adobe Analytics]**를 클릭합니다. 배포 정보에 대해서는 다이내믹 태그 관리에서[Adobe Analytics 설정](https://marketing.adobe.com/resources/help/en_US/dtm/?f=analytics_dtm)을 참조하십시오.
+Dynamic Tag Management에서 **[!UICONTROL <Web Property Name>]**&gt;**[!UICONTROL 개요]**&gt;**[!UICONTROL 도구 추가]**&gt;**[!UICONTROL Adobe Analytics]**를 클릭합니다. 배포 정보에 대해서는 다이내믹 태그 관리에서[Adobe Analytics 설정](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html)을 참조하십시오.
 
 ## 5단계. (Adobe Target) Adobe Target 구현 현대화 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* 다이내믹 태그 관리에 [Adobe Target 도구를](https://marketing.adobe.com/resources/help/en_US/dtm/target.html) 추가합니다. 그러면 라이브러리 검색이 자동이 됩니다. Dynamic Tag Management에서 **[!UICONTROL <Web Property Name>]**&gt;**[!UICONTROL 개요]**&gt;**[!UICONTROL 도구 추가]**&gt;**[!UICONTROL Adobe Target]**를 클릭합니다.**&#x200B;참고:**Dynamic Tag Management를 사용하여 Target(및 기타 솔루션)에 대해 Experience Cloud ID 서비스를 배포할 수도 있습니다. Target에서 핵심 서비스를 사용하려면 Experience Cloud ID 서비스 업데이트가**&#x200B;필요합니다&#x200B;**.
-* 다이내믹 태그 관리를 사용하지 않는 경우 수동으로 [mbox 라이브러리를 업데이트](https://marketing.adobe.com/resources/help/en_US/target/ov/?f=t_mbox_download)하십시오.
-* 액세스를 요청하여 Adobe Target에 대한 보고 소스로 Adobe Analytics를 사용합니다. Target 및 Analytics 데이터가 처리 중에 동일한 서버 호출에 결합되므로 방문자가 두 솔루션 간에 연결됩니다. [Target 구현을 위해 Analytics 사용](https://marketing.adobe.com/resources/help/en_US/target/a4t/?f=a4t)을 참조하십시오.
+* 다이내믹 태그 관리에 [Adobe Target 도구를](https://docs.adobe.com/content/help/en/dtm/using/tools/target.html) 추가합니다. 그러면 라이브러리 검색이 자동이 됩니다. Dynamic Tag Management에서 **[!UICONTROL <Web Property Name>]**&gt;**[!UICONTROL 개요]**&gt;**[!UICONTROL 도구 추가]**&gt;**[!UICONTROL Adobe Target]**를 클릭합니다.**&#x200B;참고:**Dynamic Tag Management를 사용하여 Target(및 기타 솔루션)에 대해 Experience Cloud ID 서비스를 배포할 수도 있습니다. Target에서 핵심 서비스를 사용하려면 Experience Cloud ID 서비스 업데이트가**&#x200B;필요합니다&#x200B;**.
+* 다이내믹 태그 관리를 사용하지 않는 경우 수동으로 [mbox 라이브러리를 업데이트](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html)하십시오.
+* 액세스를 요청하여 Adobe Target에 대한 보고 소스로 Adobe Analytics를 사용합니다. Target 및 Analytics 데이터가 처리 중에 동일한 서버 호출에 결합되므로 방문자가 두 솔루션 간에 연결됩니다. [Target 구현을 위해 Analytics 사용](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)을 참조하십시오.
 * 
    >[!IMPORTANT]
    >
@@ -241,6 +238,6 @@ Adobe [!DNL Experience Cloud] 내의 실시간 대상 프로파일링 및 기타
 
 적절한 옵트아웃 기능을 제공하려는 경우 사이트 방문자가 기존 옵트아웃 프로세스에 Audience Manager 옵트아웃을 추가해야 합니다.
 
-지침은 [Adobe Experience Cloud - Adobe 옵트아웃 구현](https://marketing.adobe.com/resources/help/en_US/sc/implement/opt_out.html)을 참조하십시오.
+지침은 [Adobe Experience Cloud - Adobe 옵트아웃 구현](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/data-collection/opt-out.html)을 참조하십시오.
 
-도메인 간 추적을 사용하려면 [데이터 수집 CNAME 및 도메인 간 추적](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_cname)을 참조하십시오.
+도메인 간 추적을 사용하려면 [데이터 수집 CNAME 및 도메인 간 추적](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)을 참조하십시오.
