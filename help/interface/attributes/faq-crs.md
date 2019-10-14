@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: FAQ, 제한 사항 및 우수 사례
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
+source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 ---
 
@@ -86,7 +86,7 @@ Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(Target 전용) </b>고객 속성 기능을 Target의 벌크 프로필 API와 어떻게 비교합니까? </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/test-target/r-profile-update" format="https" scope="external">벌크 프로필 API</a>를 사용하면 개별 프로필에 대해 또는 대량으로 API를 통해 Target 프로필을 직접 업데이트할 수 있습니다. 이 기능은 고객 속성과 비슷하지만, 다음과 같은 주요 차이점이 있습니다. </p> 
+   <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/target.html" format="https" scope="external">벌크 프로필 API</a>를 사용하면 개별 프로필에 대해 또는 대량으로 API를 통해 Target 프로필을 직접 업데이트할 수 있습니다. 이 기능은 고객 속성과 비슷하지만, 다음과 같은 주요 차이점이 있습니다. </p> 
     <ul id="ul_5AAA4A8497C04F50A8AAA9F776BB868E"> 
      <li id="li_B20AEA397F3B4C86A1140CDA61ABD575">프로필 API는 REST API 호출이며, 고객 속성은 FTP를 사용합니다. </li> 
      <li id="li_7FBE428EF5D34B6AA09B6368E8210344">Target의 프로필 API는 전체 Experience Cloud 대신 Target으로만 데이터를 보냅니다. </li> 
@@ -95,7 +95,7 @@ Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(Target 전용)</b> 고객 속성에서 Adobe Target으로 데이터를 업로드하면 Target 방문자의 프로필 라이프타임이 연장됩니까? </p> </td> 
-   <td colname="col2"> <p>예. Adobe Target 도움말의 <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">방문자 프로필 라이프타임</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>예. Adobe Target 도움말의 <a href="https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/visitor-profile.html" format="https" scope="external">방문자 프로필 라이프타임</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> (Target 전용)</b> 방문자가 고객 ID로 식별되면 바로 고객 속성에 업로드된 데이터를 타깃팅할 수 있습니까? </p> </td> 
