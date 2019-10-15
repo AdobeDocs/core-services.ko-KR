@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 및 핵심 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
 
 ---
 
@@ -17,8 +17,6 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 이 페이지에서는 Adobe Experience Cloud 솔루션 및 서비스에 대한 자체 도움말, 지원, 기술 및 제품 설명서를 제공합니다. Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 제품입니다. 또한 클라우드 솔루션 및 핵심 서비스에 빠르게 액세스할 수 있는 직관적인 인터페이스입니다.
 
 ## 릴리스 노트 및 커뮤니티 리소스
-
-릴리스 노트, 비디오, 커뮤니티 포럼 및 지원:
 
 * [Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) - 모든 제품
 * [우선 순위 제품](https://www.adobe.com/subscription/priority-product-update.html) 업데이트 - 매월 릴리스 노트를 받으려면 구독)
@@ -32,8 +30,6 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 * [핵심 서비스 개요](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/)(블로그)
 
 ## ![Experience Cloud 도움말](assets/experience_cloud_appicon_32.png) Experience Cloud 및 핵심 서비스 도움말
-
-프로필, 대상, 고객 속성, Experience Cloud ID Service, Adobe Mobile 등에 대한 도움말입니다.
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [대상자](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
@@ -50,8 +46,6 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ### 관리 및 활성화
 
-사용자 및 제품 관리:
-
 * [사용자 및 제품 관리](admin-getting-started/admin-getting-started.md)(Admin Console)
 * [핵심 서비스용 솔루션을 사용하도록 설정](core-services/core-services.md)
 * [FAQ](admin-getting-started/admin-getting-started.md)
@@ -63,8 +57,6 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 * [DNS 프리페치](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## ![Analytics 도움말](assets/mc_analytics_32.png) 분석 도움말
-
-웹 분석, 마케팅 및 크로스채널 분석, 기여도 분석 및 예측 분석:
 
 * [분석 도움말 홈](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 * [도구](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
@@ -79,33 +71,23 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ## ![Audience Manager 도움말](assets/mc_audiencemanager_32.png) Audience Manager 도움말
 
-데이터 관리 플랫폼, 고객 세분화, 고객 인사이트, 실시간 작업:
-
 * [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
 
 ## ![Target 도움말](assets/mc_target_32.png) 타겟 도움말
-
-A/B 및 다변량 테스트, 옴니채널 개인화, AI 기반의 자동화 및 확장성:
 
 * [Target 릴리스 노트](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
 * [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
 ## ![Experience Manager 도움말](assets/mc_experiencemanager_32.png) Experience Manager 도움말
 
-콘텐츠 관리 시스템, 디지털 자산 관리, 디지털 등록 및 양식, 관리 서비스:
-
 * [Adobe Experience Manager 학습 및 지원](https://helpx.adobe.com/support/experience-manager.html)
 
 ## ![캠페인 도움말](assets/mc_campaign_32.png) 캠페인 도움말
-
-이메일 마케팅, 고객 여정, 옴니채널 마케팅:
 
 * Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 * Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
 ## ![Advertising Cloud](assets/advertisingcloud_appicon_32.png) 도움말 Advertising Cloud 도움말
-
-광고 구매 플랫폼, 검색 마케팅 관리, TV 광고, 크리에이티브 관리
 
 Advertising Cloud에 대한 도움말을 보려면 페이지의 맨 위에 있는 **도움말** 아이콘(?)을 클릭합니다.
 
