@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
+source-git-commit: 3cc39f5c19c444f23564ff7549d801e958995271
 
 ---
 
@@ -85,6 +85,20 @@ Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청�
 | 사용 | 타사 쿠키 제한으로 인해 표준 s_vi 쿠키를 사용할 수 없는 경우 쿠키는 고유 방문자를 식별하는 데 사용됩니다. 퍼스트 파티 쿠키를 사용하는 구현에는 사용되지 않습니다. |
 | 위치 | 이 쿠키는 도메인에 퍼스트 파티 쿠키로 저장됩니다. |
 | 크기 | 33바이트 |
+
+## 쿠키 플래그
+
+다음 표에서는 Analytics 쿠키의 플래그를 설명합니다.
+
+| 쿠키(설정된 사람) | httpOnly | 보안 | SameSite |
+|--- |--- |--- |--- |
+| s_vi(http 응답) | 아니요 | SameSite가 "없음"이고 연결이 HTTPS를 사용하는 경우 예 | CNAME 사용 시 기본적으로 "Lax" 2o7.net 또는 omtrdc.net을 사용할 때 "없음"을 참조하십시오. |
+| s_ecid(http 응답) | 아니요 | 아니요 | "Lax" |
+| s_fid(Javascript) | 아니요 | 아니요 | 설정 취소 |
+| s_cc(Javascript) | 아니요 | 아니요 | 설정 취소 |
+| s_sq(Javascript) | 아니요 | 아니요 | 설정 취소 |
+
+*참고:단일 CNAME을 사용하여 여러 도메인 또는 속성을 추적하는 경우 SameSite를 "없음"으로 설정해야 합니다. Analytics 쿠키 설정을 변경하는 데 도움이 필요하면 고객 지원 센터에 문의하십시오.*
 
 ## 플러그인에 의해 설정되는 쿠키 {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
