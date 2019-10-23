@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 용어
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -35,4 +35,4 @@ Experience Cloud 사용자를 위한 용어 참조 및 Creative Cloud에서 그�
 | 제품 프로필 | [제품 및 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)를 참조하십시오. | 사용자가 제품 또는 서비스를 사용할 자격이 있는 경우 사용자는 제품 프로필의 일부여야 합니다. 제품 관리자는 사용자가 구입한 플랜과 연결하여 제품 프로필에 라이센스를 지정합니다.<br>사용자는 여러 제품 프로필에 속할 수 있으며 각각 사용자에게 서로 다른 라이센스가 부여됩니다. 사용자의 최종 자격 요건은 해당 사용자에게 각 제품 프로필로 제공된 모든 라이센스의 통합입니다. |
 | 예약 | Adobe Story의 장면 시퀀스 또는 ColdFusion의 예약된 작업일 수 있습니다. | Experience Cloud에서 예약은 캠페인, 채널 및 활동 활성화의 시작 날짜(년, 월, 일) 및 종료 날짜입니다. 활동 예약에는 분 단위까지의 세부기간이 있습니다. 예약을 변경하면 카드가 만들어집니다.<br>해당 예는 다음과 같습니다.<ul><li>캠페인 예약</li><li>채널 예약</li><li>활동 예약</li></ul> |
 | 공유 | Creative Cloud에서는 플랫폼 간에 외부적으로 파일을 공유할 수 있습니다(소셜, 커뮤니티, 이메일 등). | Experience Cloud에서 인터페이스 내의 보드 안에서 자산을 카드로만 공유할 수 있습니다. 사이트에 로그인한 사람은 공유를 사용할 수 있습니다. |
-| 솔루션 | 특별한 용도는 없습니다. | Experience Cloud에서 솔루션은 Analytics, Social, Target 등과 같은 제품으로 알려져 있습니다.<br>Experience Cloud의 새 클라우드 이름 정보](solutions-core-services.md)를 참조하십시오. |
+| 솔루션 | 특별한 용도는 없습니다. | Experience Cloud에서 솔루션은 Analytics, Social, Target 등과 같은 제품으로 알려져 있습니다.<br>Experience [Cloud의 새로운 클라우드 이름 정보를 참조하십시오](solutions-core-services.md). |
