@@ -7,12 +7,14 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 및 핵심 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 5acb6229c1263b81bdfd95c03df2179a5cd8a890
+source-git-commit: 9916e005e391e516bad282615a3e9be58f725909
 
 ---
 
 
 # Experience Cloud 및 핵심 서비스 제품 설명서
+
+![Experience Cloud](assets/banner.png)
 
 이 페이지에서는 Adobe Experience Cloud 솔루션 및 서비스에 대한 자체 도움말, 지원, 기술 및 제품 설명서를 제공합니다. Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 제품입니다. 또한 클라우드 솔루션 및 핵심 서비스에 빠르게 액세스할 수 있는 직관적인 인터페이스입니다.
 
@@ -22,14 +24,14 @@ source-git-commit: 5acb6229c1263b81bdfd95c03df2179a5cd8a890
 * [우선 순위 제품](https://www.adobe.com/subscription/priority-product-update.html) 업데이트 - 매월 릴리스 노트를 받으려면 구독)
 * [Adobe 비디오 학습](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
 * [Adobe Experience League](https://landing.adobe.com/experience-league/) - 가이드 학습
-* [고객 지원 센터에 문의](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [고객 지원 문의](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud)
 * [Experience Cloud 학습 및 지원](https://helpx.adobe.com/support/experience-cloud.html)
 * [Adobe 교육 및 자습서](https://helpx.adobe.com/learning.html?promoid=KAUDK)
 * [Adobe Customer Experience 블로그](https://theblog.adobe.com/customer-experience/) (블로그)
 * [핵심 서비스 개요](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/)(블로그)
 
-## ![Experience Cloud 도움말](assets/experience_cloud_appicon_32.png) Experience Cloud 및 핵심 서비스 도움말
+## Experience Cloud 및 핵심 서비스 도움말
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [대상자](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
@@ -44,7 +46,7 @@ source-git-commit: 5acb6229c1263b81bdfd95c03df2179a5cd8a890
 * [피드](feed.md)
 * [일반 데이터 보호 규정(GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
-### 관리 및 활성화
+## 관리 및 활성화
 
 * [사용자 및 제품 관리](admin-getting-started/admin-getting-started.md)(Admin Console)
 * [핵심 서비스용 솔루션을 사용하도록 설정](core-services/core-services.md)
@@ -55,42 +57,3 @@ source-git-commit: 5acb6229c1263b81bdfd95c03df2179a5cd8a890
 * [Experience Cloud 개인 정보 보호 및 보안 개요](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Adobe Experience Cloud의 프로필](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) 관리(블로그)
 * [DNS 프리페치](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
-
-## ![Analytics 도움말](assets/mc_analytics_32.png) 분석 도움말
-
-* [분석 도움말 홈](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
-* [도구](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
-* [관리](https://docs.adobe.com/content/help/en/analytics/admin/home.html)
-* [구현](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
-* [구성 요소](https://docs.adobe.com/content/help/en/analytics/components/home.html)
-* [내보내기](https://docs.adobe.com/content/help/en/analytics/export/home.html)
-* [가져오기](https://docs.adobe.com/content/help/en/analytics/import/home.html)
-* [통합](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
-* [Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
-
-## ![Audience Manager 도움말](assets/mc_audiencemanager_32.png) Audience Manager 도움말
-
-* [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
-
-## ![Target 도움말](assets/mc_target_32.png) 타겟 도움말
-
-* [Target 릴리스 노트](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
-* [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
-
-## ![Experience Manager 도움말](assets/mc_experiencemanager_32.png) Experience Manager 도움말
-
-* [Adobe Experience Manager 학습 및 지원](https://helpx.adobe.com/support/experience-manager.html)
-
-## ![캠페인 도움말](assets/mc_campaign_32.png) 캠페인 도움말
-
-* Campaign Standard: [설명서](https://helpx.adobe.com/support/campaign/standard.html) - [릴리스 노트](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [기능 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-* Campaign Classic: [설명서](https://helpx.adobe.com/support/campaign/classic.html) - [릴리스 노트](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [기능 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
-
-## ![Advertising Cloud](assets/advertisingcloud_appicon_32.png) 도움말 Advertising Cloud 도움말
-
-Advertising Cloud에 대한 도움말을 보려면 페이지의 맨 위에 있는 **도움말** 아이콘(?)을 클릭합니다.
-
-## ![Primetime 도움말](assets/primetime_app_32.png) Primetime 도움말
-
-* [Primetime 도움말](http://help.adobe.com/en_US/primetime/)
