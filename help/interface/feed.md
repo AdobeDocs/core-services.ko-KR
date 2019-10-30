@@ -7,12 +7,14 @@ solution: Experience Cloud
 title: 피드
 uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d39758702a37d16d6c4aeeb4f21863dcbc175523
 
 ---
 
 
 # 피드
+
+**Adobe Experience Cloud 피드는 2019년 11월 1일부터 더 이상 지원되지 않으며 2019년 12월까지 더 이상 지원되지 않습니다.**
 
 Experience Cloud 피드를 사용하여 다른 사용자와 직접 자산 및 Analytics 보고서를 공유하거나 게시하는 방법에 대해 알아봅니다.
 
@@ -31,6 +33,8 @@ Experience Cloud 피드를 사용하여 다른 사용자와 직접 자산 및 An
 * **즐겨찾기:** 즐겨찾기로 표시한 게시물만 표시합니다.
 
 ## 피드에 Analytics 프로젝트 공유 {#section_F2BDF9FEF4394686BAC5051CBE913EE5}
+
+**Adobe Experience Cloud 피드는 2019년 11월 1일부터 더 이상 지원되지 않으며 2019년 12월까지 더 이상 지원되지 않습니다.**
 
 [!UICONTROL Reports &amp; Analytics]에서 Experience Cloud 피드에 보고서를 공유할 수 있습니다.
 
