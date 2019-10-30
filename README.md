@@ -1,25 +1,26 @@
 ---
-source-git-commit: de9a84581dd3f52e1f76f39105bcb89e849b6230
-translation-type: ht
+source-git-commit: 277e8b855210e1658b7c74f14d2c5f1036ef80a6
+translation-type: tm+mt
 
 ---
 # 기여자 문서
+
 
 Adobe는 설명서 팀 외부 직원뿐만 아니라 커뮤니티 기여를 환영합니다.
 
 ## Adobe 오픈소스 행동 수칙
 
-이 프로젝트에서는 [Adobe Open Source Code of Conduct](code-of-conduct.md) 또는 [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct)가 채택되었습니다. 자세한 내용은 [기여](contributing.md) 문서를 참조하십시오.
+이 프로젝트에서는 [Adobe 오픈소스 행동 수칙](code-of-conduct.md) 또는 [.NET Foundation 행동 수칙](https://dotnetfoundation.org/code-of-conduct)을 채택했습니다. 자세한 내용은 [기여](contributing.md) 문서를 참조하십시오.
 
 ## Adobe 내용에 대한 귀하의 기여 관련 정보
 
-[Adobe 문서 기여자 안내서](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
+[Adobe Docs 기여자 안내서](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
 
 기여하는 방식은 사용자의 신분과 사용자가 기여하고 싶은 변경 내용의 종류에 따라 다릅니다.
 
 ### 부분 변경 사항
 
-부분 업데이트에 선의로 기여하려는 경우 문서를 방문하여 문서 내의 **편집** 링크를 클릭하면 문서에 해당하는 GitHub 소스로 이동하게 됩니다. 그런 다음 Github UI를 사용하여 업데이트를 만듭니다. 자세한 내용은 일반 [Adobe 문서 기여자 안내서](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
+부분 업데이트에 선의로 기여하려는 경우 문서를 방문하여 문서 내의 **편집** 링크를 클릭하면 문서에 해당하는 GitHub 소스로 이동하게 됩니다. 그런 다음 Github UI를 사용하여 업데이트를 만듭니다. 자세한 내용은 일반 [Adobe Docs 기여자 안내서](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
 
 이 REPO의 설명서 및 코드 샘플에 대해 사용자가 제출하는 부분 수정 또는 설명은 Adobe 사용 약관의 적용을 받습니다.
 
@@ -41,14 +42,14 @@ If you submit a pull request with significant changes to documentation and code 
 
 커뮤니티 기여자는 기본 편집에 GitHub UI를 사용하거나 리포지토리를 포크하여 큰 기여를 할 수 있습니다.
 
-자세한 내용은 [Adobe 문서 기여자 안내서](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
+자세한 내용은 [Adobe Docs 기여자 안내서](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
 
 ## Markdown을 사용하여 주제 서식을 지정하는 방법
 
 이 리포지토리의 모든 문서는 GitHub 버전의 Markdown을 사용합니다. Markdown에 익숙하지 않은 경우 다음을 참조하십시오.
 
 * [Markdown 기본 사항](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [인쇄용 Markdown 요약본](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [인쇄 가능 Markdown 치트시트](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## 레이블
 
