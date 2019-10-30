@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 자산
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4eb9f90cf44eb5cc9c6d3898a32c5415f82b8030
 
 ---
 
@@ -76,6 +76,8 @@ Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준�
 ![](assets/assets-annotate.png)
 
 ## 피드에 자산 공유 {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
+
+**Adobe Experience Cloud 피드는 2019년 11월 1일부터 더 이상 지원되지 않으며 2019년 12월까지 더 이상 지원되지 않습니다.**
 
 도구 모음에서 **[!UICONTROL 공유]**&#x200B;를 클릭하여 자산을 [피드](../feed.md#concept_9256B8768A294009A777282DD8719213)로 다른 Experience Cloud 사용자에게 공유할 수 있습니다.
 
