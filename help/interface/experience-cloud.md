@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 및 핵심 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 9916e005e391e516bad282615a3e9be58f725909
+source-git-commit: 61261e280f08fafcaae2b14a2ab210c3786cb370
 
 ---
 
@@ -21,12 +21,12 @@ source-git-commit: 9916e005e391e516bad282615a3e9be58f725909
 ## 릴리스 노트 및 커뮤니티 리소스
 
 * [Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) - 모든 제품
+* [도움말 홈 - Experience Cloud 학습 및 지원](https://helpx.adobe.com/support/experience-cloud.html)
 * [우선 순위 제품](https://www.adobe.com/subscription/priority-product-update.html) 업데이트 - 매월 릴리스 노트를 받으려면 구독)
 * [Adobe 비디오 학습](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
 * [Adobe Experience League](https://landing.adobe.com/experience-league/) - 가이드 학습
 * [고객 지원 문의](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud)
-* [Experience Cloud 학습 및 지원](https://helpx.adobe.com/support/experience-cloud.html)
 * [Adobe 교육 및 자습서](https://helpx.adobe.com/learning.html?promoid=KAUDK)
 * [Adobe Customer Experience 블로그](https://theblog.adobe.com/customer-experience/) (블로그)
 * [핵심 서비스 개요](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/)(블로그)
