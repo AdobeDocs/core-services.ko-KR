@@ -8,7 +8,7 @@ title: 퍼스트 파티 쿠키
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 90123ac9194d180a6a8ae59a273a6a6154ea8d96
 
 ---
 
@@ -70,9 +70,9 @@ SSL 인증서는 매년 만료됩니다. 즉, Adobe는 매년 각 구현에 대�
 FPC 전문가는 구성된 호스트 이름과 가리키는 CNAME을 제공합니다. 예:
 
 * **SSL 호스트 이름**:`smetrics.mysite.com`
-* **SSL CNAME**:`mysite.com.ssl.d1.sc.omtrdc.net`
+* **SSL CNAME**:`mysite.com.ssl.sc.omtrdc.net`
 * **비SSL 호스트 이름**:`metrics.mysite.com`
-* **비 SSL CNAME**:`mysite.com.d1.sc.omtrdc.net`
+* **비 SSL CNAME**:`mysite.com.sc.omtrdc.net`
 
 구현 코드를 변경하지 않는 한, 이 단계는 데이터 수집에 영향을 주지 않으며 구현 코드를 업데이트한 후 언제든지 완료할 수 있습니다.
 
