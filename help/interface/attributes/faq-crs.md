@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: FAQ, 제한 사항 및 우수 사례
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: b8363f024a09e07d26f6c0d0255e2675f7ef1a9a
 
 ---
 
@@ -52,13 +52,17 @@ Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p> 제가 사용할 수 있는 고객 속성은 몇 개입니까? </p> </td> 
-   <td colname="col2"> <p>수백 개의 <span class="filepath">.csv</span> 열을 고객 속성 서비스로 업로드할 수 있습니다. 그렇지만 구독을 구성하고 속성을 선택할 때 보유하고 있는 솔루션에 따라 다음과 같은 제한이 적용됩니다. </p> <p> 
-     <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
-      <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>: 3 합계 </li> 
-      <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 보고서 세트당 200개 </li> 
-      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Target Standard:</b> 5개 </li> 
-      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Target Premium:</b> 200개 </li> 
-     </ul> </p> </td> 
+   <td colname="col2"> <p>수백 개의 <span class="filepath">.csv</span> 열을 고객 속성 서비스로 업로드할 수 있습니다. 그러나 구독을 구성하고 속성을 선택할 때 소유한 솔루션에 따라 보고서 세트당 다음 제한이 적용됩니다.</p> <p> 
+     <ul>
+     <li>Foundation: 0개</li>
+     <li>Select: 3개</li>
+     <li>Prime: 15개</li>
+     <li>Ultimate: 200개</li>
+     <li>Standard: 총 3개</li>
+     <li>Premium:200년</li>
+     <li>Target Standard: 5개</li>
+     <li>Target Premium: 200개</li></ul>
+     </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud ID 서비스로 마이그레이션해야 합니까? </p> </td> 
@@ -103,4 +107,3 @@ Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
   </tr> 
  </tbody> 
 </table>
-
