@@ -1,10 +1,10 @@
 ---
-audience: 최종 사용자
-user-guide-title: 핵심 서비스 사용 안내서
-user-guide-url: https://www.adobe.com/kr/
+audience: end-user
+user-guide-title: Core Services User Guide
+user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
+source-git-commit: f9839c39c52bc10ab641df094dc444b642986974
 
 ---
 
@@ -19,8 +19,8 @@ source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
    + [Experience Cloud의 새 클라우드 이름 정보](solutions-core-services.md)
 + [Experience Cloud 통합](marketing-cloud-integrations.md)
 + Experience Cloud 쿠키 {#ec-cookies}
-   + [쿠키 개요](cookies/cookies-privacy.md)
-   + [자사 쿠키](cookies/cookies-first-party.md)
+   + [Experience Cloud 쿠키 개요](cookies/cookies-privacy.md)
+   + [Experience Cloud의 자사 쿠키](cookies/cookies-first-party.md)
    + [Analytics 쿠키](cookies/cookies-analytics.md)
    + [Audience Manager 쿠키](cookies/cookies-am.md)
    + [Data Connectors 쿠키](cookies/cookies-dc.md)
@@ -39,13 +39,13 @@ source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
    + [조직 및 계정 연결](admin-getting-started/organizations.md)
    + [Analytics Premium 및 Experience Cloud로 업그레이드](admin-getting-started/upgrade-to-analytics-premium.md)
    + [컨텐츠 포함](admin-getting-started/oembed.md)
-+ 활성화 {#activation}
++ Experience Cloud Activation {#activation}
    + [활성화 개요](activation/activation.md)
-   + [사용 안내서 시작](https://docs.adobe.com/content/help/en/launch/using/overview.html)
-   + [DTM 사용 안내서](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+   + [Launch 사용 안내서](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [다이내믹 태그 관리자 사용 안내서](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
-+ 자산 {#assets}
-   + [자산 개요](experience-cloud-assets/experience-cloud-assets.md)
++ Experience Cloud assets {#assets}
+   + [Experience Cloud 에셋 개요](experience-cloud-assets/experience-cloud-assets.md)
    + [Creative Cloud와 Experience Cloud 폴더 및 자산 공유](experience-cloud-assets/creative-cloud.md)
    + [Creative Cloud 사용자 관리](experience-cloud-assets/t-admin-add-cc-user.md)
    + [Experience Cloud 자산 폴더 공유](experience-cloud-assets/t-share-creative-cloud.md)
@@ -54,11 +54,11 @@ source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
    + [공유 폴더의 동기화 비활성화](experience-cloud-assets/t-disable-asset-sync.md)
    + [공유를 위한 자산 파일 요구 사항](experience-cloud-assets/assets-file-reqs.md)
    + [공유 폴더 동작](experience-cloud-assets/asset-behavior.md)
-+ 대상자 {#audiences}
++ Experience Cloud의 고객 {#audiences}
    + [대상 개요](audience-library/audience-library.md)
    + [대상자 만들기](audience-library/t-audience-create.md)
    + [Analytics 대상 세그먼트 게시](audience-library/t-publish-audience-segment.md)
-+ 고객 속성 {#customer-attributes}
++ Experience Cloud의 고객 속성 {#customer-attributes}
    + [고객 속성 개요](attributes/attributes.md)
    + [FAQ, 제한 사항 및 우수 사례](attributes/faq-crs.md)
    + [고객 속성에 대한 데이터 파일 및 데이터 소스에 대해](attributes/crs-data-file.md)
@@ -68,11 +68,11 @@ source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
    + [구독 구성](attributes/subscription.md)
    + [스키마 업데이트](attributes/t-update-schema.md)
    + [개인 정보 고려 사항 - 고객 속성](attributes/privacy-mac.md)
-+ 릴리스 노트 {#release-notes}
++ Experience Cloud 릴리스 노트 {#release-notes}
    + [Experience Cloud의 새로운 기능](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [누적 릴리스 노트](marketing-cloud-interface/release-notes.md)
 + [Exchange 마켓플레이스](exchange.md)
-+ [피드](feed.md)
++ [Experience Cloud 피드](feed.md)
 + [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 + 추가 리소스 {#more-resources}
    + [포럼](https://forums.adobe.com/community/experience-cloud)
