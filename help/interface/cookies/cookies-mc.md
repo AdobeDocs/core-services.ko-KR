@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics,Target,Social
 title: Experience Cloud 쿠키
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f9839c39c52bc10ab641df094dc444b642986974
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Experience Cloud는 쿠키를 사용하여 Experience Cloud 솔루션에�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 사용 </p> </td> 
-   <td colname="col2"> <p>이 쿠키는 클라이언트가 AMCV 쿠키를 설정한 후에 고객의 도메인에 의해 설정됩니다. 이 쿠키의 목적은 자사 상태의 지속적인 ID 추적을 허용하는 것이며 AMCV 쿠키가 만료된 경우 참조 ID로 사용됩니다. 자세한 내용은 AMCV 쿠키를 확인하십시오. </p> </td> 
+   <td colname="col2"> <p>이 쿠키는 클라이언트가 AMCV 쿠키를 설정한 후에 고객의 도메인에 의해 설정됩니다. 이 쿠키의 목적은 퍼스트 파티 상태에서 영구 ID 추적을 허용하기 위한 것이며, AMCV 쿠키가 만료된 경우 참조 ID로 사용됩니다. 자세한 내용은 AMCV 쿠키를 확인하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 위치 </p> </td> 
@@ -51,7 +51,9 @@ Adobe Experience Cloud는 쿠키를 사용하여 Experience Cloud 솔루션에�
 
 **쿠키 이름: AMCV_###@AdobeOrg**
 
-The [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) uses JavaScript to store a unique visitor ID in an `AMCV_###@AdobeOrg` cookie on the domain of the current website, where `###` represents a random string of characters. 예, `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`. [쿠키 및 ID 서비스](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)를 참조하십시오.
+The [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) uses JavaScript to store a unique visitor ID in an `AMCV_###@AdobeOrg` cookie on the domain of the current website, where `###` represents a random string of characters, such as `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+
+[쿠키 및 ID 서비스](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)를 참조하십시오.
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
