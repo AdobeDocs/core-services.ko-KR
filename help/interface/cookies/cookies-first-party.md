@@ -8,7 +8,7 @@ title: 퍼스트 파티 쿠키
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9dcf5f0e5aad3e18448b72f39fb0c0af0c84d733
+source-git-commit: 3cb4d346d07e1625e95e3737230f03a02b45afb2
 
 ---
 
@@ -109,7 +109,7 @@ CNAME 레코드가 올바르게 설정되지 않았거나 활성화되지 않으
 
 자사 쿠키를 활용하도록 사이트에서 코드를 편집하려면 먼저 다음 전제 조건을 완료하십시오.
 
-* Adobe 관리 인증서 프로그램 클러스터의 구현 *섹션에 설명된 단계에 따라* SSL *인증서를 요청합니다.*
+* SSL 인증서를 요청하려면 Adobe 관리 인증서 프로그램의 *구현* 섹션에 설명된 단계를 [따르십시오](#adobe-managed-certificate-program).
 * CNAME 레코드를 만듭니다(위 사항 참조).
 * 호스트 이름을 ping합니다(위 참조).
 
