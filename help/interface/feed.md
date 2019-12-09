@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud 피드를 사용하여 다른 사용자와 직접 자산 및 Analytics 보고서를 공유하거나 게시하는 방법에 대해 알아봅니다.
-keywords: 핵심 서비스
+keywords: core services
 seo-description: Experience Cloud 피드를 사용하여 다른 사용자와 직접 자산 및 Adobe Analytics 보고서를 공유하거나 게시하는 방법에 대해 알아봅니다.
 seo-title: 피드
 solution: Experience Cloud
 title: 피드
 uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
 translation-type: tm+mt
-source-git-commit: d39758702a37d16d6c4aeeb4f21863dcbc175523
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -40,7 +40,7 @@ Experience Cloud 피드를 사용하여 다른 사용자와 직접 자산 및 An
 
 1. Adobe ID를 사용하여 Experience Cloud에 [로그인](admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0)합니다.
 
-1. Reports &amp; Analytics로 이동한 후 [프로젝트를 만듭니다](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform_overview.html).
+1. Reports &amp; Analytics로 이동한 후 [프로젝트를 만듭니다](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html).
 
 1. **[!UICONTROL 자세히]** &gt; **[!UICONTROL 공유]**&#x200B;를 클릭합니다.
 
