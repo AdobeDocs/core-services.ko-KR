@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud를 구현하고 관리자가 됩니다. 이 프로세스는 고객 속성 및 대상과 같은 핵심 서비스 기능에 대한 솔루션을 현대화합니다.
-keywords: 핵심 서비스, 고객 속성
+keywords: core services;customer attributes
 seo-description: Experience Cloud를 구현하고 관리자가 됩니다. 이 프로세스는 고객 속성 및 대상과 같은 핵심 서비스 기능에 대한 솔루션을 현대화합니다.
 seo-title: 핵심 서비스용 Experience Cloud 솔루션을 사용하도록 설정
 solution: Experience Cloud
 title: 핵심 서비스용 솔루션을 사용하도록 설정
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -32,7 +32,7 @@ Experience Cloud에 참여하기 위해 수행할 작업:
 
 >[!NOTE]
 >
->For Target, [migrate to at.js from mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov2/t_target-migrate-atjs.html).
+>For Target, [migrate to at.js from mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
 
 ![](assets/step2_icon.png) 구현을 현대화하고 관리자가 프로비저닝되도록 합니다.
 
@@ -116,11 +116,11 @@ Target에서 [!DNL mbox3rdpartyid]는 고객 ID를 가져와서 Target에 보내
 
 고객 ID는 고객 ID가 알려지는 모든 [!DNL Analytics] 서버 호출에서 설정되어야 합니다.
 
-**Mobile SDK**
+### Mobile SDK
 
 Android *및 iOS Mobile 애플리케이션에서 추가 고객 ID를 설정하는 방법에 대한 구문 예는 Experience Cloud ID 서비스*[](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) 섹션을 [참조하십시오](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html) .
 
-**이전 데이터의 속성 활성화**
+### 이전 데이터의 속성 활성화
 
 고객 속성 데이터는 방문자가 로그인한 후에 사용할 수 있습니다. 최신 Experience Cloud ID 서비스를 아직 구현하지 않았으며 이전에 prop 또는 eVar에서 고객 ID를 추적해온 경우 Experience Cloud에 내역 로그인을 전송하는 프로세스를 요청할 수 있습니다. 이 프로세스를 진행하면 고객 속성을 바로 사용할 수 있습니다.
 
