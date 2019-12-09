@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려진 문제입니다.
-keywords: 핵심 서비스
+keywords: core services
 seo-description: Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려진 문제입니다.
 seo-title: 누적 릴리스 노트
 solution: Experience Cloud
 title: 누적 릴리스 노트
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 75831abe44d04902691325add2338381754f98ec
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -18,7 +18,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 
 설명서 업데이트 목록은 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)를 참조하십시오.
 
-모든 솔루션에 적용되는 릴리스 노트에 대해서는 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)를 참조하십시오.
+모든 솔루션에 적용되는 릴리스 노트에 대해서는 [Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)를 참조하십시오.
 
 ## 2019년 8월
 
@@ -171,7 +171,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 </table>
 
 * 일부 고객의 경우 고객 속성이 동기화되지 않던 문제를 수정했습니다.
-* [Adobe Target 제품 설명서](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) 페이지가 일본어로 표시되지 않던 문제를 수정했습니다.
+* [Adobe Target 제품 설명서](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) 페이지가 일본어로 표시되지 않던 문제를 수정했습니다.
 * [!DNL Creative Cloud]와 [!DNL Experience Cloud] 간 주석에서 일본어 텍스트를 사용할 수 없던 문제를 수정했습니다.
 
 ## 릴리스 15.4.1 - 2015년 4월 8일 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -355,7 +355,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 
 **수정 사항 및 향상된 기능**
 
-* 이제 [!DNL marketing.adobe.com]으로 이동하면, 로그인 경험이 Adobe의 Creative Cloud 로그인과 같습니다.
+* 이제 [!DNL experiencecloud.adobe.com]으로 이동하면, 로그인 경험이 Adobe의 Creative Cloud 로그인과 같습니다.
 * 조직 관리 페이지에서 이제 각 솔루션에 대해 연결 환경이 일관되게 제공됩니다(초대가 수신된 후).
 
 **알려진 문제**
