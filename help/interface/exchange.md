@@ -1,13 +1,13 @@
 ---
 description: ' Exchange Marketplace는 앱을 통해 디지털 마케팅 확장 기능을 검색, 탐색, 선택, 지불, 다운로드할 수 있는 단일 대상입니다. 앱에는 Data Connectors, Adobe의 핵심 제품에 대한 사용자 지정 구성, 타사 애플리케이션 및 보고서가 포함됩니다.'
-keywords: 핵심 서비스
+keywords: core services
 seo-description: ' Exchange Marketplace는 앱을 통해 디지털 마케팅 확장 기능을 검색, 탐색, 선택, 지불, 다운로드할 수 있는 단일 대상입니다. 앱에는 Data Connectors, Adobe의 핵심 제품에 대한 사용자 지정 구성, 타사 애플리케이션 및 보고서가 포함됩니다.'
 seo-title: Exchange 마켓플레이스
 solution: Experience Cloud
 title: Exchange 마켓플레이스
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 translation-type: tm+mt
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -35,4 +35,4 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 * 범주, 회사, 유형, 사용자 등을 기준으로 검색 및 필터링합니다.
 
-자세한 내용은 [Experience Cloud Exchange](https://marketing.adobe.com/exchange)를 참조하십시오.
+자세한 내용은 [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html)를 참조하십시오.
