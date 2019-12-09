@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud에 고객 특성 업로드에 대한 개요 및 사전 요구 사항입니다.
-keywords: 핵심 서비스, 고객 속성
+keywords: core services;customer attributes
 seo-description: Experience Cloud에 고객 특성 업로드에 대한 개요 및 사전 요구 사항입니다.
 seo-title: 고객 속성
 solution: Experience Cloud
 title: 고객 속성
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -36,12 +36,9 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 * **Target mbox:** 고객 속성에 대해 mbox.js 버전 58 이상이 필요합니다.
 
 
-   [Mbox.js 구현](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html)을 참조하십시오.
+   [Mbox.js 구현](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)을 참조하십시오.
 
 * **at.js:** 모든 버전.
-
-
-
 
 ## 엔터프라이즈 고객 데이터란? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
