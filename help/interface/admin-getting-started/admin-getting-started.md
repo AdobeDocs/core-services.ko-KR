@@ -1,13 +1,13 @@
 ---
 description: Admin Console에 로그인 및 Experience Cloud 사용자 권한 및 제품 프로필 관리 방법에 대해 알아봅니다.
-keywords: 핵심 서비스
+keywords: core services
 seo-description: Admin Console에 로그인 및 Experience Cloud 사용자 권한 및 제품 프로필 관리 방법에 대해 알아봅니다.
 seo-title: Experience Cloud 사용자 및 제품 관리
 solution: Marketing Cloud
 title: Experience Cloud 사용자 및 제품 관리
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -63,18 +63,18 @@ Analytics 사용자 ID 마이그레이션 도구는 Analytics 관리자가 Analy
 
 계정 마이그레이션이 단계적으로 고객에게 배포되고 있습니다. Adobe에서는 기존 사용자 계정을 **[!UICONTROL 관리 도구]** &gt; **[!UICONTROL 사용자 관리]**&#x200B;에서 Admin Console로 마이그레이션할 때 사용자에게 알리고 지원합니다.
 
-마이그레이션 후 사용자는 Adobe ID(또는 Enterprise ID)를 사용하여 로그인하고 [marketing.adobe.com](https://marketing.adobe.com)에서 해당 Experience Cloud 솔루션 및 서비스를 인증합니다. 사용자가 이전 계정([!DNL my.omniture.com] 및 [!DNL sc.omniture.com])을 통해 로그인하려고 하면 [!DNL marketing.adobe.com]으로 리디렉션됩니다.
+After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). 사용자가 이전 계정([!DNL my.omniture.com] 및 [!DNL sc.omniture.com])을 통해 로그인하려고 하면 [!DNL experiencecloud.adobe.com]으로 리디렉션됩니다.
 
 **관련 도움말**
 
-[Analytics 사용자 ID 마이그레이션](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)
+[Analytics 사용자 ID 마이그레이션](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
 ## Target - 제품 프로필과 작업 공간 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 Target에서 작업 공간은 제품 프로필입니다. 이를 통해 조직에서는 특정 사용자 세트를 특정 속성 세트에 할당할 수 있습니다. 여러 가지 방식에서 작업 공간은 Adobe Analytics의 보고서 세트와 비슷합니다.
 
 다음을 참조하십시오.
-* [Enterprise 사용자 권한](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html)
+* [Enterprise 사용자 권한](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * [제품 및 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * 비디오: [Adobe Admin Console에서 Target 작업 공간을 구성하는 방법](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
@@ -90,19 +90,19 @@ Target에서 작업 공간은 제품 프로필입니다. 이를 통해 조직에
 
 Experience Platform Launch는 Admin Console에서 제품 페이지에 표시됩니다. Launch 제품 프로필에 다른 솔루션 및 핵심 서비스를 포함할 수 있습니다.
 
-See [User Management](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/user-management.html) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
+See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
 
 ## Dynamic Tag Manager {#section_3A41CF2BD5994B9891537D063571D4ED}
 
 사용자를 Dynamic Tag Management에 초대하고, 사용자 역할을 지정하고, 사용자를 그룹에 추가합니다.
 
-See [Users and Permissions](https://marketing.adobe.com/resources/help/en_US/dtm/users.html) for information about how to invite users to Dynamic Tag Management and assign user roles and add users to groups.
+See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) for information about how to invite users to Dynamic Tag Management and assign user roles and add users to groups.
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
 Audience Manager 사용자를 만들고 그룹에 지정합니다. 제한(트레이트, 세그먼트, 대상 및 AlgoModel)을 볼 수도 있습니다.
 
-Audience [Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_administration.html) 도움말의 관리를 참조하십시오.
+Audience [Manager](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) 도움말의 관리를 참조하십시오.
 
 ## Experience Cloud 제품 관리 {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -118,7 +118,7 @@ Audience [Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_admini
 다음에서 추가 도움말을 참조하십시오.
 
 * [제품 및 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* Target 도움말의 [Enterprise 사용자 권한](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html)
+* Target 도움말의 [Enterprise 사용자 권한](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * 비디오: [Adobe Admin Console에서 Target 작업 공간을 구성하는 방법](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 제품 프로필에 Analytics 액세스 권한 지정 {#task_040673FE3E3E429B9531FBCB8B6A4391}
