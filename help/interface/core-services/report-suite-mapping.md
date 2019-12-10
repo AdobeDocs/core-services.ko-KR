@@ -5,7 +5,7 @@ seo-title: 조직에 보고서 세트 매핑
 title: 조직에 보고서 세트 매핑
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -19,7 +19,6 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스 및 사용자 핵�
 * Experience Cloud 조직을 보고서 세트의 기본 조직으로 설정합니다.
 * 보고서 세트에 액세스할 수 있는 사용자를 변경하지 않습니다(액세스는 각 사용자에 대한 Adobe Analytics 로그인 계정에 의해 결정됨).
 
-
 **요구 사항**
 
 매핑할 보고서 세트에 액세스할 수 있는 로그인 회사의 Analytics 관리자여야 합니다. 또한 보고서 세트를 해당 조직에 매핑하려면 이 계정이 [Experience Cloud 조직에 연결](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)되어 있어야 합니다.
@@ -29,8 +28,6 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스 및 사용자 핵�
 ## 조직에 보고서 세트 매핑 {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
 1. **[!UICONTROL Experience Cloud]&gt;****[!UICONTROL 관리]&gt;****[!UICONTROL 보고서 세트 매핑]**&#x200B;을 클릭합니다.
-
-   [직접 URL](https://audience.marketing.adobe.com/rsmapping/ui.html)을 사용할 수도 있습니다.
 
 1. 각 보고서 세트에 액세스할 수 있는 로그인 회사를 보려면 **[!UICONTROL 로그인 회사에 표시를 클릭합니다]**.
 
@@ -43,8 +40,6 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스 및 사용자 핵�
 ## 조직에 여러 보고서 세트 매핑 {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
 1. **[!UICONTROL Experience Cloud]&gt;****[!UICONTROL 관리]&gt;****[!UICONTROL 보고서 세트 매핑]**&#x200B;을 클릭합니다.
-
-   [직접 URL](https://audience.marketing.adobe.com/rsmapping/ui.html)을 사용할 수도 있습니다.
 
 1. 매핑할 보고서 세트를 선택합니다.
 
@@ -62,7 +57,7 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스 및 사용자 핵�
 
 **어떤 조직을 선택해야 합니까?**
 
-Experience Cloud ID 서비스가 현재 보고서 세트에 배포된 경우 보고서 세트 매핑 도구에서 선택한 조직이 사이트의 [!DNL visitorAPI.js] 파일에 지정된 동일한 조직인지 확인하십시오. [Experience Cloud ID 서비스 및 확인](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html)의 지침을 사용하여 방문자 ID 서비스에서 사용 중인 조직 ID를 찾을 수 있습니다.
+Experience Cloud ID 서비스가 현재 보고서 세트에 배포된 경우 보고서 세트 매핑 도구에서 선택한 조직이 사이트의 [!DNL visitorAPI.js] 파일에 지정된 동일한 조직인지 확인하십시오. [Experience Cloud ID 서비스 및 확인](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html)의 지침을 사용하여 방문자 ID 서비스에서 사용 중인 조직 ID를 찾을 수 있습니다.
 
 방문자 ID 서비스가 보고서 세트에 대한 데이터를 수집하는 사이트에 아직 배포되지 않은 경우, 나중에 Experience Cloud 방문자 ID 서비스를 배포하면 보고서 세트 매핑 도구에서 선택한 조직과 배포가 일치하는지 확인해야 합니다.
 
