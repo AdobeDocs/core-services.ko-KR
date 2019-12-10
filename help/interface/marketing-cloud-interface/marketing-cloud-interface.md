@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
-keywords: 핵심 서비스
+keywords: core services
 seo-description: Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 seo-title: Experience Cloud의 새로운 기능
 solution: Experience Cloud
 title: Experience Cloud의 새로운 기능
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -31,7 +31,7 @@ Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 
 * Marketing Cloud와 AEM 및 Marketing Cloud와 Creative Cloud 간의 자산 공유를 제어하기 위해 백엔드 기능을 배포했습니다. (CORE-14386)
 * 일부 환경에서 새 임차인 제공이 차단되는 문제를 해결했습니다. (CORE-15509)
-* [!DNL marketing.adobe.com] (안전함) 대신 [!DNL experiencecloud.adobe.com]를 통해 [!DNL http]에 액세스할 때 사용자가 [!DNL https]으로 리디렉션되는 문제를 해결했습니다. (CORE-15587)
+* [!DNL experiencecloud.adobe.com] (안전함) 대신 [!DNL experiencecloud.adobe.com]를 통해 [!DNL http]에 액세스할 때 사용자가 [!DNL https]으로 리디렉션되는 문제를 해결했습니다. (CORE-15587)
 * 일부 새로운 임차인에 대한 알림이 차단되는 문제를 해결했습니다. (CORE-15240)
 
 ## 2018년 6월 14일 {#section_7ABC327992CB46B0B8E4A631B8B68899}
@@ -67,7 +67,7 @@ Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 |--- |--- |
 | 알림 - 세부 설정 | [사용자 특성](../attributes/attributes.md) 업로드 활동에 대한 알림을 포함하여 제품 및 솔루션 이벤트 및 활동에 대한 알림을 활성화할 수 있습니다. |
 | 알림 - 유지 관리 알림 | 알림 설정에서 제품 및 솔루션에 대한 유지 관리 알림을 활성화할 수 있습니다. |
-| Experience Cloud 솔루션에 대한 Admin Console | 새 Experience Cloud 고객은 전체 조직에서 Adobe 자격을 관리할 중앙 위치인 Admin Console을 사용할 수 있습니다.<br>사용자 관리를 위한 Admin Console로의 마이그레이션은 지속적으로 진행됩니다. Adobe는 마이그레이션할 때가 되면 시스템 관리자에게 연락합니다.<br>Analytics 관리자는 [Analytics 마이그레이션](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)을 참조하십시오. |
+| Experience Cloud 솔루션에 대한 Admin Console | 새 Experience Cloud 고객은 전체 조직에서 Adobe 자격을 관리할 중앙 위치인 Admin Console을 사용할 수 있습니다.<br>사용자 관리를 위한 Admin Console로의 마이그레이션은 지속적으로 진행됩니다. Adobe는 마이그레이션할 때가 되면 시스템 관리자에게 연락합니다.<br>Analytics 관리자는 [Analytics 마이그레이션](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)을 참조하십시오. |
 
 ## 2017년 5월 22일 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
