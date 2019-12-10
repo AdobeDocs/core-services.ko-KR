@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud를 사용하는 관리자를 위한 일반적인 질문과 대답입니다.
-keywords: 핵심 서비스
+keywords: core services
 seo-description: Experience Cloud를 사용하는 관리자를 위한 일반적인 질문과 대답입니다.
 seo-title: FAQ
 solution: Experience Cloud
 title: FAQ
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: 9c9b5250ec4143b396623341ecfeb61244469754
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud를 사용하는 관리자를 위한 일반적인 질문과 대�
 
 
 1. [Experience Cloud에 참여 및 관리자 되기](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [다이내믹 태그 관리자](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)(또는 새 [Launch, Adobe 제공](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/))를 사용하여 Experience Cloud ID 서비스 구현
+1. [다이내믹 태그 관리자](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)(또는 새 [Launch, Adobe 제공](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))를 사용하여 Experience Cloud ID 서비스 구현
 1. [보고서 세트를 Experience Cloud 조직에 매핑](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(Analytics 전용) Analytics AppMeasurement 코드 현대화](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Target 전용) Adobe Target 구현 현대화](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -62,7 +62,7 @@ Experience Cloud의 프로비저닝은 다음을 의미합니다.
 
 * 사용자 자격 및 제품 관리는 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)(제품 링크)에서 수행됩니다.
 
-* **중요:** Analytics 관리자는 [Admin Console의 Analytics 사용자 관리](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)에서 사용자 ID를 Analytics 관리 도구에서 Admin Console로 마이그레이션하는 작업에 대해 참조하십시오.
+* **중요:** Analytics 관리자는 [Admin Console의 Analytics 사용자 관리](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)에서 사용자 ID를 Analytics 관리 도구에서 Admin Console로 마이그레이션하는 작업에 대해 참조하십시오.
 
 **Experience Cloud에 로그인할 수 없으면 어떻게 해야 합니까?**
 
@@ -82,7 +82,7 @@ Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있
 
 **조직이란?**
 
-*조직*&#x200B;은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 해주는 엔티티입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
+** 조직은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 하는 항목입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
 
 **IMS 조직 ID는 어디에서 찾을 수 있습니까?**
 
