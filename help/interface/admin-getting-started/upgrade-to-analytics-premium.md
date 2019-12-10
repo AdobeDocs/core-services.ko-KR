@@ -1,6 +1,6 @@
 ---
 description: 관리자는 Analytics Premium으로 업그레이드할 때 요구 사항 및 예상 내용과 Experience Cloud 관리자로서 도움말을 찾을 위치에 대해 알아볼 수 있습니다.
-keywords: 업그레이드
+keywords: upgrading
 seo-description: 관리자는 Analytics Premium으로 업그레이드할 때 요구 사항 및 예상 내용과 Experience Cloud 관리자로서 도움말을 찾을 위치에 대해 알아볼 수 있습니다.
 seo-title: Analytics Premium 및 Experience Cloud로 업그레이드
 solution: Experience Cloud
@@ -8,7 +8,7 @@ title: Analytics Premium 및 Experience Cloud로 업그레이드
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics Premium으로 업그레이드하면 Data Warehouse, Ad Hoc Analy
 Analytics Premium을 사용하면 다음 항목을 사용할 수 있습니다.
 
 * 250개의 전환 변수(eVar)에 대한 액세스
-* [모바일 앱 분석](https://marketing.adobe.com/resources/help/en_US/mobile/)
+* [모바일 앱 분석](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * Data Workbench (시각적 데이터 쿼리, 규칙 기반 특성, 크로스 채널 분석)
 
 >[!NOTE]
@@ -81,9 +81,9 @@ TechOps에서는 계약 약속을 검토하고 적절한 관리 인프라의 용
 
 [시작하기 - 핵심 서비스용 솔루션을 사용하도록 설정](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)에 설명된 구현 현대화에 따를 경우 Analytics Standard 및 Premium 사용자는 Experience Cloud와 핵심 서비스를 이용할 수 있습니다. (해당 프로세스는 구현을 현대화하는 데 도움이 되며, Experience Cloud에서 관리자가 될 수 있도록 해줍니다.)
 
-Experience Cloud에 참여하면 [!DNL marketing.adobe.com]의 Experience Cloud를 통해 로그인하고 핵심 서비스(고객 속성, 대상 및 모바일 앱 분석 등)를 사용할 수 있습니다.
+Experience Cloud에 참여하면 [!DNL experiencecloud.adobe.com]의 Experience Cloud를 통해 로그인하고 핵심 서비스(고객 속성, 대상 및 모바일 앱 분석 등)를 사용할 수 있습니다.
 
-**사용자 및 그룹 관리**
+### 사용자 및 그룹 관리
 
 사용자 관리는 [Adobe Admin Console](https://helpx.adobe.com/enterprise/help/aedash.html)(제품 링크)에서 수행됩니다.
 
