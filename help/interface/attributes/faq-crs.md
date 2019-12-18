@@ -1,13 +1,13 @@
 ---
 description: Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
-keywords: 고객 속성
+keywords: customer attributes
 seo-description: Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
 seo-title: FAQ, 제한 사항 및 우수 사례
 solution: Experience Cloud
 title: FAQ, 제한 사항 및 우수 사례
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: b8363f024a09e07d26f6c0d0255e2675f7ef1a9a
+source-git-commit: 7c487fa88723b6aaa2f5ba1555299dbc4c818098
 
 ---
 
@@ -24,6 +24,7 @@ Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
 | 문제 | 설명 |
 |--- |--- |
 | 고객 속성 등록 제한 사항 | Analytics Premium으로 업그레이드할 때 추가 특성은 24시간 후에 사용할 수 있습니다. 이 시간 중에 속성 가입 최대값 오류가 표시될 수 있습니다. |
+| 일별 빈도 업로드 제한 | 고객 속성을 하루에 두 번 이상 업데이트하지 않는 것이 좋습니다. Adobe에서는 최소 24시간 동안 다른 고객 프로파일 데이터 파일을 업로드하는 것이 좋습니다(동일한 프로파일 세트에 대해). |
 | 사용자 정의 Analytics ID(s.visitorID) | Analytics에서 사용자를 식별하는 방법은 s.visitorID를 사용하여 고객 ID를 설정하는 것입니다. 그러나 ID 서비스를 사용하여 Analytics 데이터를 내보내거나 가져오는 통합은 방문자가 s.visitorID를 사용하여 식별되는 경우 작동하지 않습니다.<br>여기에는 공유 대상, Analytics for Target(A4T) 및 고객 속성이 포함되지만, 이에 제한되지 않습니다.<br>이러한 통합의 경우 사용자 지정 Analytics ID를 설정할 수 없습니다. |
 | Analytics의 문자 길이 제한 | Analytics 구독을 만들 때 업로드된 파일의 필드 길이는 255자로 잘립니다. |
 
