@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 고객 속성
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ## 개요
 
-[!UICONTROL 고객 속성]을 찾으려면 **[!DNL Experience Platform]** &gt; **[!UICONTROL 사용자]** &gt; **[!UICONTROL 고객 속성]**&#x200B;으로 이동합니다.
+To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]**>**[!UICONTROL  People]** > **[!UICONTROL Customer Attributes]**
 
 CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 업로드했으면 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 활용합니다.
 
@@ -29,7 +29,7 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 
 * **그룹 멤버십:** 고객 속성 데이터를 업로드하려면 사용자가 [고객 속성 그룹](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)의 멤버여야 합니다. 또한 Adobe Analytics 그룹 또는 Adobe Target 그룹에 속해야 합니다.
 
-   고객 속성에 액세스할 수 있는지 확인하려면 [!DNL Experience Cloud] 관리자가 [!DNL Experience Cloud]에 로그인해야 합니다. **[!UICONTROL 관리]** &gt; **[!UICONTROL Admin Console 시작]** &gt; **[!UICONTROL 그룹]**&#x200B;으로 이동합니다. *고객 속성*&#x200B;이 이 그룹 중 하나로 표시되면 작업을 시작할 수 있습니다.
+   고객 속성에 액세스할 수 있는지 확인하려면 [!DNL Experience Cloud] 관리자가 [!DNL Experience Cloud]에 로그인해야 합니다. **[!UICONTROL 관리]**>**[!UICONTROL  Admin Console 시작]** > **[!UICONTROL 그룹]**으로 이동합니다.*고객 속성*이 이 그룹 중 하나로 표시되면 작업을 시작할 수 있습니다.
 
    고객 속성 그룹에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!UICONTROL 고객 속성] 메뉴 항목이 표시됩니다.
 
@@ -40,7 +40,7 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 
 * **at.js:** 모든 버전.
 
-## 엔터프라이즈 고객 데이터란? {#section_6F34C29F11414842AA57D2B1248FA3C6}
+## What is enterprise customer data? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
 엔터프라이즈 데이터는 다른 시스템에 있습니다. 이 데이터는 복잡할 수 있고 사용자마다 다른 의미일 수 있습니다. 이 데이터에는 멤버십, 충성도 수준, 연령, 성별, 소유 제품, 관심사 및 라이프타임 값과 같은 정보가 포함될 수 있습니다.
 
@@ -48,7 +48,7 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 
 ![](assets/01_crs_usecase.png)
 
-데이터 파일을 만든 후에 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 고객 속성]**&#x200B;에서 만든 고객 속성 소스에 업로드할 수 있습니다.
+데이터 파일을 만든 후에 **[!UICONTROL Experience Cloud]**>**[!UICONTROL &#x200B;고객 속성]**에서 만든 고객 속성 소스에 업로드할 수 있습니다.
 
 이 워크플로우에 대한 자세한 내용은 [고객 속성 데이터 업로드](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)를 참조하십시오.
 
