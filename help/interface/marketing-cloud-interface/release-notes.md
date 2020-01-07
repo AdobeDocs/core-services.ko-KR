@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 누적 릴리스 노트
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ---
 
@@ -20,6 +20,10 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 
 모든 솔루션에 적용되는 릴리스 노트에 대해서는 [Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)를 참조하십시오.
 
+## 2020년 1월 -
+
+* 피드 페이지는 2019년 12월에 더 이상 사용되지 않습니다. 제품 내 사용 중단 알림을 찾으십시오. (MCUI-10039)
+
 ## 2019년 8월
 
 * Experience Cloud 로그인 시 일부 사용자의 세션이 로그아웃되는 중요한 문제를 해결했습니다. (MCUI-6908)
@@ -31,7 +35,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 
 * Experience Cloud 솔루션 세트에 Marketo가 포함되도록 앱 전환기가 업데이트되고, 브랜드가 Experience Platform으로 업데이트되었습니다. (MCUI-6529)
 * 피드 및 관리 페이지에 대한 탐색 링크를 포함하도록 Experience Cloud 홈이 업데이트되었습니다. (MCUI-6682)
-* "like" 절의 올바른 사용을 위해 [!UICONTROL 트리거] 정의에서 문제를 수정했습니다. (MCUI-6611)
+* &quot;like&quot; 절의 올바른 사용을 위해 [!UICONTROL 트리거] 정의에서 문제를 수정했습니다. (MCUI-6611)
 * 구독 서비스에 로그인 향상을 위해 고객 특성이 개선되었습니다. (MCUI-6519)
 
 ## 릴리스 19.1.1 - 2019년 1월 17일
@@ -91,11 +95,11 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 
 **수정 사항**
 
-* Analytics에 대한 연결 및 SSO를 차단하는 문제를 수정했습니다. 이 문제는 "알림: 오류 메시지: 오류 IMS SSO 실패: 연결된 회사를 찾을 수 없습니다."를 표시합니다.
+* Analytics에 대한 연결 및 SSO를 차단하는 문제를 수정했습니다. 이 문제는 &quot;알림: 오류 메시지: 오류 IMS SSO 실패: 연결된 회사를 찾을 수 없습니다.&quot;를 표시합니다.
 
 **알려진 문제**
 
-**[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 활성화]** 인터페이스를 통해 Dynamic Tag Management에 액세스했지만 Dynamic Tag Management 계정이 Experience Cloud(Adobe ID)에 연결되어 있지 않으면 Dynamic Tag Management에 로그인할 수 없습니다. 이 문제가 발생하지 않도록 하려면 새 브라우저 탭에서 직접 [!DNL dtm.adobe.com]으로 이동합니다.
+**[!UICONTROL Experience Cloud]**>**[!UICONTROL &#x200B;활성화]** 인터페이스를 통해 다이내믹 태그 관리에 액세스했지만 다이내믹 태그 관리 계정이 Experience Cloud(Adobe ID)에 연결되어 있지 않으면 다이내믹 태그 관리에 로그인할 수 없습니다. 이 문제가 발생하지 않도록 하려면 새 브라우저 탭에서 직접 [!DNL dtm.adobe.com]으로 이동합니다.
 
 ## 릴리스 16.1 - 2016년 1월 21일 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -123,13 +127,13 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 **알려진 문제**
 
 * 고객이 Experience Cloud를 통해 Analytics에 SSO하는 경우 Report Builder에 로그인할 수 없습니다. 이 문제는 이전 Analytics 자격 증명을 사용하는 고객에게 영향을 주지 않습니다.
-* Analytics의 "보고서에 대한 링크" 기능에서 알려진 문제입니다. Experience Cloud를 통해 Analytics에 로그인한 고객은 보고서를 공유하려고 할 때 Analytics의 SSO 이외 로그인 페이지로 이동됩니다.
+* Analytics의 &quot;보고서에 대한 링크&quot; 기능에서 알려진 문제입니다. Experience Cloud를 통해 Analytics에 로그인한 고객은 보고서를 공유하려고 할 때 Analytics의 SSO 이외 로그인 페이지로 이동됩니다.
 
 ## 릴리스 15.9 - 2015년 9월 10일 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
 * 고객 속성 데이터를 업로드할 때 간혹 시간 초과를 초래하는 Audience Manager API 성능 문제를 수정했습니다. (MAC-26305)
 * 사용자가 가입에 최대 200개의 고객 속성을 추가하지 못하던 문제를 수정했습니다. (MAC-26188)
-* Analytics 세그멘테이션에서 대상 공유를 방해했던 대상 라이브러리 문제를 수정했습니다. 이 문제로 인해 "데이터 수집"(대상 0개)이 표시되었습니다. 이 문제를 방지하려면 세그먼트 크기를 세그먼트당 대상 구성원 수를 5만 명 미만으로 유지하는 것이 좋습니다. (MAC-25788)
+* Analytics 세그멘테이션에서 대상 공유를 방해했던 대상 라이브러리 문제를 수정했습니다. 이 문제로 인해 &quot;데이터 수집&quot;(대상 0개)이 표시되었습니다. 이 문제를 방지하려면 세그먼트 크기를 세그먼트당 대상 구성원 수를 5만 명 미만으로 유지하는 것이 좋습니다. (MAC-25788)
 * 고객 속성 - 스키마 편집 페이지에서 디스플레이 이름을 변경하면 발생하는 컨텐츠 인식 오류를 초래하는 이전에 알려진 문제를 수정했습니다. (MAC-25589, AN-103834)
 
 ## 릴리스 15.7 - 2015년 7월 22일 {#section_2683A152176944E48EF6C943892975B7}
@@ -505,7 +509,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 * 이미지가 Adobe Target Essentials에 사용되는 경우 자산에서 이미지를 삭제해도 경고가 표시되지 않습니다.
 * 여러 사용자가 동시에 사용할 경우 [!UICONTROL Experience Cloud] 인터페이스 성능이 느려집니다.
 * 에서 사용된 이미지를 [!DNL Adobe Target Essentials]Experience Cloud Assets에서 삭제해도 경고가 발생하지 않습니다.
-* 로그인 동안 **[!UICONTROL 내 정보 저장]을 선택하지 않았을 때 사용자가 15분 후 로그아웃되었습니다.**
+* 로그인 동안 **[!UICONTROL 내 정보 저장]**을 선택하지 않았을 때 사용자가 15분 후 로그아웃되었습니다.
 * 모든 권한과 자격 변경 사항이 적용되려면 사용자가 로그아웃한 후 다시 로그인해야 합니다.
 * [!DNL Experience Cloud]에 로그인하는 데 1초 이상 걸립니다.
 * 특정 사용자의 경우, [!DNL Experience Cloud]에서 삭제된 파일은 [!DNL Digital Asset Management]와 동기화되지 않습니다.
@@ -539,7 +543,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 
 * 사용자 지정 태그를 자산에 추가하면 다른 메타데이터 변경 사항을 지속할 수 없습니다.
 * 사용자는 보드를 새로 고쳐서 삭제된 카드가 보기에서 사라지도록 해야 합니다.
-* 로그인 동안 **[!UICONTROL 내 정보 저장]을 선택하지 않으면 사용자가 15분 후 로그아웃됩니다.**
+* 로그인 동안 **[!UICONTROL 내 정보 저장]**을 선택하지 않으면 사용자가 15분 후 로그아웃됩니다.
 * [!DNL Analytics] 솔루션 랜딩 페이지에 형식 오류가 표시됩니다.
 * 모든 권한과 자격 변경 사항이 적용되려면 사용자가 로그아웃한 후 다시 로그인해야 합니다.
 * 이미지가 [!UICONTROL 에 사용되는 경우 ]자산[!DNL Adobe Target Essentials]에서 이미지를 삭제해도 경고가 표시되지 않습니다.
@@ -574,7 +578,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 * Adobe Target Essentials에 사용되는 이미지를 Marketing Cloud Assets에서 삭제해도 경고가 표시되지 않습니다.
 * [!DNL Analytics]에서 카드를 새로 고치면 때로 확장된 카드에서 빈 차트가 생성됩니다.
 * 모든 권한과 자격 변경 사항이 적용되려면 사용자가 로그아웃한 후 다시 로그인해야 합니다.
-* *`Remember me`*&#x200B;을 선택하지 않으면 사용자는 15분 후 로그아웃됩니다.
+* *`Remember me`*을 선택하지 않으면 사용자는 15분 후 로그아웃됩니다.
 * [!DNL Analytics] 솔루션 랜딩 페이지에 형식 오류가 표시됩니다.
 * 자산 카드 보기의 주석 링크를 클릭할 수 없습니다.
 * Experience Cloud 인터페이스는 많은 사용자가 동시에 사용하는 경우 속도가 느려질 수 있습니다.
@@ -620,5 +624,5 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 
 * 공유 [!DNL Analytics] 보고서가 세그먼트 필터에 적용되지 않는 문제를 해결했습니다.
 * 솔루션 계정이 연결되지 않은 경우에도 솔루션이 [!UICONTROL Experience Cloud 솔루션] 페이지에 연결된 것으로 표시되는 문제를 해결했습니다.
-* 아시아 지역의 [!DNL Adobe Target]**고객이 연결 페이지에서[!UICONTROL Experience Cloud로 이동]단추를 클릭할 수 없는 문제를 해결했습니다.**
+* 아시아 지역의 [!DNL Adobe Target]**[!UICONTROL 고객이 연결 페이지에서 Experience Cloud로 이동]**단추를 클릭할 수 없는 문제를 해결했습니다.
 * Youtube 동영상 공유를 하지 못하는 문제를 해결했습니다.
