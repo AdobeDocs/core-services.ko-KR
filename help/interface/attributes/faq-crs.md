@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: FAQ, 제한 사항 및 우수 사례
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: d978c3bdd5a2632787f58339a9554cd8ffa2ec11
+source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ---
 
@@ -23,8 +23,9 @@ Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
 | 문제 | 설명 |
 |--- |--- |
 | 고객 속성 등록 제한 사항 | Analytics Premium으로 업그레이드할 때 추가 특성은 24시간 후에 사용할 수 있습니다. 이 시간 중에 속성 가입 최대값 오류가 표시될 수 있습니다. |
+| 동일한 디바이스에서 여러 로그인 | 고객 속성을 사용하여 고객 프로파일을 데이터 소스에 업로드할 때 동일한 장치(즉, 동일한 Experience Cloud ID)를 공유하는 사용자에게 권장됩니다. 이렇게 하면 장치에서 지속되는 ECID 서비스가 동일한 Experience Cloud ID 아래에 여러 사용자를 연결하여 예기치 않은 결과가 발생할 수 [!DNL Target]있습니다. **** 참고:Mobile의 경우, ECID는 모바일 앱이 설치된 후에 영구적이며, 새 ECID를 생성하려면 앱을 다시 설치해야 합니다. 웹의 경우 브라우저 쿠키가 지워진 후 새 ECID가 생성됩니다. |
 | 일별 빈도 업로드 제한 | 고객 속성은 하루에 한 번만 업데이트하는 것이 좋습니다. 동일한 프로파일 세트에 대해 다른 고객 프로파일 데이터 파일을 업로드하려면 최소 24시간을 기다려야 합니다. |
-| 사용자 정의 Analytics ID(s.visitorID) | Analytics에서 사용자를 식별하는 방법은 s.visitorID를 사용하여 고객 ID를 설정하는 것입니다. 그러나 ID 서비스를 사용하여 Analytics 데이터를 내보내거나 가져오는 통합은 방문자가 s.visitorID를 사용하여 식별되는 경우 작동하지 않습니다.<br>여기에는 공유 대상, Analytics for Target(A4T) 및 고객 속성이 포함되지만, 이에 제한되지 않습니다.<br>이러한 통합의 경우 사용자 지정 Analytics ID를 설정할 수 없습니다. |
+| Custom Analytics ID (`s.visitorID`) | `s.visitorID`를 사용하여 고객 ID를 설정하는 것은 Analytics에서 사용자를 식별하는 방법입니다. 그러나 ID 서비스를 사용하여 Analytics 데이터를 내보내거나 가져오는 통합은 방문자가 식별될 때 작동하지 않습니다. 여기에는 공유 대상, Analytics for Target(A4T) `s.visitorID.`<br>및 고객 속성이 포함되지만 이에 국한되지 않습니다.<br>이러한 통합의 경우 사용자 지정 Analytics ID를 설정할 수 없습니다. |
 | Analytics의 문자 길이 제한 | Analytics 구독을 만들 때 업로드된 파일의 필드 길이는 255자로 잘립니다. |
 
 ## 고객 속성에 대한 FAQ {#section_E47866EEA83348E09FE43CEC5E44C461}
