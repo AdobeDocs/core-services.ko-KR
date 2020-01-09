@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: FAQ
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -115,7 +115,3 @@ ID는 다음과 같습니다.
 **우리 회사에 Social이 없는데 내게 보이는 이유는 무엇입니까?**
 
 Adobe Social은 Analytics와 함께 판매할 수 있는 제품입니다. 따라서 Analytics가 있으면 이 솔루션이 보이지만 구입하지 않으면 액세스할 수 없습니다.
-
-**보고서나 캠페인을 Experience Cloud에 공유하려면 어떻게 합니까?**
-
-Analytics 보고서 또는 Target 캠페인은 [피드](../feed.md#concept_9256B8768A294009A777282DD8719213)에서 공유할 수 있는 자산의 예시입니다.
