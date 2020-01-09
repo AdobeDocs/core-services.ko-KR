@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Experience Cloud의 새 클라우드 이름 정보
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -54,50 +54,48 @@ Media Optimizer 및 TubeMogul을 포함합니다.
 
 다음 정보는 솔루션에 대해 간략하게 설명하고 도움말에 대한 링크를 제공합니다. [사용 사례 레서피](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html)도 디지털 마케팅 작업 과정에 도움이 될 수 있습니다.
 
-![](assets/mc_analytics_32.png) [Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/reference/)
+![](assets/mc_analytics_32.png) [Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 
 Analytics에서 시작하려면 다음을 수행하십시오.
 
-1. [Adobe Analytics 시작](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/)에 설명된 단계를 사용하여 첫 Analytics 보고서 세트(데이터 저장소)를 작성합니다.
-1. 그런 다음 [Launch, Adobe 제공](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/)을 사용하여 Analytics 코드를 배포합니다.
+1. [Adobe Analytics 시작](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)에 설명된 단계를 사용하여 첫 Analytics 보고서 세트(데이터 저장소)를 작성합니다.
+1. 그런 다음 [Launch, Adobe 제공](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)을 사용하여 Analytics 코드를 배포합니다.
 
 Experience Platform Launch는 차세대 태그 관리 제품으로, 모든 분석, 마케팅 및 광고 태그를 간단하게 배포하고 관리할 수 있습니다.
 
 다음을 참조하십시오.
 
-* [어떤 Analytics 제품을 사용해야 합니까?](https://marketing.adobe.com/resources/help/en_US/reference/which_analytics_tool.html)
-* [Analytics 제품 비교 및 요구 사항](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
+* [어떤 Analytics 제품을 사용해야 합니까?](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/which-analytics-tool.html)
+* [Analytics 제품 비교 및 요구 사항](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/analytics-product-comparison.html)
 
-![](assets/mc_target_32.png) [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/)
+![](assets/mc_target_32.png) [Adobe Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
 Adobe Target은 Analytics 및 기타 Experience Cloud 핵심 서비스를 통합합니다. 유용한 시작 주제:
 
-* [Target 설정](https://marketing.adobe.com/resources/help/en_US/target/ov/c_seting_up_target.html)
-* [Target 작동 방식](https://marketing.adobe.com/resources/help/en_US/target/ov/c_how_target_works.html)
-* [관리자의 첫 단계](https://marketing.adobe.com/resources/help/en_US/target/ov/start_target.html)
-* [Target에 대한 보고 소스로 Analytics 사용](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)
+* [Target 설정](https://docs.adobe.com/content/help/en/target/using/administer/administrating-target.html)
+* [Target 작동 방식](https://docs.adobe.com/content/help/en/target/using/introduction/how-target-works.html)
+* [관리자의 첫 단계](https://docs.adobe.com/content/help/en/target/using/administer/start-target.html)
+* [Target에 대한 보고 소스로 Analytics 사용](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 
-![](assets/mc_social_32.png) [Adobe Social](https://marketing.adobe.com/resources/help/en_US/social/)
+![](assets/mc_social_32.png) [Adobe Social](https://docs.adobe.com/content/help/en/social/using/home.html)
 
 Social은 소셜 미디어 목표를 달성하고 전략과 성과를 향상시키는 데 도움이 되는 호스팅된 가입 기반 솔루션을 제공합니다. 의견 수렴, 게시 및 분석을 가능하게 하는 종합 플랫폼으로 소셜 마케팅을 관리할 수 있습니다.
 
-[Social 시작하기](https://marketing.adobe.com/resources/help/en_US/social/c_gs.html)
-
-![](assets/mc_experiencemanager_32.png) [Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-3.html)
+![](assets/mc_experiencemanager_32.png) [Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-5.html)
 
 Adobe Experience Manager는 컨텐츠 관리 솔루션으로, 웹 사이트, 모바일 앱, 커뮤니티 및 양식에 대한 자산 및 컨텐츠를 쉽게 관리할 수 있습니다.
 
-도움말을 보려면 [Adobe Experience Manager 6.3](https://helpx.adobe.com/support/experience-manager/6-3.html)을 참조하십시오.
+도움말을 보려면 [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html)을 참조하십시오.
 
-![](assets/mc_audiencemanager_32.png) [Adobe Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/)
+![](assets/mc_audiencemanager_32.png) [Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
 
 Adobe Audience Manager는 데이터 관리 플랫폼으로, 고유한 대상 프로필을 구축할 수 있도록 지원하므로 모든 채널에서 가장 중요한 고객 세그먼트를 찾고 타깃팅할 수 있습니다.
 
-![](assets/mc_optimize_32.png) [Adobe Advertising Cloud](https://marketing.adobe.com/resources/help/en_US/media-optimizer/)
+![](assets/mc_optimize_32.png) [Adobe Advertising Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html#adcloud)
 
 Adobe Advertising Cloud는 프로그램 방식의 광고 구매 솔루션으로, 예산을 기반으로 하여 혼합된 광고 채널을 찾아 예측할 수 있게 지원한 다음 대상에 대한 컨텐츠 배달 권한을 자동화합니다.
 
-![](assets/mc_campaign_32.png) [Adobe Campaign](https://helpx.adobe.com/support/campaign.html)
+![](assets/mc_campaign_32.png) [Adobe Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/about-adobe-campaign/campaign-orchestration.html)
 
 Adobe Campaign을 통해 모든 온라인과 오프라인 채널에서 캠페인을 계획하고, 전달하고, 측정할 수 있습니다. Adobe Campaign은 생산성을 늘리고 관련 경험을 고객에게 제공하는 데 도움을 줍니다.
 
@@ -117,6 +115,5 @@ Adobe Primetime은 방송국에서 모든 대상을 위해 개인화된 흥미�
 | [관리](admin-getting-started/admin-getting-started.md) | 모든 Adobe 클라우드 및 솔루션에서 사용자 및 제품 자격을 관리합니다. |
 | [자산](experience-cloud-assets/experience-cloud-assets.md) | 모든 디지털 자산을 중앙 위치에 쉽게 저장하고, 동기화하고, 공유하여 시간을 절약하고 보다 일관된 고객 환경을 제공합니다. |
 | [Exchange](exchange.md) | 앱을 통해 디지털 마케팅 확장 기능을 검색, 탐색, 선택, 결제 및 다운로드합니다. |
-| [피드](feed.md) | 공동 작업은 Experience Cloud에 포함되어 있습니다. 피드를 사용하여 게시물, 주석 및 첨부 파일을 공유할 수 있는 중앙 피드를 통해 팀과 연결된 상태를 유지합니다. |
-| [Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/) | Adobe Mobile Services는 Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능을 가져와서 사용자의 모바일 애플리케이션 참여를 이해하고 개선할 수 있도록 해줍니다. |
+| [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services는 Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능을 가져와서 사용자의 모바일 애플리케이션 참여를 이해하고 개선할 수 있도록 해줍니다. |
 | 사람 | Experience Cloud 솔루션의 Adobe 및 Adobe 이외 데이터를 연결하여 개별 고객에 대한 포괄적인 보기를 만듭니다. 고객이 여러 접점에서 상호 작용할 때 가장 중요한 사안을 고려하십시오. 익숙한 소비자가 익숙하지 않은 장치를 사용하여 방문할 경우를 인식하십시오. 타깃팅된 마케팅을 위해 사용자를 대상으로 그룹화하십시오.<br>[대상](audience-library/audience-library.md) - 서로 다른 유형의 고객을 대상으로 분류한 다음 그러한 대상을 Marketing Cloud 솔루션에서 공유합니다.<br>[고객 속성](attributes/attributes.md) - Marketing Cloud 외부에서 수집한 고객 정보에 연결할 수 있는 대상의 다양성입니다.<br>[장치 그래프](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - 전세계의 가장 인기 있는 브랜드와 협력하여 친숙하지 않은 장비를 잘 모르는 친숙한 고객을 인식합니다. (베타에서 Marketing Cloud 장치 협력 구성원만 해당합니다.) |
