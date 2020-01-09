@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: f9839c39c52bc10ab641df094dc444b642986974
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -72,7 +72,6 @@ source-git-commit: f9839c39c52bc10ab641df094dc444b642986974
    + [Experience Cloud의 새로운 기능](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [누적 릴리스 노트](marketing-cloud-interface/release-notes.md)
 + [Exchange 마켓플레이스](exchange.md)
-+ [Experience Cloud 피드](feed.md)
 + [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 + 추가 리소스 {#more-resources}
    + [포럼](https://forums.adobe.com/community/experience-cloud)
