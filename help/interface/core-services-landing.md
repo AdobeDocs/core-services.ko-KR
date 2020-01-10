@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 핵심 서비스 정보
 uuid: 0a8542de-8d89-43dc-b9ad-e27bdf4356f6
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: 97cc8a1fbc63a87f758a4dc0494a6f953be44006
 
 ---
 
@@ -25,6 +25,6 @@ Adobe Experience Platform은 기업 전체에서 데이터 및 콘텐츠를 중�
 | [자산](experience-cloud-assets/experience-cloud-assets.md) | Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준비가 끝난 자산에 대해 중앙 집중식 단일 저장소를 제공합니다. |
 | [Exchange](https://experiencecloud.adobeexchange.com/) | 최상의 확장 프로그램, 스크립트 등을 사용하여 Adobe Experience Cloud 기능을 확장합니다. 검색 막대로 탐색하거나 제품 또는 앱 유형별로 정렬합니다. |
 | [Launch](activation/activation.md) | 사이트 및 앱의 데이터 수집 및 기술 활성화 이러한 서비스에는 다음이 포함됩니다.<ul><li>Experience Platform Launch(최신 태그 관리 솔루션)</li><li>다이내믹 태그 관리</li><li>Triggers</li></ul> |
-| 피드 | **Experience Cloud 피드는 2019년 11월 1일부터 더 이상 지원되지 않으며 2019년 12월에 더 이상 지원되지 않습니다.** |
+| [제공](offer-management/getting-started.md) | Experience Cloud의 모든 채널에서 제작, 관리 및 의사 결정을 내릴 수 있습니다. [!UICONTROL 오퍼] 관리는 자격 조건 규칙 및 여러 컨텐트를 각 오퍼 &#39;객체&#39;와 연관시키고, 모든 채널과 위치에 이러한 오퍼를 게시하며, 각 인터랙션에서 각 고객에게 최상의 오퍼를 제공할 수 있는 중앙 오퍼 카탈로그 역할을 합니다. |
 | [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Mobile Services는 Adobe Marketing Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능을 가져와서 사용자의 모바일 애플리케이션 참여를 이해하고 개선할 수 있도록 해줍니다. |
 | [사람](audience-library/audience-library.md) | 대상 라이브러리에서는 대상을 만들고, 기존 대상을 결합하여 복합 대상을 만들고, 모든 공유 대상을 볼 수 있습니다.<br>고객 속성에서 엔터프라이즈 고객 데이터를 Experience Cloud에 업로드할 수도 있습니다. |
