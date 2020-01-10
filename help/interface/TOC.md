@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: a5978f89b6a0b877bbc5a248bf8b68d03aa51127
 
 ---
 
@@ -68,6 +68,13 @@ source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
    + [구독 구성](attributes/subscription.md)
    + [스키마 업데이트](attributes/t-update-schema.md)
    + [개인 정보 고려 사항 - 고객 속성](attributes/privacy-mac.md)
++ 오퍼 관리 {#offer-management}
+   + [오퍼 관리 시작하기](offer-management/getting-started.md)
+   + [오퍼 관리 워크플로우](offer-management/offer-management-workflow.md)
+   + [제공](offer-management/offers.md)
+   + [레이블](offer-management/labels.md)
+   + [배치](offer-management/placements.md)
+   + [캠페인](offer-management/campaign.md)
 + Experience Cloud 릴리스 노트 {#release-notes}
    + [Experience Cloud의 새로운 기능](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [누적 릴리스 노트](marketing-cloud-interface/release-notes.md)
