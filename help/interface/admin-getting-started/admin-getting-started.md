@@ -1,9 +1,9 @@
 ---
-description: Admin Console 로그인, Experience Cloud 사용자 권한 및 제품 프로필 관리, 브라우저 지원에 대한 자세한 내용을 살펴보십시오.
+description: Admin Console에 로그인 및 Experience Cloud 사용자 권한 및 제품 프로필 관리 방법에 대해 알아봅니다.
 keywords: core services
-seo-description: Admin Console 로그인, Experience Cloud 사용자 권한 및 제품 프로필 관리, 브라우저 지원에 대한 자세한 내용을 살펴보십시오.
+seo-description: Admin Console에 로그인 및 Experience Cloud 사용자 권한 및 제품 프로필 관리 방법에 대해 알아봅니다.
 seo-title: Experience Cloud 사용자 및 제품 관리
-solution: Experience Cloud
+solution: Marketing Cloud
 title: Experience Cloud 사용자 및 제품 관리
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
@@ -14,7 +14,7 @@ source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
 
 # Experience Cloud 사용자 및 제품 관리 {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
-Admin Console 로그인, Experience Cloud 사용자 권한 및 제품 프로필 관리, 브라우저 지원에 대한 자세한 내용을 살펴보십시오.
+Admin Console에 로그인 및 Experience Cloud 사용자 권한 및 제품 프로필 관리 방법에 대해 알아봅니다.
 
 >[!IMPORTANT]
 >
