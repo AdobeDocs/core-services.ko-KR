@@ -1,9 +1,9 @@
 ---
-description: Admin Console에 로그인 및 Experience Cloud 사용자 권한 및 제품 프로필 관리 방법에 대해 알아봅니다.
+description: Admin Console 로그인, Experience Cloud 사용자 권한 및 제품 프로필 관리, 브라우저 지원에 대한 자세한 내용을 살펴보십시오.
 keywords: core services
-seo-description: Admin Console에 로그인 및 Experience Cloud 사용자 권한 및 제품 프로필 관리 방법에 대해 알아봅니다.
+seo-description: Admin Console 로그인, Experience Cloud 사용자 권한 및 제품 프로필 관리, 브라우저 지원에 대한 자세한 내용을 살펴보십시오.
 seo-title: Experience Cloud 사용자 및 제품 관리
-solution: Marketing Cloud
+solution: Experience Cloud
 title: Experience Cloud 사용자 및 제품 관리
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
@@ -14,7 +14,7 @@ source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
 
 # Experience Cloud 사용자 및 제품 관리 {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
-Admin Console에 로그인 및 Experience Cloud 사용자 권한 및 제품 프로필 관리 방법에 대해 알아봅니다.
+Admin Console 로그인, Experience Cloud 사용자 권한 및 제품 프로필 관리, 브라우저 지원에 대한 자세한 내용을 살펴보십시오.
 
 >[!IMPORTANT]
 >
@@ -168,7 +168,7 @@ Experience Cloud 지원 브라우저에는 다음이 포함됩니다.
 * [!DNL Safari]
 * [!DNL Opera]
 
-**** 참고:Experience Cloud 인터페이스는 이러한 브라우저를 지원하지만 개별 솔루션은 모든 브라우저를 지원하지 않을 수 있습니다. (예: Analytics [는](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) 지원되지 [!DNL Opera]않으며, [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) 은 [!DNL Safari]지원하지 않습니다.)
+**참고:** Experience Cloud 인터페이스는 이러한 브라우저를 지원하지만 개별 솔루션은 모든 브라우저를 지원하지 않을 수 있습니다. (예: [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)는 [!DNL Opera]를 지원하지 않으며, [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)은 [!DNL Safari]를 지원하지 않습니다.)
 
 **솔루션 및 제품 요구 사항**
 
