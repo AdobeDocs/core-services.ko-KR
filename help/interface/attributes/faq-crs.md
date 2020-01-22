@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: FAQ, 제한 사항 및 우수 사례
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
+source-git-commit: f89a6c6704c9f499e6aa2ab38b2f5f9496ccdda5
 
 ---
 
@@ -105,6 +105,11 @@ Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
   <tr> 
    <td colname="col1"> <p> <b> (Target 전용)</b> 방문자가 고객 ID로 식별되면 바로 고객 속성에 업로드된 데이터를 타깃팅할 수 있습니까? </p> </td> 
    <td colname="col2"> <p>예. </p> <p>Target에 대한 서버 호출 시 여기에 mbox 타사 ID가 포함되면 모든 고객 속성 데이터를 사용할 수 있습니다. </p> </td> 
+  </tr> 
+    <tr> 
+   <td colname="col1"> <p> <b> (Target만 해당)</b> 고객 속성 소스에 업로드된 파일에 대해 "동기화 상태" 열은 무엇을 나타냅니까? </p> </td> 
+   <td colname="col2"> <p> 특정 속성 파일에서 상태 동기화 아이콘을 클릭하여 Target이 게시하고 동기화한 레코드 수를 볼 수 있습니다. "동기화 %"는 Target에 동기화된 프로파일의 비율을 지정하는 실시간 지표입니다. </p> <p> <b></b> 참고:속성이 Target과 동기화되려면 최대 24시간이 걸릴 수 있습니다. </p>
+ </td> 
   </tr> 
  </tbody> 
 </table>
