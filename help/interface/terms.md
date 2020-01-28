@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 용어
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
 translation-type: tm+mt
-source-git-commit: cb161cae8999c0fcbbdca711a82ae5f670d66eb1
+source-git-commit: 5b249be1769d6f10fae68340f0a28082e389e9bd
 
 ---
 
@@ -27,6 +27,7 @@ Experience Cloud 사용자를 위한 용어 참조와 해당 용어가 Creative 
 | 소비자 ID | 특별한 용도는 없습니다. | Device Co-op 구성원이 개인을 인식하는 데 사용하는 ID입니다. 이 번호는 브랜드에 의해 지정되며 CRM 시스템에서 종종 유지 관리됩니다. **** 참고:이 ID는 Experience Cloud에 소비자 ID를 _보내는_ Experience Cloud ID 서비스 [](https://docs.adobe.com/content/help/en/id-service/using/intro/about-id-service.html) 함수 호출인 setCustomerID와 혼동하지 않아야 합니다. |
 | 컨텐츠 | Creative Cloud에서 컨텐츠는 페이지의 텍스트 및 이미지를 나타냅니다. 이 용어는 Creative와 Experience Cloud에서 비슷하게 사용됩니다. | Experience Cloud에서 컨텐츠는 구체적 목표를 지원하기 위해 캠페인의 일부로 사용할 수 있는 마케팅 컨텐츠를 참조하며,<br>특정 위치에 사용되고 자산으로 구성될 수 있습니다. 컨텐츠는 제품 정보처럼 구조화하거나, 모바일 애플리케이션의 화면 또는 웹 페이지처럼 구조화하지 않을 수 있습니다.<br>해당 예는 다음과 같습니다.<ul><li>웹 페이지</li><li>배너</li><li>상태 업데이트</li><li>설명</li><li>텍스트 광고</li><li>제품 정보</li><li>제품 검토</li><li>양식 데이터</li><li>검색 색인의 문서</li><li>소셜 게시물</li><li>기사</li><li>발행물</li></ul> |
 | 대시보드 | 특별한 용도는 없습니다. | 하나의 뷰에서 여러 주요 지표를 나타내는 데이터 시각화 모음입니다. |
+| 데이터 사용 적용 | 특별한 용도는 없습니다. | 데이터 사용 메타데이터를 사용하여 Adobe 기업 개인 정보 보호 정책, 계약 고려 사항 및 일반적인 개인 정보 보호 원칙을 준수할 수 있도록 정책, 시스템 디자인, 관행 및 절차(솔루션, 앱, 서비스, SDK, API 등)가 제정하고 정의한 절차입니다. |
 | Device Co-op | 특별한 용도는 없습니다. | 소비자가 사용하는 디바이스에 대한 데이터를 공유하여 모든 디바이스에 걸쳐 개인화된 경험을 보다 효과적으로 전달하고 의미 있고 일관된 경험을 제공하기로 동의한 브랜드 그룹 |
 | 연결 | 특별한 용도는 없습니다.  연결은 하이퍼링크 탐색 및 글꼴, 속성, 레이어 등의 항목 연결을 나타냅니다. | Experience Cloud에서 연결은 일반적으로 서로 다른 솔루션 계정을 인터페이스에 연결하는 것을 말합니다.<br>[조직 및 계정 연결](admin-getting-started/organizations.md)을 참조하십시오.<br>또한 다른 사용자에게 전송된 Analytics 보고서에 대한 표준 URL을 연결이라고도 합니다. |
 | 위치 | Creative Cloud에서 위치는 파일 위치 또는 열린 이미지나 문서의 위치를 나타냅니다. | Experience Cloud에서 위치는 대상이 컨텐츠를 보고 상호 작용할 수 있는 장소입니다. 위치와 컨텐츠 간의 연관성이 다소 정적이거나 캠페인 규칙에 따라 동적으로 관리할 수 있습니다. 위치는 컨텐츠를 배달할 수 있는 방법 및 지표를 수집할 수 있는 방법을 결정하는 특정 채널에 항상 속합니다.<br>해당 예는 다음과 같습니다.<ul><li>사이트</li><li>속성(소셜)</li><li>재고 표시</li><li>랜딩 페이지</li><li>모바일 애플리케이션</li><li>슬롯(비디오)</li></ul> |
