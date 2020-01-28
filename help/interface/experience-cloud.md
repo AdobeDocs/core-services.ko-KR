@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 및 핵심 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
 
 ---
 
@@ -20,12 +20,12 @@ source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ## 무엇을 배우고 싶으십니까?
 
+* [모든 Experience Cloud 솔루션에](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) 대한 제품 설명서 - Experience Cloud 학습 및 지원
 * [릴리스 노트 및 제품 업데이트](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) - Experience Cloud의 새로운 기능 및 업데이트를 받기 위한 구독
 * [핵심 서비스](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) 구현을 위한 튜토리얼 - 핵심 서비스에 대한 비디오 및 자습서 살펴보기
 * [Experience League의 전문가](https://landing.adobe.com/experience-league/) 지원 - 전문가 및 커뮤니티의 가이드 학습
 * [교육 및 트레이닝](https://helpx.adobe.com/learning.html?promoid=KAUDK) - Adobe와 협력하여 Adobe 제품을 최대한 활용할 수 있습니다.
 * [고객 경험 블로그](https://theblog.adobe.com/customer-experience/) - Experience Cloud 블로그 보기
-* [모든 Experience Cloud 솔루션에](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) 대한 제품 설명서 - Experience Cloud 학습 및 지원
 * [고객 지원](https://helpx.adobe.com/contact/enterprise-support.ec.html) - Adobe 고객 지원 센터에 문의
 
 ## 핵심 서비스 제품 문서
