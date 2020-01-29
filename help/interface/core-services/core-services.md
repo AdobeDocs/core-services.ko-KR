@@ -7,14 +7,23 @@ solution: Experience Cloud
 title: 핵심 서비스용 솔루션을 사용하도록 설정
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
+source-git-commit: 7e2ff64af9b610eafd2e6077012542434a984e6e
 
 ---
 
 
 # 핵심 서비스용 솔루션을 사용하도록 설정
 
-기존 고객의 경우 고객 속성 및 대상과 같은 기능을 사용할 수 있도록 솔루션 구현을 현대화하고 Experience Cloud를 구현하는 방법을 알아봅니다.
+기존 고객의 경우 고객 속성 및 대상과 같은 기능을 사용할 수 있도록 솔루션 구현을 현대화하고 Experience Cloud를 구현하는 방법을 알아봅니다. 이를 위해 다음을 수행합니다.
+
+1. [Experience Cloud에 참여 및 관리자 되기](#section_2423F0BD3DF642658103310EE5EA6154)
+1. [Experience Cloud ID 서비스 구현](#section_3C9F6DF37C654D939625BB4D485E4354)
+1. [보고서 세트를 Experience Cloud 조직에 매핑](#section_7B08516B01BA421681DF03D0E86CE3BA)
+1. [Analytics AppMeasurement 코드 업데이트](#section_1798D9D0F05C47E29816AC4EEB9A0913)
+1. [Adobe Target 구현 업데이트](#section_C2F4493C7A36406DAE2266B429A4BD24)
+1. [핵심 서비스 구현 확인](#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [사용자 및 제품 관리](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
+1. [핵심 서비스 사용 시작](#section_960C06093623462E8EA247B3E97274A1)
 
 <!-- <p>https://marketing-beta.adobe.com/resources/help/core/core-services.html </p> 
 <p>https://adobe.sharepoint.com/sites/AGSConsulting/CoreServices/PA/_layouts/15/start.aspx#/ </p> -->
@@ -88,17 +97,11 @@ For complete Experience Cloud ID service help (formerly, visitor ID), go [here](
 
 If you are not using [!UICONTROL Experience Platform Launch] or [!UICONTROL Dynamic Tag Management], manually implement the ID service via the JavaScript Deployment ([!DNL VisitorAPI.js]), as follows:
 
-1. [Analytics용 Experience Cloud ID 서비스 구현](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-analytics.html).
-
-   추가 [고객 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)를 설정하는 것도 좋습니다. 이러한 ID는 각 방문자와 연결되며 Experience Cloud에서 현재 및 향후 기능을 활성화합니다.
-
-1. 기존 [!DNL s_code]를 버전 H.27.3 이상으로 업데이트하거나 기존 [!DNL AppMeasurement.js]를 버전 1.4 이상으로 업데이트합니다.
-
-   이러한 파일은 Analytics 관리 도구의 [코드 관리자](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html)에서 다운로드할 수 있습니다.
-
-   ([에 대한 추가 정보가 필요한 경우 ](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html)JavaScript 구현[!DNL AppMeasurement.js] 안내서를 이용할 수 있습니다.)
-
-1. Analytics에 대한 고객 ID를 동기화합니다. [Analytics - 고객 ID 동기화](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437)(아래)를 참조하십시오.
+| 작업 | 설명 |
+| -----------| ---------- |  
+| [Analytics용 Experience Cloud ID 서비스 구현](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-analytics.html) | 추가 [고객 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)를 설정하는 것도 좋습니다. 이러한 ID는 각 방문자와 연결되며 Experience Cloud에서 현재 및 향후 기능을 활성화합니다. |
+| 기존 [!DNL s_code]를 버전 H.27.3 이상으로 업데이트하거나 기존 [!DNL AppMeasurement.js]를 버전 1.4 이상으로 업데이트합니다. | 이러한 파일은 Analytics 관리 도구의 [코드 관리자](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html)에서 다운로드할 수 있습니다.  ([에 대한 추가 정보가 필요한 경우 ](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html)JavaScript 구현[!DNL AppMeasurement.js] 안내서를 이용할 수 있습니다.) |
+| Analytics에 대한 고객 ID를 동기화합니다 | [Analytics - 고객 ID 동기화](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437)(아래)를 참조하십시오. |
 
 ## Analytics 및 Target - 고객 ID 동기화 {#section_AD473A6A21C1446498E700363F9A8437}
 
@@ -125,13 +128,13 @@ Android *및 iOS Mobile 애플리케이션에서 추가 고객 ID를 설정하�
 
 이전 데이터를 활성화하려면 고객 지원 센터에 문의하십시오.
 
-## 3단계. 보고서 세트를 Experience Cloud 조직에 매핑 {#section_7B08516B01BA421681DF03D0E86CE3BA}
+## 3단계. Map report suites to an Experience Cloud Organization {#section_7B08516B01BA421681DF03D0E86CE3BA}
 
-Experience Cloud services (such as Experience Cloud ID service and the [!UICONTROL People service]) are associated with an Experience Cloud organization instead of an individual report suite. 이러한 서비스가 올바르게 작동하도록 하려면 각 Analytics 보고서 세트를 Experience Cloud 조직에 매핑해야 합니다.
+Experience Cloud services (such as Experience Cloud ID service and the [!UICONTROL People service]) are associated with an Experience Cloud organization instead of an individual Analytics report suite. 이러한 서비스가 올바르게 작동하도록 하려면 각 Analytics 보고서 세트를 Experience Cloud 조직에 매핑해야 합니다.
 
 [조직에 보고서 세트 매핑](report-suite-mapping.md)을 확인하십시오.
 
-## 4단계. (Adobe Analytics) Analytics AppMeasurement 코드 현대화 {#section_1798D9D0F05C47E29816AC4EEB9A0913}
+## 4단계. (Adobe Analytics) Update your Analytics AppMeasurement code {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
 지역 데이터 수집(RDC)에서 작업 중인지 확인합니다. 데이터 수집 도메인이 [!DNL omtrdc.net]이거나 CNAME이 [!DNL omtrdc.net]으로 매핑된 경우 RDC를 사용해야 합니다. 자세한 내용은 [RDC로 전환](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)을 참조하십시오. If you are using first-party cookies, refer to [CNAME and the Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) for information about data collection CNAMEs and cross-domain tracking.
 
@@ -139,12 +142,12 @@ Experience Cloud services (such as Experience Cloud ID service and the [!UICONTR
 
 In [!UICONTROL Dynamic Tag Management], click **[!UICONTROL <Web Property Name>]** > **[!UICONTROL 개요]**>**[!UICONTROL &#x200B;도구 추가]** > **[!UICONTROL Adobe Analytics]**. 배포 정보에 대해서는 다이내믹 태그 관리에서[Adobe Analytics 설정](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html)을 참조하십시오.
 
-## 5단계. (Adobe Target) Adobe Target 구현 현대화 {#section_C2F4493C7A36406DAE2266B429A4BD24}
+## 5단계. (Adobe Target) Update your Adobe Target implementation {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
 * It is recommended that you add an [Adobe Target extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html) in [!UICONTROL Experience Platform Launch], so that your library retrieval is automatic. Experience Platform Launch를 사용하여 Target( [및 기타 솔루션)용 Experience Cloud ID 서비스 확장을](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) 설정할 [!UICONTROL 수도 있습니다]. The [!UICONTROL Experience Cloud ID service] update **is required** for [!UICONTROL Target] to use core services. 다이내믹 태그 관리를 사용하는 [!UICONTROL 경우]Adobe Target [도구를](https://docs.adobe.com/content/help/en/dtm/using/tools/target.html)추가합니다. You can also use [!UICONTROL Dynamic Tag Management] to deploy the Experience Cloud ID service for Target.)
 * Experience Platform Launch 또는 [!UICONTROL 다이내믹 태그 관리를] 사용하지 않는 [!UICONTROL 경우]mbox 라이브러리를 [수동으로](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html) 업데이트하십시오.
 * Request access to use Adobe Analytics as the reporting source for [!DNL Adobe Target]. [!DNL Target] 및 데이터가 처리 중에 동일한 서버 호출에 결합되므로 방문자가 두 솔루션 간에 연결됩니다. [!DNL Analytics] [Target 구현을 위해 Analytics 사용](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)을 참조하십시오.
-* 
+
    >[!IMPORTANT]
    >
    >모든 Analytics 고객은 이미 고객 속성과 같은 핵심 서비스에 대해 프로비저닝되었습니다. Analytics 사용자가 아닌 경우 고객 지원 센터에 문의하여 제공받을 수 있도록 요청하십시오.
@@ -197,7 +200,7 @@ Once you are up and running, navigate to the [Admin Console](https://adminconsol
 
 Users that are added to the [!UICONTROL Customer Attributes] group will see the [!UICONTROL Customer Attributes] menu item on the left side of the Experience Cloud interface
 
-## 8단계. 핵심 서비스 사용 시작 {#section_960C06093623462E8EA247B3E97274A1}
+## 8단계. Begin using core services {#section_960C06093623462E8EA247B3E97274A1}
 
 다음 핵심 서비스 기능을 활용할 수 있습니다.
 
