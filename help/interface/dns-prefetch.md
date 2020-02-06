@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 다양한 솔루션 및 서비스에서 DNS 프리페치 사용
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -38,7 +38,7 @@ DNS 프리페치는 페이지에 포함된 정적 링크에서 자동으로 작�
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Experience Cloud ID 서비스:** `<link rel="dns-prefetch" href="//fast. *`여기에 파트너 ID 삽입`*.demdex.net">`
+* **** Experience Cloud ID 서비스:여기에 파트너 ID `<link rel="dns-prefetch" href="//fast. *`삽입`*.demdex.net">`
 
 * **Dynamic Tag Manager** (DTM): 필요하지 않습니다. DTM 링크는 페이지가 로드되는 즉시 사용 가능합니다.
 
