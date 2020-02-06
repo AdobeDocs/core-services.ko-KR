@@ -1,13 +1,13 @@
 ---
 description: 유효성 검사 프로세스를 사용하여 표시 이름 및 설명을 업로드된 속성(문자열, 정수, 숫자 등)에 매핑할 수 있습니다. 스키마는 이러한 설정에 따라 만들어집니다. 이 스키마는 앞으로 이 데이터 소스로 업로드되는 모든 데이터의 유효성을 검사하는 데 사용됩니다. 이 매핑 프로세스 때문에 원본 데이터가 변경되지는 않습니다.
-keywords: 고객 속성;핵심 서비스
+keywords: customer attributes;core services
 seo-description: 유효성 검사 프로세스를 사용하여 표시 이름 및 설명을 업로드된 속성(문자열, 정수, 숫자 등)에 매핑할 수 있습니다. 스키마는 이러한 설정에 따라 만들어집니다. 이 스키마는 앞으로 이 데이터 소스로 업로드되는 모든 데이터의 유효성을 검사하는 데 사용됩니다. 이 매핑 프로세스 때문에 원본 데이터가 변경되지는 않습니다.
 seo-title: 스키마 유효성 검사
 solution: Experience Cloud
 title: 스키마 유효성 검사
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 >
 >유효성 검사 후 스키마를 업데이트하면 고객 속성이 삭제됩니다. [스키마 업데이트(속성 삭제)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)를 참조하십시오.
 
-**[!UICONTROL 고객 속성 소스]** &gt; **[!UICONTROL 새 고객 속성 소스 만들기]** &gt; **[!UICONTROL 스키마 보기/편집]**
+**[!UICONTROL 고객 속성 소스]** > **[!UICONTROL 새 고객 속성 소스 만들기]** > **[!UICONTROL 스키마 보기/편집]**
 
 ![](assets/view_edit_schema.png)
 
@@ -32,11 +32,11 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 * **[!UICONTROL 스키마 보기/편집:]** 다음 단계에 설명된 대로 표시 이름을 속성 데이터에 매핑합니다.
 
-* **[!UICONTROL FTP 설정:]** [FTP를 통해 데이터를 업로드합니다](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
+* **[!UICONTROL FTP 설정:]**[ FTP를 통해 데이터를 업로드합니다](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
 * **[!UICONTROL ID 조회:]** `.csv`의 CID(고객 ID)를 입력하여 해당 ID에 대한 Experience Cloud 정보를 조회합니다. 이 기능은 방문자에 대한 특성 데이터가 표시되지 않는 문제를 해결하는 데 유용합니다.
 
-   * **[!UICONTROL MCID(Experience Cloud ID):]** 최신 Experience Cloud ID 서비스를 사용하는 경우에 표시됩니다. MCID 서비스를 사용하고 있지만 ID가 표시되지 않는 경우 Experience Cloud가 해당 CID에 대한 별칭을 수신하지 못한 것입니다. 방문자가 로그인되어 있지 않거나 해당 ID가 구현되지 않은 것입니다.
+   * **** MCID(Experience Cloud ID):최신 Experience Cloud ID 서비스를 사용하는 경우 표시됩니다. MCID 서비스를 사용하고 있지만 ID가 표시되지 않는 경우 Experience Cloud가 해당 CID에 대한 별칭을 수신하지 못한 것입니다. 방문자가 로그인되어 있지 않거나 해당 ID가 구현되지 않은 것입니다.
 
    * **[!UICONTROL CID(Customer ID):]** 이 CID와 연결된 속성입니다. prop 또는 eVar을 사용하여 CID(AVID)를 업로드하며 속성은 표시되지만 AVID는 표시되지 않는 경우 방문자가 사이트에 로그인되어 있지 않은 것입니다.
 
