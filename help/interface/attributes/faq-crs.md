@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: FAQ, 제한 사항 및 우수 사례
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: f89a6c6704c9f499e6aa2ab38b2f5f9496ccdda5
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -71,7 +71,7 @@ Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
      <ul id="ul_9C473434B5DA4C6299AAB209DEDFCDE7"> 
       <li id="li_8BC10EB2825F4ADF8CA61F71D4994A28"> <b>Adobe Analytics</b>: 강력히 권장됨 </li> 
       <li id="li_56F518E3F3DF4C93B6F7EF3B40ACC52F"> <b>Adobe Target:</b> 필수 </li> 
-     </ul> </p> <p>ID 서비스를 사용하면 실시간 대상, Target 현대화, Analytics 통합 및 비디오 하트비트 추적을 비롯한 최신 Experience Cloud 기능을 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 핵심 서비스 - 솔루션 활성화 방법</a>. </p> <p> <b>참고</b>: <span class="term">Experience Cloud ID 서비스</span>는 이전에 <span class="term">Analytics 방문자 ID 서비스</span>로 알려진 기능의 현대화된 구현입니다. </p> </td> 
+     </ul> </p> <p>ID 서비스를 사용하면 실시간 대상, Target 현대화, Analytics 통합 및 비디오 하트비트 추적을 비롯한 최신 Experience Cloud 기능을 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 핵심 서비스 - 솔루션 활성화 방법</a>. </p> <p> <b>참고</b>:Experience <span class="term"> Cloud</span> ID 서비스는 이전에 Analytics 방문자 ID 서비스라고 <span class="term"></span>알려진 최신 구현입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>고객 속성 기능은 Adobe Audience Manager와 어떤 관련이 있습니까? </p> </td> 
