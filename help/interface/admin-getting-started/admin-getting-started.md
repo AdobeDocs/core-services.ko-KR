@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Experience Cloud 사용자 및 제품 관리
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Experience Cloud 사용자 관리의 최신 기능에 대해 알아보십�
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. [Adobe ID 또는 Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) 및 암호를 입력합니다.
 
-또는 Experience Cloud 메뉴(![](assets/menu-icon.png))에서 **[!UICONTROL 관리]**>**[!UICONTROL  Admin Console 시작]**을 클릭합니다.
+또는 Experience Cloud 메뉴(![](assets/menu-icon.png))에서 **[!UICONTROL 관리]** > **[!UICONTROL Admin Console 시작]**&#x200B;을 클릭합니다.
 
 **관련 도움말**
 
@@ -61,7 +61,7 @@ Admin Console에서 Analytics 사용자 및 제품 권한을 관리합니다.
 
 Analytics 사용자 ID 마이그레이션 도구는 Analytics 관리자가 Analytics 사용자 관리에서 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/)/로 사용자 계정을 마이그레이션하도록 지원하는 데 사용할 수 있습니다.
 
-계정 마이그레이션이 단계적으로 고객에게 배포되고 있습니다. Adobe에서는 기존 사용자 계정을 **[!UICONTROL 관리 도구]**>**[!UICONTROL &#x200B;사용자 관리]**에서 Admin Console로 마이그레이션할 때 사용자에게 알리고 지원합니다.
+계정 마이그레이션이 단계적으로 고객에게 배포되고 있습니다. Adobe에서는 기존 사용자 계정을 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에서 Admin Console로 마이그레이션할 때 사용자에게 알리고 지원합니다.
 
 After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). 사용자가 이전 계정([!DNL my.omniture.com] 및 [!DNL sc.omniture.com])을 통해 로그인하려고 하면 [!DNL experiencecloud.adobe.com]으로 리디렉션됩니다.
 
@@ -88,7 +88,7 @@ Target에서 작업 공간은 제품 프로필입니다. 이를 통해 조직에
 
 ## Experience Platform Launch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform Launch는 Admin Console에서 제품 페이지에 표시됩니다. Launch 제품 프로필에 다른 솔루션 및 핵심 서비스를 포함할 수 있습니다.
+Experience Platform Launch는 Admin Console에서 제품 페이지에 표시됩니다. Launch 제품 프로필에 다른 솔루션 및 서비스를 포함할 수 있습니다.
 
 See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
 
@@ -111,8 +111,8 @@ Audience [Manager](https://docs.adobe.com/content/help/en/dtm/using/admin/users.
 사용자를 조직에 초대할 때 사용자에게 제품 및 제품 프로필에 대한 액세스 권한을 제공할 수 있습니다. 제한된 관리 권한을 사용자에게 위임할 수도 있습니다. 마찬가지로 사용자 그룹을 작성한 후, 제품 프로필에 액세스할 수 있는 그룹을 추가할 수 있습니다.
 
 1. In the [Admin Console](https://adminconsole.adobe.com/enterprise/), click **[!UICONTROL Products]**.
-1. **[!UICONTROL 새 프로필]**을 클릭합니다.
-1. 프로필 세부 사항을 구성한 후 **[!UICONTROL 다음]**을 클릭합니다.
+1. **[!UICONTROL 새 프로필]**&#x200B;을 클릭합니다.
+1. 프로필 세부 사항을 구성한 후 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 완료를 클릭합니다]**.
 
 다음에서 추가 도움말을 참조하십시오.
@@ -127,7 +127,7 @@ Audience [Manager](https://docs.adobe.com/content/help/en/dtm/using/admin/users.
 
 예를 들면 특정 지표와 차원(eVars 등)에 대한 권한 및 세그먼트나 계산된 지표 생성과 같은 기능을 사용하여 여러 Analytics 도구([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder])를 포함하는 제품 프로필을 만들 수 있습니다.
 
-1. [Admin Console](https://adminconsole.adobe.com/enterprise)에 로그인한 다음 **[!UICONTROL 제품]**(또는 제품 이름)을 클릭합니다.
+1. [Admin Console](https://adminconsole.adobe.com/enterprise)에 로그인한 다음 **[!UICONTROL 제품]**(또는 제품 이름)을 클릭합니다. 
 1. 그런 다음 제품 프로필에서 **[!UICONTROL 권한]**(관리자만 사용 가능)을 클릭합니다.
 1. 프로필의 권한 구성:
 
@@ -151,10 +151,10 @@ Admin Console에서 조직의 다른 사용자에게 제한된 관리 권한을 
 
 이러한 역할을 사용하면 필요 이상으로 더 많은 기능을 제공하지 않고 다른 사람에게 관리를 동시에 위임할 수 있습니다.
 
-1. Admin Console에서 **[!UICONTROL 사용자]**를 클릭한 다음 사용자 이름을 클릭합니다.
-1. **[!UICONTROL 관리 권한 편집]**을 클릭합니다.
+1. Admin Console에서 **[!UICONTROL 사용자]**&#x200B;를 클릭한 다음 사용자 이름을 클릭합니다.
+1. **[!UICONTROL 관리 권한 편집]**&#x200B;을 클릭합니다.
 1.  사용자의 관리 권한을 구성합니다. 
-1. **[!UICONTROL 다음]**을 클릭하여 설정을 검토한 다음**[!UICONTROL &#x200B;저장]**을 클릭합니다.
+1. **[!UICONTROL 다음]**&#x200B;을 클릭하여 설정을 검토한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## 지원되는 브라우저 및 시스템 요구 사항 {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
