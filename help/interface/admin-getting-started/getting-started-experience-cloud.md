@@ -7,14 +7,14 @@ solution: Marketing Cloud
 title: 로그인 및 프로필 설정 관리
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
 
 # 로그인 및 프로필 설정 관리
 
-단일 솔루션에 로그인하지 않고 Experience Cloud에 로그인하면 사용자가 소유한 모든 솔루션 및 핵심 서비스에 단일 사인온을 사용할 수 있습니다. Experience Cloud에 로그인하고, 암호 및 알림을 관리하고, 기본 랜딩 페이지를 지정하는 방법을 알아봅니다.
+단일 솔루션에 로그인하지 않고 Experience Cloud에 로그인하면 소유한 모든 솔루션과 서비스에 Single Sign-On을 사용할 수 있습니다. Experience Cloud에 로그인하고, 암호 및 알림을 관리하고, 기본 랜딩 페이지를 지정하는 방법을 알아봅니다.
 
 <!-- t_sign_in.xml -->
 
@@ -126,7 +126,7 @@ Experience Cloud 프로필을 편집하고 기본 조직 및 랜딩 페이지 �
    ![](assets/edit-profile.png)
 1. **[!UICONTROL 프로필 편집]**&#x200B;을 클릭합니다.
 
-   프로필 및 암호 페이지의 개인 세부 정보 아래의 필드 및 옵션을 작성합니다.
+   [프로필 및 암호] 페이지의 [개인 세부 정보] 아래의 필드 및 옵션을 작성합니다.
 
 ## 암호 복구 {#task_46541A2806164CB1A4AE8239604E4EB1}
 
