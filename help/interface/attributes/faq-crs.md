@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: FAQ, 제한 사항 및 우수 사례
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: e5bc3afea458d85421ab86ae87a65ebe4e88bb75
 
 ---
 
@@ -111,5 +111,17 @@ Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
    <td colname="col2"> <p> 특정 속성 파일에서 상태 동기화 아이콘을 클릭하여 Target이 게시하고 동기화한 레코드 수를 볼 수 있습니다. "동기화 %"는 Target에 동기화된 프로파일의 비율을 지정하는 실시간 지표입니다. </p> <p> <b></b> 참고:속성이 Target과 동기화되려면 최대 24시간이 걸릴 수 있습니다. </p>
  </td> 
   </tr> 
- </tbody> 
+<tr>
+	<td colname="col1"> <p> 파일 업로드 지표는 고객 속성 소스에서 무엇을 나타냅니까? </p> </td>
+	<td colname="col2"> <p> 다음 지표의 도움으로 고객 속성에 업로드된 속성의 상태를 확인할 수 있습니다. </p>
+		<ul>
+			<li> <b> 레코드:속성 </b> 파일의 레코드 수입니다. </li>
+			<li> <b> 새 레코드:속성 </b> 파일에 있는 새 레코드 수입니다. </li>
+			<li> <b> 업데이트된 레코드:고객 속성에 이미 존재하는 </b> 레코드 수와 파일에서 업데이트된 값. </li>
+			<li> <b> 모든 데이터(레코드):고객 속성에 성공적으로 업로드된 </b> 총 레코드 수입니다. </li>
+		</ul>
+	</td>
+</tr>
+
+</tbody> 
 </table>
