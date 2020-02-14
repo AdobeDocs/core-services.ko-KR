@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: FAQ, 제한 사항 및 우수 사례
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 5028e1c4a2b5d9d0c225e2bbb36ef2c5a91c5ad9
+source-git-commit: 670ceb31b40250215d47857102a09c9dfecfb131
 
 ---
 
@@ -40,7 +40,7 @@ Analytics 및 Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
 | **(Analytics 전용)** Analytics Premium에 제공된 기능과 비교할 때 이 기능은 어떤 차이가 있습니까? | 이전에는 고객 속성 데이터를 Analytics 데이터에 결합하려는 고객이 이 기능을 사용하려면 Data Workbench 도구에 상당히 의존했습니다. 고객 속성은 고객 속성을 Reports &amp; Analytics, Ad Hoc Analysis 및 Report Builder에서 차원 및 지표로 제공하여 좀 더 다양한 대상에게 이 기능을 제공합니다. Analytics Standard 고객은 고객 속성에 액세스할 수 있지만 사용할 수 있는 기능은 제한됩니다. Analytics 프리미엄 고객은 전체 기능을 사용할 수 있습니다. |
 | **(Target 전용)** Target에서 표시된 적이 없는 고객의 데이터를 미리 로드하거나 업로드할 수 있습니까? | 예. 방문자가 Target에 대해 첫 번째 요청을 수행하면 시스템은 고객 속성에서 고객에 대한 기존 정보를 가져온 다음 해당 데이터를 사용하여 타깃팅합니다. **참고:** 이 데이터를 검색하는 데는 방문자가 Target과 처음 상호 작용한 시점부터 최대 20분이 걸릴 수 있습니다. |
 | **(Target 전용)** 고객 속성 데이터를 공유 대상 데이터와 결합하여 슈퍼 대상을 만들 수 있습니까? | 아니요. 공유된 대상 데이터는 완전한 대상입니다. |
-| **(Target 전용)**&#x200B;고객 속성 기능을 Target의 벌크 프로필 API와 어떻게 비교합니까? | 벌크 프로필 API를 사용하면 개별 프로필에 대해 또는 대량으로 API를 통해 Target 프로필을 직접 업데이트할 수 있습니다. 이 기능은 고객 속성과 비슷하지만, 다음과 같은 주요 차이점이 있습니다. <ul><li>프로필 API는 REST API 호출이며, 고객 속성은 FTP를 사용합니다. </li><li>Target의 프로필 API는 전체 Experience Cloud 대신 Target으로만 데이터를 보냅니다. </li><li>고객 속성은 이러한 외부 데이터를 만들고 관리할 간단한 인터페이스를 제공합니다. </li></ul> |
+| **(Target 전용)**&#x200B;고객 속성 기능을 Target의 벌크 프로필 API와 어떻게 비교합니까? | 벌크 프로필 API를 사용하면 개별 프로필에 대해 또는 대량으로 API를 통해 Target 프로필을 직접 업데이트할 수 있습니다. 이 기능은 고객 속성과 비슷하지만, 다음과 같은 주요 차이점이 있습니다.<ul><li>프로필 API는 REST API 호출이며, 고객 속성은 FTP를 사용합니다.</li><li>Target의 프로필 API는 전체 Experience Cloud 대신 Target으로만 데이터를 보냅니다.</li><li>고객 속성은 이러한 외부 데이터를 만들고 관리할 간단한 인터페이스를 제공합니다. | </li></ul> |
 | **(Target 전용)** 고객 속성에서 Adobe Target으로 데이터를 업로드하면 Target 방문자의 프로필 라이프타임이 연장됩니까? | 예. Adobe Target 도움말의 [방문자 프로필 라이프타임](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/visitor-profile.html)을 참조하십시오. |
 | **(Target 전용)** 방문자가 고객 ID로 식별되면 바로 고객 속성에 업로드된 데이터를 타깃팅할 수 있습니까? | 예. Target에 대한 서버 호출 시 여기에 mbox 타사 ID가 포함되면 모든 고객 속성 데이터를 사용할 수 있습니다. |
 | **(Target 전용)** 고객 속성 **[!UICONTROL 소스에 업로드된 파일에 대해]** 동기화 상태 열은 무엇을 나타냅니까? | 특정 속성 파일에서 상태 동기화 아이콘을 클릭하여 Target이 게시하고 동기화한 레코드 수를 볼 수 있습니다. `Sync %` 는 Target에 동기화된 프로파일의 비율을 지정하는 실시간 지표입니다.<br> **** 참고:속성이 Target과 동기화되려면 최대 24시간이 걸릴 수 있습니다. |
