@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 3595229c176bf4999ed149377adfeb55efc80071
+source-git-commit: 5212c12572bda2261b877f2033569cdb2eb90e27
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 3595229c176bf4999ed149377adfeb55efc80071
    + [타사 쿠키 지원 변경으로 인한 고객 영향](cookies/cookies-thirdparty.md)
 + 사용자 및 제품 관리 {#manage-users-and-products}
    + [Experience Cloud 사용자 및 제품 관리](admin-getting-started/admin-getting-started.md)
-   + [관리 도구](admin-getting-started/admin-tool.md)
+   + [관리 도구](admin-getting-started/admin-tool-experience-cloud.md)
    + [FAQ](admin-getting-started/faq.md)
    + [로그인 및 프로필 설정 관리](admin-getting-started/getting-started-experience-cloud.md)
    + [조직 및 계정 연결](admin-getting-started/organizations.md)
