@@ -6,7 +6,7 @@ seo-title: Experience Cloud 사용자 및 사용자 세부 사항 보기
 solution: Experience Cloud
 title: 'Experience Cloud 사용자 및 사용자 세부 사항 보기 '
 translation-type: tm+mt
-source-git-commit: deb341153e980a003a818f51e417275974ea49e8
+source-git-commit: b2a3ead0bb616d87340aabca4113a4e3f9ed34bc
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: deb341153e980a003a818f51e417275974ea49e8
 | [!UICONTROL 이메일] | 사용자와 연결된 이메일 주소입니다. 열은 A->Z, Z->A로 정렬할 수 있습니다. |
 | [!UICONTROL ID 유형] | 사용자 계정의 ID 유형입니다. 필터를 적용하여 특정 ID 유형을 볼 수 있습니다. 자세한 [내용은 ID 유형](https://helpx.adobe.com/enterprise/using/identity.html) 관리를 참조하십시오. |
 | [!UICONTROL 솔루션] | 사용자가 액세스할 수 있는 Experience Cloud 솔루션 요약 필터를 적용하여 특정 솔루션 액세스 권한이 있는 사용자 목록의 범위를 좁힐 수 있습니다. |
-| [!UICONTROL 마지막 로그인] | Experience Cloud에 로그인한 최신 사용자의 시간 및 날짜입니다. 이 열은 오름차순 또는 내림차순으로 정렬할 수 있습니다. <br> **** 중요:마지막 로그인 데이터는 날짜 값 전 30일 동안 유지되지 않으므로 사용자가 마지막 로그인에 대한 정보를 가지고 있지 않은 것 같습니다. [!UICONTROL 기준(DATE)] - 사용자의 마지막 로그인 데이터는 365일 동안 유지됩니다. 이 정보를 사용하여 Experience Cloud에서 현재 로그인 활동을 볼 수 있지만 비활성 계정에 대해서는 조치를 취하지 않을 수 있습니다. 또한 최근에 만든 사용자는 마지막 로그인 상태가 아닐 수 있습니다. |
+| [!UICONTROL 마지막 로그인] | Experience Cloud에 로그인한 최신 사용자의 시간 및 날짜입니다. 이 열은 오름차순 또는 내림차순으로 정렬할 수 있습니다. <br> **** 중요:2020년 1월 13일부터 사용자의 마지막 로그인 데이터는 365일 동안 보관됩니다. 이 정보는 2020년 1월 13일 이전에 비활성 계정에 대해 조치를 취할 것을 권장하지 않고 Experience Cloud의 현재 로그인 활동을 표시하기 위한 것입니다. |
 
 ## 사용자 목록 보기 사용자 정의
 
