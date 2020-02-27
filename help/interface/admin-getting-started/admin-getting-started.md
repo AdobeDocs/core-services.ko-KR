@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Experience Cloud 사용자 및 제품 관리
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -88,7 +88,7 @@ Target에서 작업 공간은 제품 프로필입니다. 이를 통해 조직에
 
 ## Experience Platform Launch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform Launch는 Admin Console에서 제품 페이지에 표시됩니다. Launch 제품 프로필에 다른 솔루션 및 서비스를 포함할 수 있습니다.
+경험 플랫폼 시작은 관리 콘솔의 제품 페이지에 표시됩니다. Launch 제품 프로필에 다른 솔루션 및 서비스를 포함할 수 있습니다.
 
 See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
 
