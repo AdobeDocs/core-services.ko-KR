@@ -1,26 +1,26 @@
 ---
-description: 활성화에는 Experience Platform Launch라고 하는 최신 태그 관리 제품과 DTM(Dynamic Tag Management) 및 트리거가 포함됩니다.
+description: 활성화에는 Experience Platform Launch라는 최신 태그 관리 제품이 포함되어 있습니다. DTM(Dynamic Tag Management) 및 트리거가 포함됩니다.
 keywords: core services
-seo-description: 활성화에는 Experience Platform Launch라고 하는 최신 태그 관리 제품과 DTM(Dynamic Tag Management) 및 트리거가 포함됩니다.
+seo-description: 활성화에는 Experience Platform Launch라는 최신 태그 관리 제품이 포함되어 있습니다. DTM(Dynamic Tag Management) 및 트리거가 포함됩니다.
 seo-title: 활성화
 solution: Experience Cloud
 title: 활성화
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
 
 # 활성화
 
-활성화에는 Experience Platform Launch라고 하는 최신 태그 관리 제품, Dynamic Tag Management(DTM) 및 트리거가 포함되어 있습니다.
+활성화에는 Experience Platform Launch, Dynamic Tag Management(DTM) 및 트리거라는 최신 태그 관리 제품이 포함되어 있습니다.
 
 ## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
 관련 고객 환경을 운영하는 데 필요한 분석, 마케팅 및 광고 태그를 배포하고 관리합니다.
 
-[Launch, Adobe 제공](https://docs.adobelaunch.com/getting-started)를 참조하십시오.
+See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
 
 ## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
