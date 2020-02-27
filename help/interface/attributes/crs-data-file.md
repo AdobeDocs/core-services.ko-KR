@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 고객 속성에 대한 데이터 파일 및 데이터 소스에 대해
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -162,6 +162,6 @@ Visitor.setCustomerIDs({
 
 (자세한 내용은 [고객 ID 및 인증 상태](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)를 참조하십시오.)
 
-**[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 사람][!UICONTROL &gt;****고객 속성]**&#x200B;에서 다음을 수행합니다.
+In the **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
 위의 고객 ID에 해당하는 고유한 별칭 ID를 사용하여 두 개의 고객 속성 소스를 만듭니다. 이 방법을 사용하면 동일한 참조 ID를 여러 고객 속성 소스로 보낼 수 있습니다
