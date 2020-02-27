@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Experience Cloud의 새 클라우드 이름 정보
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 85bda02326437776baa9503bcc1100c26d48bce4
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -59,9 +59,9 @@ Media Optimizer 및 TubeMogul을 포함합니다.
 Analytics에서 시작하려면 다음을 수행하십시오.
 
 1. [Adobe Analytics 시작](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)에 설명된 단계를 사용하여 첫 Analytics 보고서 세트(데이터 저장소)를 작성합니다.
-1. 그런 다음 [Launch, Adobe 제공](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)을 사용하여 Analytics 코드를 배포합니다.
+1. 그런 다음 Experience Platform Launch를 사용하여 [Analytics 코드를 배포합니다](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
 
-Experience Platform Launch는 차세대 태그 관리 제품으로, 모든 분석, 마케팅 및 광고 태그를 간단하게 배포하고 관리할 수 있습니다.
+Adobe Experience Platform Launch는 차세대 태그 관리로서 모든 분석, 마케팅 및 광고 태그를 배포 및 관리하는 간단한 방법을 제공합니다.
 
 다음을 참조하십시오.
 
@@ -111,7 +111,7 @@ Adobe Primetime은 방송국에서 모든 대상을 위해 개인화된 흥미�
 
 | 핵심 서비스 | 설명 |
 |--- |--- |
-| [활성화](activation/activation.md) | 태그 관리 시스템(Experience Platform Launch 및 Dynamic Tag Management).<br>트리거를 사용하면 Adobe Analytics의 통찰력을 기반으로 Adobe Campaign에서 실시간 조치를 수행할 수 있습니다. |
+| [활성화](activation/activation.md) | 태그 관리 시스템(경험 플랫폼 실행 및 다이내믹 태그 관리).<br>트리거를 사용하면 Adobe Analytics의 통찰력을 기반으로 Adobe Campaign에서 실시간 조치를 수행할 수 있습니다. |
 | [관리](admin-getting-started/admin-getting-started.md) | 모든 Adobe 클라우드 및 솔루션에서 사용자 및 제품 자격을 관리합니다. |
 | [자산](experience-cloud-assets/experience-cloud-assets.md) | 모든 디지털 자산을 중앙 위치에 쉽게 저장하고, 동기화하고, 공유하여 시간을 절약하고 보다 일관된 고객 환경을 제공합니다. |
 | [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | Launch는 Adobe의 차세대 태그 관리 기능입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다. |
