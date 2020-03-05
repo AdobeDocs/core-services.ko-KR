@@ -12,9 +12,9 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 ---
 
 
-# Experience Cloud 관리 도구
+# 관리 도구에서 Experience Cloud 사용자 보기
 
-관리자는 Experience Cloud 관리 도구를 사용하여 모든 Experience Cloud 사용자의 정렬 및 필터링 가능한 목록을 볼 수 있습니다. 각 사용자 세부 사항 페이지에는 사용자의 제품 액세스, 역할 및 마지막으로 액세스한 정보에 대한 중요한 세부 사항이 포함되어 있습니다.  
+관리자는 관리 도구에서 모든 Experience Cloud 사용자의 정렬 및 필터링 가능한 목록과 세부 정보를 볼 수 있습니다. 사용자 세부 정보에는 사용자의 제품 액세스, 역할 및 마지막으로 액세스한 정보가 포함됩니다. (**참고:** 사용자 및 제품 관리는 관리 콘솔에서 [구성됩니다](admin-getting-started.md).)
 
 1. Log in to `https://experience.adobe.com/.`
 
@@ -22,7 +22,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 1. Experience Cloud 홈에서 관리 **[!UICONTROL 도구를 클릭합니다.]**
 
-    (또는 홈 페이지 URL에서 _홈을_ _admin으로 대체할 수 있습니다._)
+   (또는 홈 페이지 URL에서 _홈을_ _admin으로 대체할 수 있습니다._)
 
    사용자 [!UICONTROL 페이지가] 표시됩니다.
 
@@ -38,7 +38,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 | [!UICONTROL 이메일] | 사용자와 연결된 이메일 주소입니다. 열은 A->Z, Z->A로 정렬할 수 있습니다. |
 | [!UICONTROL ID 유형] | 사용자 계정의 ID 유형입니다. 필터를 적용하여 특정 ID 유형을 볼 수 있습니다. 자세한 [내용은 ID 유형](https://helpx.adobe.com/enterprise/using/identity.html) 관리를 참조하십시오. |
 | [!UICONTROL 솔루션] | 사용자가 액세스할 수 있는 Experience Cloud 솔루션 요약 필터를 적용하여 특정 솔루션 액세스 권한이 있는 사용자 목록의 범위를 좁힐 수 있습니다. |
-| [!UICONTROL 마지막 로그인] | Experience Cloud에 로그인한 최신 사용자의 시간 및 날짜입니다. 이 열은 오름차순 또는 내림차순으로 정렬할 수 있습니다. <br> **** 중요:2020년 1월 13일부터 사용자의 마지막 로그인 데이터는 365일 동안 보관됩니다. 이 정보는 2020년 1월 13일 이전에 비활성 계정에 대해 조치를 취할 것을 권장하지 않고 Experience Cloud의 현재 로그인 활동을 표시하기 위한 것입니다. |
+| [!UICONTROL 마지막 로그인] | Experience Cloud에 로그인한 최신 사용자의 시간 및 날짜입니다. 이 열은 오름차순 또는 내림차순으로 정렬할 수 있습니다. <br> **중요:** 2020년 1월 13일부터 사용자의 마지막 로그인 데이터는 365일 동안 보관됩니다. 이 정보는 2020년 1월 13일 이전에 비활성 계정에 대해 조치를 취할 것을 권장하지 않고 Experience Cloud의 현재 로그인 활동을 표시하기 위한 것입니다. |
 
 ## 사용자 목록 보기 사용자 정의
 
