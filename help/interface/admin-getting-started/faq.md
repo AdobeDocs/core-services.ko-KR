@@ -22,7 +22,7 @@ Experience Cloud를 사용하는 관리자를 위한 일반적인 질문과 대�
 
 
 1. [Experience Cloud에 참여 및 관리자 되기](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Implement the Experience Cloud ID Service using Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (or the new [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))
+1. [다이내믹 태그 관리자(또는 새 Experience Platform 시작](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) )를 사용하여 [Experience Cloud ID 서비스 구현](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)
 1. [보고서 세트를 Experience Cloud 조직에 매핑](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(Analytics 전용) Analytics AppMeasurement 코드 현대화](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Target 전용) Adobe Target 구현 현대화](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
