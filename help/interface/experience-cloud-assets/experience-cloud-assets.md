@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 자산
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 ---
 
@@ -25,7 +25,7 @@ Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준�
 
 * **[!DNL Social]**: 소셜 속성, Facebook, Twitter, LinkedIn, Google+에 게시
 * **[!DNL Target]**: A/B 및 다변량 테스트 환경 만들기
-* **[!DNL Media Optimizer]**: 다양한 채널 및 캠페인에서 광고 단위 개발
+* **[!DNL Media Optimizer]** : 다양한 채널 및 캠페인에서 광고 단위 개발
 * **[!DNL Campaign]**: 이메일 소식지 및 캠페인에 자산 배치
 
 [!UICONTROL Experience Cloud 자산]에서 다음을 수행할 수 있습니다.
@@ -35,7 +35,6 @@ Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준�
 * [자산 편집](../experience-cloud-assets/experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
 * [자산 검색](../experience-cloud-assets/experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
 * [자산에 주석 달기](../experience-cloud-assets/experience-cloud-assets.md#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A)
-* [피드에 자산 공유](../experience-cloud-assets/experience-cloud-assets.md#section_2CD53A99600D4A3D9AA82C3CDA666E6B)
 * [전체 화면 자산 보기 및 확대/축소](../experience-cloud-assets/experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
 * [자산 속성 보기](../experience-cloud-assets/experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
 * [사용량 보고서 실행](../experience-cloud-assets/experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
@@ -71,23 +70,13 @@ Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준�
 
 ## 자산에 주석 달기 {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-이미지에 원이나 화살표를 그려서 **[!UICONTROL 주석]**을 클릭하고 동료가 검토할 수 있도록 자산에 주석을 답니다.
+이미지에 원이나 화살표를 그려서 **[!UICONTROL 주석]**&#x200B;을 클릭하고 동료가 검토할 수 있도록 자산에 주석을 답니다.
 
 ![](assets/assets-annotate.png)
 
-<!-- ## Share an asset to your feed {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
-
-**Experience Cloud Feed will no longer be supported starting Nov 01, 2019 and shall be deprecated by Dec, 2019.**
-
-Click **[!UICONTROL Share]** from the toolbar to share the asset as [feed](../feed.md#concept_9256B8768A294009A777282DD8719213) to other Experience Cloud users. 
-
-![](assets/assets-share-card.png) 
-
-Sharing displays the image on your Feed page and with whomever you have shared the card.  -->
-
 ## 전체 화면 자산 보기 및 확대/축소 {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-**[!UICONTROL 보기]**>**[!UICONTROL &#x200B;이미지]**를 클릭하여 전체 자산 이미지를 보고 확대/축소를 활성화합니다.
+**[!UICONTROL 보기]** > **[!UICONTROL 이미지]**&#x200B;를 클릭하여 전체 자산 이미지를 보고 확대/축소를 활성화합니다.
 
 ![](assets/asset-zoom.png)
 
@@ -95,7 +84,7 @@ Sharing displays the image on your Feed page and with whomever you have shared t
 
 속성을 사용한 카드 보기, 목록 보기, 열 보기 중 선택하여 자산을 쉽게 찾을 수 있습니다.
 
-**[!UICONTROL 보기]**>**[!UICONTROL &#x200B;속성]**을 클릭하여 자산의 속성을 확인합니다.
+**[!UICONTROL 보기]** > **[!UICONTROL 속성]**&#x200B;을 클릭하여 자산의 속성을 확인합니다.
 
 ![](assets/asset-properties.png)
 
@@ -103,6 +92,6 @@ Sharing displays the image on your Feed page and with whomever you have shared t
 
 사용자 수, 사용된 저장소 및 전체 자산을 참조하십시오.
 
-**[!UICONTROL 도구]**>**[!UICONTROL &#x200B;보고서]** > **[!UICONTROL 사용 보고서]**를 클릭합니다.
+**[!UICONTROL 도구]** > **[!UICONTROL 보고서]** > **[!UICONTROL 사용 보고서]**&#x200B;를 클릭합니다.
 
 ![](assets/assets-usage-report.png)
