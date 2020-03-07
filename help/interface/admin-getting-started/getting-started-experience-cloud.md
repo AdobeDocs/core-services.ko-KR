@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: 로그인 및 프로필 설정 관리
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
+source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 ---
 
@@ -63,7 +63,7 @@ Experience Cloud에 로그인하는 관리자 이외의 사용자를 위한 도�
 
    Experience Cloud 관리자가 계정 유형(Adobe ID 또는 Enterprise ID)을 확인하는 데 도움을 줄 수 있습니다.
 
-1. 피드 페이지(또는 기본 랜딩 페이지)에서 선택기 아이콘 ![](assets/menu-icon.png)을 클릭하여 풀다운 메뉴에 액세스합니다.
+1. 랜딩 페이지에서 선택기 아이콘을 클릭하여 풀다운 메뉴에 ![](assets/menu-icon.png) 액세스합니다.
 
    ![](assets/experience-cloud-core-services.png)
 
