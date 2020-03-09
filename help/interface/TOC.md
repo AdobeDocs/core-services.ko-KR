@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
 
 ---
 
@@ -39,7 +39,6 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [로그인 및 프로필 설정 관리](admin-getting-started/getting-started-experience-cloud.md)
    + [조직 및 계정 연결](admin-getting-started/organizations.md)
    + [Analytics Premium 및 Experience Cloud로 업그레이드](admin-getting-started/upgrade-to-analytics-premium.md)
-   + [컨텐츠 포함](admin-getting-started/oembed.md)
 + Experience Cloud Activation {#activation}
    + [활성화 개요](activation/activation.md)
    + [Launch 사용 안내서](https://docs.adobe.com/content/help/en/launch/using/overview.html)
