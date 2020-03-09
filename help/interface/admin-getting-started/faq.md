@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: FAQ
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
 
 ---
 
@@ -20,7 +20,6 @@ Experience Cloud를 사용하는 관리자를 위한 일반적인 질문과 대�
 
 핵심 서비스에 대한 구현이 제공되지 않은 경우, 다음 방법에 대해 설명하는 [핵심 서비스에 대한 솔루션 활성화](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)를 참조하십시오.
 
-
 1. [Experience Cloud에 참여 및 관리자 되기](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [다이내믹 태그 관리자(또는 새 Experience Platform 시작](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) )를 사용하여 [Experience Cloud ID 서비스 구현](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)
 1. [보고서 세트를 Experience Cloud 조직에 매핑](../core-services/core-services.md#concept_apg_zq2_rw)
@@ -29,9 +28,6 @@ Experience Cloud를 사용하는 관리자를 위한 일반적인 질문과 대�
 1. [핵심 서비스 구현 확인](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [사용자 및 제품 관리](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [핵심 서비스 사용 시작](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
-
-
-
 
 자세한 내용은 [Adobe 지원에 문의](https://helpx.adobe.com/marketing-cloud/contact-support.html)하십시오.
 
@@ -47,7 +43,7 @@ Experience Cloud 인터페이스에서 제공하는 기능은 귀하의 비즈�
 
 [Adobe 지원 서비스에 문의할 수 있습니다](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
-***`provisioning`*?**
+**프로비저닝&#x200B;_기능_**
 
 Experience Cloud의 프로비저닝은 다음을 의미합니다.
 
