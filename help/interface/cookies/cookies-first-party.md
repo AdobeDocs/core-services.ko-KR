@@ -8,7 +8,7 @@ title: 퍼스트 파티 쿠키
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 620bd7a749080356913ab56a2fca9f4049276938
+source-git-commit: edbe58ffbaeadd2e223ef1567ec9060ab4073f1e
 
 ---
 
@@ -26,7 +26,7 @@ Analytics는 쿠키를 사용하여 이미지 요청과 브라우저 세션 간�
 
 Experience Cloud ID 서비스에서 첫 번째 옵션을 사용할 때에도 Apple의 ITP는 자사 쿠키를 단기간 동안 사용하게 되므로 두 번째 옵션과 함께 사용하는 것이 가장 좋습니다.
 
-CNAME을 사용하는 두 번째 옵션의 경우 사이트에 프로토콜을 사용하는 보안 페이지가 있는 경우 퍼스트 파티 쿠키를 구현하기 위해 Adobe와 함께 SSL 인증서를 받을 수 있습니다. `https:` Adobe는 2020년 하반기에 HTTP 컬렉션에 대한 지원을 중단할 것이므로 데이터 수집에 HTTPS만 사용하는 것이 좋습니다.
+CNAME을 사용하는 두 번째 옵션의 경우 사이트에 HTTPS 프로토콜을 사용하는 보안 페이지가 있는 경우 퍼스트 파티 쿠키를 구현하기 위해 Adobe와 함께 SSL 인증서를 얻을 수 있습니다. Adobe는 2020년 하반기에 HTTP 컬렉션에 대한 지원을 중단할 것이므로 데이터 수집에 HTTPS만 사용하는 것이 좋습니다.
 
 SSL 인증서 발급 프로세스는 종종 혼란스럽고 시간이 걸릴 수 있습니다. 그 결과 Adobe는 업계 선도적인 인증 기관(CA)인 DigiCert와의 파트너십을 구축했으며 이러한 인증서의 구매 및 관리를 자동화하는 통합 프로세스를 개발했습니다.
 
@@ -44,13 +44,21 @@ Adobe 관리 인증서 프로그램에서는 추가 비용 없이 자사 쿠키�
 
 1. [자타 쿠키 요청 양식](/help/interface/cookies/assets/FPC_Request_Form.xlsx)을 작성하고 Adobe 관리 프로그램에서 자사 쿠키를 설정하도록 요청하는 고객 지원 센터를 통해 티켓을 엽니다. 문서 내에 각 필드가 예와 함께 설명되어 있습니다.
 
-1. CNAME 레코드를 만듭니다(아래 지침 참조). 티켓을 수령하면 고객 지원 담당자가 CNAME 기록 한 쌍을 제공해 드립니다. Adobe가 귀하를 대신하여 인증서를 구입할 수 있으려면 먼저 회사의 DNS 서버에서 이러한 레코드를 구성해야 합니다. CNAME은 다음과 비슷합니다. **보안** - 예를 들어 호스트 이름 `smetrics.example.com`은(는) 다음을 가리킵니다. `example.com.ssl.d1.omtrdc.net`. **비보안** - 예를 들어 호스트 이름 `metrics.example.com`은(는) 다음을 가리킵니다. `example.com.d1.omtrdc.net`.
+1. CNAME 레코드를 만듭니다(아래 지침 참조).
 
-1. 이러한 CNAME이 준비되면 Adobe는 DigiCert와 협력하여 Adobe 프로덕션 서버에서 인증서를 구매 및 설치합니다. 기존 구현이 있는 경우 기존 방문자를 유지하기 위해 방문자 마이그레이션을 고려해야 합니다. 인증서가 Adobe의 프로덕션 환경에 라이브로 푸시된 후 추적 서버 변수를 새로운 호스트 이름으로 업데이트할 수 있습니다. 즉, 사이트가 안전하지 않은 경우(https) `s.trackingServer`을(를) 업데이트합니다. 사이트가 안전한 경우(https) `s.trackingServer` 및 `s.trackingServerSecure` 변수를 모두 업데이트합니다.
+   티켓을 수령하면 고객 지원 담당자가 CNAME 기록 한 쌍을 제공해 드립니다. Adobe가 귀하를 대신하여 인증서를 구입할 수 있으려면 먼저 회사의 DNS 서버에서 이러한 레코드를 구성해야 합니다. CNAMES는 다음과 비슷합니다.
 
-1. 호스트 이름 전달의 유효성을 확인합니다(아래 참조).
+   **보안** - 예를 들어 호스트 이름은 `smetrics.example.com` 다음을 가리킵니다. `example.com.ssl.d1.omtrdc.net`Adobe
 
-1. 구현 코드를 업데이트합니다(아래 참조).
+   **비보안** - 예를 들어 호스트 이름 `metrics.example.com`은(는) 다음을 가리킵니다. `example.com.d1.omtrdc.net`.
+
+1. 이러한 CNAME이 준비되면 Adobe는 DigiCert와 협력하여 Adobe 프로덕션 서버에서 인증서를 구매 및 설치합니다.
+
+   기존 구현이 있는 경우 기존 방문자를 유지하기 위해 방문자 마이그레이션을 고려해야 합니다. 인증서가 Adobe의 프로덕션 환경에 라이브로 푸시된 후 추적 서버 변수를 새 호스트 이름으로 업데이트할 수 있습니다. Meaning, if the site is not secure (HTTP), update the `s.trackingServer`. If the site is secure (HTTPS), update both `s.trackingServer` and `s.trackingServerSecure` variables.
+
+1. [호스트 이름 전달의](#validate) 유효성을 확인합니다(아래 참조).
+
+1. [구현 코드](#update) 업데이트(아래 참조).
 
 ### 유지 관리 및 갱신
 
@@ -79,47 +87,36 @@ FPC 전문가는 구성된 호스트 이름과 가리키는 CNAME을 제공합�
 
 구현 코드를 변경하지 않는 한, 이 단계는 데이터 수집에 영향을 주지 않으며 구현 코드를 업데이트한 후 언제든지 완료할 수 있습니다.
 
->[!N참고:] Experience Cloud 방문자 ID 서비스는 퍼스트 파티 쿠키를 사용하도록 CNAME을 구성하는 대신 다른 방법을 제공하지만, 최근 Apple ITP 변경 사항으로 인해 Experience Cloud ID 서비스를 사용할 때에도 CNAME을 할당하는 것이 좋습니다.
+>[!N참고:]
+>Experience Cloud 방문자 ID 서비스는 퍼스트 파티 쿠키를 사용하도록 CNAME을 구성하는 대신 다른 방법을 제공하지만, 최근 Apple ITP 변경 사항으로 인해 Experience Cloud ID 서비스를 사용할 때에도 CNAME을 할당하는 것이 좋습니다.
 
-## 호스트 이름 전달 유효성 확인
+## 호스트 이름 전달 유효성 확인 {#validate}
 
-브라우저에서 을 클릭합니다 <https://sstats.adobe.com/_check>.
+를 사용하여 호스트 이름의 유효성을 확인할 수 <https://sstats.adobe.com/_check>있습니다. CNAME을 설정하고 인증서를 설치한 경우 브라우저를 사용하여 유효성을 검사할 수 있습니다. 그러나 인증서가 설치되어 있지 않으면 보안 경고가 표시됩니다.
 
-반환되는 `SUCCESS` 것이 보입니다. 인증서를 구매하지 않은 경우 오류가 표시됩니다.
+**curl을 사용하여 유효성 검사**
 
-유효성 검사를 위해 명령줄 [!DNL curl] 도구로 사용할 수도 있습니다.
+명령줄에서 [!DNL curl] 사용하는 것이 좋습니다. (Windows를 사용하는 경우 [!DNL curl] 다음 위치에서 설치해야 합니다.( <https://curl.haxx.se/windows/>)
 
-1. 를 사용하는 [!DNL Windows]경우 curl(<https://curl.haxx.se/windows/>)을 설치합니다.
-1. CNAME에 인증서가 필요한 경우 명령줄에 `curl -k https://sstats.adobe.com/_check` 을 입력합니다.
-1. 인증서가 완료되면 을 `curl https://sstats.adobe.com/_check`입력합니다.
+CNAME이 있지만 설치된 인증서가 없는 경우 다음을 실행하십시오.응답`curl -k https://sstats.adobe.com/_check`: `SUCCESS`
 
-반환되는 `SUCCESS` 것이 보입니다.
+(**참고:** 이 `-k` 값은 보안 경고를 비활성화합니다.)
 
-<!-- ## Ping the hostname
+CNAME을 설정하고 인증서가 설치된 경우 다음을 실행하십시오.응답`curl https://sstats.adobe.com/_check`:성공
 
-Ping the hostname to ensure correct forwarding. All hostnames must respond to a ping to prevent data loss.
+**nslookup을 사용하여 유효성 검사**
 
-After CNAME records are properly configured, and Adobe has confirmed installation of the certificate, open a command prompt and ping your hostname(s). Using `mysite.com` as an example: `ping metrics.mysite.com`
+유효성 검사에 nslookup을 사용할 수 있습니다. `mysite.com` 사용 예:
 
-If everything is successfully set up, it will return something similar to the following:
+명령 프롬프트를 열고 `nslookup metrics.mysite.com`
 
-```Pinging mysite.com.112.2o7.net [66.235.132.232] with 32 bytes of data:
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
+모든 것이 성공적으로 설정되면 다음과 유사한 반품이 표시됩니다.
 
-Ping statistics for 66.235.132.232: Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
-Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, Average = 19ms
-```
+nslookup metrics.mysite.comServer: hiodsibxvip01.corp.adobe.com주소: 10.50.112.247
 
-If the CNAME records are not correctly set up or not active, it will return the following:
+신뢰할 수 없는 대답:이름:   metrics.mysite.com주소: 64.136.20.37
 
-`Ping request could not find the host. Please check the name and try again.`
-
->[!Note:] If you are using `https:// protocol`, ping will only respond after the upload date specified by the FPC specialist. In addition, be sure to ping the secure hostname and non-secure hostname to ensure that both are working correctly before updating your implementation. -->
-
-## 구현 코드 업데이트
+## 구현 코드 업데이트 {#update}
 
 자사 쿠키를 활용하도록 사이트에서 코드를 편집하려면 먼저 다음 전제 조건을 완료하십시오.
 
