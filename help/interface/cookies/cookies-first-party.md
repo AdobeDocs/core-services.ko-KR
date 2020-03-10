@@ -8,7 +8,7 @@ title: 퍼스트 파티 쿠키
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: 620bd7a749080356913ab56a2fca9f4049276938
 
 ---
 
@@ -48,7 +48,7 @@ Adobe 관리 인증서 프로그램에서는 추가 비용 없이 자사 쿠키�
 
 1. 이러한 CNAME이 준비되면 Adobe는 DigiCert와 협력하여 Adobe 프로덕션 서버에서 인증서를 구매 및 설치합니다. 기존 구현이 있는 경우 기존 방문자를 유지하기 위해 방문자 마이그레이션을 고려해야 합니다. 인증서가 Adobe의 프로덕션 환경에 라이브로 푸시된 후 추적 서버 변수를 새로운 호스트 이름으로 업데이트할 수 있습니다. 즉, 사이트가 안전하지 않은 경우(https) `s.trackingServer`을(를) 업데이트합니다. 사이트가 안전한 경우(https) `s.trackingServer` 및 `s.trackingServerSecure` 변수를 모두 업데이트합니다.
 
-1. 호스트 이름을 Ping합니다(아래 참조).
+1. 호스트 이름 전달의 유효성을 확인합니다(아래 참조).
 
 1. 구현 코드를 업데이트합니다(아래 참조).
 
@@ -79,15 +79,29 @@ FPC 전문가는 구성된 호스트 이름과 가리키는 CNAME을 제공합�
 
 구현 코드를 변경하지 않는 한, 이 단계는 데이터 수집에 영향을 주지 않으며 구현 코드를 업데이트한 후 언제든지 완료할 수 있습니다.
 
->[!N] 참고:Experience Cloud 방문자 ID 서비스는 퍼스트 파티 쿠키를 사용하도록 CNAME을 구성하는 대신 다른 방법을 제공하지만, 최근 Apple ITP 변경 사항으로 인해 Experience Cloud ID 서비스를 사용할 때에도 CNAME을 할당하는 것이 좋습니다.
+>[!N참고:] Experience Cloud 방문자 ID 서비스는 퍼스트 파티 쿠키를 사용하도록 CNAME을 구성하는 대신 다른 방법을 제공하지만, 최근 Apple ITP 변경 사항으로 인해 Experience Cloud ID 서비스를 사용할 때에도 CNAME을 할당하는 것이 좋습니다.
 
-## 호스트 이름 ping
+## 호스트 이름 전달 유효성 확인
 
-호스트 이름을 ping하여 올바른 전달을 보장합니다. 모든 호스트 이름은 데이터 손실을 방지하기 위해 ping에 응답해야 합니다.
+브라우저에서 을 클릭합니다 <https://sstats.adobe.com/_check>.
 
-CNAME 레코드가 제대로 구성되어 있고 Adobe에서 인증서 설치를 확인한 후 명령 프롬프트를 열고 호스트 이름을 ping합니다. `mysite.com` 사용 예:`ping metrics.mysite.com`
+반환되는 `SUCCESS` 것이 보입니다. 인증서를 구매하지 않은 경우 오류가 표시됩니다.
 
-모든 항목이 성공적으로 설정되었으면 다음과 유사한 내용이 반환됩니다.
+유효성 검사를 위해 명령줄 [!DNL curl] 도구로 사용할 수도 있습니다.
+
+1. 를 사용하는 [!DNL Windows]경우 curl(<https://curl.haxx.se/windows/>)을 설치합니다.
+1. CNAME에 인증서가 필요한 경우 명령줄에 `curl -k https://sstats.adobe.com/_check` 을 입력합니다.
+1. 인증서가 완료되면 을 `curl https://sstats.adobe.com/_check`입력합니다.
+
+반환되는 `SUCCESS` 것이 보입니다.
+
+<!-- ## Ping the hostname
+
+Ping the hostname to ensure correct forwarding. All hostnames must respond to a ping to prevent data loss.
+
+After CNAME records are properly configured, and Adobe has confirmed installation of the certificate, open a command prompt and ping your hostname(s). Using `mysite.com` as an example: `ping metrics.mysite.com`
+
+If everything is successfully set up, it will return something similar to the following:
 
 ```Pinging mysite.com.112.2o7.net [66.235.132.232] with 32 bytes of data:
 Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
@@ -99,11 +113,11 @@ Ping statistics for 66.235.132.232: Packets: Sent = 4, Received = 4, Lost = 0 (0
 Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, Average = 19ms
 ```
 
-CNAME 레코드가 올바르게 설정되지 않았거나 활성화되지 않으면 다음과 같이 반환됩니다.
+If the CNAME records are not correctly set up or not active, it will return the following:
 
 `Ping request could not find the host. Please check the name and try again.`
 
->[!Note:] `https:// protocol`을(를) 사용하는 경우 ping은 FPC 전문가가 지정한 업로드 날짜 이후에만 응답합니다. 또한 보안 호스트 이름과 비보안 호스트 이름을 ping하여 두 호스트 이름이 올바르게 작동하는지 확인한 후 구현을 업데이트하십시오.
+>[!Note:] If you are using `https:// protocol`, ping will only respond after the upload date specified by the FPC specialist. In addition, be sure to ping the secure hostname and non-secure hostname to ensure that both are working correctly before updating your implementation. -->
 
 ## 구현 코드 업데이트
 
@@ -111,7 +125,7 @@ CNAME 레코드가 올바르게 설정되지 않았거나 활성화되지 않으
 
 * SSL 인증서를 요청하려면 Adobe 관리 인증서 프로그램의 *구현* 섹션에 설명된 단계를 [따르십시오](#adobe-managed-certificate-program).
 * CNAME 레코드를 만듭니다(위 사항 참조).
-* 호스트 이름을 ping합니다(위 참조).
+* 호스트 이름을 확인합니다(위 참조).
 
 호스트 이름이 응답하고 데이터 수집 서버로 전달하는 것을 확인했으면 사용자의 구현을 변경하여 자신의 데이터 수집 호스트 이름을 가리키도록 할 수 있습니다.
 
