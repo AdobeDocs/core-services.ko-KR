@@ -8,7 +8,7 @@ title: 퍼스트 파티 쿠키
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ebe537c4a0da1f24c5cd48e73ec9567d13fb30
+source-git-commit: 64d35205275317e46072e7239b52863bf3b34e12
 
 ---
 
@@ -114,18 +114,22 @@ CNAME을 설정하고 인증서가 설치된 경우 다음을 실행하십시오
 
 ### 다음을 사용하여 유효성 검사 [!DNL nslookup]
 
-유효성 검사에 사용할 `nslookup` 수 있습니다. 예를 `mysite.com`사용하여 명령 프롬프트를 열고 `nslookup metrics.mysite.com`
+유효성 검사에 사용할 `nslookup` 수 있습니다. 예를 `sstats.adobe.com`사용하여 명령 프롬프트를 열고 `nslookup sstats.adobe.com`
 
 모든 것이 성공적으로 설정되면 다음과 유사한 반품이 표시됩니다.
 
 ```
-nslookup metrics.mysite.com
-Server:  hiodsibxvip01.corp.adobe.com
-Address:  10.50.112.247
+nslookup sstats.adobe.com
+Server:             10.30.7.247
+Address:     10.30.7.247#53
 
-Non-authoritative answer:
-Name:    metrics.mysite.com
-Address:  64.136.20.37
+sstats.adobe.com    canonical name = adobe.com.ssl.d1.sc.omtrdc.net.
+Name:  adobe.com.ssl.d1.sc.omtrdc.net
+Address: 54.218.180.161
+Name:  adobe.com.ssl.d1.sc.omtrdc.net
+Address: 52.39.8.230
+Name:  adobe.com.ssl.d1.sc.omtrdc.net
+Address: 54.187.216.46
 ```
 
 ## 구현 코드 업데이트 {#update}
