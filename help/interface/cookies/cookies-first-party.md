@@ -8,7 +8,7 @@ title: 퍼스트 파티 쿠키
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: edbe58ffbaeadd2e223ef1567ec9060ab4073f1e
+source-git-commit: 2b44385e32752c7d80322de092d1ac230edfcd01
 
 ---
 
@@ -92,29 +92,41 @@ FPC 전문가는 구성된 호스트 이름과 가리키는 CNAME을 제공합�
 
 ## 호스트 이름 전달 유효성 확인 {#validate}
 
-를 사용하여 호스트 이름의 유효성을 확인할 수 <https://sstats.adobe.com/_check>있습니다. CNAME을 설정하고 인증서를 설치한 경우 브라우저를 사용하여 유효성을 검사할 수 있습니다. 그러나 인증서가 설치되어 있지 않으면 보안 경고가 표시됩니다.
+유효성 검사에 사용할 수 있는 방법은 다음과 같습니다.
 
-**curl을 사용하여 유효성 검사**
+**브라우저 유효성 검사**
 
-명령줄에서 [!DNL curl] 사용하는 것이 좋습니다. (Windows를 사용하는 경우 [!DNL curl] 다음 위치에서 설치해야 합니다.( <https://curl.haxx.se/windows/>)
+CNAME을 설정하고 인증서를 설치한 경우 브라우저를 사용하여 유효성을 검사할 수 있습니다.
+
+<https://sstats.adobe.com/_check>.
+
+참고:인증서가 설치되어 있지 않으면 보안 경고가 표시됩니다.
+
+**다음을 사용하여 유효성 검사[!DNL curl]**
+
+명령줄에서 [!DNL [curl](https://curl.haxx.se/)]을 사용하는 것이 좋습니다. ([!DNL Windows] 사용자는 다음 위치에서 설치할 수 [!DNL curl] 있습니다.)( <https://curl.haxx.se/windows/>)
 
 CNAME이 있지만 설치된 인증서가 없는 경우 다음을 실행하십시오.응답`curl -k https://sstats.adobe.com/_check`: `SUCCESS`
 
-(**참고:** 이 `-k` 값은 보안 경고를 비활성화합니다.)
+이 `-k` 값은 보안 경고를 비활성화합니다.
 
-CNAME을 설정하고 인증서가 설치된 경우 다음을 실행하십시오.응답`curl https://sstats.adobe.com/_check`:성공
+CNAME을 설정하고 인증서가 설치된 경우 다음을 실행하십시오.응답`curl https://sstats.adobe.com/_check`: `SUCCESS`
 
-**nslookup을 사용하여 유효성 검사**
+**다음을 사용하여 유효성 검사[!DNL nslookup]**
 
-유효성 검사에 nslookup을 사용할 수 있습니다. `mysite.com` 사용 예:
-
-명령 프롬프트를 열고 `nslookup metrics.mysite.com`
+유효성 검사에 사용할 `nslookup` 수 있습니다. 예를 `mysite.com`사용하여 명령 프롬프트를 열고 `nslookup metrics.mysite.com`
 
 모든 것이 성공적으로 설정되면 다음과 유사한 반품이 표시됩니다.
 
-nslookup metrics.mysite.comServer: hiodsibxvip01.corp.adobe.com주소: 10.50.112.247
+```
+nslookup metrics.mysite.com
+Server:  hiodsibxvip01.corp.adobe.com
+Address:  10.50.112.247
 
-신뢰할 수 없는 대답:이름:   metrics.mysite.com주소: 64.136.20.37
+Non-authoritative answer:
+Name:    metrics.mysite.com
+Address:  64.136.20.37
+```
 
 ## 구현 코드 업데이트 {#update}
 
