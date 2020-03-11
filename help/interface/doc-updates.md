@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud 도움말 업데이트에 대한 정보입니다.
-keywords: 핵심 서비스
+keywords: core services
 seo-description: Experience Cloud 도움말 업데이트에 대한 정보입니다.
 seo-title: 설명서 업데이트 - Experience Cloud
 solution: Experience Cloud
 title: 설명서 업데이트 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 6f7a1a91174e18f8c4eec17d7a1868660e3a9429
 
 ---
 
@@ -15,6 +15,14 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 # 설명서 업데이트 - Experience Cloud
 
 Experience Cloud 도움말 업데이트에 대한 정보입니다.
+
+**업데이트됨:2020년 3월 10일**
+
+퍼스트 [파티 쿠키 섹션에서 호스트 이름 전달의](cookies/cookies-first-party.md#validate) 유효성을 확인했습니다.
+
+**업데이트됨:2020년 2월 20일**
+
+Experience [Cloud 사용자 세부 사항 보기(관리 도구)가 추가되었습니다](admin-getting-started/admin-tool-experience-cloud.md).
 
 **업데이트 날짜: 2018월9월 5일**
 
