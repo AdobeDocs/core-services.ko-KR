@@ -7,14 +7,14 @@ solution: Experience Cloud
 title: 설명서 업데이트 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 6f7a1a91174e18f8c4eec17d7a1868660e3a9429
+source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
 
 ---
 
 
 # 설명서 업데이트 - Experience Cloud
 
-Experience Cloud 도움말 업데이트에 대한 정보입니다.
+Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 
 **업데이트됨:2020년 3월 10일**
 
