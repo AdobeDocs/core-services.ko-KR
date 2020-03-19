@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 고객 속성
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
+source-git-commit: c59fe8c13defc8572d9c8776d0ca376d76fec794
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ## 개요
 
-To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]**>**[!UICONTROL  People]** > **[!UICONTROL Customer Attributes]**
+To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
 CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 업로드했으면 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 활용합니다.
 
@@ -29,16 +29,14 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 
 * **그룹 멤버십:** 고객 속성 데이터를 업로드하려면 사용자가 [고객 속성 그룹](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)의 멤버여야 합니다. 또한 Adobe Analytics 그룹 또는 Adobe Target 그룹에 속해야 합니다.
 
-   고객 속성에 액세스할 수 있는지 확인하려면 [!DNL Experience Cloud] 관리자가 [!DNL Experience Cloud]에 로그인해야 합니다. **[!UICONTROL 관리]**>**[!UICONTROL  Admin Console 시작]** > **[!UICONTROL 그룹]**으로 이동합니다.*고객 속성*이 이 그룹 중 하나로 표시되면 작업을 시작할 수 있습니다.
+   고객 속성에 액세스할 수 있는지 확인하려면 [!DNL Experience Cloud] 관리자가 [!DNL Experience Cloud]에 로그인해야 합니다. **[!UICONTROL 관리]** > **[!UICONTROL Admin Console 시작]** > **[!UICONTROL 그룹]**&#x200B;으로 이동합니다. *고객 속성*&#x200B;이 이 그룹 중 하나로 표시되면 작업을 시작할 수 있습니다.
 
    고객 속성 그룹에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!UICONTROL 고객 속성] 메뉴 항목이 표시됩니다.
 
-* **Target mbox:** 고객 속성에 대해 mbox.js 버전 58 이상이 필요합니다.
+* **고객 속성에** Adobe Target [!DNL at.js] (모든 버전) 또는 [!DNL mbox.js] 버전 58 이상이 필요합니다.
 
 
-   [Mbox.js 구현](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)을 참조하십시오.
-
-* **at.js:** 모든 버전.
+   at.js [를 배포하는]방법(https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html 또는 [Mbox.js 구현](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html))을 참조하십시오.
 
 ## What is enterprise customer data? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -48,7 +46,7 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 
 ![](assets/01_crs_usecase.png)
 
-데이터 파일을 만든 후에 **[!UICONTROL Experience Cloud]**>**[!UICONTROL &#x200B;고객 속성]**에서 만든 고객 속성 소스에 업로드할 수 있습니다.
+데이터 파일을 만든 후에 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 고객 속성]**&#x200B;에서 만든 고객 속성 소스에 업로드할 수 있습니다.
 
 이 워크플로우에 대한 자세한 내용은 [고객 속성 데이터 업로드](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)를 참조하십시오.
 
