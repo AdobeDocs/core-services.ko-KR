@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics,Target,Social
 title: Target 쿠키
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 29d8f983cf6961b3e567e672ee803e12b330fee7
 
 ---
 
@@ -44,7 +44,7 @@ Target은 쿠키를 사용하여 웹사이트 운영자가 어떤 온라인 콘�
   </tr> 
   <tr> 
    <td colname="col1"> <p>쿠키 지속 시간 </p> </td> 
-   <td colname="col2"> <p>쿠키는 마지막 로그인부터 2주 동안 방문자 브라우저에 유지됩니다. 쿠키 지속 시간은 변경할 수 없습니다. </p> </td> 
+   <td colname="col2"> <p>쿠키는 마지막 로그인 후 2년 동안 방문자의 브라우저에 유지됩니다. 쿠키 지속 시간은 변경할 수 없습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
