@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 고객 속성
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: c59fe8c13defc8572d9c8776d0ca376d76fec794
+source-git-commit: d27bbed21f472b6fee275d58a67203895922aee0
 
 ---
 
@@ -36,7 +36,7 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 * **고객 속성에** Adobe Target [!DNL at.js] (모든 버전) 또는 [!DNL mbox.js] 버전 58 이상이 필요합니다.
 
 
-   at.js [를 배포하는]방법(https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html 또는 [Mbox.js 구현](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html))을 참조하십시오.
+   at.js [또는 Mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) 구현을 [배포하는 방법을 참조하십시오](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
 
 ## What is enterprise customer data? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
