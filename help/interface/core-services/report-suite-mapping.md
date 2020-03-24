@@ -5,7 +5,7 @@ seo-title: 조직에 보고서 세트 매핑
 title: 조직에 보고서 세트 매핑
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 ---
 
@@ -64,19 +64,22 @@ If the Experience Cloud ID Service is currently deployed on the report suite, en
 **일부 조직이 회색으로 표시되는 이유는 무엇입니까?**
 
 회색으로 표시된 보고서 세트에 매핑할 수 있는 충분한 권한이 없음을 나타냅니다. 다음 예를 생각해 보십시오.
-![](assets/rs-mapping.png) 이 다이어그램에서 파란색 키는 관리자 권한을 나타냅니다. 회색 선은 가시성을 나타냅니다.
+
+![](assets/rs-mapping.png)
+
+이 다이어그램에서 파란색 키는 관리자 권한을 나타냅니다. 회색 선은 가시성을 나타냅니다.
 
 이 사용자는 두 Experience Cloud 조직에 액세스할 수 있습니다. 이 사용자는 다음을 수행했습니다.
 
-* chapek Analytics 로그인 회사에서 자신의 관리 계정을 Chapek Corp Experience Cloud 조직 계정에 연결했습니다.
-* doohan Analytics 로그인 회사에서 관리자 이외의 계정을 Chapek Corp Experience Cloud 조직 계정에 연결했습니다.
+* Linked his admin account in the [!UICONTROL chapek] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
+* Linked his non-admin account in the [!UICONTROL doohan] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
 * nigel Analytics 로그인 회사에서 관리자 이외의 계정을 Nigel Inc Experience Cloud 조직 계정에 연결했습니다.
 
 다음은 이 사용자가 이러한 보고서 세트에 대해 수행할 수 있는 매핑 작업과 수행할 수 없는 매핑 작업을 나열한 것입니다.
 
-* 이 사용자는 연결된 Analytics 로그인 회사(chapek)의 관리자이며 자신의 계정이 이 조직에 연결되어 있으므로 Chapek-prod 보고서 세트가 Chapek Corp 조직에 매핑될 수 있습니다.
-* 이 사용자는 이 보고서 세트가 표시되는 로그인 회사의 관리자가 아니므로 Nigel-prod 보고서 세트에 연결할 수 없습니다.
-* 이 사용자는 Experience Cloud 조직(Analytics 로그인 회사의 관리자가 아님)에 연결된 로그인 회사(chapek)의 관리자이므로 Doohan-prod 보고서 세트를 Chapek Corp에 매핑할 수 있습니다. 이 사용자가 해당 매핑을 수행할 수 없어도 doohan-prod 보고서 세트를 Nigel Inc Experience Cloud 조직에 매핑할 수 있다는 것을 알고 있는 것이 중요합니다. 이 경우 두 Experience Cloud 조직이 목록에 표시되지만 Nigel Inc는 회색으로 표시됩니다. 매핑하기 전에 이 사용자는 nigel 로그인 회사의 관리자에게 문의하여 매핑에 가장 적합한 조직을 결정해야 합니다. 처음에 보고서 세트를 만든 조직과 다른 조직을 선택하는 경우 UI에 가능한 충돌 경고가 표시됩니다.
+* [!UICONTROL 이 사용자는 연결된 Analytics 로그인 회사(] chapek [!UICONTROL )의 관리이며 계정이 이 조직에 연결되어 있으므로 Chapek-prod] 보고서[!UICONTROL 세트를 Chapek Corp]조직에 매핑할 수 있습니다.
+* [!UICONTROL 이 사용자는 이 보고서 세트가 표시되는 로그인 회사의 관리자가 아니므로 Nigel-prod 보고서 세트에 연결할 수 없습니다.]
+* [!UICONTROL 이 사용자는] Experience Cloud 조직에 연결된 로그인 회사( [!UICONTROL chapek] )의 관리자이므로Doohan-prod 보고서 세트를 Chapek Corp에 매핑할 수 있습니다(Doohan Analytics 로그인 회사의 관리자가 아님). It is important to be aware that the [!UICONTROL doohan-prod] report suite is also eligible to be mapped to the Nigel Inc Experience Cloud org, even though this user cannot perform that mapping. In this case, both Experience Cloud organizations are displayed in the list, but [!UICONTROL Nigel Inc] is grayed out. 매핑하기 전에 이 사용자는 nigel 로그인 회사의 관리자에게 문의하여 매핑에 가장 적합한 조직을 결정해야 합니다. 처음에 보고서 세트를 만든 조직과 다른 조직을 선택하는 경우 UI에 가능한 충돌 경고가 표시됩니다.
 
 ## FAQ {#section_099E485805994C929FF9C9F75219BEE1}
 
