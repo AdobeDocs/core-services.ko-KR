@@ -8,7 +8,7 @@ title: 퍼스트 파티 쿠키
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 64d35205275317e46072e7239b52863bf3b34e12
+source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 ---
 
@@ -88,6 +88,7 @@ FPC 전문가는 구성된 호스트 이름과 가리키는 CNAME을 제공합�
 구현 코드를 변경하지 않는 한, 이 단계는 데이터 수집에 영향을 주지 않으며 구현 코드를 업데이트한 후 언제든지 완료할 수 있습니다.
 
 >[!N참고:]
+>
 >Experience Cloud 방문자 ID 서비스는 퍼스트 파티 쿠키를 사용하도록 CNAME을 구성하는 대신 다른 방법을 제공하지만, 최근 Apple ITP 변경 사항으로 인해 Experience Cloud ID 서비스를 사용할 때에도 CNAME을 할당하는 것이 좋습니다.
 
 ## 호스트 이름 전달 유효성 확인 {#validate}
@@ -100,7 +101,9 @@ CNAME을 설정하고 인증서를 설치한 경우 브라우저를 사용하여
 
 `https://sstats.adobe.com/_check`
 
-**참고:** 인증서가 설치되어 있지 않으면 보안 경고가 표시됩니다.
+>[!N참고:]
+>
+>인증서가 설치되어 있지 않으면 보안 경고가 표시됩니다.
 
 ### 다음을 사용하여 유효성 검사 [!DNL curl]
 
