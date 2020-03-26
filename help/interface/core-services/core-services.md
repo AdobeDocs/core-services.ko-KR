@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 핵심 서비스용 솔루션을 사용하도록 설정
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
 
 ---
 
@@ -199,7 +199,7 @@ Users that are added to the [!UICONTROL Customer Attributes] group will see the 
 
 ![](assets/menu-audiences-shell.png)
 
-### [!UICONTROL 사람] > [!UICONTRO전체 고객 속성]
+### [!UICONTROL 사람] > [!UICONTROL 고객 속성]
 
 CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 업로드했으면 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 활용합니다.
 
