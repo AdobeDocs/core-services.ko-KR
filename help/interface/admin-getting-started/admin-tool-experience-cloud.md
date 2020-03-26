@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 'Experience Cloud 사용자 및 사용자 세부 사항 보기 '
 index: true
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -88,4 +88,4 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 | [!UICONTROL 인스턴스] | 제품 및 제품 프로필과 연결된 인스턴스 이름(예: 로그인 회사 또는 테넌트). |
 | [!UICONTROL 제품 프로필] | 제품 프로필의 고유 이름입니다. |
 | [!UICONTROL 그룹별로 지정] | 사용자를 제품 프로필에 연결하는 사용자 그룹의 이름입니다. 빈 결과는 사용자가 그룹을 통해서가 아니라 제품 프로필에 직접 할당되었음을 나타냅니다. |
-| [!UICONTROL 제품 역할] | 제품 프로필 내에서 사용자의 역할 할당. 현재 이 정보는 Target 제품 프로필에만 적용됩니다. |
+| [!UICONTROL 제품 역할] | 제품 프로필 내에서 사용자의 역할 할당. 현재 이 정보는 Adobe Target 제품 프로필에만 적용됩니다. |
