@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 대상자
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: 14d6e0ae15b023ad4dd3f8aca0606f26b39a21e9
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -39,14 +39,14 @@ source-git-commit: 14d6e0ae15b023ad4dd3f8aca0606f26b39a21e9
 | Experience Cloud 대상 | [대상 라이브러리](../audience-library/audience-library.md) 인터페이스를 사용하여 대상을 기본적으로 만들고, 관리하고, 공유합니다. 다음을 수행할 수 있습니다.<ul><li>원시 분석 특성을 사용하여 실시간 고객 사용</li><li>대상을 결합하여 복합 대상을 만들고 실시간 및 내역 데이터 연결</li><li>예상 고객 규모의 그래픽 뷰 보기</li></ul><br>만들 대상 유형에 대한 제안 사항은 다음을 참조하십시오.Experience [Cloud 대상](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html). |
 | Analytics | 세그멘테이션에서 세그먼트를 만들고, 보고서 세트와 결합한 다음, 세그먼트를 Experience Cloud에 [게시할 수 있습니다](../audience-library/audience-library.md). 세그먼트를 게시하면 [대상](../audience-library/audience-library.md) 페이지에 세그먼트가 표시됩니다. 또한 대상을 Adobe Target에서 전달된 캠페인 환경의 타깃팅된 대상으로 그리고 Audience Manager에서 사용할 수 있습니다. Once an audience is shared from Analytics, and selected for use in an active campaign, all the visitor profiles who met the segment definition criteria for the past 90 days are sent to the Experience Cloud [!UICONTROL Audience Services] platform. 공유 대상에 대한 제한이 75개로 늘어났습니다. Analytics에서 Experience Cloud에 공유된 대상은 2천만 명의 고유 구성원을 초과할 수 없습니다. 또한 캐싱으로 인해 Analytics에서 삭제된 보고서 세트는 삭제가 Experience Cloud에 표시되기 12시간이 필요합니다. |
 | Mobile Services | 장치 유형 보고서의 선버스트 시각화를 사용하여 모바일 [!UICONTROL 트래픽을] 분석합니다. |
-| Target | The [ID service](https://docs.adobe.com/content/help/en/id-service/using/home.html) unifies visitor IDs and data into a single, actionable profile for use across solutions. Adobe Analytics의 세그먼트 작성 프로세스 동안 [Marketing Cloud에 게시](../audience-library/audience-library.md) 확인란을 선택하면 Adobe Target의 사용자 지정 대상 라이브러리 내에서 세그먼트를 사용할 수 있습니다. Analytics나 Audience Manager에서 만들어진 세그먼트는 Target의 활동에 사용할 수 있습니다.  예를 들어 Analytics에서 만들어진 대상 세그먼트 및 Analytics 전환 지표에 따라 캠페인 활동을 만들 수 있습니다. |
+| [!DNL Target] | The [ID service](https://docs.adobe.com/content/help/en/id-service/using/home.html) unifies visitor IDs and data into a single, actionable profile for use across solutions. Adobe Analytics의 세그먼트 작성 프로세스 동안 [Marketing Cloud에 게시](../audience-library/audience-library.md) 확인란을 선택하면 Adobe Target의 사용자 지정 대상 라이브러리 내에서 세그먼트를 사용할 수 있습니다. A segment created in Analytics or Audience Manager can be used for activities in  [!DNL Target].  예를 들어 Analytics에서 만들어진 대상 세그먼트 및 Analytics 전환 지표에 따라 캠페인 활동을 만들 수 있습니다. |
 | Audience Manager | 공유 대상은 Audience Manager 세그멘테이션에서 사용할 수 있습니다. 모든 Experience Cloud 대상은 기본적으로 다음 기능을 제공하는 Audience Manager에서 사용할 수 있습니다.<ul><li>솔루션 워크플로우에서 공유 및 사용되는 방식과 관련된 내장된 자동화</li><li>오프사이트 대상</li><li>유사 모델링</li></ul> |
 | 캠페인 | <ul><li>다양한 Adobe Experience Cloud 솔루션의 공유 대상을 Adobe Campaign에 가져오기.</li><li>공유된 대상자 형태로 수신자 목록을 내보냅니다. 이러한 공유 대상은 사용하는 다른 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다.</li></ul> |
 | Media Optimizer | 대상을 타겟으로 사용합니다. |
 
 >[!IMPORTANT]
 >
->방문자가 Analytics에서 공유한 대상에 자격을 얻게 되면 Target, Ad Cloud 및 Campaign Standard에서 해당 정보를 실행할 수 있기 전에 4-8시간 지연이 발생합니다.
+>Once a visitor qualifies for the audience shared from Analytics, there is a 4-8 hour delay before that information is actionable in [!DNL Target], Ad Cloud, and Campaign Standard.
 
 ## 추가 도움말 - 질문, 지침 및 사용 사례 {#section_C7F151644D8A45F7B6FC54F58845635D}
 
