@@ -3,20 +3,20 @@ description: 타사 쿠키에 대한 지원이 브라우저 간에 점점 더 �
 keywords: cookies;privacy
 seo-description: 타사 쿠키에 대한 지원이 브라우저 간에 점점 더 많이 제한됨에 따라 Adobe는 고객 요구 사항과 Adobe Experience Cloud 솔루션 전반에 걸친 소비자의 개인 정보 보호 권리 간에 신중하게 균형을 잡는 새로운 솔루션을 개발해왔습니다.
 seo-title: 타사 쿠키 지원 변경으로 인한 고객 영향
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: 타사 쿠키 지원 변경으로 인한 고객 영향
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
-# 타사 쿠키 지원 변경 방법이 고객에게 미치는 영향{#how-changes-to-third-party-cookie-support-impacts-customers}
+# How changes to third-party cookie support impact customers{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 타사 쿠키에 대한 지원이 브라우저 간에 점점 더 많이 제한됨에 따라 Adobe는 고객 요구 사항과 Adobe Experience Cloud 솔루션 전반에 걸친 소비자의 개인 정보 보호 권리 간에 신중하게 균형을 잡는 새로운 솔루션을 개발해왔습니다.
 
-다음 목록은 타사 쿠키 지원이 Adobe Experience Cloud 솔루션의 현재 구현에 미치는 영향을 설명합니다:
+다음 목록은 타사 쿠키 지원이 Adobe Experience Cloud 솔루션의 현재 구현에 어떤 영향을 미치는지 보여줍니다.
 
 ## Adobe Analytics 및 Adobe Target
 
@@ -35,18 +35,17 @@ source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 * 검색:
 
-   * 검색이 Adobe Analytics 데이터를 기반으로 최적화된 경우 검색은 Adobe Analytics와 동일한 방식으로 영향을 받습니다.
-   * 전환 데이터 수집은 영향을 받지 않아야 합니다.
+   * Adobe Analytics 데이터를 기반으로 검색을 최적화하면 Adobe Analytics와 같은 방식으로 검색에 영향을 줍니다.
+   * 전환 데이터 수집은 영향을 받지 않습니다.
 
-* 디스플레이:
+* 표시:
 
-   * 오늘날 디스플레이 리마케팅은 전적으로 타사 쿠키 사용에 의존합니다.
-   * 디스플레이는 또한 동기화를 위한 다양한 광고 네트워크 쿠키의 가용성에 크게 의존합니다.
-   * 전제적인 영향은 알려지지 않았습니다. 그러나 디스플레이는 다른 서비스보다 영향을 더 많이 받습니다.
-   * Adobe는 내부적으로 광고 파트너와 협력하여 광고 게재에 대한 영향을 최대한 평가하고 있습니다.
+   * 오늘날 디스플레이 리마케팅은 전적으로 타사 쿠키 사용에 따라 달라집니다.
+   * 또한 디스플레이는 동기화를 위한 다양한 광고 네트워크 쿠키의 가용성에 따라 크게 달라집니다.
+   * 전체적인 영향은 알려지지 않았다. 그러나 첫 번째 시점에서는 디스플레이가 다른 서비스보다 더 영향을 받습니다.
+   * Adobe는 광고 파트너와 내부적으로 협력하여 광고 게재에 미치는 영향을 전반적으로 평가하고 있습니다.
 
 * Social:
 
-   * Facebook 마켓플레이스 광고에는 아무런 영향이 없습니다.
-   * FBX(Facebook Exchange)는 디스플레이 광고 게재와 동일한 영향을 받습니다.
-
+   * Facebook 시장 광고에 영향을 주지 않습니다.
+   * Facebook Exchange(FBX)는 디스플레이 광고 게재와 동일한 영향을 받습니다.
