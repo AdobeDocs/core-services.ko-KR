@@ -1,27 +1,27 @@
 ---
-description: Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능을 수행합니다. 이러한 기능에는 ID 할당, 데이터 호출 기록, 오류 추적 및 쿠키 설정 여부 테스트 등이 포함됩니다. 이 섹션에서는 Audience Manager에서 설정한 다양한 쿠키를 나열하고 설명합니다.
+description: Audience Manager는 몇 개의 간단한 쿠키를 사용하여 다양한 기능을 수행합니다. 이러한 기능에는 ID 할당, 데이터 호출 기록, 오류 추적, 쿠키 설정 여부를 확인하기 위한 테스트 등이 포함됩니다. 이 섹션에서는 Audience Manager가 설정한 다양한 쿠키를 나열하고 설명합니다.
 keywords: cookies
-seo-description: Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능을 수행합니다. 이러한 기능에는 ID 할당, 데이터 호출 기록, 오류 추적 및 쿠키 설정 여부 테스트 등이 포함됩니다. 이 섹션에서는 Audience Manager에서 설정한 다양한 쿠키를 나열하고 설명합니다.
+seo-description: Audience Manager는 몇 개의 간단한 쿠키를 사용하여 다양한 기능을 수행합니다. 이러한 기능에는 ID 할당, 데이터 호출 기록, 오류 추적, 쿠키 설정 여부를 확인하기 위한 테스트 등이 포함됩니다. 이 섹션에서는 Audience Manager가 설정한 다양한 쿠키를 나열하고 설명합니다.
 seo-title: Audience Manager 쿠키
 solution: Marketing Cloud,Audience Manager
 title: Audience Manager 쿠키
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
 # Audience Manager 쿠키{#audience-manager-cookies}
 
-Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능을 수행합니다. 이러한 기능에는 ID 할당, 데이터 호출 기록, 오류 추적 및 쿠키 설정 여부 테스트 등이 포함됩니다. 이 섹션에서는 Audience Manager에서 설정한 다양한 쿠키를 나열하고 설명합니다.
+Audience Manager는 몇 개의 간단한 쿠키를 사용하여 다양한 기능을 수행합니다. 이러한 기능에는 ID 할당, 데이터 호출 기록, 오류 추적, 쿠키 설정 여부를 확인하기 위한 테스트 등이 포함됩니다. 이 섹션에서는 Audience Manager가 설정한 다양한 쿠키를 나열하고 설명합니다.
 
 **demdex 쿠키**
 
 <table id="table_1CCF7EA2BC9E421F8DEECA5F611E33F6"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 특성 </th> 
+   <th colname="col1" class="entry"> 속성 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
@@ -38,8 +38,8 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
    <td colname="col1"> <p> <b>기타 속성</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_11291DA87C5045E880034E06C863BCDA"> 
-      <li id="li_40C30A06A12449A4A8748621223CA71B">라이프타임: <span class="wintitle">demdex</span> 쿠키의 TTL(유지 기간)은 180일입니다. TTL은 각 사용자가 파트너 웹 사이트와 상호 작용할 때 180일로 재설정됩니다. 사용자가 TTL 간격 내에 해당 사이트를 다시 방문하지 않으면 쿠키가 만료됩니다. </li> 
-      <li id="li_A589EDA2198249829207A183872EF1FF">옵트아웃: 사용자가 데이터 수집을 거부하는 경우 <span class="keyword">Audience Manager</span>는 <span class="codeph">Do Not Target</span> 문자열로 쿠키를 재설정합니다. 이 경우, 쿠키 TTL은 10년으로 설정됩니다. </li> 
+      <li id="li_40C30A06A12449A4A8748621223CA71B">라이프타임: <span class="wintitle">demdex</span> 쿠키의 TTL(유지 기간)은 180일입니다. TTL은 파트너 웹 사이트와의 각 사용자 상호 작용 시 180일로 재설정됩니다. 사용자가 TTL 간격 내에 사이트를 다시 방문하지 않으면 쿠키가 만료됩니다. </li> 
+      <li id="li_A589EDA2198249829207A183872EF1FF">Opt-out: <span class="keyword"> Audience Manager </span> resets the cookie with a <span class="codeph"> Do Not Adobe Target </span> string if a user opts-out of data collection. 이 경우, 쿠키 TTL은 10년으로 설정됩니다. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -50,7 +50,7 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
 <table id="table_7343C9C9ADD24D3FA693ECC76E4A4045"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 특성 </th> 
+   <th colname="col1" class="entry"> 속성 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
@@ -72,7 +72,7 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
    <td colname="col2"> <p> 
      <ul id="ul_4922AC2CD55D4C888A6FBEB22F8B889B"> 
       <li id="li_91A68C44E53840379C2ACDED25468735">라이프타임: <span class="wintitle">dextp</span> 쿠키의 TTL(유지 기간)은 180일입니다. </li> 
-      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">옵트아웃: 사용자가 데이터 수집을 거부하는 경우 <span class="keyword">Audience Manager</span>는 <span class="codeph">Do Not Target</span> 문자열로 쿠키를 재설정합니다. 이 경우, 쿠키 TTL은 10년으로 설정됩니다. </li> 
+      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Opt-out: <span class="keyword"> Audience Manager </span> resets the cookie with a <span class="codeph"> Do Not Adobe Target </span> string if a user opts-out of data collection. 이 경우, 쿠키 TTL은 10년으로 설정됩니다. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -85,30 +85,30 @@ dextp 쿠키 데이터 구문:
 <table id="table_BE00604B97F24F5A94AA4F566063D785"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 가변 위치 </th> 
+   <th colname="col1" class="entry"> 변수 위치 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>첫 번째 또는 두 번째</b> </p> </td> 
-   <td colname="col2"> <p>데이터 공급자 이름 또는 ID의 위치는, 쿠키가 새로운 스타일의 서식과 이전 스타일의 서식 중 어느 것을 사용하는지에 따라 다릅니다. </p> <p> <b>이전 스타일 서식:</b> </p> <p> 
+   <td colname="col2"> <p>데이터 공급자 이름 또는 ID의 위치는 쿠키가 새 스타일 또는 이전 스타일 서식을 사용하는지에 따라 달라집니다. </p> <p> <b>이전 스타일 서식:</b> </p> <p> 
      <ul id="ul_5BFBF40E3FE849CA859030F2D070FDF6"> 
-      <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">구문: <span class="codeph"> <span class="varname"> 데이터 공급자 이름 </span> - <span class="varname"> UNIX UTC 타임스탬프 </span></span> </li> 
+      <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">Syntax: <span class="codeph"> <span class="varname"> data provider name </span> - <span class="varname"> UNIX UTC timestamp </span> </span> </li> 
       <li id="li_7CD8B101156140F49EA97B18E9591402">예: <span class="codeph"> dataProvider1 - 1490307822038 </span> </li> 
-     </ul> </p> <p>이전 스타일의 쿠키는 읽을 수 있는 이름으로 데이터 공급자를 식별합니다. </p> <p> <b>새 스타일 서식:</b> </p> <p> 
+     </ul> </p> <p>이전 스타일 쿠키는 읽을 수 있는 이름으로 데이터 공급자를 식별합니다. </p> <p> <b>새로운 스타일 서식:</b> </p> <p> 
      <ul id="ul_AC6225CA781746148C125F21DFED1ED9"> 
-      <li id="li_29C4B52E398B4EA28944980A15B05A57">구문: <span class="codeph"> <span class="varname"> 데이터 공급자 ID </span> - 1|2 - <span class="varname"> UNIX UTC 타임스탬프 </span> </span> </li> 
+      <li id="li_29C4B52E398B4EA28944980A15B05A57">Syntax: <span class="codeph"> <span class="varname"> data provider ID </span> - 1|2 - <span class="varname"> UNIX UTC timestamp </span> </span> </li> 
       <li id="li_3BF30CA5FED242DF96E0B54AFC64B06F">예: <span class="codeph"> 123345 - 1 - 1490307822038 </span> </li> 
      </ul> </p> <p>새 스타일 쿠키: </p> <p> 
      <ul id="ul_F05A91A455FA44C7A71186C0C9E31630"> 
       <li id="li_A8C9638173684359BABC4207845A4F48">읽을 수 있는 데이터 공급자 이름을 숫자 ID로 바꿉니다. </li> 
-      <li id="li_28F1E2DB24904E53BE9718AD788CE61E">ID 1 또는 ID 2로 통화 유형을 식별합니다. ID 1은 ID 동기화 호출을 나타냅니다. ID 2는 더 이상 사용되지 않는 호출을 나타냅니다. ID 2의 dextp 쿠키는 많지 않거나 없어야 합니다. </li> 
+      <li id="li_28F1E2DB24904E53BE9718AD788CE61E">ID 1 또는 ID 2로 호출 유형을 식별합니다. ID 1은 ID 동기화 호출을 나타냅니다. ID 2는 더 이상 사용되지 않는 더 이상 사용되지 않는 호출을 나타냅니다. ID가 2인 확장 쿠키가 많이(또는 하나라도) 표시되지 않아야 합니다. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>마지막</b> </p> </td> 
-   <td colname="col2"> <p>마지막 위치에는 UNIX UTC 타임스탬프가 포함됩니다. </p> </td> 
+   <td colname="col2"> <p>마지막 위치에는 UNIX UTC 타임스탬프가 포함되어 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -118,7 +118,7 @@ dextp 쿠키 데이터 구문:
 <table id="table_83AE9B6350C6408BAECD9FCF33022B98"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 특성 </th> 
+   <th colname="col1" class="entry"> 속성 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
@@ -140,7 +140,7 @@ dextp 쿠키 데이터 구문:
    <td colname="col2"> <p> 
      <ul id="ul_5D13DD701B484B51BF2808A69A919106"> 
       <li id="li_4E665114C63246FBA32A4E19984D2693">라이프타임: <span class="wintitle">dst</span> 쿠키의 ttl(유지 기간)은 180일입니다. </li> 
-      <li id="li_A682B566704F43D2AB72487EFF212474">옵트아웃: 사용자가 데이터 수집을 거부하는 경우 <span class="keyword">Audience Manager</span>는 <span class="codeph">Do Not Target</span> 문자열로 쿠키를 재설정합니다. </li> 
+      <li id="li_A682B566704F43D2AB72487EFF212474">Opt-out: <span class="keyword"> Audience Manager </span> resets the cookie with a <span class="codeph"> Do Not Adobe Target </span> string if a user opts-out of data collection. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
