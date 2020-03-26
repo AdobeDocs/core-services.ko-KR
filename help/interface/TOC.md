@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -27,11 +27,11 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [Data Workbench 쿠키](cookies/cookies-insight.md)
    + [Experience Cloud 쿠키](cookies/cookies-mc.md)
    + [Advertising Cloud 쿠키](cookies/cookies-advertising-cloud.md)
-   + [Scene7 쿠키](cookies/cookies-s7.md)
-   + [Search &amp; Promote 쿠키](cookies/cookies-snp.md)
-   + [Target 쿠키](cookies/cookies-target.md)
+   + [[!DNL Scene7] 쿠키](cookies/cookies-s7.md)
+   + [[!DNL 검색 및 홍보] 쿠키](cookies/cookies-snp.md)
+   + [[!DNL Target] 쿠키](cookies/cookies-target.md)
    + [브라우저 쿠키에 대한 개인 정보 설정 활성화](cookies/browser-cookie-settings.md)
-   + [타사 쿠키 지원 변경으로 인한 고객 영향](cookies/cookies-thirdparty.md)
+   + [타사 쿠키 지원이 고객에게 미치는 영향](cookies/cookies-thirdparty.md)
 + 사용자 및 제품 관리 {#manage-users-and-products}
    + [Experience Cloud 사용자 및 제품 관리(Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Experience Cloud 사용자 세부 사항 보기(관리 도구)](admin-getting-started/admin-tool-experience-cloud.md)
@@ -39,7 +39,7 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [로그인 및 프로필 설정 관리](admin-getting-started/getting-started-experience-cloud.md)
    + [조직 및 계정 연결](admin-getting-started/organizations.md)
    + [Analytics Premium 및 Experience Cloud로 업그레이드](admin-getting-started/upgrade-to-analytics-premium.md)
-+ Experience Cloud Activation {#activation}
++ Experience Cloud 활성화 {#activation}
    + [활성화 개요](activation/activation.md)
    + [Launch 사용 안내서](https://docs.adobe.com/content/help/en/launch/using/overview.html)
    + [다이내믹 태그 관리자 사용 안내서](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
