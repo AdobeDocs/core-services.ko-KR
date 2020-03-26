@@ -1,13 +1,13 @@
 ---
 description: 고객 속성 소스를 만들고 데이터를 업로드합니다.
-keywords: 고객 속성;핵심 서비스
+keywords: customer attributes;core services
 seo-description: 고객 속성 소스를 만들고 데이터를 업로드합니다.
 seo-title: 고객 속성 소스를 만들고 데이터 파일 업로드
 solution: Experience Cloud
 title: 고객 속성 소스를 만들고 데이터 파일 업로드
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -35,18 +35,17 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 >[!IMPORTANT]
 >
->이 기능에 액세스하려면 고객 속성 제품 프로필(고객 속성 - 기본 액세스)에 사용자를 지정해야 합니다. ( **[!UICONTROL 관리]** &gt; **[!UICONTROL Admin Console]** &gt; **[!UICONTROL 사용자]** &gt; ). 고객 속성 그룹에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!UICONTROL 대상]의 [!UICONTROL 고객 속성] 메뉴 항목이 표시됩니다.
+>이 기능에 액세스하려면 고객 속성 제품 프로필(고객 속성 - 기본 액세스)에 사용자를 지정해야 합니다. ( **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** > ). Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu item in [!UICONTROL Audiences], on the left side of the Experience Cloud interface.
 >
 >솔루션 그룹 멤버십도 필요합니다.
 
-고객 속성 기능을 사용하려면 사용자가 사용자 관리의 Adobe 고객 속성 그룹 및 솔루션 레벨 그룹(Analytics 또는 Target)에 속해야 합니다.
+To use the Customer Attributes feature, users must belong to the Adobe Customer Attributes group in user management, and to solution-level groups (Analytics or [!DNL Target]).
 
 [사용자 및 그룹](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)을 참조하십시오.
 
 ## 데이터 파일 만들기 {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
-이 데이터는 CRM에서 가져온 엔터프라이즈 고객 데이터입니다. 이 데이터에는 멤버 ID, 권한 있는 제품, 최근에 실행한 제품 등을 비롯하여 제품에 대한 가입자 데이터가 포함될 수 있습니다.
-
+이 데이터는 CRM의 기업 고객 데이터입니다. 이 데이터에는 멤버 ID, 권한 있는 제품, 가장 최근에 실행한 제품 등을 포함한 제품에 대한 가입자 데이터가 포함될 수 있습니다.
 
 1. 웹 사이트에 있는 각각의 고유한 랜딩 위치에 대해 `.csv`.
 
@@ -68,14 +67,12 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한 단계를 수행합니다.
 
-
 >[!IMPORTANT]
 >
 >고객 속성 소스를 만들거나, 수정하거나 삭제할 때, ID가 새 데이터 소스와의 동기화를 시작하기 전에 최대 한 시간이 지연됩니다. 고객 속성 소스를 만들거나 수정하려면 Audience Manager에 관리 권한이 있어야 합니다. 관리 권한을 얻으려면 Audience Manager 고객 지원 센터 또는 컨설팅 팀에 문의하십시오.
 
-
 1. [!DNL Experience Cloud]에서 메뉴 ![](assets/menu-icon.png) 아이콘을 클릭합니다.
-1. **[!DNL Experience Platform]**&#x200B;에서 **[!UICONTROL 사람]** &gt; **[!UICONTROL 고객 속성]**&#x200B;을 클릭합니다.
+1. Under **[!DNL Experience Platform]**, click **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
 
    [!UICONTROL 고객 속성] 페이지에서 기존 특성 데이터 소스를 관리 및 편집할 수 있습니다.
 
@@ -94,11 +91,11 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
       별칭 ID는 추가 고객 ID 값을 설정하는 특정 영역에 해당합니다. 예:
 
-      * **** 다이내믹 태그 관리:별칭 ID는 Experience Cloud ID 서비스 *도구의 고객 설정* 아래에 [!UICONTROL 있는]통합 코드 [값에 해당합니다](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) .
+      * **다이내믹 태그 관리:** 별칭 ID는 Experience Cloud ID 서비스 *도구의 고객 설정* 아래에 [!UICONTROL 있는]통합 코드 [값에 해당합니다](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) .
 
-      * **방문자 API:**&#x200B;별칭 ID는 각 방문자에게 연결할 수 있는 [고객 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)에 해당합니다.
+      * **방문자 API:** 별칭 ID는 각 방문자와 연결할 수 [있는](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) 추가 고객 ID에 해당합니다.
 
-         예를 들어 *"crm_id"*:
+         예를 들어 *&quot;crm_id&quot;*:
 
 
          ```
@@ -106,14 +103,14 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
          ```
 
 
-      * **** iOS:별칭 ID는 visitorSyncIdentifiers:identifiers의 *"idType"* 에 [해당합니다](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
+      * **iOS:** 별칭 ID는 visitorSyncIdentifiers:identifiers의 *&quot;idType&quot;* 에 [해당합니다](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
 
          예:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
 
-      * **Android:** 별칭 ID는 syncIdentifiers의 *"idType"*[을 참조하십시오](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
+      * **Android:** 별칭 ID는 syncIdentifiers의 *&quot;idType&quot;* 에 [해당합니다](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
 
          예:
 
@@ -128,7 +125,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
       >특정 데이터 파일 요구 사항이 있습니다. 자세한 내용은 [데이터 파일 요구 사항](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)을 참조하십시오.
 
 
-      파일을 업로드한 후에는 이 페이지의 [!UICONTROL 파일 업로드] 제목 아래에 있는 표 데이터가 표시됩니다. 스키마의 유효성을 검사하거나, 가입을 구성하거나, FTP를 설정할 수 있습니다.
+      파일을 업로드하면 이 페이지의 파일 업로드 [!UICONTROL 머리글 아래에] 테이블 데이터가 표시됩니다. 스키마의 유효성을 검사하거나 구독을 구성하거나 FTP를 설정할 수 있습니다.
 
 
 
@@ -140,7 +137,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
    * **[!UICONTROL 고객 제공 ID가 Experience Cloud 방문자 ID로 별칭 지정됨:]** 몇 개의 ID가 Experience Cloud ID에 별칭이 지정되었는지 표시합니다.
 
-   * **[!UICONTROL 별칭 개수가 많은 고객 제공 ID:]** 500개 이상의 별칭 지정된 Experience Cloud 방문자 ID가 있는 고객 제공 ID 개수를 표시합니다. 이러한 고객 제공 ID는 개인을 나타내기보다는 일종의 공유 로그인을 나타낼 수 있습니다. 시스템은 이러한 ID와 연결된 특성을 최근에 별칭으로 지정된 500개의 Experience Cloud 방문자 ID에 배포하며 별칭 수가 10,000개가 될 때까지 이 작업을 계속합니다. 이 수에 도달하면 시스템은 고객 제공 ID를 무효화하고 더 이상 연결된 속성을 배포하지 않습니다.
+   * **[!UICONTROL 별칭 개수가 많은 고객 제공 ID:]** 500개 이상의 별칭 지정된 Experience Cloud 방문자 ID가 있는 고객 제공 ID 개수를 표시합니다. 이러한 고객 제공 ID는 개인 대신 일종의 공유 로그인을 나타낼 수 있습니다. 시스템에서는 별칭 수가 10,000개가 될 때까지 이러한 ID와 연결된 속성을 최신 별칭이 지정된 500개의 Experience Cloud 방문자 ID에 배포합니다. 이 수에 도달하면 시스템은 고객 제공 ID를 무효화하고 더 이상 연결된 속성을 배포하지 않습니다.
 
 
 
@@ -169,7 +166,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
 ## 가입 구성 및 속성 소스 활성화 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-가입을 구성하면 Experience Cloud와 솔루션 간에 데이터 흐름이 설정됩니다. 속성 소스를 활성화하면 데이터가 구독 중인 솔루션으로 유입될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 대조됩니다.
+구독을 구성하면 Experience Cloud와 솔루션 간의 데이터 흐름이 설정됩니다. 속성 소스를 활성화하면 데이터가 구독 중인 솔루션으로 플로우될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 일치합니다.
 
 [가입 구성](../attributes/subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF)을 참조하십시오.
 
@@ -192,7 +189,7 @@ Adobe Analytics
 
 Experience Cloud에 게시한 세그먼트는 Experience Cloud 대상 및 Audience Manager에서 사용할 수 있습니다.
 
-자세한 내용은 Analytics 도움말의 [고객 속성 보고서](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)를 참조하십시오.
+자세한 [내용은 Analytics](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) 도움말의 고객 속성 보고서를 참조하십시오.
 
 ## Adobe Target에서 고객 속성 사용 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -200,4 +197,4 @@ Target에서는 대상을 만들 때 방문자 프로필 섹션에서 고객 속
 
 ![](assets/crs-add-attribute-target.png)
 
-Target 도움말의 [새 대상 만들기](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)를 참조하십시오.
+도움말에서 [새](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) 대상자 만들기를 [!DNL Target] 참조하십시오.
