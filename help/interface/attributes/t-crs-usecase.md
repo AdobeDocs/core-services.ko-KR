@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 고객 속성 소스를 만들고 데이터 파일 업로드
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -82,7 +82,6 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
    ![단계 결과](assets/04_crs_usecase.png)
 1. [!UICONTROL 고객 속성 소스 편집] 페이지에서 다음 필드를 구성합니다.
 
-
    * **[!UICONTROL Name:]** 데이터 소성 소스의 이름입니다. [!DNL Adobe Target]의 경우, 속성 이름에는 공백을 포함할 수 없습니다. 공백이 있는 속성이 전달되면 [!DNL Target]이 이를 무시합니다. 지원되지 않는 다른 문자는 `< , >, ', "`입니다.
 
    * **[!UICONTROL Description:]** (선택 사항) 데이터 속성 소스에 대한 설명입니다.
@@ -97,18 +96,15 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
          예를 들어 *&quot;crm_id&quot;*:
 
-
          ```
          "crm_id":"67312378756723456"
          ```
-
 
       * **iOS:** 별칭 ID는 visitorSyncIdentifiers:identifiers의 *&quot;idType&quot;* 에 [해당합니다](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
 
          예:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
-
 
       * **Android:** 별칭 ID는 syncIdentifiers의 *&quot;idType&quot;* 에 [해당합니다](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
 
@@ -119,15 +115,12 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
          별칭 ID 필드 및 고객 ID와 관련된 데이터 처리에 대한 자세한 내용은 [여러 데이터 소스 활용](../attributes/crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)을 참조하십시오.
    * **[!UICONTROL File Upload:]** `.csv` 데이터 파일을 드래그 앤 드롭하거나 FTP를 통해 데이터를 업로드할 수 있습니다. (FTP를 사용하려면 `.fin` 파일도 필요합니다.) [FTP를 통해 데이터 업로드](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)를 참조하십시오.
 
-
       >[!IMPORTANT]
       >
       >특정 데이터 파일 요구 사항이 있습니다. 자세한 내용은 [데이터 파일 요구 사항](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)을 참조하십시오.
 
 
       파일을 업로드하면 이 페이지의 파일 업로드 [!UICONTROL 머리글 아래에] 테이블 데이터가 표시됩니다. 스키마의 유효성을 검사하거나 구독을 구성하거나 FTP를 설정할 수 있습니다.
-
-
 
       **파일 업로드 그래픽**
 
@@ -138,13 +131,6 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
    * **[!UICONTROL 고객 제공 ID가 Experience Cloud 방문자 ID로 별칭 지정됨:]** 몇 개의 ID가 Experience Cloud ID에 별칭이 지정되었는지 표시합니다.
 
    * **[!UICONTROL 별칭 개수가 많은 고객 제공 ID:]** 500개 이상의 별칭 지정된 Experience Cloud 방문자 ID가 있는 고객 제공 ID 개수를 표시합니다. 이러한 고객 제공 ID는 개인 대신 일종의 공유 로그인을 나타낼 수 있습니다. 시스템에서는 별칭 수가 10,000개가 될 때까지 이러한 ID와 연결된 속성을 최신 별칭이 지정된 500개의 Experience Cloud 방문자 ID에 배포합니다. 이 수에 도달하면 시스템은 고객 제공 ID를 무효화하고 더 이상 연결된 속성을 배포하지 않습니다.
-
-
-
-
-
-
-
 
 
 
@@ -159,7 +145,6 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 ## (선택 사항) 스키마 업데이트(속성 삭제) {#task_6568898BB7C44A42ABFB86532B89063C}
 
 스키마에서 속성을 삭제 및 교체하는 방법.
-
 
 1. [!UICONTROL 고객 속성 소스 편집] 페이지에서 **[!UICONTROL Target]** 또는 **[!UICONTROL Analytics]** 가입([!UICONTROL 가입 구성] 아래)을 제거합니다.
 1. [업데이트된 필드가 있는 새 데이터 파일을 업로드합니다](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8).
@@ -183,7 +168,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 Adobe Analytics
 </keyword>와 같은 솔루션에서 사용 가능한 데이터로 마케팅 캠페인에서 데이터를 보고하고 분석하며 적절한 작업을 수행할 수 있습니다.
 
-다음 예에서는 업로드한 속성에 따른 [!DNL Analytics] 세그먼트를 보여줍니다. 이 세그먼트는 최근에 실행한 제품이 Photoshop인 Photoshop Lightroom 가입자를 보여줍니다.
+다음 예에서는 업로드한 속성에 따른 [!DNL Analytics] 세그먼트를 보여줍니다. This segment shows [!DNL Photoshop Lightroom] subscribers whose most-launched product is Photoshop.
 
 ![](assets/08_crs_usecase.png)
 
@@ -193,7 +178,7 @@ Experience Cloud에 게시한 세그먼트는 Experience Cloud 대상 및 Audien
 
 ## Adobe Target에서 고객 속성 사용 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-Target에서는 대상을 만들 때 방문자 프로필 섹션에서 고객 속성을 선택할 수 있습니다. 모든 고객 속성은 목록에 접두사 [!DNL crs.]을 갖게 됩니다. 필요에 따라 이러한 특성을 다른 데이터 특성과 결합하여 대상을 구성합니다.
+[!DNL Target]에서는 대상을 만들 때 방문자 프로필 섹션에서 고객 속성을 선택할 수 있습니다.  모든 고객 속성은 목록에 접두사 [!DNL crs.]을 갖게 됩니다. 필요에 따라 이러한 특성을 다른 데이터 특성과 결합하여 대상을 구성합니다.
 
 ![](assets/crs-add-attribute-target.png)
 
