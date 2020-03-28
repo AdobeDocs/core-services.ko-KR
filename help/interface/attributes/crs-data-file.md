@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 고객 속성에 대한 데이터 파일 및 데이터 소스에 대해
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -20,10 +20,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 고객 속성은 하루에 몇 개의 파일을 처리하도록 설계되었습니다. 작은 파일이 대량으로 있어 처리가 지연되는 문제를 방지하기 위해 동일한 조직의 이전 배치에서 30분 이내에 전송된 파일은 우선순위가 낮은 큐로 라우팅됩니다.
 
-<!-- <p>Articulate difference between this and SAINT. </p> -->
-
 ## 허용되는 파일 형식 및 이름 지정 요구 사항 {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
-
 
 <table id="table_C27955F6B52A45B28BEEAAF14FFC86D8"> 
  <thead> 
@@ -48,16 +45,11 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
  </tbody> 
 </table>
 
-
 ## 속성 데이터 파일에 대한 요구 사항 {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
-
-
 
 **CSV 예**
 
 CSV 파일은 다음 형식을 따라야 합니다.
-
-샘플 CSV:
 
 ![](assets/cvs.png)
 
@@ -142,7 +134,6 @@ CSV 파일은 다음 형식을 따라야 합니다.
  </tbody> 
 </table>
 
-
 ## 여러 데이터 소스 활용 {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
 고객 속성 소스를 생성, 수정 또는 삭제할 때 ID가 새 데이터 소스와의 동기화를 시작하기 전에 약 1시간 정도 지연됩니다.
@@ -164,4 +155,4 @@ Visitor.setCustomerIDs({
 
 In the **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
-위의 고객 ID에 해당하는 고유한 별칭 ID를 사용하여 두 개의 고객 속성 소스를 만듭니다. 이 방법을 사용하면 동일한 참조 ID 파섹
+위의 고객 ID에 해당하는 고유한 별칭 ID를 사용하여 두 개의 고객 속성 소스를 만듭니다. 이 방법을 사용하면 동일한 참조 ID를 여러 고객 속성 소스로 보낼 수 있습니다.
