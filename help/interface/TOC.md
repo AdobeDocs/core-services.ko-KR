@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 # 핵심 서비스 사용 안내서 {#interface}
 
 + [Experience Cloud 및 핵심 서비스 제품 설명서](experience-cloud.md)
-+ 핵심 서비스 정보 {#about-core-services}
++ Experience Cloud의 핵심 서비스 {#about-core-services}
    + [핵심 서비스 개요](core-services-landing.md)
    + [핵심 서비스용 솔루션을 사용하도록 설정](core-services/core-services.md)
    + [조직에 보고서 세트 매핑](core-services/report-suite-mapping.md)
@@ -33,7 +33,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
    + [브라우저 쿠키에 대한 개인 정보 설정 활성화](cookies/browser-cookie-settings.md)
    + [타사 쿠키 지원이 고객에게 미치는 영향](cookies/cookies-thirdparty.md)
 + 사용자 및 제품 관리 {#manage-users-and-products}
-   + [Experience Cloud 사용자 및 제품 관리(Admin Console)](admin-getting-started/admin-getting-started.md)
+   + [Experience Cloud 사용자 ID 및 제품 관리(Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Experience Cloud 사용자 세부 사항 보기(관리 도구)](admin-getting-started/admin-tool-experience-cloud.md)
    + [FAQ](admin-getting-started/faq.md)
    + [로그인 및 프로필 설정 관리](admin-getting-started/getting-started-experience-cloud.md)
