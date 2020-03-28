@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 'Experience Cloud 사용자 및 사용자 세부 사항 보기 '
 index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ## 솔루션 요약
 
-이 섹션에는 사용자가 액세스할 수 있는 Experience Cloud 솔루션의 요약이 표시됩니다. 해당되는 경우 제품 관리 역할 포함
+이 섹션에는 사용자가 액세스할 수 있는 Experience Cloud 솔루션의 요약이 표시됩니다. 해당되는 경우 제품 관리 역할을 포함합니다.
 
 ## 자세한 제품 액세스 목록
 
