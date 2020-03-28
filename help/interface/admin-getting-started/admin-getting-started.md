@@ -5,9 +5,9 @@ seo-description: Admin Console 로그인, Experience Cloud 사용자 권한 및 
 seo-title: Experience Cloud 사용자 및 제품 관리
 solution: Experience Cloud
 title: Experience Cloud 사용자 및 제품 관리
-uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
+index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -26,11 +26,11 @@ Adobe Experience Cloud 사용자 관리의 최신 기능에 대해 알아보십�
 
 <!-- ### Business ID type
 
-Adobe is now introducing a new identity type: **Business ID**. This identity type, improves the control of user and product management, and content, while increasing the flexibility of Experience Cloud and Creative Cloud storage usage among your team. With the introduction of this new identity type, Adobe is migrating all Adobe IDs (owned by the individual) used for business to the new Business IDs (owned by the organization).
+Adobe is introducing an identity type called _Business ID_. This identity type improves the control of user and product management while increasing the flexibility of Creative Cloud storage usage among your team (if applicable). Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs (owned by your organization).
 
-If you're an existing Creative Cloud for enterprise or teams customer, Adobe will migrate all your users on the Admin Console with Adobe IDs to Business IDs. If you're a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID. 
+If you're an existing Experience Cloud customer, Adobe will migrate all your users on the Admin Console with Adobe IDs to Business IDs. If you're a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID. 
 
-Beginning May 89, 2020, enterprise admins cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM
+Beginning May 2020, enterprise admins cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM
 
 What to do
 
@@ -45,7 +45,7 @@ What to do
 
 관리자는 더 이상 솔루션의 사용자를 관리하지 않습니다. 이제 Experience Cloud에 대한 사용자 및 제품 관리가 관리 콘솔에서 수행됩니다.
 
-**Admin Console에 로그인하려면**
+Admin Console에 로그인하려면
 
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. Adobe ID [또는 Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) 및 암호를 입력합니다.
@@ -117,7 +117,7 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
-Audience Manager 사용자를 만들어 그룹에 할당합니다. 한도(트레이트, 세그먼트, 대상 및 AlgoModel)를 볼 수도 있습니다.
+Audience Manager 사용자를 만들어 그룹에 할당합니다. 한도(트레이트, 세그먼트, 대상 및 [!DNL AlgoModel])를 볼 수도 있습니다.
 
 Audience [Manager](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) 도움말의 관리를 참조하십시오.
 
@@ -177,8 +177,6 @@ Audience [Manager](https://docs.adobe.com/content/help/en/dtm/using/admin/users.
 
 Experience Cloud에서 지원되는 브라우저입니다.
 
-Experience Cloud 지원 브라우저에는 다음이 포함됩니다.
-
 * [!DNL Microsoft Edge] (Microsoft는 Internet Explorer 8, 9 및 10에 대한 지원을 [](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) 종료했습니다. 따라서 Adobe는 이러한 특정 버전의 Internet Explorer에 대해 보고된 문제는 수정하지 않습니다.)
 * [!DNL Google Chrome]
 * [!DNL Firefox]
@@ -187,7 +185,7 @@ Experience Cloud 지원 브라우저에는 다음이 포함됩니다.
 
 **참고:** Experience Cloud 인터페이스는 이러한 브라우저를 지원하지만 개별 솔루션은 모든 브라우저를 지원하지 않을 수 있습니다. (For example, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
 
-**솔루션 및 제품 요구 사항**
+### 솔루션 및 제품 요구 사항
 
 * [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
