@@ -5,9 +5,9 @@ seo-description: Experience Cloud를 구현하고 관리자가 됩니다. 이 �
 seo-title: 핵심 서비스용 Experience Cloud 솔루션을 사용하도록 설정
 solution: Experience Cloud
 title: 핵심 서비스용 솔루션을 사용하도록 설정
-uuid: 5820060f-9b18-4339-81e0-401d964f7a03
+index: true
 translation-type: tm+mt
-source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
