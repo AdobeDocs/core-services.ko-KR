@@ -1,13 +1,13 @@
 ---
 description: Creative Cloud 사용자와 Experience Cloud 자산 폴더를 공유합니다.
-keywords: 자산 공유,Creative Cloud,핵심 서비스
+keywords: asset sharing;Creative Cloud;core services
 seo-description: Creative Cloud 사용자와 Experience Cloud 자산 폴더를 공유합니다.
 seo-title: Experience Cloud 자산 폴더 공유
 solution: Experience Cloud
 title: Experience Cloud 자산 폴더 공유
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -35,11 +35,11 @@ Creative Cloud 사용자와 Experience Cloud 자산 폴더를 공유합니다.
    ![단계 결과](assets/creative_cloud_open_folder.png)
 1. 공유 자산에 주석을 추가하여 계속합니다.
 
-   Creative Cloud에서 이미지를 클릭한 후 **[!UICONTROL 활동]을 클릭하여 이미지에 주석을 추가할 수 있습니다.** 주석은 [!DNL Creative Cloud] 및 [!DNL Experience Cloud]의 자산에서 동기화됩니다.
+   Creative Cloud에서 이미지를 클릭한 후 **[!UICONTROL 활동]**&#x200B;을 클릭하여 이미지에 주석을 추가할 수 있습니다. 주석은 [!DNL Creative Cloud] 및 [!DNL Experience Cloud]의 자산에서 동기화됩니다.
 
    ![](assets/asset_comment_cc.png)
 
-   Experience Cloud에서는 이미지를 클릭한 후 타임라인 아이콘을 클릭하여 이미지에 주석을 추가합니다. 주석은 Creative Cloud 및 Experience Cloud의 자산에서 동기화됩니다.
+   Experience Cloud에서 이미지를 클릭한 다음 타임라인 아이콘을 클릭하여 이미지에 주석을 추가합니다. 주석은 Creative Cloud 및 Experience Cloud의 자산에 동기화됩니다.
 
    ![](assets/asset_comment_mac.png)
 
@@ -48,10 +48,11 @@ Creative Cloud 사용자와 Experience Cloud 자산 폴더를 공유합니다.
 ![](assets/asset_remove_user.png)
 
 Creative Cloud 사용자를 모두 제거했으면 폴더가 공유 취소되고 Creative Cloud 사용자는 더 이상 액세스할 수 없습니다.
+
 공유 자산을 사용하는 추가 방법에는 다음이 포함됩니다.
 
 * 소셜 게시를 위해 [!UICONTROL 의 ]자산 선택기 [!DNL Adobe Social]에서 자산을 사용합니다.
-* Load or swap assets in the [Offers Library](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] for images in activities.
+* 활동에서 이미지를 위해 오퍼 [라이브러리의](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) 자산을 [!DNL Adobe Target] 로드하거나 바꿉니다.
 
 Creative Cloud에 폴더를 공유하면 폴더에 Creative Cloud 로고가 표시됩니다.
 
