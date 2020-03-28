@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Experience Cloud의 새 클라우드 이름 정보
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -105,19 +105,6 @@ Adobe Primetime은 모든 사용자가 개인화된 매력적인 TV 및 영화 �
 
 ## 핵심 서비스란 무엇입니까? {#concept_38AC4888C3F84694AE4F60311C21B9C2}
 
-[핵심 서비스](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)에는 제품 구현을 단순화하는 기능이 포함되어 있으며, 대상 세그멘테이션, 고객 특성 업로드 및 공동 작업 도구와 같은 교차 솔루션 워크플로우를 가능하게 합니다.
+[핵심 서비스](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html)에는 제품 구현을 단순화하는 기능이 포함되어 있으며, 대상 세그멘테이션, 고객 특성 업로드 및 공동 작업 도구와 같은 교차 솔루션 워크플로우를 가능하게 합니다.
 
 ![](assets/core-services.png)
-
-| 핵심 서비스 | 설명 |
-|--- |--- |
-| [활성화](activation/activation.md) | 태그 관리 시스템(경험 플랫폼 실행 및 다이내믹 태그 관리).<br>트리거를 사용하면 Adobe Analytics의 통찰력을 기반으로 Adobe Campaign에서 실시간 조치를 수행할 수 있습니다. |
-| [관리](admin-getting-started/admin-getting-started.md) | 모든 Adobe 클라우드 및 솔루션에서 사용자 및 제품 이용 권한을 관리할 수 있습니다. |
-| [자산](experience-cloud-assets/experience-cloud-assets.md) | 모든 디지털 자산을 손쉽게 저장, 동기화 및 공유하여 시간을 절약하고 보다 일관된 고객 경험을 제공할 수 있습니다. |
-| [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | [!UICONTROL Experience Platform Launch는 Adobe의 차세대 태그 관리 기능입니다. ] [!UICONTROL Adobe Experience] Platform Launch를 사용하면 고객의 기대에 부응하는 경험을 제공하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 간편하게 배포하고 관리할 수 있습니다. |
-| [여정 편성](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | 이벤트 또는 데이터 소스에 저장된 컨텍스트 데이터를 활용하여 실시간 통합 활용 사례를 구축할 수 있습니다. [!UICONTROL Journey Orchestration] 은 경험 플랫폼과 통합된 애플리케이션 서비스입니다. |
-| [위치 서비스](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] (위치 서비스)는 위치 인지도를 갖춘 모바일 앱이 유연한 관심 영역 데이터베이스(POI)와 함께 사용하기 쉬운 리치 SDK 인터페이스를 사용하여 위치 컨텍스트를 이해할 수 있도록 해주는 지리적 위치 서비스입니다. |
-| 제공 | 오퍼 관리는 Experience Cloud의 모든 채널에서 오퍼 제작, 관리 및 의사 결정을 제공합니다. |
-| [Exchange](exchange.md) | 앱을 통해 디지털 마케팅 확장 기능을 검색, 탐색, 선택, 결제 및 다운로드합니다. |
-| [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services는 Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능을 가져와서 사용자의 모바일 애플리케이션 참여를 이해하고 개선할 수 있도록 해줍니다. |
-| 사람 | Experience Cloud 솔루션에서 Adobe와 비 Adobe 데이터를 연결하여 개별 고객에 대한 포괄적인 보기를 만들 수 있습니다. 고객이 접점에서 상호 작용할 때 가장 중요한 요소를 파악할 수 있습니다. 익숙한 소비자가 익숙하지 않은 디바이스에서 방문할 때 인지할 수 있습니다. 타깃팅된 마케팅 활동을 위해 사용자를 대상으로 그룹화할 수 있습니다.<br>[대상](audience-library/audience-library.md) - 서로 다른 유형의 고객을 대상으로 분류한 다음 그러한 대상을 Marketing Cloud 솔루션에서 공유합니다.<br>[고객 속성](attributes/attributes.md) - Marketing Cloud 외부에서 수집한 고객 정보에 연결할 수 있는 대상의 다양성입니다.<br>[디바이스 그래프](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - 세계적으로 유명한 브랜드와 협력하여 친숙하지 않은 디바이스 기반의 친숙한 소비자를 인식합니다. (베타에서 Marketing Cloud 장치 협력 구성원만 해당합니다.) |
