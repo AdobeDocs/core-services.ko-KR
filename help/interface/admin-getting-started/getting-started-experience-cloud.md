@@ -1,26 +1,20 @@
 ---
 description: Experience Cloud에 로그인하고, 암호 및 알림을 관리하고, 기본 랜딩 페이지를 지정하는 방법을 알아봅니다.
-keywords: core services
+keywords: core services, sign in to Experience Cloud
 seo-description: Experience Cloud에 로그인하고, 암호 및 알림을 관리하고, 기본 랜딩 페이지를 지정하는 방법을 알아봅니다.
 seo-title: 로그인 및 프로필 설정 관리
-solution: Marketing Cloud
-title: 로그인 및 프로필 설정 관리
+solution: Experience Cloud
+title: Experience Cloud 프로필 설정 로그인 및 관리
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
-# 로그인 및 프로필 설정 관리
+# Experience Cloud 프로필 설정 로그인 및 관리
 
-단일 솔루션에 로그인하지 않고 Experience Cloud에 로그인하면 소유한 모든 솔루션과 서비스에 Single Sign-On을 사용할 수 있습니다. Experience Cloud에 로그인하고, 암호 및 알림을 관리하고, 기본 랜딩 페이지를 지정하는 방법을 알아봅니다.
-
-<!-- t_sign_in.xml -->
-
-<!-- notifications.xml -->
-
-<!-- t_get_access.xml -->
+단일 솔루션에 로그인하지 않고 Experience Cloud에 로그인하면 소유한 모든 솔루션과 서비스에 Single Sign-On을 사용할 수 있습니다. 이 도움말은 Experience Cloud에 로그인하고, 암호 및 알림을 관리하고, 기본 랜딩 페이지를 지정하는 방법에 대해 설명합니다.
 
 >[!IMPORTANT]
 >
