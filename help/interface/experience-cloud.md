@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience Cloud에 대한 자체 도움말, 제품 설명서 및 기술 문서 Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 제품입니다.
+description: Adobe Experience Cloud에 대한 자체 도움말, 제품 설명서 및 기술 문서 Adobe Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스와 통합되어 있습니다.
 keywords: core services
 seo-description: 이 페이지에서는 Experience Cloud에 대한 자체 도움말, 제품 설명서 및 기술 설명서를 제공합니다.
 seo-title: Adobe Experience Cloud 및 핵심 서비스 도움말 및 제품 설명서
@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 및 핵심 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
 
 ![Experience Cloud](assets/banner.png)
 
-이 페이지에서는 Adobe Experience Cloud 솔루션 및 서비스에 대한 자체 도움말, 지원, 기술 및 제품 설명서를 제공합니다. Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 제품입니다. 또한 클라우드 솔루션 및 핵심 서비스에 빠르게 액세스할 수 있는 직관적인 인터페이스입니다.
+이 페이지에서는 Adobe Experience Cloud 솔루션 및 서비스에 대한 자체 도움말, 지원, 기술 및 제품 설명서를 제공합니다. Adobe Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스와 통합되어 있습니다. 또한 클라우드 솔루션과 핵심 서비스에 신속하게 액세스할 수 있는 직관적인 인터페이스입니다.
 
 ## 무엇을 배우고 싶으십니까?
 
@@ -28,9 +28,9 @@ source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
 * [고객 경험 블로그](https://theblog.adobe.com/customer-experience/) - Experience Cloud 블로그 보기
 * [고객 지원](https://helpx.adobe.com/contact/enterprise-support.ec.html) - Adobe 고객 지원 센터에 문의
 
-## 핵심 서비스 제품 문서
+## 핵심 서비스 제품 설명서
 
-* [핵심 서비스 개요](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/)(블로그)
+* [핵심 서비스 개요](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (블로그)
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [대상자](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 * [자산](experience-cloud-assets/experience-cloud-assets.md)
