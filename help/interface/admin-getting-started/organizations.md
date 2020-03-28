@@ -1,13 +1,13 @@
 ---
 description: 조직 및 Experience Cloud에 솔루션 계정 연결에 대해 알아봅니다.
-keywords: 핵심 서비스
+keywords: core services
 seo-description: 조직 및 Experience Cloud에 솔루션 계정 연결에 대해 알아봅니다.
 seo-title: 조직 및 계정 연결
 solution: Marketing Cloud
 title: 조직 및 계정 연결
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 translation-type: tm+mt
-source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -16,13 +16,11 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 조직 관리 및 Experience Cloud에 솔루션 계정 연결에 대해 알아봅니다.
 
-<!-- accounts-experience-cloud.xml -->
-
 ## 조직 식별 {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-*조직*&#x200B;은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 해주는 엔티티입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
+** 조직은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 하는 항목입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그러나 회사는 많은 조직을 가질 수 있습니다.
 
-또한 지원을 위해 조직 ID를 찾아야 할 수도 있습니다. **[!UICONTROL 조직]메뉴를 사용하여 올바른 조직에 있는지 확인하거나 조직 간에 전환할 수 있습니다.**
+또한 지원 목적으로 조직 ID를 찾아야 할 수도 있습니다. **[!UICONTROL 조직]** 메뉴를 사용하여 올바른 조직에 있는지 확인하거나 조직 간에 전환할 수 있습니다.
 
 ![단계 결과](assets/organization-switch.png)
 
@@ -36,7 +34,7 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 ## Adobe ID에 솔루션 계정 연결 {#task_FD389E78640848919E247AC5E95B8369}
 
-일반적으로 Experience Cloud 관리자는 솔루션 및 서비스에 대한 액세스 권한을 부여합니다. 드문 경우이긴 하지만 솔루션 자격 증명을 Adobe ID에 연결해야 할 수 있습니다.
+일반적으로 Experience Cloud 관리자는 솔루션 및 서비스에 대한 액세스 권한을 부여합니다. 드문 경우이지만 솔루션 자격 증명을 Adobe ID에 연결해야 할 수 있습니다.
 
 1. Experience Cloud로 전자 메일 초대의 단계를 따릅니다.
 1. Adobe ID 또는 Enterprise ID를 사용하여 로그인합니다.
@@ -66,9 +64,9 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 ## 계정 연결 문제 해결 {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 
-계정 연결에서 비롯되는 문제들에 대한 도움말.
+계정 연결에서 발생하는 문제에 대한 도움말입니다.
 
-일반적으로, 계정 연결은 Adobe ID가 이전 사용자에게 연결되어 있어서 실패합니다. 계정 연결에 실패하면,
+일반적으로 Adobe ID가 이전 사용자에게 연결되어 있으므로 계정 연결이 실패합니다. 계정 연결에 실패하면 다음을 수행할 수 있습니다.
 
-* [Adobe 지원 서비스에 문의할 수 있습니다](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+* [Adobe 지원에 문의하십시오](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 * 문제가 해결되는 동안 여전히 표준 로그인을 사용하여 솔루션에 액세스할 수 있습니다.
