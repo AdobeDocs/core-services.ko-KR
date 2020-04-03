@@ -24,18 +24,18 @@ Admin Console 로그인, Experience Cloud 사용자 권한 및 제품 프로필 
 
 Adobe Experience Cloud 사용자 관리의 최신 기능에 대해 알아보십시오.
 
-### 비즈니스 ID 유형
+<!-- ### Business ID type
 
-Adobe는 비즈니스 ID라는 ID 유형을 _도입합니다_. 이 ID 유형은 사용자 및 제품 관리의 제어력을 향상시키며 팀 간의 Creative Cloud 스토리지 사용(해당되는 경우)의 유연성을 높입니다. Adobe는 비즈니스에 사용되는 모든 Adobe ID(개인 소유)를 새로운 엔터프라이즈 비즈니스 ID(조직 소유)로 마이그레이션합니다.
+Adobe is introducing an identity type called _Business ID_. This identity type improves the control of user and product management. Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs owned by your organization.
 
-기존 Experience Cloud 고객의 경우 Adobe는 Adobe ID가 있는 Admin Console의 모든 사용자를 Business ID로 마이그레이션합니다. 신규 기업 또는 팀 고객은 사용 가능한 ID 유형 중 하나를 사용하여 Admin Console에 사용자를 추가합니다.비즈니스 ID, Enterprise ID 또는 Federated ID.
+If you are an existing Experience Cloud customer, Adobe will migrate all your users on the Admin Console with Adobe IDs to Business IDs. If you are a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID.
 
-<!-- Beginning May 2020, enterprise admins cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM -->
+Beginning May 2020, enterprise administrators cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM
 
-작업
+What to do
 
-* 사용자는 Type2e로 마이그레이션되기 전에 TOU(사용 약관) 변경에 동의해야 합니다.
-* 여러 조직에 속한 사용자는 로그인 워크플로우 동안 프로필 선택 화면을 볼 수 있으며 올바른 프로필을 선택해야 합니다. 따라서 올바른 조직에 로그인하는 것입니다. (사용자가 마이그레이션 전에 여러 조직의 구성원인 경우 선택할 프로필이 여러 개 있을 수 있습니다.)
+* Your users will need to accept Terms of Use (TOU) changes prior to accounts being migrated to Type2e. 
+* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a users was a member of multiple organizations before the migration.) -->
 
 ### 관리 도구
 
