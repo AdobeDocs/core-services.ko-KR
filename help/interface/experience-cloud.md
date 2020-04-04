@@ -7,14 +7,14 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 및 핵심 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
 
 ---
 
 
 # Experience Cloud 및 핵심 서비스 제품 설명서
 
-![Experience Cloud](assets/banner.png)
+![Experience Cloud](assets/cloud-pulldown.png)
 
 이 페이지에서는 Adobe Experience Cloud 솔루션 및 서비스에 대한 자체 도움말, 지원, 기술 및 제품 설명서를 제공합니다. Adobe Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스와 통합되어 있습니다. 또한 클라우드 솔루션과 핵심 서비스에 신속하게 액세스할 수 있는 직관적인 인터페이스입니다.
 
