@@ -1,10 +1,10 @@
 ---
 audience: end-user
-user-guide-title: Core Services User Guide
+user-guide-title: 핵심 서비스 사용 안내서
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
 
 ---
 
@@ -41,8 +41,8 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
    + [Analytics Premium 및 Experience Cloud로 업그레이드](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud 활성화 {#activation}
    + [활성화 개요](activation/activation.md)
-   + [Launch 사용 안내서](https://docs.adobe.com/content/help/en/launch/using/overview.html)
-   + [다이내믹 태그 관리자 사용 안내서](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+   + [Launch 사용 안내서](https://docs.adobe.com/content/help/ko-KR/launch/using/overview.html)
+   + [다이내믹 태그 관리자 사용 안내서](https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Experience Cloud assets {#assets}
    + [Experience Cloud 에셋 개요](experience-cloud-assets/experience-cloud-assets.md)
@@ -76,10 +76,10 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
    + [배치](offer-management/placements.md)
    + [캠페인](offer-management/campaign.md)
 + Experience Cloud 릴리스 노트 {#release-notes}
-   + [Experience Cloud의 새로운 기능](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
+   + [Experience Cloud의 새로운 기능](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)
    + [누적 릴리스 노트](marketing-cloud-interface/release-notes.md)
 + [Exchange 마켓플레이스](exchange.md)
-+ [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
++ [Mobile Services](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html)
 + 추가 리소스 {#more-resources}
    + [포럼](https://forums.adobe.com/community/experience-cloud)
    + [용어](terms.md)
