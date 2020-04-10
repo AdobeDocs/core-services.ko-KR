@@ -7,12 +7,12 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 및 핵심 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
+source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
 
 ---
 
 
-# Experience Cloud 및 핵심 서비스 제품 설명서
+# Experience Cloud 핵심 서비스 제품 설명서
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
@@ -20,27 +20,27 @@ source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
 
 ## 무엇을 배우고 싶으십니까?
 
-* [모든 Experience Cloud 솔루션에](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) 대한 제품 설명서 - Experience Cloud 학습 및 지원
-* [릴리스 노트 및 제품 업데이트](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) - Experience Cloud의 새로운 기능 및 업데이트를 받기 위한 구독
+* [모든 Experience Cloud 솔루션에](https://docs.adobe.com/content/help/ko-KR/experience-cloud/user-guides/home.html) 대한 제품 설명서 - Experience Cloud 학습 및 지원
+* [릴리스 노트 및 제품 업데이트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html) - Experience Cloud의 새로운 기능 및 업데이트를 받기 위한 구독
 * [핵심 서비스](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) 구현을 위한 튜토리얼 - 핵심 서비스에 대한 비디오 및 자습서 살펴보기
 * [Experience League의 전문가](https://landing.adobe.com/experience-league/) 지원 - 전문가 및 커뮤니티의 가이드 학습
-* [교육 및 트레이닝](https://helpx.adobe.com/learning.html?promoid=KAUDK) - Adobe와 협력하여 Adobe 제품을 최대한 활용할 수 있습니다.
+* [교육 및 트레이닝](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK) - Adobe와 협력하여 Adobe 제품을 최대한 활용할 수 있습니다.
 * [고객 경험 블로그](https://theblog.adobe.com/customer-experience/) - Experience Cloud 블로그 보기
-* [고객 지원](https://helpx.adobe.com/contact/enterprise-support.ec.html) - Adobe 고객 지원 센터에 문의
+* [고객 지원](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html) - Adobe 고객 지원 센터에 문의
 
 ## 핵심 서비스 제품 설명서
 
 * [핵심 서비스 개요](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (블로그)
-* [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
-* [대상자](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
+* [Adobe Mobile](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html)
+* [대상자](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audience-library.html)
 * [자산](experience-cloud-assets/experience-cloud-assets.md)
-* [고객 속성](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)
-* [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
-* [다이내믹 태그 관리](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+* [고객 속성](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/attributes.html)
+* [Device Co-op](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/home.html)
+* [다이내믹 태그 관리](https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
-* [Experience Cloud ID 서비스](https://docs.adobe.com/content/help/en/id-service/using/home.html)
+* [Experience Cloud ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobelaunch.com/)
-* [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
+* [Experience Cloud Debugger](https://docs.adobe.com/content/help/ko-KR/debugger/using/experience-cloud-debugger.html)
 * [일반 데이터 보호 규정(GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
 ## 관리 및 활성화
@@ -50,7 +50,7 @@ source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
 * [FAQ](admin-getting-started/admin-getting-started.md)
 * [조직 및 계정 연결](admin-getting-started/organizations.md)
 * [통합](marketing-cloud-integrations.md)
-* [Adobe Target과 Experience Cloud 통합](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
+* [Adobe Target과 Experience Cloud 통합](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t.html)
 * [Experience Cloud 개인 정보 보호 및 보안 개요](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Adobe Experience Cloud의 프로필](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) 관리(블로그)
 * [DNS 프리페치](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
