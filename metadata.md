@@ -1,8 +1,8 @@
 ---
 cloud: experience-cloud
 product: core-services
-solution: Core Services
-solution-title: 핵심 서비스
+solution: Experience Platform
+solution-title: Experience Platform
 solution-hub-url: https://helpx.adobe.com/kr/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: 시작하기
@@ -11,14 +11,14 @@ tutorials-title: 자습서
 tutorials-url: https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.en
 translation-type: tm+mt
-source-git-commit: bf1f018ad1815518b5b5ecaf4552803b8d04a6c9
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
 
 # 내부용 메타데이터
 
-metadata.md 파일에는 리포지토리의 사용 안내서 TOC.md 파일에 전달되는 리포지토리 수준 메타데이터가 포함되어 있습니다. 모든 사용 안내서를 위한 metadata.md 콘텐츠를 변경하려면 TOC.md 파일에서 이 작업을 수행합니다.
+metadata.md 파일에는 리포지토리의 사용 안내서 TOC.md 파일에 전달되는 리포지토리 수준 메타데이터가 포함되어 있습니다. 모든 사용 안내서를 위한 metadata.md 컨텐츠를 변경하려면 TOC.md 파일에서 이 작업을 수행합니다.
 
 | 메타데이터 | 기능 |
 |--- |--- |
