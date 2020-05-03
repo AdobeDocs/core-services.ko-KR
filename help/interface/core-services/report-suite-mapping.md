@@ -5,7 +5,7 @@ seo-title: 조직에 보고서 세트 매핑
 title: 조직에 보고서 세트 매핑
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -14,14 +14,14 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 한 개 이상의 보고서 세트를 조직에 매핑하는 방법을 알아봅니다.
 
-Experience Cloud 서비스(예: Experience Cloud ID 서비스 및 사람 코어 서비스)는 개별 보고서 세트 대신 조직과 연결됩니다. 이러한 서비스가 제대로 작동하는지 확인하려면 각 Analytics 보고서 세트를 조직에 매핑해야 합니다. 매핑 프로세스:
+Experience Cloud 서비스(예: Experience Cloud ID 서비스 및 [!UICONTROL 사람])는 개별 보고서 세트 대신 조직과 연결됩니다. 이러한 서비스가 올바르게 작동하도록 하려면 각 Analytics 보고서 세트를 조직에 매핑해야 합니다. 매핑 프로세스:
 
 * Experience Cloud 조직을 보고서 세트의 기본 조직으로 설정합니다.
-* 보고서 세트에 액세스할 수 있는 사람을 변경하지 않습니다(액세스 권한은 각 사용자에 대해 Adobe Analytics 로그인 계정에 의해 여전히 결정됩니다).
+* 보고서 세트에 액세스할 수 있는 사용자를 변경하지 않습니다(액세스 권한은 각 사용자에 대해 Adobe Analytics 로그인 계정으로 판별됨).
 
 ## 요구 사항
 
-매핑할 보고서 세트에 대한 액세스 권한이 있는 로그인 회사의 Analytics 관리자여야 합니다. 또한 보고서 세트를 해당 조직에 매핑하려면 이 계정이 Experience Cloud 조직에 [](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) 연결되어 있어야 합니다.
+매핑할 보고서 세트에 대한 액세스 권한이 있는 로그인 회사의 Analytics 관리자여야 합니다. 또한 보고서 세트를 해당 조직에 매핑하려면 이 계정 [을 Experience Cloud 조직에](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) 연결해야 합니다.
 
 지정된 보고서 세트에 액세스할 수 있는 해당 조직의 로그인 회사에 대한 Analytics 관리자 권한이 없는 경우 조직이 회색으로 표시됩니다.
 
@@ -69,44 +69,44 @@ If the Experience Cloud ID Service is currently deployed on the report suite, en
 
 이 다이어그램에서 파란색 키는 관리자 권한을 나타냅니다. 회색 선은 가시성을 나타냅니다.
 
-이 사용자는 두 개의 Experience Cloud 조직에 액세스할 수 있습니다. 그는 다음을 수행했다:
+이 사용자는 두 개의 Experience Cloud 조직에 액세스할 수 있습니다. 그는 다음과 같은 일을 했다.
 
-* chapek Analytics 로그인 회사의 관리자 [!UICONTROL 계정을] Chapek Corp [!UICONTROL Experience] Cloud 조직 계정에 연결했습니다.
-* Doohan Analytics 로그인 회사의 [!UICONTROL 관리자가] 아닌 계정을 Chapek Corp [!UICONTROL Experience] Cloud 조직 계정에 연결했습니다.
-* Nigel Analytics 로그인 회사의 비관리 계정을 Nigel Inc Experience Cloud 조직 계정에 연결했습니다.
+* chapek Analytics [!UICONTROL 로그인 회사의] 관리자 계정을 자신의 [!UICONTROL Chapek] Corp Experience Cloud 조직 계정에 연결했습니다.
+* Doohan Analytics 로그인 회사의 [!UICONTROL 관리자가] 아닌 계정을 자신의 [!UICONTROL Chapek] Corp Experience Cloud 조직 계정에 연결했습니다.
+* 나이젤 분석 로그인 회사의 비관리 계정을 Nigel Inc Experience Cloud 조직 계정에 연결했습니다.
 
-다음 포인트는 이 사용자가 이러한 보고서 세트에 대해 수행할 수 있고 수행할 수 없는 매핑 작업을 나열합니다.
+다음 포인트는 이 사용자가 이러한 보고서 세트에 대해 수행할 수 있으며 수행할 수 없는 매핑 작업을 나열합니다.
 
-* [!UICONTROL 이 사용자는 연결된 Analytics 로그인 회사(] chapek [!UICONTROL )의 관리이며 계정이 이 조직에 연결되어 있으므로 Chapek-prod] 보고서[!UICONTROL 세트를 Chapek Corp]조직에 매핑할 수 있습니다.
-* [!UICONTROL 이 사용자는 이 보고서 세트가 표시되는 로그인 회사의 관리자가 아니므로 Nigel-prod] 보고서 세트를 연결할 수 없습니다.
-* [!UICONTROL 이 사용자는] Experience Cloud 조직에 연결된 로그인 회사( [!UICONTROL chapek] )의 관리자이므로Doohan-prod 보고서 세트를 Chapek Corp에 매핑할 수 있습니다(Doohan Analytics 로그인 회사의 관리자가 아님). 이 사용자는 이 매핑을 수행할 수 없지만 [!UICONTROL doohan-prod] 보고서 세트를 Nigel Inc Experience Cloud 조직에 매핑할 수 있다는 것을 알아야 합니다. 이 경우 Experience Cloud 조직 모두 목록에 표시되지만 Nigel Inc [!UICONTROL 는] 회색으로 표시됩니다. 매핑하기 전에 이 사용자는 나이젤 로그인 회사의 관리자에게 문의하여 매핑에 가장 적합한 조직을 결정해야 합니다. 처음에 보고서 세트를 만든 조직과 다른 조직을 선택하는 경우 UI에 가능한 충돌 경고가 표시됩니다.
+* [!UICONTROL 이 사용자는 연결된 Analytics 로그인 회사(] chapek [!UICONTROL )의 관리자이며] 이 계정이 이 조직에 연결되어 있으므로 Chapek-prod[!UICONTROL 보고서 세트를]Chapek Corp조직에 매핑할 수 있습니다.
+* [!UICONTROL 이 사용자는 이 보고서] 세트가 표시되는 로그인 회사의 관리자가 아니므로 Nigel-prod 보고서 세트를 연결할 수 없습니다.
+* [!UICONTROL 이 사용자는] Experience Cloud 조직에 연결된 로그인 회사( [!UICONTROL chapek] )의 관리자이므로 Doohan-prod[!UICONTROL 보고서 세트를 Chapek Corp에 매핑할 수 있습니다](Doohan Analytics 로그인 회사의 관리자가 아님). 이 사용자는 해당 매핑을 수행할 수 없지만 [!UICONTROL dohan-prod] 보고서 세트를 Nigel Inc Experience Cloud 조직에도 매핑할 수 있다는 점을 알아야 합니다. 이 경우 두 Experience Cloud 조직이 모두 목록에 표시되지만 Nigel Inc [!UICONTROL 가] 회색으로 표시됩니다. 매핑하기 전에 이 사용자는 온라인 로그인 회사의 관리자에게 문의하여 매핑에 가장 적합한 조직을 결정해야 합니다. 처음에 보고서 세트를 만든 조직과 다른 조직을 선택하는 경우 UI에 가능한 충돌 경고가 표시됩니다.
 
 ## FAQ {#section_099E485805994C929FF9C9F75219BEE1}
 
-### 내 보고서 세트를 모두 보지 않는 이유는 무엇입니까?
+### 내 보고서 세트가 모두 표시되지 않는 이유는 무엇입니까?
 
-보고서 세트 중 일부가 다른 로그인 회사 아래에 표시될 수 있습니다. 화면 상단의 드롭다운을 사용하여 현재 로그인 회사를 변경할 수 있습니다.
+보고서 세트 중 일부는 다른 로그인 회사 아래에 표시될 수 있습니다. 화면 상단의 드롭다운을 사용하여 현재 로그인 회사를 변경할 수 있습니다.
 
-### 내 보고서 세트 중 하나에 대해 드롭다운에 나열된 조직 중 일부를 인식하지 못할 경우 어떻게 합니까?
+### 보고서 세트 중 하나에 대해 드롭다운에 나열된 일부 조직을 인식하지 못하는 경우 어떻게 됩니까?
 
-The list shows you all the *possible* organizations your report suite could be mapped to, even you don’t have permission to map to all those report suites. 보고서 세트를 목록에서 회색으로 표시된 보고서 세트 중 하나에 매핑해야 하는지 확실하지 않은 경우 조직의 Experience Cloud 관리자에게 문의하여 최선의 선택을 결정하십시오.
+The list shows you all the *possible* organizations your report suite could be mapped to, even you don’t have permission to map to all those report suites. 보고서 세트를 목록의 회색으로 표시된 보고서 세트 중 하나로 매핑해야 하는지 확실하지 않은 경우 조직의 Experience Cloud 관리자에게 문의하여 최선의 선택을 결정하십시오.
 
 ### &quot;로그인 회사에 표시&quot; 열에 보고서 세트에 대해 나열된 로그인 회사 중 일부를 인식하지 못하는 경우 어떻게 합니까?
 
-어느 시점에서 이 보고서 세트는 다른 Experience Cloud 조직에 속할 수 있는 다른 로그인 회사와 공유되었습니다.
+이 보고서 세트가 다른 Experience Cloud 조직의 일부일 수 있는 다른 로그인 회사와 공유된 경우도 있습니다.
 
-### 다른 조직에서 생성하는 보고서 세트에 대한 이 &quot;가능한 충돌&quot; 오류는 무엇입니까? 그게 왜 중요하죠?
+### 다른 조직에서 생성하는 보고서 세트에 대한 &quot;가능한 충돌&quot; 오류는 무엇입니까? 왜 그게 중요하죠?
 
-보고서 세트 매핑에 대한 현명한 결정을 내리도록 도와주는 알림입니다. 조직이 이 보고서 세트에 더 적절할 수 있는 경우에 대비해 보고서 세트가 원래 다른 조직 아래에 만들어졌다는 것을 알고 싶습니다.
+보고서 세트 매핑에 대한 현명한 결정을 내리도록 도와주는 알림입니다. 조직이 이 보고서 세트에 더 적합할 수 있도록 하기 위해 원래 다른 조직 아래에 보고서 세트가 만들어졌다는 것을 알리고자 합니다.
 
-### 보고서 세트가 매핑되었는지 어떻게 알 수 있습니까?
+### 보고서 세트가 매핑되는지 어떻게 알 수 있습니까?
 
-매핑된 보고서 세트가 편집 불가능한 형식으로 표시됩니다. 매핑을 변경해야 하는 경우 고객 지원 센터에 문의하십시오.
+매핑된 보고서 세트가 편집할 수 없는 형식으로 표시됩니다. 매핑을 변경해야 하는 경우 고객 지원 센터에 문의하십시오.
 
 ### Experience Cloud 조직의 조직 ID만 알고 있다면 어떻게 됩니까? 내 조직 ID의 이름을 찾으려면 어떻게 해야 합니까?
 
-조직 및 계정 설정에서 조직 이름을 [찾을 수 있습니다](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
+조직 및 계정 설정에서 [조직 이름을 찾을 수 있습니다](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/organizations.html).
 
-### &quot;Date Mapped&quot; 열에 날짜가 표시됩니다. 누가 그 지도를 만들었나요?
+### &quot;Date Mapped&quot; 열에 날짜가 보입니다. 누가 그 지도를 만들었나요?
 
 Analytics 인터페이스에서 보고서 세트 변경 로그를 참조하여 변경한 사용자 ID를 확인할 수 있습니다. &quot;IMS 조직에 연결된 패키지&quot; 이벤트를 찾습니다.
