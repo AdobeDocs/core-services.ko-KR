@@ -1,17 +1,17 @@
 ---
 audience: end-user
-user-guide-title: 핵심 서비스 사용 안내서
+user-guide-title: Experience Cloud 인터페이스 사용 안내서
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
 
 # 핵심 서비스 사용 안내서 {#interface}
 
-+ [Experience Cloud 및 핵심 서비스 제품 설명서](experience-cloud.md)
++ [Experience Cloud 및 제품 설명서](experience-cloud.md)
 + Experience Cloud의 핵심 서비스 {#about-core-services}
    + [핵심 서비스 개요](core-services-landing.md)
    + [핵심 서비스용 솔루션을 사용하도록 설정](core-services/core-services.md)
@@ -33,7 +33,7 @@ source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
    + [브라우저 쿠키에 대한 개인 정보 설정 활성화](cookies/browser-cookie-settings.md)
    + [타사 쿠키 지원이 고객에게 미치는 영향](cookies/cookies-thirdparty.md)
 + 사용자 및 제품 관리 {#manage-users-and-products}
-   + [Experience Cloud 사용자 ID 및 제품 관리(Admin Console)](admin-getting-started/admin-getting-started.md)
+   + [Experience Cloud 사용자 ID 및 제품 관리(관리 콘솔)](admin-getting-started/admin-getting-started.md)
    + [Experience Cloud 사용자 세부 사항 보기(관리 도구)](admin-getting-started/admin-tool-experience-cloud.md)
    + [FAQ](admin-getting-started/faq.md)
    + [로그인 및 프로필 설정 관리](admin-getting-started/getting-started-experience-cloud.md)
@@ -74,7 +74,7 @@ source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
    + [제공](offer-management/offers.md)
    + [레이블](offer-management/labels.md)
    + [배치](offer-management/placements.md)
-   + [캠페인](offer-management/campaign.md)
+   + [Campaign](offer-management/campaign.md)
 + Experience Cloud 릴리스 노트 {#release-notes}
    + [Experience Cloud의 새로운 기능](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)
    + [누적 릴리스 노트](marketing-cloud-interface/release-notes.md)
