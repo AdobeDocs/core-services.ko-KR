@@ -7,12 +7,15 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 및 핵심 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: f3d200aede4ca1739c727d799cfdece40bd24a87
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 45%
 
 ---
 
 
-# Experience Cloud 핵심 서비스 제품 설명서
+# Experience Cloud 인터페이스 제품 설명서
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
