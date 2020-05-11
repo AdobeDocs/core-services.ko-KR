@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 고객 속성
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 75d3d045964aa42f7ac6b32b25cfd77aa7f663a9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '456'
+ht-degree: 19%
 
 ---
 
@@ -27,11 +27,11 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 
 * **솔루션 활성화:** [경험 플랫폼 서비스에 대한 솔루션을 활성화합니다](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
-* **그룹 멤버십:** 고객 속성 데이터를 업로드하려면 사용자가 [고객 속성 그룹](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)의 멤버여야 합니다. 또한 Adobe Analytics 그룹 또는 Adobe Target 그룹에 속해야 합니다.
+* **그룹 멤버십:** 고객 속성 데이터를 업로드하려면 사용자가 [고객 속성 그룹의 구성원이어야 합니다](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). 또한 Adobe Analytics 그룹 또는 Adobe Target 그룹에 속해야 합니다.
 
-   To know whether your company has access to Customer Attributes, your [!DNL Experience Cloud] administrator should log into the [!DNL Experience Cloud]. Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]** > **[!UICONTROL Groups]**. *고객 속성*&#x200B;이 이 그룹 중 하나로 표시되면 작업을 시작할 수 있습니다.
+   To know whether your company has access to Customer Attributes, your [!DNL Experience Cloud] administrator should log into the [Experience Cloud](https://experience.adobe.com). 관리 > **[!UICONTROL 관리]** **[!UICONTROL 콘솔]** > **[!UICONTROL 제품으로]**&#x200B;이동합니다. If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin.
 
-   고객 속성 그룹에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!UICONTROL 고객 속성] 메뉴 항목이 표시됩니다.
+   Users that are added to the Customer Attributes will see the [!UICONTROL Customer Attributes] menu item on the left side of the Experience Cloud interface.
 
 * **고객 속성에** Adobe Target [!DNL at.js] (모든 버전) 또는 [!DNL mbox.js] 버전 58 이상이 필요합니다.
 
