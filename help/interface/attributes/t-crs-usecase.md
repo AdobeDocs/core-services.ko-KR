@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 고객 속성 소스를 만들고 데이터 파일 업로드
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1177'
+ht-degree: 67%
 
 ---
 
@@ -28,23 +28,18 @@ ht-degree: 0%
 1. [스키마 유효성 검사](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [가입 구성 및 속성 소스 활성화](../attributes/t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
-
 데이터 소스가 활성 상태가 되면 다음을 수행할 수 있습니다.
 
 * [Adobe Analytics에서 고객 속성 사용](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
 * [Adobe Target에서 고객 속성 사용](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
-
-
 >[!IMPORTANT]
 >
->이 기능에 액세스하려면 고객 속성 제품 프로필(고객 속성 - 기본 액세스)에 사용자를 지정해야 합니다. ( **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** > ). Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu item in [!UICONTROL Audiences], on the left side of the Experience Cloud interface.
+>이 기능에 액세스하려면 고객 속성 제품 프로필(고객 속성 - 기본 액세스)에 사용자를 지정해야 합니다. 관리 > **[!UICONTROL 관리]** **[!UICONTROL 콘솔]** > **[!UICONTROL 제품으로]**&#x200B;이동합니다. If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin. Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu on the left side of the Experience Cloud interface.
 >
->솔루션 그룹 멤버십도 필요합니다.
+>고객 속성 기능을 사용하려면 사용자가 솔루션 수준 그룹(Analytics 또는)에도 속해야 [!DNL Target]합니다.
 
-To use the Customer Attributes feature, users must belong to the Adobe Customer Attributes group in user management, and to solution-level groups (Analytics or [!DNL Target]).
-
-[사용자 및 그룹](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)을 참조하십시오.
+See [Manage Experience Cloud users and products](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
 ## 데이터 파일 만들기 {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
@@ -52,12 +47,9 @@ To use the Customer Attributes feature, users must belong to the Adobe Customer 
 
 1. 웹 사이트에 있는 각각의 고유한 랜딩 위치에 대해 `.csv`.
 
-
    >[!NOTE]
    >
    >이 프로세스 뒷부분에서 `.csv`를 드래그 앤 드롭하여 파일을 업로드합니다. 하지만 [FTP를 통해 업로드](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)하는 경우 `.fin`와 같은 이름의 `.csv` 파일도 필요합니다.
-
-
 
    샘플 엔터프라이즈 고객 데이터 파일:
 
