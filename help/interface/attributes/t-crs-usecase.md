@@ -1,13 +1,16 @@
 ---
 description: 고객 속성 소스를 만들고 데이터를 업로드합니다.
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: 고객 속성 소스를 만들고 데이터를 업로드합니다.
 seo-title: 고객 속성 소스를 만들고 데이터 파일 업로드
 solution: Experience Cloud
 title: 고객 속성 소스를 만들고 데이터 파일 업로드
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,8 +31,8 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 데이터 소스가 활성 상태가 되면 다음을 수행할 수 있습니다.
 
-* [Adobe Analytics에서 고객 속성 사용 ](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
-* [Adobe Target에서 고객 속성 사용 ](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
+* [Adobe Analytics에서 고객 속성 사용](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
+* [Adobe Target에서 고객 속성 사용](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
 
 
@@ -90,9 +93,9 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
       별칭 ID는 추가 고객 ID 값을 설정하는 특정 영역에 해당합니다. 예:
 
-      * **다이내믹 태그 관리:** 별칭 ID는 Experience Cloud ID 서비스 *도구의 고객 설정* 아래에 [!UICONTROL 있는]통합 코드 [값에 해당합니다](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) .
+      * **다이내믹 태그 관리:** 별칭 ID는 *Experience Cloud ID 서비스* 도구의 [!UICONTROL 고객 설정]아래의 [통합 코드](https://docs.adobe.com/content/help/ko-KR/dtm/using/tools/macid.html) 값에해당합니다.
 
-      * **방문자 API:** 별칭 ID는 각 방문자와 연결할 수 [있는](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) 추가 고객 ID에 해당합니다.
+      * **방문자 API:** 별칭 ID는 각 방문자와 연결할 수 있는 추가 [고객](https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/authenticated-state.html) ID에 해당합니다.
 
          예를 들어 *&quot;crm_id&quot;*:
 
@@ -100,13 +103,13 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
          "crm_id":"67312378756723456"
          ```
 
-      * **iOS:** 별칭 ID는 visitorSyncIdentifiers:identifiers의 *&quot;idType&quot;* 에 [해당합니다](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
+      * **iOS:** 별칭 ID는 visitorSyncIdentifiers:identifiers의 *&quot;idType&quot;* 에 [해당합니다](https://docs.adobe.com/content/help/ko-KR/mobile-services/ios/overview.html).
 
          예:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android:** 별칭 ID는 syncIdentifiers의 *&quot;idType&quot;* 에 [해당합니다](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
+      * **Android:** 별칭 ID는 syncIdentifiers의 *&quot;idType&quot;* 에 [해당합니다](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/overview.html).
 
          예:
 
@@ -120,7 +123,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
       >특정 데이터 파일 요구 사항이 있습니다. 자세한 내용은 [데이터 파일 요구 사항](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)을 참조하십시오.
 
 
-      파일을 업로드하면 이 페이지의 파일 업로드 [!UICONTROL 머리글 아래에] 테이블 데이터가 표시됩니다. 스키마의 유효성을 검사하거나 구독을 구성하거나 FTP를 설정할 수 있습니다.
+      파일을 업로드하면 이 페이지의 [!UICONTROL 파일 업로드] 제목 아래에 표 데이터가 표시됩니다. 스키마의 유효성을 검사하거나, 가입을 구성하거나, FTP를 설정할 수 있습니다.
 
       **파일 업로드 그래픽**
 
@@ -130,7 +133,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
    * **[!UICONTROL 고객 제공 ID가 Experience Cloud 방문자 ID로 별칭 지정됨:]** 몇 개의 ID가 Experience Cloud ID에 별칭이 지정되었는지 표시합니다.
 
-   * **[!UICONTROL 별칭 개수가 많은 고객 제공 ID:]** 500개 이상의 별칭 지정된 Experience Cloud 방문자 ID가 있는 고객 제공 ID 개수를 표시합니다. 이러한 고객 제공 ID는 개인 대신 일종의 공유 로그인을 나타낼 수 있습니다. 시스템에서는 별칭 수가 10,000개가 될 때까지 이러한 ID와 연결된 속성을 최신 별칭이 지정된 500개의 Experience Cloud 방문자 ID에 배포합니다. 이 수에 도달하면 시스템은 고객 제공 ID를 무효화하고 더 이상 연결된 속성을 배포하지 않습니다.
+   * **[!UICONTROL 별칭 개수가 많은 고객 제공 ID:]** 500개 이상의 별칭 지정된 Experience Cloud 방문자 ID가 있는 고객 제공 ID 개수를 표시합니다. 이러한 고객 제공 ID는 개인을 나타내기보다는 일종의 공유 로그인을 나타낼 수 있습니다. 시스템에서는 별칭 수가 10,000개가 될 때까지 이러한 ID와 연결된 속성을 최신 별칭으로 지정된 500개의 Experience Cloud 방문자 ID에 배포합니다. 이 수에 도달하면 시스템은 고객 제공 ID를 무효화하고 더 이상 연결된 속성을 배포하지 않습니다.
 
 
 
@@ -151,7 +154,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
 ## 가입 구성 및 속성 소스 활성화 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-구독을 구성하면 Experience Cloud와 솔루션 간의 데이터 흐름이 설정됩니다. 속성 소스를 활성화하면 데이터가 구독 중인 솔루션으로 플로우될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 일치합니다.
+구독을 구성하면 Experience Cloud와 솔루션 간의 데이터 흐름이 설정됩니다. 속성 소스를 활성화하면 데이터가 구독 중인 솔루션으로 유입될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 일치합니다.
 
 [가입 구성](../attributes/subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF)을 참조하십시오.
 
@@ -161,9 +164,9 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
 ![단계 결과](assets/activate_attribute_source.png)
 
-## Adobe Analytics에서 고객 속성 사용 {#task_7EB0680540CE4B65911B2C779210915D}
+## Use Customer Attributes in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
-이제
+데이터를
 <keyword>
 Adobe Analytics
 </keyword>와 같은 솔루션에서 사용 가능한 데이터로 마케팅 캠페인에서 데이터를 보고하고 분석하며 적절한 작업을 수행할 수 있습니다.
@@ -172,14 +175,14 @@ Adobe Analytics
 
 ![](assets/08_crs_usecase.png)
 
-Experience Cloud에 게시한 세그먼트는 Experience Cloud 대상 및 Audience Manager에서 사용할 수 있습니다.
+Experience Cloud에 세그먼트를 게시하면 Experience Cloud 대상 및 Audience Manager에서 사용할 수 있습니다.
 
-자세한 [내용은 Analytics](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) 도움말의 고객 속성 보고서를 참조하십시오.
+자세한 내용은 [Analytics](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) 도움말의 고객 속성 보고서를 참조하십시오.
 
-## Adobe Target에서 고객 속성 사용 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## Use Customer Attributes in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-[!DNL Target]에서는 대상을 만들 때 방문자 프로필 섹션에서 고객 속성을 선택할 수 있습니다.  모든 고객 속성은 목록에 접두사 [!DNL crs.]을 갖게 됩니다. 필요에 따라 이러한 특성을 다른 데이터 특성과 결합하여 대상을 구성합니다.
+[!DNL Target]에서는 대상을 만들 때 방문자 프로필 섹션에서 고객 속성을 선택할 수 있습니다.  All Customer Attributes will have the prefix [!DNL crs.] in the list. 필요에 따라 이러한 특성을 다른 데이터 특성과 결합하여 대상을 구성합니다.
 
 ![](assets/crs-add-attribute-target.png)
 
-도움말에서 [새](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) 대상자 만들기를 [!DNL Target] 참조하십시오.
+도움말 [에서 새 대상](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) 만들기를 [!DNL Target] 참조하십시오.
