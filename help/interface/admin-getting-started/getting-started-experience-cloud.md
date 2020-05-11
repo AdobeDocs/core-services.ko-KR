@@ -7,14 +7,17 @@ solution: Experience Cloud
 title: Experience Cloud 프로필 설정 로그인 및 관리
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Experience Cloud 프로필 설정 로그인 및 관리
 
-단일 솔루션에 로그인하지 않고 Experience Cloud에 로그인하면 소유한 모든 솔루션과 서비스에 Single Sign-On을 사용할 수 있습니다. 이 도움말은 Experience Cloud에 로그인하고, 암호 및 알림을 관리하고, 기본 랜딩 페이지를 지정하는 방법에 대해 설명합니다.
+단일 솔루션에 로그인하지 않고 Experience Cloud에 로그인하면 소유한 모든 솔루션과 서비스에 대해 Single Sign-On을 사용할 수 있습니다. 이 도움말은 Experience Cloud에 로그인하고, 암호 및 알림을 관리하고, 기본 랜딩 페이지를 지정하는 방법에 대해 설명합니다.
 
 >[!IMPORTANT]
 >
@@ -36,13 +39,13 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 | 요소 | 설명 |
 |--- |--- |
-| [관리 콘솔 기본 사항](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Experience Cloud 솔루션 사용을 시작하는 데 필요한 초기 단계에 대해 알아봅니다. |
-| [ID 설정](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | 최종 사용자가 인증될 ID 시스템을 정의하고 설정합니다. |
-| [사용자 관리](https://helpx.adobe.com/enterprise/using/users.html) | Admin Console에 로그인 및 Experience Cloud 사용자 권한 및 제품 프로필 관리 방법에 대해 알아봅니다. |
-| [Admin Console 시작](../admin-getting-started/admin-getting-started.md) | Admin Console은 전사적으로 Adobe 사용자와 제품 이용 권한을 중앙에서 관리할 수 있는 도구입니다.<br>[직접 연결되는 링크](https://adminconsole.adobe.com)를 사용하여 Admin Console에 로그인할 수도 있습니다. |
-| [Creative Cloud 사용자 관리](../experience-cloud-assets/t-admin-add-cc-user.md) | Adobe Experience Cloud Assets를 사용하면 마케터는 Creative Cloud를 통해 디자이너 및 기타 크리에이티브 에셋과 폴더를 공유, 동기화 및 공동 작업할 수 있습니다. 여기에서 조직과 공동 작업을 위해 승인된 Creative Cloud 사용자를 관리할 수 있습니다. |
-| [보고서 세트 매핑](../core-services/core-services.md) | (Analytics 전용) Experience Cloud 핵심 서비스는 개별 보고서 세트 대신 조직과 연결됩니다. 이러한 서비스가 제대로 작동하는지 확인하려면 각 Analytics 보고서 세트를 조직에 매핑해야 합니다. (이 작업은 핵심 서비스용 Analytics를 [활성화하는 더 광범위한 워크플로우의](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)일부입니다.) |
-| [조직 ID](../admin-getting-started/organizations.md) | *조직 ID*&#x200B;는 관리 페이지의 맨 아래에 있습니다. 이 ID 파섹 이 ID는 24자의 영숫자 문자열과 @AdobeOrg(포함 필수)로 구성됩니다. |
+| [관리 콘솔 기본 사항](https://helpx.adobe.com/kr/marketing-cloud/how-to/first-time-setup.html) | Experience Cloud 솔루션 사용을 시작하기 위해 수행해야 하는 초기 단계에 대해 알아봅니다. |
+| [ID 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html) | 최종 사용자가 인증될 ID 시스템을 정의하고 설정합니다. |
+| [사용자 관리](https://helpx.adobe.com/kr/enterprise/using/users.html) | Admin Console에 로그인 및 Experience Cloud 사용자 권한 및 제품 프로필 관리 방법에 대해 알아봅니다. |
+| [관리 콘솔 실행](../admin-getting-started/admin-getting-started.md) | Admin Console은 전사적으로 Adobe 사용자와 제품 이용 권한을 관리하는 중앙 위치입니다.<br>[직접 연결되는 링크](https://adminconsole.adobe.com)를 사용하여 Admin Console에 로그인할 수도 있습니다. |
+| [Creative Cloud 사용자 관리](../experience-cloud-assets/t-admin-add-cc-user.md) | Adobe Experience Cloud Assets를 사용하면 마케터는 Creative Cloud를 통해 디자이너 및 기타 크리에이티브 자산과 폴더를 공유, 동기화 및 공동 작업할 수 있습니다. 여기에서 조직과 공동 작업을 하도록 승인된 Creative Cloud 사용자를 관리할 수 있습니다. |
+| [보고서 세트 매핑](../core-services/core-services.md) | (Analytics 전용) Experience Cloud 핵심 서비스는 개별 보고서 세트 대신 조직과 연결됩니다. 이러한 서비스가 올바르게 작동하도록 하려면 각 Analytics 보고서 세트를 조직에 매핑해야 합니다. (이 작업은 핵심 서비스용 Analytics를 [활성화하는 더 광범위한 워크플로우의 일부입니다](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).) |
+| [조직 ID](../admin-getting-started/organizations.md) | *조직 ID*&#x200B;는 관리 페이지의 맨 아래에 있습니다. 이 ID는 제공된 Experience Cloud 회사와 연결된 ID입니다. 이 ID는 24자의 영숫자 문자열과 @AdobeOrg(포함 필수)로 구성됩니다. |
 
 ## Experience Cloud에 로그인(사용자) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -57,7 +60,7 @@ Experience Cloud에 로그인하는 관리자 이외의 사용자를 위한 도�
 
    Experience Cloud 관리자가 계정 유형(Adobe ID 또는 Enterprise ID)을 확인하는 데 도움을 줄 수 있습니다.
 
-1. 랜딩 페이지에서 선택기 아이콘을 클릭하여 풀다운 메뉴에 ![](assets/menu-icon.png) 액세스합니다.
+1. 랜딩 페이지에서 선택기 아이콘 ![](assets/menu-icon.png) 을 클릭하여 풀다운 메뉴에 액세스합니다.
 
    ![](assets/experience-cloud-core-services.png)
 
@@ -77,11 +80,11 @@ Experience Cloud에 로그인한 후 개인 세부 사항을 편집하고, 표�
 
 ## 알림 활성화 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-시스템 업데이트, 유지 관리 알림, 게시물, 언급 및 공유된 자산에 대한 알림(이메일 또는 제품 내)을 받습니다. 고객 속성에 대한 업로드 상태를 포함하여 알림을 원하는 제품 및 솔루션을 지정할 수도 있습니다.
+시스템 업데이트, 유지 관리 알림, 게시물, 언급 및 에셋에 대한 알림(이메일 또는 제품 내)을 받을 수 있습니다. 고객 속성에 대한 업로드 상태를 포함하여 알림을 원하는 제품 및 솔루션을 지정할 수도 있습니다.
 
 알림으로 이동하려면 **[!UICONTROL 알림]** 아이콘 ![](assets/notifications-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** 아이콘 ![](assets/icon_edit_board.png)을 클릭합니다.
 
-사용자에게 중요한 메시지 유형을 기반으로 알림 표시를 정렬하고 알림을 검색할 수 있습니다. 다음을 수행할 수도 있습니다.
+중요한 메시지 유형을 기반으로 알림 표시를 정렬하고 알림을 검색할 수 있습니다. 다음을 수행할 수도 있습니다.
 
 * 중요한 메시지 유형별로 정렬합니다.
 * 알림 검색
@@ -133,7 +136,7 @@ Experience Cloud 프로필을 편집하고 기본 조직 및 랜딩 페이지 �
 
 ## 직접 연결되는 링크를 사용하여 솔루션 로그인 구성 {#concept_8BE493A08786469B88B210E13F78FF2F}
 
-선택적으로 Experience Cloud 인터페이스에서 제공하는 인증을 사용하여 솔루션의 특정 페이지에 로그인할 수 있습니다.
+원할 경우, Experience Cloud 인터페이스에서 제공하는 인증을 사용하여 솔루션의 특정 페이지에 로그인할 수 있습니다.
 
 ### URL 템플릿
 
@@ -150,5 +153,5 @@ Experience Cloud 프로필을 편집하고 기본 조직 및 랜딩 페이지 �
 | 매개 변수 | 설명 | 예 | 필수/선택 사항 |
 |--- |--- |--- |--- |
 | tenantId | 사용자가 로그인해야 하는 테넌트의 이름입니다. | aem62tenant | 선택 사항입니다 |
-| destURL | 사용자가 이동할 위치에 대한 전체 URL입니다. | https://sc.omniture.com/x/1_7xxzf | 선택 사항입니다 |
-| sourtionname | destURL 매개 변수의 소유자인 MAC 솔루션의 이름입니다. 사용자가 URL 소유자인 솔루션에 액세스할 수 있음을 확인하는 데 사용됩니다.  solutionname이 destURL 매개 변수와 동기화 상태임을 확인하는 것은 솔루션입니다.  예:URL에 social로 솔루션 이름이 포함되어 있고 제공된 destURL이 분석 URL인 경우, 사용자가 분석에 액세스할 수 없는 경우에도 URL로 리디렉션됩니다. MAC에서는 destURL의 소유자가 솔루션 이름과 동기화되어 있는지 확인하지 않습니다. | analytics | destURL 매개 변수를 사용하는 경우 필요합니다. |
+| destURL | 사용자가 이동할 위치에 대한 전체 URL. | https://sc.omniture.com/x/1_7xxzf | 선택 사항입니다 |
+| 솔루션 이름 | destURL 매개 변수의 소유자인 MAC 솔루션의 이름입니다. 사용자가 URL 소유자인 솔루션에 액세스할 수 있음을 확인하는 데 사용됩니다.  solutionname이 destURL 매개 변수와 동기화 상태임을 확인하는 것은 솔루션입니다.  예: URL에 social로 솔루션 이름이 포함되어 있고 제공된 destURL이 분석 url인 경우 분석에 액세스할 수 없는 경우에도 사용자는 URL로 리디렉션됩니다. MAC에서는 destURL의 소유자가 솔루션 이름과 동기화된 날씨를 확인하지 않습니다. | analytics | destURL 매개 변수를 사용하는 경우 필요합니다. |
