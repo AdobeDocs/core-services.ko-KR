@@ -4,7 +4,10 @@ user-guide-title: Experience Cloud 인터페이스 사용 안내서
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
    + [Experience Cloud 쿠키](cookies/cookies-mc.md)
    + [Advertising Cloud 쿠키](cookies/cookies-advertising-cloud.md)
    + [[!DNL Scene7] 쿠키](cookies/cookies-s7.md)
-   + [[!DNL 검색 및 홍보] 쿠키](cookies/cookies-snp.md)
+   + [[!DNL Search and Promote] 쿠키](cookies/cookies-snp.md)
    + [[!DNL Target] 쿠키](cookies/cookies-target.md)
    + [브라우저 쿠키에 대한 개인 정보 설정 활성화](cookies/browser-cookie-settings.md)
    + [타사 쿠키 지원이 고객에게 미치는 영향](cookies/cookies-thirdparty.md)
@@ -61,7 +64,7 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 + Experience Cloud의 고객 속성 {#customer-attributes}
    + [고객 속성 개요](attributes/attributes.md)
    + [FAQ, 제한 사항 및 우수 사례](attributes/faq-crs.md)
-   + [고객 속성에 대한 데이터 파일 및 데이터 소스에 대해](attributes/crs-data-file.md)
+   + [고객 속성에 대한 데이터 파일 및 데이터 소스 정보](attributes/crs-data-file.md)
    + [고객 속성 소스를 만들고 데이터 파일 업로드](attributes/t-crs-usecase.md)
    + [선택 사항 - FTP를 통해 데이터 파일 업로드](attributes/t-upload-attributes-ftp.md)
    + [스키마 유효성 검사](attributes/validate-schema.md)
