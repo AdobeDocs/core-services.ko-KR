@@ -1,13 +1,16 @@
 ---
-description: Experience Cloud를 구현하고 관리자가 됩니다. 이 프로세스는 고객 속성 및 대상과 같은 기능을 위한 솔루션을 현대화합니다.
-keywords: core services;customer attributes
-seo-description: Experience Cloud를 구현하고 관리자가 됩니다. 이 프로세스는 고객 속성 및 대상과 같은 기능을 위한 솔루션을 현대화합니다.
+description: Experience Cloud를 구현하고 관리자가 됩니다. 이 프로세스는 고객 속성 및 대상과 같은 기능에 대한 솔루션을 현대화합니다.
+keywords: core services;Customer Attributes
+seo-description: Experience Cloud를 구현하고 관리자가 됩니다. 이 프로세스는 고객 속성 및 대상과 같은 기능에 대한 솔루션을 현대화합니다.
 seo-title: 핵심 서비스용 Experience Cloud 솔루션을 사용하도록 설정
 solution: Experience Cloud
 title: 핵심 서비스용 솔루션을 사용하도록 설정
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
