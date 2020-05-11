@@ -1,26 +1,29 @@
 ---
-description: 유효성 검사 프로세스를 사용하여 표시 이름 및 설명을 업로드된 속성(문자열, 정수, 숫자 등)에 매핑할 수 있습니다. 스키마는 이러한 설정을 기반으로 생성됩니다. 이 스키마는 이 데이터 소스에 업로드된 이후의 모든 데이터의 유효성을 검사하는 데 사용됩니다. 이 매핑 프로세스는 원본 데이터를 변경하지 않습니다.
-keywords: customer attributes;core services
-seo-description: 유효성 검사 프로세스를 사용하여 표시 이름 및 설명을 업로드된 속성(문자열, 정수, 숫자 등)에 매핑할 수 있습니다. 스키마는 이러한 설정을 기반으로 생성됩니다. 이 스키마는 이 데이터 소스에 업로드된 이후의 모든 데이터의 유효성을 검사하는 데 사용됩니다. 이 매핑 프로세스는 원본 데이터를 변경하지 않습니다.
+description: 유효성 검사 프로세스를 사용하여 표시 이름 및 설명을 업로드된 속성(문자열, 정수, 숫자 등)에 매핑할 수 있습니다. 스키마는 이러한 설정에 따라 만들어집니다. 이 스키마는 이 데이터 소스에 업로드된 이후 모든 데이터의 유효성을 검사하는 데 사용됩니다. 이 매핑 프로세스는 원본 데이터를 변경하지 않습니다.
+keywords: Customer Attributes;core services
+seo-description: 유효성 검사 프로세스를 사용하여 표시 이름 및 설명을 업로드된 속성(문자열, 정수, 숫자 등)에 매핑할 수 있습니다. 스키마는 이러한 설정에 따라 만들어집니다. 이 스키마는 이 데이터 소스에 업로드된 이후 모든 데이터의 유효성을 검사하는 데 사용됩니다. 이 매핑 프로세스는 원본 데이터를 변경하지 않습니다.
 seo-title: 스키마 유효성 검사
 solution: Experience Cloud
 title: 스키마 유효성 검사
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 스키마 유효성 검사
 
-유효성 검사 프로세스를 사용하여 표시 이름 및 설명을 업로드된 속성(문자열, 정수, 숫자 등)에 매핑할 수 있습니다. 스키마는 이러한 설정을 기반으로 생성됩니다. 이 스키마는 이 데이터 소스에 업로드된 이후의 모든 데이터의 유효성을 검사하는 데 사용됩니다. 이 매핑 프로세스는 원본 데이터를 변경하지 않습니다.
+유효성 검사 프로세스를 사용하여 표시 이름 및 설명을 업로드된 속성(문자열, 정수, 숫자 등)에 매핑할 수 있습니다. 스키마는 이러한 설정에 따라 만들어집니다. 이 스키마는 이 데이터 소스에 업로드된 이후 모든 데이터의 유효성을 검사하는 데 사용됩니다. 이 매핑 프로세스는 원본 데이터를 변경하지 않습니다.
 
 >[!NOTE]
 >
 >유효성 검사 후 스키마를 업데이트하면 고객 속성이 삭제됩니다. [스키마 업데이트(속성 삭제)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)를 참조하십시오.
 
-**[!UICONTROL 고객 속성 소스]** > **[!UICONTROL 새 고객 속성 소스 생성]** > **[!UICONTROL 스키마 보기/편집]**
+**[!UICONTROL 고객 속성 소스]** > **[!UICONTROL 새 고객 속성 소스 생성]** > 스키마 **[!UICONTROL 보기/편집]**
 
 ![](assets/view_edit_schema.png)
 
@@ -36,7 +39,7 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 * **[!UICONTROL ID 조회:]** `.csv`의 CID(고객 ID)를 입력하여 해당 ID에 대한 Experience Cloud 정보를 조회합니다. 이 기능은 방문자에 대한 특성 데이터가 표시되지 않는 문제를 해결하는 데 유용합니다.
 
-   * **[!UICONTROL ECID(Experience Cloud ID):]** 최신 Experience Cloud ID 서비스를 사용하는 경우 표시됩니다. MCID 서비스를 사용하고 있지만 ID가 표시되지 않는 경우 Experience Cloud에서 해당 CID에 대한 별칭을 수신하지 못했습니다. 방문자가 로그인되어 있지 않거나 해당 ID가 구현되지 않은 것입니다.
+   * **[!UICONTROL ECID(Experience Cloud ID):]** 최신 Experience Cloud ID 서비스를 사용하는 경우 표시됩니다. MCID 서비스를 사용하고 있지만 여기에 ID가 표시되지 않는 경우 Experience Cloud에서 해당 CID에 대한 별칭을 수신하지 못했습니다. 방문자가 로그인되어 있지 않거나 해당 ID가 구현되지 않은 것입니다.
 
    * **[!UICONTROL CID(Customer ID):]** 이 CID와 연결된 속성입니다. prop 또는 eVar을 사용하여 CID(AVID)를 업로드하며 속성은 표시되지만 AVID는 표시되지 않는 경우 방문자가 사이트에 로그인되어 있지 않은 것입니다.
 
@@ -44,7 +47,7 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 Experience Cloud에서 고객 속성 소스 및 FTP 계정을 만든 후 FTP를 통해 데이터를 업로드할 수도 있습니다. 속성 소스당 하나의 FTP 계정을 만듭니다. 업로드된 파일은 해당 계정의 루트 폴더에 저장됩니다. 데이터는 .csv 형식이어야 하며 업로드가 완료되었음을 나타내는 .fin 파일도 있어야 합니다.
 
-문자열, 정수 및 숫자에 적용하는 이름은 [!DNL Analytics] 지표를 만드는 데 사용됩니다. 자세한 [내용은](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) 도움말의 고객 속성 [!DNL Analytics] 보고서를참조하십시오.
+문자열, 정수 및 숫자에 적용하는 이름은 [!DNL Analytics] 지표를 만드는 데 사용됩니다. 자세한 내용은 [도움말](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) 에서 [!DNL Analytics] 고객 속성보고서를 참조하십시오.
 
 * **[!UICONTROL 속성:]** 업로드한 `.csv` 파일에서 읽어오는 속성 데이터입니다.
 
