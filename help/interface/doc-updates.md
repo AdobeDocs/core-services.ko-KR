@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: 설명서 업데이트 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
 
 Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 
-**업데이트됨:2020년 3월 10일**
+**업데이트됨: 2020년 3월 10일**
 
-퍼스트 [파티 쿠키 섹션에서 호스트 이름 전달의](cookies/cookies-first-party.md#validate) 유효성을 확인했습니다.
+퍼스트 파티 쿠키 [섹션의 호스트 이름 전달](cookies/cookies-first-party.md#validate) 유효성 검사가 업데이트되었습니다.
 
-**업데이트됨:2020년 2월 20일**
+**업데이트됨: 2/20/2020**
 
 Experience [Cloud 사용자 세부 사항 보기(관리 도구)가 추가되었습니다](admin-getting-started/admin-tool-experience-cloud.md).
 
@@ -30,7 +33,7 @@ Experience [Cloud 사용자 세부 사항 보기(관리 도구)가 추가되었�
 
 **업데이트 날짜: 2018년 6월 8일**
 
-[고객 속성의 데이터 파일 및 데이터 소스 정보](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)를 여러 개의 파일 업로드에 대한 정보로 업데이트했습니다.
+Updated [About data file and data sources for Customer Attributes](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) with information about uploading multiple files.
 
 **업데이트 날짜: 2018년 6월 6일**
 
@@ -74,7 +77,7 @@ Experience [Cloud 사용자 세부 사항 보기(관리 도구)가 추가되었�
 
 **업데이트 날짜: 2015년 1월 15일**
 
-이제 Experience Cloud 사용자가 폴더를 Creative Cloud에 공유하고 두 클라우드 간 자산과 주석을 동기화할 수 있다는 내용이 추가되었습니다. 자세한 내용은 [자산 공유](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)를 참조하십시오.
+이제 Experience Cloud 사용자가 폴더를 Creative Cloud에 공유하고 두 클라우드 간에 자산과 주석을 동기화할 수 있게 되었습니다. 자산 [공유를 참조하십시오](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
 
 **업데이트 날짜: 2014년 7월 17일**
 
