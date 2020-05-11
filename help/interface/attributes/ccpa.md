@@ -2,10 +2,10 @@
 title: Customer Attributes Support for California Consumer Privacy Act
 description: Customer Attributes Support for California Consumer Privacy Act
 translation-type: tm+mt
-source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ CPA는 2020년 1월 1일에 발효되는 캘리포니아 주의 새로운 개인
 
 Adobe Experience Cloud는 서비스 제공업체로서, 개인 정보에 액세스하거나 삭제하기 위한 요청을 관리하는 것을 비롯하여 Experience Cloud 제품 및 서비스 사용에 적용되는 CPA에 따른 책임을 이행하도록 비즈니스를 지원합니다.
 
-이 문서에서는 Adobe Experience Platform Privacy Service API 및 Privacy Service UI를 사용하여  고객 속성이 데이터 주체의 CPA 데이터 액세스 및 삭제 권한을 지원하는 방법에 대해 설명합니다.
+이 문서에서는 [!UICONTROL 고객 속성이] Adobe Experience Platform Privacy Service API 및 Privacy Service UI를 사용하여 데이터 주체의 CPA 데이터 액세스 및 삭제 권한을 지원하는 방법에 대해 설명합니다.
 
 CPA용 Adobe 개인정보 보호 서비스에 대한 자세한 내용은 [Adobe 개인정보 보호 센터를 참조하십시오](https://www.adobe.com/privacy/ccpa.html).
 
@@ -41,7 +41,7 @@ CPA용 Adobe 개인정보 보호 서비스에 대한 자세한 내용은 [Adobe 
 
 1. 개인정보 [!UICONTROL 보호 서비스에서]고객 속성에 액세스 및 삭제 요청을 제출하고 기존 요청의 상태를 확인할 수 있습니다.
 
-## JSON 요청에 [!UICONTROL 필요한] 필드 값
+## 고객 속성 [!UICONTROL JSON 요청의 필수] 필드 값
 
 &quot;회사 컨텍스트&quot;:
 
