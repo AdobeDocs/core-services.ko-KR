@@ -2,9 +2,9 @@
 title: 일반 데이터 보호 규정에 대한 고객 속성 지원
 description: 일반 데이터 보호 규정에 대한 고객 속성 지원
 translation-type: tm+mt
-source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 일반 데이터 보호 규정에 대한 고객 속성 지원
 
-이 페이지에서는 고객 속성이 GDPR(General Data Protection Regulation)을 지원하는 방법을 설명합니다.
+이 페이지에서는 고객 속성이 일반 데이터 보호 규정(GDPR)을 지원하는 방법을 설명합니다.
 
 >[!IMPORTANT]
 >
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 Adobe Experience Cloud는 고객을 대신하여 수령하여 보관하는 모든 개인 데이터의 데이터 프로세서 역할을 합니다. 데이터 관리자는 Adobe Experience Cloud가 대신 처리하고 저장하는 개인 데이터를 결정합니다.
 
-이 문서에서는  고객 속성이 Adobe Experience Platform Privacy Service API 및 Privacy Service UI를 사용하여 데이터 주체의 GDPR 데이터 액세스 및 삭제 권한을 지원하는 방법에 대해 설명합니다.
+이 문서에서는  고객 속성이 Adobe Experience Platform 개인 정보 보호 서비스 API 및 개인 정보 서비스 UI를 사용하여 데이터 주체의 GDPR 데이터 액세스 및 삭제 권한을 지원하는 방법에 대해 설명합니다.
 
 GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스를 참조하십시오](https://www.adobe.com/kr/privacy/general-data-protection-regulation.html).
 
-## 고객 속성에 대한 요청을 전송하는 데 필요한 [!UICONTROL 설정]
+## 고객 속성에 대한 요청을 전송하는 [!UICONTROL 필수 설정]
 
 고객 속성에 대한 데이터에 액세스하고 삭제를 요청하려면 [!UICONTROL 다음을 수행해야]합니다.
 
@@ -39,7 +39,7 @@ GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스
 
 1. 개인정보 [!UICONTROL 보호 서비스에서]고객 속성에 액세스 및 삭제 요청을 제출하고 기존 요청의 상태를 확인할 수 있습니다.
 
-## JSON 요청에 [!UICONTROL 필요한 필드] 값
+## 고객 속성 JSON [!UICONTROL 요청의 필수 필드] 값
 
 &quot;회사 컨텍스트&quot;:
 
