@@ -1,20 +1,23 @@
 ---
-description: 고객 속성을 Experience Cloud에 업로드하기 위한 데이터 파일 요구 사항 및 여러 데이터 소스입니다.
-keywords: customer attributes;core services
-seo-description: 고객 속성을 Experience Cloud에 업로드하기 위한 데이터 파일 요구 사항 및 여러 데이터 소스입니다.
-seo-title: 고객 속성에 대한 데이터 파일 및 데이터 소스에 대해
+description: 고객 속성을 Experience Cloud에 업로드하기 위한 데이터 파일 요구 사항 및 여러 데이터 소스.
+keywords: Customer Attributes;core services
+seo-description: 고객 속성을 Experience Cloud에 업로드하기 위한 데이터 파일 요구 사항 및 여러 데이터 소스.
+seo-title: 고객 속성에 대한 데이터 파일 및 데이터 소스 정보
 solution: Experience Cloud
-title: 고객 속성에 대한 데이터 파일 및 데이터 소스에 대해
+title: 고객 속성에 대한 데이터 파일 및 데이터 소스 정보
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 고객 속성에 대한 데이터 파일 및 데이터 소스에 대해
+# 고객 속성에 대한 데이터 파일 및 데이터 소스 정보
 
-고객 속성을 Experience Cloud에 업로드하기 위한 데이터 파일 요구 사항 및 여러 데이터 소스입니다.
+고객 속성을 Experience Cloud에 업로드하기 위한 데이터 파일 요구 사항 및 여러 데이터 소스.
 
 기업에서 CRM 또는 유사한 데이터에 액세스해야 합니다. Experience Cloud에 업로드하는 데이터는 `.csv` 파일이어야 합니다. FTP 또는 sFTP를 통해 업로드하는 경우 `.fin` 파일도 업로드합니다.
 
@@ -32,11 +35,11 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>쉼표로 구분된 값 파일(예: Excel에서 만든 파일). 고객 속성 데이터를 포함하는 파일입니다. </p> <p> <b>이름 지정 요구 사항:</b> 파일 이름 확장명에 공백이 없는지 확인합니다. </p> </td> 
+   <td colname="col2"> <p>쉼표로 구분된 값 파일(예: Excel에서 만든 파일)입니다. 고객 속성 데이터를 포함하는 파일입니다. </p> <p> <b>이름 지정 요구 사항:</b> 파일 이름 확장자에 공백이 없는지 확인합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
-   <td colname="col2"> <p>(필수) <span class="filepath">.fin</span> 파일은 데이터 업로드를 끝냈음을 시스템에 알려줍니다. <span class="filepath">.fin</span> 파일의 이름은 <span class="filepath">.csv</span> 파일의 이름과 일치해야 합니다. </p> <p>Adobe에서는 <span class="filepath">.fin</span> 확장명의 빈 텍스트 파일을 만들 것을 권장합니다. 빈 파일을 만들면 공간 및 업로드 시간이 단축됩니다. </p> <p> <p>참고: 업로드 후에는 <span class="filepath">.fin</span> 파일 이름을 다시 바꿀 수 없습니다. <span class="filepath">.fin</span> 파일은 따로 업로드해야 하며 이전에 업로드한 파일을 이름 변경 후 사용할 수 없습니다. </p> </p> <p>고객 속성 FTP에서 <span class="filepath">.fin</span> 파일을 업로드하면 시스템이 데이터를 빠르게(1분 이내) 검색합니다. 이 경우 데이터를 덜 자주(시간당 약 한 번) 선택하는 다른 Adobe FTP 기반 시스템과 다릅니다. </p> <p>드래그 앤 드롭 업로드 방법을 사용할 때는 <span class="filepath">.fin</span> 파일이 필요하지 않습니다. </p> </td> 
+   <td colname="col2"> <p>(필수) <span class="filepath">.fin</span> 파일은 데이터 업로드를 끝냈음을 시스템에 알려줍니다. <span class="filepath">.fin</span> 파일의 이름은 <span class="filepath">.csv</span> 파일의 이름과 일치해야 합니다. </p> <p>Adobe에서는 <span class="filepath">.fin</span> 확장명의 빈 텍스트 파일을 만들 것을 권장합니다. 빈 파일을 만들면 공간 및 업로드 시간이 단축됩니다. </p> <p> <p>참고: 업로드 후에는 <span class="filepath">.fin</span> 파일 이름을 다시 바꿀 수 없습니다. <span class="filepath">.fin</span> 파일은 따로 업로드해야 하며 이전에 업로드한 파일을 이름 변경 후 사용할 수 없습니다. </p> </p> <p>After you upload the <span class="filepath"> .fin </span> file in the Customer Attributes FTP, the system retrieves data quickly (within one minute). 이 경우 데이터를 덜 자주(시간당 약 한 번) 선택하는 다른 Adobe FTP 기반 시스템과 다릅니다. </p> <p>드래그 앤 드롭 업로드 방법을 사용할 때는 <span class="filepath">.fin</span> 파일이 필요하지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .gz</span> 또는 <span class="filepath">.zip </span> </p> </td> 
@@ -47,13 +50,13 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ## 속성 데이터 파일에 대한 요구 사항 {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
 
-**CSV 예**
+**예제 CSV**
 
 CSV 파일은 다음 형식을 따라야 합니다.
 
 ![](assets/cvs.png)
 
-텍스트 편집기에서 본 것과 동일한 파일:
+텍스트 편집기에서 본 동일한 파일:
 
 ![](assets/csv_txt.png)
 
@@ -73,7 +76,7 @@ CSV 파일은 다음 형식을 따라야 합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>고객 ID 열 </p> </td> 
-   <td colname="col2"> <p> 첫 번째 열은 고유한 고객 ID여야 합니다. 사용된 ID는 Experience Cloud ID Service에 전달되는 ID와 일치해야 합니다. </p> <p>Analytics의 경우, prop 또는 eVar에 저장되는 ID입니다. </p> <p>Target의 경우 setCustomerID 값입니다. (See <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - synching the customer ID </a>) </p> <p> 이 고객 ID 파섹 나머지 열은 CRM에서 가져오는 속성입니다. 업로드할 속성의 수를 선택합니다. </p> <p>열 제목에는 읽을 수 있는 친근한 이름이 권장되지만 필수는 아닙니다. 업로드 후 스키마의 유효성을 검사할 때 업로드된 행 및 열에 친숙한 이름을 매핑할 수 있습니다. </p> <p> <b>고객 ID 정보</b> </p> <p>일반적으로 기업은 CRM 시스템의 고객 ID를 사용합니다. 이 ID는 사용자가 로그인할 때 <span class="codeph">setCustomerID</span> 호출을 사용하여 설정됩니다. 이 ID는 Experience Cloud에 업로드된 CRM 파일의 키로도 사용됩니다. An <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> Alias ID </a> is a friendly name for a data store in Audience Manager, where the alias data is stored. 시스템은 setCustomerID를 통해 이 데이터 저장소에 별칭을 보냅니다. CRM 파일은 해당 데이터 저장소의 데이터에 적용됩니다. </p> <p><span class="codeph">setCustomerIDs</span> 정보에 대해서는 <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">고객 ID 및 인증 상태</a>를 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p> 첫 번째 열은 고유한 고객 ID여야 합니다. 사용되는 ID는 Experience Cloud ID Service에 전달되는 ID에 해당됩니다. </p> <p>Analytics의 경우 prop 또는 eVar에 저장되는 ID입니다. </p> <p>Target의 경우 setCustomerID 값입니다. (See <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - synching the customer ID </a>) </p> <p> 이 고객 ID는 CRM에서 데이터베이스의 각 사용자에 대해 사용하는 고유한 식별자입니다. 나머지 열은 CRM에서 가져오는 속성입니다. 업로드할 속성의 수를 선택합니다. </p> <p>열 제목에는 읽을 수 있는 친근한 이름이 권장되지만 필수는 아닙니다. 업로드 후 스키마의 유효성을 검사하는 경우 업로드된 행 및 열에 친근한 이름을 매핑할 수 있습니다. </p> <p> <b>고객 ID 정보</b> </p> <p>일반적으로 기업은 CRM 시스템의 고객 ID를 사용합니다. 이 ID는 사용자가 로그인할 때 <span class="codeph">setCustomerID</span> 호출을 사용하여 설정됩니다. 이 ID는 Experience Cloud에 업로드된 CRM 파일의 키로도 사용됩니다. An <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> Alias ID </a> is a friendly name for a data store in Audience Manager, where the alias data is stored. 시스템은 이 데이터 저장소에 별칭을 보냅니다(setCustomerID를 통해). CRM 파일은 해당 데이터 저장소의 데이터에 적용됩니다. </p> <p><span class="codeph">setCustomerIDs</span> 정보에 대해서는 <a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/authenticated-state.html" format="https" scope="external">고객 ID 및 인증 상태</a>를 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>후속 머리글 및 열 </p> </td> 
@@ -81,10 +84,10 @@ CSV 파일은 다음 형식을 따라야 합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>속성 제한 </p> </td> 
-   <td colname="col2"> <p>수백 개의 <span class="filepath">.csv</span> 열을 Experience Cloud의 고객 속성 서비스로 업로드할 수 있습니다. 그러나 구독을 구성하고 속성을 선택할 때 소유한 솔루션에 따라 다음 제한이 적용됩니다. </p> <p> 
+   <td colname="col2"> <p>수백 개의 <span class="filepath">.csv</span> 열을 Experience Cloud의 고객 속성 서비스로 업로드할 수 있습니다. 그러나 가입을 구성하고 속성을 선택할 때 소유한 솔루션에 따라 다음 제한이 적용됩니다. </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
-      <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>:총 3개 </li> 
-      <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>:보고서 세트당 200개 </li> 
+      <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>: 총 3개 </li> 
+      <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 보고서 세트당 200개 </li> 
       <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Adobe Target Standard:</b> 5 </li> 
       <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Adobe Target Premium:</b> 200년 </li> 
      </ul> </p> </td> 
@@ -95,7 +98,7 @@ CSV 파일은 다음 형식을 따라야 합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>열 제한 </p> </td> 
-   <td colname="col2"> <p>실제로는 열 수를 약 200개로 제한합니다. </p> </td> 
+   <td colname="col2"> <p>실질적으로 열 수는 약 200개로 제한됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>문자 제한 </p> </td> 
@@ -109,15 +112,15 @@ CSV 파일은 다음 형식을 따라야 합니다.
       <li>최소 파일 크기 제한은 업로드당 10mb입니다. </li>
       <li>30분마다 1개 파일을 업로드할 수 있습니다. </li>
       <li id="li_B69A20C51D824727AA99C1F6F78537A4"> FTP 사이트의 루트 폴더에 <span class="filepath">.csv</span>(및 <span class="filepath">.fin</span>) 파일을 추가해야 합니다. </li> 
-     </ul> </p> <p> <p>중요: FTP 계정에 대해 허용되는 총 공간은 40GB입니다. 처리된 파일을 삭제하는 것은 귀하의 책임입니다. </p> </p> </td> 
+     </ul> </p> <p> <p>중요: FTP 계정에 대해 허용되는 총 공간은 40GB입니다. 처리된 파일을 삭제하는 것은 사용자의 책임입니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>파일 요구 사항 </p> </td> 
-   <td colname="col2"> <p> 각 속성 소스에는 쉼표로 구분된 필드의 수가 동일해야 합니다. </p> <p> 줄바꿈, 큰따옴표 또는 쉼표를 포함하는 필드는 따옴표로 묶어야 합니다. </p> <p> 필드의 큰따옴표 문자는 백슬래시(\)를 사용하여 이스케이프해야 합니다. </p> <p> 빈 열은 <span class="term"> null로 저장됩니다 </span>. </p> </td> 
+   <td colname="col2"> <p> 각 속성 소스에는 동일한 수의 쉼표로 구분된 필드가 포함되어야 합니다. </p> <p> 줄바꿈, 큰따옴표 또는 쉼표를 포함하는 필드는 따옴표로 묶어야 합니다. </p> <p> 필드의 큰따옴표 문자는 백슬래시(\)를 사용하여 이스케이프해야 합니다. </p> <p> 빈 열은 null로 <span class="term"> 저장됩니다 </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>여러 파일 </p> </td> 
-   <td colname="col2"> <p>고객 속성 데이터를 업로드할 때, 빠르게 연속해서 업로드할 파일이 여러 개 있으며 특히 파일이 큰 경우 다음 파일을 업로드하기 전에 이전 파일이 처리되었는지 확인하십시오. 이전 파일이 고객 속성 FTP 계정에서 처리 또는 실패한 폴더로 이동되었는지 여부를 확인하여 이를 모니터링할 수 있습니다. </p> <p> 큰 파일을 작은 파일로 분할하여 빠르게 연속하여 제출하는 경우, 다음 파일을 제출하기 전에 각 파일이 완전히 처리되지 않는 한 실제 처리 속도가 느려질 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>고객 속성 데이터를 업로드할 때, 빠르게 연속해서 업로드할 파일이 여러 개 있으며 특히 파일이 큰 경우 다음 파일을 업로드하기 전에 이전 파일이 처리되었는지 확인하십시오. 고객 속성 FTP 계정 내에서 이전 파일이 처리되거나 실패한 폴더로 이동되었는지 확인하여 모니터링할 수 있습니다. </p> <p> 큰 파일을 작은 파일로 분할하여 빠르게 연속하여 제출하는 경우, 다음 파일을 제출하기 전에 각 파일이 완전히 처리되지 않는 한 실제 처리 속도가 느려질 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>문자 인코딩 </p> </td> 
@@ -125,7 +128,7 @@ CSV 파일은 다음 형식을 따라야 합니다.
   </tr> 
    <tr> 
    <td colname="col1"> <p>내역 데이터 </p> </td> 
-   <td colname="col2"> <p> 고객 속성은 Analytics의 기본 방문자 프로필에 연결되어 있습니다. 따라서 고객 속성은 Analytics에서 해당 방문자 프로필의 전체 수명 동안 방문자와 연결됩니다. 여기에는 고객이 처음으로 로그인하기 전에 발생한 동작이 포함됩니다. </p> <p> 데이터 웨어하우스 채우기 방법을 사용하는 경우 데이터는 AID(Analytics ID)를 기반으로 하는 post_visid_high/low에 연결되어 있습니다. Experience Cloud ID 서비스를 사용하는 경우 데이터는 Experience Cloud ID(MID)를 기반으로 하는 post_visid_high/low에 연결되어 있습니다. </p> </td> 
+   <td colname="col2"> <p> 고객 속성은 Analytics의 기본 방문자 프로필에 연결되어 있습니다. 이와 같이, 고객 속성은 Analytics에서 해당 방문자 프로필의 전체 수명 동안 방문자와 연결됩니다. 여기에는 고객이 처음으로 로그인하기 전에 발생한 동작이 포함됩니다. </p> <p> 데이터 웨어하우스 채우기 방법을 사용하는 경우, 데이터는 Analytics ID(AID)를 기반으로 하는 post_visid_high/low에 연결되어 있습니다. Experience Cloud ID 서비스를 사용하는 경우 데이터는 Experience Cloud ID(MID)를 기반으로 하는 post_visid_high/low에 연결되어 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>데이터 피드 </p> </td> 
@@ -136,7 +139,7 @@ CSV 파일은 다음 형식을 따라야 합니다.
 
 ## 여러 데이터 소스 활용 {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
-고객 속성 소스를 생성, 수정 또는 삭제할 때 ID가 새 데이터 소스와의 동기화를 시작하기 전에 약 1시간 정도 지연됩니다.
+고객 속성 소스를 생성, 수정 또는 삭제할 때 ID가 새 데이터 소스와의 동기화를 시작하기 전에 약 1시간 정도 지연이 발생합니다.
 
 각 고객 속성 소스에 대한 별칭 ID는 고유해야 합니다. 동일한 ID를 활용하는 여러 데이터 소스가 있는 경우 다음과 같이 설정해야 합니다.
 
@@ -151,7 +154,7 @@ Visitor.setCustomerIDs({
 });
 ```
 
-(자세한 내용은 [고객 ID 및 인증 상태](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)를 참조하십시오.)
+(자세한 내용은 [고객 ID 및 인증 상태](https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/authenticated-state.html)를 참조하십시오.)
 
 In the **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
