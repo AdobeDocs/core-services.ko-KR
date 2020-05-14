@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: 누적 릴리스 노트
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
+workflow-type: tm+mt
+source-wordcount: '3929'
+ht-degree: 60%
 
 ---
 
@@ -19,6 +22,22 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 설명서 업데이트 목록은 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)를 참조하십시오.
 
 모든 솔루션에 대한 릴리스 노트는 [Experience Cloud 릴리스 노트를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html).
+
+## 2020년 4월 -
+
+* Experience Cloud [!UICONTROL 피드] 페이지는 더 이상 사용되지 않습니다. (EXC-8505)
+* 새로운 브랜딩 요소를 반영하도록 Experience Cloud 로그인 페이지가 업데이트되었습니다. (EXC-10747)
+
+## 2020년 2월 -
+
+| 기능 | 설명 |
+| -----------| ---------- |
+| 관리 도구 - 사용자 세부 정보 보기 | 관리자는 새로운 관리 도구에서 모든 Experience Cloud 사용자의 정렬 및 필터링 가능한 목록과 세부 정보를 볼 수 있습니다. 사용자 세부 정보에는 사용자의 제품 액세스, 역할 및 마지막으로 액세스한 정보가 포함됩니다. 자세한 내용은 [Experience Cloud 관리 도구](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) 도움말을 참조하십시오. |
+
+**수정 사항**
+
+* **고객 속성:** 이제 고객 속성 UI에 타겟에서 동기화된 프로필의 추가 상태가 표시됩니다. (MCUI-10231)
+* **코어 서비스 트리거:** 사용 부족으로 중단 유형 트리거를 만들 때 성향 점수 &quot;30일 후에 반환될 가능성&quot;이 제거되었습니다. (MCUI-10056)
 
 ## 2020년 1월 -
 
@@ -174,7 +193,7 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
  </tbody> 
 </table>
 
-* 일부 고객의 경우 고객 속성이 동기화되지 않던 문제를 수정했습니다.
+* 고객 속성이 일부 고객에 대해 동기화되지 않는 문제를 수정했습니다.
 * Fixed an issue preventing [Adobe Target Product Documentation](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
 * [!DNL Creative Cloud]와 [!DNL Experience Cloud] 간 주석에서 일본어 텍스트를 사용할 수 없던 문제를 수정했습니다.
 
