@@ -4,10 +4,10 @@ user-guide-title: Experience Cloud 인터페이스 사용 안내서
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 68%
+ht-degree: 65%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 68%
    + [고객 속성 개요](attributes/attributes.md)
    + [FAQ, 제한 사항 및 우수 사례](attributes/faq-crs.md)
    + [고객 속성에 대한 데이터 파일 및 데이터 소스 정보](attributes/crs-data-file.md)
-   + [고객 속성 소스를 만들고 데이터 파일 업로드](attributes/t-crs-usecase.md)
+   + [고객 속성 소스 만들기 및 데이터 파일 업로드](attributes/t-crs-usecase.md)
    + [선택 사항 - FTP를 통해 데이터 파일 업로드](attributes/t-upload-attributes-ftp.md)
    + [스키마 유효성 검사](attributes/validate-schema.md)
    + [구독 구성](attributes/subscription.md)
