@@ -4,10 +4,10 @@ user-guide-title: Experience Cloud 인터페이스 사용 안내서
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '375'
+ht-degree: 68%
 
 ---
 
@@ -70,6 +70,8 @@ ht-degree: 0%
    + [스키마 유효성 검사](attributes/validate-schema.md)
    + [구독 구성](attributes/subscription.md)
    + [스키마 업데이트](attributes/t-update-schema.md)
+   + [일반 데이터 보호 규정 지원](attributes/gdpr.md)
+   + [Support for California Consumer Privacy Act](attributes/ccpa.md)
    + [개인 정보 고려 사항 - 고객 속성](attributes/privacy-mac.md)
 + 오퍼 관리 {#offer-management}
    + [오퍼 관리 시작하기](offer-management/getting-started.md)
