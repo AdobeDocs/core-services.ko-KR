@@ -2,9 +2,9 @@
 title: 일반 데이터 보호 규정에 대한 고객 속성 지원
 description: 일반 데이터 보호 규정에 대한 고객 속성 지원
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
