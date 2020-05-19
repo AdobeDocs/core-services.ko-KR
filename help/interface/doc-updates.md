@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 설명서 업데이트 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '251'
+ht-degree: 64%
 
 ---
 
@@ -18,6 +18,17 @@ ht-degree: 0%
 # 설명서 업데이트 - Experience Cloud
 
 Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
+
+**업데이트됨: 2020년 5월 19일**
+
+상세한 오퍼 관리 문서.
+
+**업데이트됨: 2020년 5월 15일**
+
+다음 페이지가 추가되었습니다.
+
+* [일반 데이터 보호 규정 지원](attributes/gdpr.md)
+* [Support for California Consumer Privacy Act](attributes/ccpa.md)
 
 **업데이트됨: 2020년 3월 10일**
 
