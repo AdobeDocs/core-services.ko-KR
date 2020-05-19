@@ -4,10 +4,10 @@ user-guide-title: Experience Cloud 인터페이스 사용 안내서
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
+source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 65%
+source-wordcount: '361'
+ht-degree: 67%
 
 ---
 
@@ -73,13 +73,6 @@ ht-degree: 65%
    + [일반 데이터 보호 규정 지원](attributes/gdpr.md)
    + [Support for California Consumer Privacy Act](attributes/ccpa.md)
    + [개인 정보 고려 사항 - 고객 속성](attributes/privacy-mac.md)
-+ 오퍼 관리 {#offer-management}
-   + [오퍼 관리 시작하기](offer-management/getting-started.md)
-   + [오퍼 관리 워크플로우](offer-management/offer-management-workflow.md)
-   + [제공](offer-management/offers.md)
-   + [레이블](offer-management/labels.md)
-   + [배치](offer-management/placements.md)
-   + [Campaign](offer-management/campaign.md)
 + Experience Cloud 릴리스 노트 {#release-notes}
    + [Experience Cloud의 새로운 기능](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)
    + [누적 릴리스 노트](marketing-cloud-interface/release-notes.md)
