@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Experience Cloud 사용자 및 제품 관리
 index: true
 translation-type: tm+mt
-source-git-commit: a4a0760f838178b3c4caebf89e389da8a7ff4627
+source-git-commit: 01277057733cb921ebfbb7e66a3e34cdd1e21829
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 35%
+source-wordcount: '1455'
+ht-degree: 36%
 
 ---
 
@@ -116,7 +116,7 @@ Campaign의 *테넌트가 관리 콘솔 제품* 페이지에 *제품으로* 표�
 
 Adobe Enterprise 고객은 Adobe Admin Console에서 IMS 조직으로 표시됩니다. 이 포털은 Adobe 고객이 사용자 및 그룹의 제품 이용 권한을 관리하는 데 사용하는 포털입니다. AEM 고객은 Adobe 관리 콘솔을 사용하여 AEM에 대한 제품 권한 및 IMS 인증을 클라우드 서비스로 관리할 수 있습니다.
 
-See [IMS Support for AEM as a Cloud Service](https://youtu.be/EuUAVLZMdDA).
+See [IMS Support for AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console).
 
 ## Dynamic Tag Manager {#section_3A41CF2BD5994B9891537D063571D4ED}
 
@@ -197,5 +197,5 @@ Experience Cloud에서 지원되는 브라우저입니다.
 ### 솔루션 및 제품 요구 사항
 
 * [Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/admin/sys-reqs.html)
-* [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
+* [Report Builder](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
 * [Adobe Target](https://docs.adobe.com/help/ko-KR/target/using/implement-target/before-implement/supported-browsers.html)
