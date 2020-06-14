@@ -6,8 +6,11 @@ seo-title: Experience Cloud 자산 폴더 공유
 solution: Experience Cloud
 title: Experience Cloud 자산 폴더 공유
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '321'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +42,7 @@ Creative Cloud 사용자와 Experience Cloud 자산 폴더를 공유합니다.
 
    ![](assets/asset_comment_cc.png)
 
-   Experience Cloud에서 이미지를 클릭한 다음 타임라인 아이콘을 클릭하여 이미지에 주석을 추가합니다. 주석은 Creative Cloud 및 Experience Cloud의 자산에 동기화됩니다.
+   Experience Cloud에서는 이미지를 클릭한 후 타임라인 아이콘을 클릭하여 이미지에 주석을 추가합니다. 주석은 Creative Cloud 및 Experience Cloud의 자산에서 동기화됩니다.
 
    ![](assets/asset_comment_mac.png)
 
@@ -52,7 +55,7 @@ Creative Cloud 사용자를 모두 제거했으면 폴더가 공유 취소되고
 공유 자산을 사용하는 추가 방법에는 다음이 포함됩니다.
 
 * 소셜 게시를 위해 [!UICONTROL 의 ]자산 선택기 [!DNL Adobe Social]에서 자산을 사용합니다.
-* 활동에서 이미지를 위해 오퍼 [라이브러리의](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) 자산을 [!DNL Adobe Target] 로드하거나 바꿉니다.
+* 활동의 이미지에 대해서는 [!DNL Adobe Target]의 [오퍼 라이브러리](https://docs.adobe.com/help/ko-KR/target/using/experiences/offers/manage-content.html)에서 자산을 로드하거나 교체합니다.
 
 Creative Cloud에 폴더를 공유하면 폴더에 Creative Cloud 로고가 표시됩니다.
 
@@ -60,6 +63,6 @@ Creative Cloud에 폴더를 공유하면 폴더에 Creative Cloud 로고가 표�
 
 관련 도움말:
 
-* [Creative Cloud 도움말 - 파일 관리 및 동기화](https://helpx.adobe.com/creative-cloud/help/sync-files.html)
-* [Creative Cloud 도움말 - 다른 사용자와 공동 작업](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
-* [Creative Cloud 도움말 - 공동 작업 FAQ](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
+* [Creative Cloud 도움말 - 파일 관리 및 동기화](https://helpx.adobe.com/kr/creative-cloud/help/sync-files.html)
+* [Creative Cloud 도움말 - 다른 사용자와 공동 작업](https://helpx.adobe.com/kr/creative-cloud/help/collaboration.html)
+* [Creative Cloud 도움말 - 공동 작업 FAQ](https://helpx.adobe.com/kr/creative-cloud/help/collaboration-faq.html)
