@@ -9,8 +9,8 @@ uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1218'
+ht-degree: 86%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 고객 속성을 Experience Cloud에 업로드하기 위한 데이터 파일 요구 사항 및 여러 데이터 소스.
 
-기업에서 CRM 또는 유사한 데이터에 액세스해야 합니다. Experience Cloud에 업로드하는 데이터는 `.csv` 파일이어야 합니다. FTP 또는 sFTP를 통해 업로드하는 경우 `.fin` 파일도 업로드합니다.
+엔터프라이즈에서 CRM 또는 비슷한 데이터에 액세스해야 합니다. Experience Cloud에 업로드하는 데이터는 `.csv` 파일이어야 합니다. FTP 또는 sFTP를 통해 업로드하는 경우 `.fin` 파일도 업로드합니다.
 
-고객 속성은 하루에 몇 개의 파일을 처리하도록 설계되었습니다. 작은 파일이 대량으로 있어 처리가 지연되는 문제를 방지하기 위해 동일한 조직의 이전 배치에서 30분 이내에 전송된 파일은 우선순위가 낮은 큐로 라우팅됩니다.
+고객 특성은 하루에 몇 개의 파일을 처리하도록 설계되었습니다. 작은 파일이 대량으로 있어 처리가 지연되는 문제를 방지하기 위해 동일한 조직의 이전 배치에서 30분 이내에 전송된 파일은 우선순위가 낮은 큐로 라우팅됩니다.
 
 ## 허용되는 파일 형식 및 이름 지정 요구 사항 {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
@@ -35,7 +35,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>쉼표로 구분된 값 파일(예: Excel에서 만든 파일)입니다. 고객 속성 데이터를 포함하는 파일입니다. </p> <p> <b>이름 지정 요구 사항:</b> 파일 이름 확장자에 공백이 없는지 확인합니다. </p> </td> 
+   <td colname="col2"> <p>쉼표로 구분된 값 파일(예: Excel에서 만든 파일)입니다. 고객 특성 데이터를 포함하는 파일입니다. </p> <p> <b>이름 지정 요구 사항:</b> 파일 이름 확장명에 공백이 들어 있지 않은지 확인하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
@@ -50,13 +50,13 @@ ht-degree: 0%
 
 ## 속성 데이터 파일에 대한 요구 사항 {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
 
-**예제 CSV**
+**CSV 예**
 
 CSV 파일은 다음 형식을 따라야 합니다.
 
 ![](assets/cvs.png)
 
-텍스트 편집기에서 본 동일한 파일:
+텍스트 편집기에 표시되는 동일한 파일:
 
 ![](assets/csv_txt.png)
 
@@ -72,24 +72,24 @@ CSV 파일은 다음 형식을 따라야 합니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>드래그 앤 드롭 </p> </td> 
-   <td colname="col2"> <p>드래그 앤 드롭 파일은 100MB 미만이어야 합니다. </p> <p>드래그 앤 드롭 업로드 방법을 사용할 때는 <span class="filepath">.fin</span> 파일이 필요하지 않습니다. </p> </td> 
+   <td colname="col2"> <p>드래그 앤 드롭 파일은 100MB보다 작아야 합니다. </p> <p>드래그 앤 드롭 업로드 방법을 사용할 때는 <span class="filepath">.fin</span> 파일이 필요하지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>고객 ID 열 </p> </td> 
-   <td colname="col2"> <p> 첫 번째 열은 고유한 고객 ID여야 합니다. 사용되는 ID는 Experience Cloud ID Service에 전달되는 ID에 해당됩니다. </p> <p>Analytics의 경우 prop 또는 eVar에 저장되는 ID입니다. </p> <p>Target의 경우 setCustomerID 값입니다. (See <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - synching the customer ID </a>) </p> <p> 이 고객 ID는 CRM에서 데이터베이스의 각 사용자에 대해 사용하는 고유한 식별자입니다. 나머지 열은 CRM에서 가져오는 속성입니다. 업로드할 속성의 수를 선택합니다. </p> <p>열 제목에는 읽을 수 있는 친근한 이름이 권장되지만 필수는 아닙니다. 업로드 후 스키마의 유효성을 검사하는 경우 업로드된 행 및 열에 친근한 이름을 매핑할 수 있습니다. </p> <p> <b>고객 ID 정보</b> </p> <p>일반적으로 기업은 CRM 시스템의 고객 ID를 사용합니다. 이 ID는 사용자가 로그인할 때 <span class="codeph">setCustomerID</span> 호출을 사용하여 설정됩니다. 이 ID는 Experience Cloud에 업로드된 CRM 파일의 키로도 사용됩니다. An <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> Alias ID </a> is a friendly name for a data store in Audience Manager, where the alias data is stored. 시스템은 이 데이터 저장소에 별칭을 보냅니다(setCustomerID를 통해). CRM 파일은 해당 데이터 저장소의 데이터에 적용됩니다. </p> <p><span class="codeph">setCustomerIDs</span> 정보에 대해서는 <a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/authenticated-state.html" format="https" scope="external">고객 ID 및 인증 상태</a>를 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p> 첫 번째 열은 고유한 고객 ID여야 합니다. 사용된 ID는 Experience Cloud ID 서비스에 전달되는 ID에 해당해야 합니다. </p> <p>Analytics의 경우 prop 또는 eVar에 저장되는 ID입니다. </p> <p>Target의 경우 setCustomerID 값입니다. (<a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics 및 Adobe Target - 고객 ID 동기화</a> 참조) </p> <p> 이 고객 ID는 CRM가 데이터베이스의 각 사용자에 대해 사용하는 고유한 식별자입니다. 나머지 열은 CRM에서 가져오는 특성입니다. 업로드할 특성 수를 선택합니다. </p> <p>열 제목에는 읽을 수 있는 친근한 이름이 권장되지만 필수는 아닙니다. 업로드 후에 스키마의 유효성을 검사할 때 업로드한 행 및 열에 친근한 이름을 매핑할 수 있습니다. </p> <p> <b>고객 ID에 대하여</b> </p> <p>일반적으로 기업에서는 CRM 시스템의 고객 ID를 사용합니다. 이 ID는 사용자가 로그인할 때 <span class="codeph">setCustomerID</span> 호출을 사용하여 설정됩니다. 이 ID는 Experience Cloud에 업로드된 CRM 파일의 키로도 사용됩니다. <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">별칭 ID</a>는 Audience Manager에서 별칭 데이터가 저장되는 데이터 저장소용의 친근한 이름입니다. 이 시스템에서는 별칭을 데이터 저장소(setCustomerID를 통해)로 보냅니다. CRM 파일은 이 데이터 저장소의 데이터에 적용됩니다. </p> <p><span class="codeph">setCustomerIDs</span> 정보에 대해서는 <a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/authenticated-state.html" format="https" scope="external">고객 ID 및 인증 상태</a>를 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>후속 머리글 및 열 </p> </td> 
-   <td colname="col2"> <p>후속 헤더는 각 속성의 이름을 나타내야 합니다. </p> <p> 이러한 열에는 CRM의 고객 속성이 포함되어야 합니다. </p> </td> 
+   <td colname="col2"> <p>후속 머리글은 각 특성의 이름을 나타내야 합니다. </p> <p> 이러한 열에는 CRM의 고객 속성이 포함되어야 합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>속성 제한 </p> </td> 
-   <td colname="col2"> <p>수백 개의 <span class="filepath">.csv</span> 열을 Experience Cloud의 고객 속성 서비스로 업로드할 수 있습니다. 그러나 가입을 구성하고 속성을 선택할 때 소유한 솔루션에 따라 다음 제한이 적용됩니다. </p> <p> 
+   <td colname="col1"> <p>특성 제한 </p> </td> 
+   <td colname="col2"> <p>수백 개의 <span class="filepath">.csv</span> 열을 Experience Cloud의 고객 속성 서비스로 업로드할 수 있습니다. 그렇지만 가입을 구성하고 특성을 선택할 때 보유하고 있는 솔루션에 따라 다음과 같은 제한이 적용됩니다. </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>: 총 3개 </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 보고서 세트당 200개 </li> 
-      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Adobe Target Standard:</b> 5 </li> 
-      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Adobe Target Premium:</b> 200년 </li> 
+      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Adobe Target Standard:</b> 5개 </li> 
+      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Adobe Target Premium:</b> 200개 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +102,7 @@ CSV 파일은 다음 형식을 따라야 합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>문자 제한 </p> </td> 
-   <td colname="col2"> <p>Analytics 구독을 만들 때 업로드된 파일의 필드 길이가 255로 잘립니다. </p> </td> 
+   <td colname="col2"> <p>Analytics 가입을 생성할 때 업로드된 파일의 필드 길이는 255자로 잘립니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>FTP 지침 및 크기 제한 </p> </td> 
@@ -116,7 +116,7 @@ CSV 파일은 다음 형식을 따라야 합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>파일 요구 사항 </p> </td> 
-   <td colname="col2"> <p> 각 속성 소스에는 동일한 수의 쉼표로 구분된 필드가 포함되어야 합니다. </p> <p> 줄바꿈, 큰따옴표 또는 쉼표를 포함하는 필드는 따옴표로 묶어야 합니다. </p> <p> 필드의 큰따옴표 문자는 백슬래시(\)를 사용하여 이스케이프해야 합니다. </p> <p> 빈 열은 null로 <span class="term"> 저장됩니다 </span>. </p> </td> 
+   <td colname="col2"> <p> 각 특성 소스에는 동일한 수의 쉼표로 구분된 필드가 포함되어야 합니다. </p> <p> 줄 바꿈, 큰따옴표 또는 쉼표를 포함하는 필드는 따옴표로 묶어야 합니다. </p> <p> 필드의 큰따옴표 문자는 백슬래시(\)를 사용해서 이스케이프해야 합니다. </p> <p> 빈 열은 <span class="term"> null </span>로 저장됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>여러 파일 </p> </td> 
@@ -124,24 +124,24 @@ CSV 파일은 다음 형식을 따라야 합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>문자 인코딩 </p> </td> 
-   <td colname="col2"> <p>일본의 경우 UTF-8은 필수입니다. </p> </td> 
+   <td colname="col2"> <p>일본의 경우 UTF-8이 필수입니다. </p> </td> 
   </tr> 
    <tr> 
-   <td colname="col1"> <p>내역 데이터 </p> </td> 
-   <td colname="col2"> <p> 고객 속성은 Analytics의 기본 방문자 프로필에 연결되어 있습니다. 이와 같이, 고객 속성은 Analytics에서 해당 방문자 프로필의 전체 수명 동안 방문자와 연결됩니다. 여기에는 고객이 처음으로 로그인하기 전에 발생한 동작이 포함됩니다. </p> <p> 데이터 웨어하우스 채우기 방법을 사용하는 경우, 데이터는 Analytics ID(AID)를 기반으로 하는 post_visid_high/low에 연결되어 있습니다. Experience Cloud ID 서비스를 사용하는 경우 데이터는 Experience Cloud ID(MID)를 기반으로 하는 post_visid_high/low에 연결되어 있습니다. </p> </td> 
+   <td colname="col1"> <p>이전 데이터 </p> </td> 
+   <td colname="col2"> <p> 고객 특성은 Analytics에서 기본 방문자 프로필에 연결되어 있습니다. 이와 같이, 고객 속성은 Analytics에서 해당 방문자 프로필의 전체 수명 동안 방문자와 연결됩니다. 여기에는 고객이 처음으로 로그인하기 전에 발생한 동작이 포함됩니다. </p> <p> Data Warehouse 채우기 방법을 사용하는 경우, 데이터는 Analytics ID(AID)를 기반으로 하는 post_visid_high/low에 연결되어 있습니다. Experience Cloud ID 서비스를 사용하는 경우 데이터는 Experience Cloud ID(MID)를 기반으로 하는 post_visid_high/low에 연결되어 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>데이터 피드 </p> </td> 
-   <td colname="col2"> <p>고객 속성은 데이터 피드에서 사용할 수 없습니다. </p> </td> 
+   <td colname="col2"> <p>데이터 피드에서는 고객 특성을 사용할 수 없습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 여러 데이터 소스 활용 {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
-고객 속성 소스를 생성, 수정 또는 삭제할 때 ID가 새 데이터 소스와의 동기화를 시작하기 전에 약 1시간 정도 지연이 발생합니다.
+고객 특성 소스를 만들거나, 수정하거나 삭제할 때, ID가 새 데이터 소스와의 동기화를 시작하기 전에 약 한 시간의 지연이 있습니다.
 
-각 고객 속성 소스에 대한 별칭 ID는 고유해야 합니다. 동일한 ID를 활용하는 여러 데이터 소스가 있는 경우 다음과 같이 설정해야 합니다.
+각 고객 특성 소스에 대한 별칭 ID는 고유해야 합니다. 동일한 ID를 활용하는 데이터 소스가 여러 개 있는 경우, 다음과 같이 설정해야 합니다.
 
 **Dynamic Tag Management의 VisitorAPI.js 또는 Experience Cloud ID 도구에서 다음을 수행합니다.**
 
@@ -156,6 +156,6 @@ Visitor.setCustomerIDs({
 
 (자세한 내용은 [고객 ID 및 인증 상태](https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/authenticated-state.html)를 참조하십시오.)
 
-In the **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
+**[!UICONTROL Experience Cloud]** > **[!UICONTROL 사용자]** > **[!UICONTROL 고객 특성]**&#x200B;에서 다음을 수행합니다.
 
-위의 고객 ID에 해당하는 고유한 별칭 ID를 사용하여 두 개의 고객 속성 소스를 만듭니다. 이 방법을 사용하면 동일한 참조 ID를 여러 고객 속성 소스로 보낼 수 있습니다.
+위의 고객 ID에 해당하는 고유한 별칭 ID를 사용하여 두 개의 고객 속성 소스를 만듭니다. 이 방법을 사용하면 동일한 참조 ID를 여러 고객 특성 소스로 보낼 수 있습니다.
