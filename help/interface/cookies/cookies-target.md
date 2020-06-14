@@ -6,21 +6,24 @@ seo-title: Target 쿠키
 solution: Marketing Cloud,Analytics,Target,Social
 title: Target 쿠키
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '285'
+ht-degree: 100%
 
 ---
 
 
-# Adobe Target Cookies{#target-cookies}
+# Adobe Target 쿠키{#target-cookies}
 
-Adobe Target은 쿠키를 사용하여 웹 사이트 운영자에게 방문자와 보다 연관성이 높은 온라인 컨텐츠 및 오퍼를 테스트할 수 있는 기능을 제공합니다.
+Adobe Target은 쿠키를 사용하여 웹 사이트 운영자가 어떤 온라인 컨텐츠 및 오퍼가 방문자와 관련이 있는지 테스트할 수 있도록 합니다.
 
-필요한 경우 쿠키 지속 시간을 제외하고 이러한 설정을 변경할 수 있습니다. 쿠키 설정을 변경할 때는 계정 담당자에게 문의하십시오.
+필요하면 이러한 설정을 쿠키 지속 시간은 제외하고 변경할 수 있습니다. 쿠키 설정을 변경하는 경우 계정 담당자에게 문의하십시오.
 
 >[!NOTE]
 >
->Adobe Target 사용자는 사용자 정의된 타사 쿠키를 만들 수도 있습니다.
+>Adobe Target 사용자는 사용자 지정 타사 쿠키를 생성할 수도 있습니다.
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
@@ -36,15 +39,15 @@ Adobe Target은 쿠키를 사용하여 웹 사이트 운영자에게 방문자�
   </tr> 
   <tr> 
    <td colname="col1"> <p>쿠키 도메인 </p> </td> 
-   <td colname="col2"> <p>mbox를 제공하는 도메인의 두 번째 및 최상위 수준. 회사 도메인에서 제공되기 때문에 쿠키는 자사 쿠키입니다. 예: <span class="filepath">mycompany.com</span>. </p> </td> 
+   <td colname="col2"> <p>mbox를 제공하는 도메인의 두 번째 및 최상위 수준입니다. 회사 도메인에서 제공되기 때문에 쿠키는 자사 쿠키입니다. 예: <span class="filepath">mycompany.com</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>서버 도메인 </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.omtrdc.net</span>, Adobe Target 계정에 대한 클라이언트 코드 사용 </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">clientcode.tt.omtrdc.net</span>(Adobe Target 계정에 대해 클라이언트 코드 사용) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>쿠키 지속 시간 </p> </td> 
-   <td colname="col2"> <p>쿠키는 마지막 로그인 후 2년 동안 방문자의 브라우저에 유지됩니다. 쿠키 지속 시간은 변경할 수 없습니다. </p> </td> 
+   <td colname="col2"> <p>쿠키는 마지막 로그인부터 2년 동안 방문자 브라우저에 유지됩니다. 쿠키 지속 시간은 변경할 수 없습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,11 +72,11 @@ Adobe Target은 쿠키를 사용하여 웹 사이트 운영자에게 방문자�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> pc ID</span> </p> </td> 
-   <td colname="col2"> <p>방문자의 브라우저에 대한 반영구 ID. 쿠키가 수동으로 삭제될 때까지 지속됩니다. </p> </td> 
+   <td colname="col2"> <p>방문자 브라우저의 반영구 ID입니다. 쿠키가 수동으로 삭제될 때까지 지속됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> check</span> </p> </td> 
-   <td colname="col2"> <p>방문자가 쿠키를 지원하는지 확인하는 데 사용되는 간단한 테스트 값입니다. 방문자가 페이지를 요청할 때마다 설정합니다. </p> </td> 
+   <td colname="col2"> <p>방문자가 쿠키를 지원하는지 여부를 확인하는 간단한 테스트 값입니다. 방문자가 페이지를 요청할 때마다 설정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> disable</span> </p> </td> 
