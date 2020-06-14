@@ -6,8 +6,11 @@ seo-title: Data Connectors 쿠키
 solution: Marketing Cloud,Adobe Analytics,Adobe Target,Adobe Social
 title: Data Connectors 쿠키
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '90'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ Data Connectors는 쿠키를 사용하여 광고주에게 여러 광고 채널 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p>integration_id </p> </td> 
-   <td colname="col2"> <p>데이터 커넥터에서 사용 중인 마지막 통합을 기억하도록 합니다. </p> </td> 
+   <td colname="col2"> <p>사용된 마지막 통합을 Data Connectors가 기억하도록 해줍니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>get_started </p> </td> 
