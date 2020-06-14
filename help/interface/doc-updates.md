@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 64%
+ht-degree: 84%
 
 ---
 
@@ -32,11 +32,11 @@ Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 
 **업데이트됨: 2020년 3월 10일**
 
-퍼스트 파티 쿠키 [섹션의 호스트 이름 전달](cookies/cookies-first-party.md#validate) 유효성 검사가 업데이트되었습니다.
+자사 쿠키 섹션의 [호스트 이름 전달 유효성 확인](cookies/cookies-first-party.md#validate)을 업데이트했습니다.
 
-**업데이트됨: 2/20/2020**
+**업데이트됨: 2020/2/20**
 
-Experience [Cloud 사용자 세부 사항 보기(관리 도구)가 추가되었습니다](admin-getting-started/admin-tool-experience-cloud.md).
+[Experience Cloud 사용자 세부 사항 보기(관리 도구)](admin-getting-started/admin-tool-experience-cloud.md)를 추가했습니다.
 
 **업데이트 날짜: 2018월9월 5일**
 
@@ -88,7 +88,7 @@ Updated [About data file and data sources for Customer Attributes](attributes/cr
 
 **업데이트 날짜: 2015년 1월 15일**
 
-이제 Experience Cloud 사용자가 폴더를 Creative Cloud에 공유하고 두 클라우드 간에 자산과 주석을 동기화할 수 있게 되었습니다. 자산 [공유를 참조하십시오](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
+이제 Experience Cloud 사용자가 폴더를 Creative Cloud에 공유하고 두 클라우드 간 자산과 주석을 동기화할 수 있다는 내용이 추가되었습니다. [자산 공유](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)를 참조하십시오.
 
 **업데이트 날짜: 2014년 7월 17일**
 
