@@ -4,8 +4,11 @@ seo-description: Advertising Cloud는 쿠키를 사용하여 광고 참여 이�
 seo-title: Advertising Cloud 쿠키
 title: Advertising Cloud 쿠키
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
+workflow-type: ht
+source-wordcount: '544'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +28,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>저장되는 정보 </p> </td> 
+   <td colname="col1"> <p>정보가 저장됨 </p> </td> 
    <td colname="col2"> <p>검색 클릭 수의 ID 및 타임스탬프(yyyymmdd 형식)</p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +61,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>저장되는 정보 </p> </td> 
+   <td colname="col1"> <p>정보가 저장됨 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud DSP 추적을 사용한 광고 참여용 인코딩된 ID 및 타임스탬프 </p> </td> 
   </tr> 
   <tr> 
@@ -91,8 +94,8 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>저장되는 정보 </p> </td> 
-   <td colname="col2"> <p>사용자가 광고를 클릭할 때 생성된 ef_id 및 광고주의 웹 사이트에 대한 서퍼의 마지막 방문 타임스탬프</p> </td> 
+   <td colname="col1"> <p>정보가 저장됨 </p> </td> 
+   <td colname="col2"> <p>광고주의 웹 사이트에 대한 서퍼의 마지막 방문과 서퍼의 마지막 검색 클릭의 타임스탬프 및 사용자가 광고를 클릭할 때 생성된 ef_id</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>만료 </p> </td> 
@@ -126,7 +129,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>저장되는 정보 </p> </td> 
+   <td colname="col1"> <p>정보가 저장됨 </p> </td> 
    <td colname="col2"> <p>yyyymmdd 형식으로 동기화가 수행되는 날짜 </p> </td> 
   </tr> 
   <tr> 
@@ -159,7 +162,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>저장되는 정보 </p> </td> 
+   <td colname="col1"> <p>정보가 저장됨 </p> </td> 
    <td colname="col2"> <p>브라우저 및 서퍼 ID </p> </td> 
   </tr> 
   <tr> 
@@ -192,7 +195,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>저장되는 정보 </p> </td> 
+   <td colname="col1"> <p>정보가 저장됨 </p> </td> 
    <td colname="col2"> <p>세션 ID </p> </td> 
   </tr> 
   <tr> 
@@ -225,7 +228,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>저장되는 정보 </p> </td> 
+   <td colname="col1"> <p>정보가 저장됨 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud DSP(Demand Side Platform) ID </p> </td> 
   </tr> 
   <tr> 
@@ -258,7 +261,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>저장되는 정보 </p> </td> 
+   <td colname="col1"> <p>정보가 저장됨 </p> </td> 
    <td colname="col2"> <p>서퍼 ID </p> </td> 
   </tr> 
   <tr> 
