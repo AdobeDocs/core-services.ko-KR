@@ -6,8 +6,11 @@ seo-title: Search&Promote 쿠키
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Search&Promote 쿠키
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '132'
+ht-degree: 100%
 
 ---
 
@@ -21,14 +24,14 @@ Search&amp;Promote는 쿠키를 사용하여 방문자 검색 의도를 이해�
 <table id="table_34AA90F2FFB84500A77D8F4C5008D453"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>속성 </p> </th> 
+   <th colname="col1" class="entry"> <p>특성 </p> </th> 
    <th colname="col2" class="entry"> <p>설명 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>저장된 정보 </p> </td> 
-   <td colname="col2"> <p> 사용자의 도메인에서 사용자가 수행한 마지막 세 검색을 추적합니다. </p> </td> 
+   <td colname="col1"> <p>정보가 저장됨 </p> </td> 
+   <td colname="col2"> <p> 고객의 도메인에서 사용자가 수행한 마지막 세 개의 검색을 추적합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 만료 </p> </td> 
@@ -47,7 +50,7 @@ Search&amp;Promote는 쿠키를 사용하여 방문자 검색 의도를 이해�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 사용 </p> </td> 
-   <td colname="col2"> <p>검색 엔진에서 마지막 n개 쿼리 용어를 다시 표시하는 데 사용됩니다. </p> </td> 
+   <td colname="col2"> <p>검색 엔진이 사용자의 마지막 n개 검색어를 다시 사용자에게 표시하는 데 사용됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 위치 </p> </td> 
@@ -55,7 +58,7 @@ Search&amp;Promote는 쿠키를 사용하여 방문자 검색 의도를 이해�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 크기 </p> </td> 
-   <td colname="col2"> <p>1K 미만 </p> </td> 
+   <td colname="col2"> <p>1K 미만. </p> </td> 
   </tr> 
  </tbody> 
 </table>
