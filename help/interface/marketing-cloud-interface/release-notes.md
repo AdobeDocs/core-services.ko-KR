@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
 source-wordcount: '3929'
-ht-degree: 60%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 
 설명서 업데이트 목록은 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)를 참조하십시오.
 
-모든 솔루션에 대한 릴리스 노트는 [Experience Cloud 릴리스 노트를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html).
+모든 솔루션에 대해 설명하는 릴리스 노트가 필요하면 [Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)를 참조하십시오.
 
 ## 2020년 4월 -
 
@@ -39,9 +39,9 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 * **고객 속성:** 이제 고객 속성 UI에 타겟에서 동기화된 프로필의 추가 상태가 표시됩니다. (MCUI-10231)
 * **코어 서비스 트리거:** 사용 부족으로 중단 유형 트리거를 만들 때 성향 점수 &quot;30일 후에 반환될 가능성&quot;이 제거되었습니다. (MCUI-10056)
 
-## 2020년 1월 -
+## 2020년 1월
 
-* 피드 페이지는 2019년 12월에 더 이상 사용되지 않습니다. 제품 내 사용 중단 알림을 찾으십시오. (MCUI-10039)
+* 피드 페이지는 2019년 12월부터 사용되지 않습니다. 제품 내 사용 중단 알림을 찾으십시오. (MCUI-10039)
 
 ## 2019년 8월
 
@@ -52,17 +52,17 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 
 ## 2019년 4월
 
-* 앱 전환기가 Experience Cloud 솔루션 세트에 Marketing을 포함하고 경험 플랫폼의 브랜드 업데이트를 포함하도록 업데이트되었습니다. (MCUI-6529)
+* Experience Cloud 솔루션 제품군의 Marketo와 Experience Platform에 대한 브랜딩 업데이트를 포함하도록 앱 전환기를 업데이트했습니다. (MCUI-6529)
 * 피드 및 관리 페이지에 대한 탐색 링크를 포함하도록 Experience Cloud 홈을 업데이트했습니다. (MCUI-6682)
 * &quot;like&quot; 절의 올바른 사용을 위해 [!UICONTROL 트리거] 정의에서 문제를 수정했습니다. (MCUI-6611)
-* 구독 서비스에서 더 나은 로그인을 위한 고객 속성 개선 사항. (MCUI-6519)
+* 가입 서비스에서 개선된 로그인을 위한 고객 특성 개선합니다. (MCUI-6519)
 
 ## 릴리스 19.1.1 - 2019년 1월 17일
 
 **참고:** 2019년 3월부터 Experience Cloud 인터페이스가 Internet Explorer 11을 지원하지 않습니다.
 
 * 도움말 검색이 결과를 반환하지 못하는 문제를 해결했습니다. (MCUI-1670)
-* 트리거의 eVar 관리를 수정했습니다. (MCUI-6400)
+* 트리거의 eVar 관리를 수정 및 개선했습니다. (MCUI-6400)
 
 ## 릴리스 16.5.1 - 2016년 5월 26일 {#section_3785F182BC13493F84903CA69EB6D0A8}
 
@@ -78,18 +78,18 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Admin Console에서 사전 구성된 제품 구성 </p> </td> 
-   <td colname="col2"> <p>Experience Cloud 고객 관리자는 Analytics 및 Dynamic Tag Management를 위해 사전 생성되고 기본 권한 그룹에 매핑된 제품 구성을 활용할 수 있습니다. </p> <p>이 최적화는 새로 프로비저닝된 조직에서 사용자를 관리하는 데 필요한 시간을 줄입니다. </p> </td> 
+   <td colname="col2"> <p>Experience Cloud 고객 관리자는 Analytics 및 Dynamic Tag Management를 위해 사전 생성되고 기본 권한 그룹에 매핑된 제품 구성을 활용할 수 있습니다. </p> <p>새롭게 프로비저닝된 조직에서 이 최적화를 사용할 수 있으며, 조직은 Admin Console에서 사용자 관리에 필요한 시간을 줄일 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>향상된 피드 </p> </td> 
-   <td colname="col2"> <p> 이제 Experience Cloud 피드에서 새 게시물을 만들 때 받는 사람 라인은 기본적으로 조직을 사용하는 대신 현재 활성화된 주제를 사용합니다.</p> </td> 
+   <td colname="col1"> <p>피드 개선 사항 </p> </td> 
+   <td colname="col2"> <p> Experience Cloud 피드에서 새로운 게시물을 작성할 때 이제 광고에서 기본으로 조직 대신에 현재 활성화된 주제를 사용합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **수정 사항**
 
-* Assets on Demand에서 Experience Cloud 피드로 공유된 에셋에 대한 축소판이 표시되지 않던 문제를 수정했습니다. (MAC-29955)
+* 주문형 자산에서 Experience Cloud 피드로 공유된 자산을 썸네일로 표시하지 못하는 문제를 수정했습니다. (MAC-29955)
 
 ## 릴리스 16.2 - 2016년 2월 18일 {#section_D9610373116C4D77A38F67815C725EA3}
 
@@ -102,23 +102,23 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>향상된 Experience Cloud Assets </p> </td> 
-   <td colname="col2"> <p>Adobe Experience Cloud Assets에서는 디지털 자산을 한 곳에서 저장, 공유 및 동기화할 수 있습니다. Experience Cloud Assets는 AEM(<span class="keyword">Adobe Experience Manager</span>)에서 사용할 수 있는 기능 중 일부를 활용합니다. </p> <p><a href="../experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a>를 참조하십시오</p> </td> 
+   <td colname="col1"> <p>Experience Cloud 자산 개선 사항 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud Assets에서는 중앙의 한 위치에서 디지털 자산을 저장, 공유 및 동기화할 수 있습니다. Experience Cloud Assets는 AEM(<span class="keyword">Adobe Experience Manager</span>)에서 사용할 수 있는 기능 중 일부를 활용합니다. </p> <p><a href="../experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a>를 참조하십시오</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>계정 연결 개선 사항 </p> </td> 
-   <td colname="col2"> <p>솔루션 계정을 Experience Cloud(Adobe ID)와 연결하는 인터페이스 워크플로우가 개선되었습니다. 이 새 워크플로우는 조직과 연관된 모든 사용자 계정을 찾아서 연결할 계정을 선택할 수 있도록 해줍니다. 계정 연결 경험도 간소화되었으므로 더 이상 계정을 수동으로 연결하기 위해 조직 관리 페이지에 액세스하지 않아도 됩니다. </p> </td> 
+   <td colname="col2"> <p>Experience Cloud(Adobe ID)와 솔루션 계정을 연결하는 인터페이스 작업 과정이 개선되었습니다. 이 새 작업 과정이 조직과 연관된 사용자 계정을 모두 찾아서 연결할 계정을 선택할 수 있도록 합니다. 계정 연결 환경을 간소화했으므로 계정을 수동으로 연결하기 위해 조직 관리 페이지에 더 이상 액세스하지 않아도 됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **수정 사항**
 
-* Analytics에 대한 연결 및 SSO가 되지 않던 문제를 수정했습니다. 이 문제는 &quot;통지: 오류 메시지: 오류 IMS SSO 실패: 연결된 회사를 찾을 수 없습니다.&quot;
+* Analytics에 대한 연결 및 SSO를 차단하는 문제를 수정했습니다. 이 문제는 &quot;알림: 오류 메시지: 오류 IMS SSO 실패: 연결된 회사를 찾을 수 없습니다.&quot;를 표시합니다.
 
 **알려진 문제**
 
-If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** interface, but your Dynamic Tag Management account is not linked to the Experience Cloud (Adobe ID), you will not be able to log in to Dynamic Tag Management. 이 문제가 발생하지 않도록 하려면 새 브라우저 탭에서 직접 [!DNL dtm.adobe.com]으로 이동합니다.
+**[!UICONTROL Experience Cloud]** > **[!UICONTROL 활성화]** 인터페이스를 통해 Dynamic Tag Management에 액세스했지만 Dynamic Tag Management 계정이 Experience Cloud(Adobe ID)에 연결되어 있지 않으면 Dynamic Tag Management에 로그인할 수 없습니다. 이 문제가 발생하지 않도록 하려면 새 브라우저 탭에서 직접 [!DNL dtm.adobe.com]으로 이동합니다.
 
 ## 릴리스 16.1 - 2016년 1월 21일 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -132,7 +132,7 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
  <tbody> 
   <tr> 
    <td colname="col1"> 대상 라이브러리 메시지 </td> 
-   <td colname="col2"> <p> 대상을 빌드하거나 시간 초과가 발생했을 때 유용한 메시지를 포함하도록 대상 라이브러리를 개선했습니다. </p> <p>예를 들어 5개 이상의 규칙을 추가할 때 허용되는 최대 규칙을 초과했음을 나타내는 메시지가 표시됩니다. (MAC-27376, MAC-27375) </p> </td> 
+   <td colname="col2"> <p> 대상을 빌드하거나 시간 초과가 발생했을 때 유용한 메시지를 포함하도록 대상 라이브러리를 개선했습니다. </p> <p>예를 들면 6개 이상의 규칙을 추가할 때 허용 가능한 최대 규칙을 초과했음을 나타내는 메시지가 표시됩니다. (MAC-27376, MAC-27375) </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -145,27 +145,27 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 
 **알려진 문제**
 
-* 고객이 Experience Cloud를 통해 Analytics에 SSO하는 경우 리포트 빌더에 로그인할 수 없습니다. 이 문제는 이전 Analytics 자격 증명을 사용하는 고객에게 영향을 주지 않습니다.
-* Analytics의 &quot;보고서에 연결&quot; 기능에 대해 알려진 문제입니다. Experience Cloud를 통해 Analytics에 로그인한 고객은 보고서를 공유하려고 할 때 Analytics에 대한 SSO가 아닌 로그인 페이지로 이동됩니다.
+* 고객이 Experience Cloud를 통해 Analytics에 SSO하는 경우 Report Builder에 로그인할 수 없습니다. 이 문제는 이전 Analytics 자격 증명을 사용하는 고객에게 영향을 주지 않습니다.
+* Analytics의 &quot;보고서에 대한 링크&quot; 기능에서 알려진 문제입니다. Experience Cloud를 통해 Analytics에 로그인한 고객은 보고서를 공유하려고 할 때 Analytics의 SSO 이외 로그인 페이지로 이동됩니다.
 
 ## 릴리스 15.9 - 2015년 9월 10일 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
 * 고객 속성 데이터를 업로드할 때 가끔씩 시간 초과가 발생하는 Audience Manager API 성능 문제를 수정했습니다. (MAC-26305)
 * 사용자가 가입에 최대 200개의 고객 속성을 추가하지 못했던 문제를 수정했습니다. (MAC-26188)
-* Analytics 세그멘테이션에서 대상 공유를 하지 못했던 대상 라이브러리 문제를 수정했습니다. 이 문제로 인해 &quot;데이터 수집&quot;(대상자 0명)이 표시되었습니다. 이 문제를 방지하려면 세그먼트 크기를 세그먼트당 대상 구성원 수가 50k 미만인 것이 좋습니다. (MAC-25788)
-* 고객 속성 - 스키마 편집 페이지에서 표시 이름을 변경할 때 발생하는 컨텐츠 인식 오류를 초래했던 이전에 알려진 문제를 수정했습니다. (MAC-25589, AN-103834)
+* Analytics 세그멘테이션에서 대상 공유를 방해했던 대상 라이브러리 문제를 수정했습니다. 이 문제로 인해 &quot;데이터 수집&quot;(대상 0개)이 표시되었습니다. 이 문제를 방지하려면 세그먼트 크기를 세그먼트당 대상 구성원 수를 5만 명 미만으로 유지하는 것이 좋습니다. (MAC-25788)
+* 고객 특성 - 스키마 편집 페이지에서 디스플레이 이름을 변경하면 발생하는 컨텐츠 인식 오류를 초래하는 이전에 알려진 문제를 수정했습니다. (MAC-25589, AN-103834)
 
-## Release 15.7 - July 22 2015 {#section_2683A152176944E48EF6C943892975B7}
+## 릴리스 15.7 - 2015년 7월 22일 {#section_2683A152176944E48EF6C943892975B7}
 
 * 고객 속성에서 스키마 보기/편집 페이지에 지정된 속성 설명이 Analytics 보고서에서 업데이트되지 않는 문제를 해결했습니다. (MAC-25985)
-* 업로드된 자산에 대해 축소판이 렌더링되지 않는 문제를 해결했습니다. (MAC-25863)
-* 보고 및 분석에서 만든 새 세그먼트를 Experience Cloud 대상에서 사용할 수 없는 문제를 해결했습니다. (MAC-25817)
-* 방문자 ID 서비스를 사용할 때 Analytics에서 대상 공유를 하지 못하는 문제를 해결했습니다. (MAC-25788, MAC-25747)
+* 업로드한 자산의 썸네일을 렌더링하지 못하는 문제를 해결했습니다. (MAC-25863)
+* Experience Cloud 대상의 Reports &amp; Analytics에 새 세그먼트를 생성하지 못하는 문제를 해결했습니다. (MAC-25817)
+* 고객이 방문자 ID 서비스를 사용하면 Analytics에서 공유하지 못하는 문제를 해결했습니다. (MAC-25788, MAC-25747)
 * 고객 속성에 멀티바이트 문자 지원을 추가했습니다. (MAC-25552)
 
 **알려진 문제**
 
-알려진 문제로 인해 Audience Manager에서 자동 생성 계정이 중복되어 사용자 Experience Cloud ID에 자동으로 연결됩니다. 이 문제는 계정을 연결하기 전에 Audience Manager로 이동하려고 하면 발생합니다. Audience Manager로 이동하기 전에 Audience Manager 계정을 Experience Cloud에 연결하는 것이 좋습니다. (MAC-25640)
+알려진 문제는 Audience Manager에 자동으로 생성된 계정이 중복 생성되고 자동으로 사용자의 Experience Cloud ID에 연결되는 문제입니다. 이 문제는 계정에 연결하기 전에 Audience Manager로 이동을 시도하면 발생합니다. Adobe에서는 Audience Manager로 이동하기 전에 Audience Manager 계정을 Experience Cloud에 연결하는 것을 권장합니다. (MAC-25640)
 
 ## 릴리스 15.6.1 - 2015년 6월 11일 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
@@ -185,7 +185,7 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>왼쪽 탐색 메뉴가 모든 핵심 서비스 및 솔루션에 액세스할 수 있도록 업데이트 및 구성되었습니다. 주목할 만한 변경 사항은 다음과 같습니다. </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">The <span class="term"> Audience Library</span> and <span class="term"> Customer Attributes</span> menu selections are now located under <span class="term"> Audiences</span>. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"><span class="term">대상 라이브러리</span> 및 <span class="term">고객 특성</span> 메뉴 모음이 이제 <span class="term">대상자</span> 아래에 있습니다. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4"><span class="term">Exchange</span> 메뉴 선택 사항은 도움말 드롭다운 메뉴에서 왼쪽 탐색 레일로 이동되었습니다. </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> 솔루션</span>은 제거되었습니다. 탐색 레일의 하단에서 모든 솔루션을 시작할 수 있습니다. </li> 
     </ul> </td> 
@@ -194,7 +194,7 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 </table>
 
 * 고객 속성이 일부 고객에 대해 동기화되지 않는 문제를 수정했습니다.
-* Fixed an issue preventing [Adobe Target Product Documentation](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
+* [Adobe Target 제품 설명서](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t.html) 페이지가 일본어로 표시되지 않는 문제를 해결했습니다.
 * [!DNL Creative Cloud]와 [!DNL Experience Cloud] 간 주석에서 일본어 텍스트를 사용할 수 없던 문제를 수정했습니다.
 
 ## 릴리스 15.4.1 - 2015년 4월 8일 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -213,7 +213,7 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
      <li id="li_6E98974CCB094ABBAB57C51ED56C3F00"> <span class="wintitle"> 관리 콘솔</span> </li> 
      <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">Enterprise ID 및 Federated ID 지원 </li> 
     </ul> </td> 
-   <td colname="col2"> <p>사용자 및 그룹 관리 기능이 관리 콘솔로 이동되었습니다. 새 탐색 경로: </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">관리</span> &gt; <span class="uicontrol">Admin Console 시작</span></p> <p> 또한 Enterprise ID 및 Federated ID에 대한 지원이 추가되었습니다. 동일한 엔터프라이즈 배포에서 Enterprise ID, Federated ID 및 Adobe ID를 사용할 수 있습니다. 예를 들어, 다른 Adobe 제품 및 서비스를 사용할 수 있는 사용자에 대해 Adobe ID를 사용하십시오. 계정을 엄격히 관리하려는 사용자에 대해 Enterprise ID 또는 Federated ID를 사용하십시오. </p> </td> 
+   <td colname="col2"> <p>사용자 및 그룹 관리 기능은 Admin Console로 이동되었습니다. 새로운 이동 경로는 다음과 같습니다. </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">관리</span> &gt; <span class="uicontrol">Admin Console 시작</span></p> <p> 또한 Enterprise ID 및 Federated ID에 대한 지원도 추가되었습니다. 동일한 엔터프라이즈 배포에서는 Enterprise ID, Federated ID 및 Adobe ID를 사용할 수 있습니다. 예를 들어, 다른 Adobe 제품 및 서비스를 사용하는 사용자의 경우 Adobe ID를 사용하십시오. 계정을 엄격히 관리하기를 바라는 사용자의 경우에는 Enterprise ID나 Federated ID를 사용하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -224,8 +224,8 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 
 **알려진 문제**
 
-* Dynamic Tag Management 조직을 Experience Cloud와 연결 및 연결 해제 기능이 새 Experience Cloud 조직에서 작동하지 않습니다. Adobe는 5월 릴리스에서 이 문제를 해결하고 정상적인 기능을 복구하기 위해 노력하고 있습니다. Experience Cloud를 통해 Dynamic Tag Management에 단일 사인온하려 할 때 문제가 발생하는 경우, [!DNL dtm.adobe.com]에서 기존 로그인을 사용하십시오.
-* 알려진 문제로 인해 연결된 Analytics 계정이 소유하지 않은 보고서 세트에서 대상 공유를 할 수 없습니다. 해결하기 위한 노력이 진행 중입니다.
+* Dynamic Tag Management 조직을 Experience Cloud와 연결 및 연결 해제 기능이 새 Experience Cloud 조직에서 작동하지 않습니다. 5월 릴리스에서는 이 문제를 해결하고 정상적인 기능을 회복할 수 있도록 노력하고 있습니다. Experience Cloud를 통해 Dynamic Tag Management에 단일 사인온하려 할 때 문제가 발생하는 경우, [!DNL dtm.adobe.com]에서 기존 로그인을 사용하십시오.
+* 알려진 문제로 인해, 연결된 Analytics 계정이 소유하지 않은 보고서 세트에서는 대상 공유가 되지 않고 있습니다. 해결하기 위한 노력이 진행 중입니다.
 
 ## 릴리스 15.3.2 - 2015년 3월 19일 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
 
@@ -238,8 +238,8 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>고객 속성 </p> </td> 
-   <td colname="col2"> <p>CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 데이터가 업로드된 후에 Analytics에서 <span class="uicontrol">방문자 프로필</span> &gt; <span class="uicontrol">고객 속성</span> 보고서를 실행할 수 있습니다. </p> <p>또한 <span class="keyword">Adobe Target</span>에서 업로드된 데이터를 대상 세그먼트로 사용할 수도 있습니다. </p> <p><a href="../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">고객 속성</a> 제품 설명서를 참조하십시오. </p> <p> 핵심 서비스의 솔루션 현대화에 대한 자세한 내용은 <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">핵심 서비스용 솔루션 활성화</a>를 참조하십시오. </p> </td> 
+   <td colname="col1"> <p>고객 특성 </p> </td> 
+   <td colname="col2"> <p>CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 데이터가 업로드된 후에 Analytics에서 <span class="uicontrol">방문자 프로필</span> &gt; <span class="uicontrol">고객 특성</span> 보고서를 실행할 수 있습니다. </p> <p>또한 <span class="keyword">Adobe Target</span>에서 업로드된 데이터를 대상 세그먼트로 사용할 수도 있습니다. </p> <p><a href="../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">고객 특성</a> 제품 설명서를 참조하십시오. </p> <p> 핵심 서비스의 솔루션 현대화에 대한 자세한 내용은 <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">핵심 서비스용 솔루션 활성화</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -256,19 +256,19 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
  <tbody> 
   <tr> 
    <td colname="col1"> <p>그룹 매핑 </p> </td> 
-   <td colname="col2"> <p>그룹 관리 페이지는 그룹을 만들고, 사용자를 그룹에 추가하고, Experience Cloud 솔루션 간에 권한을 적용할 수 있는 관리 인터페이스로 다시 디자인되었습니다. </p> </td> 
+   <td colname="col2"> <p>그룹 관리 페이지는 그룹을 생성하고, 사용자를 그룹에 추가하고, Experience Cloud 솔루션에 대한 권한을 적용할 수 있도록 해주는 관리 인터페이스로서 재디자인되었습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>일대다 매핑 </p> </td> 
-   <td colname="col2"> <p>Adobe Experience Cloud에서 솔루션 계정을 연결할 때 솔루션과 조직이 여러 개 있는 경우 이제 여러 제품 및 서비스를 하나의 조직에 매핑할 수 있습니다. </p> </td> 
+   <td colname="col1"> <p>일 대 다 매핑 </p> </td> 
+   <td colname="col2"> <p>이제 Experience Cloud에서 솔루션 계정을 연결할 때, 솔루션과 조직이 여러 개 있으면, 여러 제품 및 서비스를 하나의 조직에 매핑할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>활성화 </p> </td> 
-   <td colname="col2"> <p> <a href="../activation/activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> 활성화</a>는 이제 <span class="keyword">Experience Cloud</span>에서 왼쪽 탐색 창에 표시됩니다. <span class="wintitle"> 활성화는</span> 현재 다이내믹 태그 관리 기술로 구성된 <span class="keyword"> Experience Cloud</span> 서비스이며, 클릭하면 이 서비스가 표시됩니다. </p> </td> 
+   <td colname="col2"> <p> <a href="../activation/activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> 활성화</a>는 이제 <span class="keyword">Experience Cloud</span>에서 왼쪽 탐색 창에 표시됩니다. <span class="wintitle">활성화</span>는 현재 Dynamic Tag Management 기술로 구성된 <span class="keyword">Experience Cloud</span> 핵심 서비스로서, 클릭하면 이 서비스가 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>설명서 업데이트 - 핵심 서비스 </p> </td> 
-   <td colname="col2"> <p>Added the topic <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Enable your solutions for core services</a> to assist you with implementing core services. </p> </td> 
+   <td colname="col2"> <p>핵심 서비스 구현을 돕기 위해 <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">핵심 서비스용 솔루션을 사용하도록 설정</a> 항목을 추가했습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -277,13 +277,13 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 
 수정 사항:
 
-* 계정 제공을 위한 사용자 이메일 초대 워크플로우를 개선했습니다.
+* 계정 프로비저닝을 위해 사용자 이메일 초대 작업 과정을 개선했습니다.
 * [!DNL Experience Cloud]와 [!DNL Adobe Campaign] 자산이 동일한 폴더 계층을 표시하지 않도록 하는 자산 폴더 문제가 수정되었습니다.
 * 비활성화된 [!DNL Target] 활동에 속했던 대상을 삭제하지 못했던 문제가 수정되었습니다.
 * [!UICONTROL 새 대상 만들기] 페이지의 [!UICONTROL 규칙] 아래에 추가(더하기) 아이콘이 표시되지 않던 문제가 수정되었습니다.
-* Internet Explorer 9에 대한 Experience Cloud 인터페이스 지원이 개선되었습니다.
+* Internet Explorer 9에 대한 Experience Cloud 인터페이스 지원을 개선했습니다.
 
-## Release 15.1.1 - January 15 2015 {#section_F1A352E928AF432E94CC0A289C345184}
+## 릴리스 15.1.1 - 2015년 1월 15일 {#section_F1A352E928AF432E94CC0A289C345184}
 
 [!DNL Adobe Experience Cloud] 공동 작업 및 공유 인터페이스의 새로운 기능 및 수정 사항입니다.
 
@@ -296,7 +296,7 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>읽기 전용 액세스. </p> </td> 
+   <td colname="col1"> <p>읽기 전용 액세스 권한. </p> </td> 
    <td colname="col2"> <p>이제 관리자는 관리자가 아닌 사용자에게 읽기 전용 액세스 권한을 부여할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -304,13 +304,13 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 
 **수정 사항**
 
-* 카드에서 PNG 파일을 렌더링할 수 없는 문제가 해결되었습니다.
-* 드래그 앤 드롭을 통해 Experience Cloud Assets에 파일을 업로드하는 문제를 해결했습니다.
+* 카드에서 PNG 파일을 렌더링할 수 없던 문제를 수정했습니다.
+* 드래그 앤 드롭으로 파일을 Experience Cloud Assets에 업로드할 때 발생하는 문제를 수정했습니다.
 
 **알려진 문제**
 
-* 사용자는 보드에서 PowerPoint 파일을 공유할 수 없습니다.
-* 사용자 관리에서 수행한 그룹 및 권한 변경 사항은 새 로그인 후에만 적용됩니다.
+* 사용자가 보드에서 PowerPoint 파일을 공유할 수 없습니다.
+* 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
 * 일부 사용자의 경우 대용량 파일 형식을 Experience Cloud Assets에 업로드할 때 문제가 발생할 수 있습니다.
 * 사용자가 Media Optimizer에서 Experience Cloud 카드에 대한 링크를 누락할 수 있습니다.
 * 일부 관리자는 Experience Cloud 가입 초대장을 승인한 후 자신의 계정을 연결할 때 문제가 발생할 수 있습니다.
@@ -320,8 +320,8 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 * 일부 사용자는 Creative Cloud 사용자가 삭제된 후 Creative Cloud 사용자를 다시 공유 폴더에 추가하지 못할 수 있습니다.
 * 일부 사용자는 폴더를 Experience Cloud에서 Creative Cloud로 공유하면 발생하는 알림이 지연될 수 있습니다.
 * 일부 사용자는 Experience Cloud와 Creative Cloud 간에 폴더를 공유할 때 문제가 발생할 수 있습니다.
-* 일부 사용자는 공유 대상이 활성화된 후 Analytics 보고서 세트 내에서 대상을 만드는 데 문제가 있을 수 있습니다.
-* 보드에 자산을 업로드하는 데 문제가 있을 수 있습니다.
+* 일부 사용자는 공유된 대상이 활성화되면 Analytics 리포트 빌더 내에 대상을 만들 때 문제가 발생할 수 있습니다.
+* 보드에 업로드하는 중 일부 사용자에게 문제가 발생할 수 있습니다.
 
 ## 릴리스 14.11.1 - 2014년 11월 13일 {#section_A6CF1D4F27B9496892A89C983EB39102}
 
@@ -329,9 +329,9 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 
 * 일부 사용자는 오류 알림을 받는 대신 오래된 자산을 삭제할 수 있습니다.
 * 일부 [!DNL .png] 파일을 카드에서 렌더링할 수 없습니다.
-* 보드에 자산을 업로드하는 데 문제가 있을 수 있습니다.
+* 보드에 업로드하는 중 일부 사용자에게 문제가 발생할 수 있습니다.
 * 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
-* 관리자는 계정 설정에서 변경한 내용을 보려면 로그아웃했다가 다시 로그인해야 합니다.
+* 관리자는 계정 설정에서 변경된 사항을 보기 위해 로그아웃했다가 다시 로그인해야합니다.
 * 사용자가 보드에서 PowerPoint 파일을 공유할 수 없습니다.
 * [!DNL Experience Cloud] 인터페이스는 여러 사용자가 동시에 사용하는 경우 성능이 저하될 수 있습니다.
 * Adobe Experience Manager에서 Creative Cloud로의 동기화가 작동하지 않습니다.
@@ -365,10 +365,10 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 
 **알려진 문제**
 
-* 보드에 자산을 업로드하는 데 문제가 있을 수 있습니다.
+* 보드에 업로드하는 중 일부 사용자에게 문제가 발생할 수 있습니다.
 * 일부 [!DNL .png] 파일을 카드에서 렌더링할 수 없습니다.
 * 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
-* 일부 사용자는 PDF에서 카드를 만들어 보드에 공유할 수 없습니다.
+* 일부 사용자는 PDF에서 카드를 만들어 보드에 공유하지 못할 수 있습니다.
 * 일부 사용자는 오류 알림을 받는 대신 오래된 자산을 삭제할 수 있습니다.
 * 사용자가 보드에서 PowerPoint 파일을 공유할 수 없습니다.
 * [!DNL Experience Cloud] 인터페이스는 여러 사용자가 동시에 사용하는 경우 성능이 저하될 수 있습니다.
@@ -384,8 +384,8 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 **알려진 문제**
 
 * 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
-* 일부 사용자는 PDF에서 카드를 만들어 보드에 공유할 수 없습니다.
-* 보드에 자산을 업로드하는 데 문제가 있을 수 있습니다.
+* 일부 사용자는 PDF에서 카드를 만들어 보드에 공유하지 못할 수 있습니다.
+* 보드에 업로드하는 중 일부 사용자에게 문제가 발생할 수 있습니다.
 * 일부 사용자는 오류 알림을 받는 대신 오래된 자산을 삭제할 수 있습니다.
 * 사용자가 보드에서 PowerPoint 파일을 공유할 수 없습니다.
 * 일부 [!DNL .png] 파일을 카드에서 렌더링할 수 없습니다.
@@ -415,8 +415,8 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 **알려진 문제**
 
 * 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
-* 일부 사용자는 PDF에서 카드를 만들어 보드에 공유할 수 없습니다.
-* 보드에 자산을 업로드하는 데 문제가 있을 수 있습니다.
+* 일부 사용자는 PDF에서 카드를 만들어 보드에 공유하지 못할 수 있습니다.
+* 보드에 업로드하는 중 일부 사용자에게 문제가 발생할 수 있습니다.
 * 일부 사용자는 [!DNL Target]에서 [!DNL Experience Cloud]로 로그인하지 못할 수 있습니다.
 * 일부 Audience Manager 사용자는 [!DNL Experience Cloud]에 로그인하지 못할 수 있습니다.
 * 일부 사용자는 오류 알림을 받는 대신 오래된 자산을 삭제할 수 있습니다.
@@ -436,14 +436,14 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 * [!DNL Experience Cloud]에서 삭제된 파일은 [!DNL Digital Asset Management]에서 삭제할 수 없습니다.
 * 일부 [!UICONTROL Exchange] 사용자는 주석에서 자신의 이름이 실제 이름이 아닌 긴 문자열 ID임을 확인할 수 있습니다.
 * 일부 [!DNL .png] 파일을 카드에서 렌더링할 수 없습니다.
-* 파일을 업로드하면 드래그 앤 드롭 방법보다 더 많은 파일 유형을 사용할 수 있습니다. 최상의 결과를 얻으려면 자산을 사용하여 [!UICONTROL 업로드하십시오].
+* 파일을 업로드하면 드래그하여 놓는 방법보다 더 많은 파일 유형을 사용할 수 있습니다. 최상의 결과를 얻으려면 [!UICONTROL 자산]을 사용하여 업로드하십시오.
 * [!DNL Search&Promote]조직 및 제품 액세스 페이지에서 에 연결할 수 없습니다.
 * [!DNL Exchange] 사용자는 환경을 개선하려면 쿠키를 지워야 합니다.
 * [!DNL Experience Cloud] 인터페이스는 많은 사용자가 동시에 사용하는 경우 속도가 느려질 수 있습니다.
 * 일부 사용자는 내용이 [!DNL Creative Cloud]에서 공유되지 않을 경우 [!DNL Experience Cloud] 컨텐츠가 폴더에서 제거될 수 있습니다.
 * 15분 동안 아무 활동이 없으면 로그아웃됩니다. 또한 한 위치에서 로그아웃해도 [!DNL Experience Cloud]에서 로그아웃됩니다.
 * 일부 사용자는 자신의 Audience Manager 계정을 [!DNL Experience Cloud]에 연결하지 못할 수 있습니다.
-* [!UICONTROL Exchange] 사용자는 언어 선택기만 볼 수 있습니다.
+* [!UICONTROL Exchange] 사용자는 영어로 된 섹터만 볼 수 있습니다.
 
 **수정 사항**
 
@@ -474,16 +474,16 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 **알려진 문제**
 
 * [!DNL Experience Cloud]에서 삭제된 파일은 [!DNL Digital Asset Management]에서 삭제할 수 없습니다.
-* 파일을 업로드하면 드래그 앤 드롭 방법보다 더 많은 파일 유형을 사용할 수 있습니다. 최상의 결과를 얻으려면 자산을 사용하여 업로드하십시오.
+* 파일을 업로드하면 드래그하여 놓는 방법보다 더 많은 파일 유형을 사용할 수 있습니다. 최상의 결과를 얻으려면 자산을 사용하여 업로드하십시오.
 * [!DNL Search&Promote]조직 및 제품 액세스 페이지에서 에 연결할 수 없습니다.
 * [!DNL Analytics]에서 트렌드 보고서에 적용된 필터가 [!DNL Experience Cloud]의 카드에 적용되지 않았습니다.
 * 일부 사용자는 자신의 고객 관리 계정을 [!DNL Experience Cloud] 계정과 연결하지 못할 수 있습니다.
-* 15분 동안 아무 활동이 없으면 로그아웃됩니다. 또한 한 위치에서 로그아웃하면 Experience Cloud에서 로그아웃됩니다.
+* 15분 동안 아무 활동이 없으면 로그아웃됩니다. 또한 한 위치에서 로그아웃해도 Experience Cloud에서 로그아웃됩니다.
 * 일부 Exchange 사용자는 주석에서 자신의 이름이 실제 이름이 아닌 긴 문자열 ID임을 확인할 수 있습니다.
 
 **수정 사항**
 
-* 비디오가 앱에 업로드되지 않던 문제를 수정했습니다.
+* 비디오가 앱에 업로드되지 않도록 하는 문제를 해결했습니다.
 
 ## 릴리스 14.5.1 - 2014년 5월 22일 {#section_7E22B2CB3ABA4D6EAED8CA8EFDE5433E}
 
@@ -509,11 +509,11 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>새 Adobe 사용자는 자신의 Scene7 계정을 Adobe ID 및 해당 팀 구성원에 연결할 수 있습니다. 관리자는 Scene7 계정에서 사용자의 연결을 해제할 수도 있습니다. </p> </td> 
+   <td colname="col2"> <p>새 Adobe 사용자는 Scene7 계정을 Adobe ID 및 해당 팀 구성원에게 연결할 수 있습니다. 관리자는 Scene7 계정에서 사용자의 연결을 끊을 수도 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>자산 동기화. </p> </td> 
-   <td colname="col2"> <p> AEM(Adobe Experience Manager) 자산 내의 자산을 Adobe Experience Cloud 및 Adobe Creative Cloud와 공유할 수 있으므로 이러한 자산의 변경 사항이 Adobe Experience Cloud 및 Adobe Creative Cloud의 자산 공유 사본에 반영됩니다. </p> </td> 
+   <td colname="col2"> <p> AEM(Adobe Experience Manager) 자산 내의 자산을 Adobe Experience Cloud 및 Adobe Creative Cloud와 공유할 수 있으므로 이러한 자산을 변경하면 변경 사항이 Adobe Experience Cloud 및 Adobe Creative Cloud에 있는 자산의 공유 사본에 반영됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -523,8 +523,8 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 * [!DNL Experience Cloud]가 [!DNL Adobe Target]에 연결되어 있지 않습니다. 이 문제는 [!DNL Adobe Target] 로그인을 여러 [!DNL Target] 서버에서 사용할 수 있을 때 발생합니다.
 * [!DNL Adobe Media Optimizer]에서 사용자를 생성할 때 [!DNL Experience Cloud]에서 사용자를 자동으로 생성하지 않습니다.
 * 새 사용자를 추가하기 위한 콤보 상자의 옵션이 입력하는 동안 일시적으로 사라졌습니다.
-* 자산 카드 보기의 주석 링크를 클릭할 수 없습니다.
-* 사용자 지정 태그를 자산에 추가한 후 다른 메타데이터 변경 사항이 지속되지 않았습니다.
+* 자산 카드 보기의 설명 링크를 클릭할 수 없습니다.
+* 사용자 지정 태그를 자산에 추가한 후에 다른 메타데이터 변경 사항이 지속되지 않습니다.
 * 이미지가 Adobe Target Essentials에 사용되는 경우 자산에서 이미지를 삭제해도 경고가 표시되지 않습니다.
 * 여러 사용자가 동시에 사용할 경우 [!UICONTROL Experience Cloud] 인터페이스 성능이 느려집니다.
 * 에서 사용된 이미지를 [!DNL Adobe Target Essentials]Experience Cloud Assets에서 삭제해도 경고가 발생하지 않습니다.
@@ -532,11 +532,11 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 * 모든 권한과 자격 변경 사항이 적용되려면 사용자가 로그아웃한 후 다시 로그인해야 합니다.
 * [!DNL Experience Cloud]에 로그인하는 데 1초 이상 걸립니다.
 * 특정 사용자의 경우, [!DNL Experience Cloud]에서 삭제된 파일은 [!DNL Digital Asset Management]와 동기화되지 않습니다.
-* 사용자가 브라우저 비활동 후 15분 만에 로그아웃되었습니다.
-* 사용자가 보드에서 PowerPoint 파일을 공유할 수 없습니다.
-* 일부 사용자는 다른 브라우저보다 Internet Explorer 10에서 시각적 레이아웃이 좋지 않았습니다.
+* 15분 정도 브라우저 비활동이 지속된 후에 사용자가 로그아웃되었습니다.
+* 사용자가 보드에서 PowerPoint 파일을 공유할 수 없었습니다.
+* 일부 사용자의 경우 다른 브라우저보다 Internet Explorer 10에서 좋지 않은 시각적 레이아웃 품질을 경험했습니다.
 
-## Release 14.4.1 - April 22 2014 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## 릴리스 14.4.1 - 2014년 4월 22일 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
@@ -560,7 +560,7 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 
 **수정 사항**
 
-* 사용자 지정 태그를 자산에 추가한 후에는 다른 메타데이터 변경 사항을 유지할 수 없습니다.
+* 사용자 지정 태그를 자산에 추가하면 다른 메타데이터 변경 사항을 지속할 수 없습니다.
 * 사용자는 보드를 새로 고쳐서 삭제된 카드가 보기에서 사라지도록 해야 합니다.
 * 로그인 동안 **[!UICONTROL 내 정보 저장]**&#x200B;을 선택하지 않으면 사용자가 15분 후 로그아웃됩니다.
 * [!DNL Analytics] 솔루션 랜딩 페이지에 형식 오류가 표시됩니다.
@@ -585,7 +585,7 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 
 ## 릴리스 14.3.1 - 2014년 3월 13일 {#section_5D142E3225E3477A84DC01B8197D39BC}
 
-버전 14.3.1은 속도, 안정성 및 보안에 중점을 두는 유지 관리 릴리스입니다. 여기에는 주요 새로운 기능이 포함되지 않습니다.
+버전 14.3.1은 속도, 안정성 및 보안에 중점을 두는 유지 관리 릴리스입니다. 여기에는 주요 새 기능이 포함되지 않습니다.
 
 **수정 사항**
 
@@ -594,16 +594,16 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 
 **알려진 문제**
 
-* Adobe Target Essentials에서 이미지를 사용하는 경우 Experience Cloud Assets에서 이미지를 삭제해도 경고가 표시되지 않습니다.
+* 이미지가 Adobe Target Essentials에 사용되는 경우 Experience Cloud 자산에서 이 이미지를 삭제해도 경고가 표시되지 않습니다.
 * [!DNL Analytics]에서 카드를 새로 고치면 때로 확장된 카드에서 빈 차트가 생성됩니다.
 * 모든 권한과 자격 변경 사항이 적용되려면 사용자가 로그아웃한 후 다시 로그인해야 합니다.
 * *`Remember me`*&#x200B;을 선택하지 않으면 사용자는 15분 후 로그아웃됩니다.
 * [!DNL Analytics] 솔루션 랜딩 페이지에 형식 오류가 표시됩니다.
 * 자산 카드 보기의 주석 링크를 클릭할 수 없습니다.
-* Experience Cloud 인터페이스는 많은 사용자가 동시에 사용하는 경우 속도가 느려질 수 있습니다
+* Experience Cloud 인터페이스는 많은 사용자가 동시에 사용하는 경우 속도가 느려질 수 있습니다.
 * 여러 Target 서버에서 [!DNL Adobe Target] 로그인을 사용하는 경우 Experience Cloud를 [!DNL Adobe Target]에 연결할 수 없습니다.
 * Experience Cloud에 로그인하는 데 1초 이상 걸립니다.
-* 사용자 지정 태그를 자산에 추가한 후에는 다른 메타데이터 변경 사항을 유지할 수 없습니다.
+* 사용자 지정 태그를 자산에 추가하면 다른 메타데이터 변경 사항을 지속할 수 없습니다.
 * Experience Cloud에서 사용자를 생성할 때 [!DNL Adobe Media Optimizer]에서 사용자를 자동으로 생성하지 않습니다.
 * 새 사용자를 추가하기 위한 콤보 상자의 옵션이 입력하는 동안 일시적으로 사라집니다.
 * [!DNL Media Optimizer]에서 공유한 데이터가 Experience Cloud에서 잘못 표시되었습니다.
@@ -611,13 +611,13 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 * [!DNL Analytics]에서 트렌드 보고서에 적용된 필터가 Experience Cloud의 카드에 적용되지 않았습니다.
 * 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
 * [!DNL Search&Promote] 연결은 [!UICONTROL 조직 및 제품 액세스]에서 사용할 수 없습니다.
-* 사용자가 보드를 새로 고쳐서 삭제된 카드가 보기에서 사라지도록 해야 합니다.
+* 사용자는 보드를 새로 고쳐서 삭제된 카드가 보기에서 사라지도록 해야 합니다.
 * 일부 Excel 또는 CSV 파일을 보드에 업로드할 수 없습니다.
 * [!DNL Adobe Media Optimizer] 시뮬레이션 카드가 올바로 렌더링하고 있지 않습니다.
-* 카드에서 일부 PNG 파일을 렌더링할 수 없습니다.
+* 일부 PNG 파일은 카드에서 렌더링할 수 없습니다.
 * 베타 피드백을 제출할 수 없습니다.
 
-## Release 14.2.1 - February 24 2014 {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
+## 릴리스 14.2.1 - 2014년 2월 24일 {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
 
 <table id="table_DFAB002358C94A17A7F91DAB323A488F"> 
  <thead> 
