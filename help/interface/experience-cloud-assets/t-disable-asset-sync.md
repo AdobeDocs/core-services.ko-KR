@@ -6,8 +6,11 @@ seo-title: 공유 폴더의 동기화 비활성화
 solution: Experience Cloud
 title: 공유 폴더의 동기화 비활성화
 uuid: 17c42b39-614c-45e4-bfb1-c6cb2fd66150
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '145'
+ht-degree: 100%
 
 ---
 
@@ -28,11 +31,11 @@ Creative Cloud 파일 폴더 내에서 공유된 Experience Cloud 폴더의 동�
 
    ![](assets/select_sync_folders.png)
 
-1. 동기화하지 않을 폴더를 선택 취소합니다.
+1. 동기화하지 않으려는 모든 폴더는 선택 취소합니다.
 
 ## Mac OS
 
-1. 파인더 창을 엽니다.
+1. Finder 창을 엽니다.
 
 1. 사용자 폴더로 이동합니다.
 
@@ -40,6 +43,6 @@ Creative Cloud 파일 폴더 내에서 공유된 Experience Cloud 폴더의 동�
 
    ![](assets/select_sync_folders_mac.png)
 
-1. 동기화하지 않을 폴더를 선택 취소합니다.
+1. 동기화하지 않으려는 모든 폴더는 선택 취소합니다.
 
-   동기화된 폴더에는 폴더 이름 옆에 확인 표시가 나타납니다.
+   동기화된 폴더 이름 옆에는 확인 표시가 나타납니다.
