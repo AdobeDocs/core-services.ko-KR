@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 7a3a14fa8572444513dd0ac4753431f3c33245f0
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 67%
+ht-degree: 88%
 
 ---
 
@@ -35,9 +35,9 @@ ht-degree: 67%
    + [[!DNL Search and Promote] 쿠키](cookies/cookies-snp.md)
    + [[!DNL Target] 쿠키](cookies/cookies-target.md)
    + [브라우저 쿠키에 대한 개인 정보 설정 활성화](cookies/browser-cookie-settings.md)
-   + [타사 쿠키 지원이 고객에게 미치는 영향](cookies/cookies-thirdparty.md)
+   + [타사 쿠키 지원 변경으로 인한 고객 영향](cookies/cookies-thirdparty.md)
 + 사용자 및 제품 관리 {#manage-users-and-products}
-   + [Experience Cloud 사용자 ID 및 제품 관리(관리 콘솔)](admin-getting-started/admin-getting-started.md)
+   + [Experience Cloud 사용자 ID 및 제품 관리(Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Experience Cloud 사용자 세부 사항 보기(관리 도구)](admin-getting-started/admin-tool-experience-cloud.md)
    + [FAQ](admin-getting-started/faq.md)
    + [로그인 및 프로필 설정 관리](admin-getting-started/getting-started-experience-cloud.md)
@@ -46,10 +46,10 @@ ht-degree: 67%
 + Experience Cloud 활성화 {#activation}
    + [활성화 개요](activation/activation.md)
    + [Launch 사용 안내서](https://docs.adobe.com/content/help/ko-KR/launch/using/overview.html)
-   + [다이내믹 태그 관리자 사용 안내서](https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html)
+   + [Dynamic Tag Manager 사용 안내서](https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
-+ Experience Cloud assets {#assets}
-   + [Experience Cloud 에셋 개요](experience-cloud-assets/experience-cloud-assets.md)
++ Experience Cloud 자산 {#assets}
+   + [Experience Cloud 자산 개요](experience-cloud-assets/experience-cloud-assets.md)
    + [Creative Cloud와 Experience Cloud 폴더 및 자산 공유](experience-cloud-assets/creative-cloud.md)
    + [Creative Cloud 사용자 관리](experience-cloud-assets/t-admin-add-cc-user.md)
    + [Experience Cloud 자산 폴더 공유](experience-cloud-assets/t-share-creative-cloud.md)
@@ -58,11 +58,11 @@ ht-degree: 67%
    + [공유 폴더의 동기화 비활성화](experience-cloud-assets/t-disable-asset-sync.md)
    + [공유를 위한 자산 파일 요구 사항](experience-cloud-assets/assets-file-reqs.md)
    + [공유 폴더 동작](experience-cloud-assets/asset-behavior.md)
-+ Experience Cloud의 고객 {#audiences}
++ Experience Cloud의 대상 {#audiences}
    + [대상 개요](audience-library/audience-library.md)
    + [대상자 만들기](audience-library/t-audience-create.md)
    + [Analytics 대상 세그먼트 게시](audience-library/t-publish-audience-segment.md)
-+ Experience Cloud의 고객 속성 {#customer-attributes}
++ Customer Attributes in Experience Cloud {#customer-attributes}
    + [고객 속성 개요](attributes/attributes.md)
    + [FAQ, 제한 사항 및 우수 사례](attributes/faq-crs.md)
    + [고객 속성에 대한 데이터 파일 및 데이터 소스 정보](attributes/crs-data-file.md)
