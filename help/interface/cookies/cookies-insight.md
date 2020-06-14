@@ -6,8 +6,11 @@ seo-title: Data Workbench 쿠키
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Data Workbench 쿠키
 uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '103'
+ht-degree: 100%
 
 ---
 
@@ -18,11 +21,11 @@ Data Workbench는 쿠키를 사용하여 대용량의 빠르게 변화하는 데
 
 **쿠키 이름: v1st**
 
-| 속성 | 설명 |
+| 특성 | 설명 |
 |---|---|
-| 저장된 정보 | 고유 방문자 ID 시간/날짜 스탬프 |
-| 만료 | 지속적인 쿠키입니다. |
-| 사용 | 이 쿠키는 고유 방문자를 식별하는 데 사용됩니다. |
+| 정보가 저장됨 | 고유 방문자 ID 시간/날짜 스탬프 |
+| 만료 | 영구적 쿠키입니다 |
+| 사용 | 이 쿠키는 고유한 방문자를 식별하는 데 사용됩니다. |
 | 위치 | 이 쿠키는 페이지의 도메인에 저장됩니다. |
 | 크기 | 8바이트 또는 &quot;name =&quot; 부분을 포함하는 경우 13바이트(v1st=) |
 
