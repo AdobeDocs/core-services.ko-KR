@@ -7,10 +7,10 @@ solution: Marketing Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: fb03bf89bcc6ed4438daf18c8415de3052ba8fa4
+source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 96%
+source-wordcount: '668'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 96%
    | 후에 새로운 세션 시작 | 세션 시작 및 세션 종료 이벤트에 대한 트리거를 만듭니다. |
 
 5. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-6. [!DNL Adobe Campaign]에서 [실시간 재마케팅](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html)에 트리거를 사용합니다.
+6. [!DNL Adobe Campaign]에서 [실시간 재마케팅](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)에 트리거를 사용합니다.
 
 ### 예제 트리거
 
