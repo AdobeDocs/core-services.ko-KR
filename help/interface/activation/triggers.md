@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -37,14 +37,14 @@ ht-degree: 94%
 
 ## Experience Cloud 트리거 만들기 {#task_821F37183AC045E5AC8EED20317598FE}
 
-트리거를 만들고 트리거에 대한 조건을 구성합니다. 예를 들어, 장바구니 포기와 같은 지표 또는 제품 이름과 같은 차원과 같이, 방문 중의 트리거 규칙에 대한 기준을 지정할 수 있습니다. 규칙이 충족되면 트리거가 실행됩니다.
+트리거를 생성하고 트리거 조건을 구성합니다. 예를 들어, 장바구니 포기와 같은 지표 또는 제품 이름과 같은 차원과 같이, 방문 중의 트리거 규칙에 대한 기준을 지정할 수 있습니다. 규칙이 충족되면 트리거가 실행됩니다.
 
 >[!NOTE]
 >
 >현재 트리거는 100개로 기술적 제한이 있습니다.
 
-1. In the Experience Cloud, click ![](assets/menu-icon.png), then click **[!UICONTROL Launch]**.
-2. Locate the [!UICONTROL Triggers] card, then click **[!UICONTROL Manage Triggers]**.
+1. Experience Cloud에서 ![](assets/menu-icon.png)을 클릭한 다음 **[!UICONTROL 실행]**&#x200B;을 클릭합니다.
+2. [!UICONTROL 트리거] 카드를 찾은 다음 **[!UICONTROL 트리거 관리]**&#x200B;을 클릭합니다.
 3. **[!UICONTROL 새 트리거]**&#x200B;를 클릭한 다음 트리거 유형을 지정합니다.
 
    ![단계 결과](assets/add-trigger.png)
