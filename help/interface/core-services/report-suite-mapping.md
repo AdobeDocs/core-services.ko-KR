@@ -4,16 +4,20 @@ seo-description: 한 개 이상의 보고서 세트를 조직에 매핑하는 �
 seo-title: 조직에 보고서 세트 매핑
 title: 조직에 보고서 세트 매핑
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
-source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
-workflow-type: ht
-source-wordcount: '1174'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
+workflow-type: tm+mt
+source-wordcount: '1201'
+ht-degree: 97%
 
 ---
 
 
 # 조직에 보고서 세트 매핑 {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
+
+>[!NOTE]
+>
+>보고서 세트 매핑 기능은 2020년 11월에 더 이상 사용되지 않습니다. >준비 중인 모든 우수 보고서 세트를 매핑하십시오. 문의 사항이 있으면 고객 지원 센터에 문의하십시오.
 
 한 개 이상의 보고서 세트를 조직에 매핑하는 방법을 알아봅니다.
 
