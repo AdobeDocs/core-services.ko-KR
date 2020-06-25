@@ -5,10 +5,10 @@ user-guide-description: Adobe Experience Cloud services include the People (Audi
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 7a3a14fa8572444513dd0ac4753431f3c33245f0
+source-git-commit: 323e562d41daa547d488497116cd5ffa783f6426
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 88%
+source-wordcount: '356'
+ht-degree: 100%
 
 ---
 
@@ -55,24 +55,23 @@ ht-degree: 88%
    + [Experience Cloud 자산 폴더 공유](experience-cloud-assets/t-share-creative-cloud.md)
    + [Creative Cloud 브라우저에서 공유 폴더로 자산을 업로드합니다](experience-cloud-assets/t-upload-asset-cc.md)
    + [Creative Cloud 데스크탑에서 공유 폴더로 자산을 업로드합니다](experience-cloud-assets/t-cc-asset-upload-thor.md)
-   + [공유 폴더의 동기화 비활성화](experience-cloud-assets/t-disable-asset-sync.md)
    + [공유를 위한 자산 파일 요구 사항](experience-cloud-assets/assets-file-reqs.md)
    + [공유 폴더 동작](experience-cloud-assets/asset-behavior.md)
 + Experience Cloud의 대상 {#audiences}
    + [대상 개요](audience-library/audience-library.md)
    + [대상자 만들기](audience-library/t-audience-create.md)
    + [Analytics 대상 세그먼트 게시](audience-library/t-publish-audience-segment.md)
-+ Customer Attributes in Experience Cloud {#customer-attributes}
++ Experience Cloud의 고객 속성 {#customer-attributes}
    + [고객 속성 개요](attributes/attributes.md)
    + [FAQ, 제한 사항 및 우수 사례](attributes/faq-crs.md)
    + [고객 속성에 대한 데이터 파일 및 데이터 소스 정보](attributes/crs-data-file.md)
-   + [고객 속성 소스 만들기 및 데이터 파일 업로드](attributes/t-crs-usecase.md)
+   + [고객 속성 소스를 만들고 데이터 파일 업로드](attributes/t-crs-usecase.md)
    + [선택 사항 - FTP를 통해 데이터 파일 업로드](attributes/t-upload-attributes-ftp.md)
    + [스키마 유효성 검사](attributes/validate-schema.md)
    + [구독 구성](attributes/subscription.md)
    + [스키마 업데이트](attributes/t-update-schema.md)
-   + [일반 데이터 보호 규정 지원](attributes/gdpr.md)
-   + [Support for California Consumer Privacy Act](attributes/ccpa.md)
+   + [개인 정보 보호 규정 지원](attributes/gdpr.md)
+   + [캘리포니아 소비자 개인 정보 보호법 지원](attributes/ccpa.md)
    + [개인 정보 고려 사항 - 고객 속성](attributes/privacy-mac.md)
 + Experience Cloud 릴리스 노트 {#release-notes}
    + [Experience Cloud의 새로운 기능](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)
