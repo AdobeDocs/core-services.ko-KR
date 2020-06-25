@@ -6,11 +6,11 @@ seo-title: 타사 쿠키 지원 변경으로 인한 고객 영향
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: 타사 쿠키 지원 변경으로 인한 고객 영향
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f65132e291ba925ded39d75e92b24cf707d520b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 91%
 
 ## Adobe Social
 
-* 고객이 최신 버전의 코드를 가지고 있는 경우 Social은 영향을 받지 않습니다.
+* 고객이 최신 버전의 코드를 가지고 있는 한 Social은 영향을 받지 않습니다.
 
 ## Adobe Advertising Cloud
 
@@ -44,7 +44,7 @@ ht-degree: 91%
 * 표시:
 
    * 오늘 날 디스플레이 리마케팅은 전적으로 타사 쿠키 사용에 의존합니다.
-   * 또한 디스플레이는 동기화를 위한 다양한 광고 네트워크 쿠키의 가용성에 크게 의존합니다.
+   * 디스플레이는 또한 동기화를 위한 다양한 광고 네트워크 쿠키의 가용성에 크게 의존합니다.
    * 전체적인 영향은 알려지지 않았습니다. 그러나 디스플레이는 다른 서비스보다 영향을 더 많이 받습니다.
    * Adobe는 내부적으로 광고 파트너와 협력하여 광고 게재에 대한 영향을 최대한 평가하고 있습니다.
 
