@@ -4,11 +4,11 @@ seo-description: 한 개 이상의 보고서 세트를 조직에 매핑하는 �
 seo-title: 조직에 보고서 세트 매핑
 title: 조직에 보고서 세트 매핑
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1174'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL Peopl
 
 ## 조직에 보고서 세트 매핑 {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. 데이터 거버넌스를 위한 보고서 세트 [!DNL Analytics] > **[!UICONTROL 관리]** > **[!UICONTROL 데이터 거버넌스]** 로 이동합니다( [보고서 세트의 데이터 거버넌스 설정 보기/관리 참조).](https://docs.adobe.com/help/en/analytics/admin/data-governance/gdpr-view-settings.html)
+1. [!DNL Analytics] > **[!UICONTROL 관리]** > **[!UICONTROL 데이터 거버넌스]**&#x200B;에서 데이터 거버넌스를 위한 보고서 세트로 이동합니다([보고서 세트의 데이터 거버넌스 설정 보기/관리 참조](https://docs.adobe.com/help/ko-KR/analytics/admin/data-governance/gdpr-view-settings.html)).
 
 1. 각 보고서 세트에 액세스할 수 있는 로그인 회사를 보려면 **[!UICONTROL 로그인 회사에 표시를 클릭합니다]**.
 
