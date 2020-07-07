@@ -6,9 +6,9 @@ seo-title: Analytics 쿠키
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Analytics 쿠키
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bd118685e1dd65b51a171abdfa4e034dd5b9e181
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -98,7 +98,9 @@ Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청�
 | s_cc(Javascript) | 아니요 | 아니요 | 설정 해제 |
 | s_sq(Javascript) | 아니요 | 아니요 | 설정 해제 |
 
->[!NOTE] 하나의 CNAME을 사용하여 여러 도메인 또는 속성에서 추적하는 경우 `s_vi`에 대해서는 SameSite를 &quot;없음&quot;으로 설정해야 합니다. Analytics 쿠키 설정을 변경하는 데 도움이 필요하면 고객 지원 센터에 문의하십시오.
+>[!NOTE]
+>
+> 하나의 CNAME을 사용하여 여러 도메인 또는 속성에서 추적하는 경우 `s_vi`에 대해서는 SameSite를 &quot;없음&quot;으로 설정해야 합니다. Analytics 쿠키 설정을 변경하는 데 도움이 필요하면 고객 지원 센터에 문의하십시오.
 
 ## 플러그인으로 설정된 쿠키 {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
