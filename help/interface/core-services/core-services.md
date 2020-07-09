@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 핵심 서비스용 솔루션을 사용하도록 설정
 index: true
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
 workflow-type: tm+mt
 source-wordcount: '2358'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -81,11 +81,9 @@ Experience Cloud에 로그인하려면 귀하의 사용자는
 
 ## 2단계. [!UICONTROL Experience Platform Launch] 또는 [!UICONTROL Dynamic Tag Management]를 사용하여 [!UICONTROL Experience Cloud ID 서비스] 구현 {#section_3C9F6DF37C654D939625BB4D485E4354}
 
-[!UICONTROL Experience Cloud ID 서비스]에서는 솔루션 간 통합을 위한 공통 ID를 제공하고 [!UICONTROL 고객 특성]을 통해 업로드된 CRM 데이터를 기반으로 도메인 간 방문자 식별 및 장치/브라우저 간 타깃팅 및 개인화를 위한 경로를 제공합니다.
+[!UICONTROL Experience Cloud ID 서비스]에서는 솔루션 간 통합을 위한 공통 ID를 제공하고 [!UICONTROL 고객 속성]을 통해 업로드된 CRM 데이터를 기반으로 도메인 간 방문자 식별 및 장치/브라우저 간 타깃팅 및 개인화를 위한 경로를 제공합니다.
 
 Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 [!UICONTROL Experience Platform Launch]에서 [Experience Cloud ID 서비스 확장](https://docs.adobe.com/content/help/ko-KR/launch/using/implement/solutions/idservice-save.html)을 통해 또는 [!UICONTROL Dynamic Tag Management]에서 ECID 도구를 통해 Analytics 및 Adobe Target에 대해 자동으로 활성화하는 것입니다. (Experience Platform Launch가 적극 권장됩니다.)
-
-![](assets/menu-activation-shell.png)
 
 전체 Experience Cloud ID 서비스 도움말(이전의 방문자 ID)를 보려면 [여기](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)로 이동하십시오.
 
@@ -103,9 +101,9 @@ Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 
 
 Experience Cloud ID 서비스 설정의 일부로, Analytics 및 [!DNL Target]에 대해 [고객 ID](https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/authenticated-state.html)를 Experience Cloud와 동기화하는 것이 좋습니다.
 
-Adobe Target에서 `mbox3rdpartyid`는 고객 ID를 가져와서 [!DNL Target]에 보내야 합니다. ([!DNL Target]에서 [고객 특성 사용](https://docs.adobe.com/content/help/ko-KR/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)을 참조하십시오.)
+Adobe Target에서 `mbox3rdpartyid`는 고객 ID를 가져와서 [!DNL Target]에 보내야 합니다. ([!DNL Target]에서 [고객 속성 사용](https://docs.adobe.com/content/help/ko-KR/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)을 참조하십시오.)
 
-방문자가 사용자의 웹 사이트에서 인증을 받거나 다른 방식으로 식별될 경우 페이지나 앱에 해당 개인의 CRM 고객 ID가 제공되어야 합니다. 그러면 해당 기능 호출을 사용하여 고객 ID를 Experience Cloud와 동기화할 수 있습니다. 이와 같이 동기화가 진행되면 방문자의 CRM 고객 ID가 Experience Cloud에 저장되고 Experience Cloud에서 사용할 해당 고객의 특성이 활성화됩니다.
+방문자가 사용자의 웹 사이트에서 인증을 받거나 다른 방식으로 식별될 경우 페이지나 앱에 해당 개인의 CRM 고객 ID가 제공되어야 합니다. 그러면 해당 기능 호출을 사용하여 고객 ID를 Experience Cloud와 동기화할 수 있습니다. 이와 같이 동기화가 진행되면 방문자의 CRM 고객 ID가 Experience Cloud에 저장되고 Experience Cloud에서 사용할 해당 고객의 속성이 활성화됩니다.
 
 예를 들어 CRM 시스템에서 Bob의 고객 ID가 `52mc210tr42`라고 가정해봅시다. Bob이 사용자 사이트에서 인증을 받으면, 사용자는 이 ID를 페이지에 제공하고 다음 두 가지 방법 중 하나로 해당 ID를 사용하여 동기화해야 합니다.
 
@@ -120,7 +118,7 @@ Adobe Target에서 `mbox3rdpartyid`는 고객 ID를 가져와서 [!DNL Target]�
 
 ### 이전 데이터의 속성 활성화
 
-고객 특성 데이터는 방문자가 로그인한 후에 사용할 수 있습니다. 최신 Experience Cloud ID 서비스를 아직 구현하지 않았으며 이전에 prop 또는 eVar에서 고객 ID를 추적해온 경우 Experience Cloud에 내역 로그인을 전송하는 프로세스를 요청할 수 있습니다. 이 프로세스를 통해 고객 속성을 즉시 사용할 수 있습니다.
+고객 특성 데이터는 방문자가 로그인한 후에 사용할 수 있습니다. 최신 Experience Cloud ID 서비스를 아직 구현하지 않았으며 이전에 prop 또는 eVar에서 고객 ID를 추적해온 경우 Experience Cloud에 내역 로그인을 전송하는 프로세스를 요청할 수 있습니다. 이 프로세스를 진행하면 고객 속성을 바로 사용할 수 있습니다.
 
 이전 데이터를 활성화하려면 고객 지원 센터에 문의하십시오.
 
@@ -146,7 +144,7 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL Peopl
 
    >[!IMPORTANT]
    >
-   >모든 Analytics 고객은 고객 속성과 같은 핵심 서비스에 대해 이미 프로비저닝되어 있습니다. Analytics 사용자가 아닌 경우 고객 지원 센터에 문의하여 제공받을 수 있도록 요청하십시오.
+   >모든 Analytics 고객에게 고객 속성과 같은 핵심 서비스가 공급됩니다. Analytics 사용자가 아닌 경우 고객 지원 센터에 문의하여 제공받을 수 있도록 요청하십시오.
 
 ## Step 6. 핵심 서비스 구현 확인 {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
@@ -185,28 +183,19 @@ Admin Console을 실행 중이면 사용자 및 제품 프로필을 관리할 �
 
 [Experience Cloud 사용자 및 제품 관리](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)를 참조하십시오.
 
-### 고객 특성
+### 고객 속성
 
-<!-- <p> 
- <note type="important">
-  To use the Customer Attributes feature, users must belong to the 
-  <span class="term"> Adobe Customer Attributes</span> group, and to solution-level groups (Analytics or Adobe Target). 
- </note> </p> 
- -->
-
-[!UICONTROL 고객 특성] 그룹에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!UICONTROL 고객 특성] 메뉴 항목이 표시됩니다.
+[!UICONTROL 고객 속성] 그룹에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!UICONTROL 고객 속성] 메뉴 항목이 표시됩니다.
 
 ## 8단계. 핵심 서비스 사용 시작 {#section_960C06093623462E8EA247B3E97274A1}
 
 다음 기능을 활용할 수 있습니다.
 
-![](assets/menu-audiences-shell.png)
-
-### [!UICONTROL 사용자] > [!UICONTROL 고객 특성]
+### [!UICONTROL 사용자] > [!UICONTROL 고객 속성]
 
 CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 업로드했으면 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 활용합니다.
 
-[고객 특성](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)을 참조하십시오
+[고객 속성](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)을 참조하십시오
 
 ### [!UICONTROL 사용자] > [!UICONTROL 대상 라이브러리]
 
