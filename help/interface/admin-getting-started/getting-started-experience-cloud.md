@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: 로그인 및 Experience Cloud 프로필 설정 관리
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '962'
 ht-degree: 97%
 
 ---
@@ -27,14 +27,11 @@ ht-degree: 97%
 
 로그인한 다음 올바른 [조직](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)에 속해 있는지 확인하십시오.
 
-1. Experience Cloud 풀다운 메뉴(![](assets/menu-icon.png))를 클릭한 다음 **[!UICONTROL 관리]**&#x200B;를 클릭합니다.
+1. Click the Experience Cloud menu ( ![](assets/menu-icon.png)), then click **[!UICONTROL Administration]**.
 
-   ![](assets/admin-link.png)
-
-   **[!UICONTROL 관리]** 링크가 표시되지 않으면 표시된 [조직](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)(이 예제의 경우 Adobe Corp)의 Experience Cloud 관리자가 아닌 것입니다. 관리자가 되는 것과 관련하여 지원이 필요한 경우 귀사의 고객 지원 또는 기존 Experience Cloud 관리자에게 문의하십시오.
+   If the **[!UICONTROL Administration]** link is not shown, you are not an Experience Cloud administrator for the displayed [organization](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). 관리자가 되는 것과 관련하여 지원이 필요한 경우 귀사의 고객 지원 또는 기존 Experience Cloud 관리자에게 문의하십시오.
 1. **[!UICONTROL 관리]**&#x200B;를 클릭합니다.
 
-   ![](assets/admin-landing.png)
 1. 링크 중 하나를 클릭하여 계속하십시오. 
 
 | 요소 | 설명 |
@@ -55,7 +52,7 @@ Experience Cloud에 로그인하는 관리자 이외의 사용자를 위한 도�
 1. [조직](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF)이 Experience Cloud에서 프로비저닝되었는지 관리자에게 확인합니다.
 
 
-1. [Adobe Experience Cloud](https://experiencecloud.adobe.com)([!DNL experiencecloud.adobe.com])로 이동합니다.
+1. [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]) 로 이동합니다.
 1. **[!UICONTROL Adobe ID로 로그인]**&#x200B;을 클릭합니다.
 
    Experience Cloud 관리자가 계정 유형(Adobe ID 또는 Enterprise ID)을 확인하는 데 도움을 줄 수 있습니다.
@@ -80,7 +77,7 @@ Experience Cloud에 로그인한 후 개인 세부 사항을 편집하고, 표�
 
 ## 알림 활성화 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-시스템 업데이트, 유지 관리 알림, 게시물, 언급 및 공유된 자산에 대한 알림(이메일을 통해 또는 제품 내에서)을 받습니다. 고객 속성에 대한 업로드 상태를 포함하여 알림을 원하는 제품 및 솔루션을 지정할 수도 있습니다.
+시스템 업데이트, 유지 관리 알림, 게시물, 언급 및 공유된 자산에 대한 알림(이메일을 통해 또는 제품 내에서)을 받습니다. 고객 속성에 대한 업로드 상태를 포함하여 알림을 받으려는 제품 및 솔루션을 지정할 수도 있습니다.
 
 알림으로 이동하려면 **[!UICONTROL 알림]** 아이콘 ![](assets/notifications-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** 아이콘 ![](assets/icon_edit_board.png)을 클릭합니다.
 
