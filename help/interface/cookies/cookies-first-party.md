@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 퍼스트 파티 쿠키
 index: y
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1464'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ SSL 인증서 발급 프로세스는 종종 혼란스럽고 시간이 걸릴 수
 
 Adobe 관리 인증서 프로그램은 자사 쿠키를 위한 새 자사 SSL 인증서를 구현하는 권장 프로세스입니다.
 
-Adobe 관리 인증서 프로그램을 사용하면 추가 비용 없이 퍼스트 파티 쿠키에 대한 새로운 퍼스트 파티 SSL 인증서를 구현할 수 있습니다(처음 100개의 CNAME에 대해). 현재 자체 고객 관리 SSL 인증서를 보유하고 있는 경우 Adobe 관리 인증서 프로그램으로 마이그레이션하는 방법에 대해 Adobe 고객 지원 센터에 문의하십시오.
+Adobe 관리 인증서 프로그램에서는 추가 비용 없이 자사 쿠키를 위한 새로운 자사 SSL 인증서를 구현할 수 있습니다(처음 100개 CNAME에 대해). 현재 자체 고객 관리 SSL 인증서를 보유하고 있는 경우 Adobe 관리 인증서 프로그램으로 마이그레이션하는 방법에 대해 Adobe 고객 지원 센터에 문의하십시오.
 
 ### 구현
 
@@ -72,7 +72,7 @@ SSL 인증서는 매년 만료됩니다. 즉, Adobe는 매년 각 구현에 대�
 | 질문 | 답변 |
 |---|---|
 | **이 프로세스는 안전합니까?** | 예, Adobe 관리 프로그램은 Adobe의 기존 방식보다 더 안전하며 Adobe와 인증 기관의 외부에서 인증서나 개인 키가 변경되지 않습니다. |
-| **Adobe는 어떻게 도메인의 인증서를 구입할 수 있습니까?** | The certificate can only be purchased when you have pointed the specified hostname (for example, `smetrics.example.com`) to an Adobe owned hostname. 이것은 본질적으로 이 호스트 이름을 Adobe에 위임하며 Adobe가 사용자를 대신하여 인증서를 구매할 수 있도록 합니다. |
+| **Adobe는 어떻게 도메인의 인증서를 구입할 수 있습니까?** | Adobe 소유 호스트 이름에 지정된 호스트 이름(예: `smetrics.example.com`)을 지정한 경우에만 인증서를 구입할 수 있습니다. 이것은 본질적으로 이 호스트 이름을 Adobe에 위임하며 Adobe가 사용자를 대신하여 인증서를 구매할 수 있도록 합니다. |
 | **인증서가 해지되도록 요청할 수 있습니까?** | 예, 도메인의 소유는 인증서를 해지하도록 요청할 수 있습니다. 이렇게 하려면 고객 지원 센터에서 티켓을 열면 됩니다. |
 | **이 인증서는 SHA-2 암호화를 사용합니까?** | 예, Adobe는 DigiCert와 협력하여 SHA-2 인증서를 발행합니다. |
 | **이 경우 추가 비용이 발생합니까?** | 아니요, Adobe는 현재 모든 Adobe Digital Experience 고객에게 추가 비용 없이 이 서비스를 제공하고 있습니다. |
