@@ -5,11 +5,11 @@ seo-title: Experience Cloud 핵심 서비스 및 사용자 관리
 solution: Experience Cloud
 title: Experience Cloud 핵심 서비스 정보
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 Adobe Experience Cloud 서비스에는 [!UICONTROL 사용자](대상 및 고객 속성), 오퍼, Experience Platform Launch 및 모바일 서비스가 포함됩니다. Experience Cloud에서 사용자 및 제품 관리에 대한 도움말에 액세스할 수도 있습니다.
 
-To access these services in the Experience Cloud, click the **[!UICONTROL Application Selector]** ![](assets/menu-icon.png).
+Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL 애플리케이션 선택기]** ![](assets/menu-icon.png)를 클릭하십시오.
 
 ![](assets/platform-core-services.png)
 
