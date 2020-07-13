@@ -6,11 +6,11 @@ seo-title: 로그인 및 프로필 설정 관리
 solution: Experience Cloud
 title: 로그인 및 Experience Cloud 프로필 설정 관리
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '962'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 97%
 
 로그인한 다음 올바른 [조직](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)에 속해 있는지 확인하십시오.
 
-1. Click the Experience Cloud menu ( ![](assets/menu-icon.png)), then click **[!UICONTROL Administration]**.
+1. Experience Cloud 풀다운 메뉴(![](assets/menu-icon.png))를 클릭한 다음 **[!UICONTROL 관리]**&#x200B;를 클릭합니다.
 
-   If the **[!UICONTROL Administration]** link is not shown, you are not an Experience Cloud administrator for the displayed [organization](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). 관리자가 되는 것과 관련하여 지원이 필요한 경우 귀사의 고객 지원 또는 기존 Experience Cloud 관리자에게 문의하십시오.
+   **[!UICONTROL 관리]** 링크가 표시되지 않으면 표시된 [조직](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)의 Experience Cloud 관리자가 아닌 것입니다. 관리자가 되는 것과 관련하여 지원이 필요한 경우 귀사의 고객 지원 또는 기존 Experience Cloud 관리자에게 문의하십시오.
 1. **[!UICONTROL 관리]**&#x200B;를 클릭합니다.
 
 1. 링크 중 하나를 클릭하여 계속하십시오. 
