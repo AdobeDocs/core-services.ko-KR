@@ -5,10 +5,10 @@ user-guide-description: Adobe Experience Cloud services include the People (Audi
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 98%
 # Experience Cloud interface help {#interface}
 
 + [Experience Cloud 및 제품 설명서](experience-cloud.md)
-+ Experience Cloud의 핵심 서비스 {#about-core-services}
-   + [핵심 서비스 개요](core-services-landing.md)
-   + [핵심 서비스용 솔루션을 사용하도록 설정](core-services/core-services.md)
++ Application services in Experience Cloud {#about-core-services}
+   + [애플리케이션 서비스 개요](core-services-landing.md)
+   + [솔루션 간 서비스 구현](core-services/core-services.md)
    + [조직에 보고서 세트 매핑](core-services/report-suite-mapping.md)
    + [Experience Cloud의 새 클라우드 이름 정보](solutions-core-services.md)
 + [Experience Cloud 통합](marketing-cloud-integrations.md)
