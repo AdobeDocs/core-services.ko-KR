@@ -2,15 +2,15 @@
 description: Experience Cloud를 사용하는 관리자를 위한 일반적인 질문과 대답입니다.
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
 seo-description: Experience Cloud를 사용하는 관리자를 위한 일반적인 질문과 대답입니다.
-seo-title: Experience Cloud 핵심 서비스에 대한 FAQ
+seo-title: Experience Cloud 코어 서비스에 대한 FAQ
 solution: Adobe Experience Cloud
 title: FAQ
 index: true
-translation-type: ht
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
+source-wordcount: '731'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Experience Cloud를 사용하는 관리자를 위한 일반적인 질문과 대�
 1. [보고서 세트를 Experience Cloud 조직에 매핑](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(Analytics 전용) Analytics AppMeasurement 코드 현대화](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Adobe Target만 해당) Adobe Target 구현 현대화](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [핵심 서비스 구현 확인](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [구현 확인](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [사용자 및 제품 관리](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [핵심 서비스 사용 시작](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
 
