@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Experience Cloud 통합
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 89%
+ht-degree: 98%
 
 ---
 
@@ -33,16 +33,16 @@ Adobe Experience Cloud는 강력한 기능들로 구성된 공통 세트를 사�
 
 솔루션 또는 서비스:
 
-* 활성화 - Dynamic Tag Management 또는 Experience Platform Launch
+* 활성화 - Experience Platform Launch(권장) 또는 다이내믹 태그 관리
 * Analytics
 * Target
 * [Experience Cloud ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)
 
 ## Experience Cloud ID 서비스 {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
-도움말: [Experience Cloud ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)
-
 ID 서비스는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다. 이 ID는 Analytics, Audience Manager, Adobe Target, 비디오 하트비트 및 기타 Experience Cloud 솔루션이나 기능 등의 서비스에 대한 ID 생성 코드를 대신할 수 있습니다.
+
+See [Experience Cloud ID Service](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)
 
 **해당 솔루션 또는 서비스**
 
@@ -66,16 +66,16 @@ Experience Cloud 대상 라이브러리에서 대상을 만들고 관리합니�
 * Audience Manager의 [세그멘테이션](https://docs.adobe.com/content/help/ko-KR/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)
 * [Media Optimizer](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)(로그인 필요)
 
-## 고객 특성 {#section_6A9EA6847F654F129381869E5016626C}
+## 고객 속성 {#section_6A9EA6847F654F129381869E5016626C}
 
-도움말: [고객 특성](attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
+도움말: [고객 속성](attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
 CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 업로드했으면 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 활용합니다.
 
 **해당 솔루션 또는 서비스**
 
-* Adobe Analytics: [고객 특성 보고서](https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)
-* Adobe Target: Configure Adobe Target&#39;s [subscription](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/subscription.html) to Customer Attributes
+* Adobe Analytics: [고객 속성 보고서](https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)
+* Adobe Target: 고객 속성에 대한 Adobe Target의 [가입](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/subscription.html) 구성
 
 ## Experience Cloud 자산이 추가되었습니다 {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
@@ -137,11 +137,11 @@ Adobe Experience Cloud Debugger 확장 프로그램을 사용하여 감사에서
 
 도움말: [Adobe Target과 Experience Cloud 통합](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audience-library.html)
 
-Adobe Target을 Adobe Analytics 및 기타 Experience Cloud 솔루션과 통합하여 두 솔루션에서 동일한 데이터, 대상, 속성 및 지표를 사용할 수 있습니다.
+Adobe Target을 Adobe Analytics 및 기타 Experience Cloud 솔루션과 통합하여 두 솔루션에서 동일한 데이터, 대상, 속성 및 지표를 사용할 수 있도록 합니다.
 
 **해당 솔루션 또는 서비스**
 
-* 고객 특성: 고객 특성에 대한 Adobe Target의 [가입](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/subscription.html) 구성
+* 고객 속성: 고객 속성에 대한 Adobe Target의 [가입](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/subscription.html) 구성
 * Experience Cloud 대상: [Experience Cloud 대상 라이브러리](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audience-library.html)
 * Analytics: [Adobe Target용 보고 소스 Adobe Analytics](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t.html)
 * Dynamic Tag Management: [DTM을 사용하여 Adobe Target을 구현하는 우수 사례](https://docs.adobe.com/content/help/ko-KR/dtm/implementing/overview.html)
@@ -182,7 +182,7 @@ AEM(Adobe Experience Manager) 자산 내의 자산을 Adobe Creative Cloud와 �
 
 ## Advertising Cloud {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-도움말(로그인 필요): [Adobe Experience Cloud 솔루션 및 핵심 서비스와의 통합](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
+Help (login required): [Integration with Adobe Experience Cloud Solutions and Services](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
 
 **해당 솔루션 또는 서비스**
 
@@ -190,7 +190,7 @@ AEM(Adobe Experience Manager) 자산 내의 자산을 Adobe Creative Cloud와 �
 
 **다이내믹 태그 관리자:** 검색, 소셜 및 디스플레이 광고 랜딩 페이지용으로 [다이내믹 태그 관리자를 사용하여 Media Optimizer 픽셀 기반 변환 추적 태그](https://docs.adobe.com/content/help/ko-KR/dtm/using/tools/media-optimizer.html)와 타사 추적 태그를 만들 수 있습니다. (Media Optimizer 내에서 직접 Media Optimizer 태그를 만들 수도 있습니다.)
 
-**Experience Cloud 대상:** (디스플레이 관리 부서가 있는 광고주) [Adobe Experience Cloud 대상](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audience-library.html) 중 하나를 디스플레이 광고의 타겟으로 사용할 수 있습니다. Adobe Experience Cloud에 게시한 Analytics의 Adobe Experience Cloud 및 대상에서 만든 대상을 자동으로 사용할 수 있으며, Media Optimizer 계정이 Audience Manager에서 대상을 사용하도록 구성할 때 Audience Manager에서 대상을 사용할 수 있습니다. Adobe Experience Cloud, 프로필 및 대상에 대한 액세스와 Media Optimizer 및 Adobe Experience Cloud 대상 간의 초기 설정에 대한 자세한 내용은 계정 관리자에게 문의하십시오. **참고:** Adobe Target도 사용하는 경우 Adobe Experience Cloud에 게시한 모든 대상을 Adobe Target의 활동에도 사용할 수 있습니다.
+**Experience Cloud 대상:** (디스플레이 관리 부서가 있는 광고주) [Adobe Experience Cloud 대상](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audience-library.html)을 디스플레이 광고 대상으로 사용할 수 있습니다. Adobe Experience Cloud에서 만든 대상과 Adobe Experience Cloud에 게시한 분석의 대상을 자동으로 사용할 수 있으며, Media Optimizer 계정이 Audience Manager의 대상 사용을 허용하도록 구성된 경우 이 대상도 사용할 수 있습니다. Adobe Experience Cloud, 프로필 및 대상에 대한 액세스와 Media Optimizer 및 Adobe Experience Cloud 대상 간 초기 설정에 대한 자세한 내용은 계정 관리자에게 문의하십시오. **참고:** Adobe Target도 사용하는 경우 Adobe Experience Cloud에 게시한 모든 대상을 Adobe Target의 활동에도 사용할 수 있습니다.
 
 **Experience Cloud 자산:** (디스플레이 관리 부서가 있는 광고주) 새 디스플레이 베타 보기를 사용하여 Adobe Experience Cloud 자산을 디스플레이 광고를 위한 크리에이티브 기능으로 사용할 수 있습니다. Adobe Experience Cloud를 통해 [Media Optimizer에 로그인해야 ](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)) Adobe Experience Cloud 자산에 액세스할 수 있습니다. Adobe Experience Cloud 액세스에 대한 자세한 내용은 계정 관리자에게 문의하십시오.
 
