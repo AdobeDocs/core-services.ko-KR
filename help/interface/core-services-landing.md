@@ -5,24 +5,26 @@ seo-title: Experience Cloud 핵심 서비스 및 사용자 관리
 solution: Experience Cloud
 title: Experience Cloud 핵심 서비스 정보
 index: true
-translation-type: ht
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: ht
-source-wordcount: '510'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 90%
 
 ---
 
 
 # Experience Cloud에 대하여 {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Adobe Experience Cloud 서비스에는 [!UICONTROL 사용자](대상 및 고객 속성), 오퍼, Experience Platform Launch 및 모바일 서비스가 포함됩니다. Experience Cloud에서 사용자 및 제품 관리에 대한 도움말에 액세스할 수도 있습니다.
+Adobe Experience Cloud services include the [!UICONTROL People] (Audiences and Customer Attributes), Experience Platform Launch, and Mobile Services. Experience Cloud 사용자 및 제품 관리에 대한 도움말도 찾을 수 있습니다.
 
 Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL 애플리케이션 선택기]** ![](assets/menu-icon.png)를 클릭하십시오.
 
 ![](assets/platform-core-services.png)
 
-Adobe Experience Platform은 기업 전체에서 데이터 및 콘텐츠를 중앙 집중화하고 표준화합니다. [!UICONTROL Experience Platform] 개발자를 위한 제품 설명서는 [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html)에 있습니다.
+>[!NOTE]
+>
+>Experience Platform에 대한 제품 설명서는 [여기에 있습니다](https://docs.adobe.com/content/help/ko-KR/experience-platform/landing/home.html). Technical documentation for [!UICONTROL Experience Platform] developers is located on [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
 
 이 도움말은 다음 제품 및 서비스에 대해 설명합니다.
 
