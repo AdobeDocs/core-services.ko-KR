@@ -6,10 +6,10 @@ seo-title: 핵심 서비스용 Experience Cloud 솔루션을 사용하도록 설
 solution: Experience Cloud
 title: 핵심 서비스용 솔루션을 사용하도록 설정
 index: true
-translation-type: ht
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: ht
-source-wordcount: '2358'
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
+source-wordcount: '2356'
 ht-degree: 100%
 
 ---
@@ -146,7 +146,7 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL Peopl
    >
    >모든 Analytics 고객에게 고객 속성과 같은 핵심 서비스가 공급됩니다. Analytics 사용자가 아닌 경우 고객 지원 센터에 문의하여 제공받을 수 있도록 요청하십시오.
 
-## Step 6. 핵심 서비스 구현 확인 {#section_E641782A0F4F44AF8C9C91216BE330D5}
+## Step 6. 구현 확인 {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
 다음 프로세스에 따라 사이트에서 Experience Cloud ID 서비스가 올바르게 구현되도록 합니다.
 
