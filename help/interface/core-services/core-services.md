@@ -2,31 +2,33 @@
 description: Experience Cloud를 구현하고 관리자가 됩니다. 이 프로세스는 고객 속성 및 대상과 같은 기능에 대한 솔루션을 현대화합니다.
 keywords: core services;Customer Attributes
 seo-description: Experience Cloud를 구현하고 관리자가 됩니다. 이 프로세스는 고객 속성 및 대상과 같은 기능에 대한 솔루션을 현대화합니다.
-seo-title: 핵심 서비스용 Experience Cloud 솔루션을 사용하도록 설정
+seo-title: 고객 속성 및 고객을 위한 Experience Cloud 솔루션 활성화
 solution: Experience Cloud
 title: 핵심 서비스용 솔루션을 사용하도록 설정
 index: true
 translation-type: tm+mt
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 100%
+source-wordcount: '2402'
+ht-degree: 96%
 
 ---
 
 
-# 핵심 서비스용 솔루션을 사용하도록 설정
+# 솔루션 간 서비스 구현
 
-기존 고객의 경우, 고객 속성 및 대상과 같은 기능을 사용할 수 있도록 솔루션 구현을 현대화하고 Experience Cloud를 구현하는 방법을 알아봅니다. 이를 실현하려면 다음 작업을 수행합니다.
+최근 Experience Platform Launch을 사용하여 Experience Cloud을 구현한 경우 고객 속성 및 Experience Cloud 대상에 대해 이미 설정되어 있습니다. Admin Console에서 사용자와 제품을 관리할 수도 있습니다.
+
+기존 고객의 경우 솔루션 구현을 현대화하고 Experience Cloud을 구현해야 할 수 있습니다. 이를 통해 Adobe Analytics, Audience Manager 및 Adobe Target에서 고객 속성 및 고객 기능을 활용할 수 있습니다. 이를 실현하려면 다음 작업을 수행합니다.
 
 1. [Experience Cloud에 참여 및 관리자 되기](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Experience Cloud ID 서비스 구현](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [보고서 세트를 Experience Cloud 조직에 매핑](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [Analytics AppMeasurement 코드 업데이트](#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [Adobe Target 구현 업데이트](#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [핵심 서비스 구현 확인](#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [구현 확인](#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [사용자 및 제품 관리](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
-1. [핵심 서비스 사용 시작](#section_960C06093623462E8EA247B3E97274A1)
+1. [속성 및 대상 데이터 공유 시작](#section_960C06093623462E8EA247B3E97274A1)
 
 ## 1단계. Experience Cloud에 참여 및 관리자 되기 {#section_2423F0BD3DF642658103310EE5EA6154}
 
@@ -187,7 +189,7 @@ Admin Console을 실행 중이면 사용자 및 제품 프로필을 관리할 �
 
 [!UICONTROL 고객 속성] 그룹에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!UICONTROL 고객 속성] 메뉴 항목이 표시됩니다.
 
-## 8단계. 핵심 서비스 사용 시작 {#section_960C06093623462E8EA247B3E97274A1}
+## 8단계. 속성 및 대상 데이터 공유 시작 {#section_960C06093623462E8EA247B3E97274A1}
 
 다음 기능을 활용할 수 있습니다.
 
