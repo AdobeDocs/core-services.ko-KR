@@ -6,11 +6,11 @@ seo-title: Experience Cloud 통합
 solution: Experience Cloud
 title: Experience Cloud 통합
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1521'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Experience Cloud는 강력한 기능들로 구성된 공통 세트를 사�
 
 솔루션 또는 서비스:
 
-* 활성화 - Experience Platform Launch(권장) 또는 다이내믹 태그 관리
+* 활성화 - Experience Platform Launch(권장) 또는 Dynamic Tag Management
 * Analytics
 * Target
 * [Experience Cloud ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)
@@ -42,7 +42,7 @@ Adobe Experience Cloud는 강력한 기능들로 구성된 공통 세트를 사�
 
 ID 서비스는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다. 이 ID는 Analytics, Audience Manager, Adobe Target, 비디오 하트비트 및 기타 Experience Cloud 솔루션이나 기능 등의 서비스에 대한 ID 생성 코드를 대신할 수 있습니다.
 
-See [Experience Cloud ID Service](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)
+[Experience Cloud ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 참조하십시오
 
 **해당 솔루션 또는 서비스**
 
@@ -182,7 +182,7 @@ AEM(Adobe Experience Manager) 자산 내의 자산을 Adobe Creative Cloud와 �
 
 ## Advertising Cloud {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-Help (login required): [Integration with Adobe Experience Cloud Solutions and Services](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
+도움말(로그인 필요): [Adobe Experience Cloud 솔루션 및 서비스와의 통합](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
 
 **해당 솔루션 또는 서비스**
 
