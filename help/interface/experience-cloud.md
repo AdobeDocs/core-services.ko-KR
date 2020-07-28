@@ -6,11 +6,11 @@ seo-title: Adobe Experience Cloud 및 핵심 서비스 도움말 및 제품 설�
 solution: Adobe Experience Cloud
 title: Experience Cloud 및 핵심 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '405'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
