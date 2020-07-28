@@ -2,15 +2,15 @@
 description: Experience Cloud를 사용하는 관리자를 위한 일반적인 질문과 대답입니다.
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
 seo-description: Experience Cloud를 사용하는 관리자를 위한 일반적인 질문과 대답입니다.
-seo-title: Experience Cloud 코어 서비스에 대한 FAQ
+seo-title: Experience Cloud 핵심 서비스에 대한 자주 묻는 질문.
 solution: Adobe Experience Cloud
 title: FAQ
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '731'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
