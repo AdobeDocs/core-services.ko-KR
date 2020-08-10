@@ -4,21 +4,21 @@ user-guide-title: Experience Cloud 인터페이스 사용 안내서
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud interface help {#interface}
+# Experience Cloud 인터페이스 도움말 {#interface}
 
 + [Experience Cloud 및 제품 설명서](experience-cloud.md)
-+ Application services in Experience Cloud {#about-core-services}
++ Experience Cloud의 애플리케이션 서비스 {#about-core-services}
    + [애플리케이션 서비스 개요](core-services-landing.md)
-   + [솔루션 간 서비스 구현](core-services/core-services.md)
+   + [솔루션 간 서비스 구현 활성화](core-services/core-services.md)
    + [조직에 보고서 세트 매핑](core-services/report-suite-mapping.md)
    + [Experience Cloud의 새 클라우드 이름 정보](solutions-core-services.md)
 + [Experience Cloud 통합](marketing-cloud-integrations.md)
