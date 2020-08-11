@@ -17,7 +17,7 @@ ht-degree: 71%
 
 # 고객 특성
 
-> **[!DNL Experience Platform]** 사람 **[!UICONTROL >]** 고객 속성 **[!UICONTROL 으로이동합니다.]**
+**[!DNL Experience Platform]** > 사람 **[!UICONTROL >]** 고객 속성 **[!UICONTROL 으로이동합니다.]**
 
 CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 업로드했으면 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 활용합니다.
 
