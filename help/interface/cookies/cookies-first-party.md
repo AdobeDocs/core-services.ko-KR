@@ -7,10 +7,10 @@ solution: Experience Cloud,Analytics
 title: 퍼스트 파티 쿠키
 index: y
 snippet: y
-translation-type: ht
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: ht
-source-wordcount: '1464'
+translation-type: tm+mt
+source-git-commit: f9e58c6d2054a5d53ea24831bf5979c2fc3dc53b
+workflow-type: tm+mt
+source-wordcount: '1462'
 ht-degree: 100%
 
 ---
@@ -90,7 +90,7 @@ FPC 전문가는 구성된 호스트 이름과 가리키는 CNAME을 제공합�
 
 구현 코드를 변경하지 않는 한, 이 단계는 데이터 수집에 영향을 주지 않으며 구현 코드를 업데이트한 후 언제든지 완료할 수 있습니다.
 
->[!N참고:]
+>[!NOTE]
 >
 >Experience Cloud 방문자 ID 서비스에서는 자사 쿠키를 활성화하도록 CNAME을 구성하는 것에 대한 대안을 제공하지만, 최근의 Apple ITP 변경 사항으로 인해 Experience Cloud ID 서비스를 사용하는 경우에도 여전히 CNAME을 할당하는 것이 좋습니다.
 
@@ -104,7 +104,7 @@ CNAME이 설정되어 있고 인증서가 설치되어 있으면 브라우저를
 
 `https://sstats.adobe.com/_check`
 
->[!N참고:]
+>[!NOTE]
 >
 >인증서가 설치되어 있지 않으면 보안 경고가 표시됩니다.
 
