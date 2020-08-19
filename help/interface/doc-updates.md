@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 설명서 업데이트 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 84%
+source-wordcount: '263'
+ht-degree: 95%
 
 ---
 
@@ -19,16 +19,20 @@ ht-degree: 84%
 
 Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 
-**업데이트됨: 2020년 5월 19일**
+**업데이트 날짜: 2020/8/19**
 
-상세한 오퍼 관리 문서.
+정책 [정보로 Experience Cloud 사용자 세부 사항 보기(관리 도구)](admin-getting-started/admin-tool-experience-cloud.md) 업데이트
 
-**업데이트됨: 2020년 5월 15일**
+**업데이트 날짜: 2020/5/19**
+
+사용되지 않는 오퍼 관리 설명서입니다.
+
+**업데이트 날짜: 2020/5/15**
 
 다음 페이지가 추가되었습니다.
 
-* [일반 데이터 보호 규정 지원](attributes/gdpr.md)
-* [Support for California Consumer Privacy Act](attributes/ccpa.md)
+* [개인 정보 보호 규정 지원](attributes/gdpr.md)
+* [캘리포니아 소비자 개인 정보 보호법 지원](attributes/ccpa.md)
 
 **업데이트됨: 2020년 3월 10일**
 
@@ -44,7 +48,7 @@ Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 
 **업데이트 날짜: 2018년 6월 8일**
 
-Updated [About data file and data sources for Customer Attributes](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) with information about uploading multiple files.
+[고객 속성의 데이터 파일 및 데이터 소스 정보](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)를 여러 개의 파일 업로드에 대한 정보로 업데이트했습니다.
 
 **업데이트 날짜: 2018년 6월 6일**
 
