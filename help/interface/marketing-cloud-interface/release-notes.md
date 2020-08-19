@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 누적 릴리스 노트
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
-source-wordcount: '3929'
-ht-degree: 98%
+source-wordcount: '3968'
+ht-degree: 99%
 
 ---
 
@@ -23,16 +23,22 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 
 모든 솔루션에 대해 설명하는 릴리스 노트가 필요하면 [Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)를 참조하십시오.
 
-## 2020년 4월 -
+## 2020년 8월 -
+
+| 기능 | 설명 |
+| -----------| ---------- |
+| 관리 도구 - 정책 | 이 페이지에는 조직의 전체 Experience Cloud 정책 목록이 표시됩니다. 제품, 인스턴스, 사용자 및 개발자에 대한 정보를 제공합니다. 정책 목록의 사용자 지정 보기를 검색, 정렬 및 필터링할 수 있습니다. 자세한 내용은 [Experience Cloud 관리 도구](../admin-getting-started/admin-tool-experience-cloud.md) 도움말을 참조하십시오. |
+
+## 4월 - 2020년
 
 * Experience Cloud [!UICONTROL 피드] 페이지는 더 이상 사용되지 않습니다. (EXC-8505)
 * 새로운 브랜딩 요소를 반영하도록 Experience Cloud 로그인 페이지가 업데이트되었습니다. (EXC-10747)
 
-## 2020년 2월 -
+## 2월 - 2020년
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| 관리 도구 - 사용자 세부 정보 보기 | 관리자는 새로운 관리 도구에서 모든 Experience Cloud 사용자의 정렬 및 필터링 가능한 목록과 세부 정보를 볼 수 있습니다. 사용자 세부 정보에는 사용자의 제품 액세스, 역할 및 마지막으로 액세스한 정보가 포함됩니다. 자세한 내용은 [Experience Cloud 관리 도구](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) 도움말을 참조하십시오. |
+| 관리 도구 - 사용자 세부 정보 보기 | 관리자는 새로운 관리 도구에서 모든 Experience Cloud 사용자의 정렬 및 필터링 가능한 목록과 세부 정보를 볼 수 있습니다. 사용자 세부 정보에는 사용자의 제품 액세스, 역할 및 마지막으로 액세스한 정보가 포함됩니다. 자세한 내용은 [Experience Cloud 관리 도구](../admin-getting-started/admin-tool-experience-cloud.md) 도움말을 참조하십시오. |
 
 **수정 사항**
 
@@ -55,7 +61,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 * Experience Cloud 솔루션 제품군의 Marketo와 Experience Platform에 대한 브랜딩 업데이트를 포함하도록 앱 전환기를 업데이트했습니다. (MCUI-6529)
 * 피드 및 관리 페이지에 대한 탐색 링크를 포함하도록 Experience Cloud 홈을 업데이트했습니다. (MCUI-6682)
 * &quot;like&quot; 절의 올바른 사용을 위해 [!UICONTROL 트리거] 정의에서 문제를 수정했습니다. (MCUI-6611)
-* 가입 서비스에서 개선된 로그인을 위한 고객 특성 개선합니다. (MCUI-6519)
+* 가입 서비스에서 개선된 로그인을 위한 고객 속성 개선합니다. (MCUI-6519)
 
 ## 릴리스 19.1.1 - 2019년 1월 17일
 
@@ -150,14 +156,14 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 
 ## 릴리스 15.9 - 2015년 9월 10일 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
-* 고객 속성 데이터를 업로드할 때 가끔씩 시간 초과가 발생하는 Audience Manager API 성능 문제를 수정했습니다. (MAC-26305)
-* 사용자가 가입에 최대 200개의 고객 속성을 추가하지 못했던 문제를 수정했습니다. (MAC-26188)
+* 고객 속성 데이터를 업로드할 때 간혹 시간 초과를 초래하는 Audience Manager API 성능 문제를 수정했습니다. (MAC-26305)
+* 사용자가 가입에 최대 200개의 고객 속성을 추가하지 못하던 문제를 수정했습니다. (MAC-26188)
 * Analytics 세그멘테이션에서 대상 공유를 방해했던 대상 라이브러리 문제를 수정했습니다. 이 문제로 인해 &quot;데이터 수집&quot;(대상 0개)이 표시되었습니다. 이 문제를 방지하려면 세그먼트 크기를 세그먼트당 대상 구성원 수를 5만 명 미만으로 유지하는 것이 좋습니다. (MAC-25788)
-* 고객 특성 - 스키마 편집 페이지에서 디스플레이 이름을 변경하면 발생하는 컨텐츠 인식 오류를 초래하는 이전에 알려진 문제를 수정했습니다. (MAC-25589, AN-103834)
+* 고객 속성 - 스키마 편집 페이지에서 디스플레이 이름을 변경하면 발생하는 컨텐츠 인식 오류를 초래하는 이전에 알려진 문제를 수정했습니다. (MAC-25589, AN-103834)
 
 ## 릴리스 15.7 - 2015년 7월 22일 {#section_2683A152176944E48EF6C943892975B7}
 
-* 고객 속성에서 스키마 보기/편집 페이지에 지정된 속성 설명이 Analytics 보고서에서 업데이트되지 않는 문제를 해결했습니다. (MAC-25985)
+* 고객 속성의 스키마 보기/편집 페이지에 지정된 속성 설명이 Analytics 보고서에 업데이트되지 않던 문제를 수정했습니다. (MAC-25985)
 * 업로드한 자산의 썸네일을 렌더링하지 못하는 문제를 해결했습니다. (MAC-25863)
 * Experience Cloud 대상의 Reports &amp; Analytics에 새 세그먼트를 생성하지 못하는 문제를 해결했습니다. (MAC-25817)
 * 고객이 방문자 ID 서비스를 사용하면 Analytics에서 공유하지 못하는 문제를 해결했습니다. (MAC-25788, MAC-25747)
@@ -185,7 +191,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>왼쪽 탐색 메뉴가 모든 핵심 서비스 및 솔루션에 액세스할 수 있도록 업데이트 및 구성되었습니다. 주목할 만한 변경 사항은 다음과 같습니다. </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"><span class="term">대상 라이브러리</span> 및 <span class="term">고객 특성</span> 메뉴 모음이 이제 <span class="term">대상자</span> 아래에 있습니다. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"><span class="term">대상 라이브러리</span> 및 <span class="term">고객 속성</span> 메뉴 모음이 이제 <span class="term">대상자</span> 아래에 있습니다. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4"><span class="term">Exchange</span> 메뉴 선택 사항은 도움말 드롭다운 메뉴에서 왼쪽 탐색 레일로 이동되었습니다. </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> 솔루션</span>은 제거되었습니다. 탐색 레일의 하단에서 모든 솔루션을 시작할 수 있습니다. </li> 
     </ul> </td> 
@@ -193,7 +199,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
  </tbody> 
 </table>
 
-* 고객 속성이 일부 고객에 대해 동기화되지 않는 문제를 수정했습니다.
+* 일부 고객의 경우 고객 속성이 동기화되지 않던 문제를 수정했습니다.
 * [Adobe Target 제품 설명서](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t.html) 페이지가 일본어로 표시되지 않는 문제를 해결했습니다.
 * [!DNL Creative Cloud]와 [!DNL Experience Cloud] 간 주석에서 일본어 텍스트를 사용할 수 없던 문제를 수정했습니다.
 
@@ -238,8 +244,8 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>고객 특성 </p> </td> 
-   <td colname="col2"> <p>CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 데이터가 업로드된 후에 Analytics에서 <span class="uicontrol">방문자 프로필</span> &gt; <span class="uicontrol">고객 특성</span> 보고서를 실행할 수 있습니다. </p> <p>또한 <span class="keyword">Adobe Target</span>에서 업로드된 데이터를 대상 세그먼트로 사용할 수도 있습니다. </p> <p><a href="../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">고객 특성</a> 제품 설명서를 참조하십시오. </p> <p> 핵심 서비스의 솔루션 현대화에 대한 자세한 내용은 <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">핵심 서비스용 솔루션 활성화</a>를 참조하십시오. </p> </td> 
+   <td colname="col1"> <p>고객 속성 </p> </td> 
+   <td colname="col2"> <p>CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 데이터가 업로드된 후에 Analytics에서 <span class="uicontrol">방문자 프로필</span> &gt; <span class="uicontrol">고객 속성</span> 보고서를 실행할 수 있습니다. </p> <p>또한 <span class="keyword">Adobe Target</span>에서 업로드된 데이터를 대상 세그먼트로 사용할 수도 있습니다. </p> <p><a href="../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">고객 속성</a> 제품 설명서를 참조하십시오. </p> <p> 핵심 서비스의 솔루션 현대화에 대한 자세한 내용은 <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">핵심 서비스용 솔루션 활성화</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
