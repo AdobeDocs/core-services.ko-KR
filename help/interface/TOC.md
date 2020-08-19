@@ -4,11 +4,11 @@ user-guide-title: Experience Cloud 인터페이스 사용 안내서
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: ht
-source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
+source-wordcount: '358'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
    + [Analytics Premium 및 Experience Cloud로 업그레이드](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud 활성화 {#activation}
    + [활성화 개요](activation/activation.md)
-   + [Launch 사용 안내서](https://docs.adobe.com/content/help/ko-KR/launch/using/overview.html)
+   + [Experience Platform Launch 사용 안내서](https://docs.adobe.com/content/help/ko-KR/launch/using/overview.html)
    + [Dynamic Tag Manager 사용 안내서](https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Experience Cloud 자산 {#assets}
