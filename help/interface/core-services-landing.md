@@ -5,11 +5,11 @@ seo-title: Experience Cloud 핵심 서비스 및 사용자 관리
 solution: Experience Cloud
 title: Experience Cloud 핵심 서비스 정보
 index: true
-translation-type: ht
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: ht
-source-wordcount: '512'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
+source-wordcount: '516'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL �
 | [활성화](activation/activation.md) | Tag Management 시스템(Experience Platform Launch 및 Dynamic Tag Management).<br>트리거를 사용하면 Adobe Analytics의 통찰력을 기반으로 Adobe Campaign에서 실시간 조치를 수행할 수 있습니다. |
 | [관리](admin-getting-started/admin-getting-started.md) | 모든 Adobe 클라우드 및 솔루션에서 사용자 및 제품 자격을 관리합니다. |
 | [자산](experience-cloud-assets/experience-cloud-assets.md) | 모든 디지털 자산을 중앙 위치에 쉽게 저장하고, 동기화하고, 공유하여 시간을 절약하고 보다 일관된 고객 환경을 제공합니다. |
-| [Experience Platform Launch](https://docs.adobe.com/content/help/ko-KR/launch/using/overview.html) | [!UICONTROL Experience Platform Launch는 Adobe의 차세대 태그 관리 기능입니다. ] [!UICONTROL Experience Platform Launch]는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다. |
+| [Experience Platform Launch](https://docs.adobe.com/content/help/ko-KR/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] 는 사이트 및 앱에 대한 차세대 데이터 수집 및 기술 구현입니다. [!UICONTROL Experience Platform Launch]는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다. |
 | [Journey Orchestration](https://docs.adobe.com/content/help/ko-KR/journeys/using/journey-orchestration-home.html) | 이벤트 또는 데이터 소스에 저장된 컨텍스트 데이터를 활용하여 실시간 편성 사용 사례를 구축할 수 있습니다. [!UICONTROL Journey Orchestration]은 Experience Platform과 통합된 애플리케이션 서비스입니다. |
 | [위치 서비스](https://docs.adobe.com/content/help/ko-KR/places/using/home.html) | Adobe [!UICONTROL Experience Platform 위치 서비스](위치 서비스)는 위치를 인식하는 모바일 앱이 유연한 관심 영역(POI) 데이터베이스를 동반하는 풍부하고 사용하기 쉬운 SDK 인터페이스를 사용하여 위치 컨텍스트를 이해할 수 있도록 해주는 지리적 위치 서비스입니다. |
 | [Exchange](exchange.md) | 앱을 통해 디지털 마케팅 확장 기능을 검색, 탐색, 선택, 결제 및 다운로드합니다. |
