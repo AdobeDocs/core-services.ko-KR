@@ -6,9 +6,9 @@ seo-title: Experience Cloud 사용자 및 제품 관리
 solution: Experience Cloud
 title: Experience Cloud 사용자 및 제품 관리
 index: true
-translation-type: ht
-source-git-commit: 1d3f4449f1f3b939e5dc61ad9838475be73f0cfa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
 source-wordcount: '1455'
 ht-degree: 100%
 
@@ -94,6 +94,7 @@ Analytics 사용자 ID 마이그레이션 도구는 Analytics 관리자가 Analy
 Adobe Target에서 작업 공간은 제품 프로필입니다. 이를 통해 조직에서는 특정 사용자 세트를 특정 속성 세트에 할당할 수 있습니다. 여러 가지 방식에서 작업 공간은 Adobe Analytics의 보고서 세트와 비슷합니다.
 
 다음을 참조하십시오.
+
 * [Enterprise 사용자 권한](https://docs.adobe.com/content/help/ko-KR/target/using/administer/manage-users/enterprise/property-channel.html)
 * [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-products-and-profiles.html)
 * 비디오: [Adobe Admin Console에서 Adobe Target 작업 공간을 구성하는 방법](https://helpx.adobe.com/kr/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
