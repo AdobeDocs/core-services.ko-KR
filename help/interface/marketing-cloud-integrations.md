@@ -6,11 +6,11 @@ seo-title: Experience Cloud 통합
 solution: Experience Cloud
 title: Experience Cloud 통합
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: ht
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: ht
-source-wordcount: '1521'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
+source-wordcount: '1523'
+ht-degree: 98%
 
 ---
 
@@ -119,7 +119,7 @@ Experience Cloud 솔루션 또는 Audience Manager의 기타 외부 시스템에
 
 Experience Cloud 활성화 솔루션을 사용하여 Experience Cloud 솔루션을 설정 및 디버깅합니다.
 
-1. [Launch](https://docs.adobe.com/content/help/ko-KR/launch/using/overview.html) 또는 [Dynamic Tag Management](https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html)을 사용하여 페이지에서 [](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62)Adobe Experience Cloud 솔루션을 활성화하는 코드를 삽입합니다.
+1. Use [Experience Platform Launch](https://docs.adobe.com/content/help/ko-KR/launch/using/overview.html) or [Dynamic Tag Management](https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html) to insert code that activates [Adobe Experience Cloud solutions](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) on your pages.
 1. [Adobe Cloud Platform Auditor](https://docs.adobe.com/content/help/ko-KR/auditor/using/overview.html)를 사용하여 구현을 테스트합니다.
 
 Adobe Experience Cloud Debugger 확장 프로그램을 사용하여 감사에서 발견한 문제를 디버깅하거나 구현에 대한 다른 정보를 조사합니다.
