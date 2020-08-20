@@ -7,10 +7,10 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 및 핵심 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: f3c71939325689efa64f5bb8b3a4ff62bbbebed0
+source-git-commit: 8e165bb47d7e947b817c51e496c3e493cb02d4fc
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 99%
+source-wordcount: '392'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 
 * [[!UICONTROL 대상 라이브러리]](audience-library/audience-library.md)
 * [[!UICONTROL 고객 속성]](attributes/attributes.md)
 * [[!UICONTROL Triggers]](activation/triggers.md)
-* [Experience Cloud 자산](experience-cloud-assets/experience-cloud-assets.md)
+* [[!UICONTROL Experience Cloud 자산이 추가되었습니다]](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud 쿠키](cookies/cookies-privacy.md)
 
 ## 사용자 및 제품 관리
@@ -37,8 +37,7 @@ Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 
 * [조직 및 계정 연결](admin-getting-started/organizations.md)
 * [통합](marketing-cloud-integrations.md)
 * [Adobe Target과 Experience Cloud 통합](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t.html)
-* [Experience Cloud 개인 정보 보호 및 보안 개요](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [Adobe Experience Cloud의 프로필 관리](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/)(블로그)
+* [Experience Cloud 개인 정보 및 보안 개요](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS 프리페치](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## 관련 Experience Cloud 도움말
@@ -55,14 +54,11 @@ Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html)
 * [[!UICONTROL 대상자]](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audience-library.html)
-* [자산](experience-cloud-assets/experience-cloud-assets.md)
-* [고객 속성](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/attributes.html)
+* [[!UICONTROL 고객 속성]](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/attributes.html)
 * [Device Co-op](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/home.html)
-* [Dynamic Tag Management](https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Experience Cloud ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobelaunch.com/)
 * [Experience Cloud Debugger](https://docs.adobe.com/content/help/ko-KR/debugger/using/experience-cloud-debugger.html)
 * [일반 데이터 보호 규정(GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-
-
+* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html)
