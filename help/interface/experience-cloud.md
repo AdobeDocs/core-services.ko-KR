@@ -6,16 +6,16 @@ seo-title: Adobe Experience Cloud 및 핵심 서비스 도움말 및 제품 설�
 solution: Adobe Experience Cloud
 title: Experience Cloud 및 핵심 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: ht
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: ht
-source-wordcount: '405'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f3c71939325689efa64f5bb8b3a4ff62bbbebed0
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 99%
 
 ---
 
 
-# Experience Cloud 인터페이스 제품 설명서
+# Experience Cloud 인터페이스 설명서
 
 Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 제품입니다. 또한 클라우드 솔루션 및 핵심 서비스에 빠르게 액세스할 수 있는 직관적인 인터페이스입니다.
 
@@ -23,9 +23,9 @@ Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 
 
 이 페이지에서는 다음 기능 및 서비스에 대한 제품 설명서에 액세스할 수 있습니다.
 
-* [대상 라이브러리](audience-library/audience-library.md)
-* [고객 속성](attributes/attributes.md)
-* [Triggers](activation/triggers.md)
+* [[!UICONTROL 대상 라이브러리]](audience-library/audience-library.md)
+* [[!UICONTROL 고객 속성]](attributes/attributes.md)
+* [[!UICONTROL Triggers]](activation/triggers.md)
 * [Experience Cloud 자산](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud 쿠키](cookies/cookies-privacy.md)
 
@@ -51,10 +51,10 @@ Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 
 * [고객 경험 블로그](https://theblog.adobe.com/customer-experience/) - Experience Cloud 블로그 보기
 * [고객 지원](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html) - Adobe 고객 지원 센터에 문의
 
-## Experience Platform 제품 설명서
+## Experience Platform 설명서
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html)
-* [대상자](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audience-library.html)
+* [[!UICONTROL 대상자]](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audience-library.html)
 * [자산](experience-cloud-assets/experience-cloud-assets.md)
 * [고객 속성](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/attributes.html)
 * [Device Co-op](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/home.html)
