@@ -5,11 +5,11 @@ seo-title: 다양한 솔루션 및 서비스에서 DNS 프리페치 사용
 solution: Experience Cloud
 title: 다양한 솔루션 및 서비스에서 DNS 프리페치 사용
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3e86fe7ee638158b5f9d6fa4405caaeb9b092430
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,9 +51,9 @@ DNS 프리페치는 페이지에 포함된 정적 링크에서 자동으로 작�
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
 
 
-* **[!DNL Target]:**`<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
+* **[!DNL Target]:** `<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [DNS 프리페치](https://www.chromium.org/developers/design-documents/dns-prefetching)
 
