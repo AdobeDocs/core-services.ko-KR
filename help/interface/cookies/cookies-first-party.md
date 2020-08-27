@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 퍼스트 파티 쿠키
 index: y
 snippet: y
-translation-type: ht
-source-git-commit: f9e58c6d2054a5d53ea24831bf5979c2fc3dc53b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b34cec87be58b9a4df3e9b061010689e5db4adb6
+workflow-type: tm+mt
 source-wordcount: '1462'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -110,7 +110,7 @@ CNAME이 설정되어 있고 인증서가 설치되어 있으면 브라우저를
 
 ### [!DNL curl]을 사용하여 유효성 확인
 
-명령줄에서 [!DNL [curl](https://curl.haxx.se/)]을 사용하는 것이 좋습니다. ([!DNL Windows] 사용자는 <https://curl.haxx.se/windows/>에서 [!DNL curl]을 설치할 수 있습니다.)
+Adobe recommends using [[!DNL curl]](https://curl.haxx.se/) from the command line. ([!DNL Windows] 사용자는 <https://curl.haxx.se/windows/>에서 [!DNL curl]을 설치할 수 있습니다.)
 
 CNAME이 있지만 인증서가 설치되어 있지 않다면 `curl -k https://sstats.adobe.com/_check`를 실행하십시오.
 응답: `SUCCESS`
