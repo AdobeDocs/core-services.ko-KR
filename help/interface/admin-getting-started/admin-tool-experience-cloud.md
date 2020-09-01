@@ -6,11 +6,11 @@ seo-title: Experience Cloud 사용자 및 사용자 세부 사항 보기
 solution: Experience Cloud
 title: 'Experience Cloud 사용자 및 사용자 세부 사항 보기 '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b0b42d8b06388e396bf2959503fe484c8b3a66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->User and product management is configured in the [Admin Console](admin-getting-started.md).
+>사용자 및 제품 관리는 [Admin Console](admin-getting-started.md)에서 구성됩니다.
 
 1. `https://experience.adobe.com/.`에 로그인합니다.
 
    ![](assets/admin-tool.png)
 
-1. 빠른 [!UICONTROL 액세스]아래에서 **[!UICONTROL 관리 도구를 클릭합니다.]**
+1. [!UICONTROL 빠른 액세스] 아래에서 **[!UICONTROL 관리 도구]**&#x200B;를 클릭합니다.
 
    (또는 홈 페이지 URL에서 _home_&#x200B;을 _admin_&#x200B;으로 바꿀 수 있습니다.)
 
@@ -69,7 +69,7 @@ ht-degree: 93%
 
 각 사용자의 상세 보기에는 사용자의 솔루션 액세스, 관리자 및 제품 역할 및 마지막으로 액세스한 정보에 대한 중요한 세부 사항이 표시됩니다.
 
-## 섹션 정보
+## 섹션에 대하여
 
 이 섹션에는 다음과 같은 사용자 계정 요약이 표시됩니다.
 
@@ -132,7 +132,7 @@ ht-degree: 93%
 
 각 제품 프로필에 대한 세부 보기에는 제품 프로필의 주제(사용자, 그룹 등)에 대한 중요한 세부 정보가 표시됩니다. 제품 프로필에서 활성화한 권한 및 리소스도 표시합니다.
 
-제품 프로필의 세부 사항을 CSV 파일로 내보낼 수 있습니다. CSV [!UICONTROL 내보내기] 옵션을 사용하면 두 개의 CSV 파일이 생성됩니다.
+제품 프로필의 세부 사항을 CSV 파일로 내보낼 수 있습니다. [!UICONTROL CSV 내보내기] 옵션을 사용하면 두 개의 CSV 파일이 생성됩니다.
 
 * 제목 세부 정보(사용자, 사용자 그룹, 개발자, 통합, 관리자)
 * 권한 및 리소스 항목
