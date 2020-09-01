@@ -6,9 +6,9 @@ seo-title: Experience Cloud 사용자 및 제품 관리
 solution: Experience Cloud
 title: Experience Cloud 사용자 및 제품 관리
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1455'
 ht-degree: 100%
 
@@ -140,7 +140,7 @@ Audience Manager 도움말의 [관리](https://docs.adobe.com/content/help/ko-KR
 1. [Admin Console](https://adminconsole.adobe.com/enterprise/)에서 **[!UICONTROL 제품]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 새 프로필]**&#x200B;을 클릭합니다.
 1. 프로필 세부 사항을 구성한 후 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
-1. **[!UICONTROL 완료를 클릭합니다]**.
+1. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
 
 다음에서 추가 도움말을 참조하십시오.
 
