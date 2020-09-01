@@ -6,11 +6,11 @@ seo-title: Adobe Experience Cloud 및 핵심 서비스 도움말 및 제품 설�
 solution: Adobe Experience Cloud
 title: Experience Cloud 및 핵심 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e165bb47d7e947b817c51e496c3e493cb02d4fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 
 * [[!UICONTROL 대상 라이브러리]](audience-library/audience-library.md)
 * [[!UICONTROL 고객 속성]](attributes/attributes.md)
 * [[!UICONTROL Triggers]](activation/triggers.md)
-* [[!UICONTROL Experience Cloud 자산이 추가되었습니다]](experience-cloud-assets/experience-cloud-assets.md)
+* [Experience Cloud [!UICONTROL 자산]](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud 쿠키](cookies/cookies-privacy.md)
 
 ## 사용자 및 제품 관리
@@ -37,7 +37,7 @@ Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 
 * [조직 및 계정 연결](admin-getting-started/organizations.md)
 * [통합](marketing-cloud-integrations.md)
 * [Adobe Target과 Experience Cloud 통합](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t.html)
-* [Experience Cloud 개인 정보 및 보안 개요](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
+* [Experience Cloud 개인 정보 보호 및 보안 개요](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS 프리페치](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## 관련 Experience Cloud 도움말
