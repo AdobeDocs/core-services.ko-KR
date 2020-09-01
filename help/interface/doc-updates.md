@@ -6,11 +6,11 @@ seo-title: 설명서 업데이트 - Experience Cloud
 solution: Experience Cloud
 title: 설명서 업데이트 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 
 **업데이트 날짜: 2020/8/19**
 
-정책 [정보로 Experience Cloud 사용자 세부 사항 보기(관리 도구)](admin-getting-started/admin-tool-experience-cloud.md) 업데이트
+정책 정보로 업데이트한 [Experience Cloud 사용자 세부 사항 보기(관리 도구)](admin-getting-started/admin-tool-experience-cloud.md)
 
 **업데이트 날짜: 2020/5/19**
 
