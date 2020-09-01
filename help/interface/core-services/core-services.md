@@ -6,9 +6,9 @@ seo-title: 고객 속성 및 대상을 위한 Experience Cloud 솔루션 활성�
 solution: Experience Cloud
 title: 핵심 서비스용 솔루션을 사용하도록 설정
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2402'
 ht-degree: 100%
 
@@ -142,7 +142,7 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL Peopl
 
 * 라이브러리 검색이 자동으로 수행되도록 [Experience Platform Launch](https://docs.adobe.com/content/help/ko-KR/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html)에서 [!UICONTROL Adobe Target 확장]을 추가하는 것이 좋습니다. [!UICONTROL Experience Platform Launch]를 사용하여 Adobe Target(및 기타 솔루션)용으로 [Experience Cloud ID 서비스 확장](https://docs.adobe.com/content/help/ko-KR/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html)을 설정할 수도 있습니다. Adobe Target에서 핵심 서비스를 사용하려면 [!UICONTROL Experience Cloud ID 서비스] 업데이트가 **필요합니다**. ([!UICONTROL Dynamic Tag Management]를 사용하는 경우 [Adobe Target 도구](https://docs.adobe.com/content/help/ko-KR/dtm/using/tools/target.html)를 추가하십시오. [!UICONTROL Dynamic Tag Management]를 사용하여 Adobe Target용으로 Experience Cloud ID 서비스를 배포할 수도 있습니다.)
 * [!UICONTROL Experience Platform Launch]나 [!UICONTROL Dynamic Tag Management]를 사용하지 않는 경우 수동으로 [mbox 라이브러리를 업데이트하십시오](https://docs.adobe.com/content/help/ko-KR/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html).
-* [!DNL Adobe Target]에 대한 보고 소스로 Adobe Analytics를 사용하기 위한 액세스 권한을 요청하십시오. [!DNL Target] 및 데이터가 처리 중에 동일한 서버 호출에 결합되므로 방문자가 두 솔루션 간에 연결됩니다. [!DNL Analytics] [Analytics for Target 구현](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t.html)을 참조하십시오.
+* [!DNL Adobe Target]에 대한 보고 소스로 Adobe Analytics를 사용하기 위한 액세스 권한을 요청하십시오. [!DNL Target] 및 [!DNL Analytics] 데이터가 처리 중에 동일한 서버 호출에 결합되므로 방문자가 두 솔루션 간에 연결됩니다. [Analytics for Target 구현](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t.html)을 참조하십시오.
 
    >[!IMPORTANT]
    >
