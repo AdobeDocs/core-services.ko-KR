@@ -5,11 +5,11 @@ seo-title: 다양한 솔루션 및 서비스에서 DNS 프리페치 사용
 solution: Experience Cloud
 title: 다양한 솔루션 및 서비스에서 DNS 프리페치 사용
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3e86fe7ee638158b5f9d6fa4405caaeb9b092430
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '396'
+ht-degree: 100%
 
 ---
 
