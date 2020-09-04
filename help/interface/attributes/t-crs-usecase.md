@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 고객 속성 소스를 만들고 데이터 파일 업로드
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
 workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 89%
 
 고객 속성 소스(CSV 및 FIN 파일)를 생성하고 데이터를 업로드하십시오. 준비가 되면 데이터 소스를 활성화할 수도 있습니다. 데이터 소스가 활성화되면 속성 데이터를 Analytics 및 Target과 공유합니다.
 
-## 고객 특성 워크플로우 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
+## 고객 속성 워크플로우 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
 ![](assets/crs.png)
 
@@ -30,16 +30,16 @@ ht-degree: 89%
 
 데이터 소스가 활성 상태가 되면 다음을 수행할 수 있습니다.
 
-* [Adobe Analytics에서 고객 속성 사용](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
-* [Adobe Target에서 고객 속성 사용](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
+* [Adobe Analytics에서 고객 속성 사용 ](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
+* [Adobe Target에서 고객 속성 사용 ](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
 >[!IMPORTANT]
 >
->이 기능에 액세스하려면 고객 특성 제품 프로필(고객 특성 - 기본 액세스)에 사용자를 지정해야 합니다. Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin. Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu on the left side of the Experience Cloud interface.
+>이 기능에 액세스하려면 고객 속성 제품 프로필(고객 속성 - 기본 액세스)에 사용자를 지정해야 합니다. **[!UICONTROL 관리]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 제품]**&#x200B;으로 이동합니다. *고객 속성*&#x200B;이 [!UICONTROL 제품 프로필] 중 하나로 표시되면 작업을 시작할 수 있습니다. 고객 속성 그룹에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!UICONTROL 고객 속성] 메뉴가 표시됩니다.
 >
->고객 속성 기능을 사용하려면 사용자가 솔루션 수준 그룹(Analytics 또는)에도 속해야 [!DNL Target]합니다.
+>고객 속성 기능을 사용하려면 사용자가 솔루션 수준 그룹(Analytics 또는 [!DNL Target])에도 속해야 합니다.
 
-See [Manage Experience Cloud users and products](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
+[Experience Cloud 사용자 및 제품 관리](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)를 참조하십시오.
 
 ## 데이터 파일 만들기 {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
@@ -67,9 +67,9 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 >고객 속성 소스를 만들거나, 수정하거나 삭제할 때, ID가 새 데이터 소스와의 동기화를 시작하기 전에 최대 한 시간이 지연됩니다. 고객 속성 소스를 만들거나 수정하려면 Audience Manager에 관리 권한이 있어야 합니다. 관리 권한을 얻으려면 Audience Manager 고객 지원 센터 또는 컨설팅 팀에 문의하십시오.
 
 1. [!DNL Experience Cloud]에서 메뉴 ![](assets/menu-icon.png) 아이콘을 클릭합니다.
-1. **[!DNL Experience Platform]**&#x200B;에서 **[!UICONTROL 사용자]**> **[!UICONTROL 고객 특성]**&#x200B;을 클릭합니다.
+1. **[!DNL Experience Platform]**&#x200B;에서 **[!UICONTROL 사용자]**> **[!UICONTROL 고객 속성]**&#x200B;을 클릭합니다.
 
-   [!UICONTROL 고객 특성] 페이지에서 기존 특성 데이터 소스를 관리 및 편집할 수 있습니다.
+   [!UICONTROL 고객 속성] 페이지에서 기존 속성 데이터 소스를 관리 및 편집할 수 있습니다.
 
    ![단계 결과](assets/03_crs_usecase.png)
 1. **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
@@ -125,7 +125,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
    * **[!UICONTROL 고객 제공 ID가 Experience Cloud 방문자 ID로 별칭 지정됨:]** 몇 개의 ID가 Experience Cloud ID에 별칭이 지정되었는지 표시합니다.
 
-   * **[!UICONTROL 별칭 개수가 많은 고객 제공 ID:]** 500개 이상의 별칭 지정된 Experience Cloud 방문자 ID가 있는 고객 제공 ID 개수를 표시합니다. 이러한 고객 제공 ID는 개인을 나타내기보다는 일종의 공유 로그인을 나타낼 수 있습니다. 시스템은 이러한 ID와 연결된 특성을 최근에 별칭으로 지정된 500개의 Experience Cloud 방문자 ID에 배포하며 별칭 수가 10,000개가 될 때까지 이 작업을 계속합니다. 이 수에 도달하면 시스템은 고객 제공 ID를 무효화하고 더 이상 연결된 속성을 배포하지 않습니다.
+   * **[!UICONTROL 별칭 개수가 많은 고객 제공 ID:]** 500개 이상의 별칭 지정된 Experience Cloud 방문자 ID가 있는 고객 제공 ID 개수를 표시합니다. 이러한 고객 제공 ID는 개인을 나타내기보다는 일종의 공유 로그인을 나타낼 수 있습니다. 시스템은 이러한 ID와 연결된 속성을 최근에 별칭으로 지정된 500개의 Experience Cloud 방문자 ID에 배포하며 별칭 수가 10,000개가 될 때까지 이 작업을 계속합니다. 이 수에 도달하면 시스템은 고객 제공 ID를 무효화하고 더 이상 연결된 속성을 배포하지 않습니다.
 
 
 
@@ -156,24 +156,21 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
 ![단계 결과](assets/activate_attribute_source.png)
 
-## Use Customer Attributes in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
+## Adobe Analytics에서 고객 속성 사용 {#task_7EB0680540CE4B65911B2C779210915D}
 
-데이터를
-<keyword>
-Adobe Analytics
-</keyword>와 같은 솔루션에서 사용 가능한 데이터로 마케팅 캠페인에서 데이터를 보고하고 분석하며 적절한 작업을 수행할 수 있습니다.
+이제 Adobe Analytics과 같은 솔루션에서 데이터를 사용할 수 있으므로 데이터에 대해 보고하고 분석하여 마케팅 캠페인에서 적절한 조치를 취할 수 있습니다.
 
 다음 예에서는 업로드한 속성에 따른 [!DNL Analytics] 세그먼트를 보여줍니다. 이 세그먼트는 최근에 실행한 제품이 Photoshop인 [!DNL Photoshop Lightroom] 가입자를 보여줍니다.
 
 ![](assets/08_crs_usecase.png)
 
-Experience Cloud에 세그먼트를 게시하면 Experience Cloud 대상 및 Audience Manager에서 사용할 수 있습니다.
+Experience Cloud에 게시한 세그먼트는 Experience Cloud 대상 및 Audience Manager에서 사용할 수 있습니다.
 
-자세한 내용은 Analytics 도움말의 [고객 특성 보고서](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)를 참조하십시오.
+자세한 내용은 Analytics 도움말의 [고객 속성 보고서](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)를 참조하십시오.
 
-## Use Customer Attributes in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## Adobe Target에서 고객 속성 사용 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-[!DNL Target]에서는 대상을 만들 때 방문자 프로필 섹션에서 고객 속성을 선택할 수 있습니다.  All Customer Attributes will have the prefix [!DNL crs.] in the list. 필요에 따라 이러한 특성을 다른 데이터 특성과 결합하여 대상을 구성합니다.
+[!DNL Target]에서는 대상을 만들 때 [!UICONTROL 방문자 프로필] 섹션에서 고객 속성을 선택할 수 있습니다. 모든 고객 속성은 목록에 접두사 [!DNL crs.]을 갖게 됩니다. 필요에 따라 이러한 속성을 다른 데이터 속성과 결합하여 대상을 구성합니다.
 
 ![](assets/crs-add-attribute-target.png)
 
