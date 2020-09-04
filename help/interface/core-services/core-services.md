@@ -6,9 +6,9 @@ seo-title: 고객 속성 및 대상을 위한 Experience Cloud 솔루션 활성�
 solution: Experience Cloud
 title: 핵심 서비스용 솔루션을 사용하도록 설정
 index: true
-translation-type: ht
-source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 100%
 
@@ -136,7 +136,7 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL Peopl
 
 방문자 API를 비롯한 JavaScript 라이브러리를 업데이트하여 Analytics 구현을 현대화하는 것이 좋습니다. Dynamic Tag Management에서 [!DNL Adobe Analytics] 도구를 추가하고 구성 방법으로 *`Automatic`*&#x200B;을 지정하는 간편한 방법입니다.
 
-[!UICONTROL Dynamic Tag Management]에서 **[!UICONTROL <Web Property Name>]**>**[!UICONTROL &#x200B;개요&#x200B;]**>**[!UICONTROL &#x200B;도구 추가&#x200B;]**>**[!UICONTROL  Adobe Analytics ]**를 클릭합니다. 배포에 대해서는 Dynamic Tag Management에서[Adobe Analytics 설정](https://docs.adobe.com/content/help/ko-KR/dtm/using/tools/analytics-dtm.html)을 참조하십시오.
+[!UICONTROL Dynamic Tag Management]에서 **`<Web Property Name>`** > **[!UICONTROL 개요]** > **[!UICONTROL 도구 추가]** > **[!UICONTROL Adobe Analytics]**&#x200B;를 클릭합니다. 배포에 대해서는 Dynamic Tag Management에서 [Adobe Analytics 설정](https://docs.adobe.com/content/help/ko-KR/dtm/using/tools/analytics-dtm.html)을 참조하십시오.
 
 ## 5단계. (Adobe Target) Adobe Target 구현 업데이트 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
