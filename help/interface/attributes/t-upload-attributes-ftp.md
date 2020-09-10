@@ -6,9 +6,9 @@ seo-title: 선택 사항 - FTP를 통해 데이터 파일 업로드
 solution: Experience Cloud
 title: 선택 사항 - FTP를 통해 데이터 파일 업로드
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Experience Cloud에서 고객 특성 소스 및 FTP 계정을 만든 후에 데�
 
 1. [고객 속성 소스를 만들고 데이터 파일 업로드...](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
-   FTP 사이트 `ftp.adobe.com/<sftpname>`.
+   `ftp.adobe.com/<sftpname>`에서 FTP 사이트에 로그인했는지 확인하십시오.
 
 1. **[!UICONTROL 작업]** > **[!UICONTROL 파일 업로드]**&#x200B;를 클릭합니다.
 
