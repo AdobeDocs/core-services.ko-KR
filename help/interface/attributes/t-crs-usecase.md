@@ -6,11 +6,11 @@ seo-title: 고객 속성 소스를 만들고 데이터 파일 업로드
 solution: Experience Cloud
 title: 고객 속성 소스를 만들고 데이터 파일 업로드
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
