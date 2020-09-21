@@ -1,15 +1,15 @@
 ---
 audience: end-user
-user-guide-title: Experience Cloud 인터페이스 사용 안내서
+user-guide-title: Experience Cloud 인터페이스 가이드
 breadcrumb-title: Interface Guide
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: ht
-source-git-commit: 1833bae7ecf422e2cddae87df9311a40ecea4a0e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -58,8 +58,8 @@ ht-degree: 100%
    + [Creative Cloud 데스크탑에서 공유 폴더로 자산을 업로드합니다](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [공유를 위한 자산 파일 요구 사항](experience-cloud-assets/assets-file-reqs.md)
    + [공유 폴더 동작](experience-cloud-assets/asset-behavior.md)
-+ Experience Cloud의 대상 {#audiences}
-   + [대상 개요](audience-library/audience-library.md)
++ Experience Cloud 대상 {#audiences}
+   + [Experience Cloud 대상 개요](audience-library/audience-library.md)
    + [대상자 만들기](audience-library/t-audience-create.md)
    + [Analytics 대상 세그먼트 게시](audience-library/t-publish-audience-segment.md)
 + Experience Cloud의 고객 속성 {#customer-attributes}
