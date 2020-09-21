@@ -6,31 +6,28 @@ seo-title: Adobe Experience Cloud 및 핵심 서비스 도움말 및 제품 설�
 solution: Adobe Experience Cloud
 title: Experience Cloud 및 핵심 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: ht
-source-git-commit: 8e165bb47d7e947b817c51e496c3e493cb02d4fc
-workflow-type: ht
-source-wordcount: '392'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 80%
 
 ---
 
 
-# Experience Cloud 인터페이스 설명서
+# Experience Cloud 인터페이스 가이드
 
 Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 제품입니다. 또한 클라우드 솔루션 및 핵심 서비스에 빠르게 액세스할 수 있는 직관적인 인터페이스입니다.
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-이 페이지에서는 다음 기능 및 서비스에 대한 제품 설명서에 액세스할 수 있습니다.
+이 안내서에서는 Experience Cloud의 사용자 및 제품 관리에 대한 제품 설명서와 고객 속성 및 Experience Cloud 대상(대상 라이브러리)을 제공합니다. 이 안내서의 아티클은 다음과 같습니다.
 
 * [[!UICONTROL 대상 라이브러리]](audience-library/audience-library.md)
 * [[!UICONTROL 고객 속성]](attributes/attributes.md)
 * [[!UICONTROL Triggers]](activation/triggers.md)
 * [Experience Cloud [!UICONTROL 자산]](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud 쿠키](cookies/cookies-privacy.md)
-
-## 사용자 및 제품 관리
-
 * [사용자 및 제품 관리](admin-getting-started/admin-getting-started.md)(Admin Console)
 * [핵심 서비스용 솔루션을 사용하도록 설정](core-services/core-services.md)
 * [FAQ](admin-getting-started/admin-getting-started.md)
@@ -40,7 +37,28 @@ Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 
 * [Experience Cloud 개인 정보 보호 및 보안 개요](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS 프리페치](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
-## 관련 Experience Cloud 도움말
+## 안내서
+
+관련 Experience Cloud 안내서는 다음과 같습니다.
+
+* [Adobe Mobile](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html)
+* [Device Co-op](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/home.html)
+* [Exchange](https://experiencecloud.adobeexchange.com/)
+* [Experience Cloud ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)
+* [Experience Platform Launch](https://docs.adobelaunch.com/)
+* [Experience Cloud Debugger](https://docs.adobe.com/content/help/ko-KR/debugger/using/experience-cloud-debugger.html)
+* [일반 데이터 보호 규정(GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html)
+
+## 자습서
+
+Adobe Experience League에서 제공하는 자가 도움말 자습서와 빠른 사용 방법을 활용할 수 있습니다.
+
+* [Experience League의 모든 튜토리얼](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
+* [Experience Platform 자습서](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
+* [실시간 고객 데이터 플랫폼](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
+
+## 릴리스 노트 및 관련 Experience Cloud 도움말
 
 * [모든 Experience Cloud 솔루션에 대한 제품 설명서](https://docs.adobe.com/content/help/ko-KR/experience-cloud/user-guides/home.html) - Experience Cloud 학습 및 지원에서 탐색
 * [릴리스 노트 및 제품 업데이트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html) - Experience Cloud의 새로운 기능 및 가입을 통한 업데이트 받기
@@ -49,16 +67,3 @@ Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 
 * [교육 및 훈련](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK) - Adobe 제품을 최대한 활용할 수 있도록 Adobe와 협력
 * [고객 경험 블로그](https://theblog.adobe.com/customer-experience/) - Experience Cloud 블로그 보기
 * [고객 지원](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html) - Adobe 고객 지원 센터에 문의
-
-## Experience Platform 설명서
-
-* [Adobe Mobile](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html)
-* [[!UICONTROL 대상자]](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audience-library.html)
-* [[!UICONTROL 고객 속성]](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/attributes.html)
-* [Device Co-op](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/home.html)
-* [Exchange](https://experiencecloud.adobeexchange.com/)
-* [Experience Cloud ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)
-* [Experience Platform Launch](https://docs.adobelaunch.com/)
-* [Experience Cloud Debugger](https://docs.adobe.com/content/help/ko-KR/debugger/using/experience-cloud-debugger.html)
-* [일반 데이터 보호 규정(GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html)
