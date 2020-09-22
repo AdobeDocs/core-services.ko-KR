@@ -3,12 +3,12 @@ description: Data Connectors는 쿠키를 사용하여 광고주에게 여러 �
 keywords: cookies;privacy
 seo-description: Data Connectors는 쿠키를 사용하여 광고주에게 여러 광고 채널 전반에 최적화된 캠페인 및 전환 성능 지표를 제공합니다.
 seo-title: Data Connectors 쿠키
-solution: Marketing Cloud,Adobe Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud, Analytics, Target
 title: Data Connectors 쿠키
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 100%
 
