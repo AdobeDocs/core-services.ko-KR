@@ -7,9 +7,9 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 및 핵심 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+source-git-commit: dbcfb3ae9e1a5fb620f6794f42d567641b9ef838
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '434'
 ht-degree: 80%
 
 ---
@@ -21,7 +21,7 @@ Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-이 안내서에서는 Experience Cloud의 사용자 및 제품 관리에 대한 제품 설명서와 고객 속성 및 Experience Cloud 대상(대상 라이브러리)을 제공합니다. 이 안내서의 아티클은 다음과 같습니다.
+Adobe Experience Cloud 관리 안내서에는 Experience Cloud 사용자 및 제품 관리, 대상 라이브러리, 고객 속성 및 Experience Cloud 자산에 대한 도움말이 포함되어 있습니다. 이 안내서의 아티클은 다음과 같습니다.
 
 * [[!UICONTROL 대상 라이브러리]](audience-library/audience-library.md)
 * [[!UICONTROL 고객 속성]](attributes/attributes.md)
