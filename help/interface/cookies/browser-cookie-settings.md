@@ -3,12 +3,12 @@ description: 데스크톱 및 모바일 브라우저에서 모든 쿠키를 차�
 keywords: cookies;privacy
 seo-description: 데스크톱 및 모바일 브라우저에서 모든 쿠키를 차단한 사용자를 삭제하십시오. 이 개인 정보 설정은 Analytics 데이터 수집을 옵트 아웃한 사용자를 제외합니다.
 seo-title: 브라우저 쿠키에 대한 개인 정보 설정 활성화
-solution: Marketing Cloud,Adobe Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud, Analytics, Target, Social
 title: 브라우저 쿠키에 대한 개인 정보 설정 활성화
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%
 
