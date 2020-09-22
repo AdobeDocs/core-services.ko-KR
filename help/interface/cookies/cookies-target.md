@@ -3,12 +3,12 @@ description: Target은 쿠키를 사용하여 웹사이트 운영자가 어떤 �
 keywords: cookies;privacy
 seo-description: Target은 쿠키를 사용하여 웹사이트 운영자가 어떤 온라인 콘텐츠 및 오퍼가 방문자와 관련이 있는지 테스트할 수 있도록 합니다.
 seo-title: Target 쿠키
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Target 쿠키
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 
