@@ -3,12 +3,12 @@ description: Scene7은 쿠키를 사용하여 브라우저에 동적 미디어 �
 keywords: cookies;privacy
 seo-description: Scene7은 쿠키를 사용하여 브라우저에 동적 미디어 제공 시 사용할 수 있는 유용한 정보를 저장합니다.
 seo-title: Scene7 쿠키
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Scene7 쿠키
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 100%
 
