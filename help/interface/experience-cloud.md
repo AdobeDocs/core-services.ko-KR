@@ -3,11 +3,11 @@ description: Adobe Experience Cloud에 대한 자체 도움말, 제품 설명서
 keywords: core services
 seo-description: 이 페이지에서는 Experience Cloud에 대한 자체 도움말, 제품 설명서 및 기술 문서를 제공합니다.
 seo-title: Adobe Experience Cloud 및 핵심 서비스 도움말 및 제품 설명서.
-solution: Adobe Experience Cloud
+solution: Experience Cloud
 title: Experience Cloud 및 핵심 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: dbcfb3ae9e1a5fb620f6794f42d567641b9ef838
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 80%
