@@ -3,11 +3,11 @@ description: Adobe Experience Cloud에 대한 자체 도움말, 제품 설명서
 keywords: platform services
 seo-description: Admin Console의 사용자 및 제품 관리, 플랫폼 서비스에 대한 솔루션 활성화, 대상 라이브러리, 고객 속성, Experience Cloud 자산 등에 대한 도움말
 seo-title: Adobe Experience Cloud 및 플랫폼 서비스 도움말 및 제품 설명서
-solution: Adobe Experience Cloud
+solution: Experience Cloud
 title: Experience Cloud 및 플랫폼 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
+source-git-commit: a32b5e9f8d3bed89b0001a40aa159591880dd84c
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 75%
