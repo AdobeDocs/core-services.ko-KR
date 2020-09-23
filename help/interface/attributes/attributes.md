@@ -6,9 +6,9 @@ seo-title: 고객 속성
 solution: Experience Cloud
 title: 고객 속성
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 
    고객 속성에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!UICONTROL 고객 속성] 메뉴 항목이 표시됩니다.
 
-* **Adobe Target** 고객 속성에 [!DNL at.js] (임의 버전) 또는 [!DNL mbox.js] 버전 58 이상이 필요합니다.
+* **Adobe Target** 고객 속성에 [!DNL at.js](임의 버전) 또는 [!DNL mbox.js] 버전 58 이상이 필요합니다.
 
    [at.js 배포 방법](https://docs.adobe.com/content/help/ko-KR/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) 또는 [Mbox.js 구현](https://docs.adobe.com/content/help/ko-KR/target/using/implement-target/client-side/mbox-implement/mbox-download.html)을 참조하십시오.
 
