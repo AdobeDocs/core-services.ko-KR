@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 80%
+ht-degree: 94%
 
 ---
 
 
-# Experience Cloud 인터페이스 가이드
+# Experience Cloud 인터페이스 안내서
 
 Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 제품입니다. 또한 클라우드 솔루션 및 핵심 서비스에 빠르게 액세스할 수 있는 직관적인 인터페이스입니다.
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-Adobe Experience Cloud 관리 안내서에는 Experience Cloud 사용자 및 제품 관리, 대상 라이브러리, 고객 속성 및 Experience Cloud 자산에 대한 도움말이 포함되어 있습니다. 이 안내서의 아티클은 다음과 같습니다.
+Adobe Experience Cloud 관리 안내서에는 Experience Cloud 사용자 및 제품 관리, 대상 라이브러리, 고객 속성 및 Experience Cloud 자산에 대한 도움말이 포함되어 있습니다. 이 안내서의 문서는 다음과 같습니다.
 
 * [[!UICONTROL 대상 라이브러리]](audience-library/audience-library.md)
 * [[!UICONTROL 고객 속성]](attributes/attributes.md)
@@ -39,7 +39,7 @@ Adobe Experience Cloud 관리 안내서에는 Experience Cloud 사용자 및 제
 
 ## 안내서
 
-관련 Experience Cloud 안내서는 다음과 같습니다.
+관련 Experience Cloud 안내서는 다음을 포함합니다.
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html)
 * [Device Co-op](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/home.html)
@@ -52,11 +52,11 @@ Adobe Experience Cloud 관리 안내서에는 Experience Cloud 사용자 및 제
 
 ## 자습서
 
-Adobe Experience League에서 제공하는 자가 도움말 자습서와 빠른 사용 방법을 활용할 수 있습니다.
+Adobe Experience League에서 제공하는 자조 자습서와 빠른 사용 방법을 활용할 수 있습니다.
 
-* [Experience League의 모든 튜토리얼](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
-* [Experience Platform 자습서](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
-* [실시간 고객 데이터 플랫폼](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
+* [Experience League의 모든 자습서](https://experienceleague.corp.adobe.com/?lang=ko-kr#quick-how-tos)
+* [Experience Platform 자습서](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=ko-kr)
+* [실시간 고객 데이터 플랫폼](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ko-kr)
 
 ## 릴리스 노트 및 관련 Experience Cloud 도움말
 
