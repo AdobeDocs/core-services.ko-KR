@@ -5,18 +5,18 @@ seo-title: Experience Cloud 대상 개요
 solution: Experience Cloud
 title: Experience Cloud 대상 개요
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '837'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Experience Cloud 대상 개요 {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-대상은 방문자의 컬렉션입니다(방문자 ID 목록). Adobe 대상 라이브러리를 사용하면 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리할 수 있습니다. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to products and services in [!DNL Experience Cloud].
+대상은 방문자의 컬렉션입니다(방문자 ID 목록). Adobe 대상 라이브러리를 통해 방문자 데이터를 대상 세그멘테이션으로 변환하는 작업을 관리할 수 있습니다. 이와 같이 대상을 만들고 관리하는 작업은 세그먼트를 만들고 사용하는 것과 유사하며, [!DNL Experience Cloud]의 제품 및 서비스에 대상 세그먼트를 공유하는 기능이 추가되었다고 생각하면 됩니다.
 
 ![](assets/audiences.png)
 
@@ -44,7 +44,7 @@ ht-degree: 95%
 | Mobile Services | [!UICONTROL 장치 유형] 보고서의 썬버스트 시각화 기능을 사용하여 모바일 트래픽을 분석합니다. |
 | [!DNL Target] | [ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)는 방문자 ID 및 데이터를 여러 솔루션에서 사용하기 위해 실행 가능한 하나의 프로필에 통합합니다. Adobe Analytics의 세그먼트 작성 프로세스 동안 [Marketing Cloud에 게시](../audience-library/audience-library.md) 확인란을 선택하면 Adobe Target의 사용자 지정 대상 라이브러리 내에서 세그먼트를 사용할 수 있습니다. Analytics나 Audience Manager에서 만들어진 세그먼트는 [!DNL Target]의 활동에 사용할 수 있습니다. 예를 들어 [!DNL Analytics]에서 만들어진 대상 세그먼트 및 [!DNL Analytics] 전환 지표에 따라 캠페인 활동을 만들 수 있습니다. |
 | Audience Manager | 공유 대상은 Audience Manager 세그멘테이션에서 사용할 수 있습니다. 모든 Experience Cloud 대상은 기본적으로 다음 기능을 제공하는 Audience Manager에서 사용할 수 있습니다.<ul><li>내장된 자동화(솔루션 워크플로우에서 공유 및 소비되는 방식에 관계없음)</li><li>오프사이트 대상</li><li>유사 잠재고객 모델링</li></ul> |
-| 캠페인 | <ul><li>다양한 Adobe Experience Cloud 솔루션의 공유 대상을 Adobe Campaign에 가져오기.</li><li>공유 대상의 양식에서 받는 사람 목록 내보내기. 이러한 공유 대상은 사용하는 여러 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다.</li></ul> |
+| Campaign | <ul><li>다양한 Adobe Experience Cloud 솔루션의 공유 대상을 Adobe Campaign에 가져오기.</li><li>공유 대상의 양식에서 받는 사람 목록 내보내기. 이러한 공유 대상은 사용하는 여러 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다.</li></ul> |
 | Media Optimizer | 대상을 타겟으로 사용합니다. |
 
 >[!IMPORTANT]
