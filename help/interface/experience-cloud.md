@@ -1,27 +1,27 @@
 ---
-description: Adobe Experience Cloud에 대한 자체 도움말, 제품 설명서 및 기술 문서 Admin Console에 사용자 및 제품 관리, 플랫폼 서비스에 대한 솔루션 활성화, 대상 라이브러리, 고객 속성, Experience Cloud 자산 등에 대한 도움말 포함
+description: Adobe Experience Cloud에 대한 자체 도움말, 제품 설명서 및 기술 문서입니다. Admin Console의 사용자 및 제품 관리를 포함하여 플랫폼 서비스에 대한 솔루션 활성화 및 대상 라이브러리, 고객 특성, Experience Cloud Assets 등에 대한 도움말입니다.
 keywords: platform services
-seo-description: Admin Console의 사용자 및 제품 관리, 플랫폼 서비스에 대한 솔루션 활성화, 대상 라이브러리, 고객 속성, Experience Cloud 자산 등에 대한 도움말
-seo-title: Adobe Experience Cloud 및 플랫폼 서비스 도움말 및 제품 설명서
+seo-description: Admin Console의 사용자 및 제품 관리, 플랫폼 서비스에 대한 솔루션 활성화 및 대상 라이브러리, 고객 특성, Experience Cloud Assets 등에 대한 도움말입니다.
+seo-title: Adobe Experience Cloud 및 플랫폼 서비스 도움말 및 제품 설명서입니다.
 solution: Experience Cloud
 title: Experience Cloud 및 플랫폼 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a32b5e9f8d3bed89b0001a40aa159591880dd84c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud 관리, 대상 및 고객 속성
+# Experience Cloud 관리, 대상 및 고객 특성
 
 Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 제품입니다. 또한 클라우드 솔루션 및 핵심 서비스에 빠르게 액세스할 수 있는 직관적인 인터페이스입니다.
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-이 가이드는 Admin Console의 Experience Cloud 사용자 및 제품 관리에 대한 도움말에 액세스하여 플랫폼 서비스를 위한 솔루션을 활성화합니다. 대상 라이브러리, 고객 속성, Experience Cloud 자산 등에 대한 도움말에 액세스할 수도 있습니다.
+이 가이드는 Admin Console의 Experience Cloud 사용자 및 제품 관리에 대한 도움말 액세스를 제공하며 플랫폼 서비스를 위한 솔루션을 활성화합니다. 또한 대상 라이브러리, 고객 특성, Experience Cloud Assets 등의 도움말에 액세스할 수 있습니다.
 
 * [[!UICONTROL 대상 라이브러리]](audience-library/audience-library.md)
 * [[!UICONTROL 고객 속성]](attributes/attributes.md)
