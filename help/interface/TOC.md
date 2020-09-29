@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud Administration, Audiences, and Customer Attri
 user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
 ht-degree: 100%
 
