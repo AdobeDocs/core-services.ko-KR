@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Experience Cloud 및 플랫폼 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 1493c77ce1adc4bae3f70c4b0c0b82acde90ee47
+source-git-commit: 34c8fa5bbc7524e2193be688e9cda68e134be467
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 98%
+source-wordcount: '476'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 
 관련 Experience Cloud 안내서는 다음을 포함합니다.
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html)
-* [Device Co-op](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/home.html)
+* [Experience Platform Co-op 그래프](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Experience Cloud ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobelaunch.com/)
