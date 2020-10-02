@@ -6,16 +6,16 @@ seo-title: 고객 속성 및 대상을 위한 Experience Cloud 솔루션 활성�
 solution: Experience Cloud
 title: 핵심 서비스용 솔루션을 사용하도록 설정
 index: true
-translation-type: ht
-source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: ht
-source-wordcount: '2402'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+workflow-type: tm+mt
+source-wordcount: '2403'
+ht-degree: 99%
 
 ---
 
 
-# 솔루션 간 서비스 구현 활성화
+# Experience Cloud 서비스에 대한 구현 활성화
 
 최근 Experience Platform Launch를 사용하여 Experience Cloud을 구현한 경우 고객 속성 및 Experience Cloud 대상에 대해 이미 설정되어 있습니다. Admin Console에서 사용자와 제품을 관리할 수도 있습니다.
 
