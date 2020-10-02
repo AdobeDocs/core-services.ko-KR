@@ -7,15 +7,15 @@ solution: Experience Cloud
 title: Experience Cloud 및 플랫폼 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 34c8fa5bbc7524e2193be688e9cda68e134be467
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 97%
+source-wordcount: '475'
+ht-degree: 98%
 
 ---
 
 
-# Experience Cloud 응용 프로그램 서비스 및 관리
+# Experience Cloud 서비스 및 관리
 
 Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 제품입니다. 또한 클라우드 솔루션 및 핵심 서비스에 빠르게 액세스할 수 있는 직관적인 인터페이스입니다.
 
