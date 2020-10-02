@@ -1,24 +1,24 @@
 ---
 audience: admin
-user-guide-title: Experience Cloud 응용 프로그램 서비스 및 관리
-breadcrumb-title: Experience Cloud Application Services and Administration
-user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
+user-guide-title: Experience Cloud 서비스 및 관리
+breadcrumb-title: Experience Cloud Services and Administration
+user-guide-description: Adobe Experience Cloud Services and Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, cookies, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 1493c77ce1adc4bae3f70c4b0c0b82acde90ee47
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 96%
+source-wordcount: '360'
+ht-degree: 93%
 
 ---
 
 
-# Experience Cloud Application Services and Administration {#interface}
+# Experience Cloud Services and Administration {#interface}
 
-+ [Experience Cloud 관리, 대상 및 고객 속성](experience-cloud.md)
-+ Experience Cloud의 애플리케이션 서비스 {#about-core-services}
-   + [애플리케이션 서비스 개요](core-services-landing.md)
++ [Experience Cloud 서비스 및 관리](experience-cloud.md)
++ Experience Cloud services {#about-core-services}
+   + [Experience Cloud 서비스 개요](core-services-landing.md)
    + [솔루션 간 서비스 구현 활성화](core-services/core-services.md)
    + [조직에 보고서 세트 매핑](core-services/report-suite-mapping.md)
    + [Experience Cloud의 새 클라우드 이름 정보](solutions-core-services.md)
