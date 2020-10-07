@@ -6,11 +6,11 @@ seo-title: 대상자 만들기
 solution: Experience Cloud
 title: 대상자 만들기
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,8 @@ ht-degree: 100%
 >[!NOTE]
 >
 >대상은 지정된 기간 동안의 데이터 수집이 완료된 후에 완전히 정의됩니다.
-다음 예에서는 복합 대상에 대한 규칙을 만드는 방법을 보여 줍니다. 이 대상은 다음으로 구성됩니다.
+
+다음 예에서는 복합 대상에 대한 규칙을 만드는 방법을 보여 줍니다. 이 대상은 다음과 같이 구성됩니다.
 
 * 페이지 데이터 또는 원시 Analytics 데이터에서 파생된 홈/가든 섹션
 * [!DNL Experience Cloud]에 [게시된](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) [!DNL Adobe Analytics]세그먼트에서 파생된 Chrome 및 Safari 사용자.
