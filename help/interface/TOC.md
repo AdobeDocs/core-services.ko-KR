@@ -1,20 +1,20 @@
 ---
 audience: admin
 user-guide-title: Experience Cloud 서비스 및 관리
-breadcrumb-title: Experience Cloud Services and Administration
-user-guide-description: Adobe Experience Cloud Services and Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, cookies, and Experience Cloud assets.
+breadcrumb-title: Experience Cloud 서비스 및 관리
+user-guide-description: Adobe Experience Cloud 서비스 및 관리 안내서에는 Experience Cloud 사용자 및 제품 관리, 대상 라이브러리, 고객 속성, 쿠키 및 Experience Cloud Assets에 대한 도움말이 포함되어 있습니다.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 93%
+source-wordcount: '391'
+ht-degree: 98%
 
 ---
 
 
-# Experience Cloud Services and Administration {#interface}
+# Experience Cloud 서비스 및 관리 {#interface}
 
 + [Experience Cloud 서비스 및 관리](experience-cloud.md)
 + Experience Cloud services {#about-core-services}
