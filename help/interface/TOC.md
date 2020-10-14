@@ -6,10 +6,10 @@ user-guide-description: Adobe Experience Cloud 서비스 및 관리 안내서에
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 98%
+source-wordcount: '390'
+ht-degree: 95%
 
 ---
 
@@ -59,11 +59,11 @@ ht-degree: 98%
    + [공유를 위한 자산 파일 요구 사항](experience-cloud-assets/assets-file-reqs.md)
    + [공유 폴더 동작](experience-cloud-assets/asset-behavior.md)
 + Experience Cloud 대상 라이브러리 {#audiences}
-   + [Experience Cloud 대상 개요](audience-library/audience-library.md)
+   + [Experience Cloud 대상 서비스](audience-library/audience-library.md)
    + [대상자 만들기](audience-library/t-audience-create.md)
    + [Analytics 대상 세그먼트 게시](audience-library/t-publish-audience-segment.md)
-+ Experience Cloud의 고객 속성 {#customer-attributes}
-   + [고객 속성 개요](attributes/attributes.md)
++ Experience Cloud Customer Attributes {#customer-attributes}
+   + [고객 속성 서비스](attributes/attributes.md)
    + [FAQ, 제한 사항 및 우수 사례](attributes/faq-crs.md)
    + [고객 속성에 대한 데이터 파일 및 데이터 소스 정보](attributes/crs-data-file.md)
    + [고객 속성 소스를 만들고 데이터 파일 업로드](attributes/t-crs-usecase.md)
