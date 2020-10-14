@@ -1,20 +1,20 @@
 ---
-description: Experience Cloud 대상 라이브러리의 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다.
-seo-description: Experience Cloud 대상 라이브러리의 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다.
-seo-title: Experience Cloud 대상 개요
+description: Experience Cloud 대상 서비스에서 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다.
+seo-description: Experience Cloud 대상 서비스에서 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다.
+seo-title: Experience Cloud 대상 서비스
 solution: Experience Cloud
-title: Experience Cloud 대상 개요
+title: 'Experience Cloud 대상 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
-workflow-type: ht
-source-wordcount: '837'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+workflow-type: tm+mt
+source-wordcount: '835'
+ht-degree: 96%
 
 ---
 
 
-# Experience Cloud 대상 개요 {#topic_679810123CAA4E0CA4FA3417FB0100C7}
+# Experience Cloud 대상 {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
 대상은 방문자의 컬렉션입니다(방문자 ID 목록). Adobe 대상 라이브러리를 통해 방문자 데이터를 대상 세그멘테이션으로 변환하는 작업을 관리할 수 있습니다. 이와 같이 대상을 만들고 관리하는 작업은 세그먼트를 만들고 사용하는 것과 유사하며, [!DNL Experience Cloud]의 제품 및 서비스에 대상 세그먼트를 공유하는 기능이 추가되었다고 생각하면 됩니다.
 
