@@ -2,20 +2,20 @@
 description: Experience Cloud에 고객 속성 업로드에 대한 개요 및 사전 요구 사항입니다.
 keywords: core services;Customer Attributes
 seo-description: Experience Cloud에 고객 속성 업로드에 대한 개요 및 사전 요구 사항입니다.
-seo-title: 고객 속성
+seo-title: Experience Cloud 고객 속성 서비스
 solution: Experience Cloud
-title: 고객 속성
+title: Experience Cloud 고객 속성 서비스
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 96%
 
 ---
 
 
-# 고객 속성 개요
+# Experience Cloud 고객 속성 서비스
 
 **[!DNL Experience Platform]** > **[!UICONTROL 사용자]** > **[!UICONTROL 고객 속성]**&#x200B;으로 이동합니다.
 
