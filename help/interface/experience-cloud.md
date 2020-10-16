@@ -6,11 +6,11 @@ seo-title: Adobe Experience Cloud 및 플랫폼 서비스 도움말 및 제품 �
 solution: Experience Cloud
 title: Experience Cloud 및 플랫폼 서비스 도움말
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
