@@ -6,11 +6,11 @@ seo-title: Experience Cloud 쿠키
 solution: Experience Cloud,Analytics,Target
 title: Experience Cloud 쿠키
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7bd5b20d24d6ed1bcf2ea8cd1555af217013127e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Experience Cloud는 쿠키를 사용하여 Experience Cloud 솔루션에�
   </tr> 
   <tr> 
    <td colname="col1"> <p> SameSite=Lax </p> </td> 
-   <td colname="col2"> <p>이 설정을 사용하는 쿠키는 브라우저의 URL에 표시된 도메인이 쿠키의 도메인과 일치하는 경우에만 전송됩니다. Chrome에서 쿠키의 새로운 기본값입니다.</p> </td> 
+   <td colname="col2"> <p>이 설정을 사용하는 쿠키는 브라우저의 URL에 표시된 도메인이 쿠키의 도메인과 일치하는 경우에만 전송됩니다. 이는 Chrome에서 쿠키의 새로운 기본값입니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,8 +91,8 @@ Adobe Experience Cloud는 쿠키를 사용하여 Experience Cloud 솔루션에�
    <td colname="col2"> <p> 다양하며, 대부분의 고객은 이 쿠키의 길이가 약 200바이트 정도 될 것으로 예상할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>추가된 값이 없습니다. 크롬은 기본적으로 느슨합니다. </p> </td> 
-   <td colname="col2"> <p> 이 설정을 사용하는 쿠키는 브라우저의 URL에 표시된 도메인이 쿠키의 도메인과 일치하는 경우에만 전송됩니다. Chrome에서 쿠키의 새로운 기본값입니다. </p> </td> 
+   <td colname="col1"> <p>추가된 값이 없습니다. Chrome은 Lax가 기본값입니다. </p> </td> 
+   <td colname="col2"> <p> 이 설정을 사용하는 쿠키는 브라우저의 URL에 표시된 도메인이 쿠키의 도메인과 일치하는 경우에만 전송됩니다. 이는 Chrome에서 쿠키의 새로운 기본값입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
