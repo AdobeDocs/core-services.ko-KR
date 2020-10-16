@@ -6,11 +6,11 @@ seo-title: 고객 속성 및 대상을 위한 Experience Cloud 솔루션 활성�
 solution: Experience Cloud
 title: 핵심 서비스용 솔루션을 사용하도록 설정
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2403'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 
 
 전체 Experience Cloud ID 서비스 도움말(이전의 방문자 ID)를 보려면 [여기](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)로 이동하십시오.
 
-**[!UICONTROL Experience Platform Launch]나[!UICONTROL Dynamic Tag Management]를 사용하지 않습니까?**
+**[!UICONTROL Experience Platform Launch]나 [!UICONTROL Dynamic Tag Management]를 사용하지 않습니까?**
 
 [!UICONTROL Experience Platform Launch]나 [!UICONTROL Dynamic Tag Management]를 사용하지 않는 경우 다음과 같이 JavaScript 배포([!DNL VisitorAPI.js])를 사용하여 ID 서비스를 수동으로 구현하십시오.
 
