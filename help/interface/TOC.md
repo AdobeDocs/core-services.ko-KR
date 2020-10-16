@@ -2,14 +2,14 @@
 audience: admin
 user-guide-title: Experience Cloud 서비스 및 관리
 breadcrumb-title: Experience Cloud 서비스 및 관리
-user-guide-description: Adobe Experience Cloud 서비스 및 관리 안내서에는 Experience Cloud 사용자 및 제품 관리, 대상 라이브러리, 고객 속성, 쿠키 및 Experience Cloud Assets에 대한 도움말이 포함되어 있습니다.
+user-guide-description: Adobe Experience Cloud 서비스 및 관리 안내서에는 Experience Cloud 사용자 및 제품 관리, 대상 라이브러리, 고객 속성, 쿠키 및 Experience Cloud 자산에 대한 도움말이 포함되어 있습니다.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
 source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 # Experience Cloud 서비스 및 관리 {#interface}
 
 + [Experience Cloud 서비스 및 관리](experience-cloud.md)
-+ Experience Cloud services {#about-core-services}
++ Experience Cloud 서비스 {#about-core-services}
    + [Experience Cloud 서비스 개요](core-services-landing.md)
    + [솔루션 간 서비스 구현 활성화](core-services/core-services.md)
    + [조직에 보고서 세트 매핑](core-services/report-suite-mapping.md)
@@ -62,7 +62,7 @@ ht-degree: 95%
    + [Experience Cloud 대상 서비스](audience-library/audience-library.md)
    + [대상자 만들기](audience-library/t-audience-create.md)
    + [Analytics 대상 세그먼트 게시](audience-library/t-publish-audience-segment.md)
-+ Experience Cloud Customer Attributes {#customer-attributes}
++ Experience Cloud 고객 특성 {#customer-attributes}
    + [고객 속성 서비스](attributes/attributes.md)
    + [FAQ, 제한 사항 및 우수 사례](attributes/faq-crs.md)
    + [고객 속성에 대한 데이터 파일 및 데이터 소스 정보](attributes/crs-data-file.md)
