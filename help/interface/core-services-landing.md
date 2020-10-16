@@ -5,11 +5,11 @@ seo-title: Experience Cloud 서비스 및 사용자 관리
 solution: Experience Cloud
 title: Experience Cloud 서비스 정보
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
