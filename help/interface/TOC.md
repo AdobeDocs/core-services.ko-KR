@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 98%
    + [대상자 만들기](audience-library/t-audience-create.md)
    + [Analytics 대상 세그먼트 게시](audience-library/t-publish-audience-segment.md)
 + Experience Cloud 고객 특성 {#customer-attributes}
-   + [고객 속성 서비스](attributes/attributes.md)
+   + [고객 특성 서비스](attributes/attributes.md)
    + [FAQ, 제한 사항 및 우수 사례](attributes/faq-crs.md)
    + [고객 속성에 대한 데이터 파일 및 데이터 소스 정보](attributes/crs-data-file.md)
    + [고객 속성 소스를 만들고 데이터 파일 업로드](attributes/t-crs-usecase.md)
