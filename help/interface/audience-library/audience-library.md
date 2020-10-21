@@ -1,15 +1,15 @@
 ---
-description: Experience Cloud 대상 서비스에서 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다.
-seo-description: Experience Cloud 대상 서비스에서 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다.
+description: Experience Cloud 대상 서비스의 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다.
+seo-description: Experience Cloud 대상 서비스의 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다.
 seo-title: Experience Cloud 대상 서비스
 solution: Experience Cloud
 title: 'Experience Cloud 대상 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '835'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
