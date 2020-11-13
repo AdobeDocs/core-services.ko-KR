@@ -5,11 +5,11 @@ seo-title: Experience Cloud 대상 서비스
 solution: Experience Cloud
 title: 'Experience Cloud 대상 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e59e70b4c07a18456d9cd6651ef94029870d65f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 96%
 
 **실시간 및 기존 대상**
 
-실시간 타깃팅 사용 사례를 파악하기 위해 소스에 관계없이 모든 대상에 액세스할 수 있습니다. 하지만 Analytics에서 Audience Manager으로 공유된 대상은 실시간 타깃팅에 액세스할 수 없습니다. 시스템은 다음 두 가지 방식으로 대상을 평가합니다.
+실시간 타깃팅 사용 사례를 파악하기 위해 소스에 관계없이 모든 대상에 액세스할 수 있습니다. 하지만 Analytics에서 Audience Manager로 공유한 대상은 실시간 타깃팅에 액세스할 수 없습니다. 시스템은 다음 두 가지 방식으로 대상을 평가합니다.
 
 * Analytics에서 가져온 기존 대상은 4시간 간격으로 평가됩니다. 처리 및 공유에는 총 최대 8시간이 소요될 수 있습니다.  기존 대상에는 항상 재방문자가 포함됩니다.
 * Experience Cloud 대상에서 가져온 실시간 대상은 실시간으로 평가됩니다.
@@ -71,7 +71,7 @@ ht-degree: 96%
 |--- |--- |
 | 신규 | [대상자 만들기](../audience-library/audience-library.md). |
 | 제목 및 설명 | 대상을 식별하고 설명하는 열 머리글입니다. |
-| Author | 대상 세그먼트를 만든 사용자입니다. |
-| 소스 | 대상이 만들어진 위치를 식별합니다.<ul><li>**분석:** Adobe Analytics에서 만든 후 Experience Cloud에 [게시한 세그먼트입니다](../audience-library/audience-library.md).</li><li>**Experience Cloud:** [Experience Cloud 대상에서 생성된](../audience-library/audience-library.md) 새 대상입니다.</li><li>**Audience Manager:** Audience Manager에서 만든 대상은 Experience Cloud 대상에 자동으로 표시됩니다.</li></ul> |
+| 작성자 | 대상 세그먼트를 만든 사용자입니다. |
+| 소스 | 대상이 만들어진 위치를 식별합니다.<ul><li>**Analytics:** Adobe Analytics에서 만든 후 [Experience Cloud에 게시한](../audience-library/audience-library.md) 세그먼트입니다.</li><li>**Experience Cloud:** [Experience Cloud 대상에서 생성된](../audience-library/audience-library.md) 새 대상입니다.</li><li>**Audience Manager:** Audience Manager에서 만든 대상은 Experience Cloud 대상에 자동으로 표시됩니다.</li></ul> |
 | 현재 크기 | 현재 대상 크기입니다. |
 | 활성 | 세그먼트의 활성 상태입니다. |
