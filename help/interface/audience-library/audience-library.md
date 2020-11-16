@@ -5,11 +5,11 @@ seo-title: Experience Cloud 대상 서비스
 solution: Experience Cloud
 title: 'Experience Cloud 대상 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: e59e70b4c07a18456d9cd6651ef94029870d65f3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
+workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 * [!DNL Analytics] 세그먼트를 [!DNL Experience Cloud]에 게시하는 경우
 * [!DNL Audience Manager]에서 대상을 만드는 경우
 
-**실시간 및 기존 대상**
+**실시간 대 과거 고객**
 
 실시간 타깃팅 사용 사례를 파악하기 위해 소스에 관계없이 모든 대상에 액세스할 수 있습니다. 하지만 Analytics에서 Audience Manager로 공유한 대상은 실시간 타깃팅에 액세스할 수 없습니다. 시스템은 다음 두 가지 방식으로 대상을 평가합니다.
 
