@@ -1,31 +1,31 @@
 ---
-description: Experience Cloud 관리자를 위한 브라우저 지원, 일반적인 질문 및 답변
+description: Experience Cloud를 사용하는 관리자를 위한 브라우저 지원, 일반적인 질문과 대답입니다.
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
-seo-description: Experience Cloud 관리자를 위한 브라우저 지원, 일반적인 질문 및 답변
+seo-description: Experience Cloud를 사용하는 관리자를 위한 브라우저 지원, 일반적인 질문과 대답입니다.
 seo-title: Experience Cloud 핵심 서비스에 대한 자주 묻는 질문.
 solution: Experience Cloud
 title: FAQ
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddf8943a18c9826acfb240192f6a3db987d31a0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
 # Experience Cloud에 대한 FAQ
 
-Experience Cloud 관리자를 위한 브라우저 지원, 일반적인 질문과 답변을 살펴볼 수 있습니다.
+Experience Cloud를 사용하는 관리자를 위한 브라우저 지원, 일반적인 질문과 답변을 살펴볼 수 있습니다.
 
 ## Experience Cloud에서 지원되는 브라우저는 무엇입니까?
 
-* Microsoft Edge(현재 및 후면 두 버전)
-* Google Chrome(현재 및 뒤로 두 버전)
-* Mozilla Firefox(현재 및 후면 두 버전)
-* Safari(현재 및 후면 두 버전)
-* Opera(현재 및 후면 두 버전)
+* Microsoft Edge(현재 및 이전 두 버전)
+* Google Chrome(현재 및 이전 두 버전)
+* Mozilla Firefox(현재 및 이전 두 버전)
+* Safari(현재 및 이전 두 버전)
+* Opera(현재 및 이전 두 버전)
 
 ## 솔루션이 핵심 서비스에 대해 활성화되어 있는지 어떻게 알 수 있습니까?
 
