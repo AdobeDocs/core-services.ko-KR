@@ -1,21 +1,21 @@
 ---
-description: Experience Cloud에 고객 속성 업로드에 대한 개요 및 사전 요구 사항입니다.
-keywords: core services;Customer Attributes
+description: 고객 속성을 Adobe Experience Cloud에 업로드하는 방법에 대한 개요 및 사전 요구 사항입니다.
+keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 seo-description: Experience Cloud에 고객 속성 업로드에 대한 개요 및 사전 요구 사항입니다.
 seo-title: Experience Cloud 고객 특성 서비스
 solution: Experience Cloud
-title: Experience Cloud 고객 특성 서비스
+title: Adobe Experience Cloud - 고객 속성 서비스
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
-source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
-workflow-type: ht
-source-wordcount: '465'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 94%
 
 ---
 
 
-# Experience Cloud 고객 특성 서비스
+# Adobe Experience Cloud 고객 속성
 
 **[!DNL Experience Platform]** > **[!UICONTROL 사용자]** > **[!UICONTROL 고객 속성]**&#x200B;으로 이동합니다.
 
