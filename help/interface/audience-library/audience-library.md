@@ -1,36 +1,36 @@
 ---
-description: Experience Cloud 대상 서비스의 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다.
+description: Adobe Experience Cloud 고객 서비스에서 방문자 데이터를 대상 세그먼테이션으로 변환하는 방법을 알아봅니다.
 seo-description: Experience Cloud 대상 서비스의 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다.
 seo-title: Experience Cloud 대상 서비스
 solution: Experience Cloud
-title: 'Experience Cloud 대상 '
+title: 'Adobe Experience Cloud 고객 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
-workflow-type: ht
-source-wordcount: '831'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e7d297820dbb666308c5906eca01a0c248e35fe3
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 93%
 
 ---
 
 
 # Experience Cloud 대상 {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-대상은 방문자의 컬렉션입니다(방문자 ID 목록). Adobe 대상 라이브러리를 통해 방문자 데이터를 대상 세그멘테이션으로 변환하는 작업을 관리할 수 있습니다. 이와 같이 대상을 만들고 관리하는 작업은 세그먼트를 만들고 사용하는 것과 유사하며, [!DNL Experience Cloud]의 제품 및 서비스에 대상 세그먼트를 공유하는 기능이 추가되었다고 생각하면 됩니다.
+대상은 방문자의 컬렉션입니다(방문자 ID 목록). Adobe 대상 라이브러리를 통해 방문자 데이터를 대상 세그멘테이션으로 변환하는 작업을 관리할 수 있습니다. 따라서 대상을 만들고 관리하는 것은 세그먼트를 만들고 사용하는 것과 비슷합니다. 대상 세그먼트를 제품 및 서비스에 공유할 수도 있습니다 [!DNL Experience Cloud].
 
 ![](assets/audiences.png)
 
 다음과 같은 다양한 소스에서 대상을 만들거나 파생할 수 있습니다. 
 
 * [!DNL Experience Cloud]에서 대상을 새로 만드는 경우
-* [!DNL Analytics] 세그먼트를 [!DNL Experience Cloud]에 게시하는 경우
-* [!DNL Audience Manager]에서 대상을 만드는 경우
+* [!DNL Analytics] 세그먼트에 게시된 세그먼트 [!DNL Experience Cloud]
+* [!DNL Audience Manager]
 
 **실시간 및 기존 대상**
 
 실시간 타깃팅 사용 사례를 파악하기 위해 소스에 관계없이 모든 대상에 액세스할 수 있습니다. 하지만 Analytics에서 Audience Manager로 공유한 대상은 실시간 타깃팅에 액세스할 수 없습니다. 시스템은 다음 두 가지 방식으로 대상을 평가합니다.
 
-* Analytics에서 가져온 기존 대상은 4시간 간격으로 평가됩니다. 처리 및 공유에는 총 최대 8시간이 소요될 수 있습니다.  기존 대상에는 항상 재방문자가 포함됩니다.
+* Analytics에서 가져온 기존 대상은 4시간 간격으로 평가됩니다. 처리 및 공유에는 총 최대 8시간이 소요될 수 있습니다. 기존 대상에는 항상 재방문자가 포함됩니다.
 * Experience Cloud 대상에서 가져온 실시간 대상은 실시간으로 평가됩니다.
 
 ## 솔루션에서 대상이 사용되는 방식 {#concept_01EB9345C5344597BC94A864EDD38EE1}
