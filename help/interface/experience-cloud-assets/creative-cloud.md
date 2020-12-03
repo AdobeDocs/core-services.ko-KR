@@ -5,9 +5,9 @@ seo-description: Experience Cloud와 Creative Cloud 간에 폴더 및 자산을 
 seo-title: Creative Cloud와 Experience Cloud 폴더 및 자산 공유
 solution: Experience Cloud
 title: Creative Cloud와 Experience Cloud 폴더 및 자산 공유
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
