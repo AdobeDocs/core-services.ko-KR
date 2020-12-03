@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud 서비스 및 관리
 user-guide-description: Adobe Experience Cloud 서비스 및 관리 안내서에는 Experience Cloud 사용자 및 제품 관리, 대상 라이브러리, 고객 속성, 쿠키 및 Experience Cloud 자산에 대한 도움말이 포함되어 있습니다.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 100%
 
