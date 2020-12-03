@@ -6,9 +6,9 @@ seo-title: FAQ, 제한 사항 및 우수 사례
 solution: Experience Cloud
 title: 고객 속성 - Adobe Experience Cloud에 대한 FAQ
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1245'
 ht-degree: 100%
 
