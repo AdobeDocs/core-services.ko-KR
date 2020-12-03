@@ -4,9 +4,9 @@ seo-description: 한 개 이상의 보고서 세트를 조직에 매핑하는 �
 seo-title: 조직에 보고서 세트 매핑
 title: 조직에 보고서 세트 매핑
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 100%
 
