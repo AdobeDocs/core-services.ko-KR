@@ -6,9 +6,9 @@ seo-title: 고객 속성 및 대상을 위한 Experience Cloud 솔루션 활성�
 solution: Experience Cloud
 title: 핵심 서비스용 솔루션을 사용하도록 설정
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 100%
 
