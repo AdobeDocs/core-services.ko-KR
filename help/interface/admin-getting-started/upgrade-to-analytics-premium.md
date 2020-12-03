@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Analytics Premium Complete에서는 [Analytics Premium](../admin-getting-started
 
 | 제품 | 업그레이드 |
 |--- |--- |
-| Reports &amp; Analytics | <ul><li>[기여도 분석](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)</li><li>[고객 특성](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)(최대 200개)</li></ul> |
+| Reports &amp; Analytics | <ul><li>[기여도 분석](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)</li><li>[고객 속성](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)(최대 200개)</li></ul> |
 | Data Workbench | <ul><li>알고리즘 기여도 분석</li><li>사전 빌드된 작업 공간</li></ul> |
 | Analytics Platform | [라이브 스트림](https://helpx.adobe.com/kr/analytics/kb/getting-started-with-livestream-api.html)(원시 데이터, 대시보드, 트리거) |
 
@@ -64,9 +64,9 @@ Customer 360으로 업그레이드하면 [Analytics Premium](../admin-getting-st
 
 | 제품 | 업그레이드 |
 |--- |--- |
-| [고객 특성](../attributes/attributes.md) | 고객 특성(분석 및 세그먼트 공유) |
-| Data Workbench | <ul><li>파생된 고객 특성</li><li>대상 검색을 위해 사전 빌드된 작업 공간</li></ul> |
-| Analytics Platform | [고객 특성](../attributes/attributes.md) |
+| [고객 속성](../attributes/attributes.md) | 고객 속성(분석 및 세그먼트 공유) |
+| Data Workbench | <ul><li>파생된 고객 속성</li><li>대상 검색을 위해 사전 빌드된 작업 공간</li></ul> |
+| Analytics Platform | [고객 속성](../attributes/attributes.md) |
 
 ## Advanced Attribution {#section_9E4986A8389946CCAA7D003268343296}
 
@@ -84,7 +84,7 @@ TechOps에서는 계약 약속을 검토하고 적절한 관리 인프라의 용
 
 [시작하기 - 핵심 서비스용 솔루션을 사용하도록 설정](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)에 설명된 구현 현대화에 따를 경우 Analytics Standard 및 Premium 사용자는 Experience Cloud와 핵심 서비스를 이용할 수 있습니다. (해당 프로세스는 구현을 현대화하는 데 도움이 되며, Experience Cloud에서 관리자가 될 수 있도록 해줍니다.)
 
-After you join the Experience Cloud, you can log in via the Experience Cloud at [!DNL experiencecloud.adobe.com] and begin using core services (including Customer Attributes, Audiences, and Mobile app analytics).
+Experience Cloud에 참여하면 [!DNL experiencecloud.adobe.com]의 Experience Cloud를 통해 로그인하고 핵심 서비스(고객 속성, 대상 및 모바일 앱 분석 등)를 사용할 수 있습니다.
 
 ### 사용자 및 그룹 관리
 
