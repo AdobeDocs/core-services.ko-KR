@@ -113,11 +113,11 @@ Experience Platform Launch는 Admin Console에서 제품 페이지에 표시됩�
 
 [사용자 관리](https://docs.adobelaunch.com/launch-reference/administration/user-permissions)를 참조하여 Admin Console에서의 사용자 권한에 대해 알아보고, 프로필에 권한 지정을 포함하여 Launch 관련 옵션을 설정합니다.
 
-## 클라우드 서비스로서의 Experience Manager
+## Experience Manager as a Cloud Service
 
-Adobe Enterprise 고객은 Adobe Admin Console에서 IMS 조직으로 표시됩니다. 이것은 Adobe 고객이 사용자 및 그룹에 대한 제품 권한을 관리하는 데 사용하는 포털입니다. AEM 고객은 Adobe Admin Console을 사용하여 AEM에 대한 제품 권한 및 IMS 인증을 Cloud Service로 관리할 수 있습니다.
+Adobe Enterprise 고객은 Adobe Admin Console에서 IMS 조직으로 표시됩니다. 이것은 Adobe 고객이 사용자 및 그룹에 대한 제품 권한을 관리하는 데 사용하는 포털입니다. AEM 고객은 Adobe Admin Console을 사용하여 AEM as a Cloud Service에 대한 제품 권한 및 IMS 인증을 관리할 수 있습니다.
 
-[클라우드 서비스로서의 AEM을 위한 IMS 지원](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console)을 참조하십시오.
+[AEM as a Cloud Service를 위한 IMS 지원](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console)을 참조하십시오.
 
 ## Dynamic Tag Manager {#section_3A41CF2BD5994B9891537D063571D4ED}
 
