@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Dynamic Tag Management를 시작하려면 **[!UICONTROL 활성화]**&#x200B;를 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Experience Cloud ID 서비스 구현 가이드 </a> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud ID 서비스는 Experience Cloud 솔루션(고객 속성, 대상 공유 및 트리거 포함)의 핵심 기능을 활성화합니다. Adobe는 ID 서비스를 구현하여 이러한 기능을 활용할 것을 강력히 권장합니다. </p> </td> 
+   <td colname="col2"> <p>Experience Cloud ID 서비스를 통해 , 대상 공유 및 트리거를 포함한 전체 Experience Cloud 솔루션에서 핵심 기능이 활성화됩니다. Adobe는 ID 서비스를 구현하여 이러한 기능을 활용할 것을 강력히 권장합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html" format="https" scope="external"> Dynamic Tag Management 제품 설명서 </a> </p> </td> 
