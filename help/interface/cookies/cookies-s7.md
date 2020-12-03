@@ -40,7 +40,7 @@ AS2 Flash eCatalog 뷰어의 경우, 쿠키:
 | 정보가 저장됨 | 세션 쿠키를 설정합니다. IPS ImageServer(IS, IR 및 SWF/스킨 및 비디오 컨텍스트)에 포함된 AuthFilter는 액세스 승인에 쿠키를 사용합니다. 쿠키가 있을 경우 HTTP 요청이 통과하도록 허용합니다. 그렇지 않으면 권한 없음을 반환합니다. |
 | 만료 | 이 쿠키는 세션 쿠키입니다. 현재 세션 만료는 Scene7 IPS [!DNL web.xml]에 45분으로 설정되어 있습니다. |
 
-**쿠키 이름: s7js.flyout.InfoMessage.displayed`assetId`.state**
+**쿠키 이름: s7js.flyout.InfoMessage.displayed `assetId`.state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
