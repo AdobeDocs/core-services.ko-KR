@@ -6,9 +6,9 @@ seo-title: 선택 사항 - FTP를 통해 데이터 파일 업로드
 solution: Experience Cloud
 title: 선택 사항 - FTP를 통해 데이터 파일 업로드
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
 
