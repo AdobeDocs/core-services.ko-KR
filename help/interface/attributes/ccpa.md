@@ -1,9 +1,9 @@
 ---
 title: 캘리포니아 소비자 개인 정보 보호법을 위한 고객 속성 지원
 description: 캘리포니아 소비자 개인 정보 보호법을 위한 고객 속성 지원
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
 
