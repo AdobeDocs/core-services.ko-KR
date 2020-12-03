@@ -4,9 +4,9 @@ seo-description: 스키마에서 속성을 삭제 및 교체하는 방법.
 seo-title: 스키마 업데이트(속성 삭제)
 title: 스키마 업데이트(속성 삭제)
 uuid: a465fa89-6c7f-4c07-aa59-84c968a82917
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%
 
