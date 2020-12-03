@@ -5,11 +5,11 @@ breadcrumb-title: Experience Cloud 서비스 및 관리
 user-guide-description: Adobe Experience Cloud 서비스 및 관리 안내서에는 Experience Cloud 사용자 및 제품 관리, 대상 라이브러리, 고객 속성, 쿠키 및 Experience Cloud 자산에 대한 도움말이 포함되어 있습니다.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 98%
    + [대상자 만들기](audience-library/t-audience-create.md)
    + [Analytics 대상 세그먼트 게시](audience-library/t-publish-audience-segment.md)
 + Experience Cloud 고객 특성 {#customer-attributes}
-   + [Adobe Experience Cloud 고객 속성](attributes/attributes.md)
+   + [Adobe Experience Cloud의 고객 속성](attributes/attributes.md)
    + [FAQ, 제한 사항 및 우수 사례](attributes/faq-crs.md)
    + [고객 속성에 대한 데이터 파일 및 데이터 소스 정보](attributes/crs-data-file.md)
    + [고객 속성 소스를 만들고 데이터 파일 업로드](attributes/t-crs-usecase.md)
