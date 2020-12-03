@@ -6,9 +6,9 @@ seo-title: Experience Cloud의 새로운 기능
 solution: Experience Cloud
 title: Experience Cloud의 새로운 기능
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 | 기능 | 설명 |
 |--- |--- |
 | 벌크 보고서 세트 매핑 | 이제 관리 > 보고서 세트 매핑에서 여러 보고서 세트를 선택한 다음 조직에 매핑할 수 있습니다 (이전에는 보고서를 개별적으로 매핑해야 했음).  <br>[보고서 세트를 단일 조직에 매핑하면 Experience Cloud에서 교차 솔루션 기능과 서비스를 사용할 수 있습니다.](../core-services/core-services.md) |
-| Experience Cloud 대상 업데이트 | **보고서 세트 적용&#x200B;**<br>이제 모든[대상 규칙](../audience-library/t-audience-create.md)에 보고서 세트를 적용할 수 있습니다. (이전에는 각 규칙 정의에 보고서 세트를 지정해야 했음.)<br>**Prop 및 변수**<br>이제 실시간 대상에 Analytics Prop 및 기본 변수(eVars 및 이벤트 포함)를 포함할 수 있습니다. |
+| Experience Cloud 대상 업데이트 | **보고서 세트 적용**<br>&#x200B;이제 모든 [대상 규칙](../audience-library/t-audience-create.md)에 보고서 세트를 적용할 수 있습니다. (이전에는 각 규칙 정의에 보고서 세트를 지정해야 했음.) <br>**Prop 및 변수**<br>&#x200B;이제 실시간 대상에 Analytics Prop 및 기본 변수(eVars 및 이벤트 포함)를 포함할 수 있습니다. |
 
 ## 2016년 11월 8일 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
