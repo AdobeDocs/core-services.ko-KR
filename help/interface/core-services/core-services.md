@@ -1,16 +1,14 @@
 ---
-description: Experience Cloud를 구현하고 관리자가 됩니다. 이 프로세스는 고객 속성 및 대상과 같은 기능에 대한 솔루션을 현대화합니다.
+description: Adobe Experience Cloud을 구현하고 관리자가 되는 방법을 알아봅니다.
 keywords: core services;Customer Attributes
-seo-description: Experience Cloud를 구현하고 관리자가 됩니다. 이 프로세스는 고객 속성 및 대상과 같은 기능에 대한 솔루션을 현대화합니다.
-seo-title: 고객 속성 및 대상을 위한 Experience Cloud 솔루션 활성화
 solution: Experience Cloud
-title: 핵심 서비스용 솔루션을 사용하도록 설정
+title: 핵심 서비스용 솔루션 활성화 | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 100%
+source-wordcount: '2368'
+ht-degree: 99%
 
 ---
 
