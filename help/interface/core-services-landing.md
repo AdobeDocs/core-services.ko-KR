@@ -1,15 +1,12 @@
 ---
 description: Adobe Experience Cloud 사용자 및 제품 관리, 사용자(대상 및 고객 속성), Journey Orchestration, 오퍼, 장소, Experience Platform Launch 및 모바일 서비스에 대해 알아봅니다.
-seo-description: Adobe Experience Cloud 사용자 및 제품 관리, 사용자(대상 및 고객 속성), 오퍼, Experience Platform Launch 및 모바일 서비스에 대해 알아봅니다.
-seo-title: Experience Cloud 서비스 및 사용자 관리
 solution: Experience Cloud
-title: Experience Cloud 서비스 정보
-index: true
+title: Experience Cloud 서비스 개요 | Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 100%
+source-wordcount: '481'
+ht-degree: 98%
 
 ---
 
