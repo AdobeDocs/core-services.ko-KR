@@ -1,11 +1,11 @@
 ---
-title: 개인 정보 보호 규정을 위한 고객 속성 지원
-description: 개인 정보 보호 규정을 위한 고객 속성 지원
+title: 개인 정보 보호 규정을 위한 고객 속성 지원 | Adobe Experience Cloud
+description: 일반 데이터 보호 규정에 대한 고객 속성 지원에 대한 자세한 내용
 translation-type: tm+mt
-source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '435'
+ht-degree: 97%
 
 ---
 
