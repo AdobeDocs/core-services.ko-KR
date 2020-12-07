@@ -3,10 +3,10 @@ description: Adobe Experience Cloud 사용자 및 제품 관리, 사용자(대�
 solution: Experience Cloud
 title: Experience Cloud 서비스 개요 | Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,9 @@ ht-degree: 98%
 
 Adobe Experience Cloud 서비스에는 [!UICONTROL 사용자] (대상 및 고객 속성), Experience Platform Launch 및 모바일 서비스가 포함됩니다. Experience Cloud 사용자 및 제품 관리에 대한 도움말도 찾을 수 있습니다.
 
-Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL 애플리케이션 선택기]** ![](assets/menu-icon.png)를 클릭하십시오.
+To access these services in the Experience Cloud, click the **[!UICONTROL Application Selector]**
+
+![](assets/menu-icon.png)에 로그인되어 있는지 확인하십시오.
 
 ![](assets/platform-core-services.png)
 
