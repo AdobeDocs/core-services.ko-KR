@@ -1,16 +1,14 @@
 ---
-description: 유효성 검사 프로세스를 사용하여 표시 이름 및 설명을 업로드된 속성(문자열, 정수, 숫자 등)에 매핑할 수 있습니다. 스키마는 이러한 설정에 따라 만들어집니다. 이 스키마는 앞으로 이 데이터 소스로 업로드되는 모든 데이터의 유효성을 검사하는 데 사용됩니다. 이 매핑 프로세스 때문에 원본 데이터가 변경되지는 않습니다.
-keywords: Customer Attributes;core services
-seo-description: 유효성 검사 프로세스를 사용하여 표시 이름 및 설명을 업로드된 속성(문자열, 정수, 숫자 등)에 매핑할 수 있습니다. 스키마는 이러한 설정에 따라 만들어집니다. 이 스키마는 앞으로 이 데이터 소스로 업로드되는 모든 데이터의 유효성을 검사하는 데 사용됩니다. 이 매핑 프로세스 때문에 원본 데이터가 변경되지는 않습니다.
-seo-title: 스키마 유효성 검사
+description: Adobe Experience Cloud에서 고객 속성 스키마의 유효성을 검사하는 방법을 알아봅니다.
+keywords: Customer Attributes;Experience Cloud services
 solution: Experience Cloud
-title: 스키마 유효성 검사
+title: 고객 속성 스키마의 유효성을 검사하는 방법 | Adobe Experience Cloud
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
