@@ -1,16 +1,14 @@
 ---
-description: Adobe Experience Cloud에 대한 자체 도움말, 제품 설명서 및 기술 문서입니다. Admin Console의 사용자 및 제품 관리를 포함하여 플랫폼 서비스에 대한 솔루션 활성화 및 대상 라이브러리, 고객 특성, Experience Cloud Assets 등에 대한 도움말입니다.
-keywords: platform services
-seo-description: Admin Console의 사용자 및 제품 관리, 플랫폼 서비스에 대한 솔루션 활성화 및 대상 라이브러리, 고객 특성, Experience Cloud Assets 등에 대한 도움말입니다.
-seo-title: Adobe Experience Cloud 및 플랫폼 서비스 도움말 및 제품 설명서입니다.
+description: Adobe Admin Console의 사용자 및 제품 관리, Experience Cloud 서비스에 대한 솔루션 활성화, 대상 라이브러리, 고객 속성, Experience Cloud 자산 등에 대한 자세한 내용을 살펴보십시오.
+keywords: Adobe Experience Cloud services, customer attributes, audiences, user and product administration
 solution: Experience Cloud
-title: Experience Cloud 및 플랫폼 서비스 도움말
+title: Experience Cloud 서비스 및 관리 | Adobe Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 91%
 
 ---
 
