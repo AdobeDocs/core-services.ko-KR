@@ -1,16 +1,14 @@
 ---
 description: Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려진 문제입니다.
 keywords: core services
-seo-description: Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려진 문제입니다.
-seo-title: 누적 릴리스 노트
 solution: Experience Cloud
-title: 누적 릴리스 노트
+title: 누적 릴리스 노트 | Adobe Experience Cloud
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '3968'
-ht-degree: 100%
+source-wordcount: '3957'
+ht-degree: 99%
 
 ---
 
