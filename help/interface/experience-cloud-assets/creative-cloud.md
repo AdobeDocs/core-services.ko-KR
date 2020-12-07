@@ -1,22 +1,20 @@
 ---
-description: Experience Cloud와 Creative Cloud 간에 폴더 및 자산을 공유합니다. 공유 자산에 공동 작업을 수행하고, 주석을 달고, Adobe Social 및 Adobe Target과 같은 Experience Cloud 솔루션에서 사용합니다. 공유 폴더는 Experience Cloud에서 가져온 것이어야 합니다.
+description: 'Experience Cloud과 Creative Cloud 간에 폴더 및 자산을 공유하는 방법을 알아봅니다. '
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Experience Cloud와 Creative Cloud 간에 폴더 및 자산을 공유합니다. 공유 자산에 공동 작업을 수행하고, 주석을 달고, Adobe Social 및 Adobe Target과 같은 Experience Cloud 솔루션에서 사용합니다. 공유 폴더는 Experience Cloud에서 가져온 것이어야 합니다.
-seo-title: Creative Cloud와 Experience Cloud 폴더 및 자산 공유
 solution: Experience Cloud
-title: Creative Cloud와 Experience Cloud 폴더 및 자산 공유
+title: Creative Cloud과 Experience Cloud 폴더 및 에셋 공유 | Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 100%
+source-wordcount: '174'
+ht-degree: 75%
 
 ---
 
 
 # Creative Cloud와 Experience Cloud 폴더 및 자산 공유
 
-Experience Cloud와 Creative Cloud 간에 폴더 및 자산을 공유합니다. 공유 자산에 공동 작업을 수행하고, 주석을 달고, Adobe Social 및 Adobe Target과 같은 Experience Cloud 솔루션에서 사용합니다. 공유 폴더는 Experience Cloud에서 가져온 것이어야 합니다.
+Experience Cloud과 Creative Cloud 간에 폴더 및 자산을 공유합니다. 공유 자산에 공동 작업을 수행하고, 주석을 달고, Adobe Social 및 Adobe Target과 같은 Experience Cloud 솔루션에서 사용합니다. 공유 폴더는 Experience Cloud에서 가져온 것이어야 합니다.
 
 ## 공유의 이점 {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
