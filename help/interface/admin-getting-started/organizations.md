@@ -1,15 +1,13 @@
 ---
 description: 조직 및 Experience Cloud에 솔루션 계정 연결에 대해 알아봅니다.
-keywords: core services
-seo-description: 조직 및 Experience Cloud에 솔루션 계정 연결에 대해 알아봅니다.
-seo-title: 조직 및 계정 연결
-solution: Experience Cloud
-title: 조직 및 계정 연결
+keywords: Adobe Experience Cloud services
+solution: Adobe Experience Cloud
+title: 조직 및 계정 연결 | Adobe Experience Cloud
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '388'
 ht-degree: 100%
 
 ---
