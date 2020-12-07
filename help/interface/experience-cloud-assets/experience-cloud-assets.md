@@ -1,20 +1,18 @@
 ---
-description: 'Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준비가 끝난 자산에 대해 중앙 집중식 단일 저장소를 제공합니다. 자산은 디지털 문서, 이미지, 비디오, 오디오 또는 그 일부로, 다양한 표현물과 하위 자산(예: Photoshop 파일의 레이어, Powerpoint 파일의 슬라이드, PDF의 페이지, ZIP에 있는 파일)을 가질 수 있습니다.'
-seo-description: 'Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준비가 끝난 자산에 대해 중앙 집중식 단일 저장소를 제공합니다. 자산은 디지털 문서, 이미지, 비디오, 오디오 또는 그 일부로, 다양한 표현물과 하위 자산(예: Photoshop 파일의 레이어, Powerpoint 파일의 슬라이드, PDF의 페이지, ZIP에 있는 파일)을 가질 수 있습니다.'
-seo-title: 자산
+description: Experience Cloud 자산에 대해 알아보십시오.
 solution: Experience Cloud
-title: 자산
+title: Experience Cloud 자산 개요 | Adobe Experience Cloud
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '331'
+ht-degree: 94%
 
 ---
 
 
-# 자산
+# Experience Cloud 자산 개요
 
 Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준비가 끝난 자산에 대해 중앙 집중식 단일 저장소를 제공합니다. 자산은 디지털 문서, 이미지, 비디오, 오디오 또는 그 일부로, 다양한 표현물과 하위 자산(예: [!DNL Photoshop] 파일의 레이어, [!DNL PowerPoint] 파일의 슬라이드, PDF의 페이지, ZIP에 있는 파일)을 가질 수 있습니다.
 
