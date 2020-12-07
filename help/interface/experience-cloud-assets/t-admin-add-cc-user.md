@@ -1,16 +1,14 @@
 ---
-description: '승인된 Creative Cloud 사용자를 관리하기 위한 관리 도구입니다. '
+description: 'Experience Cloud에서 승인된 Creative Cloud 사용자를 관리하기 위한 관리 도구에 대해 알아봅니다. '
 keywords: asset sharing;Creative Cloud;core services
-seo-description: '승인된 Creative Cloud 사용자를 관리하기 위한 관리 도구입니다. '
-seo-title: Creative Cloud 사용자 관리
 solution: Experience Cloud
-title: Creative Cloud 사용자 관리
+title: Creative Cloud 사용자 관리 | Adobe Experience Cloud
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 43%
+source-wordcount: '122'
+ht-degree: 25%
 
 ---
 
