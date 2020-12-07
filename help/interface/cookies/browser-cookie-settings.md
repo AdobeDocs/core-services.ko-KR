@@ -1,16 +1,14 @@
 ---
 description: 데스크톱 및 모바일 브라우저에서 모든 쿠키를 차단한 사용자를 삭제하십시오. 이 개인 정보 설정은 Analytics 데이터 수집을 옵트 아웃한 사용자를 제외합니다.
 keywords: cookies;privacy
-seo-description: 데스크톱 및 모바일 브라우저에서 모든 쿠키를 차단한 사용자를 삭제하십시오. 이 개인 정보 설정은 Analytics 데이터 수집을 옵트 아웃한 사용자를 제외합니다.
-seo-title: 브라우저 쿠키에 대한 개인 정보 설정 활성화
 solution: Experience Cloud, Analytics, Target, Social
-title: 브라우저 쿠키에 대한 개인 정보 설정 활성화
+title: 브라우저 쿠키에 대한 개인 정보 설정을 활성화하는 방법 | Adobe Experience Cloud
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 100%
+source-wordcount: '305'
+ht-degree: 96%
 
 ---
 
