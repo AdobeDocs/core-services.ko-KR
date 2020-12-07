@@ -1,16 +1,14 @@
 ---
-description: Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능을 수행합니다. 이러한 기능에는 ID 할당, 데이터 호출 기록, 오류 추적 및 쿠키 설정 여부 테스트 등이 포함됩니다. 이 섹션에서는 Audience Manager에서 설정한 다양한 쿠키를 나열하고 설명합니다.
+description: Adobe Experience Cloud의 Audience Manager 쿠키에 대해 알아봅니다.
 keywords: cookies
-seo-description: Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능을 수행합니다. 이러한 기능에는 ID 할당, 데이터 호출 기록, 오류 추적 및 쿠키 설정 여부 테스트 등이 포함됩니다. 이 섹션에서는 Audience Manager에서 설정한 다양한 쿠키를 나열하고 설명합니다.
-seo-title: Audience Manager 쿠키
 solution: Experience Cloud, Audience Manager
-title: Audience Manager 쿠키
+title: Audience Manager 쿠키 | Adobe Experience Cloud
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 100%
+source-wordcount: '611'
+ht-degree: 97%
 
 ---
 
