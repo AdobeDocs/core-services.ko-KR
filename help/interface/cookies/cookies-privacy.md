@@ -1,16 +1,14 @@
 ---
-description: '고객 개인 정보 보호 및 데이터 보안을 유지 관리하는 것은 Adobe의 최우선 과제입니다. Adobe는 다양한 개인 정보 보호 조직에 참여하고 있으며 개인 정보 규제 기관 및 자율 규제 원칙(예: Digital Advertising Alliance AdChoices 프로그램)과 협력하여 고객에게 정보 사용 방법과 사용과 관련한 선택 사항에 대한 정보를 제공하고 있습니다.'
+description: Adobe Experience Cloud 솔루션 및 서비스의 쿠키 및 개인 정보에 대해 알아보십시오.
 keywords: cookies;privacy
-seo-description: '고객 개인 정보 보호 및 데이터 보안을 유지 관리하는 것은 Adobe의 최우선 과제입니다. Adobe는 다양한 개인 정보 보호 조직에 참여하고 있으며 개인 정보 규제 기관 및 자율 규제 원칙(예: Digital Advertising Alliance AdChoices 프로그램)과 협력하여 고객에게 정보 사용 방법과 사용과 관련한 선택 사항에 대한 정보를 제공하고 있습니다.'
-seo-title: 쿠키 및 개인 정보에 대한 정보
 solution: Experience Cloud,Analytics,Target
-title: 쿠키 및 개인 정보에 대한 정보
+title: 쿠키 및 개인 정보 개요 | Adobe Experience Cloud
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 94%
 
 ---
 
