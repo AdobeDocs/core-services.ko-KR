@@ -1,16 +1,14 @@
 ---
-description: Experience Cloud에 로그인하고, 암호 및 알림을 관리하고, 기본 랜딩 페이지를 지정하는 방법을 알아봅니다.
+description: Adobe Experience Cloud에 로그인하고, 암호 및 알림을 관리하고, 기본 랜딩 페이지를 지정하는 방법을 알아봅니다.
 keywords: core services, sign in to Experience Cloud
-seo-description: Experience Cloud에 로그인하고, 암호 및 알림을 관리하고, 기본 랜딩 페이지를 지정하는 방법을 알아봅니다.
-seo-title: 로그인 및 프로필 설정 관리
-solution: Experience Cloud
-title: 로그인 및 Experience Cloud 프로필 설정 관리
+solution: Adobe Experience Cloud
+title: 로그인 및 Experience Cloud 프로필 설정 관리 | Adobe Experience Cloud
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 100%
+source-wordcount: '940'
+ht-degree: 96%
 
 ---
 
