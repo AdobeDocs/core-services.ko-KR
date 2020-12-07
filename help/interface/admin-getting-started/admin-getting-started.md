@@ -1,16 +1,14 @@
 ---
-description: Admin Console에 로그인, Experience Cloud 사용자 권한과 제품 프로필 관리 및 브라우저 지원 방법에 대해 알아봅니다.
-keywords: core services
-seo-description: Admin Console에 로그인, Experience Cloud 사용자 권한과 제품 프로필 관리 및 브라우저 지원 방법에 대해 알아봅니다.
-seo-title: Experience Cloud 사용자 및 제품 관리
-solution: Experience Cloud
-title: Experience Cloud 사용자 및 제품 관리
+description: Adobe Admin Console 로그인, Experience Cloud 사용자 권한 및 제품 프로필 관리, 브라우저 지원에 대해 알아보십시오.
+keywords: Experience Cloud services
+solution: Adobe Experience Cloud
+title: 사용자 및 제품 관리 방법 살펴보기 | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 100%
+source-wordcount: '1435'
+ht-degree: 97%
 
 ---
 
