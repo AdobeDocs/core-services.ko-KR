@@ -1,16 +1,14 @@
 ---
-description: 타사 쿠키에 대한 지원이 브라우저 간에 점점 더 많이 제한됨에 따라 Adobe는 고객 요구 사항과 Adobe Experience Cloud 솔루션 전반에 걸친 소비자의 개인 정보 보호 권리 간에 신중하게 균형을 잡는 새로운 솔루션을 개발해왔습니다.
+description: 서드파티 쿠키 지원이 브라우저 간에 점점 제한되고 있는 방법에 대해 알아봅니다.
 keywords: cookies;privacy
-seo-description: 타사 쿠키에 대한 지원이 브라우저 간에 점점 더 많이 제한됨에 따라 Adobe는 고객 요구 사항과 Adobe Experience Cloud 솔루션 전반에 걸친 소비자의 개인 정보 보호 권리 간에 신중하게 균형을 잡는 새로운 솔루션을 개발해왔습니다.
-seo-title: 타사 쿠키 지원 변경으로 인한 고객 영향
 solution: Experience Cloud,Analytics,Target
-title: 타사 쿠키 지원 변경으로 인한 고객 영향
+title: 타사 쿠키 지원이 고객에게 미치는 영향 | Adobe Experience Cloud
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 100%
+source-wordcount: '298'
+ht-degree: 91%
 
 ---
 
