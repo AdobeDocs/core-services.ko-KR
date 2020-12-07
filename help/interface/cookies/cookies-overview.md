@@ -1,14 +1,12 @@
 ---
-description: Adobe Experience Cloud에 포함된 대부분의 서비스에서 쿠키를 사용합니다. 쿠키는 웹 사이트에서 웹 브라우저에 제공하는 작은 데이터 조각입니다. 브라우저는 이 데이터 조각을 저장했다가 이 조각을 제공한 웹 사이트로 돌아갑니다. 이 작업은 페이지 및 이미지에 대한 후속 요청과 함께 수행됩니다.
-seo-description: Adobe Experience Cloud에 포함된 대부분의 서비스에서 쿠키를 사용합니다. 쿠키는 웹 사이트에서 웹 브라우저에 제공하는 작은 데이터 조각입니다. 브라우저는 이 데이터 조각을 저장했다가 이 조각을 제공한 웹 사이트로 돌아갑니다. 이 작업은 페이지 및 이미지에 대한 후속 요청과 함께 수행됩니다.
-seo-title: Experience Cloud에서 사용된 쿠키
-title: Experience Cloud에서 사용된 쿠키
+description: Adobe Experience Cloud의 솔루션 및 서비스가 쿠키를 사용하는 방법을 알아봅니다.
+title: 쿠키가 Experience Cloud에서 사용되는 방법 | Adobe Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 100%
+source-wordcount: '177'
+ht-degree: 88%
 
 ---
 
