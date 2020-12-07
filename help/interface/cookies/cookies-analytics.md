@@ -1,16 +1,14 @@
 ---
-description: Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청을 구분하고 응용 프로그램이 나중에 사용할 수 있도록 유용한 정보를 저장합니다. 또한 탐색 정보를 고객 레코드와 연결하는 데 사용할 수도 있습니다.
+description: Adobe Experience Cloud의 Adobe Analytics 쿠키에 대한 자세한 내용을 살펴보십시오.
 keywords: cookies;privacy
-seo-description: Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청을 구분하고 응용 프로그램이 나중에 사용할 수 있도록 유용한 정보를 저장합니다. 또한 탐색 정보를 고객 레코드와 연결하는 데 사용할 수도 있습니다.
-seo-title: Analytics 쿠키
 solution: Experience Cloud,Analytics,Target
-title: Analytics 쿠키
+title: Adobe Analytics 쿠키를 사용하는 방법 | Adobe Experience Cloud
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 translation-type: tm+mt
-source-git-commit: c9d9a69193a877c553db73d230723f1c24dbfed6
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 100%
+source-wordcount: '760'
+ht-degree: 97%
 
 ---
 
