@@ -1,16 +1,14 @@
 ---
-description: Creative Cloud 브라우저에서 공유 폴더로 자산을 업로드합니다.
+description: Creative Cloud 브라우저에서 Experience Cloud으로 공유 폴더에 자산을 업로드하는 방법.
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Creative Cloud 브라우저에서 공유 폴더로 자산을 업로드합니다.
-seo-title: Creative Cloud 브라우저에서 공유 폴더로 자산 업로드
 solution: Experience Cloud
-title: Creative Cloud 브라우저에서 공유 폴더로 자산 업로드
+title: Creative Cloud 브라우저에서 공유 폴더로 자산 업로드 | Adobe Experience Cloud
 uuid: 701e28ed-4d1f-4109-882e-64d3b16cd2da
 translation-type: tm+mt
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 87%
+source-wordcount: '86'
+ht-degree: 47%
 
 ---
 
