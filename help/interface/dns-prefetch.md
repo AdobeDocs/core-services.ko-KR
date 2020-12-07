@@ -1,15 +1,13 @@
 ---
-description: 다양한 솔루션 및 서비스에서 페이지 로드 시간을 줄이는 데 도움이 되도록 DNS 프리페치를 구현합니다.
-seo-description: 다양한 솔루션 및 서비스에서 페이지 로드 시간을 줄이는 데 도움이 되도록 DNS 프리페치를 구현합니다.
-seo-title: 다양한 솔루션 및 서비스에서 DNS 프리페치 사용
+description: Adobe Experience Cloud의 다양한 솔루션과 서비스를 사용하여 페이지 로드 시간을 줄이는 데 도움이 되는 DNS 프리페치를 구현하는 방법
 solution: Experience Cloud
-title: 다양한 솔루션 및 서비스에서 DNS 프리페치 사용
+title: 다른 솔루션 및 서비스에서 DNS 프리페치 사용 | Adobe Experience Cloud
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: 3e86fe7ee638158b5f9d6fa4405caaeb9b092430
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 100%
+source-wordcount: '383'
+ht-degree: 91%
 
 ---
 
