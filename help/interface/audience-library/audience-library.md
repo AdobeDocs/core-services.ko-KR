@@ -1,15 +1,15 @@
 ---
-description: Adobe Experience Cloud 고객 서비스에서 방문자 데이터를 대상 세그먼테이션으로 변환하는 방법을 알아봅니다.
+description: Adobe Experience Cloud 대상 서비스의 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 알아보십시오.
 seo-description: Experience Cloud 대상 서비스의 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다.
 seo-title: Experience Cloud 대상 서비스
 solution: Experience Cloud
-title: 'Adobe Experience Cloud 고객 '
+title: 'Adobe Experience Cloud 대상 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
 source-git-commit: e7d297820dbb666308c5906eca01a0c248e35fe3
 workflow-type: tm+mt
 source-wordcount: '832'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 다음과 같은 다양한 소스에서 대상을 만들거나 파생할 수 있습니다. 
 
 * [!DNL Experience Cloud]에서 대상을 새로 만드는 경우
-* [!DNL Analytics] 세그먼트에 게시된 세그먼트 [!DNL Experience Cloud]
+* [!DNL Analytics] 세그먼트를 [!DNL Experience Cloud]에 게시
 * [!DNL Audience Manager]
 
 **실시간 및 기존 대상**
