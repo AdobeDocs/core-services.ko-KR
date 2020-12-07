@@ -1,16 +1,14 @@
 ---
-description: 특성 규칙을 사용하여 Experience Cloud에서 대상을 만들고 복합 대상을 정의하는 방법을 알아봅니다.
+description: 속성 규칙을 사용하여 대상을 만들고 Adobe Experience Cloud에서 복합 대상을 정의하는 방법을 알아봅니다.
 keywords: core services
-seo-description: 특성 규칙을 사용하여 Experience Cloud에서 대상을 만들고 복합 대상을 정의하는 방법을 알아봅니다.
-seo-title: 대상자 만들기
-solution: Experience Cloud
-title: 대상자 만들기
+solution: Adobe Experience Cloud
+title: 대상자 만들기 | Adobe Experience Cloud
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 translation-type: tm+mt
-source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 100%
+source-wordcount: '475'
+ht-degree: 94%
 
 ---
 
