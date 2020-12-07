@@ -1,16 +1,14 @@
 ---
-description: Scene7은 쿠키를 사용하여 브라우저에 동적 미디어 제공 시 사용할 수 있는 유용한 정보를 저장합니다.
+description: Adobe Scene7이 쿠키를 사용하여 동적 미디어를 브라우저에 전달하는 데 사용할 수 있는 유용한 정보를 저장하는 방법
 keywords: cookies;privacy
-seo-description: Scene7은 쿠키를 사용하여 브라우저에 동적 미디어 제공 시 사용할 수 있는 유용한 정보를 저장합니다.
-seo-title: Scene7 쿠키
 solution: Experience Cloud,Analytics,Target
-title: Scene7 쿠키
+title: Scene7 쿠키 | Adobe Experience Cloud
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '414'
+ht-degree: 93%
 
 ---
 
