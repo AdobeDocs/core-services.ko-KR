@@ -1,16 +1,14 @@
 ---
-description: Search&Promote는 쿠키를 사용하여 방문자 검색 의도를 이해하고 예측합니다.
+description: Search & Promote이 쿠키를 사용하여 방문자 검색 의도를 이해하고 예측한 방법을 알아봅니다.
 keywords: cookies;privacy
-seo-description: Search&Promote는 쿠키를 사용하여 방문자 검색 의도를 이해하고 예측합니다.
-seo-title: Search&Promote 쿠키
 solution: Experience Cloud,Analytics,Target
-title: Search&Promote 쿠키
+title: 쿠키 검색 및 홍보 | Adobe Experience Cloud
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 100%
+source-wordcount: '122'
+ht-degree: 83%
 
 ---
 
