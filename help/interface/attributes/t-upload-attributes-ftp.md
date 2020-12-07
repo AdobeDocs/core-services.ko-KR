@@ -1,16 +1,14 @@
 ---
 description: 드래그 앤 드롭을 사용하여 업로드하지 않는 경우에는 FTP를 통해 Experience Cloud로 고객 속성 데이터를 업로드할 수 있습니다.
 keywords: Customer Attributes;core services
-seo-description: 드래그 앤 드롭을 사용하여 업로드하지 않는 경우에는 FTP를 통해 Experience Cloud로 고객 속성 데이터를 업로드할 수 있습니다.
-seo-title: 선택 사항 - FTP를 통해 데이터 파일 업로드
 solution: Experience Cloud
-title: 선택 사항 - FTP를 통해 데이터 파일 업로드
+title: FTP를 통해 고객 속성 데이터 파일 업로드 | Adobe Experience Cloud
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 translation-type: tm+mt
-source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '271'
+ht-degree: 95%
 
 ---
 
