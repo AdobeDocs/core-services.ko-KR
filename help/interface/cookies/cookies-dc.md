@@ -1,16 +1,14 @@
 ---
-description: Data Connectors는 쿠키를 사용하여 광고주에게 여러 광고 채널 전반에 최적화된 캠페인 및 전환 성능 지표를 제공합니다.
+description: Adobe 데이터 커넥터가 쿠키를 사용하여 광고주에게 여러 광고 채널에서 최적화된 캠페인 및 전환 성과 지표를 제공하는 방법을 알아봅니다.
 keywords: cookies;privacy
-seo-description: Data Connectors는 쿠키를 사용하여 광고주에게 여러 광고 채널 전반에 최적화된 캠페인 및 전환 성능 지표를 제공합니다.
-seo-title: Data Connectors 쿠키
 solution: Experience Cloud, Analytics, Target
-title: Data Connectors 쿠키
+title: 데이터 커넥터 쿠키 | Adobe Experience Cloud
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 100%
+source-wordcount: '75'
+ht-degree: 64%
 
 ---
 
