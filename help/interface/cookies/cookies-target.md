@@ -1,16 +1,14 @@
 ---
-description: Target은 쿠키를 사용하여 웹사이트 운영자가 어떤 온라인 콘텐츠 및 오퍼가 방문자와 관련이 있는지 테스트할 수 있도록 합니다.
+description: Adobe Target이 쿠키를 사용하여 웹 사이트 운영자에게 방문자와 보다 연관성이 높은 온라인 컨텐츠와 오퍼를 테스트할 수 있는 방법을 알아봅니다.
 keywords: cookies;privacy
-seo-description: Target은 쿠키를 사용하여 웹사이트 운영자가 어떤 온라인 콘텐츠 및 오퍼가 방문자와 관련이 있는지 테스트할 수 있도록 합니다.
-seo-title: Target 쿠키
 solution: Experience Cloud,Analytics,Target,Social
-title: Target 쿠키
+title: Adobe Target 쿠키를 사용하는 방법 | Adobe Experience Cloud
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 100%
+source-wordcount: '272'
+ht-degree: 87%
 
 ---
 
