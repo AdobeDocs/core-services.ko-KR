@@ -1,23 +1,23 @@
 ---
-description: Adobe Experience Cloud에서 고객 속성 학습
+description: Adobe Experience Cloud의 고객 속성 서비스에 대해 알아보고 Analytics 및 Target에서 사용할 데이터를 업로드하는 방법을 알아봅니다.
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 solution: Experience Cloud
-title: 고객 속성 서비스 | Adobe Experience Cloud
+title: 고객 속성 사용 방법 | Adobe Experience Cloud
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: efa3c21a7d93cf1f81d0529be18235e833b02769
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 96%
+source-wordcount: '487'
+ht-degree: 79%
 
 ---
 
 
-# Adobe Experience Cloud의 고객 속성
+# Adobe Experience Cloud에서 고객 속성을 사용하는 방법
 
-**[!DNL Experience Platform]** > **[!UICONTROL 사용자]** > **[!UICONTROL 고객 속성]**&#x200B;으로 이동합니다.
+Adobe Experience Cloud의 고객 속성을 사용하면 캡처한 엔터프라이즈 데이터를 고객 관계 관리(CRM) 데이터베이스에서 업로드할 수 있습니다. 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드한 다음 Adobe Analytics 및 Adobe Target의 데이터를 사용할 수 있습니다.
 
-CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 업로드했으면 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 활용합니다.
+To locate this feature, navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
 ![](assets/custom_reports.png)
 
@@ -31,7 +31,7 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 
    고객 속성에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!UICONTROL 고객 속성] 메뉴 항목이 표시됩니다.
 
-* **Adobe Target** 고객 속성에 [!DNL at.js] (임의 버전) 또는 [!DNL mbox.js] 버전 58 이상이 필요합니다.
+* **Adobe Target** 고객 속성에 `at.js` (임의 버전) 또는 `mbox.js` 버전 58 이상이 필요합니다.
 
    [at.js 배포 방법](https://docs.adobe.com/content/help/ko-KR/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) 또는 [Mbox.js 구현](https://docs.adobe.com/content/help/ko-KR/target/using/implement-target/client-side/mbox-implement/mbox-download.html)을 참조하십시오.
 
@@ -47,7 +47,7 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 
 이 워크플로우에 대한 자세한 내용은 [고객 속성 데이터 업로드](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)를 참조하십시오.
 
-## 솔루션 사용 사례 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
+## 분석 및 Target의 고객 속성 예 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
 데이터가 Experience Cloud에 있으면 사용자 정의하여, 보고, 세그멘테이션, 활동 및 캠페인을 위해 솔루션에 공유할 수 있습니다.
 
