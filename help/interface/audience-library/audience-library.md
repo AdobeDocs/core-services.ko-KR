@@ -1,14 +1,13 @@
 ---
 description: Adobe Experience Cloud 대상 서비스의 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 알아보십시오.
-seo-description: Experience Cloud 대상 서비스의 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다.
-seo-title: Experience Cloud 대상 서비스
 solution: Experience Cloud
+type: Documentation
 title: 'Adobe Experience Cloud 대상 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: e7d297820dbb666308c5906eca01a0c248e35fe3
+source-git-commit: 2376fa2edf0477515f6e0cfe31af4821c9c6b86c
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '814'
 ht-degree: 100%
 
 ---
