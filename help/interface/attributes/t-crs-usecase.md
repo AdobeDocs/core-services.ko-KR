@@ -2,13 +2,13 @@
 description: 고객 속성 소스를 만들고 Adobe Experience Cloud에 업로드하는 방법을 알아봅니다.
 keywords: Customer Attributes;core services
 solution: Experience Cloud
-title: 고객 속성 소스 만들기 및 데이터 파일 업로드 | Adobe Experience Cloud
+title: '고객 속성 소스를 만들고 데이터 파일 업로드 '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 97%
+source-wordcount: '1165'
+ht-degree: 98%
 
 ---
 
