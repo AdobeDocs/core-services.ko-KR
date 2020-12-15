@@ -1,14 +1,14 @@
 ---
-description: 앱을 통해 Digital Marketing 확장 기능을 검색, 탐색, 선택, 지불 및 다운로드할 수 있는 단일 대상인 Exchange Marketplace에 대해 학습합니다.
+description: 앱을 통해 디지털 마케팅 확장 기능을 검색, 탐색, 선택, 지불 및 다운로드할 수 있는 단일 대상인 Exchange Marketplace에 대해 알아보십시오.
 keywords: core services
 solution: Experience Cloud
-title: Exchange Marketplace | Adobe Experience Cloud
+title: 'Exchange 마켓플레이스 '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 translation-type: tm+mt
-source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '132'
+ht-degree: 83%
 
 ---
 
