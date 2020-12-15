@@ -1,12 +1,12 @@
 ---
-description: Adobe Experience Cloud의 솔루션 및 서비스가 쿠키를 사용하는 방법을 알아봅니다.
-title: 쿠키가 Experience Cloud에서 사용되는 방법 | Adobe Experience Cloud
+description: Adobe Experience Cloud의 솔루션 및 서비스가 쿠키를 사용하는 방법에 대해 알아봅니다.
+title: '쿠키가 Experience Cloud에서 사용되는 방법 '
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 88%
+source-wordcount: '174'
+ht-degree: 89%
 
 ---
 
