@@ -1,13 +1,13 @@
 ---
-description: Adobe Experience Cloud, Adobe Analytics 및 Adobe Target 고객 속성에 대한 FAQ
+description: Adobe Experience Cloud, Adobe Analytics 및 Adobe Target의 고객 속성에 대한 FAQ입니다.
 keywords: Customer Attributes
 solution: Experience Cloud
-title: 고객 속성에 대한 FAQ | Adobe Experience Cloud
+title: '고객 속성에 대한 질문과 답변 '
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: dae4bbecc05ed6a78470354f82e4e3cd8f003660
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1233'
 ht-degree: 96%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 # FAQ, 제한 사항 및 우수 사례
 
-Adobe Analytics 및 Adobe Target의 고객 속성에 대한 FAQ와 모범 사례
+Adobe Analytics 및 Adobe Target의 고객 속성에 대한 FAQ 및 우수 사례입니다.
 
 ## 우수 사례 및 제한 사항 {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
