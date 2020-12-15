@@ -1,14 +1,14 @@
 ---
-description: 서드파티 쿠키 지원이 브라우저 간에 점점 제한되고 있는 방법에 대해 알아봅니다.
+description: 제3자 쿠키에 대한 지원이 브라우저 간에 점점 더 제한적으로 변경되는 방법에 대해 알아봅니다.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: 타사 쿠키 지원이 고객에게 미치는 영향 | Adobe Experience Cloud
+title: '타사 쿠키 지원에 대한 변경 사항이 고객에게 미치는 영향 '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 91%
+source-wordcount: '295'
+ht-degree: 92%
 
 ---
 
