@@ -2,13 +2,13 @@
 description: Adobe Analytics이 쿠키를 사용하여 이미지 요청과 브라우저 세션 간에 지속되지 않는 변수 및 구성 요소에 대한 정보를 제공하는 방법을 알아봅니다.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics
-title: 자사 쿠키를 사용하는 방법 | Adobe Experience Cloud
+title: '자사 쿠키를 사용하는 방법 '
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1444'
 ht-degree: 97%
 
 ---
