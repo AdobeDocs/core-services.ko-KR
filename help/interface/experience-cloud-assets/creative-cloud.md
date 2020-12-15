@@ -2,12 +2,12 @@
 description: 'Experience Cloud과 Creative Cloud 간에 폴더 및 자산을 공유하는 방법을 알아봅니다. '
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
-title: Creative Cloud과 Experience Cloud 폴더 및 에셋 공유 | Adobe Experience Cloud
+title: 'Creative Cloud와 Experience Cloud 폴더 및 자산 공유 '
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 75%
+source-wordcount: '171'
+ht-degree: 81%
 
 ---
 
