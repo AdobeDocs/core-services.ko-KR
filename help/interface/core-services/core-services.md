@@ -2,13 +2,13 @@
 description: Adobe Experience Cloud을 구현하고 관리자가 되는 방법을 알아봅니다.
 keywords: core services;Customer Attributes
 solution: Experience Cloud
-title: 핵심 서비스용 솔루션 활성화 | Adobe Experience Cloud
+title: '핵심 서비스용 솔루션을 사용하도록 설정 '
 index: true
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '2368'
-ht-degree: 99%
+source-wordcount: '2362'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 99%
 
 ## 1단계. Experience Cloud에 참여 및 관리자 되기 {#section_2423F0BD3DF642658103310EE5EA6154}
 
-Experience Cloud에 참여하기 위해 수행할 작업:
+Experience Cloud에 가입하기 위해 수행해야 하는 작업:
 
 ![](assets/step1_icon.png) 적절한 Adobe Analytics 또는 Adobe Target SKU가 있는지 확인합니다.
 
@@ -94,7 +94,7 @@ Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 
 | 작업 | 설명 |
 | -----------| ---------- |  
 | [Analytics용 Experience Cloud ID 서비스 구현](https://docs.adobe.com/content/help/ko-KR/id-service/using/implementation/setup-analytics.html) | [고객 ID](https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/authenticated-state.html)를 추가적으로 설정하는 것도 좋습니다. 이러한 ID는 각 방문자와 연결되며 Experience Cloud의 현재 및 향후 기능을 활성화합니다. |
-| 기존 [!DNL s_code]를 버전 H.27.3 이상으로 업데이트하거나 기존 [!DNL AppMeasurement.js]를 버전 1.4 이상으로 업데이트합니다. | 이러한 파일은 Analytics 관리 도구의 [코드 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/code-manager-admin.html)에서 다운로드할 수 있습니다.  ([!DNL AppMeasurement.js]에 대한 자세한 내용이 필요한 경우 [JavaScript 구현](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) 안내서를 사용할 수 있습니다.) |
+| 기존 [!DNL s_code]를 버전 H.27.3 이상으로 업데이트하거나 기존 [!DNL AppMeasurement.js]를 버전 1.4 이상으로 업데이트합니다. | 이러한 파일은 Analytics 관리 도구의 [코드 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/code-manager-admin.html)에서 다운로드할 수 있습니다. ([!DNL AppMeasurement.js]에 대한 자세한 내용이 필요한 경우 [JavaScript 구현](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) 안내서를 사용할 수 있습니다.) |
 | Analytics에 대한 고객 ID 동기화 | [Analytics - 고객 ID 동기화](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437)(아래)를 참조하십시오. |
 
 ## Analytics 및 Adobe Target - 고객 ID 동기화 {#section_AD473A6A21C1446498E700363F9A8437}
@@ -173,7 +173,7 @@ Experience Cloud ID 서비스를 배포하면 새 방문자는 더 이상 데이
 
 예를 들어 사이트의 지원 섹션에 별도의 CMS에서 관리되는 경우 이 섹션에 대해 다른 Analytics JavaScript 파일을 보유할 수 있습니다. 지원 사이트에 ID 서비스를 배포하기 전에 기본 사이트에 Experience Cloud ID를 배포하는 경우 새 방문자가 지원 섹션을 방문하면 이전 Analytics ID를 받게 되며 두 사이트 섹션에 걸쳐 진행되는 방문이 다른 방문으로 보고됩니다.
 
-여러 JavaScript 파일 또는 다른 기술(예: Flash)을 사용하는 사이트에 Experience Cloud ID 서비스를 배포하면 사이트의 모든 부분에서 동시에 해당 Experience Cloud ID 서비스를 사용하도록 설정해야 하므로 조정 문제가 발생할 수 있습니다. 유예 기간을 구성하면 새 방문자가 ID 서비스에서 Analytics 방문자 ID를 계속 받게 되므로 방문자는 방문자 ID 서비스를 사용하도록 업그레이드되지 않은 사이트의 섹션에서 일관되게 식별될 수 있습니다.
+여러 JavaScript 파일 또는 기타 기술(예: Flash)을 사용하는 사이트에 Experience Cloud ID 서비스를 배포하면 동시에 사이트의 모든 부분에서 Experience Cloud ID 서비스를 설정해야 하므로 조정 문제가 발생할 수 있습니다. 유예 기간을 구성하면 새 방문자가 ID 서비스에서 Analytics 방문자 ID를 계속 받게 되므로 방문자는 방문자 ID 서비스를 사용하도록 업그레이드되지 않은 사이트의 섹션에서 일관되게 식별될 수 있습니다.
 
 ## 7단계. 사용자 및 제품 관리 {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
 
@@ -212,7 +212,7 @@ Adobe [!DNL Experience Cloud] 내의 실시간 대상 프로파일링 및 기타
 * [!DNL Analytics] 키/값 쌍(props, eVars, list vars 등). 기본적으로 로그 줄에는 IP의 마지막 8진수를 포함하는 IP 주소가 포함됩니다(IP 주소가 Adobe [!DNL Analytics] 내의 IP 난독화 설정에 따라 수정되지 않았다고 가정).
 * 방문자가 Audience Manager에서 설정된 규칙에 따라 자격을 평가하는 트레이트 및 세그먼트
 * (선택 사항) 하나 이상의 ID. ID 서비스 구현에 따라, CRM ID 또는 해시된 이메일 주소와 같은 하나 이상의 ID를 전송할 수도 있습니다. 이 데이터가 Adobe [!DNL Analytics]로 전송되면 Adobe 고객 관리로 전달됩니다. 개인 데이터는 Adobe [!DNL Analytics]에 제공하지 않는 것이 좋습니다. 개인 데이터의 경우 Adobe로 전송하기 전에 단방향 해시를 사용해서 데이터를 가리는 것이 좋습니다.
-* 백엔드 세그먼트 공유 기능을 통해 [!DNL Analytics]에서 시작된 세그먼트
+* Segments originating in [!DNL Analytics] via the back-end segment sharing capability
 * demdex.net 쿠키는 타사 쿠키가 차단되지 않은 경우에 설정됩니다. `AMCV_###@AdobeOrg` 자사 쿠키는 항상 Experience Cloud ID 서비스를 사용하여 설정됩니다.
 
 이러한 모든 데이터 요소는 로그 파일 형식에서 Adobe Audience Manager로 전달됩니다. Audience Manager는 미국 내에서 이 데이터를 처리하고 저장합니다. Audience Manager는 미국 외부에서 이 데이터를 저장하고 처리하기 위한 옵션을 제공하지 않습니다.
