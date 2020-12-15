@@ -4,12 +4,12 @@ keywords: core services
 seo-description: 활성화에는 Experience Platform Launch라고 하는 최신 태그 관리 제품과 DTM(Dynamic Tag Management) 및 트리거가 포함됩니다.
 seo-title: 활성화
 solution: Experience Cloud
-title: Experience Cloud의 활성화 서비스 | Adobe Experience Cloud
+title: Experience Cloud의 활성화 서비스
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '438'
 ht-degree: 98%
 
 ---
