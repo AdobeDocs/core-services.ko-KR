@@ -2,13 +2,13 @@
 description: Search & Promote이 쿠키를 사용하여 방문자 검색 의도를 이해하고 예측한 방법을 알아봅니다.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: 쿠키 검색 및 홍보 | Adobe Experience Cloud
+title: 'Search&Promote 쿠키 '
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 83%
+source-wordcount: '119'
+ht-degree: 89%
 
 ---
 
