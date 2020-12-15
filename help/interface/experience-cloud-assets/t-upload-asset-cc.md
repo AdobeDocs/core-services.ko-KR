@@ -1,21 +1,21 @@
 ---
-description: Creative Cloud 브라우저에서 Experience Cloud으로 공유 폴더에 자산을 업로드하는 방법.
+description: Creative Cloud 브라우저에서 Experience Cloud으로 공유 폴더에 자산을 업로드하는 방법입니다.
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
-title: Creative Cloud 브라우저에서 공유 폴더로 자산 업로드 | Adobe Experience Cloud
+title: 'Creative Cloud 브라우저에서 공유 폴더로 자산 업로드 '
 uuid: 701e28ed-4d1f-4109-882e-64d3b16cd2da
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 47%
+source-wordcount: '83'
+ht-degree: 63%
 
 ---
 
 
 # Creative Cloud 브라우저에서 공유 폴더로 자산 업로드
 
-https://helpx.adobe.com/creative-cloud/help/sync-files.htmlCreative Cloud [도움말](https://helpx.adobe.com/kr/creative-cloud/help/sync-files.html) 을 참조하십시오.
+https://helpx.adobe.com/creative-cloud/help/sync-files.html [Creative Cloud](https://helpx.adobe.com/kr/creative-cloud/help/sync-files.html) 도움말은을 참조하십시오.
 
 1. [!DNL Creative Cloud] 브라우저를 시작하고 [!UICONTROL Creative Cloud 파일]로 이동합니다.
 1. 공유 폴더를 엽니다.
