@@ -3,12 +3,12 @@ description: 클라우드의 최신 브랜드 업데이트, 인터페이스 탐�
 seo-description: 클라우드의 최신 브랜드 업데이트, 인터페이스 탐색 방법, 솔루션 및 핵심 서비스에 대한 도움말을 찾을 위치에 대해 알아봅니다.
 seo-title: Experience Cloud의 새 클라우드 이름 정보
 solution: Experience Cloud
-title: Experience Cloud의 새 클라우드 이름 정보 | Adobe Experience Cloud
+title: 'Experience Cloud의 새 클라우드 이름 정보 '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '667'
 ht-degree: 100%
 
 ---
