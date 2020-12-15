@@ -1,12 +1,12 @@
 ---
-description: Adobe Experience Cloud 스키마에서 속성을 삭제하고 바꾸는 방법.
-title: 스키마 업데이트(속성 삭제) | Adobe Experience Cloud
+description: Adobe Experience Cloud의 스키마에서 속성을 삭제하고 바꾸는 방법.
+title: '스키마 업데이트(속성 삭제) '
 uuid: a465fa89-6c7f-4c07-aa59-84c968a82917
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 63%
+source-wordcount: '58'
+ht-degree: 77%
 
 ---
 
