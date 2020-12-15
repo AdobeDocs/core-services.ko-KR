@@ -2,13 +2,13 @@
 description: 드래그 앤 드롭을 사용하여 업로드하지 않는 경우에는 FTP를 통해 Experience Cloud로 고객 속성 데이터를 업로드할 수 있습니다.
 keywords: Customer Attributes;core services
 solution: Experience Cloud
-title: FTP를 통해 고객 속성 데이터 파일 업로드 | Adobe Experience Cloud
+title: 'FTP를 통해 고객 속성 데이터 파일 업로드 '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 95%
+source-wordcount: '268'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ Experience Cloud에서 고객 특성 소스 및 FTP 계정을 만든 후에 데�
 >
 >파일을 업로드하기 전에 [고객 속성을 업로드하기 위한 데이터 파일 요구 사항](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)을 검토하십시오.
 
-고객 속성 FTP 사이트로의 파일 업로드는 FTP 또는 SFTP를 통해 수행될 수 있습니다.
+고객 속성 FTP 사이트로의 파일 업로드는 FTP 또는 SFTP를 통해 수행될 수 있습니다:
 
 * SFTP 연결을 지원하는 클라이언트가 필요합니다.
 * [여기](https://docs.adobe.com/help/en/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)에 설명된 것처럼 사용자 이름/암호를 사용하거나 암호를 사용하지 않고 SFTP를 통해 연결할 수 있습니다.
