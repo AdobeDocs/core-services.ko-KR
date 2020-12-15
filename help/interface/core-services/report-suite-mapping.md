@@ -1,12 +1,12 @@
 ---
-description: Experience Cloud의 조직에 하나 이상의 보고서 세트를 매핑하는 방법을 알아봅니다.
-title: 조직에 보고서 세트 매핑 | Adobe Experience Cloud
+description: 하나 이상의 보고서 세트를 Experience Cloud의 조직에 매핑하는 방법을 알아봅니다.
+title: '조직에 보고서 세트 매핑 '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 97%
+source-wordcount: '1186'
+ht-degree: 98%
 
 ---
 
