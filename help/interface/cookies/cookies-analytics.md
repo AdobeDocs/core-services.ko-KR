@@ -1,14 +1,14 @@
 ---
-description: Adobe Experience Cloud의 Adobe Analytics 쿠키에 대한 자세한 내용을 살펴보십시오.
+description: Adobe Experience Cloud의 Adobe Analytics 쿠키에 대해 알아봅니다.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: Adobe Analytics 쿠키를 사용하는 방법 | Adobe Experience Cloud
+title: 'Adobe Analytics 쿠키 사용 방법 '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 97%
+source-wordcount: '757'
+ht-degree: 98%
 
 ---
 
