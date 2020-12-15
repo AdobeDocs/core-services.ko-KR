@@ -1,14 +1,14 @@
 ---
-description: 브라우저 지원에 대해 알아보고 Adobe Experience Cloud 관리자의 일반적인 질문에 대한 답변을 얻을 수 있습니다.
+description: Adobe Experience Cloud에서 브라우저 지원에 대해 알아보고 관리자의 일반적인 질문에 대한 답변을 얻을 수 있습니다.
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
 solution: Experience Cloud
-title: Experience Cloud에 대한 FAQ | Adobe Experience Cloud
+title: 'Experience Cloud에 대한 FAQ '
 index: true
 translation-type: tm+mt
-source-git-commit: dae4bbecc05ed6a78470354f82e4e3cd8f003660
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 96%
+source-wordcount: '767'
+ht-degree: 97%
 
 ---
 
