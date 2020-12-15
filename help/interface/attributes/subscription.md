@@ -2,13 +2,13 @@
 description: 솔루션 데이터 소스 및 가입 구성에 대해 알아봅니다. 가입을 통해 Experience Cloud와 솔루션(Analytics 및 Target) 간에 고객 특성 데이터 흐름을 사용할 수 있습니다.
 keywords: Customer Attributes;core services
 solution: Experience Cloud
-title: 구독을 구성하는 방법 | Adobe Experience Cloud
+title: '구독을 구성하는 방법 '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 96%
+source-wordcount: '381'
+ht-degree: 97%
 
 ---
 
