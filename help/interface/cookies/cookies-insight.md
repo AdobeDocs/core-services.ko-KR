@@ -1,14 +1,14 @@
 ---
-description: Data Workbench이 쿠키를 사용하여 빠르게 변화하는 대용량의 데이터를 실시간으로 분석하는 방법
+description: Data Workbench이 쿠키를 사용하여 급변하는 대용량의 데이터를 실시간으로 분석하는 방법입니다.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: Data Workbench 쿠키 | Adobe Experience Cloud
+title: 'Data Workbench 쿠키 '
 uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 76%
+source-wordcount: '87'
+ht-degree: 82%
 
 ---
 
