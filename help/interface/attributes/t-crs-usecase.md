@@ -1,5 +1,5 @@
 ---
-description: 고객 속성 소스를 만들고 Adobe Experience Cloud에 업로드하는 방법을 알아봅니다.
+description: 고객 특성 소스를 만들고 Adobe Experience Cloud에 업로드하는 방법을 알아봅니다.
 keywords: Customer Attributes;core services
 solution: Experience Cloud
 title: '고객 속성 소스를 만들고 데이터 파일 업로드 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
 Experience Cloud에 게시한 세그먼트는 Experience Cloud 대상 및 Audience Manager에서 사용할 수 있습니다.
 
-자세한 내용은 Analytics 도움말의 [고객 속성 보고서](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)를 참조하십시오.
+자세한 내용은 Analytics 도움말의 [고객 속성 보고서](https://docs.adobe.com/help/ko-KR/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)를 참조하십시오.
 
 ## Adobe Target에서 고객 속성 사용 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
