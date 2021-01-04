@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience Cloud을 구현하고 관리자가 되는 방법을 알아봅니다.
+description: Adobe Experience Cloud를 구현하고 관리자가 되는 방법을 알아봅니다.
 keywords: core services;Customer Attributes
 solution: Experience Cloud
 title: '핵심 서비스용 솔루션을 사용하도록 설정 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '2362'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -99,7 +99,7 @@ Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 
 
 ## Analytics 및 Adobe Target - 고객 ID 동기화 {#section_AD473A6A21C1446498E700363F9A8437}
 
-Experience Cloud ID 서비스 설정의 일부로, Analytics 및 [!DNL Target]에 대해 [고객 ID](https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/authenticated-state.html)를 Experience Cloud와 동기화하는 것이 좋습니다.
+Experience Cloud ID 서비스 설정의 일부로, Analytics 및 [!DNL Target]에 대해 [고객 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)를 Experience Cloud와 동기화하는 것이 좋습니다.
 
 Adobe Target에서 `mbox3rdpartyid`는 고객 ID를 가져와서 [!DNL Target]에 보내야 합니다. ([!DNL Target]에서 [고객 속성 사용](https://docs.adobe.com/content/help/ko-KR/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)을 참조하십시오.)
 
@@ -212,7 +212,7 @@ Adobe [!DNL Experience Cloud] 내의 실시간 대상 프로파일링 및 기타
 * [!DNL Analytics] 키/값 쌍(props, eVars, list vars 등). 기본적으로 로그 줄에는 IP의 마지막 8진수를 포함하는 IP 주소가 포함됩니다(IP 주소가 Adobe [!DNL Analytics] 내의 IP 난독화 설정에 따라 수정되지 않았다고 가정).
 * 방문자가 Audience Manager에서 설정된 규칙에 따라 자격을 평가하는 트레이트 및 세그먼트
 * (선택 사항) 하나 이상의 ID. ID 서비스 구현에 따라, CRM ID 또는 해시된 이메일 주소와 같은 하나 이상의 ID를 전송할 수도 있습니다. 이 데이터가 Adobe [!DNL Analytics]로 전송되면 Adobe 고객 관리로 전달됩니다. 개인 데이터는 Adobe [!DNL Analytics]에 제공하지 않는 것이 좋습니다. 개인 데이터의 경우 Adobe로 전송하기 전에 단방향 해시를 사용해서 데이터를 가리는 것이 좋습니다.
-* Segments originating in [!DNL Analytics] via the back-end segment sharing capability
+* 백엔드 세그먼트 공유 기능을 통해 [!DNL Analytics]에서 시작된 세그먼트
 * demdex.net 쿠키는 타사 쿠키가 차단되지 않은 경우에 설정됩니다. `AMCV_###@AdobeOrg` 자사 쿠키는 항상 Experience Cloud ID 서비스를 사용하여 설정됩니다.
 
 이러한 모든 데이터 요소는 로그 파일 형식에서 Adobe Audience Manager로 전달됩니다. Audience Manager는 미국 내에서 이 데이터를 처리하고 저장합니다. Audience Manager는 미국 외부에서 이 데이터를 저장하고 처리하기 위한 옵션을 제공하지 않습니다.
@@ -225,4 +225,4 @@ Adobe [!DNL Experience Cloud] 내의 실시간 대상 프로파일링 및 기타
 
 지침이 필요하면 [Adobe Experience Cloud - Adobe 옵트 아웃 구현](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/data-collection/opt-out.html)을 참조하십시오.
 
-도메인 간 추적을 사용하려면 [데이터 수집 CNAME 및 도메인 간 추적](https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/analytics-reference/cname.html)을 참조하십시오.
+도메인 간 추적을 사용하려면 [데이터 수집 CNAME 및 도메인 간 추적](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)을 참조하십시오.
