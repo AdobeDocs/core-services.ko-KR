@@ -84,7 +84,7 @@ Adobe Target은 Analytics 및 기타 Experience Cloud 핵심 서비스를 통합
 
 Adobe Experience Manager는 컨텐츠 관리 솔루션으로, 웹 사이트, 모바일 앱, 커뮤니티 및 양식에 대한 자산 및 컨텐츠를 쉽게 관리할 수 있습니다.
 
-도움이 필요하면 [Adobe Experience Manager 6.5](https://helpx.adobe.com/kr/support/experience-manager/6-5.html)를 참조하십시오.
+도움이 필요하면 [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html)를 참조하십시오.
 
 [Adobe Audience Manager](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/aam-home.html)
 
