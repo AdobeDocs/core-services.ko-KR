@@ -52,9 +52,9 @@ Predictive Intelligence로 업그레이드하면 [Analytics Premium](../admin-ge
 
 | 제품 | 업그레이드 |
 |---|---|
-| Reports &amp; Analytics | [기여도 분석](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| 보고 및 분석 | [기여도 분석](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | 대상 자격 조건 및 예측 마케팅을 위해 사전 빌드된 작업 공간. |
-| Analytics Platform | 라이브 스트림(대시보드 및 트리거) |
+| 분석 플랫폼 | 라이브 스트림(대시보드 및 트리거) |
 
 ## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
@@ -64,7 +64,7 @@ Customer 360으로 업그레이드하면 [Analytics Premium](../admin-getting-st
 |--- |--- |
 | [고객 속성](../attributes/attributes.md) | 고객 속성(분석 및 세그먼트 공유) |
 | Data Workbench | <ul><li>파생된 고객 속성</li><li>대상 검색을 위해 사전 빌드된 작업 공간</li></ul> |
-| Analytics Platform | [고객 속성](../attributes/attributes.md) |
+| 분석 플랫폼 | [고객 속성](../attributes/attributes.md) |
 
 ## Advanced Attribution {#section_9E4986A8389946CCAA7D003268343296}
 
