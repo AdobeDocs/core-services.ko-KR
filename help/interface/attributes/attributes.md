@@ -17,7 +17,7 @@ ht-degree: 79%
 
 Adobe Experience Cloud의 고객 속성을 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드한 다음 Adobe Analytics 및 Adobe Target의 데이터를 사용할 수 있습니다.
 
-To locate this feature, navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
+이 기능을 찾으려면 **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL 고객 속성]**&#x200B;으로 이동합니다.
 
 ![](assets/custom_reports.png)
 
@@ -47,7 +47,7 @@ To locate this feature, navigate to **[!DNL Experience Platform]** > **[!UICONTR
 
 이 워크플로우에 대한 자세한 내용은 [고객 속성 데이터 업로드](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)를 참조하십시오.
 
-## 분석 및 Target의 고객 속성 예 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
+## Analytics 및 Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}의 고객 속성 예
 
 데이터가 Experience Cloud에 있으면 사용자 정의하여, 보고, 세그멘테이션, 활동 및 캠페인을 위해 솔루션에 공유할 수 있습니다.
 
