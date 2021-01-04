@@ -4,9 +4,9 @@ keywords: core services
 solution: Experience Cloud
 title: 'Experience Cloud 사용자 및 사용자 세부 사항 보기 '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1243'
 ht-degree: 100%
 
