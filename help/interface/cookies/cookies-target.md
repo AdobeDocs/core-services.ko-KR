@@ -1,5 +1,5 @@
 ---
-description: Adobe Target이 쿠키를 사용하여 웹 사이트 운영자에게 방문자와 보다 연관성이 높은 온라인 컨텐츠 및 오퍼를 테스트할 수 있는 방법을 알아봅니다.
+description: Adobe Target에서 어떻게 쿠키를 사용하여 어떤 온라인 컨텐츠 및 오퍼가 방문자와 밀접한 관련이 있는지 테스트하는 기능을 웹 사이트 운영자에게 제공하는지 알아봅니다.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target,Social
 title: 'Adobe Target 쿠키 사용 방법 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
