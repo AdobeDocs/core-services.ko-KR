@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience Cloud에서 고객 속성 스키마의 유효성을 검사하는 방법을 알아봅니다.
+description: Adobe Experience Cloud에서 고객 특성 스키마의 유효성을 검사하는 방법을 알아봅니다.
 keywords: Customer Attributes;Experience Cloud services
 solution: Experience Cloud
 title: '고객 속성 스키마의 유효성을 검사하는 방법 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 95%
 
 Experience Cloud에서 고객 특성 소스 및 FTP 계정을 만든 후에 FTP를 통해 데이터를 업로드할 수도 있습니다. 특성 소스당 FTP 계정을 1개 만듭니다. 업로드한 파일은 해당 계정의 루트 폴더에 저장됩니다. 데이터는 .csv 형식이어야 하며 업로드가 완료되었음을 나타내는 .fin 파일도 있어야 합니다.
 
-문자열, 정수 및 숫자에 적용하는 이름은 [!DNL Analytics] 지표를 만드는 데 사용됩니다. 자세한 내용은 [!DNL Analytics] 도움말의 [고객 속성 보고서](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)를 참조하십시오.
+문자열, 정수 및 숫자에 적용하는 이름은 [!DNL Analytics] 지표를 만드는 데 사용됩니다. 자세한 내용은 [!DNL Analytics] 도움말의 [고객 속성 보고서](https://docs.adobe.com/help/ko-KR/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)를 참조하십시오.
 
 * **[!UICONTROL 속성:]** 업로드한 `.csv` 파일에서 읽어오는 속성 데이터입니다.
 
