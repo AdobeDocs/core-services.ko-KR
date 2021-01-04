@@ -1,5 +1,5 @@
 ---
-description: 활성화에는 Experience Platform Launch라고 하는 최신 Tag Management 제품과 DTM(Dynamic Tag Management) 및 트리거가 포함됩니다.
+description: 활성화에는 Experience Platform Launch라고 하는 최신 태그 관리 제품과 DTM(Dynamic Tag Management) 및 트리거가 포함됩니다.
 keywords: core services
 seo-description: 활성화에는 Experience Platform Launch라고 하는 최신 태그 관리 제품과 DTM(Dynamic Tag Management) 및 트리거가 포함됩니다.
 seo-title: 활성화
