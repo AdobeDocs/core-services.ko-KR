@@ -1,5 +1,5 @@
 ---
-description: Search & Promote이 쿠키를 사용하여 방문자 검색 의도를 이해하고 예측한 방법을 알아봅니다.
+description: Search&Promote가 쿠키를 사용하여 방문자 검색 의도를 이해하고 예측하는 방법을 알아봅니다.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Search&Promote 쿠키 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
