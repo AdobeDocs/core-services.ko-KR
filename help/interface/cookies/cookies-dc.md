@@ -1,5 +1,5 @@
 ---
-description: Adobe 데이터 커넥터가 쿠키를 사용하여 광고주에게 여러 광고 채널에 대해 최적화된 캠페인 및 전환 성과 지표를 제공하는 방법을 알아봅니다.
+description: Adobe Data Connectors는 쿠키를 사용하여 광고주에게 여러 광고 채널 전반에 최적화된 캠페인 및 전환 성능 지표를 제공합니다.
 keywords: cookies;privacy
 solution: Experience Cloud, Analytics, Target
 title: 'Data Connectors 쿠키 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
