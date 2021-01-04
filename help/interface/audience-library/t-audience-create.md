@@ -1,5 +1,5 @@
 ---
-description: 속성 규칙을 사용하여 대상을 만들고 Adobe Experience Cloud에서 복합 대상을 정의하는 방법을 알아봅니다.
+description: 특성 규칙을 사용하여 Adobe Experience Cloud에서 대상자를 만들고 복합 대상자를 정의하는 방법을 알아봅니다.
 keywords: core services
 solution: Experience Cloud
 title: '대상자 만들기 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
