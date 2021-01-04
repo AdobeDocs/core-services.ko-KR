@@ -1,5 +1,5 @@
 ---
-description: Adobe Scene7이 쿠키를 사용하여 동적 미디어를 브라우저에 전달하는 데 사용할 수 있는 유용한 정보를 저장하는 방법입니다.
+description: Adobe Scene7은 쿠키를 사용하여 브라우저에 다이내믹 미디어 제공 시 사용할 수 있는 유용한 정보를 저장합니다.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Scene7 쿠키 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
