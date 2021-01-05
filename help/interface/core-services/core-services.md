@@ -4,11 +4,11 @@ keywords: core services;Customer Attributes
 solution: Experience Cloud
 title: '핵심 서비스용 솔루션을 사용하도록 설정 '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2362'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 97%
 
 ## 1단계. Experience Cloud에 참여 및 관리자 되기 {#section_2423F0BD3DF642658103310EE5EA6154}
 
-Experience Cloud에 가입하기 위해 수행해야 하는 작업:
+Experience Cloud에 참여하기 위해 수행할 작업:
 
 ![](assets/step1_icon.png) 적절한 Adobe Analytics 또는 Adobe Target SKU가 있는지 확인합니다.
 
@@ -99,7 +99,7 @@ Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 
 
 ## Analytics 및 Adobe Target - 고객 ID 동기화 {#section_AD473A6A21C1446498E700363F9A8437}
 
-Experience Cloud ID 서비스 설정의 일부로, Analytics 및 [!DNL Target]에 대해 [고객 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)를 Experience Cloud와 동기화하는 것이 좋습니다.
+Experience Cloud ID 서비스 설정의 일부로, Analytics 및 [!DNL Target]에 대해 [고객 ID](https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/authenticated-state.html)를 Experience Cloud와 동기화하는 것이 좋습니다.
 
 Adobe Target에서 `mbox3rdpartyid`는 고객 ID를 가져와서 [!DNL Target]에 보내야 합니다. ([!DNL Target]에서 [고객 속성 사용](https://docs.adobe.com/content/help/ko-KR/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)을 참조하십시오.)
 
@@ -173,7 +173,7 @@ Experience Cloud ID 서비스를 배포하면 새 방문자는 더 이상 데이
 
 예를 들어 사이트의 지원 섹션에 별도의 CMS에서 관리되는 경우 이 섹션에 대해 다른 Analytics JavaScript 파일을 보유할 수 있습니다. 지원 사이트에 ID 서비스를 배포하기 전에 기본 사이트에 Experience Cloud ID를 배포하는 경우 새 방문자가 지원 섹션을 방문하면 이전 Analytics ID를 받게 되며 두 사이트 섹션에 걸쳐 진행되는 방문이 다른 방문으로 보고됩니다.
 
-여러 JavaScript 파일 또는 기타 기술(예: Flash)을 사용하는 사이트에 Experience Cloud ID 서비스를 배포하면 동시에 사이트의 모든 부분에서 Experience Cloud ID 서비스를 설정해야 하므로 조정 문제가 발생할 수 있습니다. 유예 기간을 구성하면 새 방문자가 ID 서비스에서 Analytics 방문자 ID를 계속 받게 되므로 방문자는 방문자 ID 서비스를 사용하도록 업그레이드되지 않은 사이트의 섹션에서 일관되게 식별될 수 있습니다.
+여러 JavaScript 파일 또는 다른 기술(예: Flash)을 사용하는 사이트에 Experience Cloud ID 서비스를 배포하면 사이트의 모든 부분에서 동시에 해당 Experience Cloud ID 서비스를 사용하도록 설정해야 하므로 조정 문제가 발생할 수 있습니다. 유예 기간을 구성하면 새 방문자가 ID 서비스에서 Analytics 방문자 ID를 계속 받게 되므로 방문자는 방문자 ID 서비스를 사용하도록 업그레이드되지 않은 사이트의 섹션에서 일관되게 식별될 수 있습니다.
 
 ## 7단계. 사용자 및 제품 관리 {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
 
@@ -225,4 +225,4 @@ Adobe [!DNL Experience Cloud] 내의 실시간 대상 프로파일링 및 기타
 
 지침이 필요하면 [Adobe Experience Cloud - Adobe 옵트 아웃 구현](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/data-collection/opt-out.html)을 참조하십시오.
 
-도메인 간 추적을 사용하려면 [데이터 수집 CNAME 및 도메인 간 추적](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)을 참조하십시오.
+도메인 간 추적을 사용하려면 [데이터 수집 CNAME 및 도메인 간 추적](https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/analytics-reference/cname.html)을 참조하십시오.
