@@ -1,13 +1,13 @@
 ---
-description: 솔루션 간에 공유할 수 있는 Experience Cloud 자산에 대해 알아보십시오.
+description: 솔루션 간에 공유할 수 있는 Experience Cloud Assets에 대해 알아보십시오.
 solution: Experience Cloud
 title: 'Experience Cloud 자산 개요 '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
