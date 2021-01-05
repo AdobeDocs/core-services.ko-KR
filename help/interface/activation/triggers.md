@@ -6,16 +6,16 @@ seo-title: Triggers
 solution: Experience Cloud
 title: '트리거 개요 '
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '670'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# 트리거
+# Triggers
 
 ## 트리거 개요 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
