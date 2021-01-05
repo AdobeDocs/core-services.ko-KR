@@ -2,13 +2,13 @@
 description: Adobe Admin Console에 로그인, Experience Cloud 사용자 권한과 제품 프로필 관리 및 브라우저 지원 방법에 대해 알아봅니다.
 keywords: Experience Cloud services
 solution: Experience Cloud
-title: '사용자 및 제품 관리 방법 학습 '
+title: '사용자 및 제품 관리 방법 알아보기 '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1432'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Admin Console에 로그인하려면,
 
 **관련 도움말**
 
-Creative Cloud 및 Document Cloud에 대한 [관리 사용 안내서](https://helpx.adobe.com/kr/enterprise/using/users.html). 일부 정보는 [ID 유형 관리](https://helpx.adobe.com/enterprise/help/identity.html)와 같이, Experience Cloud 사용자 관리와 관련이 있습니다.
+Creative Cloud 및 Document Cloud에 대한 [관리 사용 안내서](https://helpx.adobe.com/kr/enterprise/using/users.html). 일부 정보는 [ID 유형 관리](https://helpx.adobe.com/kr/enterprise/help/identity.html)와 같이, Experience Cloud 사용자 관리와 관련이 있습니다.
 
 암호, 조직 및 알림을 관리하려면 [로그인하여 프로필 설정을 관리](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0)하십시오.
 
@@ -77,7 +77,7 @@ Admin Console에서 Analytics 사용자 및 제품 권한을 관리합니다.
 
 **사용자 계정 마이그레이션**
 
-Analytics 사용자 ID 마이그레이션 도구는 Analytics 관리자가 Analytics 사용자 관리에서 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/)/로 사용자 계정을 마이그레이션하도록 지원하는 데 사용할 수 있습니다.
+Analytics 사용자 ID 마이그레이션 도구는 Analytics 관리자가 Analytics 사용자 관리에서 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/)로 사용자 계정을 마이그레이션하도록 지원하는 데 사용할 수 있습니다.
 
 계정 마이그레이션이 단계적으로 고객에게 배포되고 있습니다. Adobe에서는 기존 사용자 계정을 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에서 Admin Console로 마이그레이션할 때 사용자에게 알리고 지원합니다.
 
@@ -127,7 +127,7 @@ Dynamic Tag Management에 사용자 초대, 사용자 역할 할당 및 그룹�
 
 Audience Manager 사용자를 만들고 그룹에 지정합니다. 제한(트레이트, 세그먼트, 대상 및 [!DNL AlgoModel])을 볼 수도 있습니다.
 
-Audience Manager 도움말의 [관리](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html)를 참조하십시오.
+Audience Manager 도움말의 [관리](https://docs.adobe.com/content/help/ko-KR/dtm/using/admin/users.html)를 참조하십시오.
 
 ## Experience Cloud 제품 관리 {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -142,9 +142,9 @@ Audience Manager 도움말의 [관리](https://docs.adobe.com/content/help/en/dt
 
 다음에서 추가 도움말을 참조하십시오.
 
-* [제품 및 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* 자세한 내용은 Target 도움말의 [Enterprise 사용자 권한](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)을 참조하십시오.
-* 비디오: [Adobe Admin Console에서 Adobe Target 작업 공간을 구성하는 방법](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-products-and-profiles.html)
+* 자세한 내용은 Target 도움말의 [Enterprise 사용자 권한](https://docs.adobe.com/content/help/ko-KR/target/using/administer/manage-users/enterprise/property-channel.html)을 참조하십시오.
+* 비디오: [Adobe Admin Console에서 Adobe Target 작업 공간을 구성하는 방법](https://helpx.adobe.com/kr/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 제품 프로필에 Analytics 액세스 권한 지정 {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -195,6 +195,6 @@ Experience Cloud에서 지원되는 브라우저입니다.
 
 ### 솔루션 및 제품 요구 사항
 
-* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
+* [Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
-* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
+* [Adobe Target](https://docs.adobe.com/help/ko-KR/target/using/implement-target/before-implement/supported-browsers.html)
