@@ -1,14 +1,14 @@
 ---
-description: Adobe Experience Cloud의 고객 속성 서비스에 대해 알아보고 분석 및 Target에서 사용할 데이터를 업로드하는 방법을 알아봅니다.
+description: Adobe Experience Cloud의 고객 속성 서비스와 Analytic 및 Target에서 사용할 데이터를 업로드하는 방법을 알아봅니다.
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 solution: Experience Cloud
 title: '고객 속성 사용 방법 '
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 79%
 
 Adobe Experience Cloud의 고객 속성을 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드한 다음 Adobe Analytics 및 Adobe Target의 데이터를 사용할 수 있습니다.
 
-이 기능을 찾으려면 **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL 고객 속성]**&#x200B;으로 이동합니다.
+이 기능을 찾으려면 **[!DNL Experience Platform]** > **[!UICONTROL 사용자]** > **[!UICONTROL 고객 특성]**&#x200B;으로 이동합니다.
 
 ![](assets/custom_reports.png)
 
@@ -47,7 +47,7 @@ Adobe Experience Cloud의 고객 속성을 사용하면 고객 관계 관리(CRM
 
 이 워크플로우에 대한 자세한 내용은 [고객 속성 데이터 업로드](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)를 참조하십시오.
 
-## Analytics 및 Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}의 고객 속성 예
+## Analytics 및 Target의 고객 속성 예{#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
 데이터가 Experience Cloud에 있으면 사용자 정의하여, 보고, 세그멘테이션, 활동 및 캠페인을 위해 솔루션에 공유할 수 있습니다.
 
