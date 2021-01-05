@@ -1,9 +1,9 @@
 ---
 title: '개인 정보 보호 규정을 위한 고객 속성 지원 '
 description: 개인 정보 보호 규정을 위한 고객 특성 지원에 대해 알아봅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
 ht-degree: 100%
 
