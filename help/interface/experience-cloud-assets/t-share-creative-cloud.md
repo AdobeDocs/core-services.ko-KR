@@ -4,9 +4,9 @@ keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
 title: 'Experience Cloud 자산 폴더 공유 '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Creative Cloud 사용자와 Experience Cloud 자산 폴더를 공유합니다.
 
    ![](assets/asset-share-cc-page.png)
 
-1. **[!UICONTROL 공유를 클릭합니다]**.
+1. **[!UICONTROL 공유]**&#x200B;를 클릭합니다.
 1. [!DNL Creative Cloud] 데스크탑을 시작하고(또는 브라우저의 [!UICONTROL Creative Cloud 파일] 페이지로 이동) 요청 알림을 찾습니다. 
 
    ![](assets/cc_share_request.png)
