@@ -2,13 +2,13 @@
 description: Adobe Experience Cloud에서 고객 특성 스키마의 유효성을 검사하는 방법을 알아봅니다.
 keywords: Customer Attributes;Experience Cloud services
 solution: Experience Cloud
-title: '고객 속성 스키마의 유효성을 검사하는 방법 '
+title: '고객 특성 스키마의 유효성을 검사하는 방법 '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '464'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
