@@ -6,11 +6,11 @@ seo-title: 활성화
 solution: Experience Cloud
 title: Experience Cloud의 활성화 서비스
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
