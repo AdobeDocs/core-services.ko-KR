@@ -2,13 +2,13 @@
 description: Adobe Experience Cloud에서 업로드되고 사용되는 PII(개인 식별 정보)와 관련된 고려 사항 및 우수 사례입니다.
 keywords: Customer Attributes;core services
 solution: Experience Cloud
-title: '고객 속성에 대한 개인 정보 고려 사항 '
+title: '고객 특성에 대한 개인 정보 보호 고려 사항 '
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
