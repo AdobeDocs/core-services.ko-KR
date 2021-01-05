@@ -3,9 +3,9 @@ description: Adobe Experience Cloud의 다양한 솔루션과 서비스를 사�
 solution: Experience Cloud
 title: '다양한 솔루션 및 서비스에서 DNS 프리페치 사용 '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '380'
 ht-degree: 100%
 
