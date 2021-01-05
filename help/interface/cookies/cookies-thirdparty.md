@@ -2,13 +2,13 @@
 description: 타사 쿠키 지원이 브라우저 전체에서 어떻게 점점 제한되고 있는지 알아봅니다.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: '타사 쿠키 지원에 대한 변경 사항이 고객에게 미치는 영향 '
+title: '타사 쿠키 지원 변경이 고객에게 미치는 영향 '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
