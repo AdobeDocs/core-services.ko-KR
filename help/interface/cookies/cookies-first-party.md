@@ -1,15 +1,15 @@
 ---
-description: Adobe Analytics이 쿠키를 사용하여 이미지 요청과 브라우저 세션 간에 지속되지 않는 변수 및 구성 요소에 대한 정보를 제공하는 방법을 알아봅니다.
+description: Adobe Analytics에서 어떻게 쿠키를 사용하여 이미지 요청과 브라우저 세션 간에 지속되지 않는 변수 및 구성 요소에 대한 정보를 제공하는지 알아봅니다.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics
 title: '자사 쿠키를 사용하는 방법 '
 index: y
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1444'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ CNAME이 설정되어 있고 인증서가 설치되어 있으면 브라우저를
 
 ### [!DNL curl]을 사용하여 유효성 확인
 
-Adobe recommends using [[!DNL curl]](https://curl.haxx.se/) from the command line. ([!DNL Windows] 사용자는 <https://curl.haxx.se/windows/>에서 [!DNL curl]을 설치할 수 있습니다.)
+명령줄에서 [[!DNL curl]](https://curl.haxx.se/)을(를) 사용하는 것이 좋습니다. ([!DNL Windows] 사용자는 <https://curl.haxx.se/windows/>에서 [!DNL curl]을 설치할 수 있습니다.)
 
 CNAME이 있지만 인증서가 설치되어 있지 않다면 `curl -k https://sstats.adobe.com/_check`를 실행하십시오.
 응답: `SUCCESS`
