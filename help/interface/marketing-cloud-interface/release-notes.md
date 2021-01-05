@@ -4,9 +4,9 @@ keywords: core services
 solution: Experience Cloud
 title: '누적 릴리스 노트 '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3954'
 ht-degree: 100%
 
@@ -505,7 +505,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 대상 </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">대상</span></p> <p> <span class="wintitle"> 대상</span>은 세그먼트 작업 방식과 유사한 방식으로 대상을 만들고, 편집하고, 관리하는 곳입니다. 예를 들어, Reports &amp; Analytics에서 세그먼트를 만든 후 <span class="wintitle">Experience Cloud</span> <span class="wintitle">대상</span>에 공유할 수 있습니다. 이렇게 공유된 대상은 <span class="keyword">Adobe Target</span>에서 캠페인 활동에 사용하거나 Adobe Audience Manager에서 세그멘테이션에 사용할 수 있습니다. </p> <p> <p>참고: Target에서 활성화를 요청하려면 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences</a>을 방문해 보십시오. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">대상</span></p> <p> <span class="wintitle"> 대상</span>은 세그먼트 작업 방식과 유사한 방식으로 대상을 만들고, 편집하고, 관리하는 곳입니다. 예를 들어, Reports and Analytics에서 세그먼트를 만든 후 <span class="wintitle">Experience Cloud</span> <span class="wintitle">대상</span>에 공유할 수 있습니다. 이렇게 공유된 대상은 <span class="keyword">Adobe Target</span>에서 캠페인 활동에 사용하거나 Adobe Audience Manager에서 세그멘테이션에 사용할 수 있습니다. </p> <p> <p>참고: Target에서 활성화를 요청하려면 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences</a>을 방문해 보십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
