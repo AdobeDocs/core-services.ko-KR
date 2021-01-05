@@ -2,13 +2,13 @@
 description: 데스크톱 및 모바일 브라우저에서 모든 쿠키를 차단한 사용자를 삭제하십시오. 이 개인 정보 설정은 Analytics 데이터 수집을 옵트 아웃한 사용자를 제외합니다.
 keywords: cookies;privacy
 solution: Experience Cloud, Analytics, Target, Social
-title: '브라우저 쿠키에 개인 정보 설정을 활성화하는 방법 '
+title: '브라우저 쿠키에 대한 개인 정보 보호 설정을 활성화하는 방법 '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '302'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
