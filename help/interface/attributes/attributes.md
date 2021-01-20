@@ -1,11 +1,11 @@
 ---
 title: 고객 속성 사용 방법
-description: Adobe Experience Cloud의 고객 속성 서비스에 대해 알아봅니다. Adobe 분석 및 Adobe Target에서 사용할 고객 속성 데이터를 업로드하는 방법을 알아봅니다.
+description: Adobe Experience Cloud의 고객 속성 서비스에 대해 알아봅니다. Adobe Analytics 및 Adobe Target에서 사용할 고객 속성 데이터를 업로드하는 방법을 알아봅니다.
 solution: Experience Cloud
 feature: Experience Cloud Customer Attributes
 role: Administrator
 translation-type: tm+mt
-source-git-commit: 9c091fc2b5d45b0a396584972fb3ad441444b474
+source-git-commit: 87676bd0159ec0a4505799b0ca6b70a604f0a61f
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 96%
