@@ -1,19 +1,19 @@
 ---
-title: 고객 속성이란 무엇이며 어떻게 작동합니까?
+title: 고객 특성이란?
 description: Adobe Experience Cloud의 고객 속성 서비스에 대해 알아봅니다. Adobe 분석 및 Adobe Target에서 사용할 고객 속성 데이터를 업로드하는 방법을 알아봅니다.
 solution: Experience Cloud
 feature: Experience Cloud Customer Attributes
 role: Administrator
 translation-type: tm+mt
-source-git-commit: 253ec3d13c66be792214e09616f83e8b24929c3c
+source-git-commit: 9aebc0221b4d35c31968394ebb159f10f82960bd
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 91%
+source-wordcount: '482'
+ht-degree: 93%
 
 ---
 
 
-# Experience Cloud에서 고객 속성을 사용하는 방법
+# Experience Cloud의 고객 속성
 
 Adobe Experience Cloud의 고객 속성을 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드한 다음 Adobe Analytics 및 Adobe Target의 데이터를 사용할 수 있습니다.
 
