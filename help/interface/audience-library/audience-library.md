@@ -1,13 +1,12 @@
 ---
-description: Adobe Experience Cloud 대상 서비스의 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 알아보십시오.
 solution: Experience Cloud
 type: Documentation
 title: 'Adobe Experience Cloud 대상 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 2376fa2edf0477515f6e0cfe31af4821c9c6b86c
-workflow-type: ht
-source-wordcount: '814'
+translation-type: tm+mt
+source-git-commit: 7ad0ea1692ca73fce91af931dc80f0e1dc2347a1
+workflow-type: tm+mt
+source-wordcount: '796'
 ht-degree: 100%
 
 ---
@@ -55,7 +54,7 @@ ht-degree: 100%
 | 도움말 | 리소스 |
 |--- |--- |
 | 대상을 찾을 수 없습니까? | 프로비저닝되었는지 확인합니다. [시작하기 - 핵심 서비스용 솔루션을 사용하도록 설정](../core-services/core-services.md)을 참조하십시오.<br>프로필 및 대상(통합 프로비저닝 양식)에 대한 액세스를 요청하려면 [여기](https://www.adobe.com/go/audiences)를 클릭하십시오. |
-| 사용 사례 | 사용할 솔루션에 대한 자세한 내용을 보려면 기술 자료의 [대상 만들기 옵션](https://helpx.adobe.com/kr/marketing-cloud-core/kb/People/Audience-Creation-Options.html)으로 이동하십시오. |
+| 사용 사례 | 사용할 솔루션에 대한 자세한 내용을 보려면 기술 자료의 [대상 만들기 옵션](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html)으로 이동하십시오. |
 | 포럼 | [대상 포럼](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences)은 대상 지원을 요청할 수 있는 추가 리소스입니다. |
 
 ## 대상 라이브러리 인터페이스 요소 {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
