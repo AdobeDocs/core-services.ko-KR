@@ -4,11 +4,11 @@ description: Adobe Experience Cloud의 고객 속성 서비스에 대해 알아�
 solution: Experience Cloud
 feature: Experience Cloud Customer Attributes
 role: Administrator
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87676bd0159ec0a4505799b0ca6b70a604f0a61f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
