@@ -5,10 +5,10 @@ solution: Experience Cloud
 title: '핵심 서비스용 솔루션을 사용하도록 설정 '
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 96%
+source-wordcount: '2352'
+ht-degree: 95%
 
 ---
 
@@ -32,21 +32,21 @@ ht-degree: 96%
 
 Experience Cloud에 참여하기 위해 수행할 작업:
 
-![](assets/step1_icon.png) 적절한 Adobe Analytics 또는 Adobe Target SKU가 있는지 확인합니다.
+1. 적절한 Adobe Analytics 또는 Adobe Target SKU가 있는지 확인합니다.
 
-* **Adobe Analytics:** Standard 또는 Premium(이전 [!DNL SiteCatalyst] SKU 아님).
-* **Adobe Target:** Standard 또는 Premium.
+   * **Adobe Analytics:** Standard 또는 Premium(이전 [!DNL SiteCatalyst] SKU 아님).
+   * **Adobe Target:** Standard 또는 Premium.
 
->[!NOTE]
->
->[!DNL Target]의 경우 [!DNL mbox.js]에서 at.js로 마이그레이션하십시오. [at.js 1.x에서 at.js 2. x로 업그레이드](https://docs.adobe.com/content/help/ko-KR/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html)를 참조하십시오.
+   >[!NOTE]
+   >
+   >[!DNL Target]의 경우 [!DNL mbox.js]에서 at.js로 마이그레이션하십시오. [at.js 1.x에서 at.js 2. x로 업그레이드](https://docs.adobe.com/content/help/ko-KR/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html)를 참조하십시오.
 
-![](assets/step2_icon.png) 구현을 현대화하고 관리자가 프로비저닝되도록 합니다.
+1. 구현을 현대화하고 관리자가 프로비저닝되도록 합니다.
 
-1. [[!UICONTROL Experience Cloud ID 서비스 ]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) 배포에서 아래 절차를 따르십시오.
-1. 계정 관리자에게 문의하여 Experience Cloud에 대한 프로비저닝 프로세스를 시작합니다.
+   * [Experience Cloud ID 서비스]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)를 구현하려면 아래 단계를 따르십시오.[!UICONTROL 
+   * 계정 관리자에게 문의하여 Experience Cloud에 대한 프로비저닝 프로세스를 시작합니다.
 
-![](assets/step3_icon.png)[!UICONTROL  Admin Console에서 사용자 및 제품 관리].
+1. [!UICONTROL Admin Console에서 사용자 및 제품 관리].
 
 ### 관리자 로그인
 
@@ -54,18 +54,18 @@ Experience Cloud에 참여하기 위해 수행할 작업:
 
 Experience Cloud 메뉴 탐색에 **[!UICONTROL 관리]** 링크가 표시됩니다.
 
-도움이 필요한 경우 [Experience Cloud 사용자 및 제품 관리](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)를 참조하십시오.
+자세한 내용은 [Experience Cloud 사용자 및 제품 관리](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)를 참조하십시오.
 
 ### 사용자 로그인
 
 Experience Cloud에 로그인하려면 귀하의 사용자는
 
-1. Adobe ID(또는 회사의 Enterprise ID)가 있어야 합니다.
-1. [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에서 로그인합니다.
-1. 엔터프라이즈 그룹에 매핑된 솔루션 그룹에 속합니다.
-1. 필요한 경우 솔루션 계정을 Adobe ID에 연결합니다(아래에 설명).
+* Adobe ID(또는 회사의 Enterprise ID)가 있어야 합니다.
+* [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에서 로그인합니다.
+* 엔터프라이즈 그룹에 매핑된 솔루션 그룹에 속합니다.
+* 필요한 경우 솔루션 계정을 Adobe ID에 연결합니다(아래에 설명).
 
-![](assets/step4_icon.png) 선택 사항: 기존 사용자 계정을 연결합니다.
+### 선택 사항: 기존 사용자 계정을 연결합니다.
 
 [!UICONTROL Analytics] > [!UICONTROL 관리 도구]에서 이전에 관리한 Analytics 그룹처럼 이미 솔루션 그룹의 구성원인 사용자가 있을 것입니다.
 
