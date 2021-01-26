@@ -2,11 +2,11 @@
 description: Experience Cloud에서 한 개 이상의 보고서 세트를 조직에 매핑하는 방법을 알아봅니다.
 title: '조직에 보고서 세트 매핑 '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '1186'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+workflow-type: tm+mt
+source-wordcount: '1163'
+ht-degree: 98%
 
 ---
 
@@ -15,9 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->보고서 세트 매핑 기능은 2020년 11월에 더 이상 사용되지 않을 예정입니다. 준비 중인 모든 미처리 보고서 세트를 매핑하십시오. 문의 사항이 있으면 클라이언트 지원팀에 문의하십시오.
-
-한 개 이상의 보고서 세트를 조직에 매핑하는 방법을 알아봅니다.
+>보고서 세트 매핑 기능은 2020년 11월에 더 이상 사용되지 않습니다. 문의 사항은 고객 지원에 문의하십시오.
 
 Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL People])는 개별 보고서 세트 대신 조직과 연결되어 있습니다. 이러한 서비스가 올바르게 작동하도록 하려면 각 Analytics 보고서 세트를 조직에 매핑해야 합니다. 매핑 프로세스는 다음과 같습니다.
 
