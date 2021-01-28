@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
 workflow-type: tm+mt
 source-wordcount: '2352'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -79,13 +79,13 @@ Experience Cloud에 로그인하려면 귀하의 사용자는
 
 다음 섹션에서는 구현을 현대화하는 방법을 설명합니다. 구현을 현대화하면 Experience Cloud에서 핵심 서비스가 활성화됩니다.
 
-## [!UICONTROL Experience Cloud ID 서비스] {#section_3C9F6DF37C654D939625BB4D485E4354} 구현
+## [!UICONTROL Experience Cloud ID 서비스] 구현 {#section_3C9F6DF37C654D939625BB4D485E4354}
 
 [!UICONTROL Experience Cloud ID 서비스]에서는 솔루션 간 통합을 위한 공통 ID를 제공하고 [!UICONTROL 고객 속성]을 통해 업로드된 CRM 데이터를 기반으로 도메인 간 방문자 식별 및 장치/브라우저 간 타깃팅 및 개인화를 위한 경로를 제공합니다.
 
-Experience Cloud 코어 서비스를 활성화하는 가장 간단한 방법은 [!UICONTROL Experience Platform Launch]의 [Experience Cloud ID 서비스 확장](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en#extensions-ref)을 통해 Analytics 및 Adobe Target에 대해 자동으로 활성화하는 것입니다.
+Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=ko-KR#extensions-ref)에서 [!UICONTROL Experience Cloud ID 서비스 확장]을 통해 Analytics 및 Adobe Target에 대해 자동으로 활성화하는 것입니다.
 
-전체 Experience Cloud ID 서비스 도움말(이전의 방문자 ID)를 보려면 [여기](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en#intro)로 이동하십시오.
+전체 Experience Cloud ID 서비스 도움말(이전의 방문자 ID)를 보려면 [여기](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko-KR#intro)로 이동하십시오.
 
 **[!UICONTROL Experience Platform Launch]나 [!UICONTROL Dynamic Tag Management]를 사용하지 않습니까?**
 
@@ -126,7 +126,7 @@ Adobe Target에서 `mbox3rdpartyid`는 고객 ID를 가져와서 [!DNL Target]�
 
 >[!NOTE]
 >
->보고서 세트 매핑 기능은 2020년 11월에 더 이상 사용되지 않습니다. 문의 사항은 고객 지원에 문의하십시오.
+>보고서 세트 매핑 기능은 2020년 11월에 더 이상 사용되지 않습니다. 문의 사항이 있으면 고객 지원팀에 문의하십시오.
 
 Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL People 서비스])는 개별 Analytics 보고서 세트가 아니라 Experience Cloud 조직과 연결되어 있습니다. 이러한 서비스가 올바르게 작동하도록 하려면 각 Analytics 보고서 세트를 Experience Cloud 조직에 매핑해야 합니다.
 
