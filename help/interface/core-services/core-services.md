@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
 workflow-type: tm+mt
 source-wordcount: '2352'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,10 +43,10 @@ Experience Cloud에 참여하기 위해 수행할 작업:
 
 1. 구현을 현대화하고 관리자가 프로비저닝되도록 합니다.
 
-   * [Experience Cloud ID 서비스]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)를 구현하려면 아래 단계를 따르십시오.[!UICONTROL 
+   * [[!UICONTROL Experience Cloud ID 서비스]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) 구현에서 아래 절차를 따르십시오.
    * 계정 관리자에게 문의하여 Experience Cloud에 대한 프로비저닝 프로세스를 시작합니다.
 
-1. [!UICONTROL Admin Console에서 사용자 및 제품 관리].
+1. [!UICONTROL Admin Console]에서 사용자 및 제품 관리.
 
 ### 관리자 로그인
 
