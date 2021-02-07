@@ -1,13 +1,13 @@
 ---
-description: Adobe Experience Cloud 사용자 권한 및 제품 프로필을 관리하는 방법을 알아봅니다. Adobe Admin Console 로그인 및 Experience Cloud 브라우저 지원에 대한 자세한 내용을 살펴보십시오.
+description: Adobe Experience Cloud 사용자 권한 및 제품 프로필을 관리하는 방법을 알아보십시오. Adobe Admin Console 로그인 및 Experience Cloud 브라우저 지원에 대한 자세한 내용을 살펴보십시오.
 solution: Admin
 title: '사용자 및 제품 관리 방법 '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1421'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Admin Console에 로그인, Experience Cloud 사용자 권한과 제품 프로�
 
 ## Experience Cloud 사용자 관리의 새로운 기능 {#concept_06A0A13362F644FB90F947238407637A}
 
-Experience Cloud 사용자 및 제품 관리의 최신 기능에 대해 알아봅니다.
+Adobe Experience Cloud 사용자 및 제품 관리의 최신 기능에 대해 알아보십시오.
 
 <!-- ### Business ID type
 
@@ -43,7 +43,7 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 ## Admin Console에 로그인 {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
-관리자는 더 이상 특정 제품 솔루션에서 사용자를 관리하지 않습니다. 이제 Experience Cloud의 사용자 및 제품 관리는 Admin Console에서 이루어집니다.
+관리자는 더 이상 특정 제품 솔루션으로 사용자를 관리하지 않습니다. 이제 Experience Cloud의 사용자 및 제품 관리는 Admin Console에서 이루어집니다.
 
 Admin Console에 로그인하려면,
 
@@ -54,7 +54,7 @@ Admin Console에 로그인하려면,
 
 **관련 도움말**
 
-Creative Cloud 및 Document Cloud에 대한 [관리 사용 안내서](https://helpx.adobe.com/kr/enterprise/using/users.html). 일부 정보는 [ID 유형 관리](https://helpx.adobe.com/enterprise/help/identity.html)와 같이, Experience Cloud 사용자 관리와 관련이 있습니다.
+Creative Cloud 및 Document Cloud에 대한 [관리 사용 안내서](https://helpx.adobe.com/kr/enterprise/using/users.html). 일부 정보는 [ID 유형 관리](https://helpx.adobe.com/kr/enterprise/help/identity.html)와 같이, Experience Cloud 사용자 관리와 관련이 있습니다.
 
 [로그인 및 프로필 설정 관리](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0).
 
@@ -62,7 +62,7 @@ Creative Cloud 및 Document Cloud에 대한 [관리 사용 안내서](https://he
 
 제품 프로필을 추가하면 그룹을 사용하여 솔루션 제품 및 서비스를 관리하던 이전 방식에서 변경될 것임을 나타냅니다. Admin Console에서 권한은 사용자에게 지정할 수 있는 제품 및 서비스 그룹인 제품 프로필을 기반으로 합니다.
 
-예를 들면 Analytics에서 보고서 세트, 지표, 차원 등과 함께 Analysis Workspace 및 Report Builder와 같은 보고 도구의 컬렉션을 구성할 수 있습니다. 프로필에 사용자를 추가하여 제품 프로필에 대한 권한을 부여할 수 있습니다. 이 페이지에서 제품 프로필](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391)에 대한 [Analytics 액세스 권한 할당을 참조하십시오.
+예를 들면 Analytics에서 보고서 세트, 지표, 차원 등과 함께 Analysis Workspace 및 Report Builder와 같은 보고 도구의 컬렉션을 구성할 수 있습니다. 프로필에 사용자를 추가하여 제품 프로필에 대한 권한을 부여할 수 있습니다. 이 페이지에서.[제품 프로필에 Analytics 액세스 권한을 지정](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391)을 참조하십시오.
 
 **관리 권한 위임**
 
@@ -118,9 +118,9 @@ Adobe Enterprise 고객은 Adobe Admin Console에서 IMS 조직으로 표시됩�
 
 ## Experience Platform Launch {#section_3A41CF2BD5994B9891537D063571D4ED}
 
-사용자를 [!UICONTROL 플랫폼 시작]에 초대하고 사용자 역할과 권한을 할당합니다.
+사용자를 [!UICONTROL Platform Launch]에 초대하고 사용자 역할과 권한을 할당합니다.
 
-[사용자 권한](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#admin)을 참조하십시오.
+[사용자 권한](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=ko-KR#admin)을 참조하십시오.
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
@@ -141,9 +141,9 @@ Audience Manager 도움말의 [관리](https://docs.adobe.com/content/help/ko-KR
 
 다음에서 추가 도움말을 참조하십시오.
 
-* [제품 및 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* 자세한 내용은 Target 도움말의 [Enterprise 사용자 권한](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)을 참조하십시오.
-* 비디오: [Adobe Admin Console에서 Adobe Target 작업 공간을 구성하는 방법](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-products-and-profiles.html)
+* 자세한 내용은 Target 도움말의 [Enterprise 사용자 권한](https://docs.adobe.com/content/help/ko-KR/target/using/administer/manage-users/enterprise/property-channel.html)을 참조하십시오.
+* 비디오: [Adobe Admin Console에서 Adobe Target 작업 공간을 구성하는 방법](https://helpx.adobe.com/kr/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 제품 프로필에 Analytics 액세스 권한 지정 {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -194,6 +194,6 @@ Experience Cloud에서 지원되는 브라우저입니다.
 
 ### 솔루션 및 제품 요구 사항
 
-* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
+* [Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
-* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
+* [Adobe Target](https://docs.adobe.com/help/ko-KR/target/using/implement-target/before-implement/supported-browsers.html)
