@@ -2,11 +2,11 @@
 description: 광고 참여 이벤트를 전환 이벤트에 매핑하고 해당 정보를 사용하여 광고 입찰을 최적화하는 Adobe Ad Cloud 쿠키에 대해 알아봅니다.
 title: 'Advertising Cloud 쿠키 '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '521'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 26b2af2196253632f1590efc3e5d1e208436b7d6
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 96%
 
 ---
 
@@ -97,7 +97,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>만료 </p> </td> 
-   <td colname="col2"> <p>2년 </p> </td> 
+   <td colname="col2"> <p>2021년 2월 24일에 설정된 쿠키는 730일 이후에 만료됩니다. 2021년 2월 25일에 설정된 쿠키는 364일 이후 만료됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용 </p> </td> 
