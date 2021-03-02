@@ -1,16 +1,20 @@
 ---
-description: 활성화에는 Experience Platform Launch라고 하는 최신 태그 관리 제품과 DTM(Dynamic Tag Management) 및 트리거가 포함됩니다.
+description: Experience Platform Launch라는 최신 태그 관리 제품에 대해 알아봅니다.
 keywords: 핵심 서비스
 seo-description: 활성화에는 Experience Platform Launch라고 하는 최신 태그 관리 제품과 DTM(Dynamic Tag Management) 및 트리거가 포함됩니다.
 seo-title: 활성화
 solution: Experience Cloud Services
 title: Experience Cloud의 활성화 서비스
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
-translation-type: ht
-source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
-workflow-type: ht
-source-wordcount: '440'
-ht-degree: 100%
+feature: Admin Console
+topic: 관리
+role: 관리자
+level: 경험
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 97%
 
 ---
 
