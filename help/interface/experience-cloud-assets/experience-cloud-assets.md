@@ -3,18 +3,18 @@ description: 솔루션 간에 공유할 수 있는 Experience Cloud Assets에 �
 solution: Experience Cloud
 title: 'Experience Cloud 자산 개요 '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 
 # Experience Cloud 자산 개요
 
-Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준비가 끝난 자산에 대해 중앙 집중식 단일 저장소를 제공합니다. 자산은 디지털 문서, 이미지, 비디오, 오디오 또는 그 일부로, 다양한 표현물과 하위 자산(예: [!DNL Photoshop] 파일의 레이어, [!DNL PowerPoint] 파일의 슬라이드, PDF의 페이지, ZIP에 있는 파일)을 가질 수 있습니다.
+Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준비가 끝난 자산에 대해 중앙 집중식 단일 저장소를 제공합니다. 자산은 디지털 문서, 이미지, 비디오 또는 오디오(또는 그 일부)로서 여러 표현물을 가질 수 있고 하위 자산(예: [!DNL Photoshop] 파일의 레이어, [!DNL PowerPoint] 파일의 슬라이드, PDF의 페이지, ZIP의 파일)을 가질 수 있습니다.
 
 자산 서비스에는 다음이 포함됩니다.
 
@@ -64,7 +64,7 @@ Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준�
 
 ## 자산 검색 {#section_50FE049010B446FC9640AA6A30E5A730}
 
-키워드, 파일 형식, 크기, 마지막 수정 날짜, 게시 상태, 방향 및 스타일별로 검색할 수 있습니다.
+키워드, 파일 유형, 크기, 마지막으로 수정한 날짜, 게시 상태, 방향 및 스타일별로 검색할 수 있습니다.
 
 ![](assets/asset-search.png)
 
