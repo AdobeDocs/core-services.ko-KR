@@ -3,11 +3,16 @@ solution: Experience Cloud
 type: 설명서
 title: 'Adobe Experience Cloud 대상 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
+description: ' Experience Cloud 대상 서비스의 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 알아보십시오.'
+feature: 대상 라이브러리
+topic: 관리
+role: 관리자
+level: 경험
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 100%
+source-wordcount: '819'
+ht-degree: 99%
 
 ---
 
