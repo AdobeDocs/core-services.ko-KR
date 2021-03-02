@@ -2,11 +2,15 @@
 description: 광고 참여 이벤트를 전환 이벤트에 매핑하고 해당 정보를 사용하여 광고 입찰을 최적화하는 Adobe Ad Cloud 쿠키에 대해 알아봅니다.
 title: 'Advertising Cloud 쿠키 '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-translation-type: ht
-source-git-commit: 26b2af2196253632f1590efc3e5d1e208436b7d6
-workflow-type: ht
-source-wordcount: '538'
-ht-degree: 100%
+feature: 쿠키
+topic: 관리
+role: 관리자
+level: 경험
+translation-type: tm+mt
+source-git-commit: 6eab2decc39f250d48e3355b8c63c5a0c868944c
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 99%
 
 ---
 
