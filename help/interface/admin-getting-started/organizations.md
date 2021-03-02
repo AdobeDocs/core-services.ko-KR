@@ -1,14 +1,18 @@
 ---
 description: 조직 및 Experience Cloud에 솔루션 계정 연결에 대해 알아봅니다.
-keywords: Adobe Experience Cloud services
+keywords: Adobe Experience Cloud 서비스
 solution: Experience Cloud
 title: '조직 및 계정 연결 '
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '385'
-ht-degree: 100%
+feature: Admin Console
+topic: 관리
+role: 관리자
+level: 경험
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 98%
 
 ---
 
