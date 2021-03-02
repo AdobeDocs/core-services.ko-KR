@@ -1,12 +1,12 @@
 ---
 solution: Experience Cloud
-type: Documentation
+type: 설명서
 title: 'Adobe Experience Cloud 대상 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 7ad0ea1692ca73fce91af931dc80f0e1dc2347a1
-workflow-type: ht
-source-wordcount: '796'
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '797'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 100%
 | [!DNL Target] | [ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)는 방문자 ID 및 데이터를 여러 솔루션에서 사용하기 위해 실행 가능한 하나의 프로필에 통합합니다. Adobe Analytics의 세그먼트 작성 프로세스 동안 [Marketing Cloud에 게시](../audience-library/audience-library.md) 확인란을 선택하면 Adobe Target의 사용자 지정 대상 라이브러리 내에서 세그먼트를 사용할 수 있습니다. Analytics나 Audience Manager에서 만들어진 세그먼트는 [!DNL Target]의 활동에 사용할 수 있습니다. 예를 들어 [!DNL Analytics]에서 만들어진 대상 세그먼트 및 [!DNL Analytics] 전환 지표에 따라 캠페인 활동을 만들 수 있습니다. |
 | Audience Manager | 공유 대상은 Audience Manager 세그멘테이션에서 사용할 수 있습니다. 모든 Experience Cloud 대상은 기본적으로 다음 기능을 제공하는 Audience Manager에서 사용할 수 있습니다.<ul><li>내장된 자동화(솔루션 워크플로우에서 공유 및 소비되는 방식에 관계없음)</li><li>오프사이트 대상</li><li>유사 잠재고객 모델링</li></ul> |
 | Campaign | <ul><li>다양한 Adobe Experience Cloud 솔루션의 공유 대상을 Adobe Campaign에 가져오기.</li><li>공유 대상의 양식에서 받는 사람 목록 내보내기. 이러한 공유 대상은 사용하는 여러 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다.</li></ul> |
-| Media Optimizer | 대상을 타겟으로 사용합니다. |
+| Advertising Cloud | 대상을 타겟으로 사용합니다. |
 
 >[!IMPORTANT]
 >
@@ -54,7 +54,7 @@ ht-degree: 100%
 | 도움말 | 리소스 |
 |--- |--- |
 | 대상을 찾을 수 없습니까? | 프로비저닝되었는지 확인합니다. [시작하기 - 핵심 서비스용 솔루션을 사용하도록 설정](../core-services/core-services.md)을 참조하십시오.<br>프로필 및 대상(통합 프로비저닝 양식)에 대한 액세스를 요청하려면 [여기](https://www.adobe.com/go/audiences)를 클릭하십시오. |
-| 사용 사례 | 사용할 솔루션에 대한 자세한 내용을 보려면 기술 자료의 [대상 만들기 옵션](https://helpx.adobe.com/kr/marketing-cloud-core/kb/People/Audience-Creation-Options.html)으로 이동하십시오. |
+| 사용 사례 | 사용할 솔루션에 대한 자세한 내용을 보려면 기술 자료의 [대상 만들기 옵션](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html)으로 이동하십시오. |
 | 포럼 | [대상 포럼](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences)은 대상 지원을 요청할 수 있는 추가 리소스입니다. |
 
 ## 대상 라이브러리 인터페이스 요소 {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
