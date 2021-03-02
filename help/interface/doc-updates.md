@@ -1,14 +1,18 @@
 ---
 description: Adobe Experience Cloud 도움말 업데이트에 대한 정보입니다.
-keywords: Experience Cloud services
+keywords: Experience Cloud 서비스
 solution: Experience Cloud
-title: '설명서 업데이트 - Experience Cloud '
+title: 설명서 업데이트
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '251'
-ht-degree: 100%
+feature: '"고객 속성, 대상 라이브러리, Admin Console, 자산"'
+topic: 관리
+role: 관리자
+level: 경험
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 96%
 
 ---
 
