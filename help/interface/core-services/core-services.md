@@ -1,14 +1,18 @@
 ---
-description: Adobe Experience Cloud를 구현하고 관리자가 되는 방법을 알아봅니다.
+description: '"솔루션 간 서비스를 위한 Adobe Analytics 및 Adobe Target 솔루션을 현대화합니다. Experience Cloud 서비스를 사용하는 방법을 살펴보십시오."'
 keywords: 핵심 서비스;고객 속성
 solution: Experience Cloud
-title: '핵심 서비스용 솔루션을 사용하도록 설정 '
+title: '"솔루션 간 서비스 활성화"'
 index: true
+feature: 고객 속성
+topic: 관리
+role: 관리자
+level: 경험
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '2357'
-ht-degree: 99%
+source-wordcount: '2369'
+ht-degree: 98%
 
 ---
 
