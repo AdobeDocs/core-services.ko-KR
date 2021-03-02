@@ -1,14 +1,18 @@
 ---
 description: 'Experience Cloud에서 승인된 Creative Cloud 사용자를 관리하는 관리 도구에 대해 알아봅니다. '
-keywords: asset sharing;Creative Cloud;core services
+keywords: 자산 공유,Creative Cloud,핵심 서비스
 solution: Experience Cloud
 title: 'Creative Cloud 사용자 관리 '
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '119'
-ht-degree: 100%
+feature: 자산
+topic: 관리
+role: 관리자
+level: 경험
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '129'
+ht-degree: 99%
 
 ---
 
