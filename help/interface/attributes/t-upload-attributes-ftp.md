@@ -1,14 +1,18 @@
 ---
-description: 드래그 앤 드롭을 사용하여 업로드하지 않는 경우에는 FTP를 통해 Experience Cloud로 고객 속성 데이터를 업로드할 수 있습니다.
-keywords: Customer Attributes;core services
+description: FTP를 통해 Experience Cloud에 고객 속성 데이터를 업로드하는 방법을 알아봅니다.
+keywords: 고객 속성;핵심 서비스
 solution: Experience Cloud
 title: 'FTP를 통한 고객 특성 데이터 파일 업로드 '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '268'
-ht-degree: 100%
+feature: 고객 속성
+topic: 관리
+role: 관리자
+level: 경험
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 93%
 
 ---
 
