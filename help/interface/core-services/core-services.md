@@ -1,14 +1,14 @@
 ---
 description: Adobe Experience Cloud를 구현하고 관리자가 되는 방법을 알아봅니다.
-keywords: core services;Customer Attributes
+keywords: 핵심 서비스;고객 속성
 solution: Experience Cloud
 title: '핵심 서비스용 솔루션을 사용하도록 설정 '
 index: true
 translation-type: tm+mt
-source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
-source-wordcount: '2352'
-ht-degree: 100%
+source-wordcount: '2357'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 최근 Experience Platform Launch를 사용하여 Experience Cloud을 구현한 경우 고객 속성 및 Experience Cloud 대상에 대해 이미 설정되어 있습니다. Admin Console에서 사용자와 제품을 관리할 수도 있습니다.
 
-기존 고객의 경우 솔루션 구현을 현대화하고 Experience Cloud을 구현해야 할 수 있습니다. 이를 통해 Adobe Analytics, Audience Manager 및 Adobe Target에서 고객 속성 및 대상 기능을 활용할 수 있습니다. 이를 실현하려면 다음 작업을 수행합니다.
+기존 고객의 경우 솔루션 구현을 현대화하고 Experience Cloud을 구현해야 할 수 있습니다. 이를 통해 Adobe Analytics, Audience Manager 및 Adobe Target에서 고객 속성 및 대상 기능을 활용할 수 있습니다. 이 구현을 수행하려면 다음을 수행합니다.
 
 1. [Experience Cloud에 참여 및 관리자 되기](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Experience Cloud ID 서비스 구현](#section_3C9F6DF37C654D939625BB4D485E4354)
