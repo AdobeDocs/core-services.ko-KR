@@ -1,14 +1,18 @@
 ---
 description: Adobe Experience Cloud와 Creative Cloud 간에 자산을 공유하기 위해 허용되는 파일 형식 및 크기 제한에 대해 알아봅니다.
-keywords: asset sharing;Creative Cloud;core services
+keywords: 자산 공유,Creative Cloud,핵심 서비스
 solution: Experience Cloud
 title: '자산 공유를 위한 파일 요구 사항 '
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '122'
-ht-degree: 100%
+feature: 자산
+topic: 관리
+role: 관리자
+level: 경험
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 99%
 
 ---
 
