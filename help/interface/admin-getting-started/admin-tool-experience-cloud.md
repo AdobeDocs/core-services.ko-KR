@@ -1,14 +1,18 @@
 ---
-description: 모든 Experience Cloud 사용자 및 정책에 대한 목록을 정렬 가능하고 필터링 가능한 목록으로 보려면 Experience Cloud 관리 도구에 대해 알아보십시오.
-keywords: core services
+description: Experience Cloud 관리 도구에 대해 알아봅니다.모든 Experience Cloud 사용자 및 정책의 정렬 및 필터링 가능한 목록을 봅니다.
+keywords: 핵심 서비스
 solution: Experience Cloud
 title: 'Experience Cloud 사용자 및 사용자 세부 사항 보기 '
 index: true
-translation-type: ht
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
-workflow-type: ht
-source-wordcount: '1243'
-ht-degree: 100%
+feature: Admin Console
+topic: 관리
+role: 관리자
+level: 경험
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '1249'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +79,7 @@ ht-degree: 100%
 * 이름
 * 이메일
 * 사용자 이름(Federated ID 계정의 사용자 이름이 이메일 주소와 다를 수 있음)
-* [ID 유형](https://helpx.adobe.com/kr/enterprise/using/identity.html)
+* [ID 유형](https://helpx.adobe.com/enterprise/using/identity.html)
 * 국가
 * 마지막 로그인
 
