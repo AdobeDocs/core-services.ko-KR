@@ -3,13 +3,17 @@ description: 클라우드의 최신 브랜드 업데이트, 인터페이스 탐�
 seo-description: 클라우드의 최신 브랜드 업데이트, 인터페이스 탐색 방법, 솔루션 및 핵심 서비스에 대한 도움말을 찾을 위치에 대해 알아봅니다.
 seo-title: Experience Cloud의 새 클라우드 이름 정보
 solution: Experience Cloud
-title: 'Experience Cloud의 새 클라우드 이름 정보 '
+title: 'Experience Cloud의 클라우드 이름 정보 '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '667'
-ht-degree: 100%
+feature: Admin Console
+topic: 관리
+role: 관리자
+level: 경험
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 98%
 
 ---
 
@@ -84,7 +88,7 @@ Adobe Target은 Analytics 및 기타 Experience Cloud 핵심 서비스를 통합
 
 Adobe Experience Manager는 컨텐츠 관리 솔루션으로, 웹 사이트, 모바일 앱, 커뮤니티 및 양식에 대한 자산 및 컨텐츠를 쉽게 관리할 수 있습니다.
 
-도움이 필요하면 [Adobe Experience Manager 6.5](https://helpx.adobe.com/kr/support/experience-manager/6-5.html)를 참조하십시오.
+도움이 필요하면 [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html)를 참조하십시오.
 
 [Adobe Audience Manager](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/aam-home.html)
 
