@@ -1,16 +1,16 @@
 ---
 description: Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
-keywords: core services
+keywords: 핵심 서비스
 seo-description: Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 seo-title: Experience Cloud의 새로운 기능
 solution: Experience Cloud
 title: 'Experience Cloud의 새로운 기능 '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '635'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 * Creative Cloud와 Experience Cloud 간 자산 주석 동기화를 개선했습니다. (CORE-15971)
 * Experience Cloud-Creative Cloud 자산 동기화를 제어하는 기능 플래그를 추가했습니다. (CORE-15938)
 * 향상된 검색 및 목록 생성 환경을 포함하여 대상 세그먼트 생성을 개선했습니다. (CORE-5833, CORE-14278)
-* MAC에서 Creative Cloud로의 폴더 공유를 차단한 우선순위가 높은 문제를 해결했습니다. (CORE-16677)
+* Experience Cloud에서 Creative Cloud으로 폴더 공유를 차단하는 높은 우선 순위 문제가 해결되었습니다. (CORE-16677)
 
 ## 2018년 7월 19일 {#section_EBB549EBABB7480884A180237ADCCD02}
 
