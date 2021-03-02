@@ -1,14 +1,18 @@
 ---
 description: Creative Cloud 데스크탑에서 Experience Cloud로 전송하기 위해 공유 폴더에 자산을 업로드하는 방법을 알아봅니다.
-keywords: asset sharing;Creative Cloud;core services
+keywords: 자산 공유,Creative Cloud,핵심 서비스
 solution: Experience Cloud
 title: 'Creative Cloud 데스크탑에서 공유 폴더로 자산 업로드 '
 uuid: 88e97e4d-cf9e-4b26-923b-ee60583cae1a
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '65'
-ht-degree: 100%
+feature: 자산
+topic: 관리
+role: 관리자
+level: 경험
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 98%
 
 ---
 
