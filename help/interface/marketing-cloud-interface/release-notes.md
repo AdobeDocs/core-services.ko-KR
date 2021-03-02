@@ -1,14 +1,18 @@
 ---
-description: Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려진 문제입니다.
-keywords: core services
+description: '"고객 속성, 대상 및 사용자 관리와 같은 Experience Cloud 서비스에 대한 최신 기능, 릴리스 노트 및 알려진 문제"'
+keywords: 핵심 서비스
 solution: Experience Cloud
 title: '누적 릴리스 노트 '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '3954'
-ht-degree: 100%
+feature: '"고객 속성, 대상 라이브러리, Admin Console"'
+topic: 관리
+role: 관리자
+level: 경험
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '3973'
+ht-degree: 99%
 
 ---
 
