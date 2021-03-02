@@ -4,11 +4,15 @@ keywords: cookies;privacy
 solution: Experience Cloud, Analytics, Target
 title: 'Data Connectors 쿠키 '
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '72'
-ht-degree: 100%
+feature: 쿠키
+topic: 관리
+role: 관리자
+level: 경험
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '78'
+ht-degree: 98%
 
 ---
 
