@@ -1,14 +1,14 @@
 ---
 description: Creative Cloud 사용자와 Experience Cloud 자산 폴더를 공유하는 방법
-keywords: asset sharing;Creative Cloud;core services
+keywords: 자산 공유,Creative Cloud,핵심 서비스
 solution: Experience Cloud
 title: 'Experience Cloud 자산 폴더 공유 '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 84%
 
 ---
 
@@ -44,13 +44,13 @@ Creative Cloud 사용자와 Experience Cloud 자산 폴더를 공유합니다.
 
    ![](assets/asset_comment_mac.png)
 
-1. 폴더의 공유를 취소하려면 **[!UICONTROL Creative Cloud를 사용하여 공유]**([3단계](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)와 유사)를 클릭한 후 X를 클릭하고 **[!UICONTROL 공유]**&#x200B;를 클릭하여 사용자를 제거합니다.
+1. 폴더 공유를 취소하려면 **[!UICONTROL Creative Cloud]**(3단계](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)과 유사)를 사용하여 공유(X)를 클릭한 다음 **[!UICONTROL 공유]**&#x200B;를 클릭하여 사용자를 제거합니다.[
 
 ![](assets/asset_remove_user.png)
 
-Creative Cloud 사용자를 모두 제거했으면 폴더가 공유 취소되고 Creative Cloud 사용자는 더 이상 액세스할 수 없습니다.
+Creative Cloud 사용자를 모두 제거했으면 폴더가 공유되지 않고 Creative Cloud 사용자가 더 이상 액세스할 수 없습니다.
 
-공유 자산을 사용하는 추가 방법에는 다음이 포함됩니다.
+공유 에셋을 사용하는 더 많은 방법은 다음과 같습니다.
 
 * 소셜 게시를 위해 [!UICONTROL 의 ]자산 선택기 [!DNL Adobe Social]에서 자산을 사용합니다.
 * 활동의 이미지에 대해서는 [!DNL Adobe Target]의 [오퍼 라이브러리](https://docs.adobe.com/help/ko-KR/target/using/experiences/offers/manage-content.html)에서 자산을 로드하거나 교체합니다.
