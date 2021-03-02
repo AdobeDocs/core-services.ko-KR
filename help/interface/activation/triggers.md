@@ -1,21 +1,25 @@
 ---
-description: Experience Cloud 트리거 구성 방법.
-keywords: integrations;Triggers
+description: Experience Cloud 트리거를 구성하는 방법을 살펴보십시오.
+keywords: 통합,트리거
 seo-description: Experience Cloud 트리거 구성 방법.
 seo-title: Triggers
 solution: Experience Cloud
 title: '트리거 개요 '
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '670'
-ht-degree: 100%
+feature: Admin Console
+topic: 관리
+role: 관리자
+level: 경험
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '678'
+ht-degree: 98%
 
 ---
 
 
-# Triggers
+# 트리거
 
 ## 트리거 개요 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
