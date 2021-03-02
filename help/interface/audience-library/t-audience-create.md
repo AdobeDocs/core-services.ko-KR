@@ -1,14 +1,14 @@
 ---
 description: 특성 규칙을 사용하여 Adobe Experience Cloud에서 대상자를 만들고 복합 대상자를 정의하는 방법을 알아봅니다.
-keywords: core services
+keywords: 핵심 서비스
 solution: Experience Cloud
 title: '대상자 만들기 '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '472'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 97%
 
 ---
 
@@ -89,4 +89,4 @@ ht-degree: 100%
 
 지정된 기간 동안 데이터 수집이 완료되면 원이 합쳐지면서 정의된 대상을 표시합니다.
 
-대상이 저장되면 다른 솔루션에 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target 활동에 포함할 수 있습니다.
+대상이 저장되면 다른 솔루션에 사용할 수 있습니다. 예를 들어 Adobe Target 활동에 공유 대상을 포함할 수 있습니다.
