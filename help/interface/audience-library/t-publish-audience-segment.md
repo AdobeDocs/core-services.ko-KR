@@ -1,11 +1,15 @@
 ---
 title: 'Analytics 대상자 세그먼트 게시 '
 description: 대상자 마케팅 활동을 위해 Adobe Analytics 대상자 세그먼트를 Experience Cloud 및 Adobe Target에 게시하는 방법
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '65'
-ht-degree: 100%
+feature: 대상 라이브러리
+topic: 관리
+role: 관리자
+level: 경험
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 98%
 
 ---
 
