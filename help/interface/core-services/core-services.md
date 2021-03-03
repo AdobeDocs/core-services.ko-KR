@@ -1,15 +1,15 @@
 ---
-description: '"솔루션 간 서비스를 위한 Adobe Analytics 및 Adobe Target 솔루션을 현대화합니다. Experience Cloud 서비스를 사용하는 방법을 살펴보십시오."'
+description: 크로스 솔루션 서비스를 위한 Adobe Analytics 및 Adobe Target 솔루션 현대화 Experience Cloud 서비스를 시작하는 방법을 알아봅니다.
 keywords: 핵심 서비스, 고객 속성
 solution: Experience Cloud
-title: '"솔루션 간 서비스 활성화"'
+title: 솔루션 간 서비스 활성화
 index: true
 feature: 고객 속성
 topic: 관리
 role: 관리자
 level: 경험
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
 workflow-type: tm+mt
 source-wordcount: '2369'
 ht-degree: 98%
