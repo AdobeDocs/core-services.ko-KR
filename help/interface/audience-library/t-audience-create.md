@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -93,4 +93,4 @@ ht-degree: 97%
 
 지정된 기간 동안 데이터 수집이 완료되면 원이 합쳐지면서 정의된 대상을 표시합니다.
 
-대상이 저장되면 다른 솔루션에 사용할 수 있습니다. 예를 들어 Adobe Target 활동에 공유 대상을 포함할 수 있습니다.
+대상이 저장되면 다른 솔루션에 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target 활동에 포함할 수 있습니다.
