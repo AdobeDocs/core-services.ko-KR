@@ -1,6 +1,6 @@
 ---
 description: '"솔루션 간 서비스를 위한 Adobe Analytics 및 Adobe Target 솔루션을 현대화합니다. Experience Cloud 서비스를 사용하는 방법을 살펴보십시오."'
-keywords: 핵심 서비스;고객 속성
+keywords: 핵심 서비스, 고객 속성
 solution: Experience Cloud
 title: '"솔루션 간 서비스 활성화"'
 index: true
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 최근 Experience Platform Launch를 사용하여 Experience Cloud을 구현한 경우 고객 속성 및 Experience Cloud 대상에 대해 이미 설정되어 있습니다. Admin Console에서 사용자와 제품을 관리할 수도 있습니다.
 
-기존 고객의 경우 솔루션 구현을 현대화하고 Experience Cloud을 구현해야 할 수 있습니다. 이를 통해 Adobe Analytics, Audience Manager 및 Adobe Target에서 고객 속성 및 대상 기능을 활용할 수 있습니다. 이 구현을 수행하려면 다음을 수행합니다.
+기존 고객의 경우 솔루션 구현을 현대화하고 Experience Cloud을 구현해야 할 수 있습니다. 이를 통해 Adobe Analytics, Audience Manager 및 Adobe Target에서 고객 속성 및 대상 기능을 활용할 수 있습니다. 이를 구현하려면 다음 작업을 수행합니다.
 
 1. [Experience Cloud에 참여 및 관리자 되기](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Experience Cloud ID 서비스 구현](#section_3C9F6DF37C654D939625BB4D485E4354)
