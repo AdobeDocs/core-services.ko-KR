@@ -1,18 +1,18 @@
 ---
 description: Adobe Admin Console의 사용자 및 제품 관리, Experience Cloud 서비스의 솔루션 활성화, 대상자 라이브러리, 고객 특성, Experience Cloud 자산 등에 대해 알아봅니다.
-keywords: Adobe Experience Cloud 서비스, 고객 속성, 대상, 사용자 및 제품 관리
+keywords: Adobe Experience Cloud 서비스, 고객 특성, 대상자, 사용자 및 제품 관리
 solution: Experience Cloud
 title: 'Experience Cloud 서비스 및 관리 '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: '"고객 속성, 대상 라이브러리, Admin Console"'
+feature: '"고객 특성, 대상 라이브러리, Admin Console"'
 topic: 관리
 role: 관리자
-level: 경험
-translation-type: tm+mt
+level: 경력자
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
