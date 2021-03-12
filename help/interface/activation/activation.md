@@ -1,5 +1,5 @@
 ---
-description: Experience Platform Launch라는 최신 태그 관리 제품에 대해 알아봅니다.
+description: Experience Platform Launch라고 하는 최신 Tag Management 제품에 대해 알아봅니다.
 keywords: 핵심 서비스
 seo-description: 활성화에는 Experience Platform Launch라고 하는 최신 태그 관리 제품과 DTM(Dynamic Tag Management) 및 트리거가 포함됩니다.
 seo-title: 활성화
@@ -9,12 +9,12 @@ uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 feature: Admin Console
 topic: 관리
 role: 관리자
-level: 경험
-translation-type: tm+mt
+level: 경력자
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Dynamic Tag Management 구현에 대한 도움이 필요한 경우 계정 관리
 
 ## Experience Cloud 트리거 {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
-*트리거*&#x200B;를 통해 마케터는 주요 소비자 행동을 정의하고 모니터링한 다음, 실시간 의사 결정 및 개인화에 사용할 솔루션 간 커뮤니케이션을 생성할 수 있습니다.
+*트리거*&#x200B;를 통해 마케터는 주요 소비자 행동을 정의하고 모니터링한 다음, 실시간 의사 결정 및 개인화에 사용할 교차 솔루션 커뮤니케이션을 생성할 수 있습니다.
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
