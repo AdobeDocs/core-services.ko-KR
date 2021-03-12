@@ -1,17 +1,17 @@
 ---
-description: Experience Cloud의 다른 솔루션과 서비스를 사용하여 페이지 로드 시간을 줄이는 데 도움이 되도록 DNS 프리페치를 구현하는 방법을 알아봅니다.
+description: Experience Cloud의 다양한 솔루션과 서비스를 사용하여 페이지 로드 시간을 줄이는 데 도움이 되는 DNS 프리패치를 구현하는 방법을 알아봅니다.
 solution: Experience Cloud
 title: '다양한 솔루션 및 서비스에서 DNS 프리페치 사용 '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: '"고객 속성, 대상 라이브러리, Admin Console"'
+feature: '"고객 특성, 대상 라이브러리, Admin Console"'
 topic: 관리
 role: 관리자
-level: 경험
-translation-type: tm+mt
+level: 경력자
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
