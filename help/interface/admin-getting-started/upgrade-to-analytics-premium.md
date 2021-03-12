@@ -1,18 +1,18 @@
 ---
-description: Analytics Premium으로 업그레이드할 때의 요구 사항과 예상 사항에 대해 알아봅니다.
+description: Analytics Premium으로 업그레이드할 때의 요구 사항과 예상되는 사항에 대해 알아봅니다.
 keywords: Adobe Analytics Premium 업그레이드
 solution: Experience Cloud
-title: 'Analytics Premium 및 Experience Cloud으로 업그레이드 '
+title: 'Analytics Premium 및 Experience Cloud로 업그레이드 '
 topic: 관리
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: 관리자
-level: 경험
-translation-type: tm+mt
+level: 경력자
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -55,9 +55,9 @@ Predictive Intelligence로 업그레이드하면 [Analytics Premium](../admin-ge
 
 | 제품 | 업그레이드 |
 |---|---|
-| 보고 및 분석 | [기여도 분석](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports &amp; Analytics | [기여도 분석](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | 대상 자격 조건 및 예측 마케팅을 위해 사전 빌드된 작업 공간. |
-| 분석 플랫폼 | 라이브 스트림(대시보드 및 트리거) |
+| Analytics Platform | 라이브 스트림(대시보드 및 트리거) |
 
 ## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
@@ -67,7 +67,7 @@ Customer 360으로 업그레이드하면 [Analytics Premium](../admin-getting-st
 |--- |--- |
 | [고객 속성](../attributes/attributes.md) | 고객 속성(분석 및 세그먼트 공유) |
 | Data Workbench | <ul><li>파생된 고객 속성</li><li>대상 검색을 위해 사전 빌드된 작업 공간</li></ul> |
-| 분석 플랫폼 | [고객 속성](../attributes/attributes.md) |
+| Analytics Platform | [고객 속성](../attributes/attributes.md) |
 
 ## Advanced Attribution {#section_9E4986A8389946CCAA7D003268343296}
 
