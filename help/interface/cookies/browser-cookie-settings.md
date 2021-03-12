@@ -1,18 +1,18 @@
 ---
-description: 브라우저 쿠키에 개인 정보 설정을 활성화하는 방법에 대해 알아봅니다. 데스크톱 및 모바일 브라우저에서 모든 쿠키를 차단한 사용자를 삭제할 수 있습니다.
+description: 브라우저 쿠키에 대한 개인 정보 보호 설정을 활성화하는 방법을 알아봅니다. 데스크톱 및 모바일 브라우저에서 모든 쿠키를 차단한 사용자를 삭제할 수 있습니다.
 keywords: cookies;privacy
 solution: Experience Cloud, Analytics, Target, Social
-title: '브라우저 쿠키의 개인 정보 설정 '
+title: '브라우저 쿠키에 대한 개인 정보 보호 설정 '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 feature: 쿠키
 topic: 관리
 role: 관리자
-level: 경험
-translation-type: tm+mt
+level: 경력자
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
