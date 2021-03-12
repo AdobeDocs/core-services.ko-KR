@@ -4,15 +4,15 @@ keywords: 핵심 서비스
 solution: Experience Cloud
 title: 'Exchange 마켓플레이스 '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-feature: '"고객 속성, 대상 라이브러리, Admin Console"'
+feature: '"고객 특성, 대상 라이브러리, Admin Console"'
 topic: 관리
 role: 관리자
-level: 경험
-translation-type: tm+mt
+level: 경력자
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
