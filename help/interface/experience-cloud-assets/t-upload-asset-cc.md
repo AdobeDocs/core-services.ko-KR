@@ -1,18 +1,18 @@
 ---
 description: Creative Cloud 브라우저에서 Experience Cloud로 자산을 공유 폴더에 업로드하는 방법
-keywords: 자산 공유,Creative Cloud,핵심 서비스
+keywords: 자산 공유, Creative Cloud, 핵심 서비스
 solution: Experience Cloud
 title: 'Creative Cloud 브라우저에서 공유 폴더로 자산 업로드 '
 uuid: 701e28ed-4d1f-4109-882e-64d3b16cd2da
 feature: 자산
 topic: 관리
 role: 관리자
-level: 경험
-translation-type: tm+mt
+level: 경력자
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
