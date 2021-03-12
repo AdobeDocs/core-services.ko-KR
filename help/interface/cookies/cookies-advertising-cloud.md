@@ -5,12 +5,12 @@ uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: 쿠키
 topic: 관리
 role: 관리자
-level: 경험
-translation-type: tm+mt
+level: 경력자
+translation-type: ht
 source-git-commit: 6eab2decc39f250d48e3355b8c63c5a0c868944c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
