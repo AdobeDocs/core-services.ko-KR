@@ -1,18 +1,18 @@
 ---
 description: Adobe Experience Cloud를 사용하는 관리자를 위한 브라우저 지원에 대해 알아보고, 일반적인 질문에 대한 답변을 얻을 수 있습니다.
-keywords: 핵심 서비스, Experience Cloud, Experience Platform, 분석, Target, 사용자 관리
+keywords: 코어 서비스, Experience Cloud, Experience Platform, Analytics, Target, 사용자 관리
 solution: Experience Cloud
 title: 'Experience Cloud FAQ '
 index: true
 feature: Admin Console
 topic: 관리
 role: 관리자
-level: 경험
-translation-type: tm+mt
+level: 경력자
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '782'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Experience Cloud 인터페이스에서 제공하는 기능은 귀하의 비즈�
 
 ## 우리 회사 마이그레이션에 대한 우려를 해결하려면 어떻게 해야 합니까?
 
-[Adobe 지원에 문의하십시오](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+[Adobe 지원에 문의하십시오](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html).
 
 ## _프로비저닝이란_ 무엇입니까?
 
@@ -77,7 +77,7 @@ Experience Cloud의 프로비저닝은 다음을 의미합니다.
 
 Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있습니다. 사용자에게 로그인 지침이 포함된 이메일이 전송됩니다.
 
-[Adobe 지원에 문의](https://helpx.adobe.com/marketing-cloud/contact-support.html)하여 회사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
+[Adobe 지원에 문의](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)하여 회사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
 
 ## 사용자가 계정 링크를 관리하려면 어디로 이동해야 합니까?
 
