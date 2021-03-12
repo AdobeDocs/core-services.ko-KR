@@ -1,18 +1,18 @@
 ---
-description: 크로스 솔루션 서비스를 위한 Adobe Analytics 및 Adobe Target 솔루션 현대화 Experience Cloud 서비스를 시작하는 방법을 알아봅니다.
+description: 교차 솔루션 서비스를 위한 Adobe Analytics 및 Adobe Target 솔루션을 현대화합니다. Experience Cloud 서비스를 사용하는 방법을 알아봅니다.
 keywords: 핵심 서비스, 고객 속성
 solution: Experience Cloud
-title: 솔루션 간 서비스 활성화
+title: 교차 솔루션 서비스용 솔루션을 사용하도록 설정
 index: true
 feature: 고객 속성
 topic: 관리
 role: 관리자
-level: 경험
+level: 경력자
 translation-type: tm+mt
 source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
 workflow-type: tm+mt
 source-wordcount: '2369'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Experience Cloud에 로그인하려면 귀하의 사용자는
 
 ## [!UICONTROL Experience Cloud ID 서비스] 구현 {#section_3C9F6DF37C654D939625BB4D485E4354}
 
-[!UICONTROL Experience Cloud ID 서비스]에서는 솔루션 간 통합을 위한 공통 ID를 제공하고 [!UICONTROL 고객 속성]을 통해 업로드된 CRM 데이터를 기반으로 도메인 간 방문자 식별 및 장치/브라우저 간 타깃팅 및 개인화를 위한 경로를 제공합니다.
+[!UICONTROL Experience Cloud ID 서비스]에서는 교차 솔루션 통합을 위한 공통 ID를 제공하고 [!UICONTROL 고객 속성]을 통해 업로드된 CRM 데이터를 기반으로 도메인 간 방문자 식별 및 장치/브라우저 간 타깃팅 및 개인화를 위한 경로를 제공합니다.
 
 Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=ko-KR#extensions-ref)에서 [!UICONTROL Experience Cloud ID 서비스 확장]을 통해 Analytics 및 Adobe Target에 대해 자동으로 활성화하는 것입니다.
 
