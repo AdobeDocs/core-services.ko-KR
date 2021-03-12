@@ -1,5 +1,5 @@
 ---
-description: ID 서비스가 Experience Cloud 솔루션 간에 어떻게 저장되고 사용되는지 알아봅니다.
+description: ID 서비스가 Experience Cloud 솔루션 간에 저장되고 사용되는 방법을 알아봅니다.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Experience Cloud 쿠키 '
@@ -7,12 +7,12 @@ uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: 쿠키
 topic: 관리
 role: 관리자
-level: 경험
-translation-type: tm+mt
+level: 경력자
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
