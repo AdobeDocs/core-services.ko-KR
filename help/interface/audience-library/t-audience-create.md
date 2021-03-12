@@ -7,12 +7,12 @@ uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: 대상 라이브러리
 topic: 관리
 role: 관리자
-level: 경험
-translation-type: tm+mt
+level: 경력자
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
