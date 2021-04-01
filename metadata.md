@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: core-services
 solution: Experience Cloud Services
 feature-set: Experience Cloud Services
@@ -7,13 +7,13 @@ solution-title: Experience Platform
 solution-hub-url: https://helpx.adobe.com/kr/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: 시작하기
-getting-started-url: https://helpx.adobe.com/kr/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: 자습서
 tutorials-url: https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.ko-KR
-translation-type: ht
-source-git-commit: d317fe52be9449592e3d027056af8a4f6a3a7599
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6949b419fc4182e09dfa3b473d3a96e56528c629
+workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%
 
