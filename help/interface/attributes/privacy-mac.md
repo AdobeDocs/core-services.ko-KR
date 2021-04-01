@@ -8,16 +8,16 @@ feature: 고객 속성
 topic: 관리
 role: 관리자
 level: 경력자
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '522'
+translation-type: tm+mt
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+workflow-type: tm+mt
+source-wordcount: '519'
 ht-degree: 100%
 
 ---
 
 
-# Experience Cloud의 고객 특성에 대한 개인 정보 보호 고려 사항
+# 고객 특성에 대한 개인 정보 보호 고려 사항
 
 Adobe Experience Cloud에서 업로드되고 사용되는 PII(개인 식별 정보)와 관련된 고려 사항 및 우수 사례입니다.
 
