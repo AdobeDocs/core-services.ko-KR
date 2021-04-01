@@ -6,16 +6,16 @@ feature: 고객 속성
 role: 관리자
 topic: 관리
 level: 경력자
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '488'
+translation-type: tm+mt
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+workflow-type: tm+mt
+source-wordcount: '486'
 ht-degree: 100%
 
 ---
 
 
-# Experience Cloud의 고객 속성
+# 고객 속성 개요
 
 Adobe Experience Cloud의 고객 속성을 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드한 다음 Adobe Analytics 및 Adobe Target의 데이터를 사용할 수 있습니다.
 
