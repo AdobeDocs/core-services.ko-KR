@@ -6,10 +6,10 @@ user-guide-description: Adobe Experience Cloud에서 사용자 및 제품을 관
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 98%
 
 ---
 
@@ -63,8 +63,8 @@ ht-degree: 100%
    + [대상자 만들기](audience-library/t-audience-create.md)
    + [Analytics 대상 세그먼트 게시](audience-library/t-publish-audience-segment.md)
 + Experience Cloud 고객 특성 {#customer-attributes}
-   + [Adobe Experience Cloud의 고객 속성](attributes/attributes.md)
-   + [FAQ, 제한 사항 및 우수 사례](attributes/faq-crs.md)
+   + [고객 속성 개요](attributes/attributes.md)
+   + [고객 속성에 대한 FAQ](attributes/faq-crs.md)
    + [고객 속성에 대한 데이터 파일 및 데이터 소스 정보](attributes/crs-data-file.md)
    + [고객 속성 소스를 만들고 데이터 파일 업로드](attributes/t-crs-usecase.md)
    + [선택 사항 - FTP를 통해 데이터 파일 업로드](attributes/t-upload-attributes-ftp.md)
@@ -73,14 +73,12 @@ ht-degree: 100%
    + [스키마 업데이트](attributes/t-update-schema.md)
    + [개인 정보 보호 규정 지원](attributes/gdpr.md)
    + [캘리포니아 소비자 개인 정보 보호법 지원](attributes/ccpa.md)
-   + [개인 정보 고려 사항 - 고객 속성](attributes/privacy-mac.md)
+   + [고객 특성에 대한 개인 정보 보호 고려 사항](attributes/privacy-mac.md)
 + Experience Cloud 릴리스 노트 {#release-notes}
    + [Experience Cloud의 새로운 기능](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)
    + [누적 릴리스 노트](marketing-cloud-interface/release-notes.md)
-+ [Exchange 마켓플레이스](exchange.md)
-+ [Mobile Services](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html)
 + 추가 리소스 {#more-resources}
    + [포럼](https://forums.adobe.com/community/experience-cloud)
    + [용어](terms.md)
    + [다양한 솔루션 및 서비스에서 DNS 프리페치 사용](dns-prefetch.md)
-   + [설명서 업데이트 - Experience Cloud](doc-updates.md)
+   + [설명서 업데이트](doc-updates.md)
