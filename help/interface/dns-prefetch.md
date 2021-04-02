@@ -3,14 +3,14 @@ description: Experience Cloud의 다양한 솔루션과 서비스를 사용하�
 solution: Experience Cloud
 title: '다양한 솔루션 및 서비스에서 DNS 프리페치 사용 '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: '"고객 특성, 대상 라이브러리, Admin Console"'
+feature: 고객 속성
 topic: 관리
 role: 관리자
 level: 경력자
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '389'
+translation-type: tm+mt
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+workflow-type: tm+mt
+source-wordcount: '385'
 ht-degree: 100%
 
 ---
