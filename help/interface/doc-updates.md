@@ -4,15 +4,15 @@ keywords: Experience Cloud 서비스
 solution: Experience Cloud
 title: 설명서 업데이트
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: '"고객 속성, 자산"'
+feature: 고객 속성
 topic: 관리
 role: 관리자
 level: 경력자
 translation-type: tm+mt
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+source-git-commit: 28353aab8d473192e2ebee03196cf14929b50892
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 98%
+source-wordcount: '257'
+ht-degree: 100%
 
 ---
 
