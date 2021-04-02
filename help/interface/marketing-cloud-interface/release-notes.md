@@ -4,14 +4,14 @@ keywords: 핵심 서비스
 solution: Experience Cloud
 title: '누적 릴리스 노트 '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: '"고객 특성, 대상 라이브러리, Admin Console"'
+feature: '"고객 속성"'
 topic: 관리
 role: 관리자
 level: 경력자
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '3973'
+translation-type: tm+mt
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+workflow-type: tm+mt
+source-wordcount: '3969'
 ht-degree: 100%
 
 ---
