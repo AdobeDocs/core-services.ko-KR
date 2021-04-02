@@ -2,7 +2,7 @@
 title: Experience Cloud UI 구성 요소 및 서비스
 description: Adobe Admin Console, 대상 라이브러리, 고객 속성, Experience Cloud 자산 등의 UI 구성 요소, 사용자 및 제품 관리에 대해 알아보십시오.
 cloud: Experience Cloud
-product: core-services
+product: experience cloud
 solution: Experience Cloud Services
 feature-set: Experience Cloud Services
 solution-title: Experience Platform
@@ -14,7 +14,7 @@ tutorials-title: 자습서
 tutorials-url: https://docs.adobe.com/content/help/ko-kr/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.ko-KR
 translation-type: tm+mt
-source-git-commit: 4a7576d234936ba1dd1a6a1b54a5fd34ddeb24ae
+source-git-commit: 92879002608cc720b69cb323f9d4c12eee2181d5
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 86%
