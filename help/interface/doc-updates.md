@@ -9,9 +9,9 @@ topic: 관리
 role: 관리자
 level: 경력자
 translation-type: tm+mt
-source-git-commit: 28353aab8d473192e2ebee03196cf14929b50892
+source-git-commit: 25c9bb8908ca4df0997aa5bcb8a3039e8207ac29
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '253'
 ht-degree: 100%
 
 ---
@@ -109,7 +109,3 @@ Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 **업데이트 날짜: 2014년 5월 22일**
 
 Experience Cloud에서 관리자가 되는 방법에 대한 자세한 내용은 [Experience Cloud 사용자 및 제품 관리](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)를 업데이트했습니다.
-
-**업데이트 날짜: 2014년 5월 22일**
-
-[Exchange 마켓플레이스](exchange.md#concept_E07F16F070544B82B56527A845C41D59)가 추가되었습니다.
