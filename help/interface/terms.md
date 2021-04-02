@@ -6,14 +6,14 @@ seo-title: 용어
 solution: Experience Cloud
 title: '용어 '
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-feature: '"고객 특성, 대상 라이브러리, Admin Console"'
+feature: '"고객 속성"'
 topic: 관리
 role: 관리자
 level: 경력자
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '1506'
+translation-type: tm+mt
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+workflow-type: tm+mt
+source-wordcount: '1502'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ Experience Cloud 사용자를 위한 용어 참조 및 Creative Cloud에서 그�
 | 포트폴리오 | 여러 파일 또는 자산의 어셈블리입니다. | 캠페인 컨테이너. |
 | 제품 프로필 | [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-products-and-profiles.html)를 참조하십시오. | 사용자가 제품 또는 서비스를 사용할 자격이 있는 경우 사용자는 제품 프로필의 일부여야 합니다. 제품 관리자는 사용자가 구입한 플랜과 연결하여 제품 프로필에 라이센스를 지정합니다.<br>사용자는 여러 제품 프로필에 속할 수 있으며 각각 사용자에게 서로 다른 라이센스가 부여됩니다. 사용자의 최종 자격 요건은 해당 사용자에게 각 제품 프로필로 제공된 모든 라이센스의 통합입니다. |
 | 예약 | Adobe Story의 장면 시퀀스 또는 ColdFusion의 예약된 작업일 수 있습니다. | Experience Cloud에서 예약은 캠페인, 채널 및 활동 활성화의 시작 날짜(년, 월, 일) 및 종료 날짜입니다. 활동 예약에는 분 단위까지의 세부기간이 있습니다. 예약을 변경하면 카드가 만들어집니다.<br>해당 예는 다음과 같습니다.<ul><li>캠페인 예약</li><li>채널 예약</li><li>활동 예약</li></ul> |
-| 세그먼트 | N/A | 대상을 평가하는 규칙 세트의 출력입니다. Analytics에서 원할 경우 [세그먼트](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/seg-home.html)를 사용하여 Experience Cloud에 전달할 수 있는 대상을 정의할 수 있습니다. <br>Audience Manager에서 세그먼트는 방문자의 멤버십 자격 또는 해당 세그먼트에 포함할 수 있는 자격을 부여하는 [트레이트](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/traits/traits-overview.html) 및 모든 기준의 컬렉션입니다. 또한, 이러한 공통적인 속성을 공유하는 사람들의 컬렉션이기도 합니다. |
+| 세그먼트 | N/A | 대상을 평가하는 규칙 세트의 출력입니다. Analytics에서 원할 경우 [세그먼트](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)를 사용하여 Experience Cloud에 전달할 수 있는 대상을 정의할 수 있습니다. <br>Audience Manager에서 세그먼트는 방문자의 멤버십 자격 또는 해당 세그먼트에 포함할 수 있는 자격을 부여하는 [트레이트](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/traits/traits-overview.html) 및 모든 기준의 컬렉션입니다. 또한, 이러한 공통적인 속성을 공유하는 사람들의 컬렉션이기도 합니다. |
 | 공유 | Creative Cloud에서는 플랫폼 간에 외부적으로 파일을 공유할 수 있습니다(소셜, 커뮤니티, 이메일 등). | Experience Cloud에서 인터페이스 내의 보드 안에서 자산을 카드로만 공유할 수 있습니다. 사이트에 로그인한 사람은 공유를 사용할 수 있습니다. |
 | 솔루션 | 특별한 용도는 없습니다. | Experience Cloud에서 솔루션은 Adobe Analytics, Adobe Social, Adobe Target 등과 같은 제품으로 알려져 있습니다.<br>[Experience Cloud의 새 클라우드 이름 정보](solutions-core-services.md)를 참조하십시오. |
-| 트레이트 | N/A | 키-값 쌍(예: color=blue). Audience Manager에서 [트레이트](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/traits/traits-overview.html)는 세그먼트를 만드는 데 사용됩니다. |
+| 트레이트 | 해당 없음 | 키-값 쌍(예: color=blue). Audience Manager에서 [트레이트](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/traits-overview.html)는 세그먼트를 만드는 데 사용됩니다. |
