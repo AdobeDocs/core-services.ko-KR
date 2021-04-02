@@ -9,11 +9,11 @@ feature: 쿠키
 topic: 관리
 role: 관리자
 level: 경력자
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '1447'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f67e207cb130ee057471d3fc13845f1df66376b6
+workflow-type: tm+mt
+source-wordcount: '1444'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,9 @@ Analytics는 쿠키를 사용하여 이미지 요청과 브라우저 세션 간�
 * Experience Platform ID 서비스. ID 서비스는 JavaScript를 사용하여 자사 컨텍스트에서 쿠키를 설정할 수 있습니다.
 * CNAME 별칭을 Adobe 호스팅 도메인에 구성하기 위한 회사 DNS 서버의 DNS 항목입니다. 다양한 Adobe 제품이 CNAME 사용을 지원하며 모든 경우에 CNAME은 특정 고객에 대해 신뢰할 수 있는 자사 엔드포인트를 만드는 데 사용되며 해당 고객이 소유합니다. 해당 고객이 여러 도메인을 제어하는 경우 이 고객은 하나의 CNAME 엔드포인트를 사용하여 도메인에서 사용자를 추적할 수 있지만, 이렇게 하려면 CNAME 도메인의 외부에 있는 모든 도메인에 대한 타사 쿠키가 필요하므로 타사 쿠키가 차단되면 CNAME 엔드포인트가 작동하지 않으므로 권장되지 않습니다. Adobe CNAME은 서로 다른 고객이 소유한 도메인들에서 개인 또는 장치를 추적하는 데에는 사용되지 않습니다.
 
-Adobe Experience Cloud ID 서비스에서 첫 번째 옵션을 사용할 때에도 Apple의 ITP는 자사 쿠키를 단명하게 하므로 두 번째 옵션과 함께 사용하는 것이 가장 좋습니다.
+>[!NOTE]
+>
+>두 옵션 모두에 대해 Apple의 ITP(Intelligent Tracking Prevention) 프로그램은 MacOS의 Safari와 iOS 및 iPadOS의 모든 브라우저를 포함하는 ITP가 관리하는 브라우저에서 퍼스트 파티 쿠키를 일시 중단된 상태로 만듭니다. 2020년 11월 현재, 두 유형의 쿠키는 모두 7일 만료입니다. 이 만료는 변경될 수 있습니다.
 
 CNAME을 사용하는 두 번째 옵션의 경우 사이트에 HTTPS 프로토콜을 사용하는 보안 페이지가 있다면 자사 쿠키를 구현하기 위해 Adobe와 협력하여 SSL 인증서를 구할 수 있습니다. Adobe는 2020년 하반기에 HTTP 컬렉션에 대한 지원을 중단할 예정이므로 데이터 수집에 HTTPS만 사용할 것을 강력히 권장합니다.
 
@@ -94,7 +96,7 @@ FPC 전문가는 구성된 호스트 이름과 가리키는 CNAME을 제공합�
 
 >[!NOTE]
 >
->Experience Cloud 방문자 ID 서비스에서는 자사 쿠키를 활성화하도록 CNAME을 구성하는 것에 대한 대안을 제공하지만, 최근의 Apple ITP 변경 사항으로 인해 Experience Cloud ID 서비스를 사용하는 경우에도 여전히 CNAME을 할당하는 것이 좋습니다.
+>Experience Cloud 방문자 ID 서비스는 자사 쿠키를 활성화하기 위해 CNAME을 구성하는 대안을 제공합니다.
 
 ## 호스트 이름 전달의 유효성 확인 {#validate}
 
