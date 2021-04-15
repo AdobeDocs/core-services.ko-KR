@@ -5,18 +5,22 @@ title: 자산 개요
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: 자산
 topic: 관리
-role: 관리자
-level: 경력자
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '336'
-ht-degree: 100%
+role: Administrator
+level: Experienced
+exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
+translation-type: tm+mt
+source-git-commit: e8fa9e9dc4de694d37012f6fb45eb8d3527d49f5
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 97%
 
 ---
 
-
 # Experience Cloud 자산 개요
+
+>[!NOTE]
+>
+>자산은 레거시 핵심 서비스이며 현재 유지 중이다.
 
 Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준비가 끝난 자산에 대해 중앙 집중식 단일 저장소를 제공합니다. 자산은 디지털 문서, 이미지, 비디오, 오디오 또는 그 일부로, 다양한 표현물과 하위 자산(예: [!DNL Photoshop] 파일의 레이어, [!DNL PowerPoint] 파일의 슬라이드, PDF의 페이지, ZIP에 있는 파일)을 가질 수 있습니다.
 
