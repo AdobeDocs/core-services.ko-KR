@@ -4,10 +4,10 @@ keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: '타사 쿠키 지원 변경이 고객에게 미치는 영향 '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-feature: 쿠키
-topic: 관리
-role: 관리자
-level: 경력자
+feature: Cookies
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

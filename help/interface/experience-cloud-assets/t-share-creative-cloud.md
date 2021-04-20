@@ -4,10 +4,10 @@ keywords: 자산 공유, Creative Cloud, 핵심 서비스
 solution: Experience Cloud
 title: 'Experience Cloud 자산 폴더 공유 '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-feature: 자산
-topic: 관리
-role: 관리자
-level: 경력자
+feature: Assets
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

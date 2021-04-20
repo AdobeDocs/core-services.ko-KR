@@ -2,10 +2,10 @@
 description: Adobe Experience Cloud에서 스키마 속성을 삭제하고 바꾸는 방법
 title: '스키마 업데이트(속성 삭제) '
 uuid: a465fa89-6c7f-4c07-aa59-84c968a82917
-feature: 고객 속성
-topic: 관리
-role: 관리자
-level: 경력자
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

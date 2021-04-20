@@ -1,10 +1,10 @@
 ---
 title: '캘리포니아 소비자 개인 정보 보호법을 위한 고객 속성 지원 '
 description: 캘리포니아 소비자 개인 정보 보호법을 위한 고객 특성 지원에 대해 알아보기
-feature: 고객 속성
-topic: 관리
-role: 관리자
-level: 경력자
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

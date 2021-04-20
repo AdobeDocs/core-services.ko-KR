@@ -4,10 +4,10 @@ keywords: Experience Cloud 서비스
 solution: Experience Cloud
 title: 설명서 업데이트
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: 고객 속성
-topic: 관리
-role: 관리자
-level: 경력자
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 25c9bb8908ca4df0997aa5bcb8a3039e8207ac29
 workflow-type: tm+mt

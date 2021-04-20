@@ -4,10 +4,10 @@ keywords: 고객 특성;코어 서비스
 solution: Experience Cloud
 title: '고객 특성에 대한 개인 정보 보호 고려 사항 '
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
-feature: 고객 속성
-topic: 관리
-role: 관리자
-level: 경력자
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt

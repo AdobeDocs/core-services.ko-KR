@@ -6,10 +6,10 @@ seo-title: 용어
 solution: Experience Cloud
 title: '용어 '
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-feature: '"고객 속성"'
-topic: 관리
-role: 관리자
-level: 경력자
+feature: "Customer Attributes"
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
 workflow-type: tm+mt

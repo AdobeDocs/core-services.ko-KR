@@ -5,9 +5,9 @@ solution: Experience Cloud
 title: '조직 및 계정 연결 '
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Admin Console
-topic: 관리
-role: 관리자
-level: 경력자
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

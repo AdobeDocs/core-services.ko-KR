@@ -1,10 +1,10 @@
 ---
 title: 'Analytics 대상자 세그먼트 게시 '
 description: 대상자 마케팅 활동을 위해 Adobe Analytics 대상자 세그먼트를 Experience Cloud 및 Adobe Target에 게시하는 방법
-feature: 대상 라이브러리
-topic: 관리
-role: 관리자
-level: 경력자
+feature: Audience Library
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

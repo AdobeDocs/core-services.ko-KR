@@ -4,10 +4,10 @@ keywords: cookies;privacy
 solution: Experience Cloud, Analytics, Target, Social
 title: '브라우저 쿠키에 대한 개인 정보 보호 설정 '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
-feature: 쿠키
-topic: 관리
-role: 관리자
-level: 경력자
+feature: Cookies
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

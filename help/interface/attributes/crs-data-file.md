@@ -4,10 +4,10 @@ keywords: 고객 특성;코어 서비스
 solution: Experience Cloud
 title: '고객 특성의 데이터 파일 및 데이터 소스에 대해 알아보기 '
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
-feature: 고객 속성
-topic: 관리
-role: 관리자
-level: 경력자
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

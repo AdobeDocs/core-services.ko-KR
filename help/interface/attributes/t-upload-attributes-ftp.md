@@ -4,10 +4,10 @@ keywords: 고객 특성;코어 서비스
 solution: Experience Cloud
 title: 'FTP를 통한 고객 특성 데이터 파일 업로드 '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-feature: 고객 속성
-topic: 관리
-role: 관리자
-level: 경력자
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

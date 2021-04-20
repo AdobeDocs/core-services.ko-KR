@@ -5,9 +5,9 @@ solution: Experience Cloud
 title: 'Experience Cloud 사용자 및 사용자 세부 사항 보기 '
 index: true
 feature: Admin Console
-topic: 관리
-role: 관리자
-level: 경력자
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

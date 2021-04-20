@@ -6,9 +6,9 @@ solution: Experience Cloud
 title: 'Experience Cloud의 클라우드 이름 정보 '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 feature: Admin Console
-topic: 관리
-role: 관리자
-level: 경력자
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

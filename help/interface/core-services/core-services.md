@@ -4,10 +4,10 @@ keywords: 핵심 서비스, 고객 속성
 solution: Experience Cloud
 title: 교차 솔루션 서비스용 솔루션을 사용하도록 설정
 index: true
-feature: 고객 속성
-topic: 관리
-role: 관리자
-level: 경력자
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
 workflow-type: ht

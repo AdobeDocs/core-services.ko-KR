@@ -4,10 +4,10 @@ keywords: 자산 공유, Creative Cloud, 핵심 서비스
 solution: Experience Cloud
 title: 'Creative Cloud 브라우저에서 공유 폴더로 자산 업로드 '
 uuid: 701e28ed-4d1f-4109-882e-64d3b16cd2da
-feature: 자산
-topic: 관리
-role: 관리자
-level: 경력자
+feature: Assets
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

@@ -4,10 +4,10 @@ keywords: Adobe Experience Cloud 서비스, 고객 특성, 대상자, 사용자 
 solution: Experience Cloud
 title: 'Experience Cloud 서비스 및 관리 '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: '"고객 속성"'
-topic: 관리
-role: 관리자
-level: 경력자
+feature: "Customer Attributes"
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
 workflow-type: tm+mt

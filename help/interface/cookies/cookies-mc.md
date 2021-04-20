@@ -4,10 +4,10 @@ keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Experience Cloud 쿠키 '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-feature: 쿠키
-topic: 관리
-role: 관리자
-level: 경력자
+feature: Cookies
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

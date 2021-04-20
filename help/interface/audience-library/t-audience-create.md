@@ -4,10 +4,10 @@ keywords: 핵심 서비스
 solution: Experience Cloud
 title: '대상자 만들기 '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-feature: 대상 라이브러리
-topic: 관리
-role: 관리자
-level: 경력자
+feature: Audience Library
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

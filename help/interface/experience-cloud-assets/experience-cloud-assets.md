@@ -3,8 +3,8 @@ description: 솔루션 간에 공유할 수 있는 Experience Cloud Assets에 �
 solution: Experience Cloud
 title: 자산 개요
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
-feature: 자산
-topic: 관리
+feature: Assets
+topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4

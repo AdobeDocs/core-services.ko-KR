@@ -3,10 +3,10 @@ description: 'Experience Cloud와 Creative Cloud 간에 폴더 및 자산을 공
 keywords: 자산 공유, Creative Cloud, 핵심 서비스
 solution: Experience Cloud
 title: 'Creative Cloud와 Experience Cloud 폴더 및 자산 공유 '
-feature: 자산
-topic: 관리
-role: 관리자
-level: 경력자
+feature: Assets
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht
