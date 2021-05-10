@@ -4,18 +4,18 @@ keywords: Adobe Experience Cloud 서비스, 고객 특성, 대상자, 사용자 
 solution: Experience Cloud
 title: 'Experience Cloud 서비스 및 관리 '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: "Customer Attributes"
-topic: Administration
+feature: '"고객 속성"'
+topic: 관리
 role: Administrator
 level: Experienced
+exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 translation-type: tm+mt
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+source-git-commit: 30989be46132eef4d8bcf5ccaf3032f0606c7de4
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 98%
+source-wordcount: '441'
+ht-degree: 93%
 
 ---
-
 
 # Experience Cloud 서비스 및 관리 가이드
 
@@ -56,9 +56,9 @@ Experience Cloud는 Adobe의 디지털 마케팅 솔루션 및 서비스 통합 
 
 Adobe Experience League에서 제공하는 자조 자습서와 빠른 사용 방법을 활용할 수 있습니다.
 
-* [Experience League의 모든 자습서](https://experienceleague.corp.adobe.com/?lang=ko-kr#quick-how-tos)
-* [Experience Platform 자습서](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=ko-kr)
-* [실시간 고객 데이터 플랫폼](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ko-kr)
+* [Experience League의 모든 자습서](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
+* [Experience Platform 자습서](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
+* [실시간 고객 데이터 플랫폼](https://experienceleague.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
 ## 릴리스 노트 및 관련 Experience Cloud 도움말
 
