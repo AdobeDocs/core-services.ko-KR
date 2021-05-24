@@ -4,18 +4,17 @@ keywords: 핵심 서비스
 solution: Experience Cloud
 title: '누적 릴리스 노트 '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: "Customer Attributes"
-topic: Administration
+feature: '"고객 속성"'
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
+exl-id: b71d144c-a097-4cdb-9721-671519d38aff
+source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
 workflow-type: tm+mt
-source-wordcount: '3966'
-ht-degree: 100%
+source-wordcount: '4111'
+ht-degree: 96%
 
 ---
-
 
 # 누적 릴리스 노트
 
@@ -24,6 +23,16 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 설명서 업데이트 목록은 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)를 참조하십시오.
 
 모든 솔루션에 대해 설명하는 릴리스 노트가 필요하면 [Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)를 참조하십시오.
+
+## 2021년 5월
+
+| 기능 | 날짜 | 설명 |
+| ------- | ------- | ------- |
+| Experience Cloud 헤더 및 탐색 | 2021년 5월 20일 | Adobe Experience Cloud 업데이트에는 헤더의 밝은 테마 변경 사항이 포함되어 있으며, Experience Cloud 헤더에서 사용자 아바타에서 추가 환경 설정을 제어하기 위해 어두운 테마로 쉽게 전환할 수 있는 링크가 포함되어 있습니다. Experience Cloud의 모든 응용 프로그램이 지원을 제공하는 것은 아니지만 이 기능은 향후 테마 지원을 잠금 해제합니다. |
+| Experience Cloud 전역 검색 | 2021년 5월 20일 | 이 릴리스에서는 Experience Cloud 전역 검색을 통해 [Experience League](https://experienceleague.adobe.com/?lang=ko-KR/#home) 설명서, 교육 과정 및 자습서 중 하나를 검색할 수 있습니다. (현재, 전역 검색은 Experience Platform 사용자만 사용할 수 있습니다. [!UICONTROL Platform]에 대한 전역 검색을 사용하면 세그먼트, 데이터 세트, 스키마 등과 같은 Experience Cloud의 비즈니스 개체를 검색할 수 있습니다.) |
+| Experience Cloud 언어 환경 설정 | 2021년 5월 20일 | 이 업데이트에는 Experience Cloud [환경 설정](https://experience.adobe.com/preferences)에서 기본 언어를 설정하는 기능이 포함되어 있습니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 2020년 8월
 
