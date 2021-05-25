@@ -6,9 +6,9 @@ feature: '"중앙 인터페이스 구성 요소"'
 topic: 관리
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c3ce6e07c17e126cd2becdf65c40ccbe9398f012
+source-git-commit: a2fd27582268ae2865e6074b8c84d55f8c31fb8a
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '412'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Experience Cloud 검색을 사용하면 [Experience League](https://experiencele
 * **[!UICONTROL 지원]:** 지원 티켓을 만들거나 Twitter을   사용하여 지원 센터에 문의하십시오.
 * **[!UICONTROL 피드백]:** 피드백을 사용하여 Adobe에게 연락하여 의견을 알려 주십시오.
 * **[!UICONTROL 상태]:**  제품  `https://status.adobe.com/experience_cloud` 작동 상태 및 구독  [!UICONTROL 관리]로 이동하여 확인합니다.
-* **[!UICONTROL Developer Connection]:**  [Adobe I/O](adobe.io) 를 탐색하고 개발자 설명서를 찾습니다.
+* **[!UICONTROL Developer Connection]:** 개발자 설명서 `adobe.io` 를 탐색하고 찾습니다.
 
 ## ![](assets/preferences-icon.png) 계정 환경 설정  {#account-menu}
 
