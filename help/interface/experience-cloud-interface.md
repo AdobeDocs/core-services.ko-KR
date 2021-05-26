@@ -6,22 +6,34 @@ feature: '"중앙 인터페이스 구성 요소"'
 topic: 관리
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: a2fd27582268ae2865e6074b8c84d55f8c31fb8a
+source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 1%
+source-wordcount: '464'
+ht-degree: 6%
 
 ---
 
-# Experience Cloud 중앙 인터페이스 구성 요소
+# Experience Cloud 인터페이스
 
-Experience Cloud의 중앙 인터페이스 구성 요소에는 다음과 같은 작업을 수행할 수 있는 기능이 포함되어 있습니다.
+Experience Cloud의 중앙 인터페이스 구성 요소에는 다음과 같은 기능을 사용할 수 있습니다.
 
-* 애플리케이션 및 서비스 액세스
+* 로그인 및 애플리케이션 및 서비스에 액세스합니다
 * 전역 검색을 사용하여 제품 도움말 및 비즈니스 개체 찾기
 * 계정 환경 설정(경고, 알림 및 구독)을 관리합니다
 
-## ![](assets/menu-icon.png) Experience Cloud 응용 프로그램 액세스 {#navigation}
+## Experience Cloud에 로그인
+
+로그인한 다음 올바른 [조직](admin-getting-started/organizations.md)에 속해 있는지 확인하십시오.
+
+1. [Adobe Experience Cloud](https://experiencecloud.adobe.com/exc-content/login.html)로 이동합니다.
+1. **[!UICONTROL Adobe ID]**&#x200B;로 로그인합니다.
+1. Adobe Experience Cloud에서 조직을 클릭합니다.
+
+   ![](assets/organizations-menu.png)
+
+   관리자가 오른쪽 [organization](admin-getting-started/organizations.md)에 있는지 확인하는 데 도움을 줄 수 있습니다.
+
+## Experience Cloud 응용 프로그램 액세스 {#navigation}
 
 Experience Cloud에 로그인한 후 통합 헤더에서 모든 애플리케이션, 서비스 및 조직에 빠르게 액세스할 수 있습니다.
 
@@ -29,7 +41,7 @@ Experience Cloud에 로그인한 후 통합 헤더에서 모든 애플리케이�
 
 ![](assets/platform-core-services.png)
 
-## ![](assets/help-icon.png) Experience Cloud에서 검색 및 지원 {#search}
+## Experience Cloud에서 검색 및 지원 {#search}
 
 Experience Cloud 검색을 사용하면 [Experience League](https://experienceleague.adobe.com/?lang=ko-KR/#home)에서 도움말(설명서, 자습서 및 강좌)을 검색할 수 있습니다. 세그먼트, 데이터 세트, 스키마 등의 비즈니스 객체를 검색할 수도 있습니다.
 
@@ -46,7 +58,7 @@ Experience Cloud 검색을 사용하면 [Experience League](https://experiencele
 * **[!UICONTROL 상태]:**  제품  `https://status.adobe.com/experience_cloud` 작동 상태 및 구독  [!UICONTROL 관리]로 이동하여 확인합니다.
 * **[!UICONTROL Developer Connection]:** 개발자 설명서 `adobe.io` 를 탐색하고 찾습니다.
 
-## ![](assets/preferences-icon.png) 계정 환경 설정  {#account-menu}
+## 계정 환경 설정 {#account-menu}
 
 계정 환경 설정 메뉴에서 다음 작업을 수행할 수 있습니다.
 
@@ -73,6 +85,10 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 | [!UICONTROL 경고] | 브라우저에 표시되는 경고를 보려는 알림을 선택합니다. 경고는 창의 오른쪽 상단 모서리에 몇 초 동안 표시됩니다. |
 | 이메일 | 알림 이메일을 받을 빈도를 지정합니다. (전송되지 않음, 인스턴트, 일별 또는 주별) |
 
-## ![](assets/notifications.png) 알림 및 공지
+## 알림 및 공지
 
-**** 알림 및  **[!UICONTROL 공지]:** 본인에게 중요한 알림과 Adobe의 알림을 참조하십시오. [Experience Cloud 환경 설정](#preferences)에서 알림을 구성할 수 있습니다.
+사용자에게 중요한 알림과 Adobe의 알림을 보려면 **[!UICONTROL 알림]**&#x200B;을 클릭하십시오.
+
+![](assets/notifications-menu-small.png)
+
+[Experience Cloud 환경 설정](#preferences)에서 알림을 구성할 수 있습니다.
