@@ -5,7 +5,7 @@ breadcrumb-title: Experience Cloud 서비스 및 관리
 user-guide-description: Adobe Experience Cloud에서 사용자 및 제품을 관리하는 방법, 고객 특성 및 대상자 라이브러리 서비스를 사용하는 방법을 알아봅니다. 쿠키 및 Experience Cloud 자산에 대해서도 알아봅니다.
 user-guide-url: https://www.adobe.com
 index: true
-source-git-commit: c3ce6e07c17e126cd2becdf65c40ccbe9398f012
+source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 98%
@@ -17,6 +17,7 @@ ht-degree: 98%
 
 + [Experience Cloud 서비스 및 관리](experience-cloud.md)
 + [Experience Cloud 중앙 인터페이스 구성 요소](experience-cloud-interface.md)
+   + [로그인 및 프로필 설정 관리](admin-getting-started/getting-started-experience-cloud.md)
 + Experience Cloud 서비스 {#about-core-services}
    + [Experience Cloud 서비스 개요](core-services-landing.md)
    + [솔루션 간 서비스 구현 활성화](core-services/core-services.md)
@@ -41,7 +42,7 @@ ht-degree: 98%
    + [Experience Cloud 사용자 ID 및 제품 관리(Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Experience Cloud 사용자 세부 사항 보기(관리 도구)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Experience Cloud 핵심 서비스에 대한](admin-getting-started/faq.md)
-   + [로그인 및 프로필 설정 관리](admin-getting-started/getting-started-experience-cloud.md)
+
    + [조직 및 계정 연결](admin-getting-started/organizations.md)
    + [Analytics Premium 및 Experience Cloud로 업그레이드](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud 활성화 {#activation}
