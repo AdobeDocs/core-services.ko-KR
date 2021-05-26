@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud 서비스 및 관리
 user-guide-description: Adobe Experience Cloud에서 사용자 및 제품을 관리하는 방법, 고객 특성 및 대상자 라이브러리 서비스를 사용하는 방법을 알아봅니다. 쿠키 및 Experience Cloud 자산에 대해서도 알아봅니다.
 user-guide-url: https://www.adobe.com
 index: true
-source-git-commit: 35072268615b7a657cdabacfe7dbcd5fd3ffc81f
+source-git-commit: c30f510951e01abd5ec06822547b3048ea32a3c2
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,6 @@ ht-degree: 100%
    + [Experience Cloud 사용자 ID 및 제품 관리(Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Experience Cloud 사용자 세부 사항 보기(관리 도구)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Experience Cloud 핵심 서비스에 대한](admin-getting-started/faq.md)
-
    + [조직 및 계정 연결](admin-getting-started/organizations.md)
    + [Analytics Premium 및 Experience Cloud로 업그레이드](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud 활성화 {#activation}
