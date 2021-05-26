@@ -5,17 +5,16 @@ solution: Experience Cloud
 title: '로그인 및 Experience Cloud 프로필 설정 관리 '
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
-topic: Administration
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '949'
-ht-degree: 100%
+exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 99%
 
 ---
-
 
 # 로그인 및 Experience Cloud 프로필 설정 관리
 
@@ -51,7 +50,7 @@ ht-degree: 100%
 Experience Cloud에 로그인하는 관리자 이외의 사용자를 위한 도움말입니다.
 
 
-1. [조직](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF)이 Experience Cloud에서 프로비저닝되었는지 관리자에게 확인합니다.
+1. [조직](../admin-getting-started/organizations.md)이 Experience Cloud에서 프로비저닝되었는지 관리자에게 확인합니다.
 
 
 1. [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]) 로 이동합니다.
@@ -115,9 +114,9 @@ Experience Cloud에 로그인한 후 개인 세부 사항을 편집하고, 표�
 
 Experience Cloud 프로필을 편집하고 기본 조직 및 랜딩 페이지 등을 지정할 수 있습니다.
 
-1. [Experience Cloud에 로그인](../admin-getting-started/getting-started-experience-cloud.md#task_1BFE87E20DCB44078CAC82F3CD44B985).
+1. Experience Cloud에 로그인.
 
-1. Experience Cloud 메뉴에서 프로필 사진을 클릭합니다.
+1. Experience Cloud에서 프로필 사진을 클릭합니다.
 
    ![](assets/edit-profile.png)
 1. **[!UICONTROL 프로필 편집]**&#x200B;을 클릭합니다.
