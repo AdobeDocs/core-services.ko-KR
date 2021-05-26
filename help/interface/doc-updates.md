@@ -4,22 +4,25 @@ keywords: Experience Cloud 서비스
 solution: Experience Cloud
 title: 설명서 업데이트
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: Customer Attributes
-topic: Administration
+feature: 고객 속성
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 25c9bb8908ca4df0997aa5bcb8a3039e8207ac29
+exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 93%
 
 ---
-
 
 # 설명서 업데이트 - Experience Cloud
 
 Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
+
+**업데이트됨:5/26/2021**
+
+Experience Cloud, 전역 검색, 환경 설정 및 알림에 액세스하는 데 도움이 되도록 [Experience Cloud 인터페이스](experience-cloud-interface.md)를 추가했습니다.
 
 **업데이트 날짜: 2020/8/19**
 
@@ -55,10 +58,6 @@ Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 **업데이트 날짜: 2018년 6월 6일**
 
 컨텐츠 및 화면에 대한 일반 업데이트.
-
-**업데이트 날짜: 2018년 2월 6일**
-
-[Experience Cloud 사용자 및 제품 관리](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)를 업데이트했습니다.
 
 **업데이트 날짜: 2018년 1월 17일**
 
@@ -105,7 +104,3 @@ Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 대상을 위한 설명서가 추가되었습니다.
 
 [대상](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)을 참조하십시오
-
-**업데이트 날짜: 2014년 5월 22일**
-
-Experience Cloud에서 관리자가 되는 방법에 대한 자세한 내용은 [Experience Cloud 사용자 및 제품 관리](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)를 업데이트했습니다.
