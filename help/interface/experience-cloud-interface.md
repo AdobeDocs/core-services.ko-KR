@@ -6,10 +6,10 @@ feature: '"중앙 인터페이스 구성 요소"'
 topic: 관리
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 46198d6fb4a940e9323b65ddd5105c74e01b879e
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 6%
+source-wordcount: '434'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ Experience Cloud의 중앙 인터페이스 구성 요소에는 다음과 같은 
 
 로그인한 다음 올바른 [조직](admin-getting-started/organizations.md)에 속해 있는지 확인하십시오.
 
-1. [Adobe Experience Cloud](https://experiencecloud.adobe.com/exc-content/login.html)로 이동합니다.
+1. [Adobe Experience Cloud](https://experience.adobe.com)로 이동합니다.
 1. **[!UICONTROL Adobe ID]**&#x200B;로 로그인합니다.
 1. Adobe Experience Cloud에서 조직을 클릭합니다.
 
