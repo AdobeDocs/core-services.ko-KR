@@ -4,18 +4,17 @@ keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: '타사 쿠키 지원 변경이 고객에게 미치는 영향 '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-feature: Cookies
-topic: Administration
+feature: 쿠키
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '301'
-ht-degree: 100%
+exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
+source-git-commit: ef6196c3096ac7b26633eb4b1b9b2db26237732a
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 84%
 
 ---
-
 
 # 타사 쿠키 지원 변경 방법이 고객에게 미치는 영향{#how-changes-to-third-party-cookie-support-impacts-customers}
 
@@ -25,8 +24,7 @@ ht-degree: 100%
 
 ## Adobe Analytics 및 Adobe Target
 
-* [자사 구현](/help/interface/cookies/cookies-first-party.md)을 사용하는 고객은 크게 영향을 받지 않습니다.
-* 자사 구현을 사용하지 않는 고객은 [Experience Platform ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/implementation/implementation-guides.html)를 구현하여 자사 구현 없이 ID 쿠키를 자사 쿠키로 저장할 수 있습니다.
+* 동일한 사이트 활동은 자사 쿠키에만 의존하므로 Analytics 및 Target은 크게 영향을 받지 않습니다. 도메인 간 사용자 활동을 이해하려면 타사 쿠키가 필요합니다. 타사 쿠키가 차단된 브라우저의 경우 쿠키를 사용하여 도메인 간 추적을 수행할 수 없습니다.
 
 ## Adobe Experience Manager
 
@@ -49,8 +47,3 @@ ht-degree: 100%
    * 디스플레이는 또한 동기화를 위한 다양한 광고 네트워크 쿠키의 가용성에 크게 의존합니다.
    * 전체적인 영향은 알려지지 않았습니다. 그러나 디스플레이는 다른 서비스보다 영향을 더 많이 받습니다.
    * Adobe는 내부적으로 광고 파트너와 협력하여 광고 게재에 대한 영향을 최대한 평가하고 있습니다.
-
-* Social:
-
-   * Facebook 마켓플레이스 광고에는 아무런 영향이 없습니다.
-   * FBX(Facebook Exchange)는 디스플레이 광고 게재와 동일한 영향을 받습니다.
