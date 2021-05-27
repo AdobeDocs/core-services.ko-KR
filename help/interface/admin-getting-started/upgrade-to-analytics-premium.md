@@ -3,19 +3,18 @@ description: Analytics Premium으로 업그레이드할 때의 요구 사항과 
 keywords: Adobe Analytics Premium 업그레이드
 solution: Experience Cloud
 title: 'Analytics Premium 및 Experience Cloud로 업그레이드 '
-topic: Administration
+topic: 관리
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '636'
+exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+workflow-type: tm+mt
+source-wordcount: '634'
 ht-degree: 100%
 
 ---
-
 
 # Analytics Premium 및 Experience Cloud로 업그레이드
 
@@ -55,7 +54,7 @@ Predictive Intelligence로 업그레이드하면 [Analytics Premium](../admin-ge
 
 | 제품 | 업그레이드 |
 |---|---|
-| Reports &amp; Analytics | [기여도 분석](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports &amp; Analytics | [기여도 분석](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | 대상 자격 조건 및 예측 마케팅을 위해 사전 빌드된 작업 공간. |
 | Analytics Platform | 라이브 스트림(대시보드 및 트리거) |
 
@@ -85,7 +84,7 @@ TechOps에서는 계약 약속을 검토하고 적절한 관리 인프라의 용
 
 [시작하기 - 핵심 서비스용 솔루션을 사용하도록 설정](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)에 설명된 구현 현대화에 따를 경우 Analytics Standard 및 Premium 사용자는 Experience Cloud와 핵심 서비스를 이용할 수 있습니다. (해당 프로세스는 구현을 현대화하는 데 도움이 되며, Experience Cloud에서 관리자가 될 수 있도록 해줍니다.)
 
-Experience Cloud에 참여하면 [!DNL experiencecloud.adobe.com]의 Experience Cloud를 통해 로그인하고 핵심 서비스(고객 속성, 대상 및 모바일 앱 분석 등)를 사용할 수 있습니다.
+Experience Cloud에 참여하면 [!DNL experience.adobe.com]의 Experience Cloud를 통해 로그인하고 핵심 서비스(고객 속성, 대상 및 모바일 앱 분석 등)를 사용할 수 있습니다.
 
 ### 사용자 및 그룹 관리
 
