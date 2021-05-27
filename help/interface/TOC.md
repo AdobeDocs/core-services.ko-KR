@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud 서비스 및 관리
 user-guide-description: Adobe Experience Cloud에서 사용자 및 제품을 관리하는 방법, 고객 특성 및 대상자 라이브러리 서비스를 사용하는 방법을 알아봅니다. 쿠키 및 Experience Cloud 자산에 대해서도 알아봅니다.
 user-guide-url: https://www.adobe.com
 index: true
-source-git-commit: c30f510951e01abd5ec06822547b3048ea32a3c2
+source-git-commit: 6744ddeeaad42054497230e1214033f36746b8e3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '377'
+ht-degree: 100%
 
 ---
 
@@ -81,4 +81,3 @@ ht-degree: 0%
    + [용어](terms.md)
    + [다양한 솔루션 및 서비스에서 DNS 프리페치 사용](dns-prefetch.md)
    + [설명서 업데이트](doc-updates.md)
-
