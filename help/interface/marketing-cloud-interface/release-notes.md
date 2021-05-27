@@ -9,7 +9,7 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
 source-wordcount: '4111'
 ht-degree: 96%
@@ -395,7 +395,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 
 **수정 사항 및 향상된 기능**
 
-* 이제 [!DNL experiencecloud.adobe.com]으로 이동하면, 로그인 경험이 Adobe의 Creative Cloud 로그인과 같습니다.
+* 이제 [!DNL experience.adobe.com]으로 이동하면, 로그인 경험이 Adobe의 Creative Cloud 로그인과 같습니다.
 * 조직 관리 페이지에서 이제 각 솔루션에 대해 연결 환경이 일관되게 제공됩니다(초대가 수신된 후).
 
 **알려진 문제**
