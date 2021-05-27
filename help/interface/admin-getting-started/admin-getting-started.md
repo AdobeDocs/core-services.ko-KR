@@ -8,10 +8,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+source-git-commit: dc1d672c352396f919c239bf44e2162ff1deafb6
 workflow-type: tm+mt
 source-wordcount: '1415'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -81,7 +81,7 @@ Analytics 사용자 ID 마이그레이션 도구는 Analytics 관리자가 Analy
 
 계정 마이그레이션이 단계적으로 고객에게 배포되고 있습니다. Adobe에서는 기존 사용자 계정을 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에서 Admin Console로 마이그레이션할 때 사용자에게 알리고 지원합니다.
 
-마이그레이션 후 사용자는 Adobe ID(또는 Enterprise ID)를 사용하여 로그인하고 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에서 해당 Experience Cloud 솔루션 및 서비스를 인증합니다. 사용자가 이전 계정([!DNL my.omniture.com] 및 [!DNL sc.omniture.com])을 통해 로그인하려고 하면 [!DNL experiencecloud.adobe.com]으로 리디렉션됩니다.
+마이그레이션 후 사용자는 Adobe ID(또는 Enterprise ID)을 사용하여 로그인하고 [experience.adobe.com](https://experience.adobe.com)에서 해당 Experience Cloud 솔루션 및 서비스를 인증합니다. 사용자가 이전 계정([!DNL my.omniture.com], [!DNL sc.omniture.com] 및 [!DNL experiencecloud.adobe.com])을 통해 로그인하려고 하면 [!DNL experience.adobe.com](으)로 리디렉션됩니다.
 
 **관련 도움말**
 
