@@ -9,7 +9,7 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 99%
@@ -53,7 +53,7 @@ Experience Cloud에 로그인하는 관리자 이외의 사용자를 위한 도�
 1. [조직](../admin-getting-started/organizations.md)이 Experience Cloud에서 프로비저닝되었는지 관리자에게 확인합니다.
 
 
-1. [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]) 로 이동합니다.
+1. [Adobe Experience Cloud](https://experience.adobe.com) ([!DNL experience.adobe.com]) 로 이동합니다.
 1. **[!UICONTROL Adobe ID로 로그인]**&#x200B;을 클릭합니다.
 
    Experience Cloud 관리자가 계정 유형(Adobe ID 또는 Enterprise ID)을 확인하는 데 도움을 줄 수 있습니다.
@@ -138,11 +138,11 @@ Experience Cloud 프로필을 편집하고 기본 조직 및 랜딩 페이지 �
 
 ### URL 템플릿
 
-`https://<tenantId>.experiencecloud.adobe.com/<solutionname>?destURL=<fullURL>`
+`https://experience.adobe.com/#/@<tenantId>/<solutionname>?destURL=<fullURL>`
 
 샘플 URL:
 
-`https://aem62tenant.experiencecloud.adobe.com/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
+`https://experience.adobe.com/#/@aem62tenant/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
 
 >[!NOTE]
 >
