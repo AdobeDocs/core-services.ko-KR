@@ -4,18 +4,17 @@ keywords: 핵심 서비스, 고객 속성
 solution: Experience Cloud
 title: 교차 솔루션 서비스용 솔루션을 사용하도록 설정
 index: true
-feature: Customer Attributes
-topic: Administration
+feature: 고객 속성
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
-workflow-type: ht
-source-wordcount: '2369'
-ht-degree: 100%
+exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+workflow-type: tm+mt
+source-wordcount: '2368'
+ht-degree: 98%
 
 ---
-
 
 # Experience Cloud 서비스에 대한 구현 활성화
 
@@ -54,9 +53,9 @@ Experience Cloud에 참여하기 위해 수행할 작업:
 
 ### 관리자 로그인
 
-관리자가 되면 [marketing.adobe.com](https://experiencecloud.adobe.com)에 로그인할 수 있습니다.
+관리자가 되면 [experience.adobe.com](https://experience.adobe.com)에 로그인할 수 있습니다.
 
-Experience Cloud 메뉴 탐색에 **[!UICONTROL 관리]** 링크가 표시됩니다.
+Experience Cloud 메뉴 탐색에 **[!UICONTROL Admin Console]** 링크가 표시됩니다.
 
 자세한 내용은 [Experience Cloud 사용자 및 제품 관리](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)를 참조하십시오.
 
@@ -65,7 +64,7 @@ Experience Cloud 메뉴 탐색에 **[!UICONTROL 관리]** 링크가 표시됩니
 Experience Cloud에 로그인하려면 귀하의 사용자는
 
 * Adobe ID(또는 회사의 Enterprise ID)가 있어야 합니다.
-* [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에서 로그인합니다.
+* [experience.adobe.com](https://experience.adobe.com)에 로그인합니다.
 * 엔터프라이즈 그룹에 매핑된 솔루션 그룹에 속합니다.
 * 필요한 경우 솔루션 계정을 Adobe ID에 연결합니다(아래에 설명).
 
@@ -103,7 +102,7 @@ Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 
 
 ### Analytics 및 Adobe Target - 고객 ID 동기화 {#section_AD473A6A21C1446498E700363F9A8437}
 
-Experience Cloud ID 서비스 설정의 일부로, Analytics 및 [!DNL Target]에 대해 [고객 ID](https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/authenticated-state.html)를 Experience Cloud와 동기화하는 것이 좋습니다.
+Experience Cloud ID 서비스 설정의 일부로, Analytics 및 [!DNL Target]에 대해 [고객 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)를 Experience Cloud와 동기화하는 것이 좋습니다.
 
 Adobe Target에서 `mbox3rdpartyid`는 고객 ID를 가져와서 [!DNL Target]에 보내야 합니다. ([!DNL Target]에서 [고객 속성 사용](https://docs.adobe.com/content/help/ko-KR/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)을 참조하십시오.)
 
@@ -233,4 +232,4 @@ Adobe [!DNL Experience Cloud] 내의 실시간 대상 프로파일링 및 기타
 
 지침이 필요하면 [Adobe Experience Cloud - Adobe 옵트 아웃 구현](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/data-collection/opt-out.html)을 참조하십시오.
 
-도메인 간 추적을 사용하려면 [데이터 수집 CNAME 및 도메인 간 추적](https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/analytics-reference/cname.html)을 참조하십시오.
+도메인 간 추적을 사용하려면 [데이터 수집 CNAME 및 도메인 간 추적](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)을 참조하십시오.
