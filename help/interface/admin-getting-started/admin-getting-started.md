@@ -8,10 +8,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: c32cc6783b53cc6e57bba0810a49038561ac9dcd
+source-git-commit: 2f315b2daa4e9d73b0adb1cf75fd7ff2417fd0c2
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 46%
+source-wordcount: '1276'
+ht-degree: 47%
 
 ---
 
@@ -111,15 +111,15 @@ Analytics 보고서 액세스 권한(보고서 세트, 지표, 차원 등)을 �
 | 보고서 세트 도구 | 웹 서비스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항목에 대한 사용자 권한을 활성화합니다. |
 | Analytics 도구 | 일반 항목(청구, 로그 등), 회사 관리, 도구, 웹 서비스 액세스, Report Builder 및 Data Connectors 통합에 대한 사용자 권한을 활성화합니다. 관리 콘솔 사용자 지정 카테고리의 회사 설정이 Analytics 도구로 이동되었습니다. |
 
-<!-- **User Account Migration**
+**사용자 계정 마이그레이션**
 
-An Analytics user ID migration tool is available to help Analytics administrators migrate user accounts from Analytics User Management to the [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
+Analytics 사용자 ID 마이그레이션 도구는 Analytics 관리자가 Analytics 사용자 관리에서 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/)로 사용자 계정을 마이그레이션하도록 지원하는 데 사용할 수 있습니다.
 
-The account migration is being rolled out to customers in phases. Adobe will notify and assist you when it is your time to migrate existing user accounts from **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** to the Admin Console.
+계정 마이그레이션이 단계적으로 고객에게 배포되고 있습니다. Adobe에서는 기존 사용자 계정을 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에서 Admin Console로 마이그레이션할 때 사용자에게 알리고 지원합니다.
 
-After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experience.adobe.com](https://experience.adobe.com). If users attempt to sign in via legacy logins ([!DNL my.omniture.com], [!DNL sc.omniture.com] and [!DNL experiencecloud.adobe.com]) they are redirected to [!DNL experience.adobe.com].
+마이그레이션 후 사용자는 Adobe ID(또는 Enterprise ID)을 사용하여 로그인하고 [experience.adobe.com](https://experience.adobe.com)에서 해당 Experience Cloud 솔루션 및 서비스를 인증합니다. 사용자가 이전 계정([!DNL my.omniture.com], [!DNL sc.omniture.com] 및 [!DNL experiencecloud.adobe.com])을 통해 로그인하려고 하면 [!DNL experience.adobe.com](으)로 리디렉션됩니다.
 
-**Related help**  -->
+**관련 도움말**
 
 자세한 내용은 [Analytics 사용자 ID 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)을 참조하십시오.
 
@@ -151,9 +151,9 @@ Admin Console의 사용자 권한 및 프로필에 권한 지정을 포함하여
 
 ## Experience Manager as a Cloud Service
 
-Adobe Enterprise 고객은 Adobe [!UICONTROL Admin Console]에서 조직으로 표시됩니다. AEM(Experience Manager) 고객은 Adobe [!UICONTROL Admin Console]을 사용하여 Experience Manager에 대한 제품 권한 및 IMS 인증을 [!UICONTROL Cloud Service]로 관리할 수 있습니다.
+Adobe Enterprise 고객은 Adobe [!UICONTROL Admin Console]에서 조직으로 표시됩니다. Experience Manager 고객은 Adobe [!UICONTROL Admin Console]을 사용하여 제품 권한 및 IMS 인증을 관리하여 [!UICONTROL Cloud Service]로 Experience Manager할 수 있습니다.
 
-[AEM as a Cloud Service를 위한 IMS 지원](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en)을 참조하십시오.
+Experience Manager을 Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en)으로 지원하기 위해 [IMS 지원을 참조하십시오.
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
