@@ -4,22 +4,21 @@ keywords: 핵심 서비스
 solution: Experience Cloud
 title: '대상자 만들기 '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-feature: Audience Library
-topic: Administration
+feature: 대상 라이브러리
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '479'
-ht-degree: 100%
+exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 94%
 
 ---
 
-
 # 대상자 만들기
 
-특성 규칙을 사용하여 Experience Cloud에서 대상을 만들고 복합 대상을 정의하는 방법을 알아봅니다.
+특성 규칙을 사용하여 Experience Cloud에서 대상자를 만들고 복합 대상자를 정의하는 방법을 알아봅니다.
 
 이 문서는 다음 방법을 이해하는 데 도움이 됩니다.
 
@@ -52,7 +51,7 @@ ht-degree: 100%
 1. [!UICONTROL 새 대상 만들기] 페이지에서 제목 및 설명을 지정합니다.
 1. [!UICONTROL 규칙]에서 다음과 같은 속성 소스를 선택합니다. 
 
-   * **[!UICONTROL 실시간 Analytics 데이터:]** (또는 원시 데이터) 실시간 Analytics 이미지 요청에서 파생된 특성 데이터이며, eVars 및 이벤트와 같은 데이터를 포함합니다. 이 특성 소스를 사용할 때 보고서 세트를 선택하고 포함할 차원 또는 이벤트를 정의해야 합니다. 이 보고서 세트 선택 옵션은 보고서 세트에 사용되는 변수 구조를 제공합니다.
+   * **[!UICONTROL Real-Time Analytics 데이터:]**  (또는 원시 데이터) Real-Time Analytics 이미지 요청에서 파생된 특성 데이터이며, eVar 및 이벤트와 같은 데이터를 포함합니다. 이 특성 소스를 사용할 때 보고서 세트를 선택하고 포함할 차원 또는 이벤트를 정의해야 합니다. 이 보고서 세트 선택 옵션은 보고서 세트에 사용되는 변수 구조를 제공합니다.
    >[!NOTE]
    >
    >캐싱으로 인해, Analytics에서 삭제된 보고서 세트는 삭제가 Experience Cloud에 표시되는 데 12시간이 필요합니다.
