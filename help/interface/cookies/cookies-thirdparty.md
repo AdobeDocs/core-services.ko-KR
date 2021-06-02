@@ -9,22 +9,22 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-source-git-commit: ef6196c3096ac7b26633eb4b1b9b2db26237732a
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 84%
+source-wordcount: '267'
+ht-degree: 59%
 
 ---
 
 # 타사 쿠키 지원 변경 방법이 고객에게 미치는 영향{#how-changes-to-third-party-cookie-support-impacts-customers}
 
-타사 쿠키에 대한 지원이 브라우저 간에 점점 더 많이 제한됨에 따라 Adobe는 고객 요구 사항과 Adobe Experience Cloud 솔루션 전반에 걸친 소비자의 개인 정보 보호 권리 간에 신중하게 균형을 잡는 새로운 솔루션을 개발해왔습니다.
+타사 쿠키에 대한 지원이 브라우저 간에 더 제한되었습니다. 이와 같이 Adobe은 고객 요구 사항과 Experience Cloud 애플리케이션 간의 개인 정보 보호 권리 간에 신중하게 균형을 잡는 새로운 솔루션을 개발해왔습니다.
 
-다음 목록은 타사 쿠키 지원이 Adobe Experience Cloud 솔루션의 현재 구현에 미치는 영향을 설명합니다.
+다음 목록은 타사 쿠키 지원이 Experience Cloud 애플리케이션의 현재 구현에 미치는 영향을 설명합니다.
 
 ## Adobe Analytics 및 Adobe Target
 
-* 동일한 사이트 활동은 자사 쿠키에만 의존하므로 Analytics 및 Target은 크게 영향을 받지 않습니다. 도메인 간 사용자 활동을 이해하려면 타사 쿠키가 필요합니다. 타사 쿠키가 차단된 브라우저의 경우 쿠키를 사용하여 도메인 간 추적을 수행할 수 없습니다.
+* 동일한 사이트 활동은 자사 쿠키에만 의존하므로 분석 및 Target은 크게 영향을 받지 않습니다. 도메인 간 사용자 활동을 이해하려면 타사 쿠키가 필요합니다. 타사 쿠키가 차단된 브라우저의 경우 쿠키를 사용하여 도메인 간 추적을 수행할 수 없습니다.
 
 ## Adobe Experience Manager
 
@@ -46,4 +46,4 @@ ht-degree: 84%
    * 오늘 날 디스플레이 리마케팅은 전적으로 타사 쿠키 사용에 의존합니다.
    * 디스플레이는 또한 동기화를 위한 다양한 광고 네트워크 쿠키의 가용성에 크게 의존합니다.
    * 전체적인 영향은 알려지지 않았습니다. 그러나 디스플레이는 다른 서비스보다 영향을 더 많이 받습니다.
-   * Adobe는 내부적으로 광고 파트너와 협력하여 광고 게재에 대한 영향을 최대한 평가하고 있습니다.
+   * Adobe은 내부적으로 광고 파트너와 협력하여 광고 게재에 대한 영향을 최대한 평가하고 있습니다.
