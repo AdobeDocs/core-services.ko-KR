@@ -4,10 +4,10 @@ user-guide-title: 'Experience Cloud 중앙 인터페이스 구성 요소 '
 breadcrumb-title: Experience Cloud 중앙 인터페이스 구성 요소
 user-guide-description: Experience Cloud의 인터페이스에 대해 알아보고, 환경 설정을 구성하고, 도움말 및 비즈니스 개체를 검색합니다. 사용자 및 제품 관리, 고객 속성, 대상 라이브러리, 쿠키 및 Experience Cloud 자산에 대한 지원을 받습니다.
 index: true
-source-git-commit: 9a1dea42b5ae6ab4ea822d56c14cdb330bb8ef95
+source-git-commit: 51137ed0eb8cced37cc5779ca327a33ebf30e65a
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 86%
+source-wordcount: '370'
+ht-degree: 77%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 86%
    + [[!DNL Search and Promote] 쿠키](cookies/cookies-snp.md)
    + [[!DNL Target] 쿠키](cookies/cookies-target.md)
    + [브라우저 쿠키에 대한 개인 정보 설정 활성화](cookies/browser-cookie-settings.md)
-   + [서드파티 쿠키 지원 변경으로 인한 고객 영향](cookies/cookies-thirdparty.md)
+   + [타사 쿠키 지원 변경 방법이 고객에게 미치는 영향](cookies/cookies-thirdparty.md)
 + 사용자 및 제품 관리 {#manage-users-and-products}
    + [Experience Cloud 사용자 ID 및 제품 관리(Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Experience Cloud 사용자 세부 사항 보기(관리 도구)](admin-getting-started/admin-tool-experience-cloud.md)
@@ -43,8 +43,8 @@ ht-degree: 86%
    + [Analytics Premium 및 Experience Cloud로 업그레이드](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud 활성화 {#activation}
    + [활성화 개요](activation/activation.md)
-   + [Experience Platform Launch 사용 안내서](https://docs.adobe.com/content/help/ko-KR/launch/using/overview.html)
-   + [Dynamic Tag Manager 사용 안내서](https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html)
+   + [Experience Platform Launch 사용 안내서](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=en)
+   + [Dynamic Tag Manager 사용 안내서](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
    + [Triggers](activation/triggers.md)
 + Experience Cloud 에셋 {#assets}
    + [Experience Cloud 에셋 개요](experience-cloud-assets/experience-cloud-assets.md)
@@ -72,10 +72,10 @@ ht-degree: 86%
    + [캘리포니아 소비자 개인정보 보호법 지원](attributes/ccpa.md)
    + [고객 속성에 대한 개인정보 보호 고려 사항](attributes/privacy-mac.md)
 + Experience Cloud 릴리스 정보 {#release-notes}
-   + [Experience Cloud의 새로운 기능](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)
+   + [Experience Cloud의 새로운 기능](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
    + [누적 릴리스 노트](marketing-cloud-interface/release-notes.md)
 + 추가 리소스 {#more-resources}
-   + [포럼](https://forums.adobe.com/community/experience-cloud)
+   + [포럼](https://experienceleaguecommunities.adobe.com/)
    + [용어](terms.md)
    + [다양한 솔루션 및 서비스에서 DNS 프리페치 사용](dns-prefetch.md)
    + [설명서 업데이트](doc-updates.md)
