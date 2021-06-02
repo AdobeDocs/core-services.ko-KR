@@ -5,17 +5,16 @@ solution: Experience Cloud
 title: '조직 및 계정 연결 '
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Admin Console
-topic: Administration
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '394'
+exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '392'
 ht-degree: 100%
 
 ---
-
 
 # 조직 및 계정 연결
 
@@ -73,5 +72,5 @@ ht-degree: 100%
 
 일반적으로, 계정 연결은 Adobe ID가 이전 사용자에게 연결되어 있어서 실패합니다. 계정 연결에 실패하면,
 
-* [Adobe 지원에 문의하십시오](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html).
+* [Adobe 지원에 문의하십시오](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html).
 * 문제가 해결되는 동안 여전히 표준 로그인을 사용하여 솔루션에 액세스할 수 있습니다.
