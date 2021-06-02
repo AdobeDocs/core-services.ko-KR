@@ -4,24 +4,23 @@ keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Analytics 쿠키 '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-feature: Cookies
-topic: Administration
+feature: 쿠키
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '759'
-ht-degree: 100%
+exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 84%
 
 ---
-
 
 # Analytics 쿠키{#analytics-cookies}
 
 Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청을 구분하고 응용 프로그램이 나중에 사용할 수 있도록 유용한 정보를 저장합니다. 또한 탐색 정보를 고객 레코드와 연결하는 데 사용할 수도 있습니다.
 
-특히 Analytics는 쿠키를 사용하여 새 방문자를 익명으로 정의하고 클릭스트림 데이터를 분석하며 특정 캠페인이나 구매 주기 길이에 대한 응답 같은 웹 사이트의 활동 내역을 추적합니다.
+Analytics는 쿠키를 사용하여 새 방문자를 익명으로 정의하고 클릭스트림 데이터를 분석하며 특정 캠페인이나 구매 주기 길이에 대한 응답 같은 웹 사이트의 활동 내역을 추적합니다.
 
 * [쿠키 이름: s_ecid](../cookies/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [쿠키 이름: AMCV_###@AdobeOrg](../cookies/cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
@@ -102,10 +101,10 @@ Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청�
 
 >[!NOTE]
 >
->하나의 CNAME을 사용하여 여러 도메인 또는 속성에서 추적하는 경우 `s_vi`에 대해서는 SameSite를 &quot;없음&quot;으로 설정해야 합니다. Analytics 쿠키 설정을 변경하는 데 도움이 필요하면 고객 지원 센터에 문의하십시오.
+>하나의 CNAME을 사용하여 여러 도메인 또는 속성에서 추적하는 경우 `s_vi`에 대해서는 SameSite를 &quot;없음&quot;으로 설정해야 합니다. Analytics 쿠키 설정 변경에 대한 도움말은 고객 지원 센터에 문의하십시오.
 
 ## 플러그인으로 설정된 쿠키 {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
 추가적인 쿠키는 Analytics 플러그인 사용에 따라 설정할 수 있습니다. 이러한 쿠키는 클라이언트가 다양한 상황에서 사용할 수 있는 코드 조각입니다. 이러한 상황들로는 URL에서 값 검색, Analytics에 전달할 값 연결, 양식 포기 캡처 등이 있습니다. 각 플러그인에 의해 설정된 쿠키의 특성에 대해 알아보려면 ClientCare에 문의하십시오. 예로는 [!DNL s_vh]Set Once Per *및* Set and Get Last Value *플러그인과 함께 사용되는* 쿠키가 있습니다.
 
-이메일 내에 배치된 코드와 같이 JavaScript 없이 이미지 요청에 전달된 전환 변수(eVarX)는 이메일 클라이언트와 웹 브라우저가 동일한 쿠키 공간을 공유하는 경우에만 올바르게 분류됩니다.
+이메일 내에 배치된 코드와 같이 JavaScript 없이 이미지 요청에 전달된 전환 변수(eVarX)는 이메일 클라이언트와 웹 브라우저가 쿠키 공간을 공유하는 경우에만 올바르게 분류됩니다.
