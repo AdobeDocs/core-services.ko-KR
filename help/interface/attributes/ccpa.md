@@ -1,18 +1,17 @@
 ---
 title: '캘리포니아 소비자 개인 정보 보호법을 위한 고객 속성 지원 '
 description: 캘리포니아 소비자 개인 정보 보호법을 위한 고객 특성 지원에 대해 알아보기
-feature: Customer Attributes
-topic: Administration
+feature: 고객 속성
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '440'
-ht-degree: 100%
+exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
+source-git-commit: b968ca3a2751ab9af27e86595447f84f3cb20d68
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 66%
 
 ---
-
 
 # 캘리포니아 소비자 개인 정보 보호법을 위한 고객 속성 지원
 
@@ -24,9 +23,9 @@ ht-degree: 100%
 
 CCPA는 2020년 1월 1일에 발효되는 캘리포니아 주의 새로운 개인 정보 보호법입니다. CCPA는 캘리포니아 주민에게 개인 정보에 대한 새로운 권리를 제공하고 캘리포니아에서 사업을 하는 특정 업체들에 데이터 보호 책임을 부과합니다. CCPA는 소비자에게 개인 정보를 액세스하고 삭제할 수 있는 권한과 제3자에게 &quot;개인 정보 판매&quot;의 자격이 되는 특정 활동을 거부할 수 있는 권한을 제공합니다.
 
-기업은 Adobe Experience Cloud가 기업을 대신하여 처리하고 저장하는 개인 데이터를 결정합니다.
+기업은 Adobe Experience Cloud이 귀하를 대신하여 처리하고 저장하는 개인 데이터를 결정합니다.
 
-Adobe Experience Cloud는 서비스 제공업체로서, 개인 정보에 액세스하거나 삭제하기 위한 요청을 관리하는 것을 비롯하여 Experience Cloud 제품 및 서비스 사용에 적용되는 CPA에 따른 책임을 이행하도록 비즈니스를 지원합니다.
+Adobe Experience Cloud은 서비스 제공업체로서 Experience Cloud 제품 및 서비스 사용에 적용되는 CCPA에 따른 책임을 이행하도록 비즈니스를 지원합니다. 이 지원에는 개인 정보에 액세스하고 삭제하는 요청을 관리하는 작업이 포함됩니다.
 
 이 문서에서는 [!UICONTROL 고객 속성]이 Adobe Experience Platform Privacy Service API 및 Privacy Service UI를 사용하여 데이터 주체의 CPA 데이터 액세스 및 삭제 권한을 지원하는 방법에 대해 설명합니다.
 
