@@ -5,17 +5,16 @@ solution: Experience Cloud
 title: 'Experience Cloud FAQ '
 index: true
 feature: Admin Console
-topic: Administration
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '782'
-ht-degree: 100%
+exl-id: 062576da-328e-4b46-9e71-5a25733d607a
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 86%
 
 ---
-
 
 # Experience Cloud FAQ
 
@@ -23,7 +22,7 @@ Experience Cloud를 사용하는 관리자를 위한 브라우저 지원, 일반
 
 ## Experience Cloud에서 지원되는 브라우저는 무엇입니까?
 
-* Microsoft Edge(현재 및 이전 두 버전)
+* Microsoft® Edge(현재 및 이전 두 버전)
 * Google Chrome(현재 및 이전 두 버전)
 * Mozilla Firefox(현재 및 이전 두 버전)
 * Safari(현재 및 이전 두 버전)
@@ -34,7 +33,7 @@ Experience Cloud를 사용하는 관리자를 위한 브라우저 지원, 일반
 핵심 서비스에 대한 구현이 제공되지 않은 경우, 다음 방법에 대해 설명하는 [핵심 서비스에 대한 솔루션 활성화](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)를 참조하십시오.
 
 1. [Experience Cloud에 참여 및 관리자 되기](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Experience Platform Launch를 사용하여 Experience Cloud ID 서비스 구현](https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html)
+1. [Experience Platform Launch를 사용하여 Experience Cloud ID 서비스 구현](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html?lang=en)
 1. [보고서 세트를 Experience Cloud 조직에 매핑](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(Analytics 전용) Analytics AppMeasurement 코드 현대화](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Adobe Target만 해당) Adobe Target 구현 현대화](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -42,7 +41,7 @@ Experience Cloud를 사용하는 관리자를 위한 브라우저 지원, 일반
 1. [사용자 및 제품 관리](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [핵심 서비스 사용 시작](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
 
-추가적인 도움이 필요하면 [Adobe 지원에 문의하십시오](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html).
+추가적인 도움이 필요하면 [Adobe 지원에 문의하십시오](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html).
 
 ## Adobe에서 우리 회사에 Experience Cloud 액세스를 위한 비용을 청구합니까?
 
@@ -50,11 +49,11 @@ Experience Cloud를 사용하는 관리자를 위한 브라우저 지원, 일반
 
 ## 우리 회사에서 Experience Cloud 인터페이스를 통해 로그인해야 하는 이유는 무엇입니까?
 
-Experience Cloud 인터페이스에서 제공하는 기능은 귀하의 비즈니스에 새로운 가치를 가져옵니다. 앞으로 진행 중인 솔루션에 액세스하는 표준 경로로 사용될 것이며 결과적으로는 다른 개별 솔루션 로그인 흐름을 대체하게 될 것입니다. Experience Cloud를 통해 로그인하면 나중에 더욱 원활하게 전환할 수 있게 될 것입니다.
+Experience Cloud 인터페이스에서 제공하는 기능은 귀하의 비즈니스에 새로운 가치를 가져옵니다. 앞으로 진행 중인 솔루션에 액세스하는 표준 경로로, 결과적으로 다른 개별 솔루션 로그인 흐름을 대체합니다. Experience Cloud을 통해 로그인하면 나중에 더욱 원활하게 전환할 수 있습니다.
 
 ## 우리 회사 마이그레이션에 대한 우려를 해결하려면 어떻게 해야 합니까?
 
-[Adobe 지원에 문의하십시오](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html).
+[Adobe 지원에 문의하십시오](https://helpx.adobe.com/contact/enterprise-support.ec.html).
 
 ## _프로비저닝이란_ 무엇입니까?
 
@@ -67,17 +66,17 @@ Experience Cloud의 프로비저닝은 다음을 의미합니다.
 
 ## 사용자 및 제품 프로필을 관리하려면 어떻게 해야 합니까?
 
-* 도움이 필요하면 [Admin Console 사용 안내서](https://helpx.adobe.com/kr/enterprise/administering/user-guide.html)를 참조하십시오.
+* 도움이 필요하면 [Admin Console 사용 안내서](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html)를 참조하십시오.
 
-* 사용자 자격 및 제품 관리는 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)(제품 링크)에서 수행됩니다.
+* 사용자 자격 및 제품 관리는 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (제품 링크)에서 수행됩니다.
 
-* **중요:** Analytics 관리자는 [Admin Console의 Analytics 사용자 관리](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)에서 사용자 ID를 Analytics 관리 도구에서 Admin Console로 마이그레이션하는 작업에 대해 참조하십시오.
+* **중요:** Analytics 관리자는 [Admin Console의 Analytics 사용자 관리](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)에서 사용자 ID를 Analytics 관리 도구에서 Admin Console로 마이그레이션하는 작업에 대해 참조하십시오.
 
 ## Experience Cloud에 로그인할 수 없으면 어떻게 해야 합니까?
 
 Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있습니다. 사용자에게 로그인 지침이 포함된 이메일이 전송됩니다.
 
-[Adobe 지원에 문의](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)하여 회사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
+[Adobe 지원에 문의](https://helpx.adobe.com/contact/enterprise-support.ec.html)하여 회사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
 
 ## 사용자가 계정 링크를 관리하려면 어디로 이동해야 합니까?
 
@@ -99,7 +98,7 @@ Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있
 
 조직 ID는 Experience Cloud 랜딩 페이지 및 [Admin Console 랜딩 페이지](https://adminconsole.adobe.com)에 표시됩니다.
 
-또는, 관리자가 특정 조직의 Admin Console([https://adminconsole.adobe.com](https://adminconsole.adobe.com#)으로 이동)에 로그인하면 URL에서 IMS 조직 ID를 볼 수 있습니다.
+또는, 관리자가 특정 조직의 Admin Console([https://adminconsole.adobe.com](https://adminconsole.adobe.com#)로 이동)에 로그인하면 URL에서 IMS 조직 ID를 볼 수 있습니다.
 
 예를 들면 다음 URL의 경우
 
@@ -115,7 +114,7 @@ ID는 다음과 같습니다.
 
 ## Adobe ID란?
 
-[ID 유형](https://helpx.adobe.com/kr/enterprise/help/identity.html)을 참조하십시오.
+[ID 유형](https://helpx.adobe.com/kr/enterprise/using/identity.html)을 참조하십시오.
 
 ## 사용자의 솔루션 계정을 연결할 수 있습니까?
 
