@@ -4,18 +4,17 @@ keywords: 쿠키
 solution: Experience Cloud, Audience Manager
 title: 'Audience Manager 쿠키 '
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
-feature: Cookies
-topic: Administration
+feature: 쿠키
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '613'
-ht-degree: 100%
+exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 92%
 
 ---
-
 
 # Audience Manager 쿠키{#audience-manager-cookies}
 
@@ -33,11 +32,11 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>용도</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span>는 이 쿠키를 설정하여 사이트 방문자에게 고유 ID를 할당합니다. <span class="wintitle">demdex</span> 쿠키는 <span class="keyword">Audience Manager</span>가 방문자 식별, ID 동기화, 세그멘테이션, 모델링,보고 등과 같은 기본 기능을 수행하는 데 도움이 됩니다. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span>는 이 쿠키를 설정하여 사이트 방문자에게 고유 ID를 할당합니다. <span class="wintitle"> demdex </span> 쿠키는 <span class="keyword"> Audience Manager </span>가 방문자 식별, ID 동기화, 세그멘테이션, 모델링, 보고 등과 같은 기본 기능을 수행하는 데 도움이 됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>컨텐츠</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">demdex</span> 쿠키에는 아래 예와 같이 고유 사용자 ID(UUID)가 포함되어 있습니다. </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Audience Manager의 ID 색인</a>을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">demdex</span> 쿠키에는 아래 예와 같이 고유 사용자 ID(UUID)가 포함되어 있습니다. </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en" format="https" scope="external">Audience Manager의 ID 색인</a>을 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>기타 속성</b> </p> </td> 
@@ -85,7 +84,7 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
 
 dextp 쿠키 데이터 구문:
 
-다음 표는 [!DNL dextp] 쿠키의 요소들을 데이터 문자열의 위치별로 나열하고 정의합니다.
+다음 표는 `dextp` 쿠키의 요소들을 데이터 문자열의 위치별로 나열하고 정의합니다.
 
 <table id="table_BE00604B97F24F5A94AA4F566063D785"> 
  <thead> 
@@ -130,7 +129,7 @@ dextp 쿠키 데이터 구문:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>용도</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span>가 데이터를 <a href="https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/destinations/destinations.html#purposes" format="https" scope="external">대상</a>에 전송하는 중 오류가 발생하면 이 쿠키를 설정합니다 . </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span>가 데이터를 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=en" format="https" scope="external">대상</a>에 전송하는 중 오류가 발생하면 이 쿠키를 설정합니다 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>컨텐츠</b> </p> </td> 
@@ -153,4 +152,4 @@ dextp 쿠키 데이터 구문:
 
 **_dp 쿠키**
 
-임시 쿠키입니다. [!DNL Audience Manager]는 [!DNL _dp] 쿠키를 설정하여 타사 컨텍스트에서 demdex.net 도메인의 다른 쿠키를 설정할 수 있는지 확인합니다. [!DNL _dp]이(가) 설정되면 값 1이 포함됩니다. [!DNL Audience Manager]는 이 값을 읽고 즉시 쿠키를 제거합니다. [!DNL _dp] 쿠키가 없으면 [!DNL Audience Manager]는 쿠키를 설정할 수 없다는 것을 알게 됩니다.
+이 쿠키는 일시적입니다. [!DNL Audience Manager]는 `_dp` 쿠키를 설정하여 타사 컨텍스트에서 demdex.net 도메인의 다른 쿠키를 설정할 수 있는지 확인합니다. `_dp`이(가) 설정되면 값 1이 포함됩니다. [!DNL Audience Manager]는 이 값을 읽고 즉시 쿠키를 제거합니다. `_dp` 쿠키가 없으면 [!DNL Audience Manager]는 쿠키를 설정할 수 없다는 것을 알게 됩니다.
