@@ -2,11 +2,10 @@
 description: Adobe Experience Cloud의 솔루션 및 서비스에서 쿠키가 사용되는 방법을 알아봅니다.
 title: 'Experience Cloud에서 쿠키를 사용하는 방법 '
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '174'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 89%
 
 ---
 
@@ -19,6 +18,6 @@ Adobe Experience Cloud에 포함된 대부분의 서비스에서 쿠키를 사�
 
 >[!NOTE]
 >
->법률, 규정 및 자율 규제 정책에서는 컴퓨터 또는 기타 웹에 연결된 장치에 정보를 저장하거나 검색하기 전에 방문자의 동의를 얻도록 요구하고 있습니다. 쿠키 사용을 제어하는 법률, 규정 및 원칙을 변호사와 검토하십시오.
+>법률, 규정 및 자율 규제 정책에서는 컴퓨터 또는 기타 웹에 연결된 장치에 정보를 저장하거나 검색하기 전에 방문자의 동의를 얻도록 요구하고 있습니다. Adobe은 쿠키 사용을 제어하는 법률, 규정 및 원칙을 변호사와 검토하십시오.
 
 본 설명서는 제품에서 사용하는 쿠키에 대해 설명하고 동의 의무를 이해할 수 있도록 준비되었습니다.
