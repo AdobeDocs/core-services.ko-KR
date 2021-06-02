@@ -1,19 +1,18 @@
 ---
 audience: administrator
-user-guide-title: 'Adobe Experience Cloud 서비스 및 관리 '
-breadcrumb-title: Experience Cloud 서비스 및 관리
-user-guide-description: Adobe Experience Cloud에서 사용자 및 제품을 관리하는 방법, 고객 속성 및 대상자 라이브러리 서비스를 사용하는 방법을 알아봅니다. 쿠키 및 Experience Cloud 에셋에 대해서도 알아봅니다.
-user-guide-url: https://www.adobe.com
+user-guide-title: 'Experience Cloud 중앙 인터페이스 구성 요소 '
+breadcrumb-title: Experience Cloud 중앙 인터페이스 구성 요소
+user-guide-description: Experience Cloud의 인터페이스에 대해 알아보고, 환경 설정을 구성하고, 도움말 및 비즈니스 개체를 검색합니다. 사용자 및 제품 관리, 고객 속성, 대상 라이브러리, 쿠키 및 Experience Cloud 자산에 대한 지원을 받습니다.
 index: true
-source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
+source-git-commit: 9a1dea42b5ae6ab4ea822d56c14cdb330bb8ef95
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 98%
+source-wordcount: '372'
+ht-degree: 86%
 
 ---
 
 
-# Experience Cloud 서비스 및 관리 {#interface}
+# Experience Cloud 중앙 인터페이스 구성 요소 {#interface}
 
 + [Experience Cloud 중앙 인터페이스 구성 요소](experience-cloud.md)
 + Experience Cloud 서비스 {#about-core-services}
