@@ -4,22 +4,21 @@ keywords: cookies;privacy
 solution: Experience Cloud, Analytics, Target
 title: 'Data Connectors 쿠키 '
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
-feature: Cookies
-topic: Administration
+feature: 쿠키
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '78'
-ht-degree: 100%
+exl-id: 54f77e67-1bcf-4d01-b70b-af85bac3f449
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 76%
 
 ---
 
-
 # Data Connectors 쿠키{#data-connectors-cookies}
 
-Data Connectors는 쿠키를 사용하여 광고주에게 여러 광고 채널 전반에 최적화된 캠페인 및 전환 성능 지표를 제공합니다.
+[!UICONTROL Data ] Connectors는 쿠키를 사용하여 광고주에게 여러 광고 채널 전반에 최적화된 캠페인 및 전환 성능 지표를 제공합니다.
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
@@ -39,4 +38,3 @@ Data Connectors는 쿠키를 사용하여 광고주에게 여러 광고 채널 �
   </tr> 
  </tbody> 
 </table>
-
