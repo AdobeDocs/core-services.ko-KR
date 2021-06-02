@@ -4,18 +4,17 @@ keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Scene7 쿠키 '
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
-feature: Cookies
-topic: Administration
+feature: 쿠키
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '417'
-ht-degree: 100%
+exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 98%
 
 ---
-
 
 # Scene7 쿠키{#scene-cookies}
 
@@ -85,4 +84,3 @@ AS2 Flash eCatalog 뷰어의 경우, 쿠키:
   </tr> 
  </tbody> 
 </table>
-
