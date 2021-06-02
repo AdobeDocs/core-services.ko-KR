@@ -7,23 +7,24 @@ solution: Experience Cloud
 title: '트리거 개요 '
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
-topic: Administration
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '678'
-ht-degree: 100%
+exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '705'
+ht-degree: 72%
 
 ---
 
+# Experience Cloud 트리거
 
-# Triggers
+ Experience Cloud 트리거 을 통해 주요 소비자 행동을 식별, 정의 및 모니터링한 다음 교차 솔루션 커뮤니케이션을 생성하여 방문자를 다시 참여하도록 할 수 있습니다.
 
 ## 트리거 개요 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
-트리거를 통해 주요 소비자 행동을 식별, 정의 및 모니터링한 다음 교차 솔루션 커뮤니케이션을 생성하여 방문자를 다시 참여하도록 할 수 있습니다. 실시간 의사 결정 및 개인화에서 트리거를 사용할 수 있습니다.
+실시간 의사 결정 및 개인화에서 트리거를 사용할 수 있습니다. 예:
 
 * 장바구니 포기 또는 제품이 제거된 장바구니 포기에 대한 재마케팅의 신속한 구성
 * 불완전한 양식 및 애플리케이션
@@ -31,9 +32,13 @@ ht-degree: 100%
 
 ![](assets/trigger-abandonment-2.png)
 
+>[!NOTE]
+>
+>[!UICONTROL Triggers] 사용에 대한 자세한 내용은 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=en)에서 확인할 수 있습니다.
+
 ### 트리거 유형
 
-일반적으로 트리거는 마케팅 캠페인을 시작하는 데 15-90분 정도 걸릴 수 있습니다. 이것은 데이터 수집 구현, 파이프라인 로드, 정의된 트리거의 사용자 지정 구성 및 Adobe Campaign의 워크플로우에 따라 달라집니다.
+일반적으로 트리거는 마케팅 캠페인을 시작하는 데 15-90분 정도 걸릴 수 있습니다. 이 지연은 데이터 수집 구현, 파이프라인 로드, 정의된 트리거의 사용자 지정 구성 및 Adobe Campaign의 워크플로우에 따라 달라집니다.
 
 * **포기:** 방문자가 제품을 보고 장바구니에 추가하지 않을 경우에 실행할 트리거를 만들 수 있습니다.
 * **작업:** 예를 들어 뉴스레터 등록, 이메일 가입 또는 신용 카드 신청(확인) 후에 동작할 트리거를 만들 수 있습니다. 유통업의 경우 회원 프로그램에 등록한 방문자를 대상으로 트리거를 만들 수 있습니다. 미디어 및 엔터테인먼트에서는 특정 프로그램을 시청하고 설문 조사에 응답하기를 원하는 방문자를 대상으로 트리거를 만들 수 있습니다.
@@ -47,8 +52,8 @@ ht-degree: 100%
 >
 >현재 트리거는 100개로 기술적 제한이 있습니다.
 
-1. Experience Cloud에서 ![](assets/menu-icon.png)을 클릭한 다음 **[!UICONTROL 실행]**&#x200B;을 클릭합니다.
-2. [!UICONTROL 트리거] 카드를 찾은 다음 **[!UICONTROL 트리거 관리]**&#x200B;을 클릭합니다.
+1. Experience Cloud에서 ![](assets/menu-icon.png)데이터 수집/실행&#x200B;]**을 클릭한 다음**[!UICONTROL 
+2. [!UICONTROL Triggers] 카드에서 **[!UICONTROL 트리거 관리]**&#x200B;를 클릭합니다.
 3. **[!UICONTROL 새 트리거]**&#x200B;를 클릭한 다음 트리거 유형을 지정합니다.
 
    ![단계 결과](assets/add-trigger.png)
@@ -57,15 +62,15 @@ ht-degree: 100%
 
    | 요소 | 설명 |
    |--- |--- |
-   | 이름 | 이 트리거의 이름입니다. |
-   | 설명 | 사용하는 방식 등 트리거에 대한 설명입니다. |
-   | 보고서 세트 | 이 트리거에서 사용하는 Analytics [보고서 세트](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-reports-report-suites.html)입니다. 이 설정은 사용할 보고 데이터를 식별합니다. |
-   | 포함 필수 방문<br>배제 필수 방문<br>작업 없음 이후의 트리거<br>메타데이터 포함 | 발생을 원하는 기준이나 방문자 행동과 발생을 원하지 않는 행동을 정의할 수 있습니다.  예를 들어, 다음과 같은 간단한 장바구니 포기 트리거를 만들 수 있습니다.<ul><li>포함 필수 방문: 장바구니 추가 수(지표) 및 존재함. (특정 제품 보기 또는 브라우저 유형과 같은 기준으로 규칙을 세분화할 수 있습니다.)</li><li>배제 필수 방문: 체크아웃</li><li>작업 없음 이후의 트리거: 10분</li><li>메타데이터 포함: 특정 캠페인 차원 또는 방문자 행동에 관련된 변수를 추가할 수 있습니다. 이 필드는 정확한 재마케팅 이메일을 만들기 위해 Adobe Campaign에서 사용할 수 있습니다.</li></ul><br>규칙에 중요한 기준에 따라 컨테이너 내에 또는 컨테이너 간에 Any, And 또는 Or 로직을 지정할 수 있습니다. |
-   | 컨테이너 | 컨테이너는 트리거를 정의하는 규칙, 조건 또는 필터를 설정하고 저장하는 위치입니다. 동시에 발생하기를 원하는 이벤트의 경우, 동일한 컨테이너에 있어야 합니다. 각 컨테이너는 히트 수준에서 독립적으로 처리됩니다.  예를 들어 AND 연산자로 두 개의 컨테이너가 연결된 경우 두 개의 히트 수가 요구 사항을 충족하면 규칙이 유효할 수 있습니다. |
+   | [!UICONTROL 이름] | 이 트리거의 이름입니다. |
+   | [!UICONTROL 설명] | 사용하는 방식 등 트리거에 대한 설명입니다. |
+   | [!UICONTROL 보고서 세트] | 이 트리거에서 사용하는 Analytics [보고서 세트](https://experienceleague.adobe.com/docs/analytics/implementation/analytics-basics/ref-reports-report-suites.html?lang=en)입니다. 이 설정은 사용할 보고 데이터를 식별합니다. |
+   | 포함 필수 방문<br>배제 필수 방문<br>작업 없음 이후의 트리거<br>메타데이터 포함 | 발생을 원하는 기준이나 방문자 행동과 발생을 원하지 않는 행동을 정의할 수 있습니다. 예를 들어 다음과 같은 간단한 장바구니 포기 트리거를 만들 수 있습니다.<ul><li>포함 필수 방문:[!UICONTROL 장바구니 추가](지표) 및 [!UICONTROL 존재함]. (특정 제품 보기 또는 브라우저 유형과 같은 기준으로 규칙을 세분화할 수 있습니다.)</li><li>배제 필수 방문: [!UICONTROL 체크아웃].</li><li>작업 없음 이후의 트리거: 10분</li><li>[!UICONTROL 메타데이터 포함]:방문자 행동에  [!DNL Campaign] 관련된 특정 차원이나 변수를 추가할 수 있습니다. 이 필드는 정확한 재마케팅 이메일을 만들기 위해 Adobe Campaign에서 사용할 수 있습니다.</li></ul><br>규칙에 중요한   [!UICONTROL 기준에 따라 컨테이너 내],    And 또는    Orlogic을 지정할 수 있습니다. |
+   | [!UICONTROL 컨테이너] | [!UICONTROL 컨테이너는 트리거를 정의하는 규칙, 조건 또는 필터를 설정하고 저장하는 위치입니다. ] 동시에 발생하기를 원하는 이벤트의 경우, 동일한 컨테이너에 있어야 합니다. 각 컨테이너는 히트 수준에서 독립적으로 처리됩니다. 예를 들어 AND 연산자로 두 개의 컨테이너가 연결된 경우 두 개의 히트 수가 요구 사항을 충족하면 규칙이 유효할 수 있습니다. |
    | 후에 새로운 세션 시작 | 세션 시작 및 세션 종료 이벤트에 대한 트리거를 만듭니다. |
 
 5. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-6. [!DNL Adobe Campaign]에서 [실시간 재마케팅](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)에 트리거를 사용합니다.
+6. [!DNL Adobe Campaign]에서 [실시간 재마케팅](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=en)에 트리거를 사용합니다.
 
 ### 예제 트리거
 
@@ -73,7 +78,7 @@ Experience Cloud 트리거 예:
 
 #### 장바구니 포기 트리거
 
-예를 들어 다음 페이지에서는 방문 중에 본 제품들에 기반한 장바구니 포기 트리거를 사용할 수 있는 규칙을 보여줍니다.
+예를 들어 다음 페이지에서는 방문 중에 본 제품에 따라 [!UICONTROL 장바구니 포기] 트리거에 사용할 수 있는 규칙을 보여줍니다.
 
 ![](assets/abandonment-trigger.png)
 
