@@ -4,22 +4,21 @@ keywords: 고객 특성;코어 서비스
 solution: Experience Cloud
 title: '구독을 구성하는 방법 '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
-feature: Customer Attributes
-topic: Administration
+feature: 고객 속성
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '390'
-ht-degree: 100%
+exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 96%
 
 ---
 
-
 # Experience Cloud에서 구독을 구성하는 방법
 
-솔루션 데이터 소스 및 가입 구성에 대해 알아봅니다. 가입을 통해 Experience Cloud와 솔루션(Analytics 및 [!DNL Target]) 간에 고객 특성 데이터 흐름을 사용할 수 있습니다.
+솔루션 데이터 소스 및 가입 구성에 대해 알아봅니다. 가입을 통해 Experience Cloud과 솔루션([!DNL Analytics] 및 [!DNL Target]) 간에 고객 특성 데이터 흐름을 사용할 수 있습니다.
 
 예를 들어 Adobe Analytics 가입을 구성하면 특성 데이터를 보고서에서 사용할 수 있습니다. Adobe Target을 사용하는 경우 타깃팅 및 세그멘테이션을 위해 고객 속성을 업로드할 수 있습니다.
 
