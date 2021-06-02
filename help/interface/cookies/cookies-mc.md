@@ -4,18 +4,17 @@ keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Experience Cloud 쿠키 '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-feature: Cookies
-topic: Administration
+feature: 쿠키
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '350'
-ht-degree: 100%
+exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 96%
 
 ---
-
 
 # Experience Cloud 쿠키{#experience-cloud-cookies}
 
@@ -60,9 +59,9 @@ Adobe Experience Cloud는 쿠키를 사용하여 Experience Cloud 솔루션에�
 
 **쿠키 이름: AMCV_###@AdobeOrg**
 
-[Experience Platform ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)는 JavaScript를 사용하여 현재 웹 사이트의 도메인에 있는 `AMCV_###@AdobeOrg` 쿠키에 고유한 방문자 ID를 저장합니다. 여기서 `###`는 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`와 같은 임의의 문자열을 나타냅니다.
+[Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-kr)는 JavaScript를 사용하여 현재 웹 사이트의 도메인에 있는 `AMCV_###@AdobeOrg` 쿠키에 고유한 방문자 ID를 저장합니다. 여기서 `###`는 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`와 같은 임의의 문자열을 나타냅니다.
 
-[쿠키 및 ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/intro/cookies.html)도 참조하십시오.
+[쿠키 및 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en)도 참조하십시오.
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -93,7 +92,7 @@ Adobe Experience Cloud는 쿠키를 사용하여 Experience Cloud 솔루션에�
    <td colname="col2"> <p> 다양하며, 대부분의 고객은 이 쿠키의 길이가 약 200바이트 정도 될 것으로 예상할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>추가된 값이 없습니다. Chrome은 Lax가 기본값입니다. </p> </td> 
+   <td colname="col1"> <p>추가된 값이 없습니다. Chrome의 기본값은 Lax입니다. </p> </td> 
    <td colname="col2"> <p> 이 설정을 사용하는 쿠키는 브라우저의 URL에 표시된 도메인이 쿠키의 도메인과 일치하는 경우에만 전송됩니다. 이는 Chrome에서 쿠키의 새로운 기본값입니다. </p> </td> 
   </tr> 
  </tbody> 
