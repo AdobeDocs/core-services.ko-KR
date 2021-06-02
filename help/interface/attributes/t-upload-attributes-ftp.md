@@ -4,18 +4,17 @@ keywords: 고객 특성;코어 서비스
 solution: Experience Cloud
 title: 'FTP를 통한 고객 특성 데이터 파일 업로드 '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-feature: Customer Attributes
-topic: Administration
+feature: 고객 속성
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
+exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
-
 
 # 선택 사항 - FTP를 통해 데이터 파일 업로드
 
@@ -30,7 +29,7 @@ Experience Cloud에서 고객 특성 소스 및 FTP 계정을 만든 후에 데�
 고객 속성 FTP 사이트로의 파일 업로드는 FTP 또는 SFTP를 통해 수행될 수 있습니다:
 
 * SFTP 연결을 지원하는 클라이언트가 필요합니다.
-* [여기](https://docs.adobe.com/help/en/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)에 설명된 것처럼 사용자 이름/암호를 사용하거나 암호를 사용하지 않고 SFTP를 통해 연결할 수 있습니다.
+* [여기](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=en)에 설명된 것처럼 사용자 이름/암호를 사용하거나 암호를 사용하지 않고 SFTP를 통해 연결할 수 있습니다.
 
 **FTP를 통해 데이터 파일 업로드**
 
