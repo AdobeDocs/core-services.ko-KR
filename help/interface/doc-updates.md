@@ -9,7 +9,7 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+source-git-commit: 9a1dea42b5ae6ab4ea822d56c14cdb330bb8ef95
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 93%
@@ -20,9 +20,9 @@ ht-degree: 93%
 
 Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 
-**업데이트됨:5/26/2021**
+**업데이트됨:6/1/2021**
 
-Experience Cloud, 전역 검색, 환경 설정 및 알림에 액세스하는 데 도움이 되도록 [Experience Cloud 인터페이스](experience-cloud-interface.md)를 추가했습니다.
+[랜딩 페이지](experience-cloud.md)가 Experience Cloud, 전역 검색, 환경 설정 및 알림에 액세스하는 방법에 대한 새로운 도움말로 업데이트되었습니다.
 
 **업데이트 날짜: 2020/8/19**
 
@@ -36,8 +36,8 @@ Experience Cloud, 전역 검색, 환경 설정 및 알림에 액세스하는 데
 
 다음 페이지가 추가되었습니다.
 
-* [개인 정보 보호 규정 지원](attributes/gdpr.md)
-* [캘리포니아 소비자 개인 정보 보호법 지원](attributes/ccpa.md)
+* [개인정보 보호 규정 지원](attributes/gdpr.md)
+* [캘리포니아 소비자 개인정보 보호법 지원](attributes/ccpa.md)
 
 **업데이트됨: 2020년 3월 10일**
 
