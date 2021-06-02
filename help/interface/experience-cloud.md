@@ -8,7 +8,7 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 30%
@@ -63,11 +63,12 @@ Experience Cloud에 로그인한 후 통합 헤더에서 모든 애플리케이�
 
 ## 개체 및 엔티티 전역 검색
 
-글로벌 검색을 사용하면 검색 가능한 비즈니스 개체 또는 엔터티를 매끄럽고 일관된 한 번의 클릭으로 찾을 수 있습니다. 이 검색은 최근에 액세스한 개체를 표시합니다.
+글로벌 검색을 통해 검색 가능한 비즈니스 개체 또는 개체를 매끄럽고 일관된 한 번의 클릭으로 찾을 수 있습니다. 이 검색은 최근에 액세스한 개체를 표시합니다.
 
 ![](assets/platform-search.png)
 
-이 검색은 Experience Platform 사용자만 사용할 수 있습니다.
+>!![NOTE]
+전역 검색은 Experience Platform 사용자만 사용할 수 있습니다.
 
 ## 계정 환경 설정 관리 {#preferences}
 
@@ -122,9 +123,9 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 
 * [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
 * [Experience Platform Co-op 그래프](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
-* [Exchange](https://www.adobeexchange.com/experiencecloud)
+* [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
-* [Experience Platform 데이터 수집/시작](https://experienceleague.corp.adobe.com/docs/launch.html?lang=en)
+* [Experience Platform 데이터 수집/시작](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko-KR)
 * [일반 데이터 보호 규정(GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
@@ -139,10 +140,10 @@ Adobe Experience League에서 제공하는 자체 도움말 튜토리얼과 빠�
 
 ## 릴리스 정보 및 관련 Experience Cloud 도움말
 
-* [모든 Experience Cloud 솔루션에 대한 제품 설명서](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=en) - Experience Cloud 학습 및 지원에서 탐색
+* [모든 Experience Cloud 솔루션에 대한 제품 설명서](https://experienceleague.adobe.com/docs/home.html?lang=en) - Experience Cloud 학습 및 지원에서 탐색
 * [릴리스 정보 및 제품 업데이트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) - Experience Cloud의 새로운 기능 및 가입을 통한 업데이트 받기
-* [핵심 서비스 구현 튜토리얼](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en) - 핵심 서비스에 대한 비디오 및 튜토리얼 보기
+* [핵심 서비스 구현 튜토리얼](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - 핵심 서비스에 대한 비디오 및 튜토리얼 보기
 * [Experience League의 전문가 지원](https://experienceleague.adobe.com/) - 전문가 및 커뮤니티의 안내형 학습
 * [교육 및 훈련](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK)  - Adobe 제품을 최대한 활용할 수 있도록 Adobe과 협력
-* [고객 경험 블로그](https://blog.adobe.com/customer-experience/) - Experience Cloud 블로그 보기
+* [고객 경험 블로그](https://blog.adobe.com/en/topics/digital-transformation.html) - Experience Cloud 블로그 보기
 * [고객 지원](https://experienceleague.adobe.com/?support-solution=General#support) - Adobe 고객 지원 센터에 문의
