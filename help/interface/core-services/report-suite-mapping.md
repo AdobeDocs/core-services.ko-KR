@@ -3,17 +3,16 @@ description: Experience Cloud에서 한 개 이상의 보고서 세트를 조직
 title: '조직에 보고서 세트 매핑 '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
-topic: Administration
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '1168'
-ht-degree: 100%
+exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '1165'
+ht-degree: 72%
 
 ---
-
 
 # 조직에 보고서 세트 매핑 {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
 
@@ -28,13 +27,13 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL Peopl
 
 ## 요구 사항
 
-매핑할 보고서 세트에 액세스할 수 있는 로그인 회사의 Analytics 관리자여야 합니다. 또한 보고서 세트를 해당 조직에 매핑하려면 이 계정이 [Experience Cloud 조직에 연결](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)되어 있어야 합니다.
+매핑할 보고서 세트에 액세스할 수 있는 로그인 회사의 Analytics 관리자여야 합니다. 또한 보고서 세트를 해당 조직에 매핑하려면 이 계정이 Experience Cloud 조직](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)에 연결되어 있어야 합니다.[
 
 지정된 보고서 세트에 액세스할 수 있는 해당 조직의 로그인 회사에 대한 Analytics 관리자 권한이 없는 경우 조직이 회색으로 표시됩니다.
 
 ## 조직에 보고서 세트 매핑 {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. [!DNL Analytics] > **[!UICONTROL 관리]** > **[!UICONTROL 데이터 거버넌스]**&#x200B;에서 데이터 거버넌스를 위한 보고서 세트로 이동합니다([보고서 세트의 데이터 거버넌스 설정 보기/관리 참조](https://docs.adobe.com/help/ko-KR/analytics/admin/data-governance/gdpr-view-settings.html)).
+1. [!DNL Analytics] > **[!UICONTROL 관리]** > **[!UICONTROL 데이터 거버넌스]**&#x200B;에서 데이터 거버넌스를 위한 보고서 세트로 이동합니다([보고서 세트의 데이터 거버넌스 설정 보기/관리 참조](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en)).
 
 1. 각 보고서 세트에 액세스할 수 있는 로그인 회사를 보려면 **[!UICONTROL 로그인 회사에 표시]**&#x200B;를 클릭합니다.
 
@@ -64,13 +63,13 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL Peopl
 
 ### 어떤 조직을 선택해야 합니까?
 
-Experience Cloud ID 서비스가 현재 보고서 세트에 배포된 경우 보고서 세트 매핑 도구에서 선택한 조직이 사이트의 [!DNL visitorAPI.js] 파일에 지정된 동일한 조직인지 확인하십시오. [Experience Cloud ID 서비스 테스트 및 확인](https://docs.adobe.com/content/help/ko-KR/id-service/using/implementation-guides/test-verify.html)의 지침을 사용하여 방문자 ID 서비스에서 사용 중인 조직 ID를 찾을 수 있습니다.
+Experience Cloud ID 서비스가 보고서 세트에 배포된 경우 보고서 세트 매핑 도구에서 선택한 조직이 사이트의 [!DNL visitorAPI.js] 파일에 지정된 동일한 조직인지 확인하십시오. [Experience Cloud ID 서비스 테스트 및 확인](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/test-verify.html?lang=en)의 지침을 사용하여 방문자 ID 서비스에서 사용 중인 조직 ID를 찾을 수 있습니다.
 
-방문자 ID 서비스가 보고서 세트에 대한 데이터를 수집하는 사이트에 아직 배포되지 않은 경우, 나중에 Experience Cloud 방문자 ID 서비스를 배포하면 보고서 세트 매핑 도구에서 선택한 조직과 배포가 일치하는지 확인해야 합니다.
+방문자 ID 서비스가 보고서 세트에 대한 데이터를 수집하는 사이트에 아직 배포되지 않은 경우, 나중에 방문자 ID Experience Cloud 서비스를 배포하면 보고서 세트 매핑 도구에서 선택한 조직과 배포가 일치하는지 확인하십시오.
 
 ### 일부 조직이 회색으로 표시되는 이유는 무엇입니까?
 
-회색으로 표시된 보고서 세트에 매핑할 수 있는 충분한 권한이 없음을 나타냅니다. 다음 예를 생각해 보십시오.
+조직 그룹화는 회색으로 표시된 보고서 세트에 매핑할 수 있는 충분한 권한이 없음을 나타냅니다. 다음 예를 생각해 보십시오.
 
 ![](assets/rs-mapping.png)
 
@@ -85,7 +84,7 @@ Experience Cloud ID 서비스가 현재 보고서 세트에 배포된 경우 보
 다음은 이 사용자가 이러한 보고서 세트에 대해 수행할 수 있는 매핑 작업과 수행할 수 없는 매핑 작업을 나열한 것입니다.
 
 * 이 사용자는 연결된 Analytics 로그인 회사([!UICONTROL chapek])의 관리자이며 자신의 계정이 이 조직에 연결되어 있으므로 [!UICONTROL Chapek-prod] 보고서 세트가 [!UICONTROL Chapek] Corp 조직에 매핑될 수 있습니다.
-* 이 사용자는 이 보고서 세트가 표시되는 로그인 회사의 관리자가 아니므로 [!UICONTROL Nigel-prod] 보고서 세트에 연결할 수 없습니다.
+* [!UICONTROL 이 ] 사용자는 이 보고서 세트가 표시되는 로그인 회사의 관리자가 아니므로 Nigel-prodreport 세트에 연결할 수 없습니다.
 * 이 사용자는 Experience Cloud 조직에 연결된 로그인 회사([!UICONTROL chapek])의 관리자(doohan Analytics 로그인 회사의 관리자가 아님)이므로 [!UICONTROL Doohan-prod] 보고서 세트를 [!UICONTROL Chapek Corp]에 매핑할 수 있습니다. 이 사용자가 해당 매핑을 수행할 수 없어도 [!UICONTROL doohan-prod] 보고서 세트를 Nigel Inc Experience Cloud 조직에 매핑할 수 있다는 것을 알고 있는 것이 중요합니다. 이 경우 두 Experience Cloud 조직이 목록에 표시되지만 [!UICONTROL Nigel Inc]가 회색으로 표시됩니다. 매핑하기 전에 이 사용자는 nigel 로그인 회사의 관리자에게 문의하여 매핑에 가장 적합한 조직을 결정해야 합니다. 처음에 보고서 세트를 만든 조직과 다른 조직을 선택하는 경우 UI에 가능한 충돌 경고가 표시됩니다.
 
 ## FAQ {#section_099E485805994C929FF9C9F75219BEE1}
@@ -112,7 +111,7 @@ Experience Cloud ID 서비스가 현재 보고서 세트에 배포된 경우 보
 
 ### Experience Cloud 조직에 대한 조직 ID만 알 경우 어떻게 합니까? 내 조직 ID의 이름을 찾으려면 어떻게 해야 합니까?
 
-[조직 및 계정 설정](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/organizations.html)에서 조직 이름을 찾을 수 있습니다.
+[조직 및 계정 설정](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=en)에서 조직 이름을 찾을 수 있습니다.
 
 ### 매핑된 날짜 열에 날짜가 표시됩니다. 누가 매핑했습니까?
 
