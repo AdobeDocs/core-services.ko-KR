@@ -4,22 +4,21 @@ keywords: 고객 특성;Experience Cloud 서비스
 solution: Experience Cloud
 title: '고객 특성 스키마의 유효성을 검사하는 방법 '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-feature: Customer Attributes
-topic: Administration
+feature: 고객 속성
+topic: 관리
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '474'
-ht-degree: 100%
+exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '472'
+ht-degree: 89%
 
 ---
 
-
 # 스키마 유효성 검사
 
-유효성 검사 프로세스를 사용하여 표시 이름 및 설명을 업로드된 속성(문자열, 정수, 숫자 등)에 매핑할 수 있습니다. 스키마는 이러한 설정에 따라 만들어집니다. 이 스키마는 앞으로 이 데이터 소스로 업로드되는 모든 데이터의 유효성을 검사하는 데 사용됩니다. 이 매핑 프로세스 때문에 원본 데이터가 변경되지는 않습니다.
+유효성 검사 프로세스를 사용하여 표시 이름 및 설명을 업로드된 속성(문자열, 정수, 숫자 등)에 매핑할 수 있습니다. 스키마는 이러한 설정에 따라 만들어집니다. 이 스키마는 앞으로 이 데이터 소스로 업로드되는 모든 데이터의 유효성을 검사하는 데 사용됩니다. 매핑 프로세스 때문에 원본 데이터가 변경되지는 않습니다.
 
 >[!NOTE]
 >
@@ -47,9 +46,9 @@ ht-degree: 100%
 
    * **[!UICONTROL AVID(Analytics visitor ID):]** prop 또는 eVar을 사용하여 CID를 업로드하는 경우에 표시됩니다. 그러한 ID가 Experience Cloud로 전달되면 입력한 CID와 연결된 모든 방문자 ID가 여기에 표시됩니다.
 
-Experience Cloud에서 고객 특성 소스 및 FTP 계정을 만든 후에 FTP를 통해 데이터를 업로드할 수도 있습니다. 특성 소스당 FTP 계정을 1개 만듭니다. 업로드한 파일은 해당 계정의 루트 폴더에 저장됩니다. 데이터는 .csv 형식이어야 하며 업로드가 완료되었음을 나타내는 .fin 파일도 있어야 합니다.
+Experience Cloud에서 고객 특성 소스 및 FTP 계정을 만든 후에 FTP를 통해 데이터를 업로드할 수도 있습니다. 특성 소스당 FTP 계정을 1개 만듭니다. 업로드한 파일은 해당 계정의 루트 폴더에 저장됩니다. 데이터는 `.csv` 형식이어야 하며 업로드가 완료되었음을 나타내는 두 번째 `.fin` 파일도 있어야 합니다.
 
-문자열, 정수 및 숫자에 적용하는 이름은 [!DNL Analytics] 지표를 만드는 데 사용됩니다. 자세한 내용은 [!DNL Analytics] 도움말의 [고객 속성 보고서](https://docs.adobe.com/help/ko-KR/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)를 참조하십시오.
+문자열, 정수 및 숫자에 적용하는 이름은 [!DNL Analytics] 지표를 만드는 데 사용됩니다. 자세한 내용은 [!DNL Analytics] 도움말의 [고객 속성 보고서](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-customer-attributes.html?lang=en)를 참조하십시오.
 
 * **[!UICONTROL 속성:]** 업로드한 `.csv` 파일에서 읽어오는 속성 데이터입니다.
 
@@ -61,6 +60,6 @@ Experience Cloud에서 고객 특성 소스 및 FTP 계정을 만든 후에 FTP�
 
    * **숫자:** 최대 2개의 소수 자리를 가질 수 있습니다.
 
-* **[!UICONTROL 이름 표시:]** 속성의 이름입니다. 예를 들어, 속성 *customer age*&#x200B;를 *Customer Since*&#x200B;로 변경할 수 있습니다.
+* **[!UICONTROL 이름 표시:]** 속성의 이름입니다. 예를 들어 *customer age* 속성을 *Customer Since*&#x200B;로 변경할 수 있습니다.
 
 * **[!UICONTROL 설명:]** 속성에 대한 설명입니다.
