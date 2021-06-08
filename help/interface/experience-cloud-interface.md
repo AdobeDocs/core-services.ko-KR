@@ -6,7 +6,7 @@ feature: '"중앙 인터페이스 구성 요소"'
 topic: 관리
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+source-git-commit: b6282dfdfc37e2767802d4ce50bdd734141b521e
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 7%
@@ -23,7 +23,7 @@ Experience Cloud의 중앙 인터페이스 구성 요소에는 다음과 같은 
 
 ## Experience Cloud에 로그인
 
-로그인한 다음 올바른 [조직](admin-getting-started/organizations.md)에 속해 있는지 확인하십시오.
+로그인한 다음 올바른 [조직](organizations.md)에 속해 있는지 확인하십시오.
 
 1. [Adobe Experience Cloud](https://experience.adobe.com)로 이동합니다.
 1. **[!UICONTROL Adobe ID]**&#x200B;로 로그인합니다.
@@ -31,7 +31,7 @@ Experience Cloud의 중앙 인터페이스 구성 요소에는 다음과 같은 
 
    ![](assets/organizations-menu.png)
 
-   관리자가 오른쪽 [organization](admin-getting-started/organizations.md)에 있는지 확인하는 데 도움을 줄 수 있습니다.
+   관리자가 오른쪽 [organization](organizations.md)에 있는지 확인하는 데 도움을 줄 수 있습니다.
 
 ## Experience Cloud 응용 프로그램 액세스 {#navigation}
 
@@ -59,7 +59,7 @@ Experience Cloud 검색을 사용하면 [Experience League](https://experiencele
 계정 환경 설정 메뉴에서 다음 작업을 수행할 수 있습니다.
 
 * 어두운 테마를 지정하십시오(일부 응용 프로그램이 이 테마를 지원하는 것은 아님).
-* [조직](admin-getting-started/organizations.md) 검색
+* [조직](organizations.md) 검색
 * 로그아웃
 * 계정 [환경 설정, 알림 및 구독 구성](#preferences)
 
@@ -75,7 +75,7 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 
 | 기능 | 설명 |
 |--- |--- |
-| 기본값 [organization](admin-getting-started/organizations.md) | Experience Cloud을 시작할 때 표시할 조직을 선택합니다. |
+| 기본값 [organization](organizations.md) | Experience Cloud을 시작할 때 표시할 조직을 선택합니다. |
 | [!UICONTROL 구독] | 구독할 제품 및 카테고리를 선택합니다. [!UICONTROL 알림] 팝업 및 이메일의 알림입니다. |
 | [!UICONTROL 우선순위] | 우선 순위로 간주할 카테고리를 선택합니다. 이러한 카테고리는 높은 태그로 표시되며, 경고와 같이 전달하도록 구성할 수 있습니다. |
 | [!UICONTROL 경고] | 브라우저에 표시되는 경고를 보려는 알림을 선택합니다. 경고는 창의 오른쪽 상단 모서리에 몇 초 동안 표시됩니다. |
