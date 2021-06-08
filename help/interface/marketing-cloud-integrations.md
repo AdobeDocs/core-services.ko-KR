@@ -9,10 +9,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 54%
+source-wordcount: '1406'
+ht-degree: 51%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Experience Cloud은 강력한 기능들로 구성된 공통 세트를 사�
 
 ## 플랫폼 서비스용 Experience Cloud 애플리케이션 활성화 {#section_A3D024994DA3492F8435CFCC4EF035C2}
 
-도움말: [플랫폼 서비스용 애플리케이션 활성화](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+도움말: [플랫폼 서비스용 애플리케이션 활성화](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
 
 다음 방법을 설명합니다.
 
@@ -47,13 +47,12 @@ ID 서비스는 Experience Cloud의 모든 솔루션에서 방문자를 식별�
 
 **해당 솔루션 또는 서비스**
 
-* [Adobe Analytics](https://experienceleague.adobe.com/docs/id-service/using/home.htmlmcvid-setup-analytics.html?lang=en)
-* [Adobe Target](https://experienceleague.adobe.com/docs/id-service/using/home.htmlmcvid-setup-target.html?lang=en)
-* [[!UICONTROL Data Workbench]](https://experienceleague.adobe.com/docs/id-service/using/home.htmlmcvid-dwb.html?lang=en)
+* [Adobe Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=en)
 
 ## 대상자 {#section_5F60D7B0833348B9A1D74663AADCB42C}
 
-도움말: [대상](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
+도움말: [대상](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
 
 Experience Cloud 대상 라이브러리에서 대상을 만들고 관리합니다. 다음과 같은 다양한 소스에서 대상을 만들거나 파생할 수 있습니다. 
 
@@ -65,26 +64,26 @@ Experience Cloud 대상 라이브러리에서 대상을 만들고 관리합니�
 
 * [Adobe Target의 활동](https://experienceleague.adobe.com/docs/target/using/activities/activities.html?lang=en)
 * Audience Manager의 [세그멘테이션](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=en)
-* [Media Optimizer](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D)(로그인 필요)
+* [Media Optimizer](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D)(로그인 필요)
 
 ## 고객 속성 {#section_6A9EA6847F654F129381869E5016626C}
 
-도움말: [고객 속성](attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
+도움말: [고객 속성](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
 >[!NOTE]
 >
 >고객 속성은 기존 서비스이며 현재 지속 중입니다.
 
-CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 업로드했으면 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 활용합니다.
+CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 업로드했으면 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 사용하십시오.
 
 **해당 솔루션 또는 서비스**
 
-* Adobe Analytics: [고객 속성 보고서](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-customer-attributes.html?lang=en)
-* Adobe Target: 고객 속성에 대한 Adobe Target의 [가입](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=en) 구성
+* Adobe Analytics: 고객 속성 보고서
+* Adobe Target: 고객 속성에 대한 Adobe Target의 [가입](subscription.md) 구성
 
 ## Experience Cloud 에셋 {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
-도움말: [Creative Cloud와 Experience Cloud 폴더 공유](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=en)
+도움말: [Creative Cloud와 Experience Cloud 폴더 공유](creative-cloud.md)
 
 >[!NOTE]
 >
@@ -128,8 +127,8 @@ Experience Cloud 솔루션 또는 Audience Manager의 기타 외부 시스템에
 
 Experience Cloud 활성화 솔루션을 사용하여 Experience Cloud 솔루션을 설정 및 디버깅합니다.
 
-1. [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=en) 또는 [Dynamic Tag Management](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)를 사용하여 페이지에서 [Adobe Experience Cloud 솔루션](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62)을 활성화하는 코드를 삽입합니다.
-1. [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=en)를 사용하여 구현을 테스트합니다.
+1. 페이지에서 Experience Cloud 응용 프로그램을 활성화하는 코드를 삽입하려면 [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) 또는 [Dynamic Tag Management](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)를 사용하십시오.
+1. [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=ko-kr)를 사용하여 구현을 테스트합니다.
 
 Adobe Experience Cloud Debugger 확장 프로그램을 사용하여 감사에서 발견한 문제를 디버깅하거나 구현에 대한 다른 정보를 조사합니다.
 
@@ -144,14 +143,14 @@ Adobe Experience Cloud Debugger 확장 프로그램을 사용하여 감사에서
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 
-도움말: [Adobe Target과 Experience Cloud 통합](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=en)
+도움말: [Adobe Target과 Experience Cloud 통합](audience-library.md)
 
 Adobe Target을 Adobe Analytics 및 기타 Experience Cloud 솔루션과 통합하여 두 솔루션에서 동일한 데이터, 대상, 속성 및 지표를 사용할 수 있도록 합니다.
 
 **해당 솔루션 또는 서비스**
 
-* 고객 속성: 고객 속성에 대한 Adobe Target의 [가입](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=en) 구성
-* Experience Cloud 대상: [Experience Cloud 대상 라이브러리](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=en)
+* 고객 속성: 고객 속성에 대한 Adobe Target의 [가입](subscription.md) 구성
+* Experience Cloud 대상: [Experience Cloud 대상 라이브러리](audience-library.md)
 * Analytics: [Adobe Target용 보고 소스 Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
 * Dynamic Tag Management: [DTM을 사용하여 Adobe Target을 구현하는 우수 사례](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html?lang=en)
 * Audience Manager: [Adobe Audience Manager와 Adobe Target 데이터 통합](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en)
@@ -165,20 +164,20 @@ Adobe Target을 Adobe Analytics 및 기타 Experience Cloud 솔루션과 통합�
 
 **해당 솔루션 또는 서비스**
 
-* [Analytics](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/sitecatalyst.html)
-* [Analytics with External Providers](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/external-providers.html)
-* [Experience Cloud](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud.html)
-* [Creative Cloud](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/creative-cloud.html)
-* [Audience Manager](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/audiencemanager.html)
-* [Campaign](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/campaign.html)
-* [Scene7](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7.html)
-* [Adobe Target](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/target/target-configuring.html)
-* [타사 서비스](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/third-party-services.html)(data connectors)
-* [확장](https://docs.adobe.com/content/docs/en/aem/6-2/develop/extending.html)
+* [Analytics](https://experienceleague.adobe.com/docs/)
+* [Analytics with External Providers](https://experienceleague.adobe.com/docs/)
+* [Experience Cloud](https://experienceleague.adobe.com/docs/)
+* [Creative Cloud](https://experienceleague.adobe.com/docs/)
+* [Audience Manager](https://experienceleague.adobe.com/docs/)
+* [Campaign](https://experienceleague.adobe.com/docs/)
+* [Scene7](https://experienceleague.adobe.com/docs/)
+* [Adobe Target](https://experienceleague.adobe.com/docs/)
+* [타사 서비스](https://experienceleague.adobe.com/docs/)(data connectors)
+* [확장](https://experienceleague.adobe.com/docs/)
 
 ## Experience Manager - 자산 {#section_CB865F8EFE4C4147BF8E2E4B66B5A318}
 
-도움말: [Experience Cloud 및 Creative Cloud로 AEM Assets 통합 구성](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/configure-assets-cc-integration.html)
+도움말: [Experience Cloud 및 Creative Cloud로 AEM Assets 통합 구성](https://experienceleague.adobe.com/docs/)
 
 AEM(Adobe Experience Manager) 자산 내의 자산을 Adobe Creative Cloud와 동기화하거나 그 반대로 동기화합니다. 자산을 Experience Cloud와 동기화하거나 그 반대로 동기화할 수 있습니다. Experience Cloud를 통해 이러한 동기화를 설정할 수 있습니다.
 
@@ -186,20 +185,20 @@ AEM(Adobe Experience Manager) 자산 내의 자산을 Adobe Creative Cloud와 �
 
 * AEM
 * Creative Cloud
-* [Experience Cloud](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud.html)
+* [Experience Cloud](https://experienceleague.adobe.com/docs/)
 
 ## [!DNL Adobe Advertising] {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-도움말(로그인 필요): [Adobe Experience Cloud 솔루션 및 서비스와의 통합](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
+도움말(로그인 필요): [Adobe Experience Cloud 솔루션 및 서비스와의 통합](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
 **해당 솔루션 또는 서비스**
 
 **Analytics:** 사이트 참여 및 변환 데이터를 매일 로 전송할 수 있습니다. 여기서 광고 최적화 및 보고를 위해 데이터를 사용할 수 있습니다.  [!DNL Adobe Advertising] 또한 [!DNL Advertising]은(는) 검색 엔진 및 소셜 네트워크 트래픽 데이터를 매일 Analytics로 전송할 수 있습니다. 여기서 Reports &amp; Analytics, Report Builder 및 Ad Hoc Analysis 기능은 데이터를 사용할 수 있습니다.
 
-**다이내믹 태그 관리자:** 다이내믹 태그 관리자를  [사용하여 검색, 소셜 및 디스플레이 광고 랜딩 페이지용으로 광고 픽셀 기반 변환 추적 태그](https://docs.adobe.com/content/help/ko-KR/dtm/using/tools/media-optimizer.html) 및 타사 추적 태그를 만들 수 있습니다. ( [!DNL Advertising] 내에서 직접 [!DNL Advertising] 태그를 만들 수도 있습니다.)
+**다이내믹 태그 관리자:** 다이내믹 태그 관리자를  [사용하여 검색, 소셜 및 디스플레이 광고 랜딩 페이지용으로 광고 픽셀 기반 변환 추적 태그](https://experienceleague.adobe.com/docs/dtm/using/tools/media-optimizer.html?lang=en) 및 타사 추적 태그를 만들 수 있습니다. ( [!DNL Advertising] 내에서 직접 [!DNL Advertising] 태그를 만들 수도 있습니다.)
 
-**Experience Cloud 대상:** (디스플레이 관리 부서가 있는 광고주) [Adobe Experience Cloud 대상](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audience-library.html)을 디스플레이 광고 대상으로 사용할 수 있습니다. Adobe Experience Cloud에서 만든 대상과 Adobe Experience Cloud에 게시한 분석의 대상을 자동으로 사용할 수 있으며, [!DNL Adobe Advertising] 계정이 Audience Manager을 허용하도록 구성된 경우 이 대상도 사용할 수 있습니다. Adobe Experience Cloud, 프로필 및 대상에 대한 액세스와 [!DNL Adobe Advertising] 및 Adobe Experience Cloud 대상 간 초기 설정에 대한 자세한 내용은 계정 관리자에게 문의하십시오. **참고:** Adobe Target도 사용하는 경우 Adobe Experience Cloud에 게시한 모든 대상을 Adobe Target의 활동에도 사용할 수 있습니다.
+**Experience Cloud 대상:** (디스플레이 관리 부서가 있는 광고주) [Adobe Experience Cloud 대상](audience-library.md)을 디스플레이 광고 대상으로 사용할 수 있습니다. Experience Cloud에서 만든 대상과 Adobe Experience Cloud에 게시한 분석의 대상을 자동으로 사용할 수 있습니다. [!DNL Adobe Advertising] 계정이 Audience Manager을 허용하도록 구성된 경우 해당 계정의 대상을 사용할 수도 있습니다. Adobe Experience Cloud, 프로필 및 대상에 대한 액세스와 [!DNL Adobe Advertising] 및 Adobe Experience Cloud 대상 간 초기 설정에 대한 자세한 내용은 계정 관리자에게 문의하십시오. **참고:** Adobe Target도 사용하는 경우 Adobe Experience Cloud에 게시한 모든 대상을 Adobe Target의 활동에도 사용할 수 있습니다.
 
-**Experience Cloud 자산:** (디스플레이 관리 부서가 있는 광고주) 새 디스플레이 베타 보기를 사용하여 Adobe Experience Cloud 자산을 디스플레이 광고를 위한 크리에이티브 기능으로 사용할 수 있습니다. Adobe Experience Cloud 자산에 액세스하려면 [Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)을 통해 Adobe 광고에 로그인되어 있어야 합니다. Adobe Experience Cloud 액세스에 대한 자세한 내용은 계정 관리자에게 문의하십시오.
+**Experience Cloud 자산:** (디스플레이 관리 부서가 있는 광고주) 새 디스플레이 베타 보기를 사용하여 Adobe Experience Cloud 자산을 디스플레이 광고를 위한 크리에이티브 기능으로 사용할 수 있습니다. Adobe Experience Cloud 자산에 액세스하려면 [Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)을 통해 Adobe 광고에 로그인되어 있어야 합니다. Adobe Experience Cloud 액세스에 대한 자세한 내용은 계정 관리자에게 문의하십시오.
 
-**Experience Cloud 알림:** 각 페이지 맨 위에 있는 알림 링크에서 검색 베타 경고 템플릿과 Adobe Experience Cloud 시스템 업데이트, 게시물, 언급 및 공유 자산에서 생성된 모든 경고를 볼 수 있습니다. 알림에 액세스하려면 [Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)을 통해 Adobe 광고에 로그인되어 있어야 합니다. Adobe Experience Cloud 액세스에 대한 자세한 내용은 계정 관리자에게 문의하십시오.
+**Experience Cloud 알림:** 각 페이지 맨 위에 있는 알림 링크에서 검색 베타 경고 템플릿에서 생성된 모든 경고를 볼 수 있습니다. Experience Cloud 시스템 업데이트, 게시물, 언급 및 공유된 자산을 가져올 수도 있습니다. 알림에 액세스하려면 [Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)을 통해 Adobe 광고에 로그인되어 있어야 합니다. Adobe Experience Cloud 액세스에 대한 자세한 내용은 계정 관리자에게 문의하십시오.
