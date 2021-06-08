@@ -1,6 +1,6 @@
 ---
-description: 고객 특성 소스를 만들고 Adobe Experience Cloud에 업로드하는 방법을 알아봅니다.
-keywords: 고객 특성;코어 서비스
+description: 고객 속성 소스를 만들고 Adobe Experience Cloud에 업로드하는 방법을 알아봅니다.
+keywords: 고객 속성;코어 서비스
 solution: Experience Cloud
 title: '고객 속성 소스를 만들고 데이터 파일 업로드 '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
@@ -9,16 +9,16 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 90%
+ht-degree: 76%
 
 ---
 
 # 고객 속성 소스를 만들고 데이터 파일 업로드
 
-고객 속성 소스(CSV 및 FIN 파일)를 생성하고 데이터를 업로드하십시오. 준비가 되면 데이터 소스를 활성화할 수도 있습니다. 데이터 소스가 활성화되면 속성 데이터를 Analytics 및 Target과 공유합니다.
+고객 속성 소스(CSV 및 FIN 파일)를 만들고 데이터를 업로드합니다. 준비가 되면 데이터 소스를 활성화할 수도 있습니다. 데이터 소스가 활성화되면 속성 데이터를 Analytics 및 Target과 공유합니다.
 
 ## 고객 속성 워크플로우 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
@@ -57,7 +57,7 @@ ht-degree: 90%
    ![](assets/01_crs_usecase.png)
 
 1. 계속하기 전에 파일을 업로드하려면 [데이터 파일 요구 사항](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)의 중요 정보를 검토하십시오.
-1. 아래 설명된 대로 [고객 속성 소스를 만들고 데이터를 업로드](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)합니다.
+1. [아래 설명된 대로 고객 속성 소스를 만들고 데이터를](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) 업로드합니다.
 
 ## 특성 소스를 만들고 데이터 파일 업로드 {#task_09DAC0F2B76141E491721C1E679AABC8}
 
@@ -169,7 +169,7 @@ Experience Cloud에 게시한 세그먼트는 Experience Cloud 대상 및 Audien
 
 ## Adobe Target에서 고객 속성 사용 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-[!DNL Target]에서는 대상을 만들 때 [!UICONTROL 방문자 프로필] 섹션에서 고객 속성을 선택할 수 있습니다. 모든 고객 속성에는 목록에 접두사 `crs.`이 있습니다. 필요에 따라 이러한 속성을 다른 데이터 속성과 결합하여 대상을 구성합니다.
+[!DNL Target]에서 대상을 만들 때 [!UICONTROL 방문자 프로필] 섹션에서 고객 속성을 선택할 수 있습니다. 모든 고객 속성에는 목록에 접두사 `crs.`이 있습니다. 필요에 따라 이러한 속성을 다른 데이터 속성과 결합하여 대상을 구성합니다.
 
 ![](assets/crs-add-attribute-target.png)
 
