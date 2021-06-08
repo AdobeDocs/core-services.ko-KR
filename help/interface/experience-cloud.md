@@ -8,14 +8,14 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '911'
 ht-degree: 30%
 
 ---
 
-# Experience Cloud 중앙 인터페이스 구성 요소
+# Experience Cloud 중앙 인터페이스 구성 요소 안내서
 
 [Experience ](https://experience.adobe.com) Cloud Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군. 직관적인 인터페이스를 통해 클라우드 애플리케이션, 제품 기능 및 서비스에 빠르게 액세스할 수 있습니다.
 
