@@ -9,10 +9,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 78%
+ht-degree: 69%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 78%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>쉼표로 구분된 값 파일(예: Excel에서 만든 파일)입니다. 이 파일에는 고객 특성 데이터가 포함되어 있습니다. </p> <p> <b>이름 지정 요구 사항:</b> 파일 이름 확장명에 공백이 들어 있지 않은지 확인하십시오. </p> </td> 
+   <td colname="col2"> <p>쉼표로 구분된 값 파일(예: Excel에서 만든 파일)입니다. 이 파일에는 고객 속성 데이터가 포함되어 있습니다. </p> <p> <b>이름 지정 요구 사항:</b> 파일 이름 확장명에 공백이 들어 있지 않은지 확인하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
@@ -85,7 +85,7 @@ CSV 파일은 다음 형식을 따라야 합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>특성 제한 </p> </td> 
-   <td colname="col2"> <p>수백 개의 <span class="filepath">.csv</span> 열을 Experience Cloud의 고객 속성 서비스로 업로드할 수 있습니다. 그렇지만 가입을 구성하고 속성을 선택할 때 보유하고 있는 솔루션에 따라 다음과 같은 제한이 적용됩니다. </p> <p> 
+   <td colname="col2"> <p>수백 개의 <span class="filepath"> .csv </span> 열을 Experience Cloud의 고객 속성 서비스로 업로드할 수 있습니다. 그렇지만 가입을 구성하고 속성을 선택할 때 보유하고 있는 솔루션에 따라 다음과 같은 제한이 적용됩니다. </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>: 총 3개 </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 보고서 세트당 200개 </li> 
@@ -140,9 +140,9 @@ CSV 파일은 다음 형식을 따라야 합니다.
 
 ## 여러 데이터 소스 사용 {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
-고객 특성 소스를 만들거나, 수정하거나 삭제할 때, ID가 새 데이터 소스와의 동기화를 시작하기 전에 약 한 시간의 지연이 있습니다.
+고객 속성 소스를 만들거나, 수정하거나 삭제할 때, ID가 새 데이터 소스와의 동기화를 시작하기 전에 약 한 시간의 지연이 있습니다.
 
-각 고객 특성 소스에 대한 별칭 ID는 고유해야 합니다. 동일한 ID를 사용하는 데이터 소스가 여러 개 있는 경우, 다음과 같이 설정할 수 있습니다.
+각 고객 속성 소스에 대한 별칭 ID는 고유해야 합니다. 동일한 ID를 사용하는 데이터 소스가 여러 개 있는 경우, 다음과 같이 설정할 수 있습니다.
 
 **Dynamic Tag Management의 VisitorAPI.js 또는 Experience Cloud ID 도구에서 다음을 수행합니다.**
 
@@ -159,4 +159,4 @@ Visitor.setCustomerIDs({
 
 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 사용자]** > **[!UICONTROL 고객 속성]**&#x200B;에서 다음을 수행합니다.
 
-위의 고객 ID에 해당하는 고유한 별칭 ID를 사용하여 두 개의 고객 속성 소스를 만듭니다. 이 방법을 사용하면 동일한 참조 ID를 여러 고객 특성 소스로 보낼 수 있습니다.
+위의 고객 ID에 해당하는 고유한 별칭 ID를 사용하여 두 개의 고객 속성 소스를 만듭니다. 이 방법을 사용하면 동일한 참조 ID를 여러 고객 속성 소스로 보낼 수 있습니다.
