@@ -9,10 +9,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1406'
-ht-degree: 51%
+ht-degree: 48%
 
 ---
 
@@ -149,7 +149,7 @@ Adobe Target을 Adobe Analytics 및 기타 Experience Cloud 솔루션과 통합�
 
 **해당 솔루션 또는 서비스**
 
-* 고객 속성: 고객 속성에 대한 Adobe Target의 [가입](subscription.md) 구성
+* 고객 속성:고객 속성에 Adobe Target의 [구독](subscription.md) 구성
 * Experience Cloud 대상: [Experience Cloud 대상 라이브러리](audience-library.md)
 * Analytics: [Adobe Target용 보고 소스 Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
 * Dynamic Tag Management: [DTM을 사용하여 Adobe Target을 구현하는 우수 사례](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html?lang=en)
