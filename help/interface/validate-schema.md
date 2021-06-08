@@ -2,17 +2,17 @@
 description: Adobe Experience Cloud에서 고객 특성 스키마의 유효성을 검사하는 방법을 알아봅니다.
 keywords: 고객 특성;Experience Cloud 서비스
 solution: Experience Cloud
-title: '고객 특성 스키마의 유효성을 검사하는 방법 '
+title: '고객 속성 스키마의 유효성을 검사하는 방법 '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 feature: 고객 속성
 topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 91%
+ht-degree: 82%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 91%
 
    * **[!UICONTROL AVID(Analytics visitor ID):]** prop 또는 eVar을 사용하여 CID를 업로드하는 경우에 표시됩니다. 그러한 ID가 Experience Cloud로 전달되면 입력한 CID와 연결된 모든 방문자 ID가 여기에 표시됩니다.
 
-Experience Cloud에서 고객 특성 소스 및 FTP 계정을 만든 후에 FTP를 통해 데이터를 업로드할 수도 있습니다. 특성 소스당 FTP 계정을 1개 만듭니다. 업로드한 파일은 해당 계정의 루트 폴더에 저장됩니다. 데이터는 `.csv` 형식이어야 하며 업로드가 완료되었음을 나타내는 두 번째 `.fin` 파일도 있어야 합니다.
+Experience Cloud에서 고객 속성 소스 및 FTP 계정을 만든 후에 FTP를 통해 데이터를 업로드할 수도 있습니다. 특성 소스당 FTP 계정을 1개 만듭니다. 업로드한 파일은 해당 계정의 루트 폴더에 저장됩니다. 데이터는 `.csv` 형식이어야 하며 업로드가 완료되었음을 나타내는 두 번째 `.fin` 파일도 있어야 합니다.
 
 문자열, 정수 및 숫자에 적용하는 이름은 [!DNL Analytics] 지표를 만드는 데 사용됩니다.
 
