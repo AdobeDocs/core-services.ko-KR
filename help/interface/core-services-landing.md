@@ -7,14 +7,14 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 7732fe63bdaa71446e06b3045de1cc632a844a0d
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 69%
 
 ---
 
-# Experience Cloud에 대하여 {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# Experience Cloud 서비스 {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
 Adobe Experience Cloud 서비스에는 [!UICONTROL 사용자] (대상 및 고객 속성), Experience Platform Launch 및 모바일 서비스가 포함됩니다. Experience Cloud 사용자 및 제품 관리에 대한 도움말도 찾을 수 있습니다.
 
