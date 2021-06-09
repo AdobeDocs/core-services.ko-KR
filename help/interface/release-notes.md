@@ -1,36 +1,43 @@
 ---
-description: '"고객 특성, 대상자 및 사용자 관리와 같은 Experience Cloud 서비스에 대한 최신 기능, 릴리스 노트 및 알려진 문제"'
+description: '"고객 특성, Audiences 및 사용자 관리와 같은 Experience Cloud 서비스에 대한 최신 기능, 릴리스 노트 및 알려진 문제"'
 keywords: 핵심 서비스
 solution: Experience Cloud
-title: '누적 릴리스 노트 '
+title: '누적 릴리스 정보 '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: '"고객 속성"'
+feature: '''고객 속성'''
 topic: 관리
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: f28f7f7824981b76fd05b8fb4eab874b04312712
 workflow-type: tm+mt
-source-wordcount: '4094'
-ht-degree: 88%
+source-wordcount: '4189'
+ht-degree: 89%
 
 ---
 
-# 누적 릴리스 노트
+# 누적 릴리스 정보
 
-Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려진 문제입니다.
+Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리스 노트 및 알려진 문제입니다.
 
 설명서 업데이트 목록은 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)를 참조하십시오.
 
 모든 솔루션에 대해 설명하는 릴리스 노트가 필요하면 [Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)를 참조하십시오.
 
+## 2021년 6월
+
+| 기능 | 날짜 | 설명 |
+| ------- | ------- | ------- |
+| Adobe Federated ID에 대한 단일 사인온 지원 | 2021년 6월 17일 | Federated ID를 사용하는 경우 이메일 주소나 암호를 입력하지 않고도 Experience Cloud에 로그인할 수 있습니다. 이 기능을 사용하려면 Experience Cloud URL에 `#/sso:@domain` 을 추가하십시오. <br>예를 들어 도메인을 소유하고  `adobecustomer.com` 있고 Adobe Analytics에 로그인하려고 한다고 가정합니다. URL은 다음과 같습니다.`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics` |
+| Experience League 검색 | 2021년 6월 1일 | Experience League 설명서 검색이 개선되었습니다. [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) 로 이동하고 **[!UICONTROL 검색]** 필드를 사용하여 자습서, 설명서, 강좌 등을 찾습니다. |
+
 ## 2021년 5월
 
 | 기능 | 날짜 | 설명 |
 | ------- | ------- | ------- |
-| Experience Cloud 헤더 및 탐색 | 2021년 5월 20일 | Adobe Experience Cloud 업데이트에는 헤더의 밝은 테마 변경 사항이 포함되어 있으며, Experience Cloud 헤더에서 사용자 아바타에서 추가 환경 설정을 제어하기 위해 어두운 테마로 쉽게 전환할 수 있는 링크가 포함되어 있습니다. Experience Cloud의 모든 응용 프로그램이 지원을 제공하는 것은 아니지만 이 기능은 향후 테마 지원을 잠금 해제합니다. |
-| Experience Cloud 전역 검색 | 2021년 5월 20일 | 이 릴리스에서는 Experience Cloud 전역 검색을 통해 [Experience League](https://experienceleague.adobe.com/?lang=ko-KR/#home) 설명서, 교육 과정 및 자습서 중 하나를 검색할 수 있습니다. (현재, 전역 검색은 Experience Platform 사용자만 사용할 수 있습니다. [!UICONTROL Platform]에 대한 전역 검색을 사용하면 세그먼트, 데이터 세트, 스키마 등과 같은 Experience Cloud의 비즈니스 개체를 검색할 수 있습니다.) |
-| Experience Cloud 언어 환경 설정 | 2021년 5월 20일 | 이 업데이트에는 Experience Cloud [환경 설정](https://experience.adobe.com/preferences)에서 기본 언어를 설정하는 기능이 포함되어 있습니다. |
+| Experience Cloud 헤더 및 탐색 | 2021년 5월 20일 | Adobe Experience Cloud 업데이트에는 헤더의 밝은 테마 변경 기능과 Experience Cloud 헤더에서 어두운 테마로 쉽게 전환하고 사용자 아바타의 추가 환경 설정을 제어하는 링크가 포함되어 있습니다. Experience Cloud의 모든 애플리케이션이 테마를 지원하는 것은 아니지만, 이 기능은 향후에 테마를 지원할 수 있도록 합니다. |
+| Experience Cloud 글로벌 검색 | 2021년 5월 20일 | 이번 릴리스로 Experience Cloud 글로벌 검색을 통해 [Experience League](https://experienceleague.adobe.com/?lang=ko-KR/#home) 설명서, 과정 및 튜토리얼을 검색할 수 있게 되었습니다. (현재 글로벌 검색은 Experience Platform 사용자만 사용할 수 있습니다. [!UICONTROL Platform]용 글로벌 검색을 사용하면 세그먼트, 데이터 세트, 스키마 등과 같은 Experience Cloud의 모든 비즈니스 개체를 검색할 수 있습니다.) |
+| Experience Cloud 언어 환경 설정 | 2021년 5월 20일 | 이 업데이트에는 Experience Cloud [환경 설정](https://experience.adobe.com/preferences)에서 원하는 언어를 설정하는 기능이 포함되어 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -149,14 +156,14 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
  <tbody> 
   <tr> 
    <td colname="col1"> 대상 라이브러리 메시지 </td> 
-   <td colname="col2"> <p> 대상을 빌드하거나 시간 초과가 발생했을 때 유용한 메시지를 포함하도록 대상 라이브러리를 개선했습니다. </p> <p>예를 들면 6개 이상의 규칙을 추가할 때 허용 가능한 최대 규칙을 초과했음을 나타내는 메시지가 표시됩니다. (MAC-27376, MAC-27375) </p> </td> 
+   <td colname="col2"> <p> Audiences를 빌드하거나 시간 초과가 발생했을 때 유용한 메시지를 포함하도록 대상 라이브러리를 개선했습니다. </p> <p>예를 들면 6개 이상의 규칙을 추가할 때 허용 가능한 최대 규칙을 초과했음을 나타내는 메시지가 표시됩니다. (MAC-27376, MAC-27375) </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Microsoft®는 [Internet Explorer 8, 9 및 10의 지원을 종료](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support)합니다. 따라서 Adobe에서는 이러한 버전의 Internet Explorer에 대해 보고된 문제는 수정하지 않습니다.
+>Microsoft®는 [Internet Explorer 8, 9 및 10의 지원을 종료](https://www.microsoft.com/ko-kr/WindowsForBusiness/End-of-IE-support)합니다. 따라서 Adobe에서는 이러한 버전의 Internet Explorer에 대해 보고된 문제는 수정하지 않습니다.
 
 ## 릴리스 15.10 - 2015년 10월 14일 {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -169,14 +176,14 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 
 * 고객 속성 데이터를 업로드할 때 간혹 시간 초과를 초래하는 Audience Manager API 성능 문제를 수정했습니다. (MAC-26305)
 * 사용자가 가입에 최대 200개의 고객 속성을 추가하지 못하던 문제를 수정했습니다. (MAC-26188)
-* Analytics 세그멘테이션에서 대상 공유를 방해했던 대상 라이브러리 문제를 수정했습니다. 이 문제로 인해 &quot;데이터 수집&quot;(대상 0개)이 표시되었습니다. 이 문제를 방지하려면 세그먼트 크기를 세그먼트당 대상 구성원 수를 5만 명 미만으로 유지하는 것이 좋습니다. (MAC-25788)
+* Analytics 세그멘테이션에서 대상 공유를 방해했던 대상 라이브러리 문제를 수정했습니다. 이 문제로 인해 &quot;데이터 수집&quot;(Audiences 0개)이 표시되었습니다. 이 문제를 방지하려면 세그먼트 크기를 세그먼트당 대상 구성원 수를 5만 명 미만으로 유지하는 것이 좋습니다. (MAC-25788)
 * 고객 속성 - 스키마 편집 페이지에서 디스플레이 이름을 변경하면 발생하는 컨텐츠 인식 오류를 초래하는 이전에 알려진 문제를 수정했습니다. (MAC-25589, AN-103834)
 
 ## 릴리스 15.7 - 2015년 7월 22일 {#section_2683A152176944E48EF6C943892975B7}
 
 * 고객 속성의 스키마 보기/편집 페이지에 지정된 속성 설명이 Analytics 보고서에 업데이트되지 않던 문제를 수정했습니다. (MAC-25985)
 * 업로드한 자산의 썸네일을 렌더링하지 못하는 문제를 해결했습니다. (MAC-25863)
-* Experience Cloud 대상의 Reports &amp; Analytics에 새 세그먼트를 생성하지 못하는 문제를 해결했습니다. (MAC-25817)
+* Experience Cloud Audiences의 Reports &amp; Analytics에 새 세그먼트를 생성하지 못하는 문제를 해결했습니다. (MAC-25817)
 * 고객이 방문자 ID 서비스를 사용하면 Analytics에서 공유하지 못하는 문제를 해결했습니다. (MAC-25788, MAC-25747)
 * 고객 속성에 멀티바이트 문자 지원을 추가했습니다. (MAC-25552)
 
@@ -202,7 +209,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>왼쪽 탐색 메뉴가 모든 핵심 서비스 및 솔루션에 액세스할 수 있도록 업데이트 및 구성되었습니다. 주목할 만한 변경 사항은 다음과 같습니다. </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"><span class="term">대상 라이브러리</span> 및 <span class="term">고객 속성</span> 메뉴 모음이 이제 <span class="term">대상자</span> 아래에 있습니다. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"><span class="term">대상 라이브러리</span> 및 <span class="term">고객 속성</span> 메뉴 모음이 이제 <span class="term">Audiences</span> 아래에 있습니다. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4"><span class="term">Exchange</span> 메뉴 선택 사항은 도움말 드롭다운 메뉴에서 왼쪽 탐색 레일로 이동되었습니다. </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> 솔루션</span>은 제거되었습니다. 탐색 레일의 하단에서 모든 솔루션을 시작할 수 있습니다. </li> 
     </ul> </td> 
@@ -211,7 +218,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 </table>
 
 * 일부 고객의 경우 고객 속성이 동기화되지 않던 문제를 수정했습니다.
-* [Adobe Target 제품 설명서](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) 페이지가 일본어로 표시되지 않는 문제를 해결했습니다.
+* [Adobe Target 제품 설명서](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko-KR) 페이지가 일본어로 표시되지 않는 문제를 해결했습니다.
 * [!DNL Creative Cloud]와 [!DNL Experience Cloud] 간 주석에서 일본어 텍스트를 사용할 수 없던 문제를 수정했습니다.
 
 ## 릴리스 15.4.1 - 2015년 4월 8일 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -296,7 +303,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 
 * 계정 프로비저닝을 위해 사용자 이메일 초대 작업 과정을 개선했습니다.
 * [!DNL Experience Cloud]와 [!DNL Adobe Campaign] 자산이 동일한 폴더 계층을 표시하지 않도록 하는 자산 폴더 문제가 수정되었습니다.
-* 비활성화된 [!DNL Target] 활동에 속했던 대상을 삭제하지 못했던 문제가 수정되었습니다.
+* 비활성화된 [!DNL Target] 활동에 속했던 Audiences를 삭제하지 못했던 문제가 수정되었습니다.
 * [!UICONTROL 새 대상 만들기] 페이지의 [!UICONTROL 규칙] 아래에 추가(더하기) 아이콘이 표시되지 않던 문제가 수정되었습니다.
 * Internet Explorer 9에 대한 Experience Cloud 인터페이스 지원을 개선했습니다.
 
@@ -337,7 +344,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
 * 일부 사용자는 Creative Cloud 사용자가 삭제된 후 Creative Cloud 사용자를 다시 공유 폴더에 추가하지 못할 수 있습니다.
 * 일부 사용자는 폴더를 Experience Cloud에서 Creative Cloud로 공유하면 발생하는 알림이 지연될 수 있습니다.
 * 일부 사용자는 Experience Cloud와 Creative Cloud 간에 폴더를 공유할 때 문제가 발생할 수 있습니다.
-* 일부 사용자는 공유된 대상이 활성화되면 Analytics 리포트 빌더 내에 대상을 만들 때 문제가 발생할 수 있습니다.
+* 일부 사용자는 공유된 Audiences가 활성화되면 Analytics 리포트 빌더 내에 대상을 만들 때 문제가 발생할 수 있습니다.
 * 보드에 업로드하는 중 일부 사용자에게 문제가 발생할 수 있습니다.
 
 ## 릴리스 14.11.1 - 2014년 11월 13일 {#section_A6CF1D4F27B9496892A89C983EB39102}
@@ -481,7 +488,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>  대상의 <span class="wintitle">저장</span> 단추 </p> </td> 
+   <td colname="col1"> <p> Audiences의 <span class="wintitle">저장</span> 단추 </p> </td> 
    <td colname="col2"> <p>이제 대상 만들기, <span class="wintitle">새 대상 만들기</span> 페이지의 <span class="wintitle">저장</span> 단추가 필수 필드를 모두 채워야만 활성화됩니다. 
      <!--MAC-19712 --></p> </td> 
   </tr> 
@@ -517,7 +524,7 @@ Experience Cloud 인터페이스에 대한 기능, 릴리스 노트 및 알려�
    <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">도움말</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud </span><span class="wintitle">Exchange</span>는 앱을 통해 디지털 마케팅 확장 기능을 검색, 탐색, 선택, 지불, 다운로드할 수 있는 단일 대상입니다. </p> <p>앱에는 Data Connectors, Adobe의 핵심 제품에 대한 사용자 지정 구성, 타사 애플리케이션, 보고서 및 <span class="keyword"> Experience Cloud</span> 카드가 포함됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Experience Cloud 대상 </p> </td> 
+   <td colname="col1"> <p>Experience Cloud Audiences </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">대상</span></p> <p> <span class="wintitle"> 대상</span>은 세그먼트 작업 방식과 유사한 방식으로 대상을 만들고, 편집하고, 관리하는 곳입니다. 예를 들어 Reports &amp; Analytics에서 세그먼트를 만든 다음 <span class="wintitle"> Experience Cloud</span><span class="wintitle"> 대상</span>에 공유할 수 있습니다. 이렇게 공유된 대상은 <span class="keyword">Adobe Target</span>에서 캠페인 활동에 사용하거나 Adobe Audience Manager에서 세그멘테이션에 사용할 수 있습니다. </p> <p> <p>참고:Target에서 활성화를 요청하려면 <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>을 방문하십시오. </p> </p> </td> 
   </tr> 
   <tr> 
