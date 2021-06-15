@@ -1,6 +1,6 @@
 ---
 title: Experience Cloud UI 구성 요소 및 서비스
-description: Adobe Admin Console, 대상 라이브러리, 고객 속성, Experience Cloud 자산 등의 UI 구성 요소, 사용자 및 제품 관리에 대해 알아보십시오.
+description: UI 구성 요소, Adobe Admin Console의 사용자 및 제품 관리, 대상 라이브러리, 고객 속성, Experience Cloud Assets 등에 대해 알아봅니다.
 cloud: Experience Cloud
 product: experience cloud
 solution: Experience Cloud Services
@@ -11,20 +11,19 @@ solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: 시작하기
 getting-started-url: https://helpx.adobe.com/kr/experience-cloud-core-services/get-started.html
 tutorials-title: 자습서
-tutorials-url: https://docs.adobe.com/content/help/ko-kr/core-services-learn/tutorials/overview.html
+tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.ko-KR
-translation-type: tm+mt
-source-git-commit: 92879002608cc720b69cb323f9d4c12eee2181d5
+source-git-commit: 918c72e675be85f1309dc697a668771b97bef324
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 86%
+ht-degree: 96%
 
 ---
 
 
 # 내부용 메타데이터
 
-metadata.md 파일에는 리포지토리의 사용 안내서 TOC.md 파일에 전달되는 리포지토리 수준 메타데이터가 포함되어 있습니다. 모든 사용 안내서를 위한 metadata.md 컨텐츠를 변경하려면 TOC.md 파일에서 이 작업을 수행합니다.
+metadata.md 파일에는 리포지토리의 사용 안내서 TOC.md 파일에 전달되는 리포지토리 수준 메타데이터가 포함되어 있습니다. 모든 사용 안내서를 위한 metadata.md 콘텐츠를 변경하려면 TOC.md 파일에서 이 작업을 수행하십시오.
 
 | 메타데이터 | 기능 |
 |--- |--- |
