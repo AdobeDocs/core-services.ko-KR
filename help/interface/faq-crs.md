@@ -9,10 +9,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 68%
+source-wordcount: '1181'
+ht-degree: 69%
 
 ---
 
@@ -32,6 +32,8 @@ Adobe Analytics 및 Adobe Target의 [!UICONTROL 고객 속성]에 대한 FAQ와 
 | 사용자 지정 Analytics ID(`s.visitorID`) | `s.visitorID` 를 사용하여 고객 ID를 설정하는 것은 Analytics에서 사용자를 식별하는 방법입니다. 그러나 ID 서비스를 사용하여 [!DNL Analytics] 데이터를 내보내거나 가져오는 통합은 방문자가 `s.visitorID.`<br>을 사용하여 식별될 때 작동하지 않습니다. 여기에는 공유 대상, Adobe Target용 [!DNL Analytics](A4T) 및 [!UICONTROL 고객 속성]이 포함되지만, 이에 제한되지 않습니다.<br>이러한 통합의 경우 사용자 지정 Analytics ID를 설정할 수 없습니다. |
 | [!DNL Analytics]의 문자 길이 제한 | [!DNL Analytics] 구독을 만들 때 업로드된 파일의 필드 길이는 255자로 잘립니다. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 고객 속성에 대한 FAQ {#section_E47866EEA83348E09FE43CEC5E44C461}
 
 | 질문 | 답변 |
@@ -49,3 +51,5 @@ Adobe Analytics 및 Adobe Target의 [!UICONTROL 고객 속성]에 대한 FAQ와 
 | **(Adobe Target만 해당)** 방문자가 고객 ID로 식별되면 바로 고객 속성에 업로드된 데이터를 타깃팅할 수 있습니까? | 예. Adobe Target에 대한 서버 호출 시 여기에 mbox 타사 ID가 포함되면 모든 고객 속성 데이터를 사용할 수 있습니다. |
 | **(Adobe Target만 해당)**  **[!UICONTROL 동기화]** 상태 열은 고객 속성 소스에 업로드된 파일에 대해 무엇을 나타냅니까? | 특정 특성 파일에 대한 동기화 상태 아이콘을 클릭하여 Adobe Target에 의해 게시되고 동기화된 레코드 수를 볼 수 있습니다. `Sync %` 는 Adobe Target에서 동기화된 프로필의 비율(%)을 지정하는 실시간 지표입니다.<br> **참고:** 속성이 Adobe Target과 동기화되려면 최대 24시간이 걸릴 수 있습니다. |
 | 고객 속성 소스에서 파일 업로드 지표가 나타내는 것은 무엇입니까? | 다음 지표의 도움을 받아 고객 속성에 업로드된 속성의 상태를 확인할 수 있습니다. <ul><li>레코드: 속성 파일에 있는 레코드 수입니다.</li><li>**새 레코드:** 속성 파일에 있는 새 레코드 수입니다.</li> <li>**업데이트된 레코드:** 파일에서 업데이트된 값이 있는 고객 속성에 있는 레코드 수입니다.</li><li>**모든 데이터(레코드):** 고객 속성에 성공적으로 업로드된 총 레코드 수입니다.</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
