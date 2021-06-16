@@ -6,15 +6,15 @@ seo-title: 용어
 solution: Experience Cloud
 title: '용어 '
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-feature: '"고객 속성"'
+feature: '''고객 속성'''
 topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: 253a6df12e603713a282b3c000311b0d67d0ccda
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 73%
+source-wordcount: '1471'
+ht-degree: 74%
 
 ---
 
@@ -26,7 +26,7 @@ Experience Cloud 사용자를 위한 용어 참조 및 Creative Cloud에서 그�
 |--- |----- |---- |
 | 자산 | Creative Cloud에서 자산은 일반적으로 이미지 파일입니다.<br>자산은 Photoshop 파일의 레이어, PowerPoint 파일의 슬라이드, PDF의 페이지, ZIP에 들어 있는 파일일 수 있습니다. | Experience Cloud에서 자산은 디지털 문서, 이미지, 비디오 또는 오디오 파일로, 다양한 표현물과 하위 자산을 가질 수 있습니다. 해당 예는 다음과 같습니다.<ul><li>파일</li><li>문서</li><li>이미지</li><li>비디오</li><li>오디오 클립</li><li>프레젠테이션</li><li>이미지 템플릿</li><li>비디오 템플릿</li></ul> |
 | 특성 |  | 사람들이 [세그먼트](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=en)에 대한 자격이 되는 경우 공통으로 가지는 사항. (Audience Manager의 [트레이트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=en)와 비슷합니다.) |
-| 대상자 | Creative Cloud에서 대상은 비디오를 보는 사람이 될 수 있습니다. | Experience Cloud에서 대상은 캠페인 활동에서 타깃팅할 수 있는 사람의 컬렉션입니다.<br>대상의 멤버십은 방문자의 컨텍스트에 따라 작동하는 규칙 세트 또는 고정된 목록을 기반으로 결정할 수 있습니다. Facebook 그룹의 이메일 가입자 또는 멤버 목록을 예로 들 수 있습니다.<br>Experience Cloud  [대상](audience-library.md)에서 대상을 만들고 관리하는 것은 Experience Cloud에 공유하는 기능을 추가하여 세그먼트를 만들고 사용하는 것과 비슷합니다.<br>**Adobe Target**<br> Adobe Target에서 대상은 이전에 세그먼트라고 불렀습니다.<br>**Adobe Analytics**<br> Analytics에서 대상은 웹 사이트 방문자로 생각할 수 있습니다. 대상 세그먼트를 만들고 대상을 Experience Cloud에 게시할 수 있습니다. |
+| Audiences | Creative Cloud에서 대상은 비디오를 보는 사람이 될 수 있습니다. | Experience Cloud에서 대상은 캠페인 활동에서 타깃팅할 수 있는 사람의 컬렉션입니다.<br>대상의 멤버십은 방문자의 컨텍스트에 따라 작동하는 규칙 세트 또는 고정된 목록을 기반으로 결정할 수 있습니다. Facebook 그룹의 이메일 가입자 또는 멤버 목록을 예로 들 수 있습니다.<br>Experience Cloud  [대상](audience-library.md)에서 대상을 만들고 관리하는 것은 Experience Cloud에 공유하는 기능을 추가하여 세그먼트를 만들고 사용하는 것과 비슷합니다.<br>**Adobe Target**<br> Adobe Target에서 대상은 이전에 세그먼트라고 불렀습니다.<br>**Adobe Analytics**<br> Analytics에서 대상은 웹 사이트 방문자로 생각할 수 있습니다. 대상 세그먼트를 만들고 대상을 Experience Cloud에 게시할 수 있습니다. |
 | Campaigns | Creative Cloud에서 캠페인은 Creative Cloud 이미지 자산을 사용하는 마케팅 캠페인으로 생각할 수 있습니다. | Experience Cloud에서, 캠페인은 대상에 표시되는 컨텐츠를 결정합니다. 컨텐츠가 표시되는 위치와 시기도 결정합니다. 캠페인에는 특정 목표가 있으며, 지표로 목표를 추적합니다.<br>캠페인을 실행하기 위해서는 캠페인의 규칙 세트와 방문자의 컨텍스트가 일치해야 하고, 위치 채널의 기술적 제한에 따른 컨텐츠 배달이 필요합니다.<br>Adobe Target에서 캠페인과 활동이라는 용어는 동의어입니다. |
 | Channel | Creative Cloud에서 채널은 서로 다른 유형의 정보를 저장하는 회색 음영 이미지일 수 있습니다. 정보 채널과 색상 채널이 있습니다. | Experience Cloud에서, 채널은 위치 특성이나 캠페인에 있는 활동입니다.<br>Analytics에서 마케팅 채널은 이메일 캠페인 방식 등 일반적으로 방문자가 사이트에 도착하는 방식에 대한 통찰력을 제공하는 데 사용됩니다.<br>해당 예는 다음과 같습니다.<ul><li>이메일</li><li>디스플레이 광고</li><li>소셜 네트워크</li><li>유료 검색</li><li>자연어 검색</li><li>참조 도메인</li></ul> |
 | 컨텍스트 | 일반적으로 수행되는 선택 또는 작업에 따라 사용할 수 있는 메뉴 또는 정보를 나타냅니다. | 컨텍스트는 디지털 속성에 대한 방문자의 현재 상호 작용에 대한 세부 사항을 설명합니다. 컨텍스트의 예에는 마우스 위치, 양식 필드의 상태, 장바구니의 값 또는 사용하고 있는 장치가 포함됩니다.<br>[Dynamic tag management](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)는 현재 시장에서 가장 강력한 컨텍스트 탐지 및 서비스 활성화 기능을 제공하며 프로필 및 대상 서비스의 컨텍스트 구성 요소를 제공합니다. |
@@ -49,3 +49,5 @@ Experience Cloud 사용자를 위한 용어 참조 및 Creative Cloud에서 그�
 | 공유 | Creative Cloud에서는 플랫폼 간에 외부적으로 파일을 공유할 수 있습니다(소셜, 커뮤니티, 이메일 등). | Experience Cloud에서 인터페이스 내의 보드 안에서 자산을 카드로만 공유할 수 있습니다. 사이트에 로그인한 사람은 공유를 사용할 수 있습니다. |
 | 솔루션 | 특별한 용도는 없습니다. | Experience Cloud에서 솔루션은 Adobe Analytics, Adobe Social, Adobe Target 등과 같은 제품으로 알려져 있습니다. |
 | 트레이트 | 해당 없음 | 키-값 쌍(예: color=blue). Audience Manager에서 [트레이트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=en)는 세그먼트를 만드는 데 사용됩니다. |
+
+{style=&quot;table-layout:auto&quot;}
