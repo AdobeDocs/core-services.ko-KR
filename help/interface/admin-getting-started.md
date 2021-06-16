@@ -8,10 +8,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 47%
+source-wordcount: '1277'
+ht-degree: 48%
 
 ---
 
@@ -159,7 +159,7 @@ Experience Manager을 Cloud Service](https://experienceleague.adobe.com/docs/exp
 
 Audience Manager 사용자를 만들고 그룹에 지정합니다. 제한(트레이트, 세그먼트, 대상 및 [!DNL AlgoModel])을 볼 수도 있습니다.
 
-Audience Manager 도움말의 [관리](https://experienceleague.adobe.com/docs/dtm/using/admin/users.html?lang=en)를 참조하십시오.
+Audience Manager 도움말의 [관리](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=ko-KR)를 참조하십시오.
 
 ## Experience Cloud에서 지원되는 브라우저입니다
 
