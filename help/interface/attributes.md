@@ -7,10 +7,10 @@ role: Administrator
 topic: 관리
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 73%
+source-wordcount: '494'
+ht-degree: 75%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 73%
 
 >[!IMPORTANT]
 >
->[!UICONTROL 고객 ] 속성은 기존 서비스를 제공하며 현재는 지속 중입니다.
+>[!UICONTROL 고객 속성은 현재 유지되고 있는 레거시 서비스입니다.]
 
 [!UICONTROL  Experience Cloud의 고객 속성을 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. ] 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드한 다음 Adobe Analytics 및 Adobe Target의 데이터를 사용할 수 있습니다.
 
@@ -38,7 +38,7 @@ ht-degree: 73%
 
 * **Adobe Target** 고객 속성에 `at.js` (임의 버전) 또는 `mbox.js` 버전 58 이상이 필요합니다.
 
-   [at.js 배포 방법](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=en) 또는 [Mbox.js 구현](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=en)을 참조하십시오.
+   [at.js 배포 방법](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=en) 또는 [Mbox.js 구현](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=en)을 참고하십시오.
 
 ## 엔터프라이즈 고객 데이터란? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -62,3 +62,5 @@ ht-degree: 73%
 |--- |--- |
 | Adobe Analytics | 마케터와 분석가는 다음을 이해할 수 있습니다.<ul><li>Gold 수준 고객에게 가장 효과적인 온라인 캠페인.</li><li>Gold 수준 고객이 검색하는 제품과 Platinum 수준 고객이 검색하는 제품.</li><li>사이트 재디자인이 이전 고객의 전환율에 긍정적인 영향을 주고 있는지 여부.</li><li>낮은 라이프타임 값을 갖는 고객이 내 사이트에서 조사하는 경향이 있습니다.</li></ul> |
 | Adobe Target | 특성 데이터를 사용하면 Adobe Target 사용자가 다음을 수행할 수 있습니다.<ul><li>충성도 클럽 구성원에게 특별한 할인 및 특별 제공 서비스를 보여 줍니다.</li><li>고급 상품을 선호하는 고객에게 고가의 제품을 권장합니다.</li><li>이미 이메일을 받는 고객의 경우 이메일 등록용으로 예약된 공간에 상향 판매 제공 서비스를 보여 줍니다.</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
