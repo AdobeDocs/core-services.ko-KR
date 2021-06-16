@@ -9,10 +9,10 @@ feature: Admin Console
 role: Administrator
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 70%
+source-wordcount: '625'
+ht-degree: 72%
 
 ---
 
@@ -48,6 +48,8 @@ Analytics Premium Complete에서는 [Analytics Premium](upgrade-to-analytics-pre
 | Data Workbench | <ul><li>알고리즘 기여도 분석</li><li>사전 빌드된 작업 공간</li></ul> |
 | Analytics Platform | [라이브 스트림](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/index.md)(원시 데이터, 대시보드, 트리거) |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Predictive Intelligence {#section_B407932C07A7476F83FB0275C3FB63DC}
 
 Predictive Intelligence로 업그레이드하면 [Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507)과 다음 기능이 활성화됩니다.
@@ -58,6 +60,8 @@ Predictive Intelligence로 업그레이드하면 [Analytics Premium](upgrade-to-
 | Data Workbench | 대상 자격 조건 및 예측 마케팅을 위해 사전 빌드된 작업 공간. |
 | Analytics Platform | 라이브 스트림(대시보드 및 트리거) |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
 Customer 360으로 업그레이드하면 [Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507)과 다음 기능이 제공됩니다.
@@ -67,6 +71,8 @@ Customer 360으로 업그레이드하면 [Analytics Premium](upgrade-to-analytic
 | [고객 속성](attributes.md) | 고객 속성(분석 및 세그먼트 공유) |
 | Data Workbench | <ul><li>파생된 고객 속성</li><li>대상 검색을 위해 사전 빌드된 작업 공간</li></ul> |
 | Analytics Platform | [고객 속성](attributes.md) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Advanced Attribution {#section_9E4986A8389946CCAA7D003268343296}
 
