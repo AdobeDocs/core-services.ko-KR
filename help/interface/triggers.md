@@ -11,9 +11,9 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: cd0f9a975732c6c8c3db8ddca6e702449b0efeed
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '705'
 ht-degree: 71%
 
 ---
@@ -68,6 +68,8 @@ ht-degree: 71%
    | 포함 필수 방문<br>배제 필수 방문<br>작업 없음 이후의 트리거<br>메타데이터 포함 | 발생을 원하는 기준이나 방문자 행동과 발생을 원하지 않는 행동을 정의할 수 있습니다. 예를 들어 다음과 같은 간단한 장바구니 포기 트리거를 만들 수 있습니다.<ul><li>포함 필수 방문:[!UICONTROL 장바구니 추가](지표) 및 [!UICONTROL 존재함]. (특정 제품 보기 또는 브라우저 유형과 같은 기준으로 규칙을 세분화할 수 있습니다.)</li><li>배제 필수 방문: [!UICONTROL 체크아웃].</li><li>작업 없음 이후의 트리거: 10분</li><li>[!UICONTROL 메타데이터 포함]:방문자 행동에  [!DNL Campaign] 관련된 특정 차원이나 변수를 추가할 수 있습니다. 이 필드는 정확한 재마케팅 이메일을 만들기 위해 Adobe Campaign에서 사용할 수 있습니다.</li></ul><br>규칙에 중요한   [!UICONTROL 기준에 따라 컨테이너 내],    And 또는    Orlogic을 지정할 수 있습니다. |
    | [!UICONTROL 컨테이너] | [!UICONTROL 컨테이너는 트리거를 정의하는 규칙, 조건 또는 필터를 설정하고 저장하는 위치입니다. ] 동시에 발생하기를 원하는 이벤트의 경우, 동일한 컨테이너에 있어야 합니다. 각 컨테이너는 히트 수준에서 독립적으로 처리됩니다. 예를 들어 AND 연산자로 두 개의 컨테이너가 연결된 경우 두 개의 히트 수가 요구 사항을 충족하면 규칙이 유효할 수 있습니다. |
    | 후에 새로운 세션 시작 | 세션 시작 및 세션 종료 이벤트에 대한 트리거를 만듭니다. |
+
+   {style=&quot;table-layout:auto&quot;}
 
 5. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 6. [!DNL Adobe Campaign]에서 [실시간 재마케팅](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=en)에 트리거를 사용합니다.
