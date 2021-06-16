@@ -9,9 +9,9 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 5e8e5a0f70393460442be247b2d9bf7548a32114
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '4190'
+source-wordcount: '4199'
 ht-degree: 89%
 
 ---
@@ -29,7 +29,9 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 | 기능 | 날짜 | 설명 |
 | ------- | ------- | ------- |
 | Adobe Federated ID에 대한 단일 사인온 지원 | 2021년 6월 17일 | Federated ID를 사용하는 경우 이메일 주소나 암호를 입력하지 않고도 Experience Cloud에 로그인할 수 있습니다. 이 기능을 사용하려면 Experience Cloud URL에 `#/sso:@domain` 을 추가하십시오. <br>예를 들어 도메인을 소유하고  `adobecustomer.com` 있고 Adobe Analytics에 로그인하려고 한다고 가정합니다. URL은 다음과 같습니다.`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics` |
-| Experience League 검색 | 2021년 6월 1일 | Experience League 설명서 검색이 개선되었습니다. [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) 로 이동하고 **[!UICONTROL 검색]** 필드를 사용하여 자습서, 설명서, 강좌 등을 찾습니다. |
+| Experience League 검색 | 2021년 6월 1일 | Experience League 설명서 검색이 개선되었습니다. [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en)로 이동하고 **[!UICONTROL 검색]** 필드를 사용하여 자습서, 설명서, 강좌 등을 찾습니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 2021년 5월
 
@@ -47,6 +49,8 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 | -----------| ---------- |
 | 관리 도구 - 정책 | 이 페이지에는 조직의 전체 Experience Cloud 정책 목록이 표시됩니다. 제품, 인스턴스, 사용자 및 개발자에 대한 정보를 제공합니다. 정책 목록을 검색, 정렬 및 필터링하여 요구에 맞게 표시할 수 있습니다. 자세한 내용은 [Experience Cloud 관리 도구](admin-tool-experience-cloud.md) 도움말을 참조하십시오. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 4월 - 2020년
 
 * Experience Cloud [!UICONTROL 피드] 페이지는 더 이상 사용되지 않습니다. (EXC-8505)
@@ -57,6 +61,8 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 | 기능 | 설명 |
 | -----------| ---------- |
 | 관리 도구 - 사용자 세부 정보 보기 | 관리자는 새로운 관리 도구에서 모든 Experience Cloud 사용자의 정렬 및 필터링 가능한 목록과 세부 정보를 볼 수 있습니다. 사용자 세부 정보에는 사용자의 제품 액세스, 역할 및 마지막으로 액세스한 정보가 포함됩니다. 자세한 내용은 [Experience Cloud 관리 도구](admin-tool-experience-cloud.md) 도움말을 참조하십시오. |
+
+{style=&quot;table-layout:auto&quot;}
 
 **수정 사항**
 
@@ -163,7 +169,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 >[!NOTE]
 >
->Microsoft®는 [Internet Explorer 8, 9 및 10의 지원을 종료](https://www.microsoft.com/ko-kr/WindowsForBusiness/End-of-IE-support)합니다. 따라서 Adobe에서는 이러한 버전의 Internet Explorer에 대해 보고된 문제는 수정하지 않습니다.
+>Microsoft®는 [Internet Explorer 8, 9 및 10의 지원을 종료](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support)합니다. 따라서 Adobe에서는 이러한 버전의 Internet Explorer에 대해 보고된 문제는 수정하지 않습니다.
 
 ## 릴리스 15.10 - 2015년 10월 14일 {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -218,7 +224,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 </table>
 
 * 일부 고객의 경우 고객 속성이 동기화되지 않던 문제를 수정했습니다.
-* [Adobe Target 제품 설명서](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko-KR) 페이지가 일본어로 표시되지 않는 문제를 해결했습니다.
+* [Adobe Target 제품 설명서](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) 페이지가 일본어로 표시되지 않는 문제를 해결했습니다.
 * [!DNL Creative Cloud]와 [!DNL Experience Cloud] 간 주석에서 일본어 텍스트를 사용할 수 없던 문제를 수정했습니다.
 
 ## 릴리스 15.4.1 - 2015년 4월 8일 {#section_75634120CC934B3381EDEA7F6F976F0A}
