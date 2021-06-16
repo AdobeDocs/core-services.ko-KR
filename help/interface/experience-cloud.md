@@ -3,15 +3,15 @@ description: Experience Cloud의 중앙 인터페이스 구성 요소에 대해 
 solution: Experience Cloud
 title: Experience Cloud 인터페이스 도움말 및 설명서
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: '"고객 속성"'
+feature: '''고객 속성'''
 topic: 관리
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 30%
+source-wordcount: '914'
+ht-degree: 63%
 
 ---
 
@@ -26,23 +26,23 @@ Experience Cloud 헤더에서 다음을 수행할 수 있습니다.
 * 애플리케이션 및 서비스 액세스
 * 제품 설명서, 자습서 및 커뮤니티 게시물 검색
 * 전역 검색을 사용하여 비즈니스 객체를 전체적으로 검색(Experience Platform 사용자만 해당)
-* 계정 환경 설정(경고, 알림 및 구독)을 관리합니다
+* 계정 환경 설정 관리(경고, 알림 및 구독)
 
 ## Experience Cloud에 로그인
 
 로그인한 다음 올바른 [조직](organizations.md)에 속해 있는지 확인하십시오.
 
-1. [Adobe Experience Cloud](https://experience.adobe.com)로 이동합니다.
-1. **[!UICONTROL Adobe ID]**&#x200B;로 로그인합니다.
-1. Adobe Experience Cloud에서 조직을 클릭합니다.
+1. [Adobe Experience Cloud](https://experience.adobe.com)를 탐색하십시오.
+1. **[!UICONTROL Adobe ID로 로그인]**&#x200B;을 클릭합니다.
+1. Adobe Experience Cloud에서 내 조직을 클릭하십시오.
 
    ![](assets/organizations-menu.png)
 
-   관리자가 오른쪽 [organization](organizations.md)에 있는지 확인하는 데 도움을 줄 수 있습니다.
+   올바른 [조직](organizations.md)에 속해 있는지 관리자가 확인해 드릴 수 있습니다.
 
-## Experience Cloud 응용 프로그램 액세스 {#navigation}
+## Experience Cloud 애플리케이션 액세스 {#navigation}
 
-Experience Cloud에 로그인한 후 통합 헤더에서 모든 애플리케이션, 서비스 및 조직에 빠르게 액세스할 수 있습니다.
+Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이션, 서비스 및 조직에 빠르게 액세스할 수 있습니다.
 
 소유한 Experience Cloud 서비스에 액세스하려면 애플리케이션 선택기 ![](assets/menu-icon.png)을 클릭하십시오.
 
@@ -54,12 +54,12 @@ Experience Cloud에 로그인한 후 통합 헤더에서 모든 애플리케이�
 
 ![](assets/search-menu.png)
 
-[!UICONTROL 도움말] 메뉴에서도 다음에 액세스할 수 있습니다.
+[!UICONTROL 도움말] 메뉴로 또한 다음에 액세스할 수 있습니다.
 
-* **[!UICONTROL 지원]:** 지원 티켓을 만들거나 Twitter을   사용하여 지원 센터에 문의하십시오.
+* **[!UICONTROL 지원]:** 지원 티켓을 만들거나 Twitter를 사용해 [!UICONTROL 지원].
 * **[!UICONTROL 피드백]:** Experience Cloud 경험에 대한 피드백을 공유합니다. 사용자의 피드백은 Adobe의 제품 및 서비스를 개선하는 데 사용됩니다.
-* **[!UICONTROL 상태]:**  제품  `https://status.adobe.com/experience_cloud` 작동 상태 및 구독  [!UICONTROL 관리]로 이동하여 확인합니다.
-* **[!UICONTROL Developer Connection]:** 개발자 설명서 `adobe.io` 를 탐색하고 찾습니다.
+* **[!UICONTROL 상태]:** `https://status.adobe.com/experience_cloud`로 이동하여 제품 작동 상태 및 [!UICONTROL 구독 관리]를 확인합니다.
+* **[!UICONTROL 개발자 연결]:** `adobe.io`로 이동하여 개발자 설명서를 찾습니다.
 
 ## 개체 및 엔티티 전역 검색
 
@@ -72,9 +72,9 @@ Experience Cloud에 로그인한 후 통합 헤더에서 모든 애플리케이�
 
 ## 계정 환경 설정 관리 {#preferences}
 
-Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니다. 계정 환경 설정 메뉴에서 다음 작업을 수행할 수 있습니다.
+Experience Cloud 환경 설정(알림, 구독 및 경고 포함) 관리. 계정 환경 설정 메뉴에서 다음을 할 수 있습니다.
 
-* 어두운 테마를 지정하십시오(일부 응용 프로그램이 이 테마를 지원하는 것은 아님).
+* 어두운 테마 지정(일부 애플리케이션에서는 이 테마를 지원하지 않음)
 * [조직](organizations.md) 검색
 * 로그아웃
 * 계정 환경 설정, 알림 및 구독 구성
@@ -87,11 +87,13 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 
 | 기능 | 설명 |
 |--- |--- |
-| 기본값 [organization](organizations.md) | Experience Cloud을 시작할 때 표시할 조직을 선택합니다. |
-| [!UICONTROL 구독] | 구독할 제품 및 카테고리를 선택합니다. [!UICONTROL 알림] 팝업 및 이메일의 알림입니다. |
-| [!UICONTROL 우선순위] | 우선 순위로 간주할 카테고리를 선택합니다. 이러한 카테고리는 높은 태그로 표시되며, 경고와 같이 전달하도록 구성할 수 있습니다. |
-| [!UICONTROL 경고] | 브라우저에 표시되는 경고를 보려는 알림을 선택합니다. 경고는 창의 오른쪽 상단 모서리에 몇 초 동안 표시됩니다. |
-| 이메일 | 알림 이메일을 받을 빈도를 지정합니다. (전송되지 않음, 인스턴트, 일별 또는 주별) |
+| 기본 [조직](organizations.md) | Experience Cloud를 시작할 때 보려는 조직을 선택합니다. |
+| [!UICONTROL 구독] | 구독하기 원하는 제품 및 범주를 선택하십시오. [!UICONTROL 알림] 팝업 및 이메일 알림. |
+| [!UICONTROL 우선 순위] | 높은 우선 순위로 고려하고 싶은 범주를 선택하십시오. 이러한 범주는 높음 태그로 표시되며 경고처럼 게재되도록 구성할 수 있습니다. |
+| [!UICONTROL 경고] | 브라우저에 경고를 표시할 알림을 선택하십시오. 경고는 창의 오른쪽 상단 모서리에 몇 초 동안 표시됩니다. |
+| 이메일 | 이메일 알림을 수신할 빈도를 지정합니다. (발송하지 않음, 실시간, 매일 또는 매주) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 알림 및 공지 {#notifications}
 
@@ -106,11 +108,11 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 * [[!UICONTROL 대상 라이브러리]](audience-library.md)
 * [[!UICONTROL 고객 속성]](attributes.md)
 * [[!UICONTROL Triggers]](triggers.md)
-* [Experience Cloud [!UICONTROL 에셋]](experience-cloud-assets.md)
+* [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets.md)
 * [Experience Cloud 쿠키](cookies-privacy.md)
 * [사용자 및 제품 관리](admin-getting-started.md) (Admin Console)
 * [핵심 서비스용 솔루션을 사용하도록 설정](core-services.md)
-* [Experience Cloud 핵심 서비스에 대한](admin-getting-started.md)
+* [자주 묻는 질문](admin-getting-started.md)
 * [조직 및 계정 연결](organizations.md)
 * [통합](marketing-cloud-integrations.md)
 * [Adobe Target과 Experience Cloud 통합](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
