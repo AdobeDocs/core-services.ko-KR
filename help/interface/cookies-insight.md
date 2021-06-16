@@ -9,10 +9,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: f00cbf4d-ece0-4827-a65f-e3b7068d680c
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 61%
+source-wordcount: '95'
+ht-degree: 63%
 
 ---
 
@@ -29,3 +29,5 @@ Data Workbench은 쿠키를 사용하여 대용량의 빠르게 변화하는 데
 | 사용 | 이 쿠키는 고유한 방문자를 식별하는 데 사용됩니다. |
 | 위치 | 이 쿠키는 페이지의 도메인에 저장됩니다. |
 | 크기 | 8바이트 또는 &quot;name =&quot; 부분을 포함하는 경우 13바이트(v1st=) |
+
+{style=&quot;table-layout:auto&quot;}
