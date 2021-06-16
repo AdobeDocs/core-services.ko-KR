@@ -6,9 +6,9 @@ seo-title: Experience Cloud의 새로운 기능
 solution: Experience Cloud
 title: 'Experience Cloud의 새로운 기능 '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '651'
 ht-degree: 89%
 
 ---
@@ -53,6 +53,8 @@ Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 |--- |--- |
 | 새 관리 랜딩 페이지 | Experience Cloud에 로그인하여 관리 페이지로 이동하면 새로운 직관적인 인터페이스를 사용하여 Experience Cloud 솔루션 및 핵심 서비스에 빠르게 액세스할 수 있습니다. |
 
+{style=&quot;table-layout:auto&quot;}
+
 **수정 사항**
 
 * Scene7 업데이트로 인해 이미지 업로드가 실패하던 문제를 해결했습니다. (CORE-12746)
@@ -72,6 +74,8 @@ Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 | 알림 - 유지 관리 알림 | 알림 설정에서 제품 및 솔루션에 대한 유지 관리 알림을 활성화할 수 있습니다. |
 | Experience Cloud 솔루션에 대한 Admin Console | 새 Experience Cloud 고객은 전체 조직에서 Adobe 자격을 관리할 중앙 위치인 Admin Console을 사용할 수 있습니다.<br>사용자 관리를 위한 Admin Console로의 마이그레이션은 지속적으로 진행됩니다. Adobe은 마이그레이션할 때가 되면 시스템 관리자에게 연락합니다.<br>Analytics 관리자는 [Analytics 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)을 참조하십시오. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 2017년 5월 22일 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
 | 기능 | 설명 |
@@ -79,11 +83,15 @@ Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 | 벌크 보고서 세트 매핑 | 이제 관리 > 보고서 세트 매핑에서 여러 보고서 세트를 선택한 다음 조직에 매핑할 수 있습니다 (이전에는 보고서를 개별적으로 매핑해야 했음).  <br>[보고서 세트를 단일 조직에 매핑하면 Experience Cloud에서 교차 솔루션 기능과 서비스를 사용할 수 있습니다.](core-services.md) |
 | Experience Cloud 대상 업데이트 | **보고서 세트 적용**<br>&#x200B;이제 모든 [대상 규칙](t-audience-create.md)에 보고서 세트를 적용할 수 있습니다. (이전에는 각 규칙 정의에 보고서 세트를 지정해야 했음.) <br>**Prop 및 변수**<br>&#x200B;이제 실시간 대상에 Analytics Prop 및 기본 변수(eVars 및 이벤트 포함)를 포함할 수 있습니다. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 2016년 11월 8일 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
 | 기능 | 설명 |
 |--- |--- |
 | 프로필 및 암호 업데이트 | 사용자가 프로필 편집 > 프로필 및 암호의 개인 세부 정보에서 사용자 프로필 정보를 더 이상 편집할 수 없습니다. 대신 사용자가 `accounts.adobe.com`으로 리디렉션됩니다 . 이 업데이트는 모든 ID 유형(Adobe ID, Enterprise 및 Federated)에 적용됩니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 **수정 사항**
 
