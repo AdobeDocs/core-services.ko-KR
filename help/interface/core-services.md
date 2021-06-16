@@ -9,9 +9,9 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '2272'
+source-wordcount: '2275'
 ht-degree: 70%
 
 ---
@@ -99,6 +99,8 @@ Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 
 | [Analytics용 Experience Cloud ID 서비스 구현](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=en) | [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en)를 추가적으로 설정하는 것도 좋습니다. 이러한 ID는 각 방문자와 연결되며 Experience Cloud의 현재 및 향후 기능을 활성화합니다. |
 | 기존 [!DNL s_code]를 버전 H.27.3 이상으로 업데이트하거나 기존 [!DNL AppMeasurement.js]를 버전 1.4 이상으로 업데이트합니다. | 이러한 파일은 Analytics 관리 도구의 [코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=en)에서 다운로드할 수 있습니다. ([!DNL AppMeasurement.js]에 대한 자세한 내용이 필요한 경우 [JavaScript 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en#js) 안내서를 사용할 수 있습니다.) |
 | Analytics에 대한 고객 ID 동기화 | [Analytics - 고객 ID 동기화](core-services.md#section_AD473A6A21C1446498E700363F9A8437)(아래)를 참조하십시오. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Analytics 및 Adobe Target - 고객 ID 동기화 {#section_AD473A6A21C1446498E700363F9A8437}
 
