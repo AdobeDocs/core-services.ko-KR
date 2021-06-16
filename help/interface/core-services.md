@@ -9,9 +9,9 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2272'
 ht-degree: 70%
 
 ---
@@ -135,16 +135,14 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL Peopl
 
 ## Analytics AppMeasurement 코드 업데이트 {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-Analytics를 사용하는 경우 지역 데이터 수집(RDC)에 있는지 확인합니다. 데이터 수집 도메인이 [!DNL omtrdc.net]이거나 CNAME이 [!DNL omtrdc.net]으로 매핑된 경우 RDC를 사용해야 합니다. 자세한 내용은 [RDC로 전환](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en)을 참조하십시오. 자사 쿠키를 사용하는 경우 데이터 수집 CNAME 및 도메인 간 추적에 대해 알려면 [CNAME 및 Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en)를 참조하십시오.
+Analytics를 사용하는 경우 지역 데이터 수집(RDC)에 있는지 확인합니다. 데이터 수집 도메인이 `omtrdc.net`이거나 CNAME이 `omtrdc.net`으로 매핑된 경우 RDC를 사용해야 합니다. 자세한 내용은 [RDC로 전환](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en)을 참조하십시오. 자사 쿠키를 사용하는 경우 데이터 수집 CNAME 및 도메인 간 추적에 대해 알려면 [CNAME 및 Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en)를 참조하십시오.
 
-방문자 API를 비롯한 JavaScript 라이브러리를 업데이트하여 Analytics 구현을 현대화하는 것이 좋습니다. +632581을 수행하는 간단한 방법은 Dynamic Tag Management에서 [!DNL Adobe Analytics] 도구를 추가하고 구성 방법으로 *`Automatic`* 을 지정하는 것입니다.
-
-[!UICONTROL Dynamic Tag Management]에서 **`<Web Property Name>`** > **[!UICONTROL 개요]** > **[!UICONTROL 도구 추가]** > **[!UICONTROL Adobe Analytics]**&#x200B;을 클릭합니다. 배포에 대해서는 Dynamic Tag Management에서 [Adobe Analytics 설정](https://experienceleague.adobe.com/docs/dtm/using/tools/analytics-dtm.html?lang=en)을 참조하십시오.
+방문자 API를 비롯한 JavaScript 라이브러리를 업데이트하여 Analytics 구현을 현대화하는 것이 좋습니다. 간단한 방법은 Experience Platform 데이터 수집(Launch)에서 [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=ko)을 추가하는 것입니다.
 
 ## Adobe Target 구현 업데이트 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* 라이브러리 검색이 자동으로 수행되도록 [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html?lang=en)에서 [!UICONTROL Adobe Target 확장]을 추가하는 것이 좋습니다. [!UICONTROL Experience Platform Launch]를 사용하여 Adobe Target(및 기타 솔루션)용으로 [Experience Cloud ID 서비스 확장](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en)을 설정할 수도 있습니다. Adobe Target에서 핵심 서비스를 사용하려면 [!UICONTROL Experience Cloud ID 서비스] 업데이트가 **필요합니다**. ([!UICONTROL Dynamic Tag Management]를 사용하는 경우 [Adobe Target 도구](https://experienceleague.adobe.com/docs/dtm/using/tools/target.html?lang=en)를 추가하십시오. [!UICONTROL Dynamic Tag Management]를 사용하여 Adobe Target용으로 Experience Cloud ID 서비스를 배포할 수도 있습니다.)
-* [!UICONTROL Experience Platform Launch]나 [!UICONTROL Dynamic Tag Management]를 사용하지 않는 경우 수동으로 [mbox 라이브러리를 업데이트하십시오](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html?lang=en).
+* 라이브러리 검색이 자동으로 수행되도록 [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html?lang=en)에서 [!UICONTROL Adobe Target 확장]을 추가하는 것이 좋습니다. [!UICONTROL Experience Platform Launch]를 사용하여 Adobe Target(및 기타 솔루션)용으로 [Experience Cloud ID 서비스 확장](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en)을 설정할 수도 있습니다. Adobe Target에서 핵심 서비스를 사용하려면 [!UICONTROL Experience Cloud ID 서비스] 업데이트가 **필요합니다.**
+* [!UICONTROL Experience Platform Launch]을 사용하지 않는 경우, [수동으로 mbox 라이브러리](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html?lang=en)를 업데이트하십시오.
 * [!DNL Adobe Target]에 대한 보고 소스로 Adobe Analytics를 사용하기 위한 액세스 권한을 요청하십시오. [!DNL Target] 및 [!DNL Analytics] 데이터가 처리 중에 동일한 서버 호출에 결합되므로 방문자가 두 솔루션 간에 연결됩니다. [Analytics for Target 구현](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)을 참조하십시오.
 
    >[!IMPORTANT]
