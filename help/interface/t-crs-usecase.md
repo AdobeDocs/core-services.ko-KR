@@ -9,10 +9,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 76%
+source-wordcount: '1152'
+ht-degree: 75%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 76%
 1. [데이터 파일 만들기](t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [특성 소스를 만들고 데이터 파일 업로드](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [스키마 유효성 검사](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
-1. [가입 구성 및 속성 소스 활성화](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
+1. [구독 구성 속성 소스 활성화](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
 데이터 소스가 활성 상태가 되면 다음을 수행할 수 있습니다.
 
@@ -82,7 +82,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
    * **[!UICONTROL Description:]** (선택 사항) 데이터 속성 소스에 대한 설명입니다.
 
-   * **[!UICONTROL Alias ID:]** 특정 CRM 시스템과 같은 고객 속성 데이터의 소스를 나타냅니다. 고객 속성 소스 코드에 사용되는 고유한 ID입니다. ID는 고유해야 하고 공백 없는 소문자로 이루어져야 합니다. Experience Cloud UI에서 고객 속성 소스에 대한 별칭 ID 필드에 입력한 값은 구현(모바일 SDK의 Dynamic Tag Management 또는 JavaScript를 통해 구현)에서 전달되는 값과 일치해야 합니다.
+   * **[!UICONTROL Alias ID:]** 특정 CRM 시스템과 같은 고객 속성 데이터의 소스를 나타냅니다. [!UICONTROL 별칭 ] ID는 고객 속성 소스 코드에 사용되는 고유한 ID입니다. ID는 고유해야 하고 공백 없는 소문자로 이루어져야 합니다. Experience Cloud에서 고객 속성 소스에 대한 [!UICONTROL 별칭 ID] 필드에 입력한 값은 구현(데이터 수집(Launch), Dynamic Tag Management 또는 Mobile SDK의 JavaScript를 통해 구현)에서 전달되는 값과 일치해야 합니다.
 
       별칭 ID는 추가 고객 ID 값을 설정하는 특정 영역에 해당합니다. 예:
 
