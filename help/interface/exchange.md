@@ -4,7 +4,7 @@ keywords: 핵심 서비스
 solution: Experience Cloud
 title: 'Exchange 마켓플레이스 '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-feature: '"고객 속성"'
+feature: '''고객 속성'''
 topic: 관리
 role: Administrator
 level: Experienced
