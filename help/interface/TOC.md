@@ -36,16 +36,16 @@ ht-degree: 76%
       + [고객 속성에 대한 개인정보 보호 고려 사항](privacy-mac.md)
    + Experience Cloud 활성화 {#activation}
       + [활성화 개요](activation.md)
-      + [Experience Platform Launch 사용 안내서](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en)
+      + [Experience Platform Launch 사용 안내서](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko-KR)
       + [Triggers](triggers.md)
    + Experience Cloud 자산이 추가되었습니다 {#assets}
       + [Experience Cloud Assets 개요](experience-cloud-assets.md)
-      + [Creative Cloud와 Experience Cloud 폴더 및 Assets 공유](creative-cloud.md)
+      + [Creative Cloud와 Experience Cloud 폴더 및 에셋 공유](creative-cloud.md)
       + [Creative Cloud 사용자 관리](t-admin-add-cc-user.md)
-      + [Experience Cloud 자산 폴더 공유](t-share-creative-cloud.md)
-      + [Creative Cloud 브라우저에서 공유 폴더로 자산 업로드](t-upload-asset-cc.md)
-      + [Creative Cloud 데스크탑에서 공유 폴더로 자산 업로드](t-cc-asset-upload-thor.md)
-      + [공유를 위한 자산 파일 요구 사항](assets-file-reqs.md)
+      + [Experience Cloud 에셋 폴더 공유](t-share-creative-cloud.md)
+      + [Creative Cloud 브라우저에서 공유 폴더로 에셋 업로드](t-upload-asset-cc.md)
+      + [Creative Cloud 데스크탑에서 공유 폴더로 에셋 업로드](t-cc-asset-upload-thor.md)
+      + [공유를 위한 에셋 파일 요구 사항](assets-file-reqs.md)
       + [공유 폴더 비헤이비어](asset-behavior.md)
 + Experience Cloud 관리 {#administration}
    + [Experience Cloud 사용자 ID 및 제품 관리(Admin Console)](admin-getting-started.md)
@@ -67,7 +67,7 @@ ht-degree: 76%
       + [[!DNL Scene7] 쿠키](cookies-s7.md)
       + [[!DNL Search and Promote] 쿠키](cookies-snp.md)
       + [[!DNL Target] 쿠키](cookies-target.md)
-      + [브라우저 쿠키에 대한 개인 정보 설정 활성화](browser-cookie-settings.md)
+      + [브라우저 쿠키에 대한 개인정보 보호 설정 활성화](browser-cookie-settings.md)
       + [타사 쿠키 지원 변경 방법이 고객에게 미치는 영향](cookies-thirdparty.md)
 + Experience Cloud UI {#release-notes} 릴리스 노트
    + [중앙 인터페이스 구성 요소에 대한 릴리스 노트입니다](release-notes.md)
