@@ -90,7 +90,7 @@ Experience Cloud 환경 설정(알림, 구독 및 경고 포함) 관리. 계정 
 | 기본 [조직](organizations.md) | Experience Cloud를 시작할 때 보려는 조직을 선택합니다. |
 | [!UICONTROL 구독] | 구독하기 원하는 제품 및 범주를 선택하십시오. [!UICONTROL 알림] 팝업 및 이메일 알림. |
 | [!UICONTROL 우선 순위] | 높은 우선 순위로 고려하고 싶은 범주를 선택하십시오. 이러한 범주는 높음 태그로 표시되며 경고처럼 게재되도록 구성할 수 있습니다. |
-| [!UICONTROL 경고] | 브라우저에 경고를 표시할 알림을 선택하십시오. 경고는 창의 오른쪽 상단 모서리에 몇 초 동안 표시됩니다. |
+| [!UICONTROL 경고] | 브라우저에 경고를 표시할 알림을 선택하십시오. 경고는 창의 오른쪽 상단에 몇 초 동안 표시됩니다. |
 | 이메일 | 이메일 알림을 수신할 빈도를 지정합니다. (발송하지 않음, 실시간, 매일 또는 매주) |
 
 {style=&quot;table-layout:auto&quot;}
@@ -115,7 +115,7 @@ Experience Cloud 환경 설정(알림, 구독 및 경고 포함) 관리. 계정 
 * [자주 묻는 질문](admin-getting-started.md)
 * [조직 및 계정 연결](organizations.md)
 * [통합](marketing-cloud-integrations.md)
-* [Adobe Target과 Experience Cloud 통합](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
+* [Adobe Target과 Experience Cloud 통합](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko-KR)
 * [Experience Cloud 개인정보 보호 및 보안 개요](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS 프리페치](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
@@ -123,20 +123,20 @@ Experience Cloud 환경 설정(알림, 구독 및 경고 포함) 관리. 계정 
 
 관련 Experience Cloud 안내서는 다음을 포함합니다.
 
-* [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
+* [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=ko-KR)
 * [Experience Platform Co-op 그래프](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
 * [Exchange](https://exchange.adobe.com/experiencecloud)
-* [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
+* [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)
 * [Experience Platform 데이터 수집/시작](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko-KR)
 * [일반 데이터 보호 규정(GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
+* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=ko-KR)
 
 ## 튜토리얼
 
 Adobe Experience League에서 제공하는 자체 도움말 튜토리얼과 빠른 사용 방법을 활용할 수 있습니다.
 
-* [Experience League의 모든 튜토리얼](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
+* [Experience League의 모든 튜토리얼](https://experienceleague.adobe.com/?lang=ko-KR#quick-how-tos)
 * [Experience Platform 튜토리얼](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en)
 * [실시간 고객 데이터 플랫폼](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
