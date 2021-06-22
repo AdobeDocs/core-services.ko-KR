@@ -9,10 +9,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: d2ff52ce1a591c7c607598b5f2892dbcca74594b
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 94%
+source-wordcount: '480'
+ht-degree: 95%
 
 ---
 
@@ -42,6 +42,8 @@ ht-degree: 94%
 * [!DNL Experience Cloud]에 [게시된](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) [!DNL Adobe Analytics]세그먼트에서 파생된 Chrome 및 Safari 사용자.
 
    ![](assets/audience_create.png)
+
+**대상을 만들려면**
 
 1. [!DNL Experience Cloud]에서 [!DNL Experience Platform]의 **[!UICONTROL 사용자]** > **[!UICONTROL 대상 라이브러리]를 클릭합니다.**
 1. [!UICONTROL 대상] 페이지에서 **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.![](assets/add_icon_small.png)
