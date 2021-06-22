@@ -9,7 +9,7 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 55cbcc6663ca22bbcd13e76411433912d6132eed
 workflow-type: tm+mt
 source-wordcount: '4199'
 ht-degree: 89%
@@ -224,7 +224,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 </table>
 
 * 일부 고객의 경우 고객 속성이 동기화되지 않던 문제를 수정했습니다.
-* [Adobe Target 제품 설명서](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) 페이지가 일본어로 표시되지 않는 문제를 해결했습니다.
+* [Adobe Target 제품 설명서](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko-KR) 페이지가 일본어로 표시되지 않는 문제를 해결했습니다.
 * [!DNL Creative Cloud]와 [!DNL Experience Cloud] 간 주석에서 일본어 텍스트를 사용할 수 없던 문제를 수정했습니다.
 
 ## 릴리스 15.4.1 - 2015년 4월 8일 {#section_75634120CC934B3381EDEA7F6F976F0A}
