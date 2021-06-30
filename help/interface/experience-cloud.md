@@ -8,10 +8,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 63%
+source-wordcount: '915'
+ht-degree: 62%
 
 ---
 
@@ -33,8 +33,8 @@ Experience Cloud 헤더에서 다음을 수행할 수 있습니다.
 로그인한 다음 올바른 [조직](organizations.md)에 속해 있는지 확인하십시오.
 
 1. [Adobe Experience Cloud](https://experience.adobe.com)를 탐색하십시오.
-1. **[!UICONTROL Adobe ID로 로그인]**&#x200B;을 클릭합니다.
-1. Adobe Experience Cloud에서 내 조직을 클릭하십시오.
+1. **[!UICONTROL Adobe ID]**&#x200B;로 로그인합니다.
+1. Adobe Experience Cloud에서 조직을 선택합니다.
 
    ![](assets/organizations-menu.png)
 
@@ -44,7 +44,7 @@ Experience Cloud 헤더에서 다음을 수행할 수 있습니다.
 
 Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이션, 서비스 및 조직에 빠르게 액세스할 수 있습니다.
 
-소유한 Experience Cloud 서비스에 액세스하려면 애플리케이션 선택기 ![](assets/menu-icon.png)을 클릭하십시오.
+소유한 Experience Cloud 서비스에 액세스하려면 애플리케이션 선택기 ![](assets/menu-icon.png)으로 이동하십시오.
 
 ![](assets/platform-core-services.png)
 
@@ -79,7 +79,7 @@ Experience Cloud 환경 설정(알림, 구독 및 경고 포함) 관리. 계정 
 * 로그아웃
 * 계정 환경 설정, 알림 및 구독 구성
 
-환경 설정을 관리하려면 계정 메뉴 ![](assets/preferences-icon-sm.png)에서 **[!UICONTROL 환경 설정]**&#x200B;을 클릭하십시오.
+환경 설정을 관리하려면 계정 메뉴 ![](assets/preferences-icon-sm.png)에서 **[!UICONTROL 환경 설정]**&#x200B;을 선택합니다.
 
 ![](assets/preferences-page.png)
 
@@ -97,7 +97,7 @@ Experience Cloud 환경 설정(알림, 구독 및 경고 포함) 관리. 계정 
 
 ## 알림 및 공지 {#notifications}
 
-**[!UICONTROL 알림]**&#x200B;을 클릭하여 제품 릴리스, 유지 관리 공지, 공유 항목 및 승인 요청 등 관련 및 실행 가능한 업데이트에 대해 알림을 받을 수 있습니다.
+제품 릴리스, 유지 관리 공지, 공유 항목 및 승인 요청 등 관련 및 실행 가능한 업데이트에 대해 경고하려면 **[!UICONTROL 알림]**&#x200B;을 선택합니다.
 
 ![](assets/notifications-menu-small.png)
 
@@ -142,10 +142,10 @@ Adobe Experience League에서 제공하는 자체 도움말 튜토리얼과 빠�
 
 ## 릴리스 정보 및 관련 Experience Cloud 도움말
 
-* [모든 Experience Cloud 솔루션에 대한 제품 설명서](https://experienceleague.adobe.com/docs/home.html?lang=en) - Experience Cloud 학습 및 지원에서 탐색
-* [릴리스 정보 및 제품 업데이트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) - Experience Cloud의 새로운 기능 및 가입을 통한 업데이트 받기
+* [모든 Experience Cloud 솔루션에 대한 제품 설명서](https://experienceleague.adobe.com/docs/home.html?lang=ko-KR) - Experience Cloud 학습 및 지원에서 탐색
+* [릴리스 정보 및 제품 업데이트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR) - Experience Cloud의 새로운 기능 및 가입을 통한 업데이트 받기
 * [핵심 서비스 구현 튜토리얼](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - 핵심 서비스에 대한 비디오 및 튜토리얼 보기
 * [Experience League의 전문가 지원](https://experienceleague.adobe.com/) - 전문가 및 커뮤니티의 안내형 학습
 * [교육 및 훈련](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK)  - Adobe 제품을 최대한 활용할 수 있도록 Adobe과 협력
 * [고객 경험 블로그](https://blog.adobe.com/en/topics/digital-transformation.html) - Experience Cloud 블로그 보기
-* [고객 지원](https://experienceleague.adobe.com/?support-solution=General#support) - Adobe 고객 지원 센터에 문의
+* [고객 지원](https://experienceleague.adobe.com/?lang=ko-KR?support-solution=General#support) - Adobe 고객 지원 센터에 문의
