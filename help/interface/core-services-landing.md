@@ -7,7 +7,7 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 6a9a3068d2831be28f4cbe859d93eb1ad580897f
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 56%
@@ -18,7 +18,7 @@ ht-degree: 56%
 
 이 설명서는 Experience Cloud, 쿠키, 계정 환경 설정, 알림 등을 위한 [!UICONTROL People] 서비스(대상 및 고객 속성), 사용자 및 제품 관리 등과 같은 Experience Cloud 통합 헤더의 기능에 적용됩니다.
 
-Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL 응용 프로그램 선택기]**를 클릭하십시오
+Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL 응용 프로그램 선택기]**를 선택하십시오
 ![](assets/menu-icon.png)
 
 ![](assets/platform-core-services.png)
