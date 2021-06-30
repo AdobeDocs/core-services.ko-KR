@@ -9,10 +9,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1152'
-ht-degree: 75%
+ht-degree: 73%
 
 ---
 
@@ -67,13 +67,13 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 >
 >고객 속성 소스를 만들거나, 수정하거나 삭제할 때, ID가 새 데이터 소스와의 동기화를 시작하기 전에 최대 한 시간이 지연됩니다. 고객 속성 소스를 만들거나 수정하려면 Audience Manager에 관리 권한이 있어야 합니다. 관리 권한을 얻으려면 Audience Manager 고객 지원 센터 또는 컨설팅 팀에 문의하십시오.
 
-1. [!DNL Experience Cloud]에서 메뉴 ![](assets/menu-icon.png) 아이콘을 클릭합니다.
-1. **[!DNL Experience Platform]**&#x200B;에서 **[!UICONTROL 사용자]**> **[!UICONTROL 고객 속성]**&#x200B;을 클릭합니다.
+1. [!DNL Experience Cloud]에서 ![](assets/menu-icon.png) 메뉴 아이콘을 선택합니다.
+1. **[!DNL Experience Platform]**&#x200B;에서 **[!UICONTROL People]** > **[!UICONTROL 고객 속성]**&#x200B;을 선택합니다.
 
    [!UICONTROL 고객 속성] 페이지에서 기존 속성 데이터 소스를 관리 및 편집할 수 있습니다.
 
    ![단계 결과](assets/03_crs_usecase.png)
-1. **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 새로 만들기]**&#x200B;를 선택합니다.
 
    ![단계 결과](assets/04_crs_usecase.png)
 1. [!UICONTROL 고객 속성 소스 편집] 페이지에서 다음 필드를 구성합니다.
@@ -86,7 +86,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
       별칭 ID는 추가 고객 ID 값을 설정하는 특정 영역에 해당합니다. 예:
 
-      * **Dynamic Tag Management:** 별칭 ID는 *Experience Cloud ID 서비스* 도구에 있는 [!UICONTROL 고객 설정] 아래의 [통합 코드](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=en) 값에 해당합니다.
+      * **Dynamic Tag Management:** 별칭 ID는 *Experience Cloud ID 서비스* 도구에 있는 [!UICONTROL 고객 설정] 아래의 [통합 코드](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=ko-KR) 값에 해당합니다.
 
       * **방문자 API:** 별칭 ID는 각 방문자에게 연결할 수 있는 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en)에 해당합니다.
 
@@ -153,7 +153,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
 **속성 소스를 활성화하려면**
 
-[!UICONTROL 새로 만들기[ 또는 ]고객 속성 소스] 편집 페이지에서 [!UICONTROL 활성화] 제목을 찾은 후 **[!UICONTROL 활성]**&#x200B;을 클릭합니다.
+[!UICONTROL 새 [만들기 또는 편집] 고객 속성 소스] 페이지에서 [!UICONTROL 활성화] 제목을 찾은 다음 **[!UICONTROL 활성]**&#x200B;을 선택합니다.
 
 ![단계 결과](assets/activate_attribute_source.png)
 
