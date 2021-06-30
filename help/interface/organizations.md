@@ -9,10 +9,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 **조직 ID**&#x200B;는 공급된 Experience Cloud 회사와 연결된 ID입니다. 이 ID는 24자의 영숫자 문자열과 @AdobeOrg(포함 필수)로 구성됩니다.
 
-조직 ID를 보려면 Experience Cloud 랜딩 페이지로 이동하거나( ![](assets/menu-icon.png))를 클릭한 다음 **[!UICONTROL 관리]**&#x200B;를 클릭합니다. [!UICONTROL Experience Cloud에서 시작하기] 페이지 하단 또는 [!UICONTROL 관리] 페이지에서 조직 ID를 찾을 수 있습니다.
+조직 ID를 보려면 Experience Cloud 랜딩 페이지로 이동하거나( ![](assets/menu-icon.png))를 선택한 다음 **[!UICONTROL 관리]**&#x200B;를 선택합니다. [!UICONTROL Experience Cloud에서 시작하기] 페이지 하단 또는 [!UICONTROL 관리] 페이지에서 조직 ID를 찾을 수 있습니다.
 
 ![](assets/administration-page.png)
 
@@ -42,23 +42,23 @@ ht-degree: 100%
 
 1. Experience Cloud로 전자 메일 초대의 단계를 따릅니다.
 1. Adobe ID 또는 Enterprise ID를 사용하여 로그인합니다.
-1. 솔루션 선택기를 클릭합니다. ( ![](assets/menu-icon.png)).
+1. 솔루션 선택기를 선택합니다.( ![](assets/menu-icon.png)).
 
    ![](assets/solutions-active.png)
 
    액세스 권한이 있는 솔루션에 색상이 지정됩니다.
-1. 원하는 솔루션을 클릭합니다.
+1. 원하는 솔루션을 선택합니다.
 
    ![](assets/analytics-link-accounts.png)
 
    이 유형의 메시지는 적절한 그룹에 속하거나 솔루션에 대한 권한이 있지만, 계정 자격 증명을 아직 Adobe ID에 연결하지 않은 경우 표시됩니다.
-1. **[!UICONTROL 계정 연결]**&#x200B;을 클릭한 다음 자격 증명을 제공합니다.
+1. **[!UICONTROL 계정 연결]**&#x200B;을 선택한 다음 자격 증명을 제공합니다.
 
 ## 기본 조직 및 랜딩 페이지 지정 {#concept_6A191B42A9874A9780882903BA18F071}
 
 로그인할 때 사용할 기본 조직 및 랜딩 페이지를 지정할 수 있습니다.
 
-프로필에서 **[!UICONTROL 프로필 편집을 클릭합니다]**.
+프로필에서 **[!UICONTROL 프로필 편집]**&#x200B;을 선택합니다.
 
 ![](assets/edit-profile.png)
 
@@ -72,5 +72,5 @@ ht-degree: 100%
 
 일반적으로, 계정 연결은 Adobe ID가 이전 사용자에게 연결되어 있어서 실패합니다. 계정 연결에 실패하면,
 
-* [Adobe 지원에 문의하십시오](https://experienceleague.adobe.com/?support-solution=General#support).
+* [Adobe 지원에 문의하십시오](https://experienceleague.adobe.com/?lang=ko-KR?support-solution=General#support).
 * 문제가 해결되는 동안 여전히 표준 로그인을 사용하여 솔루션에 액세스할 수 있습니다.
