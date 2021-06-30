@@ -7,10 +7,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 978f2214cd802562880a3aff82677e033229c0a4
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1119'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -35,17 +35,17 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL Peopl
 
 1. [!DNL Analytics] > **[!UICONTROL 관리]** > **[!UICONTROL 데이터 거버넌스]**&#x200B;에서 데이터 거버넌스를 위한 보고서 세트로 이동합니다([보고서 세트의 데이터 거버넌스 설정 보기/관리 참조](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en)).
 
-1. 각 보고서 세트에 액세스할 수 있는 로그인 회사를 보려면 **[!UICONTROL 로그인 회사에 표시]**&#x200B;를 클릭합니다.
+1. 각 보고서 세트에 액세스할 수 있는 로그인 회사를 보려면 **[!UICONTROL 로그인 회사에 표시]**&#x200B;를 선택하십시오.
 
    이 보기는 매핑에 대한 올바른 결정을 내리는 데 도움을 주기 위한 것입니다.
 
-1. 보고서 세트 옆에 있는 **[!UICONTROL 매핑된 조직]** 열에서 드롭다운을 클릭하고 매핑할 조직을 선택합니다.
+1. 보고서 세트 옆에 있는 **[!UICONTROL 매핑된 조직]** 열에서 드롭다운을 선택하고 매핑할 조직을 선택합니다.
 
    Experience Cloud 조직 선택에 대한 팁은 다음 섹션을 참조하십시오.
 
 ## 조직에 여러 보고서 세트 매핑 {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. **[!UICONTROL Experience Cloud]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트 매핑]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Experience Cloud]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트 매핑]**&#x200B;을 선택합니다.
 
 1. 매핑할 보고서 세트를 선택합니다.
 
@@ -55,7 +55,7 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL Peopl
 
    Experience Cloud 조직 선택에 대한 팁은 다음 섹션을 참조하십시오.
 
-1. **[!UICONTROL 매핑 저장을 클릭합니다]**.
+1. **[!UICONTROL 매핑 저장]**&#x200B;을 선택합니다.
 
 ## Experience Cloud 조직 선택을 위한 팁 {#mapping-tips}
 
