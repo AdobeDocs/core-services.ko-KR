@@ -11,10 +11,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 71%
+ht-degree: 70%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 71%
 >
 >현재 트리거는 100개로 기술적 제한이 있습니다.
 
-1. Experience Cloud에서 ![](assets/menu-icon.png)데이터 수집/실행&#x200B;]**을 클릭한 다음**[!UICONTROL 
-2. [!UICONTROL Triggers] 카드에서 **[!UICONTROL 트리거 관리]**&#x200B;를 클릭합니다.
-3. **[!UICONTROL 새 트리거]**&#x200B;를 클릭한 다음 트리거 유형을 지정합니다.
+1. Experience Cloud에서 ![](assets/menu-icon.png) 을 선택한 다음 **[!UICONTROL 데이터 수집/Launch]**&#x200B;를 선택합니다.
+2. [!UICONTROL 트리거] 카드에서 **[!UICONTROL 트리거 관리]**&#x200B;를 선택합니다.
+3. **[!UICONTROL 새 트리거]**&#x200B;를 선택한 다음 트리거 유형을 지정합니다.
 
    ![단계 결과](assets/add-trigger.png)
 
@@ -71,7 +71,7 @@ ht-degree: 71%
 
    {style=&quot;table-layout:auto&quot;}
 
-5. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+5. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 6. [!DNL Adobe Campaign]에서 [실시간 재마케팅](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=en)에 트리거를 사용합니다.
 
 ### 예제 트리거
