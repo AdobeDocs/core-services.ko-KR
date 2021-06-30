@@ -9,10 +9,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 55cbcc6663ca22bbcd13e76411433912d6132eed
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '4199'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 설명서 업데이트 목록은 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)를 참조하십시오.
 
-모든 솔루션에 대해 설명하는 릴리스 노트가 필요하면 [Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)를 참조하십시오.
+모든 솔루션에 대해 설명하는 릴리스 노트가 필요하면 [Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
 
 ## 2021년 6월
 
@@ -294,7 +294,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
   </tr> 
   <tr> 
    <td colname="col1"> <p>활성화 </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> 활성화</a>는 이제 <span class="keyword">Experience Cloud</span>에서 왼쪽 탐색 창에 표시됩니다. <span class="wintitle"> </span> 활동은  <span class="keyword"> 현재 </span> Dynamic Tag Management 기술로 구성된 Experience Cloud 핵심 서비스로서, 클릭하면 이 서비스가 표시됩니다. </p> </td> 
+   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> 활성화</a>는 이제 <span class="keyword">Experience Cloud</span>에서 왼쪽 탐색 창에 표시됩니다. <span class="wintitle"> </span> 활동은  <span class="keyword"> 현재 </span> Dynamic Tag Management 기술로 구성된 Experience Cloud 핵심 서비스로서, 선택 시 이 서비스가 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>설명서 업데이트 - 핵심 서비스 </p> </td> 
@@ -382,7 +382,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
    <td colname="col1"> <p>사용자 권한 편집 </p> </td> 
    <td colname="col2"> <p>이제 보드 소유자는 특정 보드에 대한 사용자 권한을 편집할 수 있습니다. </p> <p> 
      <ol id="ol_B12251C510744538AF9BCE60ACB04016"> 
-      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">보드에서 <span class="uicontrol">설정</span>을 클릭합니다. </li> 
+      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">보드에서 <span class="uicontrol"> 설정</span>을 선택합니다. </li> 
       <li id="li_0F4786B0E1E743069D082E7DC488A031">각 소유자 옆에 <span class="uicontrol">소유자</span>, <span class="uicontrol">뷰어</span> 또는 <span class="uicontrol">편집기</span>를 지정합니다. </li> 
      </ol> </p> </td> 
   </tr> 
@@ -553,7 +553,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 * [!DNL Experience Cloud]가 [!DNL Adobe Target]에 연결되어 있지 않습니다. 이 문제는 [!DNL Adobe Target] 로그인을 여러 [!DNL Target] 서버에서 사용할 수 있을 때 발생합니다.
 * [!DNL Adobe Media Optimizer]에서 사용자를 생성할 때 [!DNL Experience Cloud]에서 사용자를 자동으로 생성하지 않습니다.
 * 새 사용자를 추가하기 위한 콤보 상자의 옵션이 입력하는 동안 일시적으로 사라졌습니다.
-* 자산 카드 보기의 설명 링크를 클릭할 수 없습니다.
+* 자산 카드 보기의 주석 링크를 선택할 수 없습니다.
 * 사용자 지정 태그를 자산에 추가한 후에 다른 메타데이터 변경 사항이 지속되지 않습니다.
 * 이미지가 Adobe Target Essentials에 사용되는 경우 자산에서 이미지를 삭제해도 경고가 표시되지 않습니다.
 * 여러 사용자가 동시에 사용할 경우 [!UICONTROL Experience Cloud] 인터페이스 성능이 느려집니다.
@@ -580,9 +580,9 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
    <td colname="col1"> <p>도움말 항목에서 카드 만들기 </p> </td> 
    <td colname="col2"> <p>이제 브라우저의 책갈피 도구 모음에서 Adobe Experience Cloud에 공유 기능을 사용하면 microsite URL에서 도움말 페이지를 공유할 수 있습니다. </p> <p> <b>도움말 항목을 공유하려면</b> </p> 
     <ol id="ol_F94B816121494B0FA16CC07B0E96AED8"> 
-     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p><span class="keyword">Experience Cloud</span>에서 <span class="uicontrol">관리</span>를 클릭합니다. </p> </li> 
+     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p><span class="keyword"> Experience Cloud</span>에서 <span class="uicontrol"> 관리</span>를 선택합니다. </p> </li> 
      <li id="li_94EF58E7A4974B63951E14F72A710183"> <p><span class="uicontrol">Adobe Experience Cloud에 공유</span> 단추를 책갈피 도구 모음으로 드래그합니다. </p> </li> 
-     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>도움말 페이지로 이동한(또는 이 페이지에 남은) 다음, 브라우저의 책갈피 도구 모음에서 <span class="uicontrol">Adobe Experience Cloud에 공유</span>를 클릭합니다. </p> <p>이 단계에서는 <span class="wintitle">Experience Cloud</span>에서 볼 수 있는 카드를 만듭니다. </p> </li> 
+     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>도움말 페이지로 이동한(또는 이 페이지에 남은) 다음, 브라우저의 책갈피 도구 모음에서 <span class="uicontrol"> Adobe Experience Cloud에 공유</span>를 선택합니다. </p> <p>이 단계에서는 <span class="wintitle">Experience Cloud</span>에서 볼 수 있는 카드를 만듭니다. </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -596,7 +596,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 * [!DNL Analytics] 솔루션 랜딩 페이지에 형식 오류가 표시됩니다.
 * 모든 권한과 자격 변경 사항이 적용되려면 사용자가 로그아웃한 후 다시 로그인해야 합니다.
 * 이미지가 [!UICONTROL 에 사용되는 경우 ]자산[!DNL Adobe Target Essentials]에서 이미지를 삭제해도 경고가 표시되지 않습니다.
-* 자산 카드 보기의 주석 링크를 클릭할 수 없습니다.
+* 자산 카드 보기의 주석 링크를 선택할 수 없습니다.
 * 새 사용자를 추가하기 위한 콤보 상자의 옵션이 입력하는 동안 일시적으로 사라집니다.
 * [!DNL Experience Cloud]에 로그인하는 데 1초 이상 걸립니다.
 * [!DNL Media Optimizer]에서 공유한 데이터가 [!DNL Experience Cloud]에서 잘못 표시되었습니다.
@@ -629,7 +629,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 * 모든 권한과 자격 변경 사항이 적용되려면 사용자가 로그아웃한 후 다시 로그인해야 합니다.
 * *`Remember me`*&#x200B;을 선택하지 않으면 사용자는 15분 후 로그아웃됩니다.
 * [!DNL Analytics] 솔루션 랜딩 페이지에 형식 오류가 표시됩니다.
-* 자산 카드 보기의 주석 링크를 클릭할 수 없습니다.
+* 자산 카드 보기의 주석 링크를 선택할 수 없습니다.
 * Experience Cloud 인터페이스는 많은 사용자가 동시에 사용하는 경우 속도가 느려질 수 있습니다.
 * 여러 Target 서버에서 [!DNL Adobe Target] 로그인을 사용하는 경우 Experience Cloud를 [!DNL Adobe Target]에 연결할 수 없습니다.
 * Experience Cloud에 로그인하는 데 1초 이상 걸립니다.
@@ -673,5 +673,5 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 * 공유 [!DNL Analytics] 보고서가 세그먼트 필터에 적용되지 않는 문제를 해결했습니다.
 * 솔루션 계정이 연결되지 않은 경우에도 솔루션이 [!UICONTROL Experience Cloud 솔루션] 페이지에 연결된 것으로 표시되는 문제를 해결했습니다.
-* 아시아 지역의 [!DNL Adobe Target]**[!UICONTROL 고객이 연결 페이지에서 Experience Cloud로 이동]** 단추를 클릭할 수 없는 문제를 해결했습니다.
+* 아시아 지역의 [!DNL Adobe Target] 고객이 연결 페이지에서 **[!UICONTROL Experience Cloud 계속]** 단추를 선택할 수 없는 문제를 해결했습니다.
 * Youtube 동영상 공유를 하지 못하는 문제를 해결했습니다.
