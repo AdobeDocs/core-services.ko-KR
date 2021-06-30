@@ -7,10 +7,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 96%
+ht-degree: 84%
 
 ---
 
@@ -30,7 +30,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p>정보가 저장됨 </p> </td> 
-   <td colname="col2"> <p>검색 클릭 수의 ID 및 타임스탬프(yyyymmdd 형식)</p> </td> 
+   <td colname="col2"> <p>ID 및 타임스탬프(yyyymmdd 형식)가 표시됩니다</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>만료 </p> </td> 
@@ -38,7 +38,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용 </p> </td> 
-   <td colname="col2"> <p>디스플레이 광고의 클릭 이벤트가 Adobe Analytics 히트에 적용되는지를 판별하는 데 사용되는 타사 쿠키 </p> </td> 
+   <td colname="col2"> <p>디스플레이 광고의 선택 이벤트가 Adobe Analytics 히트에 적용되는지를 판별하는 데 사용되는 타사 쿠키 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>위치 </p> </td> 
@@ -96,7 +96,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p>정보가 저장됨 </p> </td> 
-   <td colname="col2"> <p>광고주의 웹 사이트에 대한 서퍼의 마지막 방문과 서퍼의 마지막 검색 클릭의 타임스탬프 및 사용자가 광고를 클릭할 때 생성된 ef_id</p> </td> 
+   <td colname="col2"> <p>광고주의 웹 사이트에 대한 서퍼의 마지막 방문과 서퍼의 마지막 검색 선택의 타임스탬프 및 사용자가 광고를 선택할 때 생성된 ef_id</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>만료 </p> </td> 
