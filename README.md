@@ -1,8 +1,8 @@
 ---
-source-git-commit: 918c72e675be85f1309dc697a668771b97bef324
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 95%
+ht-degree: 87%
 
 ---
 # 기여자 문서
@@ -21,7 +21,7 @@ Adobe는 설명서 팀 외부 직원뿐만 아니라 커뮤니티 기여를 환�
 
 ### 부분 변경 사항
 
-부분 업데이트에 선의로 기여하려는 경우 문서를 방문하여 문서 내의 **편집** 링크를 클릭하면 문서에 해당하는 GitHub 소스로 이동하게 됩니다. 그런 다음 Github UI를 사용하여 업데이트를 만듭니다. 자세한 내용은 일반 [Adobe Docs 기여자 안내서](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
+좋은 의도로 업데이트에 기여하고자 하는 경우 문서를 방문하여 문서에 대한 GitHub 소스로 이동하는 문서의 **편집** 링크를 선택하십시오. 그런 다음 Github UI를 사용하여 업데이트를 만듭니다. 자세한 내용은 일반 [Adobe Docs 기여자 안내서](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
 
 이 REPO의 설명서 및 코드 샘플에 대해 사용자가 제출하는 부분 수정 또는 설명은 Adobe 사용 약관의 적용을 받습니다.
 
