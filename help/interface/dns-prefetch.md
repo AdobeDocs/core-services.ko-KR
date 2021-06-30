@@ -8,7 +8,7 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 88%
@@ -21,7 +21,7 @@ ht-degree: 88%
 
 ## DNS 프리페치 이해하기 {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-브라우저에서는 DNS 프리페치를 사용하여 웹 페이지에 링크된 도메인 이름을 해당 IP 주소로 자동으로 확인합니다. 브라우저에서 웹 페이지를 로드하면 프리페치 프로세스가 시작됩니다. 예를 들어 페이지에 `www.adobe.com`에 대한 클릭 가능한 링크가 포함되어 있다고 가정해 보겠습니다. 브라우저에 이 페이지가 로드되면 [DNS 시스템](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/)을 사용하여 링크된 도메인 이름을 검색하고 해당 숫자 IP 주소로 확인합니다. 사이트 방문자가 해당 링크 또는 버튼을 클릭하기 전에 도메인 이름이 이미 IP 주소로 확인되었으므로 DNS 프리페치는 페이지 성능을 향상시키는 데 도움이 됩니다. DNS 프리페치 프로세스는 사용자에게 투명합니다.
+브라우저에서는 DNS 프리페치를 사용하여 웹 페이지에 링크된 도메인 이름을 해당 IP 주소로 자동으로 확인합니다. 브라우저에서 웹 페이지를 로드하면 프리페치 프로세스가 시작됩니다. 예를 들어 페이지에 `www.adobe.com`에 대한 선택 가능한 링크가 포함되어 있다고 가정해 보겠습니다. 브라우저에 이 페이지가 로드되면 [DNS 시스템](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/)을 사용하여 링크된 도메인 이름을 검색하고 해당 숫자 IP 주소로 확인합니다. 사이트 방문자가 해당 링크 또는 버튼을 클릭하기 전에 도메인 이름이 이미 IP 주소로 확인되었으므로 DNS 프리페치는 페이지 성능을 향상시키는 데 도움이 됩니다. DNS 프리페치 프로세스는 사용자에게 투명합니다.
 
 ## DNS 프리페치 및 Adobe Experience Cloud 솔루션 {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
