@@ -9,10 +9,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 69%
+ht-degree: 66%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Analytics 및 Adobe Target의 [!UICONTROL 고객 속성]에 대한 FAQ와 
 | **(Adobe Target만 해당)**[!UICONTROL  고객 속성 기능을 Target의 벌크 프로필 API와 어떻게 비교합니까?] | 벌크 프로필 API를 사용하면 개별 프로필에 대해 또는 대량으로 API를 통해 Adobe Target 프로필을 직접 업데이트할 수 있습니다. 이 기능은 고객 속성과 비슷하지만, 다음과 같은 주요 차이점이 있습니다.<ul><li>프로필 API는 REST API 호출이며, 고객 속성은 FTP를 사용합니다.</li><li>Adobe Target의 프로필 API는 전체 Experience Cloud 대신 Adobe Target으로만 데이터를 보냅니다.</li><li>고객 속성은 이러한 외부 데이터를 만들고 관리할 간단한 인터페이스를 제공합니다.</li></ul> |
 | **(Adobe Target만 해당)** 고객 속성에서 Adobe Target으로 데이터를 업로드하면 Adobe Target 방문자의 프로필 라이프타임이 연장됩니까? | 예. Adobe Target 도움말의 [방문자 프로필 라이프타임](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=en) 을 참조하십시오. |
 | **(Adobe Target만 해당)** 방문자가 고객 ID로 식별되면 바로 고객 속성에 업로드된 데이터를 타깃팅할 수 있습니까? | 예. Adobe Target에 대한 서버 호출 시 여기에 mbox 타사 ID가 포함되면 모든 고객 속성 데이터를 사용할 수 있습니다. |
-| **(Adobe Target만 해당)**  **[!UICONTROL 동기화]** 상태 열은 고객 속성 소스에 업로드된 파일에 대해 무엇을 나타냅니까? | 특정 특성 파일에 대한 동기화 상태 아이콘을 클릭하여 Adobe Target에 의해 게시되고 동기화된 레코드 수를 볼 수 있습니다. `Sync %` 는 Adobe Target에서 동기화된 프로필의 비율(%)을 지정하는 실시간 지표입니다.<br> **참고:** 속성이 Adobe Target과 동기화되려면 최대 24시간이 걸릴 수 있습니다. |
+| **(Adobe Target만 해당)**  **[!UICONTROL 동기화]** 상태 열은 고객 속성 소스에 업로드된 파일에 대해 무엇을 나타냅니까? | 특정 특성 파일에 대해 동기화 상태 아이콘을 선택하여 Adobe Target에 의해 게시되고 동기화된 레코드 수를 볼 수 있습니다. `Sync %` 는 Adobe Target에서 동기화된 프로필의 비율(%)을 지정하는 실시간 지표입니다.<br> **참고:** 속성이 Adobe Target과 동기화되려면 최대 24시간이 걸릴 수 있습니다. |
 | 고객 속성 소스에서 파일 업로드 지표가 나타내는 것은 무엇입니까? | 다음 지표의 도움을 받아 고객 속성에 업로드된 속성의 상태를 확인할 수 있습니다. <ul><li>레코드: 속성 파일에 있는 레코드 수입니다.</li><li>**새 레코드:** 속성 파일에 있는 새 레코드 수입니다.</li> <li>**업데이트된 레코드:** 파일에서 업데이트된 값이 있는 고객 속성에 있는 레코드 수입니다.</li><li>**모든 데이터(레코드):** 고객 속성에 성공적으로 업로드된 총 레코드 수입니다.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
