@@ -9,21 +9,21 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 60%
+source-wordcount: '297'
+ht-degree: 57%
 
 ---
 
-# 브라우저 쿠키에 대한 개인 정보 설정 활성화{#enable-privacy-settings-for-browser-cookies}
+# 브라우저 쿠키에 대한 개인정보 보호 설정 활성화{#enable-privacy-settings-for-browser-cookies}
 
 데스크톱 및 모바일 브라우저에서 모든 쿠키를 차단한 사용자를 삭제할 수 있습니다. 이 기능은 데이터 수집을 옵트아웃하는 사용자를 제외하는 개인 정보 보호 설정으로서, Analytics 처리를 중단하려는 사용자의 의사를 존중할 수 있도록 해줍니다.
 
 **브라우저 쿠키에 대한 개인 정보 보호 설정을 활성화하려면**
 
 1. **[!UICONTROL 관리 도구]** > **[!UICONTROL 보고서 세트]**&#x200B;로 이동합니다.
-1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 개인 정보 설정]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 개인 정보 설정]**&#x200B;으로 이동합니다.
 1. **[!UICONTROL 개인 정보 설정]**&#x200B;을 활성화합니다(데스크톱 또는 모바일의 경우).
 
 >[!IMPORTANT]
