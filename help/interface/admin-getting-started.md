@@ -8,10 +8,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 48%
+source-wordcount: '1275'
+ht-degree: 46%
 
 ---
 
@@ -40,10 +40,10 @@ Admin Console에 로그인, Experience Cloud 사용자 권한과 제품 프로�
 
 사용자를 조직에 초대할 때 사용자에게 제품 및 제품 프로필에 대한 액세스 권한을 제공할 수 있습니다. 제한된 관리 권한을 사용자에게 위임할 수도 있습니다. 마찬가지로 사용자 그룹을 작성한 후, 제품 프로필에 액세스할 수 있는 그룹을 추가할 수 있습니다.
 
-1. [Admin Console](https://adminconsole.adobe.com/enterprise/)에서 **[!UICONTROL 제품]**&#x200B;을 클릭합니다.
-1. 조직 이름을 클릭합니다.
-1. **[!UICONTROL 새 프로필]**&#x200B;을 클릭합니다.
-1. 프로필 세부 사항을 구성한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. [Admin Console](https://adminconsole.adobe.com/enterprise/)제품&#x200B;]**을 선택합니다.**[!UICONTROL 
+1. 조직 이름을 선택합니다.
+1. **[!UICONTROL 새 프로필]**&#x200B;을 선택합니다.
+1. 프로필 세부 사항을 구성한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 자세한 내용(및 Creative Cloud 및 Document Cloud 제품 관리에 대한 도움말을 보려면 [관리 사용 안내서](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html)에서 [Identity](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/identity.ug.html) 를 참조하십시오.
 
@@ -82,16 +82,16 @@ Admin Console에서 조직의 다른 사용자에게 제한된 관리 권한을 
 
 이러한 역할을 사용하면 필요 이상으로 더 많은 기능을 제공하지 않고 다른 사람에게 관리를 동시에 위임할 수 있습니다.
 
-1. Admin Console에서 **[!UICONTROL 사용자]**&#x200B;를 클릭한 다음 사용자 이름을 클릭합니다.
+1. Admin Console에서 **[!UICONTROL 사용자]**&#x200B;를 선택한 다음 사용자 이름을 선택합니다.
 
    ![](assets/edit-admin-rights.png)
 
-1. **[!UICONTROL 관리 권한 편집]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 관리 권한 편집]**&#x200B;을 선택합니다.
 
    ![](assets/edit-admin-rights-page.png)
 
 1. 사용자의 관리 권한을 지정합니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 ## Analytics 사용자 및 제품 관리 {#section_97DE101F92CD494AB073893680992F1A}
 
@@ -99,8 +99,8 @@ Analytics 보고서 액세스 권한(보고서 세트, 지표, 차원 등)을 �
 
 예를 들어 여러 Analytics 도구([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] 및 [!UICONTROL Report Builder])를 포함하는 제품 프로필을 만들 수 있습니다. 이러한 프로필에는 특정 지표 및 차원(eVar 포함)에 대한 권한 및 세그먼트나 계산된 지표 생성과 같은 기능이 포함되어 있습니다.
 
-1. [Admin Console](https://adminconsole.adobe.com/enterprise)에 로그인한 다음 **[!UICONTROL 제품]**&#x200B;을 클릭합니다.
-1. [!UICONTROL 제품] 페이지에서 제품을 클릭한 다음 **[!UICONTROL 권한]**&#x200B;을 클릭합니다(관리자에게만 사용 가능).
+1. [Admin Console](https://adminconsole.adobe.com/enterprise)에 로그인한 다음 **[!UICONTROL 제품]**&#x200B;을 선택합니다.
+1. [!UICONTROL 제품] 페이지에서 제품을 선택한 다음 **[!UICONTROL 권한]**&#x200B;을 선택합니다(관리자만 사용 가능).
 1. 프로필의 권한 구성:
 
 | 요소 | 설명 |
