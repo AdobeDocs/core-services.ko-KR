@@ -9,10 +9,10 @@ topic: 관리
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 84%
+ht-degree: 79%
 
 ---
 
@@ -61,7 +61,7 @@ Analytics는 쿠키를 사용하여 새 방문자를 익명으로 정의하고 �
 
 | 특성 | 설명 |
 |--- |--- |
-| 정보가 저장됨 | 이 쿠키는 사용자가 클릭했던 이전 링크에 대한 정보를 포함하고 있으며 ClickMap 기능이나 Activity Map 기능을 사용하는 경우 JavaScript 코드로 설정하고 읽습니다. |
+| 정보가 저장됨 | 이 쿠키는 SelectMap 기능이나 Activity Map 기능이 활성화되어 있을 때 JavaScript 코드로 설정하고 읽습니다.여기에는 사용자가 선택한 이전 링크에 대한 정보가 포함되어 있습니다 |
 | 만료 | 이 쿠키는 세션 쿠키로서 브라우저가 닫히면 만료됩니다. |
 | 사용 | 모든 계정에 대해 하나의 쿠키만 |
 | 위치 | 이 쿠키는 페이지의 도메인에 저장됩니다. |
