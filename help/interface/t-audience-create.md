@@ -1,24 +1,24 @@
 ---
-description: 특성 규칙을 사용하여 Adobe Experience Cloud에서 대상자를 만들고 복합 대상자를 정의하는 방법을 알아봅니다.
+description: 속성 규칙을 사용하여 Adobe Experience Cloud에서 대상자를 만들고 복합 대상자를 정의하는 방법을 알아봅니다.
 keywords: 핵심 서비스
 solution: Experience Cloud
 title: '대상자 만들기 '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: 대상 라이브러리
 topic: 관리
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
 # 대상자 만들기
 
-특성 규칙을 사용하여 Experience Cloud에서 대상자를 만들고 복합 대상자를 정의하는 방법을 알아봅니다.
+속성 규칙을 사용하여 Experience Cloud에서 대상자를 만들고 복합 대상자를 정의하는 방법을 알아봅니다.
 
 이 문서는 다음 방법을 이해하는 데 도움이 됩니다.
 
@@ -38,7 +38,7 @@ ht-degree: 91%
 
 다음 예에서는 복합 대상에 대한 규칙을 만드는 방법을 보여 줍니다. 이 대상은 다음으로 구성됩니다.
 
-* 페이지 데이터 또는 원시 Analytics 데이터에서 파생된 홈/가든 섹션
+* 페이지 데이터 또는 원시 분석 데이터에서 파생된 홈/가든 섹션
 * [!DNL Experience Cloud]에 [게시된](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) [!DNL Adobe Analytics]세그먼트에서 파생된 Chrome 및 Safari 사용자.
 
    ![](assets/audience_create.png)
@@ -53,12 +53,12 @@ ht-degree: 91%
 1. [!UICONTROL 새 대상 만들기] 페이지에서 제목 및 설명을 지정합니다.
 1. [!UICONTROL 규칙]에서 다음과 같은 속성 소스를 선택합니다. 
 
-   * **[!UICONTROL Real-Time Analytics 데이터:]**  (또는 원시 데이터) Real-Time Analytics 이미지 요청에서 파생된 특성 데이터이며, eVar 및 이벤트와 같은 데이터를 포함합니다. 이 특성 소스를 사용할 때 보고서 세트를 선택하고 포함할 차원 또는 이벤트를 정의해야 합니다. 이 보고서 세트 선택 옵션은 보고서 세트에 사용되는 변수 구조를 제공합니다.
+   * **[!UICONTROL Real-Time Analytics 데이터:]** (또는 Raw 데이터) 이것은 Real-Time Analytics 이미지 요청에서 파생된 속성 데이터이며 eVar 및 이벤트와 같은 데이터를 포함합니다. 이 속성 소스를 사용할 때 보고서 세트를 선택하고 포함할 차원 또는 이벤트를 정의해야 합니다. 이 보고서 세트 선택 옵션은 보고서 세트에 사용되는 변수 구조를 제공합니다.
    >[!NOTE]
    >
    >캐싱으로 인해, Analytics에서 삭제된 보고서 세트는 삭제가 Experience Cloud에 표시되는 데 12시간이 필요합니다.
 
-   * **[!UICONTROL Experience Cloud:]**[!DNL Experience Cloud] 소스에서 파생된 특성 데이터입니다. 예를 들어 [!DNL Analytics]에서 만든 대상 세그먼트의 데이터이거나 [!DNL Audience Manager]의 데이터일 수 있습니다.
+   * **[!UICONTROL Experience Cloud:]**[!DNL Experience Cloud] 소스에서 파생된 속성 데이터입니다. 예를 들어 [!DNL Analytics]에서 만든 대상 세그먼트의 데이터이거나 [!DNL Audience Manager]의 데이터일 수 있습니다.
 
 1. 대상 규칙을 정의한 다음 **[!UICONTROL 저장].**
 
@@ -68,7 +68,7 @@ ht-degree: 91%
 
 [!UICONTROL 규칙]에서 *`Home & Garden`* 속성 선택 사항을 정의합니다.
 
-* **[!UICONTROL 속성 소스:]** 원시 Analytics 데이터
+* **[!UICONTROL 속성 소스:]** Raw Analytics 데이터
 * **[!UICONTROL 보고서 세트:]** 보고서 세트 31
 * 차원 = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home &amp; Garden]**
 
@@ -76,7 +76,7 @@ ht-degree: 91%
 
 *Chrome 및 Safari 방문자*&#x200B;는 Analytics에서 공유되는 대상 세그먼트입니다.
 
-* **[!UICONTROL 특성 소스:]** Experience Cloud
+* **[!UICONTROL 속성 소스:]** Experience Cloud
 * **[!UICONTROL 차원:]** Chrome/Safari 방문자
 
 ![](assets/chrome_safari.png)
