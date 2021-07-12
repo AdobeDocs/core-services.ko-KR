@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: 'Experience Cloud 중앙 UI 구성 요소 '
 feature: '''중앙 인터페이스 구성 요소'''
 topic: 관리
-role: Administrator, User
+role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 88%
@@ -43,7 +43,7 @@ Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이�
 
 ## Experience Cloud의 검색 및 지원 {#search}
 
-Experience Cloud 검색을 통해 [Experience League](https://experienceleague.adobe.com/?lang=ko-KR/#home)에서 도움말(설명서, 튜토리얼 및 과정)을 검색할 수 있게 되었습니다.
+Experience Cloud 검색을 통해 [Experience League](https://experienceleague.adobe.com/#home)에서 도움말(설명서, 튜토리얼 및 과정)을 검색할 수 있게 되었습니다.
 
 ![](assets/search-menu.png)
 
@@ -65,7 +65,7 @@ Experience Cloud 검색을 통해 [Experience League](https://experienceleague.a
 
 ### Experience Cloud [!UICONTROL 환경 설정] 관리 {#preferences}
 
-Experience Cloud 환경 설정(알림, 구독 및 경고 포함) 관리.
+Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니다.
 
 계정 메뉴 ![](assets/preferences-icon-sm.png)에서 **[!UICONTROL 환경 설정]**&#x200B;을 선택하여 환경 설정을 관리합니다.
 
