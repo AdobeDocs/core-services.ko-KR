@@ -5,13 +5,13 @@ title: '다양한 솔루션 및 서비스에서 DNS 프리페치 사용 '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 feature: 고객 속성
 topic: 관리
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 88%
+ht-degree: 96%
 
 ---
 
@@ -44,9 +44,9 @@ DNS 프리페치는 페이지에 포함된 정적 링크에서 자동으로 작�
 
 * **Experience Cloud ID 서비스:** `<link rel="dns-prefetch" href="//fast. *`여기에 파트너 ID 삽입`*.demdex.net">`
 
-* **Dynamic Tag Manager** (DTM): 필요하지 않습니다. DTM 링크는 페이지가 로드될 때 사용할 수 있습니다.
+* **Dynamic Tag Manager**(DTM): 필요하지 않습니다. DTM 링크는 페이지가 로드되면 사용 가능합니다.
 
-* **Media Optimizer (Advertising Cloud):**
+* **Media Optimizer(Advertising Cloud):**
 
    * `<link rel="dns-prefetch" href="//pixel.everesttech.net">`
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
