@@ -6,19 +6,19 @@ title: 'Exchange 마켓플레이스 '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 feature: '''고객 속성'''
 topic: 관리
-role: Administrator
+role: Admin
 level: Experienced
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
 # Exchange 마켓플레이스
 
-Exchange Marketplace는 앱을 통해 디지털 마케팅 확장 기능을 검색, 탐색, 선택, 지불, 다운로드할 수 있는 단일 대상입니다. 앱에는 Data Connectors, Adobe의 핵심 제품에 대한 사용자 지정 구성, 타사 애플리케이션 및 보고서가 포함됩니다.
+Exchange Marketplace는 앱을 통해 디지털 마케팅 확장 기능을 검색, 탐색, 선택, 지불, 다운로드할 수 있는 단일 대상입니다. 앱에는 데이터 커넥터, Adobe의 핵심 제품에 대한 사용자 지정 구성, 서드파티 애플리케이션 및 보고서가 포함됩니다.
 
 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 도움말]** > **[!UICONTROL Exchange]**
 
