@@ -6,19 +6,19 @@ title: 'Creative Cloud 사용자 관리 '
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
 feature: 자산
 topic: 관리
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 74%
+ht-degree: 84%
 
 ---
 
 # Creative Cloud 사용자 관리
 
-Experience Cloud는 승인된 Creative Cloud 사용자를 관리하는 관리 도구를 제공합니다. 이러한 사용자는 임시로 캠페인 폴더에 초대될 수 있습니다. 관리자가 목록에 추가한 사용자만 캠페인에 초대될 수 있습니다. 추가된 사용자가 Experience Cloud의 자동 완성 사용자 목록에 표시됩니다.
+Experience Cloud는 승인된 Creative Cloud 사용자를 관리하는 관리 도구를 제공합니다. 이러한 사용자는 임시로 캠페인 폴더에 초대될 수 있습니다. 관리자가 목록에 추가한 사용자만 캠페인에 초대될 수 있습니다. 추가된 사용자는 Experience Cloud의 자동 완성 사용자 목록에 표시됩니다.
 
 >[!NOTE]
 >
