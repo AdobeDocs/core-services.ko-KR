@@ -4,13 +4,13 @@ title: 'Advertising Cloud 쿠키 '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: 쿠키
 topic: 관리
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
 <table id="table_821F8EBE91F244CBA72B0975B961B908"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 특성 </th> 
+   <th colname="col1" class="entry"> 속성 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
@@ -56,7 +56,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
 <table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 특성 </th> 
+   <th colname="col1" class="entry"> 속성 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
@@ -71,7 +71,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용 </p> </td> 
-   <td colname="col2"> <p>"2016년 6월 30일에 마지막으로 본 광고 xyz123"과 같이 사용자의 참여를 광고로 저장하는 타사 쿠키 </p> </td> 
+   <td colname="col2"> <p>"2016년 6월 30일에 마지막으로 본 광고 xyz123"과 같이 사용자의 참여를 광고로 저장하는 서드파티 쿠키 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>위치 </p> </td> 
@@ -89,7 +89,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
 <table id="table_D7CD238736BC4571883F92F47673F57C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 특성 </th> 
+   <th colname="col1" class="entry"> 속성 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
@@ -124,22 +124,22 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
 <table id="table_A05C02AB261946E0AABAD78259392D81"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 특성 </th> 
+   <th colname="col1" class="entry"> 속성 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>정보가 저장됨 </p> </td> 
-   <td colname="col2"> <p>yyyymmdd 형식으로 동기화가 수행되는 날짜 </p> </td> 
+   <td colname="col2"> <p>동기화가 수행되는 날짜(yyyymmdd 형식) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>만료 </p> </td> 
-   <td colname="col2"> <p>yyyymmdd 형식으로 동기화가 수행되는 날짜 </p> </td> 
+   <td colname="col2"> <p>동기화가 수행되는 날짜(yyyymmdd 형식) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용 </p> </td> 
-   <td colname="col2"> <p>Advertising Cloud 서퍼 ID를 파트너 광고 교환과 동기화하는 타사 광고 교환 관련 쿠키. 새 서퍼에 대해 작성되며, 기간이 만료되면 동기화 요청을 보냅니다. </p> </td> 
+   <td colname="col2"> <p>Advertising Cloud 서퍼 ID를 파트너 광고 교환과 동기화하는 서드파티 광고 교환 관련 쿠키. 새 서퍼에 대해 작성되며, 기간이 만료되면 동기화 요청을 보냅니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>위치 </p> </td> 
@@ -157,7 +157,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
 <table id="table_04043292A43B41B69EAF17AF4E217C69"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 특성 </th> 
+   <th colname="col1" class="entry"> 속성 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
@@ -190,7 +190,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
 <table id="table_1A3AE4CA71304ADB943CB1F64BE695F5"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 특성 </th> 
+   <th colname="col1" class="entry"> 속성 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
@@ -205,7 +205,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용 </p> </td> 
-   <td colname="col2"> <p>타사 브라우저 세션 쿠키, 하나의 쿠키가 모든 계정에 사용됨 </p> </td> 
+   <td colname="col2"> <p>서드파티 브라우저 세션 쿠키, 하나의 쿠키가 모든 계정에 사용됨 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>위치 </p> </td> 
@@ -223,7 +223,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
 <table id="table_6C4D9DCFA4BF4FB2BD445E027550955F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 특성 </th> 
+   <th colname="col1" class="entry"> 속성 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
@@ -238,7 +238,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용 </p> </td> 
-   <td colname="col2"> <p>everest_g_v2 cookie 쿠키의 서퍼 ID에 해당하는 DSP ID를 저장하는 타사 쿠키 </p> </td> 
+   <td colname="col2"> <p>everest_g_v2 cookie 쿠키의 서퍼 ID에 해당하는 DSP ID를 저장하는 서드파티 쿠키 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>위치 </p> </td> 
@@ -256,7 +256,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 특성 </th> 
+   <th colname="col1" class="entry"> 속성 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
