@@ -6,13 +6,13 @@ title: 'Search&Promote 쿠키 '
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 feature: 쿠키
 topic: 관리
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 2e35668d-bf36-4f17-ae44-c2b9313c6c1f
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Search&amp;Promote는 쿠키를 사용하여 방문자 검색 의도를 이해�
 <table id="table_34AA90F2FFB84500A77D8F4C5008D453"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>특성 </p> </th> 
+   <th colname="col1" class="entry"> <p>속성 </p> </th> 
    <th colname="col2" class="entry"> <p>설명 </p> </th> 
   </tr> 
  </thead>
