@@ -6,13 +6,13 @@ title: 'Scene7 쿠키 '
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 feature: 쿠키
 topic: 관리
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -24,19 +24,19 @@ Scene7은 이전의 일부 AS2 플래시 기반 뷰어에 대한 정보를 로�
 
 AS2 뷰어의 경우, 쿠키:
 
-* 현재 페이지 및 이미지 보기, 현재 확대/축소 수준 등과 같은 사용자의 세션 상태를 추적합니다.
+* 현재 페이지 및 이미 본 이미지, 현재 확대/축소 레벨 등과 같은 사용자의 세션 상태를 추적합니다.
 * 사용자의 이전 세션 이후 경과된 시간을 확인합니다. 뷰어는 이 정보를 사용하여 이전 세션을 계속 진행할지 또는 새 세션을 시작할지를 결정합니다. 이 정보는 Scene7 서버에도 전송되지만 사용되지는 않습니다.
 
 AS2 Flash eCatalog 뷰어의 경우, 쿠키:
 
-* 사용자가 생성한 컨텐츠(특히 전자 카탈로그 뷰어의 &quot;스티커 메모&quot; 기능에서 사용자가 입력한 컨텐츠)를 저장합니다. 이 컨텐츠는 사용자가 세션을 다시 시작할 때 복원됩니다.
-* 사용자가 전자 카탈로그를 다른 사용자와 공유하기 위해 이메일을 시작하면 두 번째 AS2 뷰어 글머리 기호의 스티커 메모 컨텐츠가 Adobe 서버에 복사되어 수신자에게 제공됩니다. 수신자가 뷰어 세션을 시작하면 스티커 메모 컨텐츠를 서버에서 검색하고 쿠키에 복사합니다. 이 기능은 거의 사용되지 않으므로 만료되지 않고 오래된 컨텐츠는 제거되지 않습니다. 현재 서버에 무기한으로 지속되고 있습니다.
+* 사용자가 생성한 콘텐츠(특히 전자 카탈로그 뷰어의 &quot;스티커 메모&quot; 기능에서 사용자가 입력한 콘텐츠)를 저장합니다. 이 콘텐츠는 사용자가 세션을 다시 시작할 때 복원됩니다.
+* 사용자가 전자 카탈로그를 다른 사용자와 공유하기 위해 이메일을 시작하면 두 번째 AS2 뷰어 글머리 기호의 스티커 메모 콘텐츠가 서버로 복사되어 수신자에게 제공됩니다. 수신자가 뷰어 세션을 시작하면 스티커 메모 콘텐츠를 서버에서 검색하고 쿠키에 복사합니다. 이 기능은 거의 사용되지 않으므로 만료되지 않고 오래된 콘텐츠는 제거되지 않습니다. 현재로서는 서버에서 무기한으로 유지됩니다.
 
 최신 AS3 뷰어는 세션 지속성을 구현하지 않습니다.
 
 **쿠키 이름: VatLogin.jsp**
 
-| 특성 | 설명 |
+| 속성 | 설명 |
 |---|---|
 | 정보가 저장됨 | 세션 쿠키를 설정합니다. IPS ImageServer(IS, IR 및 SWF/스킨 및 비디오 컨텍스트)에 포함된 AuthFilter는 액세스 승인에 쿠키를 사용합니다. 쿠키가 있을 경우 HTTP 요청이 통과하도록 허용합니다. 그렇지 않으면 권한 없음을 반환합니다. |
 | 만료 | 이 쿠키는 세션 쿠키입니다. 현재 세션 만료는 Scene7 IPS [!DNL web.xml]에 45분으로 설정되어 있습니다. |
@@ -46,7 +46,7 @@ AS2 Flash eCatalog 뷰어의 경우, 쿠키:
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 특성 </th> 
+   <th colname="col1" class="entry"> 속성 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
@@ -69,7 +69,7 @@ AS2 Flash eCatalog 뷰어의 경우, 쿠키:
 <table id="table_8F6CC83D32D54BEE99884318AD126C98"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 특성 </th> 
+   <th colname="col1" class="entry"> 속성 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
