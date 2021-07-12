@@ -6,13 +6,13 @@ title: 설명서 업데이트
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 feature: 고객 속성
 topic: 관리
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 86%
 
 Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 
-**업데이트됨:6/4/2021**
+**업데이트 날짜: 2021년 6월 4일**
 
-가이드의 구조, 목차 구조를 재구성했습니다.
+안내서의 구조와 목차를 개편했습니다.
 
-**업데이트됨:6/1/2021**
+**업데이트 날짜: 2021년 6월 1일**
 
-[랜딩 페이지](experience-cloud.md)가 Experience Cloud, 전역 검색, 환경 설정 및 알림에 액세스하는 방법에 대한 새로운 도움말로 업데이트되었습니다.
+Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한 새로운 도움말로 [랜딩 페이지](experience-cloud.md)를 업데이트했습니다.
 
 **업데이트 날짜: 2020년 8월 19일**
 
@@ -45,13 +45,13 @@ Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 
 **업데이트 날짜: 2020년 3월 10일**
 
-자사 쿠키 섹션의 [호스트 이름 전달 유효성 확인](cookies-first-party.md#validate)을 업데이트했습니다.
+자사 쿠키 섹션의 [호스트 이름 전달 유효성 검사](cookies-first-party.md#validate)을 업데이트했습니다.
 
 **업데이트 날짜: 2020년 2월 20일**
 
 [Experience Cloud 사용자 세부 사항 보기(관리 도구)](admin-tool-experience-cloud.md)를 추가했습니다.
 
-**업데이트 날짜: 2018월9월 5일**
+**업데이트 날짜: 2018년 9월 5일**
 
 고객 속성을 삭제하는 방법을 추가했습니다. [(선택 사항) 스키마 업데이트(속성 삭제)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)를 참조하십시오.
 
@@ -73,7 +73,7 @@ Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 
 **업데이트 날짜: 2017년 3월 15일**
 
-[대상 만들기](t-audience-create.md#task_37F407F58BF9459493BB8E968CDFE737)에서 원시 Analytics 데이터의 정의를 업데이트했습니다.
+[대상 만들기](t-audience-create.md#task_37F407F58BF9459493BB8E968CDFE737)에서 Raw Analytics 데이터의 정의를 업데이트했습니다.
 
 **업데이트 날짜: 2017년 2월 23일**
 
@@ -89,7 +89,7 @@ Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 
 **업데이트 날짜: 2016년 2월 11일**
 
-[Experience Cloud 에셋](experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0)이 추가되었습니다.
+[Experience Cloud Assets](experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0)이 추가되었습니다.
 
 **업데이트 날짜: 2015년 3월 2일**
 
@@ -97,7 +97,7 @@ Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 
 **업데이트 날짜: 2015년 1월 15일**
 
-이제 Experience Cloud 사용자가 폴더를 Creative Cloud에 공유하고 두 클라우드 간 에셋과 주석을 동기화할 수 있다는 내용이 추가되었습니다. [에셋 공유](creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)를 참조하십시오.
+이제 Experience Cloud 사용자가 폴더를 Creative Cloud에 공유하고 두 클라우드 간 자산과 주석을 동기화할 수 있다는 내용이 추가되었습니다. [자산 공유](creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)를 참조하십시오.
 
 **업데이트 날짜: 2014년 7월 17일**
 
