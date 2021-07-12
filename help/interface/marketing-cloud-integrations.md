@@ -6,13 +6,13 @@ title: 'Experience Cloud 통합 '
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
 topic: 관리
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '1396'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -47,8 +47,8 @@ ID 서비스는 Experience Cloud의 모든 솔루션에서 방문자를 식별�
 
 **해당 솔루션 또는 서비스**
 
-* [Adobe Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=en)
-* [Adobe Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=en)
+* [Adobe Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=ko-KR)
+* [Adobe Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=ko-KR)
 
 ## Audiences {#section_5F60D7B0833348B9A1D74663AADCB42C}
 
@@ -63,7 +63,7 @@ Experience Cloud 대상 라이브러리에서 Audiences를 만들고 관리합�
 **해당 솔루션 또는 서비스**
 
 * [Adobe Target의 활동](https://experienceleague.adobe.com/docs/target/using/activities/activities.html?lang=ko-KR)
-* Audience Manager의 [세그멘테이션](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=ko-KR)
+* Audience Manager의 [세분화](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=ko-KR)
 * [Media Optimizer](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D)(로그인 필요)
 
 ## 고객 속성 {#section_6A9EA6847F654F129381869E5016626C}
@@ -74,12 +74,12 @@ Experience Cloud 대상 라이브러리에서 Audiences를 만들고 관리합�
 >
 >고객 속성은 현재 유지되고 있는 레거시 서비스입니다.
 
-CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 업로드했으면 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 사용하십시오.
+CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 업로드한 후에는 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 사용합니다.
 
 **해당 솔루션 또는 서비스**
 
 * Adobe Analytics: 고객 속성 보고서
-* Adobe Target: 고객 속성에 대한 Adobe Target의 [가입](subscription.md) 구성
+* Adobe Target: 고객 속성에 대한 Adobe Target의 [구독](subscription.md) 구성
 
 ## Experience Cloud Assets {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
@@ -89,7 +89,7 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 >
 >Assets는 현재 유지되고 있는 레거시 핵심 서비스입니다.
 
-Experience Cloud와 Creative Cloud 간에 폴더 및 에셋을 공유합니다. 공유 에셋에 공동 작업을 수행하고, 주석을 달고, [!DNL Social] 및 [!DNL Target]과 같은 Experience Cloud 솔루션에서 사용합니다.
+Experience Cloud와 Creative Cloud 간에 폴더 및 자산을 공유합니다. 공유 자산에 공동 작업을 수행하고, 주석을 달고, [!DNL Social] 및 [!DNL Target]과 같은 Experience Cloud 솔루션에서 사용합니다.
 
 **해당 솔루션 또는 서비스**
 
@@ -102,7 +102,7 @@ Experience Cloud와 Creative Cloud 간에 폴더 및 에셋을 공유합니다. 
 
 도움말: [Analytics의 AEM Assets 보고](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html?lang=ko-KR)
 
-Analytics에서 AEM 에셋 인사이트에서 제공된 에셋에 대한 노출 횟수 및 클릭 수를 수집할 수 있습니다.
+Analytics에서 AEM 자산 인사이트에서 제공된 자산에 대한 노출 횟수 및 클릭 수를 수집할 수 있습니다.
 
 **해당 솔루션 또는 서비스**
 
@@ -127,7 +127,7 @@ Experience Cloud 솔루션 또는 Audience Manager의 기타 외부 시스템에
 
 Experience Cloud 활성화 솔루션을 사용하여 Experience Cloud 솔루션을 설정 및 디버깅합니다.
 
-1. 페이지에서 Experience Cloud 응용 프로그램을 활성화하는 코드를 삽입하려면 [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko-KR)을 사용하십시오.
+1. [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko-KR)를 사용하여 페이지에 Experience Cloud 애플리케이션을 활성화하는 코드를 삽입합니다.
 1. [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=ko-KR)를 사용하여 구현을 테스트합니다.
 
 Adobe Experience Cloud Debugger 확장 프로그램을 사용하여 감사에서 발견한 문제를 디버깅하거나 구현에 대한 다른 정보를 조사합니다.
@@ -135,7 +135,7 @@ Adobe Experience Cloud Debugger 확장 프로그램을 사용하여 감사에서
 **해당 솔루션 또는 서비스**
 
 * [Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)
-* [Audience Manager](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html?lang=en)
+* [Audience Manager](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html?lang=ko-KR)
 * [Media Optimizer](https://experienceleague.adobe.com/docs/dtm/using/tools/media-optimizer.html?lang=ko-KR)
 * [Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools/target.html?lang=ko-KR)
 * [MAC ID 서비스](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=ko-KR)
@@ -149,8 +149,8 @@ Adobe Target을 Adobe Analytics 및 기타 Experience Cloud 솔루션과 통합�
 
 **해당 솔루션 또는 서비스**
 
-* 고객 속성:고객 속성에 Adobe Target의 [구독](subscription.md) 구성
-* Experience Cloud 대상: [Experience Cloud 대상 라이브러리](audience-library.md)
+* 고객 속성: 고객 속성에 대한 Adobe Target의 [구독](subscription.md) 구성
+* Experience Cloud Audiences: [Experience Cloud 대상 라이브러리](audience-library.md)
 * Analytics: [Adobe Target용 보고 소스 Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko-KR)
 * Dynamic Tag Management: [DTM을 사용하여 Adobe Target을 구현하는 우수 사례](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html?lang=ko-KR)
 * Audience Manager: [Adobe Audience Manager와 Adobe Target 데이터 통합](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en)
@@ -179,7 +179,7 @@ Adobe Target을 Adobe Analytics 및 기타 Experience Cloud 솔루션과 통합�
 
 도움말: [Experience Cloud 및 Creative Cloud로 AEM Assets 통합 구성](https://experienceleague.adobe.com/docs/)
 
-AEM(Adobe Experience Manager) 에셋 내의 에셋을 Adobe Creative Cloud와 동기화하거나 그 반대로 동기화합니다. 에셋을 Experience Cloud와 동기화하거나 그 반대로 동기화할 수 있습니다. Experience Cloud를 통해 이러한 동기화를 설정할 수 있습니다.
+AEM(Adobe Experience Manager) 자산 내의 자산을 Adobe Creative Cloud와 동기화하거나 그 반대로 동기화합니다. 자산을 Experience Cloud와 동기화하거나 그 반대로 동기화할 수 있습니다. Experience Cloud를 통해 이러한 동기화를 설정할 수 있습니다.
 
 **해당 솔루션 또는 서비스**
 
@@ -195,10 +195,10 @@ AEM(Adobe Experience Manager) 에셋 내의 에셋을 Adobe Creative Cloud와 �
 
 **Analytics:** 사이트 참여 및 전환 데이터를 매일 [!DNL Adobe Advertising]에 전송할 수 있습니다. 해당 데이터를 광고 최적화 및 보고에 사용할 수 있습니다. 또한 [!DNL Advertising]에서 매일 Analytics에 검색 엔진 및 소셜 네트워크 트래픽 데이터를 전송할 수 있으며, 해당 데이터를 Reports &amp; Analytics, Report Builder 및 AdHoc Analysis 기능의 보고서에 사용할 수 있습니다.
 
-**다이내믹 태그 관리자:** 다이내믹 태그 관리자를  [사용하여 검색, 소셜 및 디스플레이 광고 랜딩 페이지용으로 광고 픽셀 기반 변환 추적 태그](https://experienceleague.adobe.com/docs/dtm/using/tools/media-optimizer.html?lang=en) 및 타사 추적 태그를 만들 수 있습니다. (또한 [!DNL Advertising] 태그를 직접 [!DNL Advertising] 내에서 만들 수 있습니다.)
+**Dynamic Tag Manager:** Dynamic Tag Manager를 사용하여 검색, 소셜 및 디스플레이 광고 랜딩 페이지에 대한 서드파티 추적 태그 및 [광고 픽셀 기반 전환 추적 태그를 만들 수 있습니다.](https://experienceleague.adobe.com/docs/dtm/using/tools/media-optimizer.html?lang=en) (또한 [!DNL Advertising] 태그를 직접 [!DNL Advertising] 내에서 만들 수 있습니다.)
 
-**Experience Cloud Audiences:** (디스플레이 관리 부서가 있는 광고주) [Adobe Experience Cloud Audiences](audience-library.md)를 디스플레이 광고 대상으로 사용할 수 있습니다. Experience Cloud에서 만든 대상과 Adobe Experience Cloud에 게시한 분석의 대상을 자동으로 사용할 수 있습니다. [!DNL Adobe Advertising] 계정이 Audience Manager을 허용하도록 구성된 경우 해당 계정의 대상을 사용할 수도 있습니다. Adobe Experience Cloud, 프로필 및 Audiences 액세스 관련 정보와 [!DNL Adobe Advertising] 및 Adobe Experience Cloud Audiences 사이의 초기 설정의 자세한 정보를 알아보려면 계정 관리자에게 문의하십시오. **참고:** Adobe Target도 사용하는 경우 Adobe Experience Cloud에 게시한 모든 Audiences를 Adobe Target의 활동에도 사용할 수 있습니다.
+**Experience Cloud Audiences:** (디스플레이 관리 부서가 있는 광고주) [Adobe Experience Cloud Audiences](audience-library.md)를 디스플레이 광고 대상으로 사용할 수 있습니다. Experience Cloud에서 만든 대상과 Adobe Experience Cloud에 게시한 Analytics의 대상을 자동으로 사용할 수 있습니다. [!DNL Adobe Advertising] 계정이 이를 허용하도록 구성된 경우 Audience Manager의 대상을 사용할 수도 있습니다. Adobe Experience Cloud, 프로필 및 Audiences 액세스 관련 정보와 [!DNL Adobe Advertising] 및 Adobe Experience Cloud Audiences 사이의 초기 설정의 자세한 정보를 알아보려면 계정 관리자에게 문의하십시오. **참고:** Adobe Target도 사용하는 경우 Adobe Experience Cloud에 게시한 모든 Audiences를 Adobe Target의 활동에도 사용할 수 있습니다.
 
 **Experience Cloud Assets:** (디스플레이 관리 부서가 있는 광고주) 새 디스플레이 베타 보기를 사용하여 Adobe Experience Cloud Assets를 디스플레이 광고를 위한 크리에이티브 기능으로 사용할 수 있습니다. Adobe Experience Cloud Assets에 액세스하려면 [Adobe Experience Cloud를 통해 Adobe Advertising에 로그인해야 합니다.](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) Adobe Experience Cloud 액세스 관련 정보를 자세히 알아보려면 계정 관리자에게 문의하십시오.
 
-**Experience Cloud 알림:** 각 페이지 맨 위에 있는 알림 링크에서 검색 베타 경고 템플릿에서 생성된 모든 경고를 볼 수 있습니다. Experience Cloud 시스템 업데이트, 게시물, 언급 및 공유된 자산을 가져올 수도 있습니다. 알림에 액세스하려면 [Adobe Experience Cloud를 통해 Adobe Advertising에 로그인해야 합니다.](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) Adobe Experience Cloud 액세스 관련 정보를 자세히 알아보려면 계정 관리자에게 문의하십시오.
+**Experience Cloud 알림:** 각 페이지 상단의 알림 링크에서 검색 베타 경고 템플릿에서 생성된 모든 경고를 볼 수 있습니다. Experience Cloud 시스템 업데이트, 게시물, 멘션, 공유된 자산 받기도 가능합니다. 알림에 액세스하려면 [Adobe Experience Cloud를 통해 Adobe Advertising에 로그인해야 합니다.](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) Adobe Experience Cloud 액세스 관련 정보를 자세히 알아보려면 계정 관리자에게 문의하십시오.
