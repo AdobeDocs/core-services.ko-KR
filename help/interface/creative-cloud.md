@@ -5,13 +5,13 @@ solution: Experience Cloud
 title: 'Creative Cloud와 Experience Cloud 폴더 및 자산 공유 '
 feature: 자산
 topic: 관리
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ Creative Cloud 사용자가 자산에 액세스하려면 Experience Cloud에서 
 
 [!DNL Adobe Target]에서 활동을 만들면 [!UICONTROL 오퍼 라이브러리]에서 이미지를 변경하여 공유 이미지 자산을 사용할 수 있습니다.
 
-[!DNL Target] 도움말에서 [오퍼 라이브러리](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=en)를 참조하십시오.
+[!DNL Target] 도움말에서 [오퍼 라이브러리](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=ko-KR)를 참조하십시오.
