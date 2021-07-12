@@ -1,26 +1,26 @@
 ---
-description: FTP를 통해 Experience Cloud으로 고객 속성 데이터를 업로드하는 방법을 알아봅니다.
-keywords: 고객 속성;코어 서비스
+description: FTP를 통해 고객 속성 데이터를 Experience Cloud로 업로드하는 방법을 알아봅니다.
+keywords: 고객 속성;핵심 서비스
 solution: Experience Cloud
-title: 'FTP를 통해 고객 속성 데이터 파일 업로드 '
+title: 'FTP를 통한 고객 속성 데이터 파일 업로드 '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 feature: 고객 속성
 topic: 관리
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 66%
+ht-degree: 98%
 
 ---
 
-# 선택 사항 - FTP를 통해 데이터 파일 업로드
+# 선택 사항 - FTP를 통한 데이터 파일 업로드
 
-드래그 앤 드롭을 사용하여 업로드하지 않는 경우에는 FTP를 통해 Experience Cloud으로 고객 속성 데이터를 업로드할 수 있습니다.
+드래그 앤 드롭을 사용하여 업로드하지 않는 경우에는 FTP를 통해 고객 속성 데이터를 Experience Cloud로 업로드할 수 있습니다.
 
-Experience Cloud에서 고객 속성 소스 및 FTP 계정을 만든 후에 데이터를 업로드할 수 있습니다. 특성 소스당 FTP 계정을 1개 만듭니다. 업로드한 파일은 해당 계정의 루트 폴더에 저장됩니다. 데이터는 `.csv` 형식이어야 하며 업로드가 완료되었음을 나타내는 두 번째 `.fin` 파일도 있어야 합니다.
+Experience Cloud에서 고객 속성 소스 및 FTP 계정을 만든 후에 데이터를 업로드할 수 있습니다. 속성 소스당 FTP 계정을 1개 만듭니다. 업로드한 파일은 해당 계정의 루트 폴더에 저장됩니다. 데이터는 `.csv` 형식이어야 하며, 업로드가 완료되었음을 나타내는 두 번째 `.fin` 파일도 있어야 합니다.
 
 >[!IMPORTANT]
 >
@@ -29,9 +29,9 @@ Experience Cloud에서 고객 속성 소스 및 FTP 계정을 만든 후에 데�
 고객 속성 FTP 사이트로의 파일 업로드는 FTP 또는 SFTP를 통해 수행될 수 있습니다:
 
 * SFTP 연결을 지원하는 클라이언트가 필요합니다.
-* [여기](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=en)에 설명된 것처럼 사용자 이름/암호를 사용하거나 암호를 사용하지 않고 SFTP를 통해 연결할 수 있습니다.
+* [여기](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=ko-KR)에 설명된 것처럼 사용자 이름/암호를 사용하거나 암호를 사용하지 않고 SFTP를 통해 연결할 수 있습니다.
 
-**FTP를 통해 데이터 파일 업로드**
+**FTP를 통한 데이터 파일 업로드**
 
 1. [고객 속성 소스를 만들고 데이터 파일 업로드...](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
