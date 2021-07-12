@@ -6,10 +6,10 @@ title: '조직 및 계정 연결 '
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Admin Console
 topic: 관리
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 90%
@@ -22,7 +22,7 @@ ht-degree: 90%
 
 ## 조직 식별 {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-** 조직은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 하는 항목입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
+** 조직은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 항목입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
 
 또한 지원을 위해 조직 ID를 찾아야 할 수도 있습니다. **[!UICONTROL 조직]** 메뉴를 사용하여 올바른 조직에 있는지 확인하거나 조직 간에 전환할 수 있습니다.
 
@@ -42,7 +42,7 @@ ht-degree: 90%
 
 1. Experience Cloud로 전자 메일 초대의 단계를 따릅니다.
 1. Adobe ID 또는 Enterprise ID를 사용하여 로그인합니다.
-1. 솔루션 선택기를 선택합니다.( ![](assets/menu-icon.png)).
+1. 솔루션 선택기를 선택합니다. ( ![](assets/menu-icon.png)).
 
    ![](assets/solutions-active.png)
 
@@ -72,5 +72,5 @@ ht-degree: 90%
 
 일반적으로, 계정 연결은 Adobe ID가 이전 사용자에게 연결되어 있어서 실패합니다. 계정 연결에 실패하면,
 
-* [Adobe 지원에 문의하십시오](https://experienceleague.adobe.com/?lang=ko-KR?support-solution=General#support).
+* [Adobe 지원에 문의하십시오](https://experienceleague.adobe.com/?support-solution=General#support).
 * 문제가 해결되는 동안 여전히 표준 로그인을 사용하여 솔루션에 액세스할 수 있습니다.
