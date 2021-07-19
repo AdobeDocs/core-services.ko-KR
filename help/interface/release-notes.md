@@ -9,10 +9,10 @@ topic: 관리
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
 workflow-type: tm+mt
-source-wordcount: '4199'
-ht-degree: 97%
+source-wordcount: '4224'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,10 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 설명서 업데이트 목록은 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)를 참조하십시오.
 
 모든 솔루션에 대해 설명하는 릴리스 노트가 필요하면 [Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
+
+## 2021년 7월
+
+통합 검색이 Journey Optimizer, 오퍼 및 Experience League에 사용할 수 있도록 업데이트됩니다. 이전에는 Experience Platform 사용자만 이 기능을 사용할 수 있었습니다.
 
 ## 2021년 6월
 
