@@ -8,9 +8,9 @@ topic: 관리
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e198879b806aa0765034d6d0cc2fcf2a6f5e856a
+source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '920'
 ht-degree: 92%
 
 ---
@@ -69,7 +69,7 @@ Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이�
 
 >[!NOTE]
 >
->전역 검색은 Experience Platform 및 Journey Orchestration 사용자만 사용할 수 있습니다.
+>전역 검색은 Experience Platform, Journey Optimizer, 오퍼 및 Experience League에만 사용할 수 있습니다.
 
 ## 계정 환경 설정 관리 {#preferences}
 
