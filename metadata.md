@@ -11,12 +11,12 @@ solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: 시작하기
 getting-started-url: https://helpx.adobe.com/kr/experience-cloud-core-services/get-started.html
 tutorials-title: 튜토리얼
-tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
+tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html?lang=ko-KR
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.ko-KR
 source-git-commit: 918c72e675be85f1309dc697a668771b97bef324
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
