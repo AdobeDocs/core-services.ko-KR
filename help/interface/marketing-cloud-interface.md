@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: 'Experience Cloud의 새로운 기능 '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 89%
 
 Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 
-## 2018월 8일 {#section_7388CDAB723B49809AABEFEE85CF6378}
+## 2018년 8월 {#section_7388CDAB723B49809AABEFEE85CF6378}
 
 2018년 8월, 수정 사항 및 개선 사항.
 
-* Creative Cloud와 Experience Cloud 간 자산 주석 동기화를 개선했습니다. (CORE-15971)
-* Experience Cloud-Creative Cloud 자산 동기화를 제어하는 기능 플래그를 추가했습니다. (CORE-15938)
+* Creative Cloud와 Experience Cloud 간 에셋 주석 동기화를 개선했습니다. (CORE-15971)
+* Experience Cloud-Creative Cloud 에셋 동기화를 제어하는 기능 플래그를 추가했습니다. (CORE-15938)
 * 향상된 검색 및 목록 생성 환경을 포함하여 대상 세그먼트 생성을 개선했습니다. (CORE-5833, CORE-14278)
 * Experience Cloud에서 Creative Cloud로의 폴더 공유를 차단하는 높은 우선 순위가 문제를 해결했습니다. (CORE-16677)
 
@@ -31,7 +31,7 @@ Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 
 2018년 7월, 수정 사항 및 개선 사항.
 
-* Marketing Cloud-to-AEM와 Marketing Cloud-to-Creative Cloud 간의 자산 공유를 제어하기 위해 백엔드 기능을 배포했습니다. (CORE-14386)
+* Marketing Cloud-to-AEM와 Marketing Cloud-to-Creative Cloud 간의 에셋 공유를 제어하기 위해 백엔드 기능을 배포했습니다. (CORE-14386)
 * 일부 환경에서 새 테넌트의 프로비저닝이 차단되는 문제를 해결했습니다. (CORE-15509)
 * [!DNL experiencecloud.adobe.com] (안전함) 대신 [!DNL experiencecloud.adobe.com]를 통해 [!DNL http]에 액세스할 때 사용자가 [!DNL https]으로 리디렉션되는 문제를 해결했습니다. (CORE-15587)
 * 일부 새로운 테넌트에 대한 알림이 차단되는 문제를 해결했습니다. (CORE-15240)
@@ -41,7 +41,7 @@ Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 2018년 6월, 수정 사항 및 개선 사항.
 
 * 관리자에 대한 GDPR 액세스 링크를 활성화했습니다. (CORE-11731)
-* 피드백에 첨부할 수 있는 파일 유형을 제한하는 베타 피드백 기능을 업데이트했습니다. (CORE-10474)
+* 피드백에 첨부할 수 있는 파일 유형을 제한하는 Beta 피드백 기능을 업데이트했습니다. (CORE-10474)
 * Audience Library에서 대상을 삭제할 때 발생하는 문제를 해결했습니다. (CORE-12792)
 * Federated ID를 사용하여 작업 공간 링크에 액세스하는 동안 빈 화면이 표시되는 문제를 해결했습니다. (CORE-11620)
 
@@ -70,9 +70,9 @@ Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 
 | 기능 | 설명 |
 |--- |--- |
-| 알림 - 세부 설정 | [고객 특성](attributes.md) 업로드 활동에 대한 알림을 포함하여 제품 및 솔루션 이벤트 및 활동에 대한 알림을 활성화할 수 있습니다. |
+| 알림 - 세부 설정 | [고객 속성](attributes.md) 업로드 활동에 대한 알림을 포함하여 제품 및 솔루션 이벤트 및 활동에 대한 알림을 활성화할 수 있습니다. |
 | 알림 - 유지 관리 알림 | 알림 설정에서 제품 및 솔루션에 대한 유지 관리 알림을 활성화할 수 있습니다. |
-| Experience Cloud 솔루션에 대한 Admin Console | 새 Experience Cloud 고객은 전체 조직에서 Adobe 자격을 관리할 중앙 위치인 Admin Console을 사용할 수 있습니다.<br>사용자 관리를 위한 Admin Console로의 마이그레이션은 지속적으로 진행됩니다. Adobe은 마이그레이션할 때가 되면 시스템 관리자에게 연락합니다.<br>Analytics 관리자는 [Analytics 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)을 참조하십시오. |
+| Experience Cloud 솔루션에 대한 Admin Console | 새 Experience Cloud 고객은 전체 조직에서 Adobe 자격을 관리할 중앙 위치인 Admin Console을 사용할 수 있습니다.<br>사용자 관리를 위한 Admin Console로의 마이그레이션은 지속적으로 진행됩니다. Adobe는 마이그레이션을 할 시기가 되면 사용자(시스템 관리자)에게 연락합니다.<br>Analytics 관리자는 [Analytics 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=ko-KR)을 참조하십시오. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -80,8 +80,8 @@ Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 
 | 기능 | 설명 |
 |--- |--- |
-| 벌크 보고서 세트 매핑 | 이제 관리 > 보고서 세트 매핑에서 여러 보고서 세트를 선택한 다음 조직에 매핑할 수 있습니다 (이전에는 보고서를 개별적으로 매핑해야 했음).  <br>[보고서 세트를 단일 조직에 매핑하면 Experience Cloud에서 교차 솔루션 기능과 서비스를 사용할 수 있습니다.](core-services.md) |
-| Experience Cloud 대상 업데이트 | **보고서 세트 적용**<br>&#x200B;이제 모든 [대상 규칙](t-audience-create.md)에 보고서 세트를 적용할 수 있습니다. (이전에는 각 규칙 정의에 보고서 세트를 지정해야 했음.) <br>**Prop 및 변수**<br>&#x200B;이제 실시간 대상에 Analytics Prop 및 기본 변수(eVars 및 이벤트 포함)를 포함할 수 있습니다. |
+| 벌크 보고서 세트 매핑 | 이제 관리 > 보고서 세트 매핑에서 여러 보고서 세트를 선택한 다음 조직에 매핑할 수 있습니다. (이전에는 개별적으로 매핑해야 했습니다.)  <br>[보고서 세트를 단일 조직에 매핑하면 Experience Cloud에서 교차 솔루션 기능과 서비스를 사용할 수 있습니다.](core-services.md) |
+| Experience Cloud Audiences 업데이트 | **보고서 세트 적용**<br>&#x200B;이제 모든 [대상 규칙](t-audience-create.md)에 보고서 세트를 적용할 수 있습니다. (이전에는 각 규칙 정의에 보고서 세트를 지정해야 했음.) <br>**Prop 및 변수**<br>&#x200B;이제 실시간 대상에 Analytics Prop 및 기본 변수(eVars 및 이벤트 포함)를 포함할 수 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -96,4 +96,4 @@ Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
 **수정 사항**
 
 * Creative Cloud와 Experience Cloud 간에 공유하는 폴더에 오류를 일으킨 기술 암호 관련 문제가 해결되었습니다. (MAC-31067, MAC-32014)
-* 자산 핵심 서비스의 10월 릴리스 이후 발견된 특정 파일 유형(예: PDF) 업로드와 관련된 문제가 해결되었습니다. (MAC-32517)
+* 에셋 핵심 서비스의 10월 릴리스 이후 발견된 특정 파일 유형(예: PDF) 업로드와 관련된 문제가 해결되었습니다. (MAC-32517)
