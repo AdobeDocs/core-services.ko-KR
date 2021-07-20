@@ -2,12 +2,12 @@
 audience: administrator
 user-guide-title: 'Experience Cloud 중앙 인터페이스 구성 요소 '
 breadcrumb-title: Experience Cloud 중앙 인터페이스 구성 요소
-user-guide-description: Experience Cloud의 인터페이스에 대해 알아보고, 환경 설정을 구성하고, 도움말 및 비즈니스 개체를 검색합니다. 사용자 및 제품 관리, 고객 속성, 대상 라이브러리, 쿠키 및 Experience Cloud 자산에 대한 지원을 받습니다.
+user-guide-description: Experience Cloud의 인터페이스에 대해 알아보고, 환경 설정을 구성하고, 도움말 및 비즈니스 개체 검색에 관해 알아보십시오. 사용자 및 제품 관리, 고객 속성, 대상 라이브러리, 쿠키 및 Experience Cloud Assets에 대한 도움을 받으십시오.
 index: true
 source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 76%
    + Experience Cloud 대상 라이브러리 {#audiences}
       + [Experience Cloud 대상](audience-library.md)
       + [대상자 만들기](t-audience-create.md)
-      + [Analytics 대상자 세그먼트 게시](t-publish-audience-segment.md)
+      + [Analytics 대상 세그먼트 게시](t-publish-audience-segment.md)
    + Experience Cloud 고객 속성 {#customer-attributes}
       + [고객 속성 개요](attributes.md)
       + [고객 속성 관련 자주 묻는 질문](faq-crs.md)
       + [고객 속성에 대한 데이터 파일 및 데이터 소스 정보](crs-data-file.md)
       + [고객 속성 소스를 만들고 데이터 파일 업로드](t-crs-usecase.md)
-      + [선택 사항 - FTP를 통해 데이터 파일 업로드](t-upload-attributes-ftp.md)
+      + [선택 사항 - FTP를 통한 데이터 파일 업로드](t-upload-attributes-ftp.md)
       + [스키마 유효성 검사](validate-schema.md)
       + [구독 구성](subscription.md)
       + [스키마 업데이트](t-update-schema.md)
@@ -36,9 +36,9 @@ ht-degree: 76%
       + [고객 속성에 대한 개인정보 보호 고려 사항](privacy-mac.md)
    + Experience Cloud 활성화 {#activation}
       + [활성화 개요](activation.md)
-      + [Experience Platform Launch 사용 안내서](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko-KR)
-      + [Triggers](triggers.md)
-   + Experience Cloud 자산이 추가되었습니다 {#assets}
+      + [Experience Platform Launch 사용자 안내서](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko-KR)
+      + [트리거](triggers.md)
+   + Experience Cloud Assets {#assets}
       + [Experience Cloud Assets 개요](experience-cloud-assets.md)
       + [Creative Cloud와 Experience Cloud 폴더 및 에셋 공유](creative-cloud.md)
       + [Creative Cloud 사용자 관리](t-admin-add-cc-user.md)
@@ -68,10 +68,10 @@ ht-degree: 76%
       + [[!DNL Search and Promote] 쿠키](cookies-snp.md)
       + [[!DNL Target] 쿠키](cookies-target.md)
       + [브라우저 쿠키에 대한 개인정보 보호 설정 활성화](browser-cookie-settings.md)
-      + [타사 쿠키 지원 변경 방법이 고객에게 미치는 영향](cookies-thirdparty.md)
-+ Experience Cloud UI {#release-notes} 릴리스 노트
-   + [중앙 인터페이스 구성 요소에 대한 릴리스 노트입니다](release-notes.md)
-   + [모든 Experience Cloud에 대한 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
+      + [서드파티 쿠키 지원 변경이 고객에게 영향을 미치는 방식](cookies-thirdparty.md)
++ Experience Cloud UI 릴리스 정보 {#release-notes}
+   + [중앙 인터페이스 구성 요소 릴리스 정보](release-notes.md)
+   + [모든 Experience Cloud에 대한 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)
 + 추가 리소스 {#more-resources}
    + [포럼](https://experienceleaguecommunities.adobe.com/)
    + [용어](terms.md)
