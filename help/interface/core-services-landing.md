@@ -7,10 +7,10 @@ topic: 관리
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 97%
+source-wordcount: '364'
+ht-degree: 96%
 
 ---
 
@@ -33,9 +33,9 @@ Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL �
 | [인물 - 고객 속성](attributes.md) | 이벤트 또는 데이터 소스에 저장된 컨텍스트 데이터를 사용하여 실시간 오케스트레이션 사용 사례 구축. [!UICONTROL Journey Orchestration]은 Experience Platform과 통합된 애플리케이션 서비스입니다. |
 | [위치 서비스](https://experienceleague.adobe.com/docs/places/using/home.html?lang=ko-KR) | Adobe [!UICONTROL Experience Platform 위치 서비스]는 지리적 위치 서비스입니다. 위치 인지도가 있는 모바일 앱이 관심 영역(POI)에 대해 유연한 데이터베이스와 함께 풍부하고 사용하기 쉬운 SDK 인터페이스를 사용하여 위치 컨텍스트를 이해할 수 있도록 합니다. |
 | [활성화](activation.md) | 활성화에는 Experience Platform 데이터 수집 (Launch) 및 Experience Cloud 트리거라는 최신 태그 관리 제품이 포함됩니다. |
-| [Assets](experience-cloud-assets.md) | Experience Cloud Assets은 솔루션 간에 공유할 수 있는 마케팅 준비가 끝난 자산에 대해 중앙 집중식 단일 저장소를 제공합니다. (Assets은 현재 유지되고 있는 레거시 서비스입니다.) |
+| [Assets](experience-cloud-assets.md) | Experience Cloud Assets은 솔루션 간에 공유할 수 있는 마케팅 준비가 끝난 에셋에 대해 중앙 집중식 단일 저장소를 제공합니다. |
 | [관리](admin-getting-started.md) | Admin Console에 로그인, Experience Cloud 사용자 권한과 제품 프로필 관리 및 브라우저 지원 방법에 대해 알아봅니다. |
-| [쿠키](cookies-privacy.md) | 고객 개인 정보 보호 및 데이터 보안을 유지 관리하는 것은 Adobe의 최우선 과제입니다. Adobe는 여러 개인 정보 보호 조직에 참여하고 개인 정보 규제 기관 및 자체 규제 원칙과 협력합니다. |
+| [쿠키](cookies-privacy.md) | 고객 개인정보 보호 및 데이터 보안을 유지 관리하는 것은 Adobe의 최우선 과제입니다. Adobe는 여러 개인정보 보호 조직에 참여하고 개인정보 규제 기관 및 자체 규제 원칙과 협력합니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
