@@ -8,18 +8,14 @@ topic: 관리
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '334'
 ht-degree: 84%
 
 ---
 
 # Experience Cloud Assets 개요
-
->[!NOTE]
->
->Assets는 현재 유지되고 있는 레거시 핵심 서비스입니다.
 
 Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준비가 끝난 자산에 대해 중앙 집중식 단일 저장소를 제공합니다. 자산은 디지털 문서, 이미지, 비디오, 오디오 또는 그 일부로, 다양한 표현물과 하위 자산(예: [!DNL Photoshop] 파일의 레이어, [!DNL PowerPoint] 파일의 슬라이드, PDF의 페이지, ZIP에 있는 파일)을 가질 수 있습니다.
 
