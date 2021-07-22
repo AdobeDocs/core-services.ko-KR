@@ -9,9 +9,9 @@ topic: 관리
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1378'
 ht-degree: 100%
 
 ---
@@ -70,10 +70,6 @@ Experience Cloud 대상 라이브러리에서 Audiences를 만들고 관리합�
 
 도움말: [고객 속성](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
->[!NOTE]
->
->고객 속성은 현재 유지되고 있는 레거시 서비스입니다.
-
 CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 업로드한 후에는 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 사용합니다.
 
 **해당 솔루션 또는 서비스**
@@ -85,11 +81,7 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 
 도움말: [Creative Cloud와 Experience Cloud 폴더 공유](creative-cloud.md)
 
->[!NOTE]
->
->Assets는 현재 유지되고 있는 레거시 핵심 서비스입니다.
-
-Experience Cloud와 Creative Cloud 간에 폴더 및 자산을 공유합니다. 공유 자산에 공동 작업을 수행하고, 주석을 달고, [!DNL Social] 및 [!DNL Target]과 같은 Experience Cloud 솔루션에서 사용합니다.
+Experience Cloud와 Creative Cloud 간에 폴더 및 자산을 공유합니다. 공유 에셋에 공동 작업을 수행하고, 주석을 달고, [!DNL Social] 및 [!DNL Target]과 같은 Experience Cloud 솔루션에서 사용합니다.
 
 **해당 솔루션 또는 서비스**
 
@@ -102,7 +94,7 @@ Experience Cloud와 Creative Cloud 간에 폴더 및 자산을 공유합니다. 
 
 도움말: [Analytics의 AEM Assets 보고](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html?lang=ko-KR)
 
-Analytics에서 AEM 자산 인사이트에서 제공된 자산에 대한 노출 횟수 및 클릭 수를 수집할 수 있습니다.
+Analytics에서 AEM 에셋 인사이트에서 제공된 에셋에 대한 노출 횟수 및 클릭 수를 수집할 수 있습니다.
 
 **해당 솔루션 또는 서비스**
 
@@ -152,7 +144,7 @@ Adobe Target을 Adobe Analytics 및 기타 Experience Cloud 솔루션과 통합�
 * 고객 속성: 고객 속성에 대한 Adobe Target의 [구독](subscription.md) 구성
 * Experience Cloud Audiences: [Experience Cloud 대상 라이브러리](audience-library.md)
 * Analytics: [Adobe Target용 보고 소스 Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko-KR)
-* Dynamic Tag Management: [DTM을 사용하여 Adobe Target을 구현하는 우수 사례](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html?lang=ko-KR)
+* Dynamic Tag Management: [DTM을 사용하여 Adobe Target을 구현하는 모범 사례](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html?lang=ko-KR)
 * Audience Manager: [Adobe Audience Manager와 Adobe Target 데이터 통합](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en)
 * Campaign: [Adobe Target과 Campaign 통합](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ko-KR)
 
@@ -179,7 +171,7 @@ Adobe Target을 Adobe Analytics 및 기타 Experience Cloud 솔루션과 통합�
 
 도움말: [Experience Cloud 및 Creative Cloud로 AEM Assets 통합 구성](https://experienceleague.adobe.com/docs/)
 
-AEM(Adobe Experience Manager) 자산 내의 자산을 Adobe Creative Cloud와 동기화하거나 그 반대로 동기화합니다. 자산을 Experience Cloud와 동기화하거나 그 반대로 동기화할 수 있습니다. Experience Cloud를 통해 이러한 동기화를 설정할 수 있습니다.
+AEM(Adobe Experience Manager) 에셋 내의 에셋을 Adobe Creative Cloud와 동기화하거나 그 반대로 동기화합니다. 에셋을 Experience Cloud와 동기화하거나 그 반대로 동기화할 수 있습니다. Experience Cloud를 통해 이러한 동기화를 설정할 수 있습니다.
 
 **해당 솔루션 또는 서비스**
 
@@ -199,6 +191,6 @@ AEM(Adobe Experience Manager) 자산 내의 자산을 Adobe Creative Cloud와 �
 
 **Experience Cloud Audiences:** (디스플레이 관리 부서가 있는 광고주) [Adobe Experience Cloud Audiences](audience-library.md)를 디스플레이 광고 대상으로 사용할 수 있습니다. Experience Cloud에서 만든 대상과 Adobe Experience Cloud에 게시한 Analytics의 대상을 자동으로 사용할 수 있습니다. [!DNL Adobe Advertising] 계정이 이를 허용하도록 구성된 경우 Audience Manager의 대상을 사용할 수도 있습니다. Adobe Experience Cloud, 프로필 및 Audiences 액세스 관련 정보와 [!DNL Adobe Advertising] 및 Adobe Experience Cloud Audiences 사이의 초기 설정의 자세한 정보를 알아보려면 계정 관리자에게 문의하십시오. **참고:** Adobe Target도 사용하는 경우 Adobe Experience Cloud에 게시한 모든 Audiences를 Adobe Target의 활동에도 사용할 수 있습니다.
 
-**Experience Cloud Assets:** (디스플레이 관리 부서가 있는 광고주) 새 디스플레이 베타 보기를 사용하여 Adobe Experience Cloud Assets를 디스플레이 광고를 위한 크리에이티브 기능으로 사용할 수 있습니다. Adobe Experience Cloud Assets에 액세스하려면 [Adobe Experience Cloud를 통해 Adobe Advertising에 로그인해야 합니다.](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) Adobe Experience Cloud 액세스 관련 정보를 자세히 알아보려면 계정 관리자에게 문의하십시오.
+**Experience Cloud Assets:** (디스플레이 관리 부서가 있는 광고주) 새 디스플레이 Beta 보기를 사용하여 Adobe Experience Cloud Assets를 디스플레이 광고를 위한 크리에이티브 기능으로 사용할 수 있습니다. Adobe Experience Cloud Assets에 액세스하려면 [Adobe Experience Cloud를 통해 Adobe Advertising에 로그인해야 합니다.](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) Adobe Experience Cloud 액세스 관련 정보를 자세히 알아보려면 계정 관리자에게 문의하십시오.
 
-**Experience Cloud 알림:** 각 페이지 상단의 알림 링크에서 검색 베타 경고 템플릿에서 생성된 모든 경고를 볼 수 있습니다. Experience Cloud 시스템 업데이트, 게시물, 멘션, 공유된 자산 받기도 가능합니다. 알림에 액세스하려면 [Adobe Experience Cloud를 통해 Adobe Advertising에 로그인해야 합니다.](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) Adobe Experience Cloud 액세스 관련 정보를 자세히 알아보려면 계정 관리자에게 문의하십시오.
+**Experience Cloud 알림:** 각 페이지 상단의 알림 링크에서 검색 Beta 경고 템플릿에서 생성된 모든 경고를 볼 수 있습니다. Experience Cloud 시스템 업데이트, 게시물, 멘션, 공유된 에셋 받기도 가능합니다. 알림에 액세스하려면 [Adobe Experience Cloud를 통해 Adobe Advertising에 로그인해야 합니다.](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) Adobe Experience Cloud 액세스 관련 정보를 자세히 알아보려면 계정 관리자에게 문의하십시오.
