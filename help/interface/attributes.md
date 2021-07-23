@@ -7,16 +7,16 @@ role: Admin
 topic: 관리
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 12b2758155885386cdc3e6fc7e1a77f2b8e74b6e
+source-git-commit: a19887e3160faa0ef91bd975fc6e1e08a0a9d948
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '485'
+ht-degree: 100%
 
 ---
 
 # 고객 속성 개요
 
-Experience Cloud의 고객 속성을 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드한 다음 Adobe Analytics 및 Adobe Target에서 데이터를 사용할 수 있습니다.
+Experience Cloud의 [!UICONTROL 고객 속성]을 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드한 다음 Adobe Analytics 및 Adobe Target에서 데이터를 사용할 수 있습니다.
 
 이 기능을 찾으려면 **[!DNL Experience Platform]** > **[!UICONTROL 사용자]** > **[!UICONTROL 고객 속성]**&#x200B;으로 이동합니다.
 
