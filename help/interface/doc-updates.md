@@ -9,16 +9,20 @@ topic: 관리
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 9a232162008524d900e3655716a84961c287c773
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 98%
 
 ---
 
 # 설명서 업데이트 - Experience Cloud
 
 Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
+
+**업데이트됨 8/6/2021**
+
+[자사 쿠키](cookies-first-party.md)를 업데이트했습니다.
 
 **업데이트 날짜: 2021년 6월 4일**
 
@@ -97,7 +101,7 @@ Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한
 
 **업데이트 날짜: 2015년 1월 15일**
 
-이제 Experience Cloud 사용자가 폴더를 Creative Cloud에 공유하고 두 클라우드 간 자산과 주석을 동기화할 수 있다는 내용이 추가되었습니다. [자산 공유](creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)를 참조하십시오.
+이제 Experience Cloud 사용자가 폴더를 Creative Cloud에 공유하고 두 클라우드 간 에셋과 주석을 동기화할 수 있다는 내용이 추가되었습니다. [에셋 공유](creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)를 참조하십시오.
 
 **업데이트 날짜: 2014년 7월 17일**
 
