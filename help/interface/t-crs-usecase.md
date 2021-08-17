@@ -9,10 +9,10 @@ topic: 관리
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 97%
+source-wordcount: '1151'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 고객 속성 소스(CSV 및 FIN 파일)를 만들고 데이터를 업로드합니다. 준비가 되면 데이터 소스를 활성화할 수도 있습니다. 데이터 소스가 활성화되면 속성 데이터를 Analytics 및 Target과 공유합니다.
 
-## 고객 속성 워크플로우 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
+## 고객 속성 워크플로 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
 ![](assets/crs.png)
 
@@ -86,7 +86,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
       별칭 ID는 추가 고객 ID 값을 설정하는 특정 영역에 해당합니다. 예:
 
-      * **Dynamic Tag Management:** 별칭 ID는 *Experience Cloud ID 서비스* 도구에 있는 [!UICONTROL 고객 설정] 아래의 [통합 코드](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=ko-KR) 값에 해당합니다.
+      * **Dynamic Tag Management:** 별칭 ID는 *Experience Cloud ID 서비스* 도구에 있는 [!UICONTROL 고객 설정] 아래의 [통합 코드](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) 값에 해당합니다.
 
       * **방문자 API:** 별칭 ID는 각 방문자에게 연결할 수 있는 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko-KR)에 해당합니다.
 
@@ -161,7 +161,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
 이제 Adobe Analytics과 같은 솔루션에서 데이터를 사용할 수 있으므로 데이터에 대해 보고하고 분석하여 마케팅 캠페인에서 적절한 조치를 취할 수 있습니다.
 
-다음 예에서는 업로드한 속성에 따른 [!DNL Analytics] 세그먼트를 보여줍니다. 이 세그먼트는 최근에 실행한 제품이 Photoshop인 [!DNL Photoshop Lightroom] 가입자를 보여줍니다.
+다음 예에서는 업로드한 속성에 따른 [!DNL Analytics] 세그먼트를 보여 줍니다. 이 세그먼트는 최근에 실행한 제품이 Photoshop인 [!DNL Photoshop Lightroom] 가입자를 보여 줍니다.
 
 ![](assets/08_crs_usecase.png)
 
