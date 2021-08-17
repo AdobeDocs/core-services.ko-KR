@@ -4,10 +4,10 @@ user-guide-title: 'Experience Cloud 중앙 인터페이스 구성 요소 '
 breadcrumb-title: Experience Cloud 중앙 인터페이스 구성 요소
 user-guide-description: Experience Cloud의 인터페이스에 대해 알아보고, 환경 설정을 구성하고, 도움말 및 비즈니스 개체 검색에 관해 알아보십시오. 사용자 및 제품 관리, 고객 속성, 대상 라이브러리, 쿠키 및 Experience Cloud Assets에 대한 도움을 받으십시오.
 index: true
-source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
-workflow-type: ht
+source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
+workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
       + [고객 속성에 대한 개인정보 보호 고려 사항](privacy-mac.md)
    + Experience Cloud 활성화 {#activation}
       + [활성화 개요](activation.md)
-      + [Experience Platform Launch 사용자 안내서](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko-KR)
+      + [Experience Platform Launch 사용자 안내서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
       + [트리거](triggers.md)
    + Experience Cloud Assets {#assets}
       + [Experience Cloud Assets 개요](experience-cloud-assets.md)
