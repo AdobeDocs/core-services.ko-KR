@@ -8,10 +8,10 @@ topic: 관리
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 95%
+source-wordcount: '1274'
+ht-degree: 94%
 
 ---
 
@@ -147,7 +147,7 @@ Experience Platform [!UICONTROL 데이터 수집]([!UICONTROL Launch])은 [!UICO
 
 사용자를 [!UICONTROL Platform Launch]에 초대하고 사용자 역할과 권한을 할당합니다.
 
-[사용자 권한](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=ko-KR#admin)를 참조하여 Admin Console에서의 사용자 권한에 대해 알아보고, 프로필에 권한 지정하기를 포함하여 Launch 관련 옵션 설정에 관해 알아보십시오.
+[사용자 권한](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=en)를 참조하여 Admin Console에서의 사용자 권한에 대해 알아보고, 프로필에 권한 지정하기를 포함하여 Launch 관련 옵션 설정에 관해 알아보십시오.
 
 ## Experience Manager as a Cloud Service
 
