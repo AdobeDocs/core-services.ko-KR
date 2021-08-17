@@ -1,5 +1,5 @@
 ---
-description: Experience Cloud 중앙 인터페이스 구성 요소에 대해 알아봅니다. 이 도움말에는 Admin Console에서의 사용자 및 제품 관리, Experience Cloud 서비스를 위한 애플리케이션 활성화, 그리고 대상 라이브러리, 고객 속성, Experience Cloud Assets 등에 대한 도움말이 포함되어 있습니다.
+description: Experience Cloud 중앙 인터페이스 구성 요소에 대해 알아봅니다. 이 도움말에는 Admin Console에서의 사용자 및 제품 관리, Experience Cloud 서비스를 위한 애플리케이션 활성화, 대상 라이브러리, 고객 속성, Experience Cloud Assets 등에 대한 도움말이 포함되어 있습니다.
 solution: Experience Cloud
 title: Experience Cloud 인터페이스 도움말 및 설명서
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
@@ -8,10 +8,10 @@ topic: 관리
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -131,7 +131,7 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 * [Experience Platform 데이터 수집/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=ko-KR)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko-KR)
 * [일반 데이터 보호 규정(GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=ko-KR)
+* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 
 ## 튜토리얼
 
