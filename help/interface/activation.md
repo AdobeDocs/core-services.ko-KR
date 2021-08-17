@@ -11,22 +11,22 @@ topic: 관리
 role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # 활성화
 
-활성화에는 Experience Platform [!UICONTROL 데이터 수집] ([!UICONTROL Launch]) 및 Experience Cloud [!UICONTROL 트리거]라는 최신 태그 관리 제품이 포함됩니다.
+활성화에는 Experience Platform [!UICONTROL 데이터 수집]([!UICONTROL Launch]) 및 Experience Cloud [!UICONTROL 트리거]라는 최신 태그 관리 제품이 포함됩니다.
 
 ## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
 관련 고객 경험을 운영하는 데 필요한 분석, 마케팅 및 광고 태그를 배포하고 관리합니다.
 
-[Experience Platform Launch 빠른 시작 안내서](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=ko-KR)를 참조하십시오.
+[Experience Platform Launch 빠른 시작 안내서](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)를 참조하십시오.
 
 ## Experience Cloud [!UICONTROL 트리거] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
