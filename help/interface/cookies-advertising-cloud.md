@@ -7,16 +7,20 @@ topic: 관리
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 1f2dd42b4803517e6c513038c00b2070c08a51bb
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 88%
+source-wordcount: '571'
+ht-degree: 84%
 
 ---
 
 # Advertising Cloud 쿠키{#advertising-cloud-cookies}
 
 Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 이벤트에 매핑하고 해당 정보를 사용하여 광고 입찰을 최적화합니다.
+
+>[!NOTE]
+>
+>[Adobe Experience Cloud ID(ECID) 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko-KR)를 사용하는 베타 Advertising Cloud Javascript 태그는 Advertising Cloud 쿠키가 아닌 [자사 Experience Cloud s_ecid 쿠키](cookies-first-party.md)를 만듭니다.
 
 ## 쿠키 이름: _lcc
 
