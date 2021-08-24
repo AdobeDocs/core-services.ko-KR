@@ -8,7 +8,7 @@ topic: 관리
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
+source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 63%
@@ -89,7 +89,7 @@ Experience Cloud은 Adobe 사용자 계정 환경 설정에 설정된 대로 각
 
 ## 도움말 및 지원 요청 {#support}
 
-[Experience League](https://experienceleague.adobe.com/#home)의 도움말 컨텐츠(설명서, 자습서 및 강좌)를 비롯하여 개별 응용 프로그램을 위한 추가 리소스를 포함한 헤더의 도움말 아이콘(![asset](assets\help-icon.png))을 사용하여 학습 및 도움말에 액세스합니다. 오픈엔드 피드백을 제출하고 우선 순위가 지정된 지원 티켓을 만들 수도 있습니다.
+[Experience League](https://experienceleague.adobe.com/#home)의 도움말 컨텐츠(설명서, 자습서 및 강좌)를 비롯하여 개별 응용 프로그램을 위한 추가 리소스를 포함한 헤더의 도움말 아이콘(![asset](assets/help-icon.png))을 사용하여 학습 및 도움말에 액세스합니다. 오픈엔드 피드백을 제출하고 우선 순위가 지정된 지원 티켓을 만들 수도 있습니다.
 
 ![](assets/search-menu.png)
 
