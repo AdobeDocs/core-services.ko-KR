@@ -9,16 +9,20 @@ topic: 관리
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 9a232162008524d900e3655716a84961c287c773
+source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 98%
+source-wordcount: '275'
+ht-degree: 89%
 
 ---
 
 # 설명서 업데이트 - Experience Cloud
 
 Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
+
+**업데이트됨 8/24/2021**
+
+[중앙 구성 요소](experience-cloud.md) 페이지(이 안내서의 랜딩 페이지)가 업데이트되었습니다. 브라우저 및 언어 지원, 조직 업데이트, 로그인 및 도메인에 대한 정보가 추가되었습니다.
 
 **업데이트됨 8/6/2021**
 
