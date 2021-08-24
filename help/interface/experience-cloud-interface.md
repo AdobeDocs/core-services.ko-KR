@@ -1,15 +1,15 @@
 ---
-description: '글로벌 검색, 계정 환경 설정, 인터페이스 탐색 방법 및 도움말 보기 등 Experience Cloud의 중앙 인터페이스 구성 요소에 대해 알아보십시오. '
+description: 'Experience Cloud에서 중앙 인터페이스 구성 요소에 로그인하는 방법 및 정보를 알아봅니다. 전역 검색, 계정 환경 설정 및 인터페이스 탐색 및 도움말 보기에 대해 알아봅니다. '
 solution: Experience Cloud
 title: 'Experience Cloud 중앙 UI 구성 요소 '
 feature: '''중앙 인터페이스 구성 요소'''
 topic: 관리
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 88%
+source-wordcount: '718'
+ht-degree: 50%
 
 ---
 
@@ -21,17 +21,54 @@ Experience Cloud의 중앙 인터페이스 구성 요소에는 다음과 같은 
 * 글로벌 검색을 사용하여 제품 도움말 및 비즈니스 개체 찾기
 * 계정 환경 설정 관리(경고, 알림 및 구독)
 
-## Experience Cloud에 로그인
+## Experience Cloud에서 브라우저 지원 {#browser}
+
+최상의 성능을 위해 Experience Cloud은 최신 버전과 이전 버전 두 개를 포함하여 가장 인기 있는 브라우저에 최적화되었습니다.
+
+* Chrome
+* Edge
+* Firefox
+* Opera
+* Safari
+
+해당 브라우저가 목록에 없는 경우에도 계속 지원되지만 나열된 브라우저 중 하나를 사용하는 것이 좋습니다.
+
+>[!NOTE]
+>
+>Experience Cloud 도메인에서 실행 중인 모든 응용 프로그램이 모든 브라우저를 지원하는 것은 아닙니다. 확실하지 않은 경우 특정 애플리케이션의 설명서를 확인합니다.
+
+## Experience Cloud에서 언어 지원 {#languages}
+
+Experience Cloud은 Adobe 사용자 계정 환경 설정에 설정된 대로 각 사용자에 대한 기본 언어를 지원합니다. 현재 지원되는 언어:
+
+* 중국어
+* 영어
+* 프랑스어
+* 독일어
+* 이탈리아어
+* 일본어
+* 한국어
+* 포르투갈어
+* 스페인어
+* 대만
+
+모든 응용 프로그램 팀이 전역 언어 지원을 위해 노력하고 있지만 위에 언급된 모든 언어로 모든 응용 프로그램이 제공되지는 않습니다. Experience Cloud 응용 프로그램에서 기본 언어가 지원되지 않는 경우에는 보조 언어를 기본 언어로 설정할 수도 있습니다. 이 작업은 [Experience Cloud 사용자 환경 설정](https://experience.adobe.com/preferences)에서 수행할 수 있습니다.
+
+## Experience Cloud에 로그인 {#signin}
 
 로그인한 다음 올바른 [조직](organizations.md)에 속해 있는지 확인하십시오.
 
 1. [Adobe Experience Cloud](https://experience.adobe.com)를 탐색하십시오.
 1. **[!UICONTROL Adobe ID]**&#x200B;로 로그인합니다.
-1. Adobe Experience Cloud에서 조직을 선택합니다.
+1. 올바른 조직에 있는지 확인합니다.
 
    ![](assets/organizations-menu.png)
 
-   올바른 [조직](organizations.md)에 속해 있는지 관리자가 확인해 드릴 수 있습니다.
+   올바른 [organization](organizations.md)에 로그인했는지 확인하려면 프로필 아바타를 클릭하여 조직 이름을 확인합니다. 둘 이상의 조직에 액세스할 수 있는 경우 헤더 막대에서 바로 다른 조직을 보고 전환할 수도 있습니다.
+
+   조직에서 Federated ID를 사용하는 경우 Experience Cloud을 통해 이메일 주소와 암호를 입력하지 않고도 조직의 단일 사인온에 로그인할 수 있습니다. 이렇게 하려면 Experience Cloud URL(`https://experience.adobe.com`)에 `#/sso:@domain`을 추가합니다.
+
+   예를 들어 Federated ID와 도메인 `adobecustomer.com`이 있는 조직의 경우 URL 링크를 `https://experience.adobe.com/#/sso:@adobecustomer.com`로 설정하십시오. 이 URL을 애플리케이션 경로와 함께 책갈피로 지정하여 특정 애플리케이션으로 바로 이동할 수도 있습니다. (예: Adobe Analytics의 경우 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`)
 
 ## Experience Cloud 애플리케이션 액세스 {#navigation}
 
@@ -83,7 +120,7 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 
 {style=&quot;table-layout:auto&quot;}
 
-## 알림 및 공지
+## 알림 및 공지 {#notifications}
 
 본인에게 중요한 알림과 Adobe의 알림을 보려면 **[!UICONTROL 알림]**&#x200B;을 선택하십시오.
 
