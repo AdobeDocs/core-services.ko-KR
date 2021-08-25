@@ -5,15 +5,15 @@ solution: Experience Cloud,Analytics
 title: '"자사 쿠키 "'
 index: y
 snippet: y
-feature: 쿠키
-topic: 관리
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 9a232162008524d900e3655716a84961c287c773
+source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 70%
+source-wordcount: '1614'
+ht-degree: 69%
 
 ---
 
@@ -164,6 +164,6 @@ Address: 54.187.216.46
 
 1. 장기간 구현에서 자사 데이터 수집으로 이동하거나 다른 자사 수집 호스트 이름으로 변경하려는 경우 Adobe은 이전 도메인에서 새 도메인으로 방문자를 마이그레이션하는 것이 좋습니다.
 
-Analytics 구현 안내서의 [방문자 마이그레이션](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=ko-KR)을 참조하십시오.
+Analytics 구현 안내서의 [방문자 마이그레이션](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en)을 참조하십시오.
 
 JavaScript 파일을 업로드한 후에는 모든 것이 자사 데이터 수집에 대해 구성됩니다. Adobe는 데이터 수집이 정상적으로 진행될 수 있도록 다음 몇 시간 동안 Analytics 보고를 모니터링할 것을 권장합니다. 그렇지 않으면 위의 모든 단계가 완료되었음을 확인하고 조직에서 지원하는 사용자 중 한 명이 고객 지원 센터에 문의하도록 하십시오.
