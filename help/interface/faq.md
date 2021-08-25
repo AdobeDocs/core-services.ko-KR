@@ -5,14 +5,14 @@ solution: Experience Cloud
 title: 'Experience Cloud FAQ '
 index: true
 feature: Admin Console
-topic: 관리
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: 399a3ddb47deb83481bcdfb0c578804b2bbfbae8
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Experience Cloud를 사용하는 관리자를 위한 브라우저 지원, 일반
 핵심 서비스에 대한 구현이 제공되지 않은 경우, 다음 방법에 대해 설명하는 [핵심 서비스에 대한 솔루션 활성화](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)를 참조하십시오.
 
 1. [Experience Cloud에 참여 및 관리자 되기](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Experience Platform Launch를 사용하여 Experience Cloud ID 서비스 구현](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)
+1. [Experience Platform Launch를 사용하여 Experience Cloud ID 서비스 구현](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=ko-KR)
 1. [보고서 세트를 Experience Cloud 조직에 매핑](core-services.md#concept_apg_zq2_rw)
 1. [(Analytics 전용) Analytics AppMeasurement 코드 현대화](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Adobe Target만 해당) Adobe Target 구현 현대화](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -98,7 +98,7 @@ Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있
 
 조직 ID는 Experience Cloud 랜딩 페이지 및 [Admin Console 랜딩 페이지](https://adminconsole.adobe.com)에 표시됩니다.
 
-또는 관리자가 특정 조직의 Admin Console ([https://adminconsole.adobe.com](https://adminconsole.adobe.com#)으로 이동)에 로그인하면 URL에서 IMS 조직 ID를 볼 수 있습니다.
+또는 관리자가 특정 조직의 Admin Console ([https://adminconsole.adobe.com](https://adminconsole.adobe.com)으로 이동)에 로그인하면 URL에서 IMS 조직 ID를 볼 수 있습니다.
 
 예를 들면 다음 URL의 경우
 
