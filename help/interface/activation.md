@@ -20,7 +20,7 @@ ht-degree: 100%
 
 # 활성화
 
-활성화에는 Experience Platform [!UICONTROL 데이터 수집]([!UICONTROL Launch]) 및 Experience Cloud [!UICONTROL 트리거]라는 최신 태그 관리 제품이 포함됩니다.
+활성화에는 Experience Platform [!UICONTROL 데이터 수집] ([!UICONTROL Launch]) 및 Experience Cloud [!UICONTROL 트리거]라는 최신 태그 관리 제품이 포함됩니다.
 
 ## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
