@@ -3,14 +3,14 @@ description: Experience Cloud의 다양한 솔루션과 서비스를 사용하�
 solution: Experience Cloud
 title: '다양한 솔루션 및 서비스에서 DNS 프리페치 사용 '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: 고객 속성
-topic: 관리
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '381'
 ht-degree: 96%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 96%
 
 ## DNS 프리페치 및 Adobe Experience Cloud 솔루션 {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-DNS 프리페치는 페이지에 포함된 정적 링크에서 자동으로 작동합니다. 즉, 다음과 같은 이유로 다른 [!UICONTROL Experience Cloud] 솔루션 및 서비스에서는 자동 DNS 프리페치가 작동하지 않습니다.
+DNS 프리페치는 페이지에 임베드된 정적 링크에서 자동으로 작동합니다. 즉, 다음과 같은 이유로 다른 [!UICONTROL Experience Cloud] 솔루션 및 서비스에서는 자동 DNS 프리페치가 작동하지 않습니다.
 
 * 각 Experience Cloud 솔루션 또는 서비스는 페이지가 로드될 때 동적으로 DNS 호출을 생성합니다.
 * 이러한 호출을 수행하기 전에 브라우저에서 IP 주소로 도메인 이름을 확인할 수 없습니다.

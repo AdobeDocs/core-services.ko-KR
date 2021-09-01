@@ -1,19 +1,19 @@
 ---
-title: '개인 정보 보호 규정을 위한 고객 속성 지원 '
-description: 개인 정보 보호 규정을 위한 고객 속성 지원에 대해 알아봅니다.
-feature: 고객 속성
-topic: 관리
+title: '개인정보 보호 규정을 위한 고객 속성 지원 '
+description: 개인정보 보호 규정을 위한 고객 속성 지원에 대해 알아봅니다.
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
 
-# 개인 정보 보호 규정을 위한 고객 속성 지원
+# 개인정보 보호 규정을 위한 고객 속성 지원
 
 이 페이지는 [!UICONTROL 고객 속성]이 데이터 보호 규정(GDPR)을 어떻게 지원하는지 설명합니다.
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 >이 문서의 콘텐츠는 법률적인 조언이 아니며, 법률적인 조언을 대체하지 않습니다. GDPR에 대한 법률 자문을 구하십시오.
 
-2018년 5월 25일부터 적용되는 [개인 정보 보호 규정](https://business.adobe.com/privacy/general-data-protection-regulation.html)은 유럽 연합(EU)의 국경 내의 모든 개인(데이터 주체)이 개인 데이터를 통제하도록 규정하고 있습니다. 또한, 국제 비즈니스를 위한 규정 환경을 간소화합니다. 이 법은 데이터 관리자의 비즈니스 위치에 상관없이 개인 데이터를 처리할 때 EU의 경계 내에서 개인 데이터를 수집하거나, 행동을 모니터링하거나, 개인 데이터를 수집하는 모든 기업(데이터 관리자)에 적용됩니다.
+2018년 5월 25일부터 적용되는 [개인정보 보호 규정](https://business.adobe.com/privacy/general-data-protection-regulation.html)은 유럽 연합(EU)의 국경 내의 모든 개인(데이터 주체)이 개인 데이터를 통제하도록 규정하고 있습니다. 또한 국제 비즈니스를 위한 규정 환경을 간소화합니다. 이 법은 데이터 관리자의 비즈니스 위치에 상관없이 개인 데이터를 처리할 때 EU의 경계 내에서 개인 데이터를 수집하거나, 행동을 모니터링하거나, 개인 데이터를 수집하는 모든 기업(데이터 관리자)에 적용됩니다.
 
 Adobe Experience Cloud는 고객을 대신하여 수신하여 보관하는 모든 개인 데이터에 대한 데이터 처리자의 역할을 합니다. 귀하는 정보 통제자로서 Adobe Experience Cloud가 귀하를 대신하여 처리하고 저장하는 개인 데이터를 결정합니다.
 
@@ -66,7 +66,7 @@ GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스
 
 * &quot;include&quot;: **CRS**(요청에 적용되는 Adobe 제품)
 
-* &quot;regulation&quot;: **gdpr**(요청에 적용되는 개인 정보 보호 규정)
+* &quot;regulation&quot;: **gdpr**(요청에 적용되는 개인정보 보호 규정)
 
 ## JSON 요청의 예
 

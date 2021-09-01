@@ -4,15 +4,15 @@ keywords: 핵심 서비스, 고객 속성
 solution: Experience Cloud
 title: 교차 솔루션 서비스용 솔루션을 사용하도록 설정
 index: true
-feature: 고객 속성
-topic: 관리
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '2272'
-ht-degree: 96%
+source-wordcount: '2269'
+ht-degree: 98%
 
 ---
 
@@ -86,7 +86,7 @@ Experience Cloud에 로그인하려면 귀하의 사용자는
 
 [!UICONTROL Experience Cloud ID 서비스]에서는 교차 솔루션 통합을 위한 공통 ID를 제공하고 [!UICONTROL 고객 속성]을 통해 업로드된 CRM 데이터를 기반으로 도메인 간 방문자 식별 및 디바이스/브라우저 간 타기팅 및 개인화를 위한 경로를 제공합니다.
 
-Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)에서 [!UICONTROL Experience Cloud ID 서비스 확장]을 통해 Analytics 및 Adobe Target에 대해 자동으로 활성화하는 것입니다.
+Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko-KR)에서 [!UICONTROL Experience Cloud ID 서비스 확장]을 통해 Analytics 및 Adobe Target에 대해 자동으로 활성화하는 것입니다.
 
 전체 Experience Cloud ID 서비스 도움말(이전의 방문자 ID)를 보려면 [여기](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko-KR#intro)로 이동하십시오.
 
@@ -139,7 +139,7 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL Peopl
 
 Analytics를 사용하는 경우 지역 데이터 수집(RDC)에 있는지 확인합니다. 데이터 수집 도메인이 `omtrdc.net`이거나 CNAME이 `omtrdc.net`으로 매핑된 경우 RDC를 사용해야 합니다. 자세한 내용은 [RDC로 전환](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=ko-KR)을 참조하십시오. 자사 쿠키를 사용하는 경우 데이터 수집 CNAME 및 도메인 간 추적에 대해 알려면 [CNAME 및 Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=ko-KR)를 참조하십시오.
 
-방문자 API를 비롯한 JavaScript 라이브러리를 업데이트하여 Analytics 구현을 현대화하는 것이 좋습니다. 이를 가장 간단하게 해내는 방법은 [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en)을 Experience Platform 데이터 수집 (Launch)에 추가하는 것입니다.
+방문자 API를 비롯한 JavaScript 라이브러리를 업데이트하여 Analytics 구현을 현대화하는 것이 좋습니다. 이를 가장 간단하게 해내는 방법은 [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ko-KR)을 Experience Platform 데이터 수집 (Launch)에 추가하는 것입니다.
 
 ## Adobe Target 구현 업데이트 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 

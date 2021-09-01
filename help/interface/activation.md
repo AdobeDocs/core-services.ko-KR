@@ -1,20 +1,20 @@
 ---
 description: Experience Platform Launch라고 하는 최신 Tag Management 제품에 대해 알아봅니다.
 keywords: 핵심 서비스
-seo-description: 활성화에는 Experience Platform Launch라고 하는 최신 태그 관리 제품과 DTM(Dynamic Tag Management) 및 트리거가 포함됩니다.
-seo-title: 활성화
+seo-description: Activation includes the latest tag management product called Experience Platform Launch. Dynamic Tag Management (DTM);and Triggers.
+seo-title: Activation
 solution: Experience Cloud Services
 title: Experience Cloud의 활성화 서비스
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 feature: Admin Console
-topic: 관리
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 96%
+source-wordcount: '245'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 
 관련 고객 경험을 운영하는 데 필요한 분석, 마케팅 및 광고 태그를 배포하고 관리합니다.
 
-[Experience Platform Launch 빠른 시작 안내서](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)를 참조하십시오.
+[Experience Platform Launch 빠른 시작 안내서](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=ko-KR)를 참조하십시오.
 
 ## Experience Cloud [!UICONTROL 트리거] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 

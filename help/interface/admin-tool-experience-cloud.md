@@ -5,13 +5,13 @@ solution: Experience Cloud
 title: 'Experience Cloud 사용자 및 사용자 세부 사항 보기 '
 index: true
 feature: Admin Console
-topic: 관리
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1245'
 ht-degree: 91%
 
 ---
@@ -163,4 +163,4 @@ ht-degree: 91%
 
 ## 자세한 권한 및 리소스 목록
 
-이 섹션에는 제품 프로필에 사용할 수 있는 권한 및 리소스의 전체 목록이 표시됩니다. 제품 프로필에 포함된 권한 및 리소스는 &quot;✔&quot;으로 표시되었습니다.  권한 및 리소스 목록은 탭 및 열로 분류되어 쉽게 볼 수 있습니다. 탭과 열에는 현재 제품에 적용되는 섹션 목록이 표시됩니다.
+이 섹션에는 제품 프로필에 사용할 수 있는 권한 및 리소스의 전체 목록이 표시됩니다. 제품 프로필에 포함된 권한 및 리소스는 &quot;✔&quot;으로 표시되었습니다. 권한 및 리소스 목록은 탭 및 열로 분류되어 쉽게 볼 수 있습니다. 탭과 열에는 현재 제품에 적용되는 섹션 목록이 표시됩니다.

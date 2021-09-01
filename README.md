@@ -2,7 +2,7 @@
 source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 # 기여자 문서
@@ -15,7 +15,7 @@ Adobe는 설명서 팀 외부 직원뿐만 아니라 커뮤니티 기여를 환�
 
 ## Adobe 내용에 대한 귀하의 기여 관련 정보
 
-[Adobe Docs 기여자 안내서](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
+[Adobe Docs 기여자 안내서](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html?lang=ko-KR)를 참조하십시오.
 
 기여하는 방식은 사용자의 신분과 사용자가 기여하고 싶은 변경 내용의 종류에 따라 다릅니다.
 
@@ -27,7 +27,7 @@ Adobe는 설명서 팀 외부 직원뿐만 아니라 커뮤니티 기여를 환�
 
 ### 커뮤니티 멤버의 주요 변경 사항 또는 새로운 문서
 
-Adobe 커뮤니티에 소속되어 있고 새로운 문서를 만들거나 주요 변경 사항을 제출하려는 경우 Git 리포지토리에서 문제 탭을 사용하여 문제를 제출하면 설명서 팀과 대화를 시작할 수 있습니다. 플랜에 동의하면 직원과 협력하여 공용 및 개인 리포지토리에서 작업을 결합하여 새로운 컨텐츠를 제공할 수 있습니다.
+Adobe 커뮤니티에 소속되어 있고 새로운 문서를 만들거나 주요 변경 사항을 제출하려는 경우 Git 리포지토리에서 문제 탭을 사용하여 문제를 제출하면 설명서 팀과 대화를 시작할 수 있습니다. 플랜에 동의하면 직원과 협력하여 공용 및 개인 리포지토리에서 작업을 결합하여 새로운 콘텐츠를 제공할 수 있습니다.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
@@ -54,7 +54,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ## 레이블
 
-공용 리포지토리에서는 당사가 끌어오기 요청 워크플로우를 관리하고 끌어오기 요청에 대한 진행 상황을 사용자에게 알리는 데 도움이 되도록 끌어오기 요청에 자동화된 레이블이 지정됩니다.
+공용 리포지토리에서는 당사가 끌어오기 요청 워크플로를 관리하고 끌어오기 요청에 대한 진행 상황을 사용자에게 알리는 데 도움이 되도록 끌어오기 요청에 자동화된 레이블이 지정됩니다.
 
 * **작성자에게 보낸 변경 사항**: 보류 중인 끌어오기 요청에 대한 알림을 작성자가 받았습니다.
 * **병합 준비 완료**: 끌어오기 요청 검토 팀에서 검토할 준비가 되었습니다.

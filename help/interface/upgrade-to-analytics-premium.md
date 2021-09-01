@@ -3,7 +3,7 @@ description: Analytics Premium으로 업그레이드할 때의 요구 사항과 
 keywords: Adobe Analytics Premium 업그레이드
 solution: Experience Cloud
 title: 'Analytics Premium 및 Experience Cloud로 업그레이드 '
-topic: 관리
+topic: Administration
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Admin
@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '622'
 ht-degree: 100%
 
 ---
@@ -80,7 +80,7 @@ Customer 360으로 업그레이드하면 [Analytics Premium](upgrade-to-analytic
 
 ## Data Workbench 요구 사항 {#section_D959CA68D6DB42C38707F8E0CA3654CC}
 
-지원되는 사용자는 `dwb@adobe.com`으로 이메일을 보내어 모든 클라이언트 라이센스를 Premium을 반영하도록 업데이트하라고 요청할 수 있습니다. 이 업데이트는 알고리즘 기여도와 같은 기능을 활성화합니다.
+지원되는 사용자는 `dwb@adobe.com`으로 이메일을 보내어 모든 클라이언트 라이선스를 Premium을 반영하도록 업데이트하라고 요청할 수 있습니다. 이 업데이트는 알고리즘 기여도와 같은 기능을 활성화합니다.
 
 TechOps에서는 계약 약정을 검토하고 적절한 관리 인프라의 용량을 늘릴지 줄일지를 결정한 다음, 계정 관리자나 컨설팅을 통해 여러분과 조정하여 모든 변경 사항을 배포하게 됩니다.
 
@@ -88,7 +88,7 @@ TechOps에서는 계약 약정을 검토하고 적절한 관리 인프라의 용
 
 ## Experience Cloud - 사용자 및 제품 관리 {#section_6471C54454024301B2E0B687F79F6738}
 
-[시작하기 - 핵심 서비스를 위한 솔루션 활성화](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)에 설명된 구현 현대화에 따를 경우, Analytics Standard 및 Premium 사용자는 Experience Cloud 및 핵심 서비스를 이용할 수 있습니다. (해당 프로세스는 구현을 현대화하는 데 도움이 되며, Experience Cloud에서 관리자가 될 수 있도록 해줍니다.)
+[시작하기 - 핵심 서비스를 위한 솔루션 활성화](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)에 설명된 구현 현대화에 따를 경우, Analytics Standard 및 Premium 사용자는 Experience Cloud 및 핵심 서비스를 이용할 수 있습니다. (해당 프로세스는 구현을 현대화하는 데 도움이 되며, Experience Cloud에서 관리자가 될 수 있도록 해 줍니다.)
 
 Experience Cloud에 참여하면 [!DNL experience.adobe.com]의 Experience Cloud를 통해 로그인하고 핵심 서비스(고객 속성, 대상 및 모바일 앱 분석 등)를 사용할 수 있습니다.
 

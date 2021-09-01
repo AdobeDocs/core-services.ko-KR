@@ -5,14 +5,14 @@ solution: Experience Cloud
 title: 'Experience Cloud 통합 '
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
-topic: 관리
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 84%
+source-wordcount: '1422'
+ht-degree: 89%
 
 ---
 
@@ -115,11 +115,11 @@ Experience Cloud 솔루션 또는 Audience Manager의 기타 외부 시스템에
 
 ## 활성화 {#section_A23510A2D57842F6BAD043650C06DE42}
 
-도움말: [시작하기](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)
+도움말: [시작하기](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=ko-KR)
 
 Experience Cloud 활성화 솔루션을 사용하여 Experience Cloud 솔루션을 설정 및 디버깅합니다.
 
-1. [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)를 사용하여 페이지에 Experience Cloud 애플리케이션을 활성화하는 코드를 삽입합니다.
+1. [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR)를 사용하여 페이지에 Experience Cloud 애플리케이션을 활성화하는 코드를 삽입합니다.
 1. [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=ko-KR)를 사용하여 구현을 테스트합니다.
 
 Adobe Experience Cloud Debugger 확장 프로그램을 사용하여 감사에서 발견한 문제를 디버깅하거나 구현에 대한 다른 정보를 조사합니다.

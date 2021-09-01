@@ -4,21 +4,21 @@ keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Analytics 쿠키 '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-feature: 쿠키
-topic: 관리
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '767'
 ht-degree: 95%
 
 ---
 
 # Analytics 쿠키{#analytics-cookies}
 
-Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청을 구분하고 응용 프로그램이 나중에 사용할 수 있도록 유용한 정보를 저장합니다. 또한 검색 정보를 고객 레코드에 연결하는 데 사용할 수도 있습니다.
+Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청을 구분하고 애플리케이션이 나중에 사용할 수 있도록 유용한 정보를 저장합니다. 또한 검색 정보를 고객 레코드에 연결하는 데 사용할 수도 있습니다.
 
 Analytics는 쿠키를 사용하여 새로운 방문자를 익명으로 정의하고, 클릭스트림 데이터를 분석하고, 특정 캠페인에 대한 응답 또는 판매 주기 기간과 같은 웹 사이트의 활동 내역을 추적합니다.
 

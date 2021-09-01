@@ -3,13 +3,13 @@ description: Experience Cloud에서 한 개 이상의 보고서 세트를 조직
 title: '조직에 보고서 세트 매핑 '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
-topic: 관리
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1116'
 ht-degree: 95%
 
 ---

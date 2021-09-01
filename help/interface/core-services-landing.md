@@ -2,14 +2,14 @@
 description: Adobe Experience Cloud 사용자 및 제품 관리, 사용자(Audiences 및 고객 속성), Journey Orchestration, 오퍼, 장소, Experience Platform Launch 및 모바일 서비스에 대해 알아봅니다.
 solution: Experience Cloud
 title: 'Experience Cloud 서비스 개요 '
-feature: 고객 속성
-topic: 관리
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
 source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 96%
 
 ---

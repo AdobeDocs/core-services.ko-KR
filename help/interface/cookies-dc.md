@@ -4,14 +4,14 @@ keywords: cookies;privacy
 solution: Experience Cloud, Analytics, Target
 title: 'Data Connectors 쿠키 '
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
-feature: 쿠키
-topic: 관리
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 54f77e67-1bcf-4d01-b70b-af85bac3f449
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '74'
 ht-degree: 100%
 
 ---
@@ -30,11 +30,11 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>integration_id </p> </td> 
-   <td colname="col2"> <p>사용된 마지막 통합을 Data Connectors가 기억하도록 해줍니다. </p> </td> 
+   <td colname="col2"> <p>사용된 마지막 통합을 Data Connectors가 기억하도록 해 줍니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>get_started </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">시작하기</span> 페이지를 표시할지 여부를 Data Connectors에 알려줍니다. </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">시작하기</span> 페이지를 표시할지 여부를 Data Connectors에 알려 줍니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

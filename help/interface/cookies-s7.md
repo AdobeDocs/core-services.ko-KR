@@ -4,14 +4,14 @@ keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Scene7 쿠키 '
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
-feature: 쿠키
-topic: 관리
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '413'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ AS2 Flash eCatalog 뷰어의 경우, 쿠키:
 
 | 속성 | 설명 |
 |---|---|
-| 정보가 저장됨 | 세션 쿠키를 설정합니다. IPS ImageServer(IS, IR 및 SWF/스킨 및 비디오 컨텍스트)에 포함된 AuthFilter는 액세스 승인에 쿠키를 사용합니다. 쿠키가 있을 경우 HTTP 요청이 통과하도록 허용합니다. 그렇지 않으면 권한 없음을 반환합니다. |
+| 정보가 저장됨 | 세션 쿠키를 설정합니다. IPS ImageServer(IS, IR 및 SWF/스킨 및 비디오 컨텍스트)에 임베드된 AuthFilter는 액세스 승인에 쿠키를 사용합니다. 쿠키가 있을 경우 HTTP 요청이 통과하도록 허용합니다. 그렇지 않으면 권한 없음을 반환합니다. |
 | 만료 | 이 쿠키는 세션 쿠키입니다. 현재 세션 만료는 Scene7 IPS [!DNL web.xml]에 45분으로 설정되어 있습니다. |
 
 **쿠키 이름: s7js.flyout.InfoMessage.displayed `assetId`.state**
@@ -53,7 +53,7 @@ AS2 Flash eCatalog 뷰어의 경우, 쿠키:
  <tbody> 
   <tr> 
    <td colname="col1"> 정보가 저장됨 </td> 
-   <td colname="col2"> <p>&lt;assetId&gt;는 뷰어가 작동하는 자산의 이름입니다. </p> </td> 
+   <td colname="col2"> <p>&lt;assetId&gt;는 뷰어가 작동하는 에셋의 이름입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 만료 </td> 
@@ -76,7 +76,7 @@ AS2 Flash eCatalog 뷰어의 경우, 쿠키:
  <tbody> 
   <tr> 
    <td colname="col1"> 정보가 저장됨 </td> 
-   <td colname="col2"> <p> </p> <p> &lt;assetId&gt;는 뷰어가 작동하는 자산의 이름이고 &lt;id&gt;는 0을 기반으로 하는 스티커 메모 색인입니다. </p> </td> 
+   <td colname="col2"> <p> </p> <p> &lt;assetId&gt;는 뷰어가 작동하는 에셋의 이름이고 &lt;id&gt;는 0을 기반으로 하는 스티커 메모 색인입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 만료 </td> 

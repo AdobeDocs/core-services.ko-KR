@@ -4,19 +4,19 @@ keywords: 핵심 서비스
 solution: Experience Cloud
 title: '누적 릴리스 정보 '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: '''고객 속성'''
-topic: 관리
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
 workflow-type: tm+mt
-source-wordcount: '4279'
+source-wordcount: '4276'
 ht-degree: 95%
 
 ---
 
-# 누적 릴리스 정보
+# 누적 릴리스 노트
 
 Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리스 정보 및 알려진 문제입니다.
 

@@ -4,15 +4,15 @@ keywords: 고객 속성;핵심 서비스
 solution: Experience Cloud
 title: '고객 속성 소스를 만들고 데이터 파일 업로드 '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-feature: 고객 속성
-topic: 관리
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 96%
+source-wordcount: '1148'
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
       별칭 ID는 추가 고객 ID 값을 설정하는 특정 영역에 해당합니다. 예:
 
-      * **Dynamic Tag Management:** 별칭 ID는 *Experience Cloud ID 서비스* 도구에 있는 [!UICONTROL 고객 설정] 아래의 [통합 코드](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) 값에 해당합니다.
+      * **Dynamic Tag Management:** 별칭 ID는 *Experience Cloud ID 서비스* 도구에 있는 [!UICONTROL 고객 설정] 아래의 [통합 코드](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR) 값에 해당합니다.
 
       * **방문자 API:** 별칭 ID는 각 방문자에게 연결할 수 있는 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko-KR)에 해당합니다.
 
@@ -127,7 +127,6 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
    * **[!UICONTROL 고객 제공 ID가 Experience Cloud 방문자 ID로 별칭 지정됨:]** 몇 개의 ID가 Experience Cloud ID에 별칭이 지정되었는지 표시합니다.
 
    * **[!UICONTROL 별칭 개수가 많은 고객 제공 ID:]** 500개 이상의 별칭 지정된 Experience Cloud 방문자 ID가 있는 고객 제공 ID 개수를 표시합니다. 이러한 고객 제공 ID는 개인을 나타내기보다는 일종의 공유 로그인을 나타낼 수 있습니다. 시스템은 이러한 ID와 연결된 속성을 최근에 별칭으로 지정된 500개의 Experience Cloud 방문자 ID에 배포하며 별칭 수가 10,000개가 될 때까지 이 작업을 계속합니다. 그러면 시스템은 고객이 제공한 ID를 무효화하고, 연계된 속성을 더 이상 배포하지 않습니다.
-
 
 
 ## 스키마 유효성 검사 {#task_404AAC411B0D4E129AB3AC8B7BE85859}

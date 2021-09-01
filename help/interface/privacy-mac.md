@@ -4,14 +4,14 @@ keywords: 고객 속성;핵심 서비스
 solution: Experience Cloud
 title: '고객 속성에 대한 개인정보 보호 고려 사항 '
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
-feature: 고객 속성
-topic: 관리
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '515'
 ht-degree: 100%
 
 ---

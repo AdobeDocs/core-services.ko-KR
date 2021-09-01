@@ -4,14 +4,14 @@ keywords: 고객 속성
 solution: Experience Cloud
 title: '고객 속성에 관한 FAQ 응답 받기 '
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
-feature: 고객 속성
-topic: 관리
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1178'
 ht-degree: 97%
 
 ---

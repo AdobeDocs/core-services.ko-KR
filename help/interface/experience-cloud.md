@@ -3,14 +3,14 @@ description: Experience Cloud 중앙 인터페이스 구성 요소에 대해 알
 solution: Experience Cloud
 title: Experience Cloud 인터페이스 도움말 및 설명서
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: '''고객 속성'''
-topic: 관리
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1303'
 ht-degree: 63%
 
 ---

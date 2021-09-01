@@ -4,14 +4,14 @@ keywords: 핵심 서비스
 solution: Experience Cloud
 title: '대상자 만들기 '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-feature: 대상 라이브러리
-topic: 관리
+feature: Audience Library
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '477'
 ht-degree: 96%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 96%
    ![단계 결과](assets/audience_create_new.png)
 
 1. [!UICONTROL 새 대상 만들기] 페이지에서 제목 및 설명을 지정합니다.
-1. [!UICONTROL 규칙]에서 다음과 같은 속성 소스를 선택합니다. 
+1. [!UICONTROL 규칙]에서 다음과 같은 속성 소스를 선택합니다.
 
    * **[!UICONTROL Real-Time Analytics 데이터:]** (또는 Raw 데이터) 이것은 Real-Time Analytics 이미지 요청에서 파생된 속성 데이터이며 eVar 및 이벤트와 같은 데이터를 포함합니다. 이 속성 소스를 사용할 때 보고서 세트를 선택하고 포함할 차원 또는 이벤트를 정의해야 합니다. 이 보고서 세트 선택 옵션은 보고서 세트에 사용되는 변수 구조를 제공합니다.
    >[!NOTE]

@@ -4,14 +4,14 @@ keywords: 고객 속성;핵심 서비스
 solution: Experience Cloud
 title: '구독을 구성하는 방법 '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
-feature: 고객 속성
-topic: 관리
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '386'
 ht-degree: 100%
 
 ---

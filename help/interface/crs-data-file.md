@@ -4,14 +4,14 @@ keywords: 고객 속성;핵심 서비스
 solution: Experience Cloud
 title: '고객 속성의 데이터 파일 및 데이터 소스에 대해 알아보기 '
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
-feature: 고객 속성
-topic: 관리
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1195'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
-   <td colname="col2"> <p>(필수) <span class="filepath">.fin</span> 파일은 데이터 업로드를 끝냈음을 시스템에 알려줍니다. <span class="filepath">.fin</span> 파일의 이름은 <span class="filepath">.csv</span> 파일의 이름과 일치해야 합니다. </p> <p>Adobe에서는 <span class="filepath">.fin</span> 확장명의 빈 텍스트 파일을 만들 것을 권장합니다. 빈 파일을 만들면 공간 및 업로드 시간이 단축됩니다. </p> <p> <p>참고: 업로드 후에는 <span class="filepath">.fin</span> 파일 이름을 다시 바꿀 수 없습니다. <span class="filepath">.fin</span> 파일은 따로 업로드해야 하며 이전에 업로드한 파일을 이름 변경 후 사용할 수 없습니다. </p> </p> <p>고객 속성 FTP에서 <span class="filepath">.fin</span> 파일을 업로드하면 시스템이 데이터를 빠르게(1분 이내) 검색합니다. 이 경우 데이터를 덜 자주(시간당 약 한 번) 선택하는 다른 Adobe FTP 기반 시스템과 다릅니다. </p> <p>드래그 앤 드롭 업로드 방법을 사용할 때는 <span class="filepath">.fin</span> 파일이 필요하지 않습니다. </p> </td> 
+   <td colname="col2"> <p>(필수) <span class="filepath">.fin</span> 파일은 데이터 업로드를 끝냈음을 시스템에 알려 줍니다. <span class="filepath">.fin</span> 파일의 이름은 <span class="filepath">.csv</span> 파일의 이름과 일치해야 합니다. </p> <p>Adobe에서는 <span class="filepath">.fin</span> 확장명의 빈 텍스트 파일을 만들 것을 권장합니다. 빈 파일을 만들면 공간 및 업로드 시간이 단축됩니다. </p> <p> <p>참고: 업로드 후에는 <span class="filepath">.fin</span> 파일 이름을 다시 바꿀 수 없습니다. <span class="filepath">.fin</span> 파일은 따로 업로드해야 하며 이전에 업로드한 파일을 이름 변경 후 사용할 수 없습니다. </p> </p> <p>고객 속성 FTP에서 <span class="filepath">.fin</span> 파일을 업로드하면 시스템이 데이터를 빠르게(1분 이내) 검색합니다. 이 경우 데이터를 덜 자주(시간당 약 한 번) 선택하는 다른 Adobe FTP 기반 시스템과 다릅니다. </p> <p>드래그 앤 드롭 업로드 방법을 사용할 때는 <span class="filepath">.fin</span> 파일이 필요하지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .gz</span> 또는 <span class="filepath">.zip </span> </p> </td> 

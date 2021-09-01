@@ -4,14 +4,14 @@ keywords: 쿠키
 solution: Experience Cloud, Audience Manager
 title: 'Audience Manager 쿠키 '
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
-feature: 쿠키
-topic: 관리
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '609'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
    <td colname="col1"> <p> <b>기타 속성</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_11291DA87C5045E880034E06C863BCDA"> 
-      <li id="li_40C30A06A12449A4A8748621223CA71B">라이프타임: <span class="wintitle">demdex</span> 쿠키의 TTL(유지 기간)은 180일입니다. TTL은 각 사용자가 파트너 웹 사이트와 상호 작용할 때 180일로 재설정됩니다. 사용자가 TTL 간격 내에 해당 사이트를 다시 방문하지 않으면 쿠키가 만료됩니다. </li> 
+      <li id="li_40C30A06A12449A4A8748621223CA71B">라이프타임: <span class="wintitle"> demdex </span> 쿠키의 TTL(유지 기간)은 180일입니다. TTL은 각 사용자가 파트너 웹 사이트와 상호 작용할 때 180일로 재설정됩니다. 사용자가 TTL 간격 내에 해당 사이트를 다시 방문하지 않으면 쿠키가 만료됩니다. </li> 
       <li id="li_A589EDA2198249829207A183872EF1FF">옵트아웃: 사용자가 데이터 수집을 거부하는 경우 <span class="keyword">Audience Manager</span>는 <span class="codeph">Do Not Adobe Target</span> 문자열로 쿠키를 재설정합니다. 이 경우, 쿠키 TTL은 10년으로 설정됩니다. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -65,7 +65,7 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>콘텐츠</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">dextp</span> 쿠키에는 데이터 공급자 이름 또는 ID와,파이프로 구분된 문자열 형식의 UNIX UTC 타임스탬프가 들어 있습니다 예에서 <i>기울임꼴</i>은 가변 자리 표시자를 나타냅니다. </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> dextp </span> 쿠키에는 데이터 공급자 이름 또는 ID와,파이프로 구분된 문자열 형식의 UNIX UTC 타임스탬프가 들어 있습니다. 예에서 <i>기울임꼴</i>은 가변 자리 표시자를 나타냅니다. </p> <p> 
      <ul id="ul_80D0BC3FCF06470991E12712401D784A"> 
       <li id="li_03747A433CEB4756A26CD866E716B89D">이전 스타일: <span class="codeph"><span class="varname"> 데이터 공급자 이름 </span>-1490307822097| <span class="varname"> 데이터 공급자 이름 </span>-1490307822038 </span> </li> 
       <li id="li_79E7000E82DB4ADA9E9887B017343B2D">새 스타일: <span class="codeph">21-1-1490307821616|544-1-1490307821793|3-1-1490307821852|420-1-1490307822038| </span> </li> 
@@ -144,7 +144,7 @@ dextp 쿠키 데이터 구문:
    <td colname="col2"> <p> 
      <ul id="ul_5D13DD701B484B51BF2808A69A919106"> 
       <li id="li_4E665114C63246FBA32A4E19984D2693">라이프타임: <span class="wintitle">dst</span> 쿠키의 ttl(유지 기간)은 180일입니다. </li> 
-      <li id="li_A682B566704F43D2AB72487EFF212474">옵트아웃: 사용자가 데이터 수집을 거부하는 경우 <span class="keyword">Audience Manager</span>는 <span class="codeph">Do Not Adobe Target</span> 문자열로 쿠키를 재설정합니다.  </li> 
+      <li id="li_A682B566704F43D2AB72487EFF212474">옵트아웃: 사용자가 데이터 수집을 거부하는 경우 <span class="keyword">Audience Manager</span>는 <span class="codeph">Do Not Adobe Target</span> 문자열로 쿠키를 재설정합니다. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
