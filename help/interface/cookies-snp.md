@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 2e35668d-bf36-4f17-ae44-c2b9313c6c1f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Search&amp;Promote는 쿠키를 사용하여 방문자 검색 의도를 이해�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 만료 </p> </td> 
-   <td colname="col2"> <p>Search&amp;Promote(<span class="uicontrol">디자인</span> &gt; <span class="uicontrol">탐색</span> &gt; <span class="uicontrol">최근 검색</span>)에서 구성할 수 있습니다. 다음 쿠키 만료 옵션 중에서 선택할 수 있습니다. </p> <p> 
+   <td colname="col2"> <p>Search&amp;Promote(<span class="uicontrol"> 디자인</span> &gt; <span class="uicontrol"> 탐색</span> &gt; <span class="uicontrol"> 최근 검색</span>)에서 구성할 수 있습니다.  다음 쿠키 만료 옵션 중에서 선택할 수 있습니다. </p> <p> 
      <ul id="ul_28F564A6337D497699D5247F755981B8"> 
       <li id="li_6478BB5AF82341F787F92D03E277DBBB">세션 종료 </li> 
       <li id="li_AF88B165365D4A63A82CB6ADD4542D66"> 3시간 </li> 
