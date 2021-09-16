@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4276'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,24 +22,24 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 설명서 업데이트 목록은 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)를 참조하십시오.
 
-모든 솔루션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
+모든 솔루션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)를 참조하십시오.
 
 ## 2021년 8월
 
 | 기능 | 날짜 | 설명 |
 | ------- | ------- | -------|
-| [!UICONTROL 통합 수신자]  - 최근에 액세스한 비즈니스 객체에 대한 지원 확장 | 2021년 8월 10일 | [!UICONTROL 통합 ] 보고서는 Journey Optimizer 및 Experience Platform의 추가 비즈니스 개체로 확장되었습니다. Journey Optimizer 고객은 Adobe Journey Optimizer 홈 페이지에서 최근에 액세스한 개체(메시지, 여정, 세그먼트, 스키마, 데이터 세트, 데이터 소스, 이벤트, 작업, 소스 및 대상)를 찾을 수 있습니다. |
+| [!UICONTROL Unified Recents] - 최근에 액세스한 비즈니스 개체에 대한 확장 지원 | 2021년 8월 10일 | [!UICONTROL Unified Recents] 는 Journey Optimizer 및 Experience Platform의 추가 비즈니스 개체로 확장됩니다. Journey Optimizer 고객은 Adobe Journey Optimizer 홈 페이지에서 최근에 액세스한 개체(메시지, 여정, 세그먼트, 스키마, 데이터 세트, 데이터 소스, 이벤트, 작업, 소스 및 대상)를 찾을 수 있습니다. |
 
 ## 2021년 7월
 
-통합 검색이 Journey Optimizer, 오퍼 및 Experience League에 사용할 수 있도록 업데이트됩니다. 이전에는 Experience Platform 사용자만 이 기능을 사용할 수 있었습니다.
+Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 통합 검색을 업데이트합니다. 이전에는 이 기능을 Experience Platform 사용자만이 사용할 수 있습니다.
 
 ## 2021년 6월
 
 | 기능 | 날짜 | 설명 |
 | ------- | ------- | ------- |
-| Adobe Federated ID용 SSO(Single Sign-On) 지원 | 2021년 6월 17일 | Federated ID를 사용하는 경우, 이메일 주소 또는 암호를 입력할 필요 없이 Experience Cloud에 로그인할 수 있습니다. 이 기능을 사용하려면 `#/sso:@domain`을 Experience Cloud URL에 추가하십시오. <br>예를 들어, 소유하고 있는 도메인이 `adobecustomer.com`이고 Adobe Analytics에 로그인하고자 한다고 가정하겠습니다. URL은 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`가 됩니다. |
-| Experience League 검색 | 2021년 6월 1일 | Experience League 설명서 검색이 개선되었습니다. [Experience League](https://experienceleague.adobe.com/docs/?lang=ko-KR)로 이동하고 **[!UICONTROL 검색]** 필드를 사용하여 튜토리얼, 설명서, 과정 등을 찾을 수 있습니다. |
+| Adobe Federated ID용 SSO(Single Sign-On) 지원 | 2021년 6월 17일 | Federated ID를 사용하는 경우, 이메일 주소 또는 암호를 입력할 필요 없이 Experience Cloud에 로그인할 수 있습니다. 이 기능을 사용하려면 `#/sso:@domain` 을 Experience Cloud URL에 추가하십시오. <br>예를 들어, 소유하고 있는 도메인이 `adobecustomer.com` 이고 Adobe Analytics에 로그인하고자 한다고 가정하겠습니다. URL은 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`가 됩니다. |
+| Experience League 검색 | 2021년 6월 1일 | Experience League 설명서 검색이 개선되었습니다. [Experience League](https://experienceleague.adobe.com/docs/?lang=en) 로 이동하고 **[!UICONTROL 검색]** 필드를 사용하여 튜토리얼, 설명서, 과정 등을 찾을 수 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -48,7 +48,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 | 기능 | 날짜 | 설명 |
 | ------- | ------- | ------- |
 | Experience Cloud 헤더 및 탐색 | 2021년 5월 20일 | Adobe Experience Cloud 업데이트에는 헤더의 밝은 테마 변경 기능과 Experience Cloud 헤더에서 어두운 테마로 쉽게 전환하고 사용자 아바타의 추가 환경 설정을 제어하는 링크가 포함되어 있습니다. Experience Cloud의 모든 애플리케이션이 테마를 지원하는 것은 아니지만, 이 기능은 향후에 테마를 지원할 수 있도록 합니다. |
-| Experience Cloud 글로벌 검색 | 2021년 5월 20일 | 이번 릴리스로 Experience Cloud 글로벌 검색을 통해 [Experience League](https://experienceleague.adobe.com/#home) 설명서, 과정 및 튜토리얼을 검색할 수 있게 되었습니다. (현재 글로벌 검색은 Experience Platform 사용자만 사용할 수 있습니다. [!UICONTROL Platform]용 글로벌 검색을 사용하면 세그먼트, 데이터 세트, 스키마 등과 같은 Experience Cloud의 모든 비즈니스 개체를 검색할 수 있습니다.) |
+| Experience Cloud 글로벌 검색 | 2021년 5월 20일 | 이번 릴리스로 Experience Cloud 글로벌 검색을 통해 [Experience League](https://experienceleague.adobe.com/#home) 설명서, 과정 및 튜토리얼을 검색할 수 있게 되었습니다. (현재 글로벌 검색은 Experience Platform 사용자만 사용할 수 있습니다. [!UICONTROL Platform] 용 글로벌 검색을 사용하면 세그먼트, 데이터 세트, 스키마 등과 같은 Experience Cloud의 모든 비즈니스 개체를 검색할 수 있습니다.) |
 | Experience Cloud 언어 환경 설정 | 2021년 5월 20일 | 이 업데이트에는 Experience Cloud [환경 설정](https://experience.adobe.com/preferences)에서 원하는 언어를 설정하는 기능이 포함되어 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -143,7 +143,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Assets 개선 사항 </p> </td> 
-   <td colname="col2"> <p>Experience Cloud Assets에서는 중앙의 한 위치에서 디지털 에셋을 저장, 공유 및 동기화할 수 있습니다. Experience Cloud Assets는 AEM(<span class="keyword">Adobe Experience Manager</span>)에서 사용할 수 있는 기능 중 일부를 사용합니다. </p> <p><a href="experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a>를 참조하십시오</p> </td> 
+   <td colname="col2"> <p>Experience Cloud Assets에서는 중앙의 한 위치에서 디지털 에셋을 저장, 공유 및 동기화할 수 있습니다. Experience Cloud Assets는 AEM( <span class="keyword"> Adobe Experience Manager</span> )에서 사용할 수 있는 기능 중 일부를 사용합니다. </p> <p> <a href="experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local"> Experience Cloud</a>를 참조하십시오</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>계정 연결 개선 사항 </p> </td> 
@@ -158,7 +158,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 **알려진 문제**
 
-**[!UICONTROL Experience Cloud]** > **[!UICONTROL 활성화]** 인터페이스를 통해 Dynamic Tag Management에 액세스했지만 Dynamic Tag Management 계정이 Experience Cloud(Adobe ID)에 연결되어 있지 않으면 Dynamic Tag Management에 로그인할 수 없습니다. 이 문제가 발생하지 않도록 하려면 새 브라우저 탭에서 직접 `dtm.adobe.com`으로 이동합니다.
+**[!UICONTROL Experience Cloud]** > **[!UICONTROL 활성화]** 인터페이스를 통해 Dynamic Tag Management에 액세스했지만 Dynamic Tag Management 계정이 Experience Cloud(Adobe ID)에 연결되어 있지 않으면 Dynamic Tag Management에 로그인할 수 없습니다. 이 문제가 발생하지 않도록 하려면 새 브라우저 탭에서 직접 `dtm.adobe.com` 으로 이동합니다.
 
 ## 릴리스 16.1 - 2016년 1월 21일 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -179,7 +179,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 >[!NOTE]
 >
->Microsoft®에서 Internet Explorer 8, 9 및 10에 대한 [지원을 종료](https://www.microsoft.com/ko-kr/WindowsForBusiness/End-of-IE-support)할 예정입니다. 따라서 Adobe에서는 이러한 버전의 Internet Explorer에 대해 보고된 문제는 수정하지 않습니다.
+>Microsoft®에서 Internet Explorer 8, 9 및 10에 대한 [지원을 종료](https://www.microsoft.com/ko-kr/WindowsForBusiness/End-of-IE-support) 할 예정입니다. 따라서 Adobe에서는 이러한 버전의 Internet Explorer에 대해 보고된 문제는 수정하지 않습니다.
 
 ## 릴리스 15.10 - 2015년 10월 14일 {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -225,9 +225,9 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>왼쪽 탐색 메뉴가 모든 핵심 서비스 및 솔루션에 액세스할 수 있도록 업데이트 및 구성되었습니다. 주목할 만한 변경 사항은 다음과 같습니다. </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"><span class="term">대상 라이브러리</span> 및 <span class="term">고객 속성</span> 메뉴 모음이 이제 <span class="term">Audiences</span> 아래에 있습니다. </li> 
-     <li id="li_95D62A43AE6243DBB2A65EDB830D05C4"><span class="term">Exchange</span> 메뉴 선택 사항은 도움말 드롭다운 메뉴에서 왼쪽 탐색 레일로 이동되었습니다. </li> 
-     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> 솔루션</span>은 제거되었습니다. 탐색 레일의 하단에서 모든 솔루션을 시작할 수 있습니다. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"> <span class="term"> 대상 라이브러리</span> 및 <span class="term"> 고객 속성</span> 메뉴 모음이 이제 <span class="term"> Audiences</span> 아래에 있습니다. </li> 
+     <li id="li_95D62A43AE6243DBB2A65EDB830D05C4"> <span class="term"> Exchange</span> 메뉴 선택 사항은 도움말 드롭다운 메뉴에서 왼쪽 탐색 레일로 이동되었습니다. </li> 
+     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> 솔루션</span> 은 제거되었습니다. 탐색 레일의 하단에서 모든 솔루션을 시작할 수 있습니다. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -235,7 +235,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 * 일부 고객의 경우 고객 속성이 동기화되지 않던 문제를 수정했습니다.
 * [Adobe Target 제품 설명서](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko-KR) 페이지가 일본어로 표시되지 않는 문제를 해결했습니다.
-* [!DNL Creative Cloud]와 [!DNL Experience Cloud] 간 주석에서 일본어 텍스트를 사용할 수 없던 문제를 수정했습니다.
+* [!DNL Creative Cloud] 와 [!DNL Experience Cloud] 간 주석에서 일본어 텍스트를 사용할 수 없던 문제를 수정했습니다.
 
 ## 릴리스 15.4.1 - 2015년 4월 8일 {#section_75634120CC934B3381EDEA7F6F976F0A}
 
@@ -253,14 +253,14 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
      <li id="li_6E98974CCB094ABBAB57C51ED56C3F00"> <span class="wintitle"> Admin Console</span> </li> 
      <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">Enterprise ID 및 Federated ID 지원 </li> 
     </ul> </td> 
-   <td colname="col2"> <p>사용자 및 그룹 관리 기능은 Admin Console로 이동되었습니다. 새로운 이동 경로는 다음과 같습니다. </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">관리</span> &gt; <span class="uicontrol">Admin Console 시작</span></p> <p> 또한 Enterprise ID 및 Federated ID에 대한 지원도 추가되었습니다. 동일한 엔터프라이즈 배포에서는 Enterprise ID, Federated ID 및 Adobe ID를 사용할 수 있습니다. 예를 들어, 다른 Adobe 제품 및 서비스를 사용하는 사용자의 경우 Adobe ID를 사용하십시오. 계정을 엄격히 관리하기를 바라는 사용자의 경우에는 Enterprise ID나 Federated ID를 사용하십시오. </p> </td> 
+   <td colname="col2"> <p>사용자 및 그룹 관리 기능은 Admin Console로 이동되었습니다. 새로운 이동 경로는 다음과 같습니다. </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> 관리</span> &gt; <span class="uicontrol"> Admin Console 시작</span></p> <p> 또한 Enterprise ID 및 Federated ID에 대한 지원도 추가되었습니다. 동일한 엔터프라이즈 배포에서는 Enterprise ID, Federated ID 및 Adobe ID를 사용할 수 있습니다. 예를 들어, 다른 Adobe 제품 및 서비스를 사용하는 사용자의 경우 Adobe ID를 사용하십시오. 계정을 엄격히 관리하기를 바라는 사용자의 경우에는 Enterprise ID나 Federated ID를 사용하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **수정 사항**
 
-* [!DNL Experience Cloud]와 [!DNL Media Optimizer] 간 SSO(Single Sign-On)가 되지 않던 문제를 수정했습니다.
+* [!DNL Experience Cloud] 와 [!DNL Media Optimizer] 간 SSO(Single Sign-On)가 되지 않던 문제를 수정했습니다.
 
 **알려진 문제**
 
@@ -279,7 +279,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>고객 속성 </p> </td> 
-   <td colname="col2"> <p>CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 데이터가 업로드된 후에 Analytics에서 <span class="uicontrol">방문자 프로필</span> &gt; <span class="uicontrol">고객 속성</span> 보고서를 실행할 수 있습니다. </p> <p>또한 <span class="keyword">Adobe Target</span>에서 업로드된 데이터를 대상 세그먼트로 사용할 수도 있습니다. </p> <p><a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">고객 속성</a> 제품 설명서를 참조하십시오. </p> <p> 핵심 서비스의 솔루션 현대화에 대한 자세한 내용은 <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">핵심 서비스용 솔루션 활성화</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 데이터가 업로드된 후에 Analytics에서 <span class="uicontrol"> 방문자 프로필</span> &gt; <span class="uicontrol"> 고객 속성</span> 보고서를 실행할 수 있습니다. </p> <p>또한 <span class="keyword"> Adobe Target</span>에서 업로드된 데이터를 대상 세그먼트로 사용할 수도 있습니다. </p> <p><a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> 고객 속성</a> 제품 설명서를 참조하십시오. </p> <p> 핵심 서비스의 솔루션 현대화에 대한 자세한 내용은 <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 핵심 서비스용 솔루션 활성화</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -304,11 +304,11 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
   </tr> 
   <tr> 
    <td colname="col1"> <p>활성화 </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> 활성화</a>는 이제 <span class="keyword">Experience Cloud</span>에서 왼쪽 탐색 창에 표시됩니다. <span class="wintitle"> </span> 활동은  <span class="keyword"> 현재 </span> Dynamic Tag Management 기술로 구성된 Experience Cloud 핵심 서비스로서, 선택 시 이 서비스가 표시됩니다. </p> </td> 
+   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> 활성화</a> 는 이제 <span class="keyword"> Experience Cloud</span>에서 왼쪽 탐색 창에 표시됩니다. <span class="wintitle"> 활성화</span> 는 현재 Dynamic Tag Management 기술로 구성된 <span class="keyword"> Experience Cloud</span> 서비스로서, 선택하면 이 서비스로 리디렉션됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>설명서 업데이트 - 핵심 서비스 </p> </td> 
-   <td colname="col2"> <p>핵심 서비스 구현을 돕기 위해 <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">핵심 서비스용 솔루션을 사용하도록 설정</a> 항목을 추가했습니다. </p> </td> 
+   <td colname="col2"> <p>핵심 서비스 구현을 돕기 위해 <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 핵심 서비스용 솔루션을 사용하도록 설정</a> 항목을 추가했습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -318,7 +318,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 수정 사항:
 
 * 계정 프로비저닝을 위해 사용자 이메일 초대 워크플로를 개선했습니다.
-* [!DNL Experience Cloud]와 [!DNL Adobe Campaign] 에셋이 동일한 폴더 계층을 표시하지 않도록 하는 에셋 폴더 문제가 수정되었습니다.
+* [!DNL Experience Cloud] 와 [!DNL Adobe Campaign] 에셋이 동일한 폴더 계층을 표시하지 않도록 하는 에셋 폴더 문제가 수정되었습니다.
 * 비활성화된 [!DNL Target] 활동에 속했던 Audiences를 삭제하지 못했던 문제가 수정되었습니다.
 * [!UICONTROL 새 대상 만들기] 페이지의 [!UICONTROL 규칙] 아래에 추가(더하기) 아이콘이 표시되지 않던 문제가 수정되었습니다.
 * Internet Explorer 9에 대한 Experience Cloud 인터페이스 지원을 개선했습니다.
@@ -393,7 +393,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
    <td colname="col2"> <p>이제 보드 소유자는 특정 보드에 대한 사용자 권한을 편집할 수 있습니다. </p> <p> 
      <ol id="ol_B12251C510744538AF9BCE60ACB04016"> 
       <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">보드에서 <span class="uicontrol"> 설정</span>을 선택합니다. </li> 
-      <li id="li_0F4786B0E1E743069D082E7DC488A031">각 소유자 옆에 <span class="uicontrol">소유자</span>, <span class="uicontrol">뷰어</span> 또는 <span class="uicontrol">편집기</span>를 지정합니다. </li> 
+      <li id="li_0F4786B0E1E743069D082E7DC488A031">각 소유자 옆에 <span class="uicontrol"> 소유자</span>, <span class="uicontrol"> 뷰어</span> 또는 <span class="uicontrol"> 편집기</span>를 지정합니다. </li> 
      </ol> </p> </td> 
   </tr> 
  </tbody> 
@@ -412,7 +412,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 * 일부 사용자는 오류 알림을 받는 대신 오래된 에셋을 삭제할 수 있습니다.
 * 사용자가 보드에서 PowerPoint 파일을 공유할 수 없습니다.
 * [!DNL Experience Cloud] 인터페이스는 여러 사용자가 동시에 사용하는 경우 성능이 저하될 수 있습니다.
-* [!DNL Search&Promote]조직 및 제품 액세스 페이지에서 에 연결할 수 없습니다.
+* [!DNL Search&Promote] 조직 및 제품 액세스 페이지에서  에 연결할 수 없습니다.
 
 ## 릴리스 14.9.1 - 2014년 9월 18일 {#section_20F156A9CC2F4FC59C4970075C181D3A}
 
@@ -424,14 +424,14 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 **알려진 문제**
 
 * 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
-* 일부 사용자는 PDF에서 카드를 만들어 보드에 공유할 수 없습니다.
+* 일부 사용자가 PDF에서 카드를 만들어 보드에 공유하지 못할 수 있습니다.
 * 보드에 업로드하는 중 일부 사용자에게 문제가 발생할 수 있습니다.
 * 일부 사용자는 오류 알림을 받는 대신 오래된 에셋을 삭제할 수 있습니다.
 * 사용자가 보드에서 PowerPoint 파일을 공유할 수 없습니다.
 * 일부 [!DNL .png] 파일을 카드에서 렌더링할 수 없습니다.
 * [!DNL Experience Cloud] 인터페이스는 여러 사용자가 동시에 사용하는 경우 성능이 저하될 수 있습니다.
-* [!DNL Search&Promote]조직 및 제품 액세스 페이지에서 에 연결할 수 없습니다.
-* 일부 사용자는 콘텐츠가 [!DNL Creative Cloud]에서 공유되지 않을 경우 [!DNL Experience Cloud] 콘텐츠가 폴더에서 제거될 수 있습니다.
+* [!DNL Search&Promote] 조직 및 제품 액세스 페이지에서  에 연결할 수 없습니다.
+* 일부 사용자는 콘텐츠가 [!DNL Creative Cloud] 에서 공유되지 않을 경우 [!DNL Experience Cloud] 콘텐츠가 폴더에서 제거될 수 있습니다.
 
 ## 릴리스 14.8.1 - 2014년 8월 21일 {#section_03BF00F6A95A490C91BCC0A1988FA7AA}
 
@@ -447,7 +447,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>이제 왼쪽 탐색에서 <span class="keyword">Adobe Mobile Services</span>에 액세스할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>이제 왼쪽 탐색에서 <span class="keyword"> Adobe Mobile Services</span> 에 액세스할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -457,15 +457,15 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 * 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
 * 일부 사용자는 PDF에서 카드를 만들어 보드에 공유하지 못할 수 있습니다.
 * 보드에 업로드하는 중 일부 사용자에게 문제가 발생할 수 있습니다.
-* 일부 사용자는 [!DNL Target]에서 [!DNL Experience Cloud]로 로그인하지 못할 수 있습니다.
+* 일부 사용자는 [!DNL Target] 에서 [!DNL Experience Cloud]로 로그인하지 못할 수 있습니다.
 * 일부 Audience Manager 사용자는 [!DNL Experience Cloud]에 로그인하지 못할 수 있습니다.
 * 일부 사용자는 오류 알림을 받는 대신 오래된 에셋을 삭제할 수 있습니다.
-* [!DNL Experience Cloud]에서 삭제된 파일은 [!DNL Digital Asset Management]에서 삭제할 수 없습니다.
+* [!DNL Experience Cloud] 에서 삭제된 파일은 [!DNL Digital Asset Management]에서 삭제할 수 없습니다.
 * 사용자가 보드에서 PowerPoint 파일을 공유할 수 없습니다.
 * 일부 [!DNL .png] 파일을 카드에서 렌더링할 수 없습니다.
 * [!DNL Experience Cloud] 인터페이스는 여러 사용자가 동시에 사용하는 경우 성능이 저하될 수 있습니다.
-* [!DNL Search&Promote]조직 및 제품 액세스 페이지에서 에 연결할 수 없습니다.
-* 일부 사용자는 콘텐츠가 [!DNL Creative Cloud]에서 공유되지 않을 경우 [!DNL Experience Cloud] 콘텐츠가 폴더에서 제거될 수 있습니다.
+* [!DNL Search&Promote] 조직 및 제품 액세스 페이지에서  에 연결할 수 없습니다.
+* 일부 사용자는 콘텐츠가 [!DNL Creative Cloud] 에서 공유되지 않을 경우 [!DNL Experience Cloud] 콘텐츠가 폴더에서 제거될 수 있습니다.
 
 ## 릴리스 14.7.1 - 2014년 7월 24일 {#section_B22D4F830756463DB27BB4D508D9ADD5}
 
@@ -473,14 +473,14 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 **알려진 문제**
 
-* [!DNL Experience Cloud]에서 삭제된 파일은 [!DNL Digital Asset Management]에서 삭제할 수 없습니다.
+* [!DNL Experience Cloud] 에서 삭제된 파일은 [!DNL Digital Asset Management]에서 삭제할 수 없습니다.
 * 일부 [!UICONTROL Exchange] 사용자는 주석에서 자신의 이름이 실제 이름이 아닌 긴 문자열 ID임을 확인할 수 있습니다.
 * 일부 [!DNL .png] 파일을 카드에서 렌더링할 수 없습니다.
 * 파일을 업로드하면 드래그하여 놓는 방법보다 더 많은 파일 유형을 사용할 수 있습니다. 최상의 결과를 얻으려면 [!UICONTROL 에셋]을 사용하여 업로드하십시오.
-* [!DNL Search&Promote]조직 및 제품 액세스 페이지에서 에 연결할 수 없습니다.
+* [!DNL Search&Promote] 조직 및 제품 액세스 페이지에서  에 연결할 수 없습니다.
 * [!DNL Exchange] 사용자는 환경을 개선하려면 쿠키를 지워야 합니다.
 * [!DNL Experience Cloud] 인터페이스는 많은 사용자가 동시에 사용하는 경우 속도가 느려질 수 있습니다.
-* 일부 사용자는 내용이 [!DNL Creative Cloud]에서 공유되지 않을 경우 [!DNL Experience Cloud] 콘텐츠가 폴더에서 제거될 수 있습니다.
+* 일부 사용자는 내용이 [!DNL Creative Cloud] 에서 공유되지 않을 경우 [!DNL Experience Cloud] 콘텐츠가 폴더에서 제거될 수 있습니다.
 * 15분 동안 아무 활동이 없으면 로그아웃됩니다. 또한 한 위치에서 로그아웃해도 [!DNL Experience Cloud]에서 로그아웃됩니다.
 * 일부 사용자는 자신의 Audience Manager 계정을 [!DNL Experience Cloud]에 연결하지 못할 수 있습니다.
 * [!UICONTROL Exchange] 사용자는 영어로 된 섹터만 볼 수 있습니다.
@@ -504,8 +504,8 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Audiences의 <span class="wintitle">저장</span> 버튼 </p> </td> 
-   <td colname="col2"> <p>이제 대상 만들기, <span class="wintitle">새 대상 만들기</span> 페이지의 <span class="wintitle">저장</span> 버튼이 필수 필드를 모두 채워야만 활성화됩니다. 
+   <td colname="col1"> <p> Audiences의 <span class="wintitle"> 저장</span> 버튼 </p> </td> 
+   <td colname="col2"> <p>이제 대상 만들기, <span class="wintitle"> 새 대상 만들기</span> 페이지의 <span class="wintitle"> 저장</span> 버튼이 필수 필드를 모두 채워야만 활성화됩니다. 
      <!--MAC-19712 --></p> </td> 
   </tr> 
  </tbody> 
@@ -513,10 +513,10 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 **알려진 문제**
 
-* [!DNL Experience Cloud]에서 삭제된 파일은 [!DNL Digital Asset Management]에서 삭제할 수 없습니다.
+* [!DNL Experience Cloud] 에서 삭제된 파일은 [!DNL Digital Asset Management]에서 삭제할 수 없습니다.
 * 파일을 업로드하면 드래그하여 놓는 방법보다 더 많은 파일 유형을 사용할 수 있습니다. 최상의 결과를 얻으려면 에셋을 사용하여 업로드하십시오.
-* [!DNL Search&Promote]조직 및 제품 액세스 페이지에서 에 연결할 수 없습니다.
-* [!DNL Analytics]에서 트렌드 보고서에 적용된 필터가 [!DNL Experience Cloud]의 카드에 적용되지 않았습니다.
+* [!DNL Search&Promote] 조직 및 제품 액세스 페이지에서  에 연결할 수 없습니다.
+* [!DNL Analytics] 에서 트렌드 보고서에 적용된 필터가 [!DNL Experience Cloud]의 카드에 적용되지 않았습니다.
 * 일부 사용자는 자신의 고객 관리 계정을 [!DNL Experience Cloud] 계정과 연결하지 못할 수 있습니다.
 * 15분 동안 아무 활동이 없으면 로그아웃됩니다. 또한 한 위치에서 로그아웃해도 Experience Cloud에서 로그아웃됩니다.
 * 일부 Exchange 사용자는 주석에서 자신의 이름이 실제 이름이 아닌 긴 문자열 ID임을 확인할 수 있습니다.
@@ -537,15 +537,15 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Exchange </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">도움말</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud </span><span class="wintitle">Exchange</span>는 앱을 통해 디지털 마케팅 확장 기능을 검색, 탐색, 선택, 지불, 다운로드할 수 있는 단일 대상입니다. </p> <p>앱에는 Data Connectors, Adobe의 핵심 제품에 대한 사용자 지정 구성, 서드파티 애플리케이션, 보고서 및 <span class="keyword">Experience Cloud</span> 카드가 포함됩니다. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> 도움말</span> &gt; <span class="uicontrol"> Exchange</span></p> <p> <span class="keyword"> Experience Cloud</span><span class="wintitle"> Exchange</span> 는 앱을 통해 디지털 마케팅 확장 기능을 검색, 탐색, 선택, 지불, 다운로드할 수 있는 단일 대상입니다. </p> <p>앱에는 Data Connectors, Adobe의 핵심 제품에 대한 사용자 지정 구성, 서드파티 애플리케이션, 보고서 및 <span class="keyword"> Experience Cloud</span> 카드가 포함됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Audiences </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">대상</span></p> <p> <span class="wintitle"> 대상</span>은 세그먼트 작업 방식과 유사한 방식으로 대상을 만들고, 편집하고, 관리하는 곳입니다. 예를 들어, Reports &amp; Analytics에서 세그먼트를 만든 후 <span class="wintitle">Experience Cloud</span> <span class="wintitle">대상</span>에 공유할 수 있습니다. 이렇게 공유된 대상은 <span class="keyword">Adobe Target</span>에서 캠페인 활동에 사용하거나 Adobe Audience Manager에서 세분화에 사용할 수 있습니다. </p> <p> <p>참고: 이 기능에 대한 액세스 권한을 요청하려면 <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>를 방문하십시오. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> 대상</span></p> <p> <span class="wintitle"> 대상</span> 은 세그먼트 작업 방식과 유사한 방식으로 대상을 만들고, 편집하고, 관리하는 곳입니다. 예를 들어, Reports &amp; Analytics에서 세그먼트를 만든 후 <span class="wintitle"> Experience Cloud</span><span class="wintitle"> 대상</span>에 공유할 수 있습니다. 이렇게 공유된 대상은 <span class="keyword"> Adobe Target</span> 에서 캠페인 활동에 사용하거나 Adobe Audience Manager에서 세분화에 사용할 수 있습니다. </p> <p> <p>참고: 이 기능에 대한 액세스 권한을 요청하려면 <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>를 방문하십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Experience Cloud</span> 카드에 언급된 사용자는 해당 카드에 대한 사용 권한이 있습니다. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Experience Cloud</span> 카드에 언급된 사용자는 해당 카드에 대한 사용 권한이 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
@@ -560,18 +560,18 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 **수정 사항**
 
-* [!DNL Experience Cloud]가 [!DNL Adobe Target]에 연결되어 있지 않습니다. 이 문제는 [!DNL Adobe Target] 로그인을 여러 [!DNL Target] 서버에서 사용할 수 있을 때 발생합니다.
-* [!DNL Adobe Media Optimizer]에서 사용자를 생성할 때 [!DNL Experience Cloud]에서 사용자를 자동으로 생성하지 않습니다.
+* [!DNL Experience Cloud] 가 [!DNL Adobe Target]에 연결되어 있지 않습니다. 이 문제는 [!DNL Adobe Target] 로그인을 여러 [!DNL Target] 서버에서 사용할 수 있을 때 발생합니다.
+* [!DNL Adobe Media Optimizer] 에서 사용자를 생성할 때 [!DNL Experience Cloud]에서 사용자를 자동으로 생성하지 않습니다.
 * 새 사용자를 추가하기 위한 콤보 상자의 옵션이 입력하는 동안 일시적으로 사라졌습니다.
-* 자산 카드 보기의 주석 링크를 선택할 수 없습니다.
+* 에셋 카드 보기의 설명 링크를 선택할 수 없습니다.
 * 사용자 지정 태그를 에셋에 추가한 후에 다른 메타데이터 변경 사항이 지속되지 않습니다.
 * 이미지가 Adobe Target Essentials에 사용되는 경우 에셋에서 이미지를 삭제해도 경고가 표시되지 않습니다.
 * 여러 사용자가 동시에 사용할 경우 [!UICONTROL Experience Cloud] 인터페이스 성능이 느려집니다.
-* 에서 사용된 이미지를 [!DNL Adobe Target Essentials] [!UICONTROL Experience Cloud Assets]에서 삭제해도 경고가 발생하지 않습니다.
-* 로그인 동안 **[!UICONTROL 내 정보 저장]**&#x200B;을 선택하지 않았을 때 사용자가 15분 후 로그아웃되었습니다.
+* 에서 사용된 이미지를 [!DNL Adobe Target Essentials] [!UICONTROL Experience Cloud Assets] 에서 삭제해도 경고가 발생하지 않습니다.
+* 로그인 동안 **[!UICONTROL 내 정보 저장]** 을 선택하지 않았을 때 사용자가 15분 후 로그아웃되었습니다.
 * 모든 권한과 자격 변경 사항이 적용되려면 사용자가 로그아웃한 후 다시 로그인해야 합니다.
-* [!DNL Experience Cloud]에 로그인하는 데 1초 이상 걸립니다.
-* 특정 사용자의 경우, [!DNL Experience Cloud]에서 삭제된 파일은 [!DNL Digital Asset Management]와 동기화되지 않습니다.
+* [!DNL Experience Cloud] 에 로그인하는 데 1초 이상 걸립니다.
+* 특정 사용자의 경우, [!DNL Experience Cloud] 에서 삭제된 파일은 [!DNL Digital Asset Management]와 동기화되지 않습니다.
 * 15분 정도 브라우저 비활동이 지속된 후에 사용자가 로그아웃되었습니다.
 * 사용자가 보드에서 PowerPoint 파일을 공유할 수 없었습니다.
 * 일부 사용자의 경우, Internet Explorer 10에서 좋지 않은 시각적 레이아웃 품질을 경험했습니다.
@@ -591,8 +591,8 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
    <td colname="col2"> <p>이제 브라우저의 책갈피 도구 모음에서 Adobe Experience Cloud에 공유 기능을 사용하면 microsite URL에서 도움말 페이지를 공유할 수 있습니다. </p> <p> <b>도움말 항목을 공유하려면</b> </p> 
     <ol id="ol_F94B816121494B0FA16CC07B0E96AED8"> 
      <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p><span class="keyword"> Experience Cloud</span>에서 <span class="uicontrol"> 관리</span>를 선택합니다. </p> </li> 
-     <li id="li_94EF58E7A4974B63951E14F72A710183"> <p><span class="uicontrol">Adobe Experience Cloud에 공유</span> 버튼을 책갈피 도구 모음으로 드래그합니다. </p> </li> 
-     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>도움말 페이지로 이동한(또는 이 페이지에 남은) 다음, 브라우저의 책갈피 도구 모음에서 <span class="uicontrol"> Adobe Experience Cloud에 공유</span>를 선택합니다. </p> <p>이 단계에서는 <span class="wintitle">Experience Cloud</span>에서 볼 수 있는 카드를 만듭니다. </p> </li> 
+     <li id="li_94EF58E7A4974B63951E14F72A710183"> <p><span class="uicontrol"> Adobe Experience Cloud에 공유</span> 버튼을 책갈피 도구 모음으로 드래그합니다. </p> </li> 
+     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>도움말 페이지로 이동한(또는 이 페이지에 남은) 다음, 브라우저의 책갈피 도구 모음에서 <span class="uicontrol"> Adobe Experience Cloud에 공유</span> 를 선택합니다. </p> <p>이 단계에서는 <span class="wintitle"> Experience Cloud</span>에서 볼 수 있는 카드를 만듭니다. </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -602,24 +602,24 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 * 사용자 지정 태그를 에셋에 추가하면 다른 메타데이터 변경 사항을 지속할 수 없습니다.
 * 사용자는 보드를 새로 고쳐서 삭제된 카드가 보기에서 사라지도록 해야 합니다.
-* 로그인 동안 **[!UICONTROL 내 정보 저장]**&#x200B;을 선택하지 않으면 사용자가 15분 후 로그아웃됩니다.
+* 로그인 동안 **[!UICONTROL 내 정보 저장]** 을 선택하지 않으면 사용자가 15분 후 로그아웃됩니다.
 * [!DNL Analytics] 솔루션 랜딩 페이지에 형식 오류가 표시됩니다.
 * 모든 권한과 자격 변경 사항이 적용되려면 사용자가 로그아웃한 후 다시 로그인해야 합니다.
-* 이미지가 [!UICONTROL 에 사용되는 경우 ]에셋[!DNL Adobe Target Essentials]에서 이미지를 삭제해도 경고가 표시되지 않습니다.
-* 자산 카드 보기의 주석 링크를 선택할 수 없습니다.
+* 이미지가 [!UICONTROL 에 사용되는 경우] 에셋 [!DNL Adobe Target Essentials]에서 이미지를 삭제해도 경고가 표시되지 않습니다.
+* 에셋 카드 보기의 주석 링크를 선택할 수 없습니다.
 * 새 사용자를 추가하기 위한 콤보 상자의 옵션이 입력하는 동안 일시적으로 사라집니다.
-* [!DNL Experience Cloud]에 로그인하는 데 1초 이상 걸립니다.
-* [!DNL Media Optimizer]에서 공유한 데이터가 [!DNL Experience Cloud]에서 잘못 표시되었습니다.
-* [!DNL Media Optimizer]에서 사용자가 만들어져도 Adobe [!DNL Experience Cloud]에서 사용자가 자동으로 만들어지지 않습니다.
-* 여러 [!DNL Experience Cloud] 서버에서 [!DNL Adobe Target] 로그인을 사용하는 경우 [!DNL Adobe Target]를 [!DNL Target]에 연결할 수 없습니다.
+* [!DNL Experience Cloud] 에 로그인하는 데 1초 이상 걸립니다.
+* [!DNL Media Optimizer] 에서 공유한 데이터가 [!DNL Experience Cloud]에서 잘못 표시되었습니다.
+* [!DNL Media Optimizer] 에서 사용자가 만들어져도 Adobe [!DNL Experience Cloud]에서 사용자가 자동으로 만들어지지 않습니다.
+* 여러 [!DNL Experience Cloud] 서버에서 [!DNL Adobe Target] 로그인을 사용하는 경우 [!DNL Adobe Target] 를 [!DNL Target] 에 연결할 수 없습니다.
 * [!DNL Experience Cloud] 인터페이스는 많은 사용자가 동시에 사용하는 경우 속도가 느려질 수 있습니다.
-* [!DNL Search&Promote]조직 및 제품 액세스[!UICONTROL  페이지에서 ]에 연결할 수 없습니다.
+* [!DNL Search&Promote] 조직 및 제품 액세스 [!UICONTROL 페이지에서] 에 연결할 수 없습니다.
 * [!DNL Adobe Media Optimizer] 시뮬레이션 카드가 올바로 렌더링하고 있지 않습니다.
-* [!DNL Analytics]에서 트렌드 보고서에 적용된 필터가 [!DNL Experience Cloud]의 카드에 적용되지 않았습니다.
+*  [!DNL Analytics] 에서 트렌드 보고서에 적용된 필터가 [!DNL Experience Cloud]의 카드에 적용되지 않았습니다.
 * Analytics에서 트렌드 보고서에 적용된 필터가 Experience Cloud의 카드에 적용되지 않았습니다.
 * 일부 Excel 또는 CSV 파일을 보드에 업로드할 수 없습니다.
 * 일부 사용자는 자신의 고객 관리 계정을 [!DNL Experience Cloud]와 연결하지 못할 수 있습니다.
-* 일부 사용자는 [!DNL Analytics]에서 [!DNL Experience Cloud] 세그먼트를 공유할 때 오류가 발생할 수 있습니다.
+* 일부 사용자는 [!DNL Analytics] 에서 [!DNL Experience Cloud] 세그먼트를 공유할 때 오류가 발생할 수 있습니다.
 * 일부 사용자는 [!UICONTROL 에셋 선택기]에서 하위 폴더로 드릴다운하지 못할 수 있습니다.
 * 일부 사용자는 [!DNL Experience Cloud]에서 AdLens 가젯을 공유할 수 없습니다.
 
@@ -635,20 +635,20 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 **알려진 문제**
 
 * 이미지가 Adobe Target Essentials에 사용되는 경우 Experience Cloud Assets에서 이 이미지를 삭제해도 경고가 표시되지 않습니다.
-* [!DNL Analytics]에서 카드를 새로 고치면 때로 확장된 카드에서 빈 차트가 생성됩니다.
+*  [!DNL Analytics] 에서 카드를 새로 고치면 때로 확장된 카드에서 빈 차트가 생성됩니다.
 * 모든 권한과 자격 변경 사항이 적용되려면 사용자가 로그아웃한 후 다시 로그인해야 합니다.
-* *`Remember me`*&#x200B;을 선택하지 않으면 사용자는 15분 후 로그아웃됩니다.
+*  *`Remember me`* 을 선택하지 않으면 사용자는 15분 후 로그아웃됩니다.
 * [!DNL Analytics] 솔루션 랜딩 페이지에 형식 오류가 표시됩니다.
-* 자산 카드 보기의 주석 링크를 선택할 수 없습니다.
+* 에셋 카드 보기의 설명 링크를 선택할 수 없습니다.
 * Experience Cloud 인터페이스는 많은 사용자가 동시에 사용하는 경우 속도가 느려질 수 있습니다.
-* 여러 Target 서버에서 [!DNL Adobe Target] 로그인을 사용하는 경우 Experience Cloud를 [!DNL Adobe Target]에 연결할 수 없습니다.
+* 여러 Target 서버에서 [!DNL Adobe Target] 로그인을 사용하는 경우 Experience Cloud를 [!DNL Adobe Target] 에 연결할 수 없습니다.
 * Experience Cloud에 로그인하는 데 1초 이상 걸립니다.
 * 사용자 지정 태그를 에셋에 추가하면 다른 메타데이터 변경 사항을 지속할 수 없습니다.
-* Experience Cloud에서 사용자를 생성할 때 [!DNL Adobe Media Optimizer]에서 사용자를 자동으로 생성하지 않습니다.
+* Experience Cloud에서 사용자를 생성할 때 [!DNL Adobe Media Optimizer] 에서 사용자를 자동으로 생성하지 않습니다.
 * 새 사용자를 추가하기 위한 콤보 상자의 옵션이 입력하는 동안 일시적으로 사라집니다.
-* [!DNL Media Optimizer]에서 공유한 데이터가 Experience Cloud에서 잘못 표시되었습니다.
+* [!DNL Media Optimizer] 에서 공유한 데이터가 Experience Cloud에서 잘못 표시되었습니다.
 * Flickr 이미지가 공유되지 않습니다.
-* [!DNL Analytics]에서 트렌드 보고서에 적용된 필터가 Experience Cloud의 카드에 적용되지 않았습니다.
+* [!DNL Analytics] 에서 트렌드 보고서에 적용된 필터가 Experience Cloud의 카드에 적용되지 않았습니다.
 * 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
 * [!DNL Search&Promote] 연결은 [!UICONTROL 조직 및 제품 액세스]에서 사용할 수 없습니다.
 * 사용자는 보드를 새로 고쳐서 삭제된 카드가 보기에서 사라지도록 해야 합니다.
@@ -674,7 +674,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
   <tr> 
    <td colname="col1"> <p>데이터 새로 고침 </p> </td> 
    <td colname="col2"> <p> 
-     <!--MAC-18174-->카드의 그래프에 대해 사용하는 <span class="uicontrol">데이터 새로 고침</span> 아이콘은 이제 솔루션에서 데이터 새로 고침을 허용하지 않는 경우 표시되지 않습니다. </p> </td> 
+     <!--MAC-18174-->카드의 그래프에 대해 사용하는 <span class="uicontrol"> 데이터 새로 고침</span> 아이콘은 이제 솔루션에서 데이터 새로 고침을 허용하지 않는 경우 표시되지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -683,5 +683,5 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 * 공유 [!DNL Analytics] 보고서가 세그먼트 필터에 적용되지 않는 문제를 해결했습니다.
 * 솔루션 계정이 연결되지 않은 경우에도 솔루션이 [!UICONTROL Experience Cloud 솔루션] 페이지에 연결된 것으로 표시되는 문제를 해결했습니다.
-* 아시아 지역의 [!DNL Adobe Target] 고객이 연결 페이지에서 **[!UICONTROL Experience Cloud 계속]** 단추를 선택할 수 없는 문제를 해결했습니다.
-* Youtube 비디오 공유를 하지 못하는 문제를 해결했습니다.
+* 아시아 지역의 [!DNL Adobe Target] **[!UICONTROL 고객이 연결 페이지에서 Experience Cloud로 이동]** 버튼을 선택할 수 없는 문제를 해결했습니다.
+* YouTube 비디오 공유를 하지 못하는 문제를 해결했습니다.
