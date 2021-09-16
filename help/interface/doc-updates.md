@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 89%
 
 Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 
-**업데이트됨 8/24/2021**
+**업데이트 날짜: 2021년 8월 24일**
 
-[중앙 구성 요소](experience-cloud.md) 페이지(이 안내서의 랜딩 페이지)가 업데이트되었습니다. 브라우저 및 언어 지원, 조직 업데이트, 로그인 및 도메인에 대한 정보가 추가되었습니다.
+업데이트된 [중앙 구성 요소](experience-cloud.md) 페이지(이 지침의 랜딩 페이지). 추가 브라우저 및 언어 지원, 조직에 대한 업데이트, 로그인 및 도메인에 대한 추가 정보.
 
-**업데이트됨 8/6/2021**
+**업데이트 날짜: 2021년 8월 6일**
 
-[자사 쿠키](cookies-first-party.md)를 업데이트했습니다.
+업데이트된 [자사 쿠키](cookies-first-party.md).
 
 **업데이트 날짜: 2021년 6월 4일**
 
@@ -34,7 +34,7 @@ Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 
 **업데이트 날짜: 2021년 6월 1일**
 
-Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한 새로운 도움말로 [랜딩 페이지](experience-cloud.md)를 업데이트했습니다.
+Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한 새로운 도움말로 [랜딩 페이지](experience-cloud.md) 를 업데이트했습니다.
 
 **업데이트 날짜: 2020년 8월 19일**
 
@@ -53,7 +53,7 @@ Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한
 
 **업데이트 날짜: 2020년 3월 10일**
 
-자사 쿠키 섹션의 [호스트 이름 전달 유효성 검사](cookies-first-party.md#validate)을 업데이트했습니다.
+자사 쿠키 섹션의 [호스트 이름 전달 유효성 검사](cookies-first-party.md#validate) 을 업데이트했습니다.
 
 **업데이트 날짜: 2020년 2월 20일**
 
@@ -65,7 +65,7 @@ Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한
 
 **업데이트 날짜: 2018년 6월 8일**
 
-[고객 속성의 데이터 파일 및 데이터 소스 정보](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)를 여러 개의 파일 업로드에 대한 정보로 업데이트했습니다.
+[고객 속성의 데이터 파일 및 데이터 소스 정보](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) 를 여러 개의 파일 업로드에 대한 정보로 업데이트했습니다.
 
 **업데이트 날짜: 2018년 6월 6일**
 
@@ -89,7 +89,7 @@ Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한
 
 **업데이트 날짜: 2017년 2월 1일**
 
-[핵심 서비스를 활성화](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)하는 단계로 [보고서 세트 매핑](core-services.md#concept_apg_zq2_rw)이 추가되었습니다.
+[핵심 서비스를 활성화](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)하는 단계로 [보고서 세트 매핑](core-services.md#concept_apg_zq2_rw) 이 추가되었습니다.
 
 **업데이트 날짜: 2016년 5월 9일**
 
@@ -109,7 +109,7 @@ Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한
 
 **업데이트 날짜: 2014년 7월 17일**
 
-관리자용 [Experience Cloud FAQ](faq.md#concept_13219B4E51784577B6FF78AAA203DE91)가 추가되었습니다.
+관리자용 [Experience Cloud FAQ](faq.md#concept_13219B4E51784577B6FF78AAA203DE91) 가 추가되었습니다.
 
 **업데이트 날짜: 2014년 5월 22일**
 
