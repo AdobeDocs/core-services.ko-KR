@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '477'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,14 +39,14 @@ ht-degree: 96%
 다음 예에서는 복합 대상에 대한 규칙을 만드는 방법을 보여 줍니다. 이 대상은 다음으로 구성됩니다.
 
 * 페이지 데이터 또는 원시 분석 데이터에서 파생된 홈/가든 섹션
-* [!DNL Experience Cloud]에 [게시된](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) [!DNL Adobe Analytics]세그먼트에서 파생된 Chrome 및 Safari 사용자.
+* [!DNL Experience Cloud]에 [게시된](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) [!DNL Adobe Analytics] 세그먼트에서 파생된 Chrome 및 Safari 사용자.
 
    ![](assets/audience_create.png)
 
 **대상을 만들려면**
 
-1. [!DNL Experience Cloud]의 [!DNL Experience Platform]People ]**>**[!UICONTROL &#x200B;대상 라이브러리]를 선택합니다.****[!UICONTROL 
-1. [!UICONTROL 대상] 페이지에서 **[!UICONTROL 새]**&#x200B;을 선택합니다. ![](assets/add_icon_small.png)
+1. [!DNL Experience Cloud]에서 [!DNL Experience Platform]의 **[!UICONTROL 사용자]** > **[!UICONTROL 대상 라이브러리]를 선택합니다.**
+1. [!UICONTROL 대상] 페이지에서 **[!UICONTROL 새로 만들기]** ![](assets/add_icon_small.png)를 선택합니다.
 
    ![단계 결과](assets/audience_create_new.png)
 
@@ -58,9 +58,9 @@ ht-degree: 96%
    >
    >캐싱으로 인해, Analytics에서 삭제된 보고서 세트는 삭제가 Experience Cloud에 표시되는 데 12시간이 필요합니다.
 
-   * **[!UICONTROL Experience Cloud:]**[!DNL Experience Cloud] 소스에서 파생된 속성 데이터입니다. 예를 들어 [!DNL Analytics]에서 만든 대상 세그먼트의 데이터이거나 [!DNL Audience Manager]의 데이터일 수 있습니다.
+   * **[!UICONTROL Experience Cloud:]** [!DNL Experience Cloud] 소스에서 파생된 속성 데이터입니다. 예를 들어 [!DNL Analytics]에서 만든 대상 세그먼트의 데이터이거나 [!DNL Audience Manager]의 데이터일 수 있습니다.
 
-1. 대상 규칙을 정의한 다음 **[!UICONTROL 저장].**
+1. 대상 규칙을 정의한 다음 **[!UICONTROL 저장]을 선택합니다.**
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ ht-degree: 96%
 
 ![](assets/home_garden.png)
 
-*Chrome 및 Safari 방문자*&#x200B;는 Analytics에서 공유되는 대상 세그먼트입니다.
+*Chrome 및 Safari 방문자* 는 Analytics에서 공유되는 대상 세그먼트입니다.
 
 * **[!UICONTROL 속성 소스:]** Experience Cloud
 * **[!UICONTROL 차원:]** Chrome/Safari 방문자
@@ -89,7 +89,7 @@ ht-degree: 96%
 
 ![](assets/defined_audience.png)
 
-* **이전 예상:**(점선 원) [!DNL Analytics] 데이터를 기반으로 만들어진 규칙을 나타냅니다.
+* **이전 예상:** (점선 원) [!DNL Analytics] 데이터를 기반으로 만들어진 규칙을 나타냅니다.
 * **실제 대상:** (실선 원)30일 동안의 Audience Manager 데이터를 포함하여 만들어진 모든 규칙입니다. Audience Manager 데이터가 30일이 되면 선은 실선이 되고 실제 수치를 나타냅니다.
 
 지정된 기간 동안 데이터 수집이 완료되면 원이 합쳐지면서 정의된 대상을 표시합니다.
