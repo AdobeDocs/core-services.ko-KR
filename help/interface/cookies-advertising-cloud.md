@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
 source-git-commit: 1f2dd42b4803517e6c513038c00b2070c08a51bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
 
 >[!NOTE]
 >
->[Adobe Experience Cloud ID(ECID) 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko-KR)를 사용하는 베타 Advertising Cloud Javascript 태그는 Advertising Cloud 쿠키가 아닌 [자사 Experience Cloud s_ecid 쿠키](cookies-first-party.md)를 만듭니다.
+>[Adobe Experience Cloud ID(ECID) 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) 를 사용하는 Beta Advertising Cloud JavaScript 태그는 Advertising Cloud 쿠키가 아닌 [자사 Experience Cloud s_ecid 쿠키](cookies-first-party.md)를 생성합니다.
 
 ## 쿠키 이름: _lcc
 
@@ -34,7 +34,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p>정보가 저장됨 </p> </td> 
-   <td colname="col2"> <p>ID 및 타임스탬프(yyyymmdd 형식)가 표시됩니다</p> </td> 
+   <td colname="col2"> <p>검색 선택 수의 ID 및 타임스탬프(yyyymmdd 형식)</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>만료 </p> </td> 
@@ -42,7 +42,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용 </p> </td> 
-   <td colname="col2"> <p>디스플레이 광고의 선택 이벤트가 Adobe Analytics 히트에 적용되는지를 판별하는 데 사용되는 타사 쿠키 </p> </td> 
+   <td colname="col2"> <p>디스플레이 광고의 선택 이벤트가 Adobe Analytics 히트에 적용되는지를 판별하는 데 사용되는 서드파티 쿠키 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>위치 </p> </td> 
