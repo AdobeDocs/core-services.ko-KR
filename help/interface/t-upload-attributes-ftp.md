@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Experience Cloud에서 고객 속성 소스 및 FTP 계정을 만든 후에 데�
 
 >[!IMPORTANT]
 >
->파일을 업로드하기 전에 [고객 속성을 업로드하기 위한 데이터 파일 요구 사항](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)을 검토하십시오.
+>파일을 업로드하기 전에 [고객 속성을 업로드하기 위한 데이터 파일 요구 사항](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) 을 검토하십시오.
 
 고객 속성 FTP 사이트로의 파일 업로드는 FTP 또는 SFTP를 통해 수행될 수 있습니다:
 
@@ -41,8 +41,8 @@ Experience Cloud에서 고객 속성 소스 및 FTP 계정을 만든 후에 데�
 
 1. `.fin` 파일을 업로드하여 검색할 수 있게 만듭니다.
 
-   파일 형식 `.fin`은 사용자가 만드는 파일이며 업로드가 완료되었음을 나타냅니다. 빈 메모장 파일일 수 있습니다. 예를 들어 [!DNL crs123.csv]를 업로드하는 경우 [!DNL crs123.fin]도 업로드하게 됩니다.
+   파일 형식 `.fin` 은 사용자가 만드는 파일이며 업로드가 완료되었음을 나타냅니다. 빈 메모장 파일일 수 있습니다. 예를 들어 [!DNL crs123.csv]를 업로드하는 경우 [!DNL crs123.fin]도 업로드하게 됩니다.
 
    업로드가 성공적으로 수행되면 두 파일이 모두 **processed** 폴더로 이동됩니다.
 
-   파일 이름 및 구조에 대한 중요한 정보가 필요하면 [고객 속성을 업로드하기 위한 데이터 파일 요구 사항](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)을 참조하십시오.
+   파일 이름 및 구조에 대한 중요한 정보가 필요하면 [고객 속성을 업로드하기 위한 데이터 파일 요구 사항](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) 을 참조하십시오.
