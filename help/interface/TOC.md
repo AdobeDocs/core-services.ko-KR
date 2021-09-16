@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud 중앙 인터페이스 구성 요소
 user-guide-description: Experience Cloud의 인터페이스에 대해 알아보고, 환경 설정을 구성하고, 도움말 및 비즈니스 개체 검색에 관해 알아보십시오. 사용자 및 제품 관리, 고객 속성, 대상 라이브러리, 쿠키 및 Experience Cloud Assets에 대한 도움을 받으십시오.
 index: true
 source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
