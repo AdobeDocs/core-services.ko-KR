@@ -8,7 +8,7 @@ topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: a19887e3160faa0ef91bd975fc6e1e08a0a9d948
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '482'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # 고객 속성 개요
 
-Experience Cloud의 [!UICONTROL 고객 속성]을 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드한 다음 Adobe Analytics 및 Adobe Target에서 데이터를 사용할 수 있습니다.
+Experience Cloud의 [!UICONTROL 고객 속성] 을 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드한 다음 Adobe Analytics 및 Adobe Target에서 데이터를 사용할 수 있습니다.
 
 이 기능을 찾으려면 **[!DNL Experience Platform]** > **[!UICONTROL 사용자]** > **[!UICONTROL 고객 속성]**&#x200B;으로 이동합니다.
 
@@ -46,7 +46,7 @@ Experience Cloud의 [!UICONTROL 고객 속성]을 사용하면 고객 관계 관
 
 데이터 파일을 만든 후, 만든 고객 속성 소스에 업로드하는 작업은 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 고객 속성]**&#x200B;에서 할 수 있습니다.
 
-이 워크플로에 대한 자세한 내용은 [고객 속성 데이터 업로드](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)를 참조하십시오.
+이 워크플로에 대한 자세한 내용은 [고객 속성 데이터 업로드](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) 를 참조하십시오.
 
 ## Analytics 및 Target의 고객 속성 예 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
