@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 399a3ddb47deb83481bcdfb0c578804b2bbfbae8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Experience Cloud를 사용하는 관리자를 위한 브라우저 지원, 일반
 핵심 서비스에 대한 구현이 제공되지 않은 경우, 다음 방법에 대해 설명하는 [핵심 서비스에 대한 솔루션 활성화](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)를 참조하십시오.
 
 1. [Experience Cloud에 참여 및 관리자 되기](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Experience Platform Launch를 사용하여 Experience Cloud ID 서비스 구현](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=ko-KR)
+1. [Experience Platform Launch를 사용하여 Experience Cloud ID 서비스 구현](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)
 1. [보고서 세트를 Experience Cloud 조직에 매핑](core-services.md#concept_apg_zq2_rw)
 1. [(Analytics 전용) Analytics AppMeasurement 코드 현대화](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Adobe Target만 해당) Adobe Target 구현 현대화](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -59,24 +59,24 @@ Experience Cloud 인터페이스에서 제공하는 기능은 귀하의 비즈�
 
 Experience Cloud의 프로비저닝은 다음을 의미합니다.
 
-* 사용자는 [!DNL Experience Cloud]에 로그인하고 솔루션을 연결할 수 있습니다.
+* 사용자는 [!DNL Experience Cloud] 에 로그인하고 솔루션을 연결할 수 있습니다.
 * 또한 Experience Cloud를 통해 사용자와 같은 기능을 사용할 수 있습니다.
 * 솔루션별 로그인 프로세스의 사용을 중단할 준비를 갖출 수 있습니다.
 * 솔루션에 대한 액세스 제어 권한은 그대로 유지할 수 있습니다.
 
 ## 사용자 및 제품 프로필을 관리하려면 어떻게 해야 합니까?
 
-* 도움이 필요하면 [Admin Console 사용 안내서](https://helpx.adobe.com/kr/enterprise/admin-guide.html)를 참조하십시오.
+* 도움이 필요하면 [Admin Console 사용 안내서](https://helpx.adobe.com/kr/enterprise/admin-guide.html) 를 참조하십시오.
 
-* 사용자 자격 및 제품 관리는 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)(제품 링크)에서 수행됩니다.
+* 사용자 자격 및 제품 관리는 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (제품 링크)에서 수행됩니다.
 
-* **중요:** Analytics 관리자는 [Admin Console의 Analytics 사용자 관리](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=ko-KR)에서 사용자 ID를 Analytics 관리 도구에서 Admin Console로 마이그레이션하는 작업에 대해 참조하십시오.
+* **중요:** Analytics 관리자는 [Admin Console의 Analytics 사용자 관리](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=ko-KR) 에서 사용자 ID를 Analytics 관리 도구에서 Admin Console로 마이그레이션하는 작업에 대해 참조하십시오.
 
 ## Experience Cloud에 로그인할 수 없으면 어떻게 해야 합니까?
 
 Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있습니다. 사용자에게 로그인 지침이 포함된 이메일이 전송됩니다.
 
-[Adobe 지원에 문의](https://experienceleague.adobe.com/?support-solution=General#support)하여 회사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
+[Adobe 지원에 문의](https://experienceleague.adobe.com/?support-solution=General#support) 하여 회사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
 
 ## 사용자가 계정 링크를 관리하려면 어디로 이동해야 합니까?
 
@@ -98,7 +98,7 @@ Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있
 
 조직 ID는 Experience Cloud 랜딩 페이지 및 [Admin Console 랜딩 페이지](https://adminconsole.adobe.com)에 표시됩니다.
 
-또는 관리자가 특정 조직의 Admin Console ([https://adminconsole.adobe.com](https://adminconsole.adobe.com)으로 이동)에 로그인하면 URL에서 IMS 조직 ID를 볼 수 있습니다.
+또는 관리자가 특정 조직의 Admin Console ( [https://adminconsole.adobe.com](https://adminconsole.adobe.com)으로 이동)에 로그인하면 URL에서 IMS 조직 ID를 볼 수 있습니다.
 
 예를 들면 다음 URL의 경우
 
