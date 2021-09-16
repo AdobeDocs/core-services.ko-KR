@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 97%
 **브라우저 쿠키에 대한 개인정보 보호 설정을 활성화하려면**
 
 1. **[!UICONTROL 관리 도구]** > **[!UICONTROL 보고서 세트]**&#x200B;로 이동합니다.
-1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 개인 정보 설정]**&#x200B;으로 이동합니다.
-1. **[!UICONTROL 개인정보 설정]**&#x200B;을 활성화합니다(데스크탑 또는 모바일의 경우).
+1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 개인정보 설정]**&#x200B;으로 이동합니다.
+1. **[!UICONTROL 개인정보 설정]** 을 활성화합니다(데스크탑 또는 모바일의 경우).
 
 >[!IMPORTANT]
 >
