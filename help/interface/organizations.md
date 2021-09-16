@@ -10,25 +10,25 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 source-git-commit: ec724555c3799eeca350592498267d0b71b4ff04
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# Experience Cloud의 조직
+# Experience Cloud 내 조직
 
-Experience Cloud에서 조직 관리 및 전환에 대해 알아봅니다.
+Experience Cloud 내 조직 관리 및 전환에 대해 알아봅니다.
 
 ## 조직 식별 {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
 ** 조직은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 항목입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
 
-올바른 조직에 로그인했는지 확인하려면 프로필 아바타를 클릭하여 조직 이름을 확인합니다. 둘 이상의 조직에 액세스할 수 있는 경우 헤더 막대에서 바로 다른 조직을 보고 전환할 수도 있습니다.
+올바른 조직에 로그인했는지 확인하려면 프로필 아바타를 클릭하여 조직 이름을 확인합니다. 둘 이상의 조직에 대한 액세스 권한을 보유하고 있다면 다른 조직을 확인하고 헤더 표시줄에서 바로 해당 조직으로 전환할 수도 있습니다.
 
-조직에서 Federated ID를 사용하는 경우 Experience Cloud을 통해 이메일 주소와 암호를 입력하지 않고도 조직의 단일 사인온에 로그인할 수 있습니다. 이렇게 하려면 Experience Cloud URL(`https://experience.adobe.com`)에 `#/sso:@domain`을 추가합니다.
+조직이 Federated ID를 사용하는 경우 Experience Cloud를 통해 주소 및 암호를 입력할 필요 없이 조직의 Single Sign-On으로 로그인할 수 있습니다. 이 작업을 수행하려면 `#/sso:@domain` 를 Experience Cloud URL(`https://experience.adobe.com`)에 추가합니다.
 
-예를 들어 Federated ID와 도메인 `adobecustomer.com`이 있는 조직의 경우 URL 링크를 `https://experience.adobe.com/#/sso:@adobecustomer.com`로 설정하십시오. 이 URL을 애플리케이션 경로와 함께 책갈피로 지정하여 특정 애플리케이션으로 바로 이동할 수도 있습니다. (예: Adobe Analytics의 경우 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`)
+예를 들어 조직에 Federated ID와 도메인 `adobecustomer.com`가 있는 경우 URL 링크를 `https://experience.adobe.com/#/sso:@adobecustomer.com`로 설정합니다. 애플리케이션 경로가 첨부된 이 URL을 책갈피로 지정하여 바로 특정 애플리케이션으로 이동할 수도 있습니다. (예: Adobe Analytics의 경우 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
 ![단계 결과](assets/organization-switch.png)
 
@@ -36,7 +36,7 @@ Experience Cloud에서 조직 관리 및 전환에 대해 알아봅니다.
 
 지원을 위해 조직 ID를 찾아야 할 수도 있습니다. **[!UICONTROL 조직]** 메뉴를 사용하여 올바른 조직에 있는지 확인하거나 조직 간에 전환할 수 있습니다.
 
-**조직 ID**&#x200B;는 공급된 Experience Cloud 회사와 연결된 ID입니다. 이 ID는 24자의 영숫자 문자열과 @AdobeOrg(포함 필수)로 구성됩니다.
+**조직 ID** 는 공급된 Experience Cloud 회사와 연결된 ID입니다. 이 ID는 24자의 영숫자 문자열과 @AdobeOrg(포함 필수)로 구성됩니다.
 
 조직 ID를 보려면 Experience Cloud 랜딩 페이지로 이동하거나( ![](assets/menu-icon.png))를 선택한 다음 **[!UICONTROL 관리]**&#x200B;를 선택합니다. [!UICONTROL Experience Cloud에서 시작하기] 페이지 하단 또는 [!UICONTROL 관리] 페이지에서 조직 ID를 찾을 수 있습니다.
 
@@ -64,7 +64,7 @@ Experience Cloud에서 조직 관리 및 전환에 대해 알아봅니다.
 
 로그인할 때 사용할 기본 조직 및 랜딩 페이지를 지정할 수 있습니다.
 
-프로필에서 **[!UICONTROL 프로필 편집]**&#x200B;을 선택합니다.
+프로필에서 **[!UICONTROL 프로필 편집을 선택합니다]**.
 
 ![](assets/edit-profile.png)
 
