@@ -106,7 +106,7 @@ Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 
 
 Experience Cloud ID 서비스 설정의 일부로, Analytics 및 [!DNL Target] 에 대해 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko-KR) 를 Experience Cloud와 동기화하는 것이 좋습니다.
 
-Adobe Target에서 `mbox3rdpartyid` 은(는) 고객 ID 를 가져와 [!DNL Target](으)로 보내야 합니다. ( [!DNL Target]에서 [고객 속성 사용](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=ko-KR) 을 참조하십시오.)
+Adobe Target에서 `mbox3rdpartyid` 은(는) 고객 ID 를 가져와 [!DNL Target] (으)로 보내야 합니다. ( [!DNL Target]에서 [고객 속성 사용](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=ko-KR) 을 참조하십시오.)
 
 방문자가 사용자의 웹 사이트에서 인증을 받거나 다른 방식으로 식별될 경우, 구현을 통해 페이지나 앱에 해당 개인의 CRM 고객 ID를 노출해야 합니다. 그러면 해당 기능 호출을 사용하여 고객 ID를 Experience Cloud와 동기화할 수 있습니다. 이와 같이 동기화가 진행되면 방문자의 CRM 고객 ID가 Experience Cloud에 저장되고 Experience Cloud에서 사용할 해당 고객의 속성이 활성화됩니다.
 
