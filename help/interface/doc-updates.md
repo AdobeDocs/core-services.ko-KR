@@ -1,7 +1,6 @@
 ---
 description: Adobe Experience Cloud 도움말 업데이트에 대한 정보입니다.
 keywords: Experience Cloud 서비스
-solution: Experience Cloud
 title: 설명서 업데이트
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 feature: Customer Attributes
@@ -9,8 +8,8 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
-workflow-type: ht
+source-git-commit: 1bfc58be479cf2d0d283268299ec57e2abb8a5ca
+workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
 
