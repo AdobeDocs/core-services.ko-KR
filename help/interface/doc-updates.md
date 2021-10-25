@@ -9,16 +9,33 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 12d5a76eaffd2aff43f23e56de44879199d0a4fe
+source-git-commit: 29af6733b7964a0e98bb664366d4c92bebdceddb
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '516'
+ht-degree: 83%
 
 ---
 
 # 설명서 업데이트 - Experience Cloud
 
 Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
+
+**업데이트됨 10/28/2021**
+
+| 기능 | 설명 |
+| ------- | ------- |
+| 홈 페이지 | Experience Cloud 홈 바닥글 정보가 기본 설정에서 법적 공지 및 언어 선택을 포함하여 사용자 프로필 카드로 이동되었습니다. |
+| AEP 대시보드 | [!DNL Helios Lite] Experience Platform 위젯 작성 워크플로우 내에서 차트 권장 사항을 제공합니다. 데이터 선택(현재 단일 변수 데이터 선택)이 주어지는 경우, Helios에서는 해당 데이터 선택 사항과 함께 적절한 시각화를 권장합니다. |
+| AEP 대시보드 | [!DNL Instory] 차트에 대한 ML 기반 설명 및 캡션을 제공합니다. 그래프 데이터에서 주요 변경 사항 및 장애를 호출한 관련 글머리 기호로 AEP 대시보드 페이지의 차트를 장식합니다. |
+
+**업데이트됨 10/13/2021**
+
+| 기능 | 설명 |
+| ------- | ------- |
+| 통합 검색 | 통합 검색은 검색 인덱스에 오브젝트 유형을 계속 추가합니다. 이번 업데이트를 통해 글로벌 검색은 이제 Experience League 콘텐츠와 다음 Journey Optimizer 오브젝트 유형을 검색합니다. <ul><li>데이터 세트</li><li>대상</li><li>쿼리</li><li>스키마</li><li>세그먼트</li><li>소스</li><li>오퍼</li><li>구성 요소</li><li>메시지</li><li>여정</li></ul> |
+| 제품 사용 데이터 동의 | 초기 로그인 시 Adobe가 사용자에게 유용하고 개인 맞춤화된 콘텐츠(Experience Cloud 제품 사용 데이터를 기반으로 하는 튜토리얼, 가이드, 빠른 팁, 권장 사항, 학습 비디오 등)를 제공할 수 있는 방법에 대한 환경 설정을 제출하라는 메시지가 표시됩니다. <https://experience.adobe.com/preferences>에서 이러한 데이터의 수집 및 사용에 대한 환경 설정 업데이트도 이 요청에 포함됩니다. |
+| Experience Cloud [!UICONTROL 트리거] 탐색 | [Experience Cloud 트리거](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=en)는 프로비저닝된 사용자의 헤더에 있는 애플리케이션 전환기에서 직접 탐색할 수 있습니다. |
+| **공지:** 인터페이스 탐색 업데이트 예정 | 2021년 11월에 _[!UICONTROL 실행/데이터 수집으로 이동]_ 탐색 기능이 <https://experience.adobe.com/implement>에서 제거됩니다. |
 
 **업데이트 날짜: 2021년 8월 24일**
 
