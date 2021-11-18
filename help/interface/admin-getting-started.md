@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: ht
-source-wordcount: '1271'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '1282'
+ht-degree: 93%
 
 ---
 
@@ -84,11 +84,11 @@ Admin Console에서 조직의 다른 사용자에게 제한된 관리 권한을 
 
 1. Admin Console에서 **[!UICONTROL 사용자]**&#x200B;를 선택한 다음 사용자 이름을 선택합니다.
 
-   ![](assets/edit-admin-rights.png)
+   ![Admin Console의 관리 권한](assets/edit-admin-rights.png)
 
 1. **[!UICONTROL 관리 권한 편집]**&#x200B;을 선택합니다.
 
-   ![](assets/edit-admin-rights-page.png)
+   ![Admin Console에서 관리 권한 편집](assets/edit-admin-rights-page.png)
 
 1. 사용자의 관리 권한을 지정합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
@@ -106,8 +106,8 @@ Admin Console에서 조직의 다른 사용자에게 제한된 관리 권한을 
 | 요소 | 설명 |
 |--- |--- |
 | 보고서 세트 | 특정 보고서 세트에 대한 권한을 사용하도록 설정합니다. |
-| 지표 | 트래픽, 전환, 사용자 지정 이벤트, 솔루션 이벤트, 콘텐츠 인식 등에 대한 권한을 활성화합니다. |
-| 차원 | eVar, 트래픽 보고서, 솔루션 보고서 및 경로 보고서를 포함하여 세분된 수준에서 사용자 액세스를 사용자 지정합니다. |
+| 지표 | 트래픽, 전환, 사용자 지정 이벤트, 애플리케이션 이벤트, 컨텐츠 인식 등에 대한 권한을 활성화합니다. |
+| 차원 | eVar, 트래픽 보고서, 애플리케이션 보고서 및 경로 보고서를 포함하여 세분된 수준에서 사용자 액세스를 사용자 지정합니다. |
 | 보고서 세트 도구 | 웹 서비스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항목에 대한 사용자 권한을 활성화합니다. |
 | Analytics 도구 | 일반 항목(청구, 로그 등), 회사 관리, 도구, 웹 서비스 액세스, Report Builder 및 Data Connectors 통합에 대한 사용자 권한을 활성화합니다. Admin Console 사용자 지정 카테고리의 회사 설정이 Analytics 도구로 이동되었습니다. |
 
@@ -117,7 +117,7 @@ Analytics 사용자 ID 마이그레이션 도구는 Analytics 관리자가 Analy
 
 계정 마이그레이션이 단계적으로 고객에게 배포되고 있습니다. Adobe에서는 기존 사용자 계정을 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]** 에서 Admin Console로 마이그레이션할 때 사용자에게 알리고 지원합니다.
 
-마이그레이션 후 사용자는 Adobe ID(또는 Enterprise ID)를 사용하여 로그인하고 [experience.adobe.com](https://experience.adobe.com)에서 해당 Experience Cloud 솔루션 및 서비스를 인증합니다. 사용자가 이전 계정([!DNL my.omniture.com], [!DNL sc.omniture.com] 및 [!DNL experiencecloud.adobe.com])을 통해 로그인하려고 하면 [!DNL experience.adobe.com]으로 리디렉션됩니다.
+마이그레이션 후 사용자는 Adobe ID(또는 Enterprise ID)을 사용하여 로그인하고 의 Experience Cloud 애플리케이션 및 서비스를 인증합니다. [experience.adobe.com](https://experience.adobe.com). 사용자가 이전 계정([!DNL my.omniture.com], [!DNL sc.omniture.com] 및 [!DNL experiencecloud.adobe.com])을 통해 로그인하려고 하면 [!DNL experience.adobe.com]으로 리디렉션됩니다.
 
 **관련 도움말**
 
@@ -129,9 +129,9 @@ Adobe Target에서 작업 공간은 제품 프로필입니다. 이를 통해 조
 
 다음을 참조하십시오.
 
-* [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ko-KR)
-* [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* 비디오: [Adobe Admin Console에서 Adobe Target 작업 공간을 구성하는 방법](https://helpx.adobe.com/kr/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
+* [제품 및 프로필 관리](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* 비디오: [Adobe Admin Console에서 Adobe Target 작업 공간을 구성하는 방법](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 캠페인 제품 프로필, 테넌트 및 보안 그룹 관리 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -143,7 +143,7 @@ Campaign의 *테넌트* 는 Admin Console 제품 페이지에서 *제품* 으로
 
 ## Experience Platform 데이터 수집 (Launch) 관리 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL 데이터 수집] ([!UICONTROL Launch])은 [!UICONTROL Admin Console]의 [!UICONTROL 제품] 페이지에 표시됩니다. Launch 제품 프로필에 다른 솔루션 및 서비스를 포함할 수 있습니다.
+Experience Platform [!UICONTROL 데이터 수집] ([!UICONTROL Launch])은 [!UICONTROL Admin Console]의 [!UICONTROL 제품] 페이지에 표시됩니다. Launch 제품 프로필에 다른 애플리케이션 및 서비스를 포함할 수 있습니다.
 
 사용자를 [!UICONTROL Platform Launch] 에 초대하고 사용자 역할과 권한을 할당합니다.
 
@@ -173,6 +173,6 @@ Audience Manager 도움말의 [관리](https://experienceleague.adobe.com/docs/a
 
 ### 솔루션 및 제품 요구 사항
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=ko-KR)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=ko-KR)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=ko-KR)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)

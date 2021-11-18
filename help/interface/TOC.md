@@ -4,10 +4,10 @@ user-guide-title: 'Experience Cloud 중앙 인터페이스 구성 요소 '
 breadcrumb-title: Experience Cloud 중앙 인터페이스 구성 요소
 user-guide-description: Experience Cloud의 인터페이스에 대해 알아보고, 환경 설정을 구성하고, 도움말 및 비즈니스 개체 검색에 관해 알아보십시오. 사용자 및 제품 관리, 고객 속성, 대상 라이브러리, 쿠키 및 Experience Cloud Assets에 대한 도움을 받으십시오.
 index: true
-source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 + [Experience Cloud 중앙 인터페이스 구성 요소 안내서](experience-cloud.md)
 + Experience Cloud 서비스 {#services}
    + [Experience Cloud 서비스](core-services-landing.md)
-   + [솔루션 간 서비스 구현 활성화](core-services.md)
+   + [애플리케이션 간 서비스에 대한 구현 활성화](core-services.md)
    + Experience Cloud 대상 라이브러리 {#audiences}
       + [Experience Cloud 대상](audience-library.md)
       + [대상자 만들기](t-audience-create.md)
@@ -54,7 +54,7 @@ ht-degree: 100%
    + [조직 및 계정 연결](organizations.md)
    + [Analytics Premium 및 Experience Cloud로 업그레이드](upgrade-to-analytics-premium.md)
    + [Experience Cloud 통합](marketing-cloud-integrations.md)
-   + [다양한 솔루션 및 서비스에서 DNS 프리페치 사용](dns-prefetch.md)
+   + [다양한 애플리케이션 및 서비스에서 DNS 프리페치 사용](dns-prefetch.md)
    + Experience Cloud 쿠키 {#ec-cookies}
       + [Experience Cloud 쿠키 개요](cookies-privacy.md)
       + [Experience Cloud의 자사 쿠키](cookies-first-party.md)

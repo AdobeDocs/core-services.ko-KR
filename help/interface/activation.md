@@ -11,10 +11,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ## Experience Cloud [!UICONTROL 트리거] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
-[!UICONTROL Experience Cloud 트리거] 를 통해 마케터는 주요 소비자 행동을 정의하고 모니터링한 다음, 실시간 의사 결정 및 개인화에 사용할 교차 솔루션 커뮤니케이션을 생성할 수 있습니다.
+[!UICONTROL Experience Cloud 트리거] 에서는 마케터가 주요 소비자 행동을 정의하고 모니터링한 다음 실시간 의사 결정 및 개인화에 사용할 교차 애플리케이션 커뮤니케이션을 생성할 수 있습니다.
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
@@ -54,6 +54,6 @@ ht-degree: 100%
 
 ## Experience Cloud Debugger {#section_682FCF8A22ED47D0ACF94204AB94B444}
 
-Chrome용 Adobe Experience Cloud Debugger 확장 프로그램은 웹 페이지를 검사하고 Experience Cloud 솔루션이 구현되는 방식에 대한 문제를 찾는 데 도움이 됩니다.
+Chrome용 Adobe Experience Cloud Debugger 확장 프로그램은 웹 페이지를 검사하고 Experience Cloud 응용 프로그램이 구현되는 방식에 대한 문제를 찾는 데 도움이 됩니다.
 
 도움이 필요하면 [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko-KR) 를 참조하십시오.

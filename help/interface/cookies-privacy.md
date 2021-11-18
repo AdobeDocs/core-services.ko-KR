@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 169b5c67-aab6-4b2a-832e-c5998d796bf7
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '333'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 95%
 
 ---
 
@@ -30,8 +30,8 @@ Adobe는 회사 간 브라우저 수준의 정보를 병합하지 않습니다. 
 
 다음 다이어그램은 표준 이미지 요청에 대한 쿠키 사용을 보여 줍니다.
 
-![](assets/CookiesProcessGraphic-01.png)
+![표준 이미지 요청에 대한 쿠키 사용](assets/CookiesProcessGraphic-01.png)
 
 다음 다이어그램은 직접 이미지 요청에 대한 쿠키 사용을 보여 줍니다(JS 파일이 로드되지 않은 시나리오에서 사용됨).
 
-![](assets/CookiesProcessGraphic2.png)
+![직접 이미지 요청에 대한 쿠키 사용](assets/CookiesProcessGraphic2.png)

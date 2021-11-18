@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
-workflow-type: ht
-source-wordcount: '1303'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '1333'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ Experience Cloud 헤더에서 다음 작업을 수행할 수 있습니다.
 1. **[!UICONTROL Adobe ID로 로그인]**&#x200B;을 선택합니다.
 1. 올바른 조직에 속해 있는지 확인합니다.
 
-   ![](assets/organizations-menu.png)
+   ![올바른 조직에 속해 있는지 확인합니다](assets/organizations-menu.png)
 
    **조직 확인**
 
@@ -52,7 +52,7 @@ Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이�
 
 조직의 Experience Cloud 애플리케이션 및 서비스에 액세스하려면 애플리케이션 선택기 ![](assets/menu-icon.png)로 이동하십시오.
 
-![](assets/platform-core-services.png)
+![Experience Cloud 애플리케이션 액세스](assets/platform-core-services.png)
 
 ## Experience Cloud의 브라우저 지원 {#browser}
 
@@ -91,7 +91,7 @@ Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사
 
 헤더의 도움말 아이콘(![에셋](assets/help-icon.png))을 사용해 [Experience League](https://experienceleague.adobe.com/#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용합니다. 오픈엔드 피드백을 제출하고 우선 순위가 지정된 지원 티켓을 만들 수도 있습니다.
 
-![](assets/search-menu.png)
+![도움말 및 지원 요청](assets/search-menu.png)
 
 [!UICONTROL 도움말] 메뉴로 또한 다음에 액세스할 수 있습니다.
 
@@ -104,7 +104,7 @@ Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사
 
 글로벌 검색을 사용하면 원활하고 일관성 있는 원클릭 환경에서 검색 가능한 비즈니스 개체 또는 엔티티를 찾을 수 있습니다. 이 검색은 최근에 액세스한 개체를 표시합니다.
 
-![](assets/platform-search.png)
+![개체 및 엔티티를 전역으로 검색](assets/platform-search.png)
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 
 환경 설정을 관리하려면 계정 메뉴 ![](assets/preferences-icon-sm.png)에서 **[!UICONTROL 환경 설정]** 을 선택합니다.
 
-![](assets/preferences-page.png)
+![사용자 프로필 및 계정 환경 설정](assets/preferences-page.png)
 
 [!UICONTROL Experience Cloud 환경 설정]에서 다음 기능을 구성할 수 있습니다.
 
@@ -142,7 +142,7 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 
 제품 릴리스, 유지 관리 알림, 공유 항목 및 승인 요청을 포함하여 관련성 있고 실행 가능한 업데이트에 대한 알림을 받으려면 **[!UICONTROL 알림]** 을 선택합니다.
 
-![](assets/notifications-menu-small.png)
+![알림 및 공지](assets/notifications-menu-small.png)
 
 ## Experience Cloud 도메인 {#domains}
 
@@ -157,7 +157,7 @@ Experience Cloud는 다음 호스트를 사용하여 애플리케이션을 제�
 
 ## 관리 및 교차 애플리케이션 서비스에 대한 도움 받기
 
-이 안내서는 Admin Console의 Experience Cloud 사용자 및 제품 관리에 대한 도움말 액세스를 제공하며 플랫폼 서비스를 위한 솔루션을 활성화합니다. 또한 대상 라이브러리, 고객 속성, Experience Cloud Assets 등의 도움말에 액세스할 수 있습니다.
+이 안내서에서는 Admin Console의 Experience Cloud 사용자 및 제품 관리에 대한 도움말 액세스를 제공하며 플랫폼 서비스를 위한 애플리케이션을 활성화합니다. 또한 대상 라이브러리, 고객 속성, Experience Cloud Assets 등의 도움말에 액세스할 수 있습니다.
 
 * [[!UICONTROL 대상 라이브러리]](audience-library.md)
 * [[!UICONTROL 고객 속성]](attributes.md)
@@ -165,7 +165,7 @@ Experience Cloud는 다음 호스트를 사용하여 애플리케이션을 제�
 * [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets.md)
 * [Experience Cloud 쿠키](cookies-privacy.md)
 * [사용자 및 제품 관리](admin-getting-started.md) (Admin Console)
-* [핵심 서비스용 솔루션을 사용하도록 설정](core-services.md)
+* [핵심 서비스용 애플리케이션 활성화](core-services.md)
 * [자주 묻는 질문](admin-getting-started.md)
 * [조직 및 계정 연결](organizations.md)
 * [통합](marketing-cloud-integrations.md)
@@ -196,9 +196,9 @@ Adobe Experience League에서 제공하는 자체 도움말 튜토리얼과 빠�
 
 ## 릴리스 정보 및 관련 Experience Cloud 도움말
 
-* [모든 Experience Cloud 솔루션에 대한 제품 설명서](https://experienceleague.adobe.com/docs/home.html?lang=ko-KR) - Experience Cloud 학습 및 지원에서 탐색
+* [모든 Experience Cloud 애플리케이션에 대한 제품 설명서](https://experienceleague.adobe.com/docs/home.html?lang=ko-KR) - Experience Cloud 학습 및 지원에서 탐색
 * [릴리스 정보 및 제품 업데이트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR) - Experience Cloud의 새로운 기능 및 가입을 통한 업데이트 받기
-* [핵심 서비스 구현 튜토리얼](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=ko-KR) - 핵심 서비스에 대한 비디오 및 튜토리얼 보기
+* [핵심 서비스 구현 튜토리얼](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - 핵심 서비스에 대한 비디오 및 튜토리얼 보기
 * [Experience League의 전문가 지원](https://experienceleague.adobe.com/) - 전문가 및 커뮤니티의 안내형 학습
 * [교육 및 훈련](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK) - Adobe의 제품을 최대한 활용할 수 있도록 Adobe와 협력하기
 * [고객 경험 블로그](https://blog.adobe.com/en/topics/digital-transformation.html) - Experience Cloud 블로그 보기

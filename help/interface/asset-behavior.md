@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '567'
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '623'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 비공유 폴더를 공유 폴더로 이동합니다.
 
-![](assets/01_assets_move.png)
+![비공유 폴더를 공유 폴더로](assets/01_assets_move.png)
 
 **결과**: 두 폴더가 공유됩니다.
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 공유 폴더를 비공유 폴더로 이동합니다.
 
-![](assets/02_assets_move.png)
+![공유 폴더를 비공유 폴더로](assets/02_assets_move.png)
 
 **결과**: 비공유 폴더는 비공유 상태로 유지됩니다. 공유 폴더는 공유된 상태로 유지됩니다.
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 비공유 폴더의 콘텐츠를 공유 폴더로 이동합니다.
 
-![](assets/03_assets_move.png)
+![비공유 폴더의 콘텐츠를 공유 폴더로](assets/03_assets_move.png)
 
 **결과:** 이제 콘텐츠가 공유되고 모든 공동 작업자가 볼 수 있습니다. 콘텐츠 크기에 따라 저장 공간이 증가합니다.
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 공유 폴더에 있는 콘텐츠를 보관하거나 삭제합니다.
 
-![](assets/04_assets_move.png)
+![보관 및 삭제된 공유 콘텐츠](assets/04_assets_move.png)
 
 **결과:** 콘텐츠가 폴더 소유자용으로 보관됩니다. 콘텐츠를 소유하지 않는 공동 작업자는 더 이상 콘텐츠에 액세스할 수 없습니다.
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 소유한 공유 폴더의 콘텐츠를 비공유 폴더로 이동합니다.
 
-![](assets/05_assets_move.png)
+![소유한 공유 콘텐츠를 비공유 폴더로](assets/05_assets_move.png)
 
 **결과:** 이제 콘텐츠가 공유되지 않습니다. 공유 폴더의 공동 작업자는 더 이상 콘텐츠에 액세스할 수 없습니다.
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 다른 사람이 소유한 공유 폴더의 콘텐츠를 비공유 폴더로 이동합니다.
 
-![](assets/06_assets_move.png)
+![소유하지 않은 콘텐츠를 비공유 폴더로](assets/06_assets_move.png)
 
 **결과:** 콘텐츠가 비공유 폴더에 나타나고 공유 폴더에서 제거됩니다. 공유 폴더의 공동 작업자는 더 이상 콘텐츠에 액세스할 수 없습니다. 콘텐츠가 공유 폴더 소유자용으로 보관됩니다.
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
 소유하는 공유 폴더를 보관(웹을 통해)하거나 삭제(데스크탑을 통해)합니다.
 
-![](assets/07_assets_move.png)
+![보관 또는 삭제된 소유 폴더](assets/07_assets_move.png)
 
 **결과:** 폴더가 공유되지 않고 보관됩니다. 공동 작업자는 더 이상 폴더에 액세스할 수 없습니다.
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 
 소유한 공유 폴더를 소유 또는 소유하지 않은 다른 공유 폴더로 이동합니다.
 
-![](assets/09_assets_move.png)
+![공유 폴더를 다른 공유 폴더로](assets/09_assets_move.png)
 
 **결과:** 폴더가 폴더 2로 이동되면 새 공동 작업자와 공유됩니다.
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 공유 폴더의 콘텐츠를 다른 공유 폴더로 이동합니다.
 
-![](assets/11_assets_move.png)
+![공유 콘텐츠를 다른 공유 폴더로](assets/11_assets_move.png)
 
 **결과:** 콘텐츠가 폴더 2에 나타나고 이제 새 공동 작업자와 공유됩니다. 콘텐츠가 폴더 1에서 제거되고 소유자에게는 보관된 것으로 표시되지만, 다른 공동 작업자는 더 이상 콘텐츠에 액세스할 수 없습니다.
 
@@ -102,6 +102,6 @@ ht-degree: 100%
 
 공유 폴더의 보관 위치에서 콘텐츠를 복원합니다. 콘텐츠가 보관처리된 당시 콘텐츠를 소유한 상태였습니다.
 
-![](assets/12_assets_move.png)
+![보관 위치에서 복원된 콘텐츠](assets/12_assets_move.png)
 
 **결과:** 콘텐츠가 공유 폴더로 복원되고 모든 공동 작업자가 다시 액세스할 수 있습니다. 공유 폴더가 더 이상 존재하지 않으면, 해당 콘텐츠는 원래 상위 폴더의 공유되지 않은 사본에 저장됩니다.

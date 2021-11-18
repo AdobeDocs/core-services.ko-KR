@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '477'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 다음 그래픽에는 복합 대상의 두 가지 규칙이 나와 있습니다.
 
-![](assets/audience_sharing.png)
+![복합 대상의 두 규칙](assets/audience_sharing.png)
 
 각 원은 대상 멤버십을 정의하는 규칙을 나타냅니다. 두 대상 규칙 모두에서 멤버 자격을 얻은 방문자는 겹쳐지면서 정의된 복합 대상이 됩니다.
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 * 페이지 데이터 또는 원시 분석 데이터에서 파생된 홈/가든 섹션
 * [!DNL Experience Cloud]에 [게시된](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) [!DNL Adobe Analytics] 세그먼트에서 파생된 Chrome 및 Safari 사용자.
 
-   ![](assets/audience_create.png)
+   ![복합 대상에 대한 규칙 만들기](assets/audience_create.png)
 
 **대상을 만들려면**
 
@@ -72,26 +72,26 @@ ht-degree: 100%
 * **[!UICONTROL 보고서 세트:]** 보고서 세트 31
 * 차원 = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home &amp; Garden]**
 
-![](assets/home_garden.png)
+![대상 라이브러리의 속성 선택](assets/home_garden.png)
 
 *Chrome 및 Safari 방문자* 는 Analytics에서 공유되는 대상 세그먼트입니다.
 
 * **[!UICONTROL 속성 소스:]** Experience Cloud
 * **[!UICONTROL 차원:]** Chrome/Safari 방문자
 
-![](assets/chrome_safari.png)
+![Chrome 및 Safari 방문자](assets/chrome_safari.png)
 
 비교를 위해 *OR* 규칙을 추가하여 뜰/가구와 같은 사이트 섹션의 모든 방문자를 볼 수 있습니다.
 
-![](assets/audiences_rule_patio.png)
+![대상에 대한 OR 규칙](assets/audiences_rule_patio.png)
 
 결과 규칙은 홈/가든을 방문한 Chrome/Safari 사용자로 구성되는 정의된 대상입니다. 뜰/가구 세그먼트는 사이트 섹션을 방문하는 모든 방문자에 대한 추가적인 인사이트를 제공합니다.
 
-![](assets/defined_audience.png)
+![Experience Cloud에서 정의된 대상](assets/defined_audience.png)
 
 * **이전 예상:** (점선 원) [!DNL Analytics] 데이터를 기반으로 만들어진 규칙을 나타냅니다.
 * **실제 대상:** (실선 원)30일 동안의 Audience Manager 데이터를 포함하여 만들어진 모든 규칙입니다. Audience Manager 데이터가 30일이 되면 선은 실선이 되고 실제 수치를 나타냅니다.
 
 지정된 기간 동안 데이터 수집이 완료되면 원이 합쳐지면서 정의된 대상을 표시합니다.
 
-대상이 저장되면 다른 솔루션에 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target 활동에 포함할 수 있습니다.
+대상이 저장되면 다른 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target 활동에 포함할 수 있습니다.

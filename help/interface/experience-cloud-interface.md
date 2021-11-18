@@ -6,10 +6,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '733'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사
 1. **[!UICONTROL Adobe ID로 로그인]**&#x200B;을 선택합니다.
 1. 올바른 조직에 속해 있는지 확인합니다.
 
-   ![](assets/organizations-menu.png)
+   ![조직 확인](assets/organizations-menu.png)
 
    올바른 [조직](organizations.md)에 로그인했는지 확인하려면 프로필 아바타를 클릭하여 조직 이름을 확인합니다. 둘 이상의 조직에 대한 액세스 권한을 보유하고 있다면 다른 조직을 확인하고 헤더 표시줄에서 바로 해당 조직으로 전환할 수도 있습니다.
 
@@ -76,13 +76,13 @@ Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이�
 
 소유한 Experience Cloud 서비스에 액세스하려면 애플리케이션 선택기 ![](assets/menu-icon.png) 를 선택합니다.
 
-![](assets/platform-core-services.png)
+![Experience Cloud 애플리케이션 액세스](assets/platform-core-services.png)
 
 ## Experience Cloud의 검색 및 지원 {#search}
 
 Experience Cloud 검색을 통해 [Experience League](https://experienceleague.adobe.com/#home)에서 도움말(설명서, 튜토리얼 및 과정)을 검색할 수 있게 되었습니다.
 
-![](assets/search-menu.png)
+![Experience Cloud의 검색 및 지원](assets/search-menu.png)
 
 [!UICONTROL 도움말] 메뉴로 또한 다음에 액세스할 수 있습니다.
 
@@ -106,7 +106,7 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 
 환경 설정을 관리하려면 계정 메뉴 ![](assets/preferences-icon-sm.png) 에서 **[!UICONTROL 환경 설정]** 을 선택합니다.
 
-![](assets/preferences-page.png)
+![Experience Cloud 관리](assets/preferences-page.png)
 
 [!UICONTROL Experience Cloud 환경 설정]에서 다음 기능을 구성할 수 있습니다.
 
@@ -124,6 +124,6 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 
 본인에게 중요한 알림과 Adobe의 공지를 보려면 **[!UICONTROL 알림]** 을 선택합니다.
 
-![](assets/notifications-menu-small.png)
+![알림 및 공지](assets/notifications-menu-small.png)
 
 [Experience Cloud 환경 설정](#preferences)에서 알림을 구성할 수 있습니다.

@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: ht
-source-wordcount: '1148'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## 고객 속성 워크플로 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
-![](assets/crs.png)
+![고객 속성 워크플로](assets/crs.png)
 
 1. [데이터 파일 만들기](t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [속성 소스를 만들고 데이터 파일 업로드](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
@@ -38,7 +38,7 @@ ht-degree: 100%
 >
 >이 기능에 액세스하려면 고객 속성 제품 프로필(고객 속성 - 기본 액세스)에 사용자를 지정해야 합니다. **[!UICONTROL 관리]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 제품]**&#x200B;으로 이동합니다. *고객 속성* 이 [!UICONTROL 제품 프로필] 중 하나로 표시되면 작업을 시작할 수 있습니다. 고객 속성 그룹에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!UICONTROL 고객 속성] 메뉴 항목이 표시됩니다.
 >
->고객 속성 기능을 사용하려면 사용자가 솔루션 수준 그룹(Analytics 또는 [!DNL Target])에도 속해야 합니다.
+>고객 속성 기능을 사용하려면 사용자가 애플리케이션 수준 그룹(Analytics 또는 [!DNL Target]).
 
 [Experience Cloud 사용자 및 제품 관리](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)를 참조하십시오.
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
    샘플 엔터프라이즈 고객 데이터 파일:
 
-   ![](assets/01_crs_usecase.png)
+   ![샘플 엔터프라이즈 고객 데이터 파일](assets/01_crs_usecase.png)
 
 1. 계속하기 전에 파일을 업로드하려면 [데이터 파일 요구 사항](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)의 중요 정보를 검토하십시오.
 1. [고객 속성 소스를 만들고 데이터 업로드](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)를 하는 방법은 아래에 설명되어 있습니다.
@@ -146,7 +146,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
 ## 구독 구성 및 속성 소스 활성화 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-구독을 구성하면 Experience Cloud와 솔루션 간에 데이터 흐름이 설정됩니다. 속성 소스를 활성화하면 데이터가 가입 중인 솔루션으로 유입될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 대조됩니다.
+가입을 구성하면 Experience Cloud과 애플리케이션 간의 데이터 흐름이 설정됩니다. 속성 소스를 활성화하면 데이터가 가입 중인 응용 프로그램으로 흐를 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 대조됩니다.
 
 [구독 구성](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF)을 참조하십시오.
 
@@ -158,11 +158,11 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
 ## Adobe Analytics에서 고객 속성 사용 {#task_7EB0680540CE4B65911B2C779210915D}
 
-이제 Adobe Analytics과 같은 솔루션에서 데이터를 사용할 수 있으므로 데이터에 대해 보고하고 분석하여 마케팅 캠페인에서 적절한 조치를 취할 수 있습니다.
+이제 Adobe Analytics과 같은 애플리케이션에서 데이터를 사용할 수 있으므로 데이터에 대해 보고하고 분석하여 마케팅 캠페인에서 적절한 조치를 취할 수 있습니다.
 
 다음 예에서는 업로드한 속성에 따른 [!DNL Analytics] 세그먼트를 보여 줍니다. 이 세그먼트는 최근에 실행한 제품이 Photoshop인 [!DNL Photoshop Lightroom] 가입자를 보여 줍니다.
 
-![](assets/08_crs_usecase.png)
+![업로드된 속성을 기반으로 한 Analytics 세그먼트](assets/08_crs_usecase.png)
 
 Experience Cloud에 게시한 세그먼트는 Experience Cloud Audiences 및 Audience Manager에서 사용할 수 있습니다.
 
@@ -170,6 +170,6 @@ Experience Cloud에 게시한 세그먼트는 Experience Cloud Audiences 및 Aud
 
 [!DNL Target]에서는 대상을 만들 때 [!UICONTROL 방문자 프로필] 섹션에서 고객 속성을 선택할 수 있습니다. 모든 고객 속성에는 목록에 `crs.` 접두사가 있습니다. 필요에 따라 이러한 속성을 다른 데이터 속성과 결합하여 대상을 구성합니다.
 
-![](assets/crs-add-attribute-target.png)
+![Adobe Target에서 고객 속성 사용 ](assets/crs-add-attribute-target.png)
 
 [!DNL Target] 도움말에서 [새 대상 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=ko-KR) 를 참조하십시오.

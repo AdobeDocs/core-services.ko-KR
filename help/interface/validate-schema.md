@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '450'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 98%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 100%
 
 **[!UICONTROL 고객 속성 소스]** > **[!UICONTROL 새 고객 속성 소스 만들기]** > **[!UICONTROL 스키마 보기/편집]**
 
-![](assets/view_edit_schema.png)
+![스키마 편집](assets/view_edit_schema.png)
 
 [!UICONTROL 스키마 유효성 검사] 페이지에서 각 스키마 행은 업로드된 CSV 파일의 열을 나타냅니다.
 
-![](assets/06_crs_usecase.png)
+![Experience Cloud의 스키마 페이지 유효성 검사](assets/06_crs_usecase.png)
 
 * **[!UICONTROL 데이터 추가:]** 새 속성 데이터를 이 데이터 소스에 업로드합니다.
 

@@ -11,16 +11,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '695'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 96%
 
 ---
 
 # Experience Cloud 트리거
 
-Experience Cloud 내의 [!UICONTROL 트리거] 를 통해 주요 소비자 행동을 식별하고, 정의하고, 모니터한 다음 교차 솔루션 커뮤니케이션을 생성하여 방문자로 하여금 다시 참여하도록 할 수 있습니다.
+[!UICONTROL Triggers] Experience Cloud에서 주요 소비자 행동을 식별, 정의 및 모니터링한 다음 교차 애플리케이션 커뮤니케이션을 생성하여 방문자를 다시 참여하도록 할 수 있습니다.
 
 ## 트리거 개요 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
@@ -30,7 +30,7 @@ Experience Cloud 내의 [!UICONTROL 트리거] 를 통해 주요 소비자 행�
 * 불완전한 양식 및 애플리케이션
 * 사이트에서의 모든 작업 또는 작업 순서
 
-![](assets/trigger-abandonment-2.png)
+![트리거 예](assets/trigger-abandonment-2.png)
 
 >[!NOTE]
 >
@@ -82,10 +82,10 @@ Experience Cloud 트리거 예:
 
 예를 들어 다음 페이지에서는 방문 중에 본 제품에 기반하여 [!UICONTROL 장바구니 포기] 트리거를 사용할 수 있는 규칙을 보여 줍니다.
 
-![](assets/abandonment-trigger.png)
+![장바구니 포기 트리거](assets/abandonment-trigger.png)
 
 #### 레퍼러 트리거
 
 다음 트리거는 제품이 남성용 부츠이고 레퍼러가 Facebook인 히트일 때 동작합니다. 두 기준(*제품* 및 *레퍼러*)은 동일한 히트에서 평가될 수 있도록, 동일한 컨테이너에 추가되어야 합니다.
 
-![](assets/fb-boots-promo.png)
+![레퍼러 트리거](assets/fb-boots-promo.png)

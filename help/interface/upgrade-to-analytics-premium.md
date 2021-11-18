@@ -9,10 +9,10 @@ feature: Admin Console
 role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -56,7 +56,7 @@ Predictive Intelligence로 업그레이드하면 [Analytics Premium](upgrade-to-
 
 | 제품 | 업그레이드 |
 |---|---|
-| Reports &amp; Analytics | [기여도 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=ko-KR) |
+| Reports &amp; Analytics | [기여도 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
 | Data Workbench | 대상 자격 조건 및 예측 마케팅을 위해 사전 빌드된 작업 공간. |
 | Analytics Platform | 라이브 스트림(대시보드 및 트리거) |
 
@@ -88,7 +88,7 @@ TechOps에서는 계약 약정을 검토하고 적절한 관리 인프라의 용
 
 ## Experience Cloud - 사용자 및 제품 관리 {#section_6471C54454024301B2E0B687F79F6738}
 
-[시작하기 - 핵심 서비스를 위한 솔루션 활성화](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)에 설명된 구현 현대화에 따를 경우, Analytics Standard 및 Premium 사용자는 Experience Cloud 및 핵심 서비스를 이용할 수 있습니다. (해당 프로세스는 구현을 현대화하는 데 도움이 되며, Experience Cloud에서 관리자가 될 수 있도록 해 줍니다.)
+에 설명된 구현 현대화에 따를 경우 Analytics Standard 및 Premium 사용자는 Experience Cloud 및 핵심 서비스를 사용할 수 있습니다. [시작하기 - 핵심 서비스용 애플리케이션 활성화](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (해당 프로세스는 구현을 현대화하는 데 도움이 되며, Experience Cloud에서 관리자가 될 수 있도록 해 줍니다.)
 
 Experience Cloud에 참여하면 [!DNL experience.adobe.com]의 Experience Cloud를 통해 로그인하고 핵심 서비스(고객 속성, 대상 및 모바일 앱 분석 등)를 사용할 수 있습니다.
 
@@ -96,8 +96,8 @@ Experience Cloud에 참여하면 [!DNL experience.adobe.com]의 Experience Cloud
 
 사용자 관리는 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)(제품 링크)에서 수행됩니다.
 
-Adobe Admin Console에서 만든 그룹과 솔루션 그룹(예: Adobe Analytics) 간에 1:1 매핑을 설정할 수 있습니다. 이후, 매핑된 Admin Console 그룹에 추가된 새 사용자는 자동으로 생성되고 사용자의 Adobe ID에 연결된 Analytics 솔루션 계정을 갖게 됩니다. (기존 사용자가 Experience Cloud 로그인을 통해 솔루션에 액세스하려면 자신의 솔루션 계정 자격 증명을 수동으로 연결해야 합니다.)
+Adobe Admin Console에서 만든 그룹과 솔루션 그룹(예: Adobe Analytics) 간에 1:1 매핑을 설정할 수 있습니다. 그런 다음 매핑된 Admin Console 그룹에 추가된 새 사용자에게는 자동으로 생성되고 사용자의 Adobe ID에 연결된 Analytics 애플리케이션 계정이 있습니다. (기존 사용자는 Experience Cloud 로그인을 통해 응용 프로그램에 액세스하려면 해당 응용 프로그램 계정 자격 증명을 수동으로 연결해야 합니다.)
 
 >[!NOTE]
 >
->여러 솔루션 그룹을 하나의 Admin Console 그룹에 매핑할 수 있습니다. 하지만 1:1 매핑이 권장됩니다. 예정보다 빨리 그룹을 매핑하면 CSV를 업로드함으로써 사용자를 초대하고, 만들고, 권한을 부여하고, 여러 사용자를 추가할 수 있습니다.
+>여러 응용 프로그램 그룹을 하나의 Admin Console 그룹에 매핑할 수 있습니다. 하지만 1:1 매핑이 권장됩니다. 예정보다 빨리 그룹을 매핑하면 CSV를 업로드함으로써 사용자를 초대하고, 만들고, 권한을 부여하고, 여러 사용자를 추가할 수 있습니다.

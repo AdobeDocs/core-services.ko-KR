@@ -7,9 +7,9 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: a19887e3160faa0ef91bd975fc6e1e08a0a9d948
-workflow-type: ht
-source-wordcount: '482'
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Experience Cloud의 [!UICONTROL 고객 속성] 을 사용하면 고객 관계 �
 
 이 기능을 찾으려면 **[!DNL Experience Platform]** > **[!UICONTROL 사용자]** > **[!UICONTROL 고객 속성]**&#x200B;으로 이동합니다.
 
-![](assets/custom_reports.png)
+![고객 속성 개요](assets/custom_reports.png)
 
 ## 고객 속성을 업로드하기 위한 사전 요구 사항 {#section_BD38693AFBF34926BA28E964963B4EA0}
 
@@ -42,7 +42,7 @@ Experience Cloud의 [!UICONTROL 고객 속성] 을 사용하면 고객 관계 �
 
 다음 이미지는 멤버 ID, 권한 있는 제품, 가장 최근에 실행한 제품 등을 비롯한 제품에 대한 가입자 데이터를 나타내는 데이터 파일의 예입니다.
 
-![](assets/01_crs_usecase.png)
+![엔터프라이즈 고객 데이터란?](assets/01_crs_usecase.png)
 
 데이터 파일을 만든 후, 만든 고객 속성 소스에 업로드하는 작업은 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 고객 속성]**&#x200B;에서 할 수 있습니다.
 

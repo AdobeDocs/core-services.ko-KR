@@ -9,16 +9,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # 서드파티 쿠키 지원 변경이 고객에게 영향을 미치는 방식{#how-changes-to-third-party-cookie-support-impacts-customers}
 
-서드파티 쿠키에 대한 지원이 브라우저 전반에서 더욱 제한되었습니다. 따라서 Adobe는 고객 요구 사항과 Experience Cloud 애플리케이션 전반에 걸친 개인정보 보호에 대한 소비자의 권리 사이에서 신중하게 균형을 이루는 새로운 솔루션을 개발하고 있습니다.
+서드파티 쿠키에 대한 지원이 브라우저 전반에서 더욱 제한되었습니다. 이와 같이 Adobe은 고객 요구 사항과 Experience Cloud 애플리케이션 간의 개인 정보 보호 권리 간에 신중하게 균형을 잡는 새로운 애플리케이션을 개발해왔습니다.
 
 다음 목록에서는 서드파티 쿠키 지원이 Experience Cloud 애플리케이션의 현재 구현에 미치는 영향을 간략하게 설명합니다.
 

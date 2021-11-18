@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '4276'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 설명서 업데이트 목록은 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)를 참조하십시오.
 
-모든 솔루션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)를 참조하십시오.
+모든 응용 프로그램에 대한 릴리스 노트는 [Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
 
 ## 2021년 8월
 
@@ -92,7 +92,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 ## 2019년 4월
 
-* Experience Cloud 솔루션 제품군의 Marketo와 Experience Platform에 대한 브랜딩 업데이트를 포함하도록 앱 전환기를 업데이트했습니다. (MCUI-6529)
+* Experience Cloud 애플리케이션 세트에 Marketo을 포함하고 Experience Platform에 대한 브랜딩 업데이트를 포함하도록 앱 전환기를 업데이트했습니다. (MCUI-6529)
 * 피드 및 관리 페이지에 대한 탐색 링크를 포함하도록 Experience Cloud 홈을 업데이트했습니다. (MCUI-6682)
 * &quot;like&quot; 절의 올바른 사용을 위해 [!UICONTROL 트리거] 정의에서 문제를 수정했습니다. (MCUI-6611)
 * 구독 서비스의 개선된 로그인을 위해 고객 속성을 개선합니다. (MCUI-6519)
@@ -147,7 +147,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>계정 연결 개선 사항 </p> </td> 
-   <td colname="col2"> <p>Experience Cloud(Adobe ID)와 솔루션 계정을 연결하는 인터페이스 워크플로가 개선되었습니다. 이 새 워크플로가 조직과 연관된 사용자 계정을 모두 찾아서 연결할 계정을 선택할 수 있도록 합니다. 계정 연결 환경을 간소화했으므로, 계정을 수동으로 연결하기 위해 조직 관리 페이지에 더 이상 액세스하지 않아도 됩니다. </p> </td> 
+   <td colname="col2"> <p>애플리케이션 계정을 Experience Cloud(Adobe ID)과 연결하는 인터페이스 워크플로우를 개선했습니다. 이 새 워크플로가 조직과 연관된 사용자 계정을 모두 찾아서 연결할 계정을 선택할 수 있도록 합니다. 계정 연결 환경을 간소화했으므로, 계정을 수동으로 연결하기 위해 조직 관리 페이지에 더 이상 액세스하지 않아도 됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -223,11 +223,11 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>왼쪽 탐색 메뉴가 모든 핵심 서비스 및 솔루션에 액세스할 수 있도록 업데이트 및 구성되었습니다. 주목할 만한 변경 사항은 다음과 같습니다. </p> 
+   <td colname="col2"> <p>왼쪽 탐색 메뉴가 모든 핵심 서비스 및 애플리케이션에 액세스할 수 있도록 업데이트 및 구성되었습니다. 주목할 만한 변경 사항은 다음과 같습니다. </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
      <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"> <span class="term"> 대상 라이브러리</span> 및 <span class="term"> 고객 속성</span> 메뉴 모음이 이제 <span class="term"> Audiences</span> 아래에 있습니다. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4"> <span class="term"> Exchange</span> 메뉴 선택 사항은 도움말 드롭다운 메뉴에서 왼쪽 탐색 레일로 이동되었습니다. </li> 
-     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> 솔루션</span> 은 제거되었습니다. 탐색 레일의 하단에서 모든 솔루션을 시작할 수 있습니다. </li> 
+     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> 솔루션</span> 은 제거되었습니다. 탐색 레일의 하단에서 모든 애플리케이션을 시작할 수 있습니다. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -279,7 +279,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p>고객 속성 </p> </td> 
-   <td colname="col2"> <p>CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 데이터가 업로드된 후에 Analytics에서 <span class="uicontrol"> 방문자 프로필</span> &gt; <span class="uicontrol"> 고객 속성</span> 보고서를 실행할 수 있습니다. </p> <p>또한 <span class="keyword"> Adobe Target</span>에서 업로드된 데이터를 대상 세그먼트로 사용할 수도 있습니다. </p> <p><a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> 고객 속성</a> 제품 설명서를 참조하십시오. </p> <p> 핵심 서비스의 솔루션 현대화에 대한 자세한 내용은 <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 핵심 서비스용 솔루션 활성화</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 데이터가 업로드된 후에 Analytics에서 <span class="uicontrol"> 방문자 프로필</span> &gt; <span class="uicontrol"> 고객 속성</span> 보고서를 실행할 수 있습니다. </p> <p>또한 <span class="keyword"> Adobe Target</span>에서 업로드된 데이터를 대상 세그먼트로 사용할 수도 있습니다. </p> <p><a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> 고객 속성</a> 제품 설명서를 참조하십시오. </p> <p> 핵심 서비스의 애플리케이션 현대화에 대한 자세한 내용은 <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 핵심 서비스용 애플리케이션 활성화</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -296,11 +296,11 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p>그룹 매핑 </p> </td> 
-   <td colname="col2"> <p>그룹 관리 페이지는 그룹을 생성하고, 사용자를 그룹에 추가하고, Experience Cloud 솔루션에 대한 권한을 적용할 수 있도록 해 주는 관리 인터페이스로서 재디자인되었습니다. </p> </td> 
+   <td colname="col2"> <p>그룹 관리 페이지는 그룹을 생성하고, 사용자를 그룹에 추가하고, Experience Cloud 응용 프로그램에서 권한을 적용할 수 있도록 해주는 관리 인터페이스로서 재디자인되었습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>일 대 다 매핑 </p> </td> 
-   <td colname="col2"> <p>이제 Experience Cloud에서 솔루션 계정을 연결할 때, 솔루션과 조직이 여러 개 있으면, 여러 제품 및 서비스를 하나의 조직에 매핑할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>이제 Experience Cloud에서 응용 프로그램 계정을 연결할 때, 여러 응용 프로그램 및 조직이 있는 경우 여러 제품 및 서비스를 단일 조직에 매핑할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>활성화 </p> </td> 
@@ -308,7 +308,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>설명서 업데이트 - 핵심 서비스 </p> </td> 
-   <td colname="col2"> <p>핵심 서비스 구현을 돕기 위해 <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 핵심 서비스용 솔루션을 사용하도록 설정</a> 항목을 추가했습니다. </p> </td> 
+   <td colname="col2"> <p>주제가 추가되었습니다 <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 핵심 서비스용 애플리케이션 활성화</a> 를 사용하여 핵심 서비스 구현을 지원할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -419,7 +419,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 **수정 사항 및 향상된 기능**
 
 * 이제 [!DNL experience.adobe.com]으로 이동하면, 로그인 경험이 Adobe의 Creative Cloud 로그인과 같습니다.
-* 조직 관리 페이지에서 이제 각 솔루션에 대해 연결 환경이 일관되게 제공됩니다(초대가 수신된 후).
+* 조직 관리 페이지에서 이제 각 애플리케이션에 대해 연결 환경이 일관되게 제공됩니다(초대가 수신된 후).
 
 **알려진 문제**
 
@@ -603,7 +603,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 사용자 지정 태그를 에셋에 추가하면 다른 메타데이터 변경 사항을 지속할 수 없습니다.
 * 사용자는 보드를 새로 고쳐서 삭제된 카드가 보기에서 사라지도록 해야 합니다.
 * 로그인 동안 **[!UICONTROL 내 정보 저장]** 을 선택하지 않으면 사용자가 15분 후 로그아웃됩니다.
-* [!DNL Analytics] 솔루션 랜딩 페이지에 형식 오류가 표시됩니다.
+* [!DNL Analytics] 애플리케이션 랜딩 페이지에 형식 오류가 표시됩니다.
 * 모든 권한과 자격 변경 사항이 적용되려면 사용자가 로그아웃한 후 다시 로그인해야 합니다.
 * 이미지가 [!UICONTROL 에 사용되는 경우] 에셋 [!DNL Adobe Target Essentials]에서 이미지를 삭제해도 경고가 표시되지 않습니다.
 * 에셋 카드 보기의 주석 링크를 선택할 수 없습니다.
@@ -638,7 +638,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 *  [!DNL Analytics] 에서 카드를 새로 고치면 때로 확장된 카드에서 빈 차트가 생성됩니다.
 * 모든 권한과 자격 변경 사항이 적용되려면 사용자가 로그아웃한 후 다시 로그인해야 합니다.
 *  *`Remember me`* 을 선택하지 않으면 사용자는 15분 후 로그아웃됩니다.
-* [!DNL Analytics] 솔루션 랜딩 페이지에 형식 오류가 표시됩니다.
+* [!DNL Analytics] 애플리케이션 랜딩 페이지에 형식 오류가 표시됩니다.
 * 에셋 카드 보기의 설명 링크를 선택할 수 없습니다.
 * Experience Cloud 인터페이스는 많은 사용자가 동시에 사용하는 경우 속도가 느려질 수 있습니다.
 * 여러 Target 서버에서 [!DNL Adobe Target] 로그인을 사용하는 경우 Experience Cloud를 [!DNL Adobe Target] 에 연결할 수 없습니다.
@@ -674,7 +674,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
   <tr> 
    <td colname="col1"> <p>데이터 새로 고침 </p> </td> 
    <td colname="col2"> <p> 
-     <!--MAC-18174-->카드의 그래프에 대해 사용하는 <span class="uicontrol"> 데이터 새로 고침</span> 아이콘은 이제 솔루션에서 데이터 새로 고침을 허용하지 않는 경우 표시되지 않습니다. </p> </td> 
+     <!--MAC-18174-->다음 <span class="uicontrol"> 데이터 새로 고침</span> 카드의 그래프에 대해 사용하는 아이콘은 이제 애플리케이션에서 데이터 새로 고침을 허용하지 않는 경우 표시되지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -682,6 +682,6 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 **수정 사항**
 
 * 공유 [!DNL Analytics] 보고서가 세그먼트 필터에 적용되지 않는 문제를 해결했습니다.
-* 솔루션 계정이 연결되지 않은 경우에도 솔루션이 [!UICONTROL Experience Cloud 솔루션] 페이지에 연결된 것으로 표시되는 문제를 해결했습니다.
+* 애플리케이션이 [!UICONTROL Experience Cloud 솔루션] 애플리케이션 계정이 연결되지 않은 경우에도 페이지가 연결된 것으로 표시됩니다.
 * 아시아 지역의 [!DNL Adobe Target] **[!UICONTROL 고객이 연결 페이지에서 Experience Cloud로 이동]** 버튼을 선택할 수 없는 문제를 해결했습니다.
 * YouTube 비디오 공유를 하지 못하는 문제를 해결했습니다.

@@ -9,16 +9,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '936'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '955'
+ht-degree: 83%
 
 ---
 
 # 로그인 및 Experience Cloud 프로필 설정 관리
 
-단일 솔루션에 로그인하지 않고 Experience Cloud에 로그인하면 사용자가 소유한 모든 솔루션 및 서비스에 SSO(Single Sign-On)를 사용할 수 있습니다. 이 도움말에서는 Experience Cloud에 로그인하고, 암호 및 알림을 관리하고, 기본 랜딩 페이지를 지정하는 방법에 대해 설명합니다.
+단일 애플리케이션에 로그인하지 않고 Experience Cloud에 로그인하면 사용자가 소유한 모든 애플리케이션 및 서비스에 단일 사인온을 사용할 수 있습니다. 이 도움말에서는 Experience Cloud에 로그인하고, 암호 및 알림을 관리하고, 기본 랜딩 페이지를 지정하는 방법에 대해 설명합니다.
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 | 요소 | 설명 |
 |--- |--- |
-| [Admin Console 기본 사항](experience-cloud.md) | Experience Cloud 솔루션 사용을 시작하기 위해 반드시 수행해야 하는 초기 절차에 대해 알아봅니다. |
+| [Admin Console 기본 사항](experience-cloud.md) | Experience Cloud 애플리케이션을 사용하기 위해 수행해야 하는 초기 단계에 대해 알아봅니다. |
 | [ID 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html) | 최종 사용자를 인증할 ID 시스템을 정의하고 설정합니다. |
 | [사용자 관리](https://helpx.adobe.com/kr/enterprise/using/users.html) | Admin Console에 로그인 및 Experience Cloud 사용자 권한 및 제품 프로필 관리 방법에 대해 알아봅니다. |
 | [Admin Console 실행](admin-getting-started.md) | Admin Console은 전체 조직에서 Adobe 사용자 및 제품 자격을 관리하는 중앙 위치입니다.<br> [직접 연결되는 링크](https://adminconsole.adobe.com)를 사용하여 Admin Console에 로그인할 수도 있습니다. |
@@ -64,7 +64,7 @@ Experience Cloud에 로그인하는 관리자 이외의 사용자를 위한 도�
 
    ![](assets/experience-cloud-core-services.png)
 
-   이 메뉴에 표시되는 솔루션 및 서비스는 [관리자](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)가 정의한 애플리케이션 권한에 따라 다릅니다.
+   이 메뉴에 표시되는 응용 프로그램 및 서비스는 [관리자](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
 ## 기본 개인 계정 설정 구성 {#task_73CBCAE6C91749D19C95421E5AC311BA}
 
@@ -72,15 +72,15 @@ Experience Cloud에 로그인한 후 개인 세부 사항을 편집하고, 표�
 
 1. Experience Cloud에 로그인한 다음, 프로필 아이콘을 선택합니다.
 
-   ![](assets/edit-profile.png)
+   ![프로필 아이콘을 선택합니다](assets/edit-profile.png)
 1. **[!UICONTROL 프로필 편집]**&#x200B;을 선택합니다.
 
-   ![](assets/default-organization.png)
+   ![Experience Cloud의 기본 조직 및 랜딩 페이지](assets/default-organization.png)
 1. 개인정보를 계속 구성 및 편집한 후 **[!UICONTROL 변경 사항 저장]**&#x200B;을 선택합니다.
 
 ## 알림 활성화 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-시스템 업데이트, 유지 관리 알림, 게시물, 언급 및 공유된 Assets에 대한 알림(이메일을 통해 또는 제품 내에서)을 받습니다. 고객 속성에 대한 업로드 상태를 포함하여 알림을 받으려는 제품 및 솔루션을 지정할 수도 있습니다.
+시스템 업데이트, 유지 관리 알림, 게시물, 언급 및 공유된 Assets에 대한 알림(이메일을 통해 또는 제품 내에서)을 받습니다. 고객 속성에 대한 업로드 상태를 포함하여 알림을 받으려는 제품 및 애플리케이션을 지정할 수도 있습니다.
 
 알림으로 이동하려면 **[!UICONTROL 알림]** 아이콘  ![](assets/notifications-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** 아이콘  ![](assets/icon_edit_board.png)을 선택합니다.
 
@@ -89,7 +89,7 @@ Experience Cloud에 로그인한 후 개인 세부 사항을 편집하고, 표�
 * 본인에게 중요한 메시지 유형별로 정렬합니다.
 * 알림을 검색합니다.
 
-![](assets/notifications-admin.png)
+![Experience Cloud 알림](assets/notifications-admin.png)
 
 <!-- <p> <b>Analytics</b> </p> 
 <ul id="ul_91BF597858124FA5BF338C36F6C5533F"> 
@@ -117,7 +117,7 @@ Experience Cloud 프로필을 편집하고 기본 조직 및 랜딩 페이지 �
 
 1. Experience Cloud에서 프로필 사진을 선택합니다.
 
-   ![](assets/edit-profile.png)
+   ![Experience Cloud 프로필 편집](assets/edit-profile.png)
 1. **[!UICONTROL 프로필 편집]**&#x200B;을 선택합니다.
 
    프로필 및 암호 페이지의 개인 세부 정보 아래의 필드 및 옵션을 작성합니다.
@@ -131,7 +131,7 @@ Experience Cloud 프로필을 편집하고 기본 조직 및 랜딩 페이지 �
 
    Adobe Analytics 사용자의 경우 [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html)로 이동합니다.
 
-## 직접 연결되는 링크를 사용하여 솔루션 로그인 구성 {#concept_8BE493A08786469B88B210E13F78FF2F}
+## 직접 연결되는 링크를 사용하여 애플리케이션 로그인 구성 {#concept_8BE493A08786469B88B210E13F78FF2F}
 
 선택적으로, Experience Cloud 인터페이스에서 제공한 인증을 사용하여 솔루션의 특정 페이지에 로그인할 수 있습니다.
 
@@ -151,6 +151,6 @@ Experience Cloud 프로필을 편집하고 기본 조직 및 랜딩 페이지 �
 |--- |--- |--- |--- |
 | `tenantId` | 사용자가 로그인해야 하는 테넌트의 이름입니다. | aem62tenant | 선택 사항입니다 |
 | `destURL` | 사용자가 이동해야 하는 위치의 전체 URL입니다. | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | 선택 사항입니다 |
-| `solutionname` | `destURL` 매개 변수의 소유자인 MAC 솔루션의 이름입니다. 사용자가 URL 소유자인 솔루션에 액세스할 수 있음을 확인하는 데 사용됩니다.   `solutionname` 이 `destURL` 매개 변수와 동기화 상태임을 확인하는 것은 솔루션이 해야 하는 일입니다.  예를 들어, URL에 `solutionname` 이 소셜로 포함되어 있고 제공된 `destURL` 이 Analytics URL인 경우, 사용자가 Analytics에 액세스할 수 없는 경우에도 이 URL로 리디렉션됩니다. MAC은 `destURL` 의 소유자가 솔루션 이름과 동기화 상태인지 여부를 확인하지 않습니다. | analytics | `destURL` 매개 변수가 사용되는 경우 필수입니다. |
+| `solutionname` | `destURL` 매개 변수의 소유자인 MAC 솔루션의 이름입니다. 사용자가 URL 소유자인 애플리케이션에 액세스할 수 있는지 확인하는 데 사용됩니다.  애플리케이션이 `applicationname` 이(가) `destURL` 매개 변수.  예를 들어, URL에 `solutionname` 이 소셜로 포함되어 있고 제공된 `destURL` 이 Analytics URL인 경우, 사용자가 Analytics에 액세스할 수 없는 경우에도 이 URL로 리디렉션됩니다. Mac은 의 소유자가 `destURL` 이 애플리케이션 이름과 동기화되어 있습니다. | analytics | `destURL` 매개 변수가 사용되는 경우 필수입니다. |
 
 {style=&quot;table-layout:auto&quot;}

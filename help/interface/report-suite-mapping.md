@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '1116'
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '1131'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL Peopl
 
 1. 매핑할 보고서 세트를 선택합니다.
 
-   ![](assets/rs-mapping-multiple.png)
+   ![매핑할 보고서 세트를 선택합니다](assets/rs-mapping-multiple.png)
 
 1. 조직(이 예에서는 Outdoors Inc,)을 선택한 다음 **[!UICONTROL 선택을 클릭합니다]**.
 
@@ -71,7 +71,7 @@ Experience Cloud ID 서비스가 보고서 세트에 배포된 경우, 보고서
 
 회색으로 표시되는 조직은 회색으로 표시된 보고서 세트에 매핑할 수 있는 충분한 권한이 없음을 나타냅니다. 다음 예를 생각해 보십시오.
 
-![](assets/rs-mapping.png)
+![일부 조직이 회색으로 표시되는 이유는 무엇입니까?](assets/rs-mapping.png)
 
 이 다이어그램에서 파란색 키는 관리자 권한을 나타냅니다. 회색 선은 가시성을 나타냅니다.
 
