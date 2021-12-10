@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1131'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL Peopl
 
 ## 조직에 보고서 세트 매핑 {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. [!DNL Analytics] > **[!UICONTROL 관리]** > **[!UICONTROL 데이터 거버넌스]** 에서 데이터 거버넌스를 위한 보고서 세트로 이동합니다( [보고서 세트의 데이터 거버넌스 설정 보기/관리 참조](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=ko-KR)).
+1. [!DNL Analytics] > **[!UICONTROL 관리]** > **[!UICONTROL 데이터 거버넌스]**&#x200B;에서 데이터 거버넌스를 위한 보고서 세트로 이동합니다( [보고서 세트의 데이터 거버넌스 설정 보기/관리 참조](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=ko-KR)).
 
 1. 각 보고서 세트에 액세스할 수 있는 로그인 회사를 보려면 **[!UICONTROL 로그인 회사에 표시]**&#x200B;를 선택합니다.
 
@@ -63,7 +63,7 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL Peopl
 
 ### 어떤 조직을 선택해야 합니까?
 
-Experience Cloud ID 서비스가 보고서 세트에 배포된 경우, 보고서 세트 매핑 도구에서 선택한 조직이 사이트의 [!DNL visitorAPI.js] 파일에 지정된 것과 동일한 조직인지 확인하십시오. [Experience Cloud ID 서비스 테스트 및 확인](https://experienceleague.corp.adobe.com/docs/id-service/using/implementation/test-verify.html) 의 지침을 사용하여 방문자 ID 서비스에서 사용 중인 조직 ID를 찾을 수 있습니다.
+Experience Cloud ID 서비스가 보고서 세트에 배포된 경우, 보고서 세트 매핑 도구에서 선택한 조직이 사이트의 [!DNL visitorAPI.js] 파일에 지정된 것과 동일한 조직인지 확인하십시오. [Experience Cloud ID 서비스 테스트 및 확인](https://experienceleague.corp.adobe.com/docs/id-service/using/implementation/test-verify.html)의 지침을 사용하여 방문자 ID 서비스에서 사용 중인 조직 ID를 찾을 수 있습니다.
 
 배포가 보고서 세트 매핑 도구에서 선택한 조직과 일치하는지 확인하십시오.
 
@@ -85,7 +85,7 @@ Experience Cloud ID 서비스가 보고서 세트에 배포된 경우, 보고서
 
 * 이 사용자는 연결된 Analytics 로그인 회사([!UICONTROL chapek])의 관리자이며 자신의 계정이 이 조직에 연결되어 있으므로 [!UICONTROL Chapek-prod] 보고서 세트가 [!UICONTROL Chapek] Corp 조직에 매핑될 수 있습니다.
 * [!UICONTROL Nigel-prod] 보고서 세트는 이 보고서 세트를 볼 수 있는 로그인 회사의 관리자가 아니므로 이 사용자가 연결할 수 없습니다.
-* 이 사용자는 Experience Cloud 조직에 연결된 로그인 회사([!UICONTROL chapek])의 관리자(doohan Analytics 로그인 회사의 관리자가 아님)이므로 [!UICONTROL Doohan-prod] 보고서 세트를 [!UICONTROL Chapek Corp] 에 매핑할 수 있습니다. 이 사용자가 해당 매핑을 수행할 수 없어도 [!UICONTROL doohan-prod] 보고서 세트 역시 Nigel Inc Experience Cloud 조직에 매핑할 수 있다는 사실을 아는 것이 중요합니다. 이 경우 두 Experience Cloud 조직이 목록에 표시되지만 [!UICONTROL Nigel Inc] 가 회색으로 표시됩니다. 매핑하기 전에 이 사용자는 nigel 로그인 회사의 관리자에게 문의하여 매핑에 가장 적합한 조직을 결정해야 합니다. 처음에 보고서 세트를 만든 조직과 다른 조직을 선택하면 UI에 가능한 충돌 경고가 표시됩니다.
+* 이 사용자는 Experience Cloud 조직에 연결된 로그인 회사([!UICONTROL chapek])의 관리자(doohan Analytics 로그인 회사의 관리자가 아님)이므로 [!UICONTROL Doohan-prod] 보고서 세트를 [!UICONTROL Chapek Corp]에 매핑할 수 있습니다. 이 사용자가 해당 매핑을 수행할 수 없어도 [!UICONTROL doohan-prod] 보고서 세트 역시 Nigel Inc Experience Cloud 조직에 매핑할 수 있다는 사실을 아는 것이 중요합니다. 이 경우 두 Experience Cloud 조직이 목록에 표시되지만 [!UICONTROL Nigel Inc]가 회색으로 표시됩니다. 매핑하기 전에 이 사용자는 nigel 로그인 회사의 관리자에게 문의하여 매핑에 가장 적합한 조직을 결정해야 합니다. 처음에 보고서 세트를 만든 조직과 다른 조직을 선택하면 UI에 가능한 충돌 경고가 표시됩니다.
 
 ## 자주 묻는 질문 {#section_099E485805994C929FF9C9F75219BEE1}
 
