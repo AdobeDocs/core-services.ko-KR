@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->공유된 Experience Cloud 폴더 및 에셋은 Creative Cloud 데스크탑에 1:1 관계로 미러링됩니다. Experience Cloud 사용자가 폴더를 변경(공유 삭제, 추가 또는 제거)하면 Creative Cloud 데스크탑 및 웹에서 작업이 미러링됩니다. 따라서 폴더가 공유되지 않으면 로컬 시스템에서 폴더 및 에셋이 삭제됩니다. 공유가 제거되면, 폴더 및 해당 콘텐츠가 로컬 컴퓨터의 휴지통으로 이동되며 사용자가 컴퓨터에 직접 복원할 수 있습니다.
+>공유된 Experience Cloud 폴더 및 에셋은 Creative Cloud 데스크탑에 1:1 관계로 미러링됩니다. Experience Cloud 사용자가 폴더를 변경(공유 삭제, 추가 또는 제거)하면 Creative Cloud 데스크탑 및 웹에서 작업이 미러링됩니다. 따라서 폴더가 공유되지 않으면 로컬 시스템에서 폴더 및 에셋이 삭제됩니다. 공유가 제거되면 폴더 및 해당 콘텐츠가 로컬 컴퓨터의 휴지통으로 이동되며 사용자가 컴퓨터에 직접 복원할 수 있습니다.
 
 ## 비공유 폴더를 공유 폴더로 {#section_A9BAC1A244A246A984AC62660E61E0C0}
 
@@ -104,4 +104,4 @@ ht-degree: 100%
 
 ![보관 위치에서 복원된 콘텐츠](assets/12_assets_move.png)
 
-**결과:** 콘텐츠가 공유 폴더로 복원되고 모든 공동 작업자가 다시 액세스할 수 있습니다. 공유 폴더가 더 이상 존재하지 않으면, 해당 콘텐츠는 원래 상위 폴더의 공유되지 않은 사본에 저장됩니다.
+**결과:** 콘텐츠가 공유 폴더로 복원되고 모든 공동 작업자가 다시 액세스할 수 있습니다. 공유 폴더가 더 이상 존재하지 않으면 해당 콘텐츠는 원래 상위 폴더의 공유되지 않은 사본에 저장됩니다.
