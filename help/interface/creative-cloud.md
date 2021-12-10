@@ -9,15 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Creative Cloud와 Experience Cloud 폴더 및 에셋 공유
 
-Experience Cloud와 Creative Cloud 간에 폴더 및 에셋을 공유합니다. 공유 자산에 공동 작업을 수행하고, 주석을 달고, Adobe Social 및 Adobe Target과 같은 Experience Cloud 애플리케이션에서 사용합니다. 공유 폴더는 Experience Cloud에서 가져와야 합니다.
+Experience Cloud와 Creative Cloud 간에 폴더 및 에셋을 공유합니다. 공유 에셋에 공동 작업을 수행하고, 주석을 달고, Adobe Social 및 Adobe Target과 같은 Experience Cloud 애플리케이션에서 사용합니다. 공유 폴더는 Experience Cloud에서 가져와야 합니다.
 
 ## 공유의 이점 {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
