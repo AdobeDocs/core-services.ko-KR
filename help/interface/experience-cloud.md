@@ -9,15 +9,15 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1333'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Experience Cloud 중앙 인터페이스 구성 요소 안내서
 
-[Experience Cloud](https://experience.adobe.com) 는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능 및 서비스에 빠르게 액세스할 수 있습니다.
+[Experience Cloud](https://experience.adobe.com)는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능 및 서비스에 빠르게 액세스할 수 있습니다.
 
 ![Experience Cloud](assets/landing.png)
 
@@ -97,8 +97,8 @@ Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사
 
 * **[!UICONTROL 지원]:** 지원 티켓을 만들거나 Twitter를 사용해 [!UICONTROL 지원].
 * **[!UICONTROL 피드백]:** Experience Cloud 경험에 관한 의견을 공유할 수 있습니다. 귀하의 피드백은 Adobe의 제품 및 서비스를 개선하는 데 사용됩니다.
-* **[!UICONTROL 상태]:** `https://status.adobe.com/experience_cloud` 로 이동하여 제품 작동 상태 및 [!UICONTROL 구독 관리]를 확인합니다.
-* **[!UICONTROL 개발자 연결]:** `adobe.io` 로 이동하여 개발자 설명서를 찾습니다.
+* **[!UICONTROL 상태]:** `https://status.adobe.com/experience_cloud`로 이동하여 제품 작동 상태 및 [!UICONTROL 구독 관리]를 확인합니다.
+* **[!UICONTROL 개발자 연결]:** `adobe.io`로 이동하여 개발자 설명서를 찾습니다.
 
 ## 개체 및 엔티티를 전역으로 검색 {#search}
 
@@ -157,7 +157,7 @@ Experience Cloud는 다음 호스트를 사용하여 애플리케이션을 제�
 
 ## 관리 및 교차 애플리케이션 서비스에 대한 도움 받기
 
-이 안내서에서는 Admin Console의 Experience Cloud 사용자 및 제품 관리에 대한 도움말 액세스를 제공하며 플랫폼 서비스를 위한 애플리케이션을 활성화합니다. 또한 대상 라이브러리, 고객 속성, Experience Cloud Assets 등의 도움말에 액세스할 수 있습니다.
+이 안내서는 Admin Console의 Experience Cloud 사용자 및 제품 관리에 대한 도움말 액세스를 제공하며 플랫폼 서비스를 위한 애플리케이션을 활성화합니다. 또한 대상 라이브러리, 고객 속성, Experience Cloud Assets 등의 도움말에 액세스할 수 있습니다.
 
 * [[!UICONTROL 대상 라이브러리]](audience-library.md)
 * [[!UICONTROL 고객 속성]](attributes.md)
@@ -184,7 +184,7 @@ Experience Cloud는 다음 호스트를 사용하여 애플리케이션을 제�
 * [Experience Platform 데이터 수집/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=ko-KR)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko-KR)
 * [일반 데이터 보호 규정(GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR)
 
 ## 튜토리얼
 
@@ -198,7 +198,7 @@ Adobe Experience League에서 제공하는 자체 도움말 튜토리얼과 빠�
 
 * [모든 Experience Cloud 애플리케이션에 대한 제품 설명서](https://experienceleague.adobe.com/docs/home.html?lang=ko-KR) - Experience Cloud 학습 및 지원에서 탐색
 * [릴리스 정보 및 제품 업데이트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR) - Experience Cloud의 새로운 기능 및 가입을 통한 업데이트 받기
-* [핵심 서비스 구현 튜토리얼](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - 핵심 서비스에 대한 비디오 및 튜토리얼 보기
+* [핵심 서비스 구현 튜토리얼](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=ko-KR) - 핵심 서비스에 대한 비디오 및 튜토리얼 보기
 * [Experience League의 전문가 지원](https://experienceleague.adobe.com/) - 전문가 및 커뮤니티의 안내형 학습
 * [교육 및 훈련](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK) - Adobe의 제품을 최대한 활용할 수 있도록 Adobe와 협력하기
 * [고객 경험 블로그](https://blog.adobe.com/en/topics/digital-transformation.html) - Experience Cloud 블로그 보기
