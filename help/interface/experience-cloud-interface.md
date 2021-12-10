@@ -7,9 +7,9 @@ topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -88,8 +88,8 @@ Experience Cloud 검색을 통해 [Experience League](https://experienceleague.a
 
 * **[!UICONTROL 지원]:** 지원 티켓을 만들거나 Twitter를 사용해 [!UICONTROL 지원].
 * **[!UICONTROL 피드백]:** 피드백을 통해 Adobe에 연락하여 여러분의 의견을 보내 주십시오.
-* **[!UICONTROL 상태]:** `https://status.adobe.com/experience_cloud` 로 이동하여 제품 작동 상태 및 [!UICONTROL 구독 관리]를 확인합니다.
-* **[!UICONTROL 개발자 연결]:** `adobe.io` 로 이동하여 개발자 설명서를 찾습니다.
+* **[!UICONTROL 상태]:** `https://status.adobe.com/experience_cloud`로 이동하여 제품 작동 상태 및 [!UICONTROL 구독 관리]를 확인합니다.
+* **[!UICONTROL 개발자 연결]:** `adobe.io`로 이동하여 개발자 설명서를 찾습니다.
 
 ## 계정 환경 설정 {#account-menu}
 
@@ -104,7 +104,7 @@ Experience Cloud 검색을 통해 [Experience League](https://experienceleague.a
 
 Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니다.
 
-환경 설정을 관리하려면 계정 메뉴 ![](assets/preferences-icon-sm.png) 에서 **[!UICONTROL 환경 설정]** 을 선택합니다.
+환경 설정을 관리하려면 계정 메뉴 ![](assets/preferences-icon-sm.png)에서 **[!UICONTROL 환경 설정]** 을 선택합니다.
 
 ![Experience Cloud 관리](assets/preferences-page.png)
 
