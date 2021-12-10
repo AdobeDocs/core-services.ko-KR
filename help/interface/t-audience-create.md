@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 91%
 
 다음 그래픽에는 복합 대상의 두 가지 규칙이 나와 있습니다.
 
-![복합 대상의 두 규칙](assets/audience_sharing.png)
+![복합 대상의 2가지 규칙](assets/audience_sharing.png)
 
 각 원은 대상 멤버십을 정의하는 규칙을 나타냅니다. 두 대상 규칙 모두에서 멤버 자격을 얻은 방문자는 겹쳐지면서 정의된 복합 대상이 됩니다.
 
@@ -72,18 +72,18 @@ ht-degree: 91%
 * **[!UICONTROL 보고서 세트:]** 보고서 세트 31
 * 차원 = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home &amp; Garden]**
 
-![대상 라이브러리의 속성 선택](assets/home_garden.png)
+![대상 라이브러리의 속성 선택 사항](assets/home_garden.png)
 
-*Chrome 및 Safari 방문자* 는 Analytics에서 공유되는 대상 세그먼트입니다.
+*Chrome 및 Safari 방문자*&#x200B;는 Analytics에서 공유되는 대상 세그먼트입니다.
 
 * **[!UICONTROL 속성 소스:]** Experience Cloud
 * **[!UICONTROL 차원:]** Chrome/Safari 방문자
 
-![Chrome 및 Safari 방문자](assets/chrome_safari.png)
+![Chrome/Safari 방문자](assets/chrome_safari.png)
 
 비교를 위해 *OR* 규칙을 추가하여 뜰/가구와 같은 사이트 섹션의 모든 방문자를 볼 수 있습니다.
 
-![대상에 대한 OR 규칙](assets/audiences_rule_patio.png)
+![또는 대상에 대한 규칙](assets/audiences_rule_patio.png)
 
 결과 규칙은 홈/가든을 방문한 Chrome/Safari 사용자로 구성되는 정의된 대상입니다. 뜰/가구 세그먼트는 사이트 섹션을 방문하는 모든 방문자에 대한 추가적인 인사이트를 제공합니다.
 
@@ -94,4 +94,4 @@ ht-degree: 91%
 
 지정된 기간 동안 데이터 수집이 완료되면 원이 합쳐지면서 정의된 대상을 표시합니다.
 
-대상이 저장되면 다른 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target 활동에 포함할 수 있습니다.
+대상이 저장되면 다른 애플리케이션에 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target 활동에 포함할 수 있습니다.
