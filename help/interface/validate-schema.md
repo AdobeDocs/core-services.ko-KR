@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,6 +60,6 @@ Experience Cloud에서 고객 속성 소스 및 FTP 계정을 만든 후에 FTP�
 
    * **숫자:** 최대 2개의 소수 자리를 가질 수 있습니다.
 
-* **[!UICONTROL 이름 표시:]** 속성의 이름입니다. 예를 들면, 속성 *customer age*&#x200B;를 *Customer Since*&#x200B;로 변경할 수 있습니다.
+* **[!UICONTROL 이름 표시:]** 속성의 이름입니다. 예를 들면 속성 *customer age*&#x200B;를 *Customer Since*&#x200B;로 변경할 수 있습니다.
 
 * **[!UICONTROL 설명:]** 속성에 대한 설명입니다.
