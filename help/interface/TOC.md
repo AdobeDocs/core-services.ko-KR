@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud 중앙 인터페이스 구성 요소
 user-guide-description: Experience Cloud의 인터페이스에 대해 알아보고, 환경 설정을 구성하고, 도움말 및 비즈니스 개체 검색에 관해 알아보십시오. 사용자 및 제품 관리, 고객 속성, 대상 라이브러리, 쿠키 및 Experience Cloud Assets에 대한 도움을 받으십시오.
 index: true
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 95%
 + [Experience Cloud 중앙 인터페이스 구성 요소 안내서](experience-cloud.md)
 + Experience Cloud 서비스 {#services}
    + [Experience Cloud 서비스](core-services-landing.md)
-   + [애플리케이션 간 서비스에 대한 구현 활성화](core-services.md)
+   + [애플리케이션 간 서비스 구현 활성화](core-services.md)
    + Experience Cloud 대상 라이브러리 {#audiences}
-      + [Experience Cloud 대상](audience-library.md)
+      + [Experience Cloud Audiences](audience-library.md)
       + [대상자 만들기](t-audience-create.md)
       + [Analytics 대상 세그먼트 게시](t-publish-audience-segment.md)
    + Experience Cloud 고객 속성 {#customer-attributes}
@@ -36,10 +36,10 @@ ht-degree: 95%
       + [고객 속성에 대한 개인정보 보호 고려 사항](privacy-mac.md)
    + Experience Cloud 활성화 {#activation}
       + [활성화 개요](activation.md)
-      + [Experience Platform Launch 사용자 안내서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+      + [Experience Platform Launch 사용자 안내서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR)
       + [트리거](triggers.md)
    + Experience Cloud Assets {#assets}
-      + [Experience Cloud Assets 개요](experience-cloud-assets.md)
+      + [Experience Cloud 에셋 개요](experience-cloud-assets.md)
       + [Creative Cloud와 Experience Cloud 폴더 및 에셋 공유](creative-cloud.md)
       + [Creative Cloud 사용자 관리](t-admin-add-cc-user.md)
       + [Experience Cloud 에셋 폴더 공유](t-share-creative-cloud.md)
