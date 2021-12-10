@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 | ------- | ------- |
 | 통합 검색 | 통합 검색은 검색 인덱스에 오브젝트 유형을 계속 추가합니다. 이번 업데이트를 통해 글로벌 검색은 이제 Experience League 콘텐츠와 다음 Journey Optimizer 오브젝트 유형을 검색합니다. <ul><li>데이터 세트</li><li>대상</li><li>쿼리</li><li>스키마</li><li>세그먼트</li><li>소스</li><li>오퍼</li><li>구성 요소</li><li>메시지</li><li>여정</li></ul> |
 | 제품 사용 데이터 동의 | 초기 로그인 시 Adobe가 사용자에게 유용하고 개인 맞춤화된 콘텐츠(Experience Cloud 제품 사용 데이터를 기반으로 하는 튜토리얼, 안내서, 빠른 팁, 권장 사항, 학습 비디오 등)를 제공할 수 있는 방법에 대한 환경 설정을 제출하라는 메시지가 표시됩니다. <https://experience.adobe.com/preferences>에서 이러한 데이터의 수집 및 사용에 대한 환경 설정 업데이트도 이 요청에 포함됩니다. |
-| Experience Cloud [!UICONTROL 트리거] 탐색 | [Experience Cloud 트리거](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=en)는 프로비저닝된 사용자의 헤더에 있는 애플리케이션 전환기에서 직접 탐색할 수 있습니다. |
+| Experience Cloud [!UICONTROL 트리거] 탐색 | [Experience Cloud 트리거](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=ko-KR)는 프로비저닝된 사용자의 헤더에 있는 애플리케이션 전환기에서 직접 탐색할 수 있습니다. |
 | **공지:** 인터페이스 탐색 업데이트 예정 | 2021년 11월에 _[!UICONTROL 실행/데이터 수집으로 이동]_ 탐색 기능이 <https://experience.adobe.com/implement>에서 제거됩니다. |
 
 **업데이트 날짜: 2021년 8월 24일**
@@ -106,7 +106,7 @@ Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한
 
 **업데이트 날짜: 2017년 2월 1일**
 
-[핵심 서비스를 활성화](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)하는 단계로 [보고서 세트 매핑](core-services.md#concept_apg_zq2_rw) 이 추가되었습니다.
+[핵심 서비스를 활성화](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)하는 단계로 [보고서 세트 매핑](core-services.md#concept_apg_zq2_rw)이 추가되었습니다.
 
 **업데이트 날짜: 2016년 5월 9일**
 
@@ -118,7 +118,7 @@ Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한
 
 **업데이트 날짜: 2015년 3월 2일**
 
-추가됨 [핵심 서비스용 애플리케이션 활성화](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+[핵심 서비스용 애플리케이션을 사용하도록 설정](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)이 추가되었습니다.
 
 **업데이트 날짜: 2015년 1월 15일**
 
@@ -126,7 +126,7 @@ Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한
 
 **업데이트 날짜: 2014년 7월 17일**
 
-관리자용 [Experience Cloud FAQ](faq.md#concept_13219B4E51784577B6FF78AAA203DE91) 가 추가되었습니다.
+관리자용 [Experience Cloud FAQ](faq.md#concept_13219B4E51784577B6FF78AAA203DE91)가 추가되었습니다.
 
 **업데이트 날짜: 2014년 5월 22일**
 
