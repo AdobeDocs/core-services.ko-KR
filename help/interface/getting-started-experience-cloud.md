@@ -10,19 +10,19 @@ role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # 로그인 및 Experience Cloud 프로필 설정 관리
 
-단일 애플리케이션에 로그인하지 않고 Experience Cloud에 로그인하면 사용자가 소유한 모든 애플리케이션 및 서비스에 단일 사인온을 사용할 수 있습니다. 이 도움말에서는 Experience Cloud에 로그인하고, 암호 및 알림을 관리하고, 기본 랜딩 페이지를 지정하는 방법에 대해 설명합니다.
+단일 애플리케이션에 로그인하지 않고 Experience Cloud에 로그인하면 사용자가 소유한 모든 애플리케이션 및 서비스에 SSO(Single Sign-On)를 사용할 수 있습니다. 이 도움말에서는 Experience Cloud에 로그인하고, 암호 및 알림을 관리하고, 기본 랜딩 페이지를 지정하는 방법에 대해 설명합니다.
 
 >[!IMPORTANT]
 >
->관리자는 [관리](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) 에서 사용자 및 제품 관리 업데이트에 대한 정보를 참고하십시오.
+>관리자는 [관리](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)에서 사용자 및 제품 관리 업데이트에 대한 정보를 참고하십시오.
 
 ## Experience Cloud에 로그인(관리자) {#task_034FC955031347F3B02B686A09801A08}
 
@@ -37,13 +37,13 @@ ht-degree: 83%
 
 | 요소 | 설명 |
 |--- |--- |
-| [Admin Console 기본 사항](experience-cloud.md) | Experience Cloud 애플리케이션을 사용하기 위해 수행해야 하는 초기 단계에 대해 알아봅니다. |
+| [Admin Console 기본 사항](experience-cloud.md) | Experience Cloud 애플리케이션 활성화를 시작하기 위해 반드시 수행해야 하는 초기 절차에 대해 알아봅니다. |
 | [ID 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html) | 최종 사용자를 인증할 ID 시스템을 정의하고 설정합니다. |
 | [사용자 관리](https://helpx.adobe.com/kr/enterprise/using/users.html) | Admin Console에 로그인 및 Experience Cloud 사용자 권한 및 제품 프로필 관리 방법에 대해 알아봅니다. |
 | [Admin Console 실행](admin-getting-started.md) | Admin Console은 전체 조직에서 Adobe 사용자 및 제품 자격을 관리하는 중앙 위치입니다.<br> [직접 연결되는 링크](https://adminconsole.adobe.com)를 사용하여 Admin Console에 로그인할 수도 있습니다. |
 | [Creative Cloud 사용자 관리](t-admin-add-cc-user.md) | Experience Cloud Assets을 통해 마케터는 Creative Cloud를 사용하여 디자이너 및 다른 크리에이티브 에셋과 폴더를 공유, 동기화 및 공동 작업할 수 있습니다. 여기서 조직과 공동 작업하도록 승인된 Creative Cloud 사용자를 관리할 수 있습니다. |
 | [보고서 세트 매핑](core-services.md) | (Analytics 전용) Experience Cloud 핵심 서비스는 개별 보고서 세트 대신 조직과 연결됩니다. 이러한 서비스가 올바르게 작동하도록 하려면 각 Analytics 보고서 세트를 조직에 매핑해야 합니다. (이 작업은 [핵심 서비스용으로 Analytics를 활성화](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)하는 광범위한 워크플로의 일부입니다.) |
-| [조직 ID](organizations.md) |  *조직 ID* 는 관리 페이지의 맨 아래에 있습니다. 이 ID는 프로비저닝된 Experience Cloud 회사와 연관된 ID입니다. 이 ID는 24자의 영숫자 문자열과 @AdobeOrg(포함 필수)로 구성됩니다. |
+| [조직 ID](organizations.md) | *조직 ID*&#x200B;는 관리 페이지의 맨 아래에 있습니다. 이 ID는 프로비저닝된 Experience Cloud 회사와 연관된 ID입니다. 이 ID는 24자의 영숫자 문자열과 @AdobeOrg(포함 필수)로 구성됩니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -52,10 +52,10 @@ ht-degree: 83%
 Experience Cloud에 로그인하는 관리자 이외의 사용자를 위한 도움말입니다.
 
 
-1.  [조직](organizations.md) 이 Experience Cloud에서 프로비저닝되었는지 관리자에게 확인합니다.
+1. [조직](organizations.md)이 Experience Cloud에서 프로비저닝되었는지 관리자에게 확인합니다.
 
 
-1. [Adobe Experience Cloud](https://experience.adobe.com) ([!DNL experience.adobe.com]) 로 이동합니다.
+1. [Adobe Experience Cloud](https://experience.adobe.com) ([!DNL experience.adobe.com])로 이동합니다.
 1. **[!UICONTROL Adobe ID로 로그인]**&#x200B;을 선택합니다.
 
    Experience Cloud 관리자가 계정 유형(Adobe ID 또는 Enterprise ID)을 확인하는 데 도움을 줄 수 있습니다.
@@ -64,7 +64,7 @@ Experience Cloud에 로그인하는 관리자 이외의 사용자를 위한 도�
 
    ![](assets/experience-cloud-core-services.png)
 
-   이 메뉴에 표시되는 응용 프로그램 및 서비스는 [관리자](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
+   이 메뉴에 표시되는 애플리케이션 및 서비스는 [관리자](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)가 정의한 애플리케이션 권한에 따라 다릅니다.
 
 ## 기본 개인 계정 설정 구성 {#task_73CBCAE6C91749D19C95421E5AC311BA}
 
@@ -72,7 +72,7 @@ Experience Cloud에 로그인한 후 개인 세부 사항을 편집하고, 표�
 
 1. Experience Cloud에 로그인한 다음, 프로필 아이콘을 선택합니다.
 
-   ![프로필 아이콘을 선택합니다](assets/edit-profile.png)
+   ![프로필 아이콘 선택](assets/edit-profile.png)
 1. **[!UICONTROL 프로필 편집]**&#x200B;을 선택합니다.
 
    ![Experience Cloud의 기본 조직 및 랜딩 페이지](assets/default-organization.png)
@@ -145,12 +145,12 @@ Experience Cloud 프로필을 편집하고 기본 조직 및 랜딩 페이지 �
 
 >[!NOTE]
 >
->URL을 `destURL` 매개 변수에 전달하기 전에 인코딩해야 합니다. ( [URL Decoder / Encoder](https://meyerweb.com/eric/tools/dencoder/) 와 같은 인코더 사이트를 이용할 수 있습니다.)
+>URL을 `destURL` 매개 변수에 전달하기 전에 인코딩해야 합니다. ( [URL Decoder / Encoder](https://meyerweb.com/eric/tools/dencoder/)와 같은 인코더 사이트를 이용할 수 있습니다.)
 
 | 매개 변수 | 설명 | 예 | 필수/선택적 |
 |--- |--- |--- |--- |
 | `tenantId` | 사용자가 로그인해야 하는 테넌트의 이름입니다. | aem62tenant | 선택 사항입니다 |
 | `destURL` | 사용자가 이동해야 하는 위치의 전체 URL입니다. | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | 선택 사항입니다 |
-| `solutionname` | `destURL` 매개 변수의 소유자인 MAC 솔루션의 이름입니다. 사용자가 URL 소유자인 애플리케이션에 액세스할 수 있는지 확인하는 데 사용됩니다.  애플리케이션이 `applicationname` 이(가) `destURL` 매개 변수.  예를 들어, URL에 `solutionname` 이 소셜로 포함되어 있고 제공된 `destURL` 이 Analytics URL인 경우, 사용자가 Analytics에 액세스할 수 없는 경우에도 이 URL로 리디렉션됩니다. Mac은 의 소유자가 `destURL` 이 애플리케이션 이름과 동기화되어 있습니다. | analytics | `destURL` 매개 변수가 사용되는 경우 필수입니다. |
+| `solutionname` | `destURL` 매개 변수의 소유자인 MAC 솔루션의 이름입니다. 사용자가 URL 소유자인 애플리케이션에 액세스할 수 있음을 확인하는 데 사용됩니다.  `applicationname`이 `destURL` 매개 변수와 동기화 상태임을 확인하는 것은 애플리케이션이 해야 하는 일입니다.  예를 들어, URL에 `solutionname`이 소셜로 포함되어 있고 제공된 `destURL`이 Analytics URL인 경우, 사용자가 Analytics에 액세스할 수 없는 경우에도 이 URL로 리디렉션됩니다. MAC은 `destURL`의 소유자가 애플리케이션 이름과 동기화 상태인지 여부를 확인하지 않습니다. | analytics | `destURL` 매개 변수가 사용되는 경우 필수입니다. |
 
 {style=&quot;table-layout:auto&quot;}
