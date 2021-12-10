@@ -1,8 +1,8 @@
 ---
-description: 교차 애플리케이션 서비스를 위해 Adobe Analytics 및 Adobe Target 애플리케이션 현대화. Experience Cloud 서비스를 사용하는 방법을 알아봅니다.
+description: 교차 애플리케이션 서비스를 위한 Adobe Analytics 및 Adobe Target 애플리케이션을 현대화합니다. Experience Cloud 서비스를 사용하는 방법을 알아봅니다.
 keywords: 핵심 서비스, 고객 속성
 solution: Experience Cloud
-title: 애플리케이션 간 서비스 사용
+title: 애플리케이션 간 서비스 애플리케이션 활성화
 index: true
 feature: Customer Attributes
 topic: Administration
@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2294'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 최근 Experience Platform Launch를 사용하여 Experience Cloud을 구현한 경우 고객 속성 및 Experience Cloud Audiences에 대해 이미 설정되어 있습니다. Admin Console에서 사용자와 제품을 관리할 수도 있습니다.
 
-기존 고객은 애플리케이션 구현을 현대화하고 Experience Cloud을 구현할 수 있습니다. 이를 통해 Adobe Analytics, Audience Manager 및 Adobe Target 전반에서 고객 속성 및 대상 기능을 활용할 수 있습니다. 이를 구현하려면 다음 작업을 수행합니다.
+기존 고객은 애플리케이션 구현을 현대화하고 Experience Cloud를 구현할 수 있습니다. 이를 통해 Adobe Analytics, Audience Manager 및 Adobe Target 전반에서 고객 속성 및 대상 기능을 활용할 수 있습니다. 이를 구현하려면 다음 작업을 수행합니다.
 
 1. [Experience Cloud에 참여 및 관리자 되기](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Experience Cloud ID 서비스 구현](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -65,30 +65,30 @@ Experience Cloud에 로그인하려면 귀하의 사용자는
 
 * Adobe ID(또는 회사의 Enterprise ID)가 있어야 합니다.
 * [experience.adobe.com](https://experience.adobe.com)에 로그인합니다.
-* 엔터프라이즈 그룹에 매핑된 응용 프로그램 그룹에 속합니다.
+* 엔터프라이즈 그룹에 매핑된 애플리케이션 그룹에 속합니다.
 * 필요한 경우 애플리케이션 계정을 Adobe ID에 연결합니다(아래에 설명).
 
 ### 선택 사항: 기존 사용자 계정을 연결합니다.
 
-이전에 관리한 Analytics 그룹처럼 이미 애플리케이션 그룹의 구성원인 사용자가 있을 것입니다. [!UICONTROL Analytics] > [!UICONTROL 관리 도구].
+[!UICONTROL Analytics] > [!UICONTROL 관리 도구]에서 이전에 관리한 Analytics 그룹처럼 이미 애플리케이션 그룹의 구성원인 사용자가 있을 것입니다.
 
-이러한 그룹을 Experience Cloud Enterprise 그룹에 매핑하면 해당 사용자가 자신의 애플리케이션 계정 자격 증명을 해당 Adobe ID에 수동으로 링크해야 합니다.
+이러한 그룹을 Experience Cloud 엔터프라이즈 그룹에 매핑하면 그러한 사용자가 해당 애플리케이션 계정 자격 증명을 해당 Adobe ID에 수동으로 링크해야 합니다.
 
 [Experience Cloud에서 계정 연결](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)을 참조하십시오.
 
 >[!NOTE]
 >
->엔터프라이즈 및 애플리케이션 그룹이 매핑되면 새 사용자가 자동으로 연결됩니다. (솔루션 자격 증명은 자동으로 만들어지고 해당 Adobe ID에 연결됩니다.)
+>엔터프라이즈 및 애플리케이션 그룹이 매핑되면 새로운 사용자가 자동으로 연결됩니다. (솔루션 자격 증명은 자동으로 만들어지고 해당 Adobe ID에 연결됩니다.)
 
 다음 섹션에서는 구현을 현대화하는 방법을 설명합니다. 구현을 현대화하면 Experience Cloud에서 핵심 서비스가 활성화됩니다.
 
 ## [!UICONTROL Experience Cloud ID 서비스] 구현 {#section_3C9F6DF37C654D939625BB4D485E4354}
 
-다음 [!UICONTROL Experience Cloud ID 서비스] 는 애플리케이션 간 통합을 위한 공통 ID를 제공합니다. [!UICONTROL 고객 속성]을 통해 업로드된 CRM 데이터를 기반으로 도메인 간 방문자 식별 및 디바이스/브라우저 간 타기팅 및 개인화를 위한 경로를 제공합니다.
+[!UICONTROL Experience Cloud ID 서비스]에서는 교차 애플리케이션 통합을 위한 공통 ID를 제공하고 [!UICONTROL 고객 속성]을 통해 업로드된 CRM 데이터를 기반으로 도메인 간 방문자 식별 및 디바이스/브라우저 간 타기팅 및 개인화를 위한 경로를 제공합니다.
 
-Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) 에서 [!UICONTROL Experience Cloud ID 서비스 확장]을 통해 Analytics 및 Adobe Target에 대해 자동으로 활성화하는 것입니다.
+Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko-KR)에서 [!UICONTROL Experience Cloud ID 서비스 확장]을 통해 Analytics 및 Adobe Target에 대해 자동으로 활성화하는 것입니다.
 
-전체 Experience Cloud ID 서비스 도움말(이전의 방문자 ID)를 보려면 [여기](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en#intro)로 이동하십시오.
+전체 Experience Cloud ID 서비스 도움말(이전의 방문자 ID)를 보려면 [여기](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko-KR#intro)로 이동하십시오.
 
 **[!UICONTROL Experience Platform Launch] 나 [!UICONTROL Dynamic Tag Management]를 사용하지 않습니까?**
 
@@ -97,20 +97,20 @@ Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 
 | 작업 | 설명 |
 | -----------| ---------- |  
 | [Analytics용 Experience Cloud ID 서비스 구현](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=ko-KR) | [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko-KR)를 추가적으로 설정하는 것도 좋습니다. 이러한 ID는 각 방문자와 연결되며 Experience Cloud의 현재 및 향후 기능을 활성화합니다. |
-| 기존 [!DNL s_code] 를 버전 H.27.3 이상으로 업데이트하거나 기존 [!DNL AppMeasurement.js] 를 버전 1.4 이상으로 업데이트합니다. | 이러한 파일은 Analytics 관리 도구의 [코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ko-KR) 에서 다운로드할 수 있습니다. ( [!DNL AppMeasurement.js]에 대한 자세한 내용이 필요한 경우 [JavaScript 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=ko-KR#js) 안내서를 사용할 수 있습니다.) |
+| 기존 [!DNL s_code] 를 버전 H.27.3 이상으로 업데이트하거나 기존 [!DNL AppMeasurement.js] 를 버전 1.4 이상으로 업데이트합니다. | 이러한 파일은 Analytics 관리 도구의 [코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ko-KR)에서 다운로드할 수 있습니다. ( [!DNL AppMeasurement.js]에 대한 자세한 내용이 필요한 경우 [JavaScript 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=ko-KR#js) 안내서를 사용할 수 있습니다.) |
 | Analytics에 대한 고객 ID 동기화 | [Analytics - 고객 ID 동기화](core-services.md#section_AD473A6A21C1446498E700363F9A8437) (아래)를 참조하십시오. |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### Analytics 및 Adobe Target - 고객 ID 동기화 {#section_AD473A6A21C1446498E700363F9A8437}
 
-Experience Cloud ID 서비스 설정의 일부로, Analytics 및 [!DNL Target] 에 대해 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) 를 Experience Cloud와 동기화하는 것이 좋습니다.
+Experience Cloud ID 서비스 설정의 일부로, Analytics 및 [!DNL Target]에 대해 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko-KR) 를 Experience Cloud와 동기화하는 것이 좋습니다.
 
 Adobe Target에서 `mbox3rdpartyid`은(는) 고객 ID 를 가져와 [!DNL Target] (으)로 보내야 합니다. ( [!DNL Target]에서 [고객 속성 사용](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=ko-KR) 을 참조하십시오.)
 
 방문자가 사용자의 웹 사이트에서 인증을 받거나 다른 방식으로 식별될 경우, 구현을 통해 페이지나 앱에 해당 개인의 CRM 고객 ID를 노출해야 합니다. 그러면 해당 기능 호출을 사용하여 고객 ID를 Experience Cloud와 동기화할 수 있습니다. 이와 같이 동기화가 진행되면 방문자의 CRM 고객 ID가 Experience Cloud에 저장되고 Experience Cloud에서 사용할 해당 고객의 속성이 활성화됩니다.
 
-예를 들어 CRM 시스템에서 Bob의 고객 ID가 `52mc210tr42` 라고 가정해봅시다. Bob이 사용자 사이트에서 인증을 받으면, 사용자는 이 ID를 페이지에 제공하고 다음 두 가지 방법 중 하나로 해당 ID를 사용하여 동기화해야 합니다.
+예를 들어 CRM 시스템에서 Bob의 고객 ID가 `52mc210tr42` 라고 가정해봅시다. Bob이 사용자 사이트에서 인증을 받으면 사용자는 이 ID를 페이지에 제공하고 다음 두 가지 방법 중 하나로 해당 ID를 사용하여 동기화해야 합니다.
 
 * 방문자 ID 서비스를 사용하여 `visitor.setCustomerIDs({"crm_id":"52mc210tr42"})` 를 호출합니다. 또는
 * prop 또는 eVar에서 *`Customer ID (52mc210tr42)`* 를 입력합니다.
@@ -139,12 +139,12 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL Peopl
 
 Analytics를 사용하는 경우 지역 데이터 수집(RDC)에 있는지 확인합니다. 데이터 수집 도메인이 `omtrdc.net`이거나 CNAME이 `omtrdc.net`으로 매핑된 경우 RDC를 사용해야 합니다. 자세한 내용은 [RDC로 전환](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=ko-KR) 을 참조하십시오. 자사 쿠키를 사용하는 경우 데이터 수집 CNAME 및 도메인 간 추적에 대해 알려면 [CNAME 및 Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=ko-KR) 를 참조하십시오.
 
-방문자 API를 비롯한 JavaScript 라이브러리를 업데이트하여 Analytics 구현을 현대화하는 것이 좋습니다. 이를 가장 간단하게 해내는 방법은 [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en) 을 Experience Platform 데이터 수집 (Launch)에 추가하는 것입니다.
+방문자 API를 비롯한 JavaScript 라이브러리를 업데이트하여 Analytics 구현을 현대화하는 것이 좋습니다. 이를 가장 간단하게 해내는 방법은 [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ko-KR) 을 Experience Platform 데이터 수집 (Launch)에 추가하는 것입니다.
 
 ## Adobe Target 구현 업데이트 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* 라이브러리 검색이 자동으로 수행되도록 [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=en) 에서 [!UICONTROL Adobe Target 확장]을 추가하는 것이 좋습니다. 을(를) 설정할 수도 있습니다 [Experience Cloud ID 서비스 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) Adobe Target(및 기타 애플리케이션)용 [!UICONTROL Experience Platform Launch]. Adobe Target에서 핵심 서비스를 사용하려면 [!UICONTROL Experience Cloud ID 서비스] 업데이트가 **필요합니다.**
-* [!UICONTROL Experience Platform Launch]를 사용하지 않는다면 [mbox 라이브러리를 수동으로 업데이트](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=en) 하십시오.
+* 라이브러리 검색이 자동으로 수행되도록 [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=ko-KR)에서 [!UICONTROL Adobe Target 확장]을 추가하는 것이 좋습니다. [!UICONTROL Experience Platform Launch]를 사용하여 Adobe Target(및 기타 애플리케이션)용으로 [Experience Cloud ID 서비스 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko-KR)을 설정할 수도 있습니다. Adobe Target에서 핵심 서비스를 사용하려면 [!UICONTROL Experience Cloud ID 서비스] 업데이트가 **필요합니다.**
+* [!UICONTROL Experience Platform Launch]를 사용하지 않는다면 [mbox 라이브러리를 수동으로 업데이트](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=ko-KR) 하십시오.
 * [!DNL Adobe Target]에 대한 보고 소스로 Adobe Analytics를 사용하기 위한 액세스 권한을 요청하십시오. [!DNL Target] 및 [!DNL Analytics] 데이터가 처리 중에 동일한 서버 호출에 결합되므로 방문자가 두 애플리케이션 간에 연결됩니다. [Analytics for Target 구현](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko-KR)을 참조하십시오.
 
    >[!IMPORTANT]
@@ -162,11 +162,11 @@ Analytics를 사용하는 경우 지역 데이터 수집(RDC)에 있는지 확�
 
 Experience Cloud ID가 포함된 예상 응답은 다음과 같습니다.
 
-![Experience Cloud ID가 포함된 예상 응답입니다](assets/mac_id_response.png)
+![Experience Cloud ID가 포함된 예상 응답은 다음과 같습니다.](assets/mac_id_response.png)
 
-Experience Cloud ID(mid)가 포함된 Analytics 이미지 요청( `mid` 또는 _방문자 ID_&#x200B;라고도 함):
+Experience Cloud ID(mid)가 포함된 Analytics 이미지 요청(`mid` 또는 _방문자 ID_&#x200B;라고도 함):
 
-![Experience Cloud ID가 포함된 Analytics 이미지 요청](assets/mid.png)
+![Experience Cloud ID가 포함된 Analytics 이미지 요청은 다음과 같습니다.](assets/mid.png)
 
 mbox 요청의 Experience Cloud ID:
 
@@ -184,7 +184,7 @@ Experience Cloud ID 서비스를 배포하면 새 방문자는 더 이상 데이
 
 Admin Console을 실행 중이면 사용자 및 제품 프로필을 관리할 수 있는 [Admin Console](https://adminconsole.adobe.com/)로 이동합니다.
 
-![액세스 Admin Console](assets/menu-administration-shell.png)
+![Admin Console 액세스](assets/menu-administration-shell.png)
 
 [Experience Cloud 사용자 및 제품 관리](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)를 참조하십시오.
 
@@ -204,30 +204,30 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 
 ### [!UICONTROL 사용자] > [!UICONTROL 대상 라이브러리]
 
-Experience Cloud [!UICONTROL 대상] 은 대상을 만들고, 기존 대상을 결합하여 복합 대상을 만들고, 모든 공유 대상을 볼 수 있는 인터페이스입니다.
+Experience Cloud [!UICONTROL 대상]은 대상을 만들고, 기존 대상을 결합하여 복합 대상을 만들고, 모든 공유 대상을 볼 수 있는 인터페이스입니다.
 
 [대상](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)을 참조하십시오
 
 ## 데이터 저장 및 개인정보 공개
 
-Adobe [!DNL Experience Cloud] 내의 실시간 대상 프로파일링 및 기타 핵심 서비스를 활용하는 경우, 이러한 서비스의 사용이 데이터가 상주하는 데이터 센터 및 국가에 영향을 줄 수 있습니다. 특히 [!DNL Experience Cloud] 에서는 Audience Manager를 사용하므로 [!UICONTROL 인물] 서비스 내에서 사용되는 데이터는 미국의 Audience Manager 서버에 상주해야 합니다.
+Adobe [!DNL Experience Cloud] 내의 실시간 대상 프로파일링 및 기타 핵심 서비스를 활용하는 경우, 이러한 서비스의 사용이 데이터가 상주하는 데이터 센터 및 국가에 영향을 줄 수 있습니다. 특히 [!DNL Experience Cloud]에서는 Audience Manager를 사용하므로 [!UICONTROL 인물] 서비스 내에서 사용되는 데이터는 미국의 Audience Manager 서버에 상주해야 합니다.
 
 [!UICONTROL 인물] 서비스를 통해 사용할 수 있는 서비스를 사용할 때 다른 Adobe 제품에서 고객 관리로 전송되는 데이터의 유형은 다음과 같습니다.
 
 * [!DNL Analytics] 키/값 쌍(props, eVars, list vars 등). 기본적으로 로그 줄에는 IP의 마지막 8진수를 포함하는 IP 주소가 포함됩니다(IP 주소가 Adobe [!DNL Analytics]내의 IP 난독화 설정에 따라 수정되지 않았다고 가정).
 * 방문자가 Audience Manager에서 설정된 규칙에 따라 자격을 평가하는 트레이트 및 세그먼트
 * (선택 사항) 하나 이상의 ID. ID 서비스 구현에 따라, CRM ID 또는 해시된 이메일 주소와 같은 하나 이상의 ID를 전송할 수도 있습니다. 이 데이터가 Adobe [!DNL Analytics]로 전송되면 Adobe 고객 관리로 전달됩니다. 개인 데이터는 Adobe [!DNL Analytics]에 제공하지 않는 것이 좋습니다. 개인 데이터의 경우 Adobe로 전송하기 전에 단방향 해시를 사용해서 데이터를 가리는 것이 좋습니다.
-* 백엔드 세그먼트 공유 기능을 통해 [!DNL Analytics] 에서 시작된 세그먼트
+* 백엔드 세그먼트 공유 기능을 통해 [!DNL Analytics]에서 시작된 세그먼트
 * demdex.net 쿠키는 서드파티 쿠키가 차단되지 않은 경우에 설정됩니다. `AMCV_###@AdobeOrg` 자사 쿠키는 항상 Experience Cloud ID 서비스를 사용하여 설정됩니다.
 
 이러한 모든 데이터 요소는 로그 파일 형식에서 Adobe Audience Manager로 전달됩니다. Audience Manager는 미국 내에서 이 데이터를 처리하고 저장합니다. Audience Manager는 미국 외부에서 이 데이터를 저장하고 처리하기 위한 옵션을 제공하지 않습니다.
 
 ### 쿠키 및 옵트아웃
 
-실시간 대상 프로파일링 사용 시, [!DNL Analytics] 및 [!DNL Target]에 사용되는 쿠키 외에도 Audience Manager 쿠키가 사용됩니다.
+실시간 대상 프로파일링 사용 시 [!DNL Analytics] 및 [!DNL Target]에 사용되는 쿠키 외에도 Audience Manager 쿠키가 사용됩니다.
 
 적절한 옵트아웃 기능을 제공하려는 경우 사이트 방문자가 기존 옵트아웃 프로세스에 Audience Manager 옵트아웃을 추가해야 합니다.
 
 지침이 필요하면 [Adobe Experience Cloud - Adobe 옵트아웃 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/opt-out.html?lang=ko-KR) 을 참조하십시오.
 
-도메인 간 추적을 사용하려면 [데이터 수집 CNAME 및 도메인 간 추적](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en) 을 참조하십시오.
+도메인 간 추적을 사용하려면 [데이터 수집 CNAME 및 도메인 간 추적](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=ko-KR) 을 참조하십시오.
