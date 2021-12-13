@@ -21,13 +21,13 @@ Admin Console에 로그인, Experience Cloud 사용자 권한과 제품 프로�
 
 >[!IMPORTANT]
 >
->다음 정보는 특히 Experience Cloud 애플리케이션에 대한 것입니다. 이 정보는 모든 Adobe 클라우드 제품에 대한 [Enterprise 관리 사용 안내서](https://helpx.adobe.com/kr/enterprise/admin-guide.html) 의 광범위한 관리 정보를 보완합니다.
+>다음 정보는 특히 Experience Cloud 애플리케이션에 대한 것입니다. 이 정보는 모든 Adobe 클라우드 제품에 대한 [Enterprise 관리 사용 안내서](https://helpx.adobe.com/kr/enterprise/admin-guide.html)의 광범위한 관리 정보를 보완합니다.
 
 관리 도구에서 모든 Experience Cloud 사용자 목록과 세부 사항을 정렬 및 필터링 가능한 목록으로 볼 수 있습니다. [관리 도구에서 Experience Cloud 사용자 보기](admin-tool-experience-cloud.md)를 참조하십시오.
 
 ## 제품 프로필이란? {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
-[!UICONTROL 제품 프로필] 은 사용자에게 할당할 수 있는 제품 및 서비스 그룹입니다. Experience Cloud에서 권한은 사용자가 아닌 제품 프로필을 기반으로 합니다. (그러나 특정 사용자에게 관리 권한을 위임할 수 있습니다.)
+[!UICONTROL 제품 프로필]은 사용자에게 할당할 수 있는 제품 및 서비스 그룹입니다. Experience Cloud에서 권한은 사용자가 아닌 제품 프로필을 기반으로 합니다. (그러나 특정 사용자에게 관리 권한을 위임할 수 있습니다.)
 
 예를 들면 Analytics에서 보고서 세트, 지표 및 차원과 함께 Analysis Workspace 및 Report Builder와 같은 보고 도구의 컬렉션을 구성할 수 있습니다. 프로필에 사용자를 추가하여 제품 프로필에 대한 권한을 부여할 수 있습니다.
 
@@ -115,7 +115,7 @@ Admin Console에서 조직의 다른 사용자에게 제한된 관리 권한을 
 
 Analytics 사용자 ID 마이그레이션 도구는 Analytics 관리자가 Analytics 사용자 관리에서 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/)로 사용자 계정을 마이그레이션하도록 지원하는 데 사용할 수 있습니다.
 
-계정 마이그레이션이 단계적으로 고객에게 배포되고 있습니다. Adobe에서는 기존 사용자 계정을 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]** 에서 Admin Console로 마이그레이션할 때 사용자에게 알리고 지원합니다.
+계정 마이그레이션이 단계적으로 고객에게 배포되고 있습니다. Adobe에서는 기존 사용자 계정을 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에서 Admin Console로 마이그레이션할 때 사용자에게 알리고 지원합니다.
 
 마이그레이션 후 사용자는 Adobe ID(또는 Enterprise ID)를 사용하여 로그인하고 [experience.adobe.com](https://experience.adobe.com)에서 해당 Experience Cloud 애플리케이션 및 서비스를 인증합니다. 사용자가 이전 계정([!DNL my.omniture.com], [!DNL sc.omniture.com] 및 [!DNL experiencecloud.adobe.com])을 통해 로그인하려고 하면 [!DNL experience.adobe.com]으로 리디렉션됩니다.
 
@@ -135,9 +135,9 @@ Adobe Target에서 작업 공간은 제품 프로필입니다. 이를 통해 조
 
 ## 캠페인 제품 프로필, 테넌트 및 보안 그룹 관리 {#section_09CDF75366444CF5810CF321B7C712F3}
 
-Campaign의 *테넌트* 는 Admin Console 제품 페이지에서 *제품* 으로 표시됩니다.
+Campaign의 *테넌트*&#x200B;는 Admin Console 제품 페이지에서 *제품*&#x200B;으로 표시됩니다.
 
-*보안 그룹* 은 제품 프로필로 표시됩니다.
+*보안 그룹*&#x200B;은 제품 프로필로 표시됩니다.
 
 보안 그룹과 보안 그룹에 사용자를 지정하는 것에 대한 자세한 내용은 [그룹 및 사용자 관리](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=ko-KR) 를 참조하십시오.
 
@@ -145,7 +145,7 @@ Campaign의 *테넌트* 는 Admin Console 제품 페이지에서 *제품* 으로
 
 Experience Platform [!UICONTROL 데이터 수집] ([!UICONTROL Launch])은 [!UICONTROL Admin Console]의 [!UICONTROL 제품] 페이지에 표시됩니다. Launch 제품 프로필에 다른 애플리케이션 및 서비스를 포함할 수 있습니다.
 
-사용자를 [!UICONTROL Platform Launch] 에 초대하고 사용자 역할과 권한을 할당합니다.
+사용자를 [!UICONTROL Platform Launch]에 초대하고 사용자 역할과 권한을 할당합니다.
 
 [사용자 권한](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ko-KR) 를 참조하여 Admin Console에서의 사용자 권한에 대해 알아보고, 프로필에 권한 지정하기를 포함하여 Launch 관련 옵션 설정에 관해 알아보십시오.
 
@@ -169,7 +169,7 @@ Audience Manager 도움말의 [관리](https://experienceleague.adobe.com/docs/a
 * [!DNL Safari]
 * [!DNL Opera]
 
-**참고:** Experience Cloud 인터페이스는 이러한 브라우저를 지원하지만 개별 애플리케이션이 모든 브라우저를 지원하는 것은 아닙니다. (예를 들어 [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=ko-KR) 는 [!DNL Opera]를 지원하지 않으며, [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=ko-KR) 은 [!DNL Safari]를 지원하지 않습니다.)
+**참고:** Experience Cloud 인터페이스는 이러한 브라우저를 지원하지만 개별 애플리케이션이 모든 브라우저를 지원하는 것은 아닙니다. (예를 들어 [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=ko-KR)는 [!DNL Opera]를 지원하지 않으며, [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=ko-KR)은 [!DNL Safari]를 지원하지 않습니다.)
 
 ### 솔루션 및 제품 요구 사항
 
