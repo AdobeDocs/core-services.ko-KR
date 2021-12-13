@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: c6fe48c65994a8f743c8e80a58a0fbad386ffe49
+source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '830'
+ht-degree: 93%
 
 ---
 
@@ -54,6 +54,12 @@ Experience Cloud 인터페이스에서 제공하는 기능은 귀하의 비즈�
 ## 우리 회사 마이그레이션에 대한 우려를 해결하려면 어떻게 해야 합니까?
 
 [Adobe 지원에 문의하십시오](https://experienceleague.adobe.com/?support-solution=General#support).
+
+## 방법 [!DNL Adobe Support] 내 Adobe 클라우드 환경에 액세스하여 문제 해결
+
+[!DNL Adobe Support] 명시적 인증을 찾는 Adobe 브랜드 이메일(아래 예제)을 받는 가장 요청을 제출할 수 있습니다. 제한된 시간 동안 액세스가 허용됩니다. 부여되면 언제든지 사용자가 액세스를 취소할 수 있습니다. Adobe은 Adobe 담당자가 수행한 모든 작업을 기록합니다.
+
+![](/help/interface/admin-getting-started/assets/support-email.png)
 
 ## _프로비저닝이란_ 무엇입니까?
 
