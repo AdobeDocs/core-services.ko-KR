@@ -10,7 +10,7 @@ exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: 087db5e8d9dd066567797fb426797e746cd7fe2c
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ Experience Cloud의 [!UICONTROL 고객 속성] 을 사용하면 고객 관계 �
 
 ![엔터프라이즈 고객 데이터란?](assets/01_crs_usecase.png)
 
-데이터 파일을 만든 후, 만든 고객 속성 소스에 업로드하는 작업은 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 고객 속성]**&#x200B;에서 할 수 있습니다.
+데이터 파일을 만든 후 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 고객 속성]**&#x200B;에서 만드는 고객 속성 소스에 이를 업로드할 수 있습니다.
 
-자세한 내용은 [고객 속성 데이터 업로드](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) 을 입력하여 이 워크플로우를 학습할 수 있습니다.
+이 워크플로에 대한 자세한 내용은 [고객 속성 데이터 업로드](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)를 참조하십시오.
 
 ## Analytics 및 Target의 고객 속성 예 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
