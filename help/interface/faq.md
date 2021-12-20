@@ -12,7 +12,7 @@ exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -55,9 +55,9 @@ Experience Cloud 인터페이스에서 제공하는 기능은 귀하의 비즈�
 
 [Adobe 지원에 문의하십시오](https://experienceleague.adobe.com/?support-solution=General#support).
 
-## 방법 [!DNL Adobe Support] 내 Adobe 클라우드 환경에 액세스하여 문제 해결
+## [!DNL Adobe Support]는 어떤 방식으로 내 Adobe 클라우드 환경에 액세스하여 문제를 해결합니까?
 
-[!DNL Adobe Support] 명시적 인증을 찾는 Adobe 브랜드 이메일(아래 예제)을 받는 가장 요청을 제출할 수 있습니다. 제한된 시간 동안 액세스가 허용됩니다. 부여되면 언제든지 사용자가 액세스를 취소할 수 있습니다. Adobe은 Adobe 담당자가 수행한 모든 작업을 기록합니다.
+[!DNL Adobe Support]는 사용자의 명시적 인증을 요구하는 Adobe 브랜디드 이메일(아래 예)을 수신하는 가장 요청을 제출할 수 있습니다. 액세스 권한은 제한된 시간 동안 부여됩니다. 권한이 부여된 후 언제든지 해당 액세스 권한을 해지할 수 있습니다. Adobe는 Adobe 담당자가 수행한 모든 작업을 기록합니다.
 
 ![](/help/interface/admin-getting-started/assets/support-email.png)
 
