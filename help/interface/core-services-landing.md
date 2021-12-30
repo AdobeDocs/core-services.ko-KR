@@ -8,15 +8,15 @@ role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
 source-git-commit: a4a1914856001a93967c6a63ad4d389138b33217
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '366'
+ht-degree: 100%
 
 ---
 
 # Experience Cloud 서비스 {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-이 설명서는 Experience Cloud 통합 헤더의 기능(예: [!UICONTROL 사람] Experience Cloud, 쿠키, 계정 환경 설정, 알림 등에 대한 서비스(대상 및 고객 속성), 사용자 및 제품 관리.
+이 설명서는 [!UICONTROL 인물] 서비스(대상 및 고객 속성), Experience Cloud를 위한 사용자 및 제품 관리, 쿠키, 계정 환경 설정, 알림 등과 같은 Experience Cloud 통합 헤더의 기능에 적용됩니다.
 
 Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL 애플리케이션 선택기]** ![서비스 선택기](assets/menu-icon.png)를 클릭합니다.
 
