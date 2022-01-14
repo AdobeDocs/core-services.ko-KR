@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '4276'
-ht-degree: 100%
+source-git-commit: 786299df8f07c440e278fb1dc187fd1c9ab5db1f
+workflow-type: tm+mt
+source-wordcount: '4525'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,27 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 설명서 업데이트 목록은 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)를 참조하십시오.
 
 모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
+
+## 2021년 11월
+
+| 기능 | 설명 |
+| ------- | ------- |
+| 홈 페이지 | 환경 설정의 법적 고지 사항 및 언어 선택을 포함하여 Experience Cloud 홈 바닥글 정보가 사용자 프로필 카드로 이동되었습니다. |
+| AEP 대시보드 | [!DNL Helios Lite]은 Experience Platform 위젯 생성 워크플로 내에서 차트 권장 사항을 제공합니다. 데이터 선택(현재 단일 변수 데이터 선택)이 주어지면 [!DNL Helios]는 해당 데이터 선택과 동반될 수 있는 적절한 시각화를 권장합니다. |
+| AEP 대시보드 | [!DNL Instory]은 차트에 대한 ML 기반 서면 내레이션 및 캡션을 제공합니다. 그래프로 표시된 데이터의 주요 변경 사항 및 인시던트를 호출하는 관련 글머리 기호로 AEP 대시보드 페이지의 차트를 장식합니다. |
+
+{style=&quot;table-layout:auto&quot;}
+
+## 2021년 10월
+
+| 기능 | 설명 |
+| ------- | ------- |
+| 통합 검색 | 통합 검색은 검색 인덱스에 오브젝트 유형을 계속 추가합니다. 이번 업데이트를 통해 글로벌 검색은 이제 Experience League 콘텐츠와 다음 Journey Optimizer 오브젝트 유형을 검색합니다. <ul><li>데이터 세트</li><li>대상</li><li>쿼리</li><li>스키마</li><li>세그먼트</li><li>소스</li><li>오퍼</li><li>구성 요소</li><li>메시지</li><li>여정</li></ul> |
+| 제품 사용 데이터 동의 | 초기 로그인 시 Adobe가 사용자에게 유용하고 개인 맞춤화된 콘텐츠(Experience Cloud 제품 사용 데이터를 기반으로 하는 튜토리얼, 안내서, 빠른 팁, 권장 사항, 학습 비디오 등)를 제공할 수 있는 방법에 대한 환경 설정을 제출하라는 메시지가 표시됩니다. <https://experience.adobe.com/preferences>에서 이러한 데이터의 수집 및 사용에 대한 환경 설정 업데이트도 이 요청에 포함됩니다. |
+| Experience Cloud [!UICONTROL 트리거] 탐색 | [Experience Cloud 트리거](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=ko-KR)는 프로비저닝된 사용자의 헤더에 있는 애플리케이션 전환기에서 직접 탐색할 수 있습니다. |
+| **공지:** 인터페이스 탐색 업데이트 예정 | 2021년 11월에 _[!UICONTROL 실행/데이터 수집으로 이동]_ 탐색 기능이 <https://experience.adobe.com/implement>에서 제거됩니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 2021년 8월
 
