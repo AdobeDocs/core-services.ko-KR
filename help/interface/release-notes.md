@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 786299df8f07c440e278fb1dc187fd1c9ab5db1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4525'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 | 기능 | 날짜 | 설명 |
 | ------- | ------- | ------- |
 | Adobe Federated ID용 SSO(Single Sign-On) 지원 | 2021년 6월 17일 | Federated ID를 사용하는 경우, 이메일 주소 또는 암호를 입력할 필요 없이 Experience Cloud에 로그인할 수 있습니다. 이 기능을 사용하려면 `#/sso:@domain` 을 Experience Cloud URL에 추가하십시오. <br>예를 들어, 소유하고 있는 도메인이 `adobecustomer.com` 이고 Adobe Analytics에 로그인하고자 한다고 가정하겠습니다. URL은 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`가 됩니다. |
-| Experience League 검색 | 2021년 6월 1일 | Experience League 설명서 검색이 개선되었습니다. [Experience League](https://experienceleague.adobe.com/docs/?lang=ko)로 이동하고 **[!UICONTROL 검색]** 필드를 사용하여 튜토리얼, 설명서, 과정 등을 찾을 수 있습니다. |
+| Experience League 검색 | 2021년 6월 1일 | Experience League 설명서 검색이 개선되었습니다. [Experience League](https://experienceleague.adobe.com/docs/?lang=ko-KR)로 이동하고 **[!UICONTROL 검색]** 필드를 사용하여 튜토리얼, 설명서, 과정 등을 찾을 수 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
