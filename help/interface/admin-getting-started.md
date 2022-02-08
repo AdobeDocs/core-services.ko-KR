@@ -1,6 +1,6 @@
 ---
 title: 사용자 및 제품 관리
-description: Admin Console에 로그인하는 방법 및 Experience Cloud 사용자 권한과 제품 프로필 관리 방법에 대해 알아봅니다. Experience Cloud 사용자에게 관리 권한을 위임하는 방법과 Experience Cloud에 대한 브라우저 지원에 대해 알아봅니다.
+description: Admin Console에 로그인하고 Experience Cloud 사용자 권한 및 제품 프로필을 관리하는 방법을 알아봅니다. Experience Cloud 사용자에게 관리 권한을 위임하는 방법과 Experience Cloud에 대한 브라우저 지원에 대해 알아봅니다.
 solution: Admin
 index: true
 feature: Admin Console
@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 3507af336715eb3664f8ce5176ddaf74ecbd7bcd
+source-git-commit: 84822a497a3138e4f10a383e54ae2cc13cc4bf77
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 100%
+source-wordcount: '1565'
+ht-degree: 69%
 
 ---
 
 # Experience Cloud 사용자 및 제품 관리
 
-Admin Console에 로그인, Experience Cloud 사용자 권한과 제품 프로필 관리 및 브라우저 지원 방법에 대해 알아봅니다.
+Admin Console 로그인, Experience Cloud 사용자 권한 및 제품 프로필 관리, 브라우저 지원에 대해 알아봅니다.
 
 >[!IMPORTANT]
 >
@@ -25,18 +25,55 @@ Admin Console에 로그인, Experience Cloud 사용자 권한과 제품 프로�
 
 관리 도구에서 모든 Experience Cloud 사용자 목록과 세부 사항을 정렬 및 필터링 가능한 목록으로 볼 수 있습니다. [관리 도구에서 Experience Cloud 사용자 보기](admin-tool-experience-cloud.md)를 참조하십시오.
 
+## Experience Cloud 사용자 인증(계획된 마이그레이션){#migration}
+
+2022년 2월부터 Adobe은 조직이 개별 프로필에 대한 비즈니스 자격을 더 잘 관리할 수 있도록 프로필 관리 시스템을 업데이트하고 있습니다. 따라서 개별 Adobe ID(Type1)에 해당하는 개인 프로필이 있는 모든 사용자는 새 비즈니스 프로필로 마이그레이션됩니다. 이 프로필은 _비즈니스 ID_ (Type2e).
+
+자세한 내용은 [Adobe Admin Console의 ID 유형](https://helpx.adobe.com/kr/enterprise/using/identity.html) id 유형에 대한 자세한 내용을 참조하십시오.
+
+### 마이그레이션 프로세스
+
+마이그레이션 시간이 되면 조직 관리자는 마이그레이션 30일 전에 알림 이메일을 받게 됩니다. 이 전자 메일에는 마이그레이션 날짜가 포함됩니다.
+
+* 마이그레이션은 오후 10시 사이에 예약됩니다. - 조직의 기본 시간대와 주말 기준 오전 6시
+* 마이그레이션 중에 Experience Cloud 응용 프로그램에 액세스할 수 없는 상태로 최대 15분 동안 Admin Console에 액세스할 수 없으며 최대 30분 동안에 액세스할 수 없습니다. 그렇지 않으면 이 마이그레이션이 원활하게 수행됩니다.
+
+### 마이그레이션 후 변경 사항
+
+Admin Console
+
+* 여러 계정이 있는 관리자는 로그인할 때 프로필 선택기를 볼 수 있습니다 [!UICONTROL Admin Console].
+* 개별 Adobe ID 사용자가 비즈니스 ID로 업데이트됩니다.
+* 비즈니스 ID 디렉토리가에 추가됩니다. **[!UICONTROL 설정]** > **[!UICONTROL ID]** > **[!UICONTROL 디렉토리]**.
+
+   ![Admin Console ID - 비즈니스 ID](assets/identity-home.png)
+
+### 마이그레이션 후 로그인
+
+다음 업데이트로 로그인 경험이 변경되지 않습니다.
+
+1. 로그인 `experience.adobe.com` 동일한 자격 증명 사용.
+
+1. 비즈니스 ID와 연결된 새 프로필이 만들어집니다. 메시지가 표시됩니다 **[!UICONTROL 지금 가입]** 또는 **[!UICONTROL 건너뛰기]**.
+
+1. 이 옵션 중 하나를 선택하면 기존 랜딩 페이지 경험이 제공됩니다.
+
+1. Adobe 프로필은 각 비즈니스 플랜과 연결되며 추가 Adobe 클라우드 제공(Creative Cloud 및 Document Cloud)에서 만든 자산을 구성하는 기능을 제공합니다.
+
+자세한 내용은 [Adobe 프로필 소개](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html).
+
 ## 제품 프로필이란? {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
-[!UICONTROL 제품 프로필]은 사용자에게 할당할 수 있는 제품 및 서비스 그룹입니다. Experience Cloud에서 권한은 사용자가 아닌 제품 프로필을 기반으로 합니다. (그러나 특정 사용자에게 관리 권한을 위임할 수 있습니다.)
+_[!UICONTROL 제품 프로필]_&#x200B;은 사용자에게 할당할 수 있는 제품 및 서비스 그룹입니다. Experience Cloud에서 권한은 사용자가 아닌 제품 프로필을 기반으로 합니다. (그러나 특정 사용자에게 관리 권한을 위임할 수 있습니다.)
 
-예를 들면 Analytics에서 보고서 세트, 지표 및 차원과 함께 Analysis Workspace 및 Report Builder와 같은 보고 도구의 컬렉션을 구성할 수 있습니다. 프로필에 사용자를 추가하여 제품 프로필에 대한 권한을 부여할 수 있습니다.
+예를 들면 Analytics에서 보고서 세트, 지표 및 차원과 함께 Analysis Workspace 및 Report Builder와 같은 보고 도구의 컬렉션을 구성할 수 있습니다. 프로필에 사용자를 추가하여 제품 프로필에 권한을 부여할 수 있습니다.
 
-* 이 페이지에서 [제품 프로필에 Analytics 액세스 권한을 지정](admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391) 을 참조하십시오.
+* 자세한 내용은 [제품 프로필에 Analytics 액세스 권한 지정](admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391) 참조하십시오.
 * 이 페이지에서 [사용자에게 관리자 역할 위임](#delegate-rights) 을 참조하십시오.
 
-## Manage Experience Cloud 제품 프로필 {#task_16335111C52D40E9BAC73D0699584DBF}
+## Experience Cloud 제품 프로필 관리 {#task_16335111C52D40E9BAC73D0699584DBF}
 
-제품 프로필을 만들어 권한 그룹에 지정할 수 있습니다.
+제품 프로필을 만들어 권한 그룹에 할당할 수 있습니다.
 
 사용자를 조직에 초대할 때 사용자에게 제품 및 제품 프로필에 대한 액세스 권한을 제공할 수 있습니다. 제한된 관리 권한을 사용자에게 위임할 수도 있습니다. 마찬가지로 사용자 그룹을 작성한 후, 제품 프로필에 액세스할 수 있는 그룹을 추가할 수 있습니다.
 
@@ -52,23 +89,6 @@ Admin Console에 로그인, Experience Cloud 사용자 권한과 제품 프로�
 * 관리 사용 안내서의 [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html) 를 참조하십시오.
 * 자세한 내용은 Target 도움말의 [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ko-KR) 을 참조하십시오.
 * 비디오: [Adobe Admin Console에서 Adobe Target 작업 공간을 구성하는 방법](https://helpx.adobe.com/kr/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
-
-<!-- ## What's new in Experience Cloud user management {#concept_06A0A13362F644FB90F947238407637A}
-
-Learn about the latest features in Experience Cloud user and product management.
-
-### Business ID type
-
-Adobe is introducing an identity type called Business ID. This identity type improves the control of user and product management. Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs owned by your organization.
-
-If you are an existing Experience Cloud customer, Adobe will migrate all your users with Adobe IDs in the Admin Console to Business IDs. If you are a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID.
-
-What to do
-
-* Your users will need to accept Terms of Use (TOU) changes prior to accounts being migrated to Type2e. 
-* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a user was a member of multiple organizations before the migration.)
-
-Beginning May 2020, enterprise administrators cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM-->
 
 ## 사용자에게 관리자 역할 위임 {#delegate-rights}
 
@@ -95,9 +115,9 @@ Admin Console에서 조직의 다른 사용자에게 제한된 관리 권한을 
 
 ## Analytics 사용자 및 제품 관리 {#section_97DE101F92CD494AB073893680992F1A}
 
-제품 프로필에 Analytics 보고서 액세스 권한(보고서 세트, 지표, 차원 등)을 지정할 수 있습니다.
+Analytics 보고서 액세스 권한(보고서 세트, 지표, 차원 등)을 제품 프로필에 할당할 수 있습니다.
 
-예를 들면 여러 Analytics 도구([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] 및 [!UICONTROL Report Builder])가 포함된 제품 프로필을 만들 수 있습니다. 이러한 프로필에는 특정 지표 및 차원(eVar 포함)에 대한 권한과 세그먼트 또는 계산된 지표 생성과 같은 기능이 포함됩니다.
+예를 들어 여러 Analytics 도구([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], 및 [!UICONTROL Report Builder]). 이러한 프로필에는 특정 지표 및 차원(eVar 포함)에 대한 권한과 세그먼트 또는 계산된 지표 생성과 같은 기능이 포함됩니다.
 
 1. [Admin Console](https://adminconsole.adobe.com/enterprise)에 로그인한 다음 **[!UICONTROL 제품]**&#x200B;을 선택합니다.
 1. [!UICONTROL 제품] 페이지에서 해당 제품을 선택한 다음 **[!UICONTROL 권한]** (관리자만 사용 가능)을 선택합니다.
@@ -123,7 +143,7 @@ Analytics 사용자 ID 마이그레이션 도구는 Analytics 관리자가 Analy
 
 자세한 내용은 [Analytics 사용자 ID 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ko-KR)을 참조하십시오.
 
-## Adobe Target 관리 - 제품 프로필과 작업 영역 {#section_3860AF177C9E4C7E9C390D36A414F353}
+## Adobe Target 관리 - 제품 프로필과 작업 공간 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 Adobe Target에서 작업 공간은 제품 프로필입니다. 이를 통해 조직에서는 특정 사용자 세트를 특정 속성 세트에 할당할 수 있습니다. 여러 가지 방식에서 작업 공간은 Adobe Analytics의 보고서 세트와 비슷합니다.
 
@@ -137,7 +157,7 @@ Adobe Target에서 작업 공간은 제품 프로필입니다. 이를 통해 조
 
 Campaign의 *테넌트*&#x200B;는 Admin Console 제품 페이지에서 *제품*&#x200B;으로 표시됩니다.
 
-*보안 그룹*&#x200B;은 제품 프로필로 표시됩니다.
+*보안 그룹* 는 제품 프로필로 표시됩니다.
 
 보안 그룹과 보안 그룹에 사용자를 지정하는 것에 대한 자세한 내용은 [그룹 및 사용자 관리](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=ko-KR) 를 참조하십시오.
 
