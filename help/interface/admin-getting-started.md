@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 84822a497a3138e4f10a383e54ae2cc13cc4bf77
+source-git-commit: 3cf359c54467b4f913f20060e9d7f9577691b90c
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1557'
 ht-degree: 69%
 
 ---
@@ -33,10 +33,10 @@ Admin Console 로그인, Experience Cloud 사용자 권한 및 제품 프로필 
 
 ### 마이그레이션 프로세스
 
-마이그레이션 시간이 되면 조직 관리자는 마이그레이션 30일 전에 알림 이메일을 받게 됩니다. 이 전자 메일에는 마이그레이션 날짜가 포함됩니다.
+마이그레이션 시간이 되면 조직 관리자는 마이그레이션 30일 전에 알림 이메일을 받게 됩니다.
 
 * 마이그레이션은 오후 10시 사이에 예약됩니다. - 조직의 기본 시간대와 주말 기준 오전 6시
-* 마이그레이션 중에 Experience Cloud 응용 프로그램에 액세스할 수 없는 상태로 최대 15분 동안 Admin Console에 액세스할 수 없으며 최대 30분 동안에 액세스할 수 없습니다. 그렇지 않으면 이 마이그레이션이 원활하게 수행됩니다.
+* 마이그레이션 중에 Experience Cloud 응용 프로그램에 약 15분 동안 액세스할 수 없고 최대 30분 동안 Admin Console에 액세스할 수 없습니다. 그렇지 않으면 이 마이그레이션이 원활하게 수행됩니다.
 
 ### 마이그레이션 후 변경 사항
 
