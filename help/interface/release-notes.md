@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 3fdeeeda77f1c779aff7ecbb3a2b6e8a1ad192d8
+source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
 workflow-type: tm+mt
 source-wordcount: '4606'
 ht-degree: 98%
@@ -24,13 +24,12 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
 
-## 2월 - 2022년
+## February - 2022
 
 | 기능 | 설명 |
 | ------- |-------|
-| 단축키 (**[!UICONTROL 최근 항목]**)에 추가되었습니다. [Experience Cloud](https://experience.adobe.com/home) 홈 | 새로운 기능을 통해 최신 Journey Optimizer 및 Experience Platform 작업에 대한 바로 가기에 액세스할 수 있습니다 _최근 항목_ 제목 바로 아래에 표시됩니다. 이 업데이트에는 일반 레이아웃 및 응답성 개선도 포함되어 있습니다. |
-| **[!UICONTROL 샌드박스]** 헤더 막대로 이동됨 | 이제 샌드박스 표시기가 모든 Experience Platform 인터페이스 애플리케이션의 헤더 내에 통합됩니다. 자세한 내용은 [샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko) Experience Platform에서 자세히 알아보십시오. |
-
+| ****[](https://experience.adobe.com/home) | __ This update also includes general layout and responsiveness improvements. |
+| **** | The Sandboxes indicator is now integrated within the header for all Experience Platform interface applications. [](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko) |
 
 ## 2021년 11월
 
