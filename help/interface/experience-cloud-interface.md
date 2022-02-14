@@ -6,8 +6,8 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
+source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
+workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이�
 
 ![Experience Cloud 애플리케이션 액세스](assets/platform-core-services.png)
 
-## Experience Cloud의 검색 및 지원 {#search}
+## Experience Cloud의 검색 및 지원 {#search-support}
 
 Experience Cloud 검색을 통해 [Experience League](https://experienceleague.adobe.com/#home)에서 도움말(설명서, 튜토리얼 및 과정)을 검색할 수 있게 되었습니다.
 

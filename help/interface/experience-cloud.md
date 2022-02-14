@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 540896e1127c4d2abea2bf4ca63ac85315dda8c2
+source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
 workflow-type: tm+mt
 source-wordcount: '1354'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ Experience Cloud 헤더에서 다음 작업을 수행할 수 있습니다.
 로그인한 다음 올바른 [조직](organizations.md)에 속해 있는지 확인하십시오.
 
 1. [Adobe Experience Cloud](https://experience.adobe.com)를 탐색하십시오.
-1. Adobe 이메일 주소를 입력한 다음 **[!UICONTROL 계속]**.
+1. Adobe 이메일 주소를 입력한 다음 **[!UICONTROL 계속]**&#x200B;을 선택합니다.
 
-   관리자는 [Experience Cloud 사용자 인증](admin-getting-started.md#migration) id 유형(비즈니스 ID)에 대한 중요한 업데이트입니다.
+   관리자는 [Experience Cloud 사용자 인증](admin-getting-started.md#migration)을 참조하여 ID 유형(Business ID)의 중요 업데이트에 대해 알아보십시오.
 
 1. 계정을 선택합니다.
 1. 암호를 입력합니다.
@@ -105,7 +105,7 @@ Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사
 * **[!UICONTROL 상태]:** `https://status.adobe.com/experience_cloud`로 이동하여 제품 작동 상태 및 [!UICONTROL 구독 관리]를 확인합니다.
 * **[!UICONTROL 개발자 연결]:** `adobe.io`로 이동하여 개발자 설명서를 찾습니다.
 
-## 개체 및 엔티티를 전역으로 검색 {#search}
+## 개체 및 엔티티를 전역으로 검색 {#globally-search}
 
 글로벌 검색을 사용하면 원활하고 일관성 있는 원클릭 환경에서 검색 가능한 비즈니스 개체 또는 엔티티를 찾을 수 있습니다. 이 검색은 최근에 액세스한 개체를 표시합니다.
 
