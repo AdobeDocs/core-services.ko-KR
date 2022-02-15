@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
+source-git-commit: a13cc6b69955653f851aa21eb055c5c21b860791
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 100%
+source-wordcount: '1541'
+ht-degree: 84%
 
 ---
 
@@ -105,18 +105,59 @@ Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사
 * **[!UICONTROL 상태]:** `https://status.adobe.com/experience_cloud`로 이동하여 제품 작동 상태 및 [!UICONTROL 구독 관리]를 확인합니다.
 * **[!UICONTROL 개발자 연결]:** `adobe.io`로 이동하여 개발자 설명서를 찾습니다.
 
-## 개체 및 엔티티를 전역으로 검색 {#globally-search}
+## [!UICONTROL 통합 검색] 개체 및 엔티티 {#globally-search}
 
-글로벌 검색을 사용하면 원활하고 일관성 있는 원클릭 환경에서 검색 가능한 비즈니스 개체 또는 엔티티를 찾을 수 있습니다. 이 검색은 최근에 액세스한 개체를 표시합니다.
+다음 [!UICONTROL 통합 검색] 검색을 통해 검색 가능한 비즈니스 개체 또는 개체를 간편하고 일관적으로 한 번의 클릭으로 찾을 수 있습니다. 이 검색은 최근에 액세스한 개체를 표시합니다.
 
 ![개체 및 엔티티를 전역으로 검색](assets/platform-search.png)
 
->[!NOTE]
->
->글로벌 검색은 Creative Cloud 애플리케이션에서는 사용할 수 없지만 추가 콘텐츠가 색인화되면 관련 애플리케이션에 추가될 수 있습니다. 2021년 7월 현재 가용성
+### 사용 가능
 
-* Experience Platform
-* Journey Optimizer
+통합 검색은 페이지 상단(Experience Cloud 헤더에서)에 표시되며 현재 다음과 같은 지원되는 제품에 항상 표시됩니다.
+
+* Experience Platform(AEP)
+* Journey Optimizer (AJO)
+
+더 많은 컨텐츠가 색인화되면 이 기능이 관련 애플리케이션에 추가됩니다.
+
+### 검색 가능한 개체 및 필드
+
+입력할 때 표시할 액세스 권한이 있는 객체의 일치하는 상위 결과를 입력합니다.
+
+![Experience Cloud에서 통합 검색](assets/unified-search-results.png)
+
+검색 가능한 비즈니스 개체는 다음과 같습니다.
+
+* 세그먼트(이름, 설명)
+* 스키마(이름, 설명)
+* 데이터 세트(이름, 설명)
+* 소스(이름, 설명)
+* 대상(이름, 설명)
+* 쿼리(이름, 설명)
+* 메시지(이름, 설명)
+* 오퍼(이름, 설명)
+* 구성 요소(이름, 설명)
+* 여정(이름, 설명)
+
+키워드가 탐색 페이지와 일치하는 경우 탐색 페이지 예제 데이터 세트에 대한 빠른 액세스 링크를 가져올 수 있습니다.
+
+또한 Experience League 및 커뮤니티에서 도움말 문서를 찾을 수 있습니다. 자연어 쿼리가 지원됩니다.
+
+예, _스키마를 만드는 방법_ 아래의 Experience League에서 결과를 생성합니다. _[!UICONTROL 학습]_:
+
+![Experience Cloud 도움말의 통합 검색](assets/unified-search-learning.png)
+
+검색 알고리즘에는 가장 관련성이 높은 레코드가 먼저 표시됩니다. 결과 순서는 다음과 같은 몇 가지 요소에 따라 달라집니다.
+
+* 개체에 액세스할 수 있는 사용자 권한
+* 일치 비율
+* 정확히 일치
+* 다음 _[!UICONTROL 상위 결과]_ 섹션에는 상위 30개 결과가 표시됩니다.
+
+검색을 세분화하려면 다음 중 하나를 클릭합니다.
+
+* **[!UICONTROL 모든 학습]**: Experience League에서 검색 열기
+* **[!UICONTROL 모두 표시...]**: 결과를 세분화하고 필터링할 수 있습니다
 
 ## 사용자 프로필 및 계정 환경 설정 {#preferences}
 
