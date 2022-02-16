@@ -25,8 +25,8 @@ Experience Cloud 헤더에서 다음 작업을 수행할 수 있습니다.
 
 * 애플리케이션 및 서비스에 액세스하기
 * 제품 설명서, 튜토리얼 및 커뮤니티 게시물 검색하기
-* 글로벌 검색을 사용하여 전역으로 비즈니스 개체 검색하기(Experience Platform 사용자에게만 제공)
-* 계정 환경 설정 관리(경고, 알림 및 구독)
+* 글로벌 검색을 사용하여 전역으로 비즈니스 개체 검색하기 (Experience Platform 사용자에게만 제공)
+* 계정 환경 설정 관리 (경고, 알림 및 구독)
 
 ## Experience Cloud에 로그인 {#signin}
 
@@ -163,7 +163,7 @@ Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사
 
 Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니다. 계정 환경 설정 메뉴에서 다음을 할 수 있습니다.
 
-* 어두운 테마 지정(일부 애플리케이션에서는 이 테마를 지원하지 않음)
+* 어두운 테마 지정 (일부 애플리케이션에서는 이 테마를 지원하지 않음)
 * [조직](organizations.md) 검색
 * 로그아웃
 * 계정 환경 설정, 알림 및 구독 구성
@@ -192,14 +192,14 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 
 ## Experience Cloud 도메인 {#domains}
 
-Experience Cloud는 다음 호스트를 사용하여 애플리케이션을 제공하고 성능과 제품 경험을 개선합니다. Adobe에서 최적의 환경을 구축하려면 다음 도메인을 방화벽의 허용 목록에 추가하는 것이 좋습니다. 추가 도메인은 Adobe Analytics와 같은 특정 Experience Cloud 애플리케이션에서 사용할 수 있습니다. 자세한 내용은 해당 애플리케이션의 설명서를 참조하십시오.
+Experience Cloud는 다음 호스트를 사용하여 애플리케이션을 제공하고 성능과 제품 경험을 개선합니다. Adobe에서 최적의 경험을 구축하려면 다음 도메인을 방화벽의 허용 목록에 추가하는 것이 좋습니다. 추가 도메인은 Adobe Analytics와 같은 특정 Experience Cloud 애플리케이션에서 사용할 수 있습니다. 자세한 내용은 해당 애플리케이션의 설명서를 참조하십시오.
 
 | 기술 | 도메인 |
 |--- |--- |
 | Adobe Experience Cloud 도메인 | `adobe.com`, `adobe.net`, `adobe.io` |
-| Adobe ID 관리 서비스(IMS) | `adobelogin.com` |
+| Adobe ID 관리 서비스 (IMS) | `adobelogin.com` |
 | Experience Cloud 글꼴 | `typekit.net` |
-| Gainsight(제품 지침 및 도움말용) | `esp.aptrinsic.com` |
+| Gainsight (제품 지침 및 도움말용) | `esp.aptrinsic.com` |
 
 ## 관리 및 교차 애플리케이션 서비스에 대한 도움 받기
 

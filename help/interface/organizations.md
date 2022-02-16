@@ -12,7 +12,7 @@ exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -36,13 +36,13 @@ Experience Cloud 내 조직 관리 및 전환에 대해 알아봅니다.
 
 지원을 위해 조직 ID를 찾아야 할 수도 있습니다. **[!UICONTROL 조직]** 메뉴를 사용하여 올바른 조직에 있는지 확인하거나 조직 간에 전환할 수 있습니다.
 
-조직 ID는 공급된 Experience Cloud 회사와 연결된 ID입니다. 이 ID는 24자의 영숫자 문자열과 그 뒤에 오는 (및 는 포함해야 함)입니다 `@AdobeOrg`.
+조직 ID는 공급된 Experience Cloud 회사와 연결된 ID입니다. 이 ID는 24자의 영숫자 문자열과 `@AdobeOrg`(포함 필수)로 구성됩니다.
 
-키보드 단축키를 사용하여 조직 ID와 다른 계정 정보를 볼 수 있습니다 **Ctrl+i** 페이지 `https://experience.adobe.com`를 클릭한 다음 **[!UICONTROL 지정된 조직]** 탭에서 사용할 수 있습니다.
+`https://experience.adobe.com`의 페이지에서 키보드 단축키 **Ctrl+i**&#x200B;를 사용한 다음 대화 상자에서 **[!UICONTROL 할당된 조직]** 탭을 클릭하여 다른 계정 정보와 함께 조직 ID를 볼 수 있습니다.
 
-![지정된 조직 ID](assets/assigned-organization.png)
+![할당된 조직 ID](assets/assigned-organization.png)
 
-또는, 관리자가 Admin Console에 로그인할 수 있습니다(다음으로 이동). [https://adminconsole.adobe.com](https://adminconsole.adobe.com))을 클릭하여 URL에서 IMS 조직 ID를 확인합니다.
+또는 관리자가 Admin Console에 로그인하여([https://adminconsole.adobe.com](https://adminconsole.adobe.com)로 이동) URL에서 IMS 조직 ID를 볼 수 있습니다.
 
 예를 들면 다음 URL의 경우
 
@@ -78,7 +78,7 @@ ID:
 
 ![프로필 편집](assets/edit-profile.png)
 
-기본 조직 및 랜딩 페이지에서 로그인 환경을 사용자 지정할 수 있습니다.
+기본 조직 및 랜딩 페이지에서 로그인 경험을 사용자 지정할 수 있습니다.
 
 ![기본 조직 및 랜딩 페이지](assets/default-organization.png)
 
@@ -88,5 +88,5 @@ ID:
 
 일반적으로, 계정 연결은 Adobe ID가 이전 사용자에게 연결되어 있어서 실패합니다. 계정 연결에 실패하면
 
-* [Adobe 지원에 문의하십시오](https://experienceleague.adobe.com/?support-solution=General#support).
+* [Adobe 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support)에 문의하십시오.
 * 문제가 해결되는 동안 여전히 표준 로그인을 사용하여 애플리케이션에 액세스할 수 있습니다.
