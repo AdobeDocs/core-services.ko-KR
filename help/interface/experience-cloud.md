@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: a13cc6b69955653f851aa21eb055c5c21b860791
+source-git-commit: 9ef52b69b26ceb362cc2caf9fc6a631648a98170
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 84%
@@ -156,8 +156,8 @@ Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사
 
 검색을 세분화하려면 다음 중 하나를 클릭합니다.
 
-* **[!UICONTROL 모든 학습]**: Experience League에서 검색 열기
-* **[!UICONTROL 모두 표시...]**: 결과를 세분화하고 필터링할 수 있습니다
+* **[!UICONTROL 모든 학습]**: Experience League에서 검색을 엽니다.
+* **[!UICONTROL 모두 표시...]**: 결과를 세분화하고 필터링할 수 있습니다.
 
 ## 사용자 프로필 및 계정 환경 설정 {#preferences}
 
