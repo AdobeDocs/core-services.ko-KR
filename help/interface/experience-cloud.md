@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 9ef52b69b26ceb362cc2caf9fc6a631648a98170
+source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 84%
+source-wordcount: '1540'
+ht-degree: 82%
 
 ---
 
@@ -118,7 +118,7 @@ Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사
 * Experience Platform(AEP)
 * Journey Optimizer (AJO)
 
-더 많은 컨텐츠가 색인화되면 이 기능이 관련 애플리케이션에 추가됩니다.
+더 많은 컨텐츠가 인덱싱되면 이 기능은 관련 애플리케이션에 추가됩니다.
 
 ### 검색 가능한 개체 및 필드
 
@@ -229,7 +229,7 @@ Experience Cloud는 다음 호스트를 사용하여 애플리케이션을 제�
 * [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)
 * [Experience Platform 데이터 수집/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=ko-KR)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko-KR)
-* [일반 데이터 보호 규정(GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+* [일반 데이터 보호 규정(GDPR) API](https://developer.adobe.com/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR)
 
 ## 튜토리얼
@@ -237,15 +237,15 @@ Experience Cloud는 다음 호스트를 사용하여 애플리케이션을 제�
 Adobe Experience League에서 제공하는 자체 도움말 튜토리얼과 빠른 사용 방법을 활용할 수 있습니다.
 
 * [Experience League의 모든 튜토리얼](https://experienceleague.adobe.com/?lang=ko-KR#quick-how-tos)
-* [Experience Platform 튜토리얼](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=ko-KR)
+* [Experience Platform 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
 * [실시간 고객 데이터 플랫폼](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ko-KR)
 
 ## 릴리스 정보 및 관련 Experience Cloud 도움말
 
 * [모든 Experience Cloud 애플리케이션에 대한 제품 설명서](https://experienceleague.adobe.com/docs/home.html?lang=ko-KR) - Experience Cloud 학습 및 지원에서 탐색
 * [릴리스 정보 및 제품 업데이트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR) - Experience Cloud의 새로운 기능 및 가입을 통한 업데이트 받기
-* [핵심 서비스 구현 튜토리얼](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - 핵심 서비스에 대한 비디오 및 튜토리얼 보기
+* [핵심 서비스 구현 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - 핵심 서비스에 대한 비디오 및 튜토리얼 보기
 * [Experience League의 전문가 지원](https://experienceleague.adobe.com/) - 전문가 및 커뮤니티의 안내형 학습
 * [교육 및 훈련](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK) - Adobe의 제품을 최대한 활용할 수 있도록 Adobe와 협력하기
-* [고객 경험 블로그](https://blog.adobe.com/en/topics/digital-transformation.html) - Experience Cloud 블로그 보기
+* [고객 경험 블로그](https://blog.adobe.com/en/topics/digital-transformation) - Experience Cloud 블로그 보기
 * [고객 지원](https://experienceleague.adobe.com/?support-solution=General#support) - Adobe 고객 지원 센터에 문의
