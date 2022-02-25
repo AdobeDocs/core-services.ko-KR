@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4606'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,12 +24,12 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
 
-## February - 2022
+## 2022년 2월
 
 | 기능 | 설명 |
 | ------- |-------|
-| ****[](https://experience.adobe.com/home) | __ This update also includes general layout and responsiveness improvements. |
-| **** | The Sandboxes indicator is now integrated within the header for all Experience Platform interface applications. [](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko) |
+| [Experience Cloud](https://experience.adobe.com/home) 홈에 추가된 바로 가기(**[!UICONTROL 최근 항목]**) | 랜딩 페이지의 새로운 _최근 항목_ 헤더 아래에서 가장 최근의 Journey Optimizer 및 Experience Platform 작업에 대한 바로 가기에 액세스할 수 있습니다. 이 업데이트에는 일반 레이아웃 및 응답성 개선 사항도 포함됩니다. |
+| **[!UICONTROL 샌드박스]**&#x200B;가 헤더 표시줄로 이동됨 | 이제 샌드박스 표시기가 모든 Experience Platform 인터페이스 애플리케이션의 헤더에 통합되었습니다. 자세한 내용은 Experience Platform의 [샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko-KR)를 참조하십시오. |
 
 ## 2021년 11월
 
@@ -66,7 +66,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 | 기능 | 날짜 | 설명 |
 | ------- | ------- | ------- |
-| Adobe Federated ID용 SSO(Single Sign-On) 지원 | 2021년 6월 17일 | Federated ID를 사용하는 경우, 이메일 주소 또는 암호를 입력할 필요 없이 Experience Cloud에 로그인할 수 있습니다. 이 기능을 사용하려면 `#/sso:@domain` 을 Experience Cloud URL에 추가하십시오. <br>예를 들어, 소유하고 있는 도메인이 `adobecustomer.com` 이고 Adobe Analytics에 로그인하고자 한다고 가정하겠습니다. URL은 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`가 됩니다. |
+| Adobe Federated ID용 SSO(Single Sign-On) 지원 | 2021년 6월 17일 | Federated ID를 사용하는 경우, 이메일 주소 또는 암호를 입력할 필요 없이 Experience Cloud에 로그인할 수 있습니다. 이 기능을 사용하려면 `#/sso:@domain`을 Experience Cloud URL에 추가하십시오. <br>예를 들어 소유하고 있는 도메인이 `adobecustomer.com`이고 Adobe Analytics에 로그인하고자 한다고 가정하겠습니다. URL은 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`가 됩니다. |
 | Experience League 검색 | 2021년 6월 1일 | Experience League 설명서 검색이 개선되었습니다. [Experience League](https://experienceleague.adobe.com/docs/?lang=ko-KR)로 이동하고 **[!UICONTROL 검색]** 필드를 사용하여 튜토리얼, 설명서, 과정 등을 찾을 수 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -89,12 +89,12 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 {style=&quot;table-layout:auto&quot;}
 
-## 4월 - 2020년
+## 2020년 4월
 
 * Experience Cloud [!UICONTROL 피드] 페이지는 더 이상 사용되지 않습니다. (EXC-8505)
 * 새로운 브랜딩 요소를 반영하도록 Experience Cloud 로그인 페이지가 업데이트되었습니다. (EXC-10747)
 
-## 2월 - 2020년
+## 2020년 2월
 
 | 기능 | 설명 |
 | -----------| ---------- |
@@ -171,7 +171,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Assets 개선 사항 </p> </td> 
-   <td colname="col2"> <p>Experience Cloud Assets에서는 중앙의 한 위치에서 디지털 에셋을 저장, 공유 및 동기화할 수 있습니다. Experience Cloud Assets는 AEM( <span class="keyword"> Adobe Experience Manager</span> )에서 사용할 수 있는 기능 중 일부를 사용합니다. </p> <p><a href="experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local"> Experience Cloud</a>를 참조하십시오</p> </td> 
+   <td colname="col2"> <p>Experience Cloud Assets에서는 중앙의 한 위치에서 디지털 에셋을 저장, 공유 및 동기화할 수 있습니다. Experience Cloud Assets는 AEM(<span class="keyword"> Adobe Experience Manager</span>)에서 사용할 수 있는 기능 중 일부를 사용합니다. </p> <p><a href="experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local"> Experience Cloud</a>를 참조하십시오</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>계정 연결 개선 사항 </p> </td> 
@@ -281,7 +281,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
      <li id="li_6E98974CCB094ABBAB57C51ED56C3F00"> <span class="wintitle"> Admin Console</span> </li> 
      <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">Enterprise ID 및 Federated ID 지원 </li> 
     </ul> </td> 
-   <td colname="col2"> <p>사용자 및 그룹 관리 기능은 Admin Console로 이동되었습니다. 새로운 이동 경로는 다음과 같습니다. </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> 관리</span> &gt; <span class="uicontrol"> Admin Console 시작</span></p> <p> 또한 Enterprise ID 및 Federated ID에 대한 지원도 추가되었습니다. 동일한 엔터프라이즈 배포에서는 Enterprise ID, Federated ID 및 Adobe ID를 사용할 수 있습니다. 예를 들어, 다른 Adobe 제품 및 서비스를 사용하는 사용자의 경우 Adobe ID를 사용하십시오. 계정을 엄격히 관리하기를 바라는 사용자의 경우에는 Enterprise ID나 Federated ID를 사용하십시오. </p> </td> 
+   <td colname="col2"> <p>사용자 및 그룹 관리 기능은 Admin Console로 이동되었습니다. 새로운 이동 경로는 다음과 같습니다. </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> 관리</span> &gt; <span class="uicontrol"> Admin Console 시작</span></p> <p> 또한 Enterprise ID 및 Federated ID에 대한 지원도 추가되었습니다. 동일한 엔터프라이즈 배포에서는 Enterprise ID, Federated ID 및 Adobe ID를 사용할 수 있습니다. 예를 들어 다른 Adobe 제품 및 서비스를 사용하는 사용자의 경우 Adobe ID를 사용하십시오. 계정을 엄격히 관리하기를 바라는 사용자의 경우에는 Enterprise ID나 Federated ID를 사용하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -381,7 +381,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
 * 일부 사용자의 경우 대용량 파일 형식을 Experience Cloud Assets에 업로드할 때 문제가 발생할 수 있습니다.
 * 사용자가 Media Optimizer에서 Experience Cloud 카드에 대한 링크를 누락할 수 있습니다.
-* 일부 관리자는 Experience Cloud 가입 초대장을 승인한 후 자신의 계정을 연결할 때 문제가 발생할 수 있습니다.
+* 일부 관리자는 Experience Cloud 가입 초대를 수락한 후 자신의 계정을 연결할 때 문제가 발생할 수 있습니다.
 * Experience Cloud 인터페이스는 여러 사용자가 동시에 사용하는 경우 성능이 저하될 수 있습니다.
 * 일부 사용자는 오류 알림을 받는 대신 오래된 에셋을 삭제할 수 있습니다.
 * 일부 사용자는 동일한 Adobe ID로 동시에 두 개의 브라우저에 로그인할 때 문제가 발생할 수 있습니다.
@@ -569,7 +569,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Audiences </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> 대상</span></p> <p> <span class="wintitle"> 대상</span>은 세그먼트 작업 방식과 유사한 방식으로 대상을 만들고, 편집하고, 관리하는 곳입니다. 예를 들어, Reports &amp; Analytics에서 세그먼트를 만든 후 <span class="wintitle"> Experience Cloud</span><span class="wintitle"> 대상</span>에 공유할 수 있습니다. 이렇게 공유된 대상은 <span class="keyword"> Adobe Target</span>에서 캠페인 활동에 사용하거나 Adobe Audience Manager에서 세분화에 사용할 수 있습니다. </p> <p> <p>참고: 이 기능에 대한 액세스 권한을 요청하려면 <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>를 방문하십시오. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> 대상</span></p> <p> <span class="wintitle"> 대상</span>은 세그먼트 작업 방식과 유사한 방식으로 대상을 만들고, 편집하고, 관리하는 곳입니다. 예를 들어 Reports &amp; Analytics에서 세그먼트를 만든 후 <span class="wintitle"> Experience Cloud</span><span class="wintitle"> 대상</span>에 공유할 수 있습니다. 이렇게 공유된 대상은 <span class="keyword"> Adobe Target</span>에서 캠페인 활동에 사용하거나 Adobe Audience Manager에서 세분화에 사용할 수 있습니다. </p> <p> <p>참고: 이 기능에 대한 액세스 권한을 요청하려면 <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>를 방문하십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
@@ -596,9 +596,9 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 이미지가 Adobe Target Essentials에 사용되는 경우 에셋에서 이미지를 삭제해도 경고가 표시되지 않습니다.
 * 여러 사용자가 동시에 사용할 경우 [!UICONTROL Experience Cloud] 인터페이스 성능이 느려집니다.
 * 에서 사용된 이미지를 [!DNL Adobe Target Essentials] [!UICONTROL Experience Cloud Assets]에서 삭제해도 경고가 발생하지 않습니다.
-* 로그인 동안 **[!UICONTROL 내 정보 저장]** 을 선택하지 않았을 때 사용자가 15분 후 로그아웃되었습니다.
+* 로그인 동안 **[!UICONTROL 내 정보 저장]**&#x200B;을 선택하지 않았을 때 사용자가 15분 후 로그아웃되었습니다.
 * 모든 권한과 자격 변경 사항이 적용되려면 사용자가 로그아웃한 후 다시 로그인해야 합니다.
-* [!DNL Experience Cloud]에 로그인하는 데 1초 이상 걸립니다.
+* [!DNL Experience Cloud]에 로그인하는 데 1초 이상 소요됩니다.
 * 특정 사용자의 경우, [!DNL Experience Cloud]에서 삭제된 파일은 [!DNL Digital Asset Management]와 동기화되지 않습니다.
 * 15분 정도 브라우저 비활동이 지속된 후에 사용자가 로그아웃되었습니다.
 * 사용자가 보드에서 PowerPoint 파일을 공유할 수 없었습니다.
@@ -620,7 +620,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
     <ol id="ol_F94B816121494B0FA16CC07B0E96AED8"> 
      <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p><span class="keyword"> Experience Cloud</span>에서 <span class="uicontrol"> 관리</span>를 선택합니다. </p> </li> 
      <li id="li_94EF58E7A4974B63951E14F72A710183"> <p><span class="uicontrol"> Adobe Experience Cloud에 공유</span> 버튼을 책갈피 도구 모음으로 드래그합니다. </p> </li> 
-     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>도움말 페이지로 이동한(또는 이 페이지에 남은) 다음, 브라우저의 책갈피 도구 모음에서 <span class="uicontrol"> Adobe Experience Cloud에 공유</span> 를 선택합니다. </p> <p>이 단계에서는 <span class="wintitle"> Experience Cloud</span>에서 볼 수 있는 카드를 만듭니다. </p> </li> 
+     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>도움말 페이지로 이동한(또는 이 페이지에 남은) 다음, 브라우저의 책갈피 도구 모음에서 <span class="uicontrol"> Adobe Experience Cloud에 공유</span>를 선택합니다. </p> <p>이 단계에서는 <span class="wintitle"> Experience Cloud</span>에서 볼 수 있는 카드를 만듭니다. </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -630,16 +630,16 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 * 사용자 지정 태그를 에셋에 추가하면 다른 메타데이터 변경 사항을 지속할 수 없습니다.
 * 사용자는 보드를 새로 고쳐서 삭제된 카드가 보기에서 사라지도록 해야 합니다.
-* 로그인 동안 **[!UICONTROL 내 정보 저장]** 을 선택하지 않으면 사용자가 15분 후 로그아웃됩니다.
+* 로그인 동안 **[!UICONTROL 내 정보 저장]**&#x200B;을 선택하지 않으면 사용자가 15분 후 로그아웃됩니다.
 * [!DNL Analytics] 애플리케이션 랜딩 페이지에 형식 오류가 표시됩니다.
 * 모든 권한과 자격 변경 사항이 적용되려면 사용자가 로그아웃한 후 다시 로그인해야 합니다.
 * 이미지가 [!UICONTROL 에 사용되는 경우] 에셋 [!DNL Adobe Target Essentials]에서 이미지를 삭제해도 경고가 표시되지 않습니다.
 * 에셋 카드 보기의 주석 링크를 선택할 수 없습니다.
 * 새 사용자를 추가하기 위한 콤보 상자의 옵션이 입력하는 동안 일시적으로 사라집니다.
-* [!DNL Experience Cloud]에 로그인하는 데 1초 이상 걸립니다.
+* [!DNL Experience Cloud]에 로그인하는 데 1초 이상 소요됩니다.
 * [!DNL Media Optimizer]에서 공유한 데이터가 [!DNL Experience Cloud]에서 잘못 표시되었습니다.
 * [!DNL Media Optimizer]에서 사용자가 만들어져도 Adobe [!DNL Experience Cloud]에서 사용자가 자동으로 만들어지지 않습니다.
-* 여러 [!DNL Experience Cloud] 서버에서 [!DNL Adobe Target] 로그인을 사용하는 경우 [!DNL Adobe Target] 를 [!DNL Target]에 연결할 수 없습니다.
+* 여러 [!DNL Experience Cloud] 서버에서 [!DNL Adobe Target] 로그인을 사용하는 경우 [!DNL Adobe Target]를 [!DNL Target]에 연결할 수 없습니다.
 * [!DNL Experience Cloud] 인터페이스는 많은 사용자가 동시에 사용하는 경우 속도가 느려질 수 있습니다.
 * [!DNL Search&Promote] 조직 및 제품 액세스 [!UICONTROL 페이지에서]에 연결할 수 없습니다.
 * [!DNL Adobe Media Optimizer] 시뮬레이션 카드가 올바로 렌더링하고 있지 않습니다.
@@ -670,7 +670,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 에셋 카드 보기의 설명 링크를 선택할 수 없습니다.
 * Experience Cloud 인터페이스는 많은 사용자가 동시에 사용하는 경우 속도가 느려질 수 있습니다.
 * 여러 Target 서버에서 [!DNL Adobe Target] 로그인을 사용하는 경우 Experience Cloud를 [!DNL Adobe Target]에 연결할 수 없습니다.
-* Experience Cloud에 로그인하는 데 1초 이상 걸립니다.
+* Experience Cloud에 로그인하는 데 1초 이상 소요됩니다.
 * 사용자 지정 태그를 에셋에 추가하면 다른 메타데이터 변경 사항을 지속할 수 없습니다.
 * Experience Cloud에서 사용자를 생성할 때 [!DNL Adobe Media Optimizer]에서 사용자를 자동으로 생성하지 않습니다.
 * 새 사용자를 추가하기 위한 콤보 상자의 옵션이 입력하는 동안 일시적으로 사라집니다.
