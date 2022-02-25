@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: 275588a8101e953d5087a44e4588b239be477bd3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '547'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 98%
 
 Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 
-**업데이트됨 2/8/2022**
+**업데이트 날짜: 2022년 2월 8일**
 
-을(를) 찾을 수 있는 방법에 대한 업데이트 [조직 ID](organizations.md).
+[조직 ID](organizations.md)를 찾는 방법에 대한 업데이트입니다.
 
 **업데이트 날짜: 2021년 12월 13일**
 
@@ -51,7 +51,7 @@ Adobe 지원팀이 Adobe 클라우드 환경에 액세스하여 문제를 해결
 
 **업데이트 날짜: 2021년 8월 6일**
 
-업데이트된 [자사 쿠키](cookies-first-party.md).
+[자사 쿠키](cookies-first-party.md)가 업데이트되었습니다.
 
 **업데이트 날짜: 2021년 6월 4일**
 
@@ -59,11 +59,11 @@ Adobe 지원팀이 Adobe 클라우드 환경에 액세스하여 문제를 해결
 
 **업데이트 날짜: 2021년 6월 1일**
 
-Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한 새로운 도움말로 [랜딩 페이지](experience-cloud.md) 를 업데이트했습니다.
+Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한 새로운 도움말로 [랜딩 페이지](experience-cloud.md)를 업데이트했습니다.
 
 **업데이트 날짜: 2020년 8월 19일**
 
-정책 정보로 업데이트한 [Experience Cloud 사용자 세부 사항 보기(관리 도구)](admin-tool-experience-cloud.md)
+정책 정보로 업데이트한 [Experience Cloud 사용자 세부 사항 보기 (관리 도구)](admin-tool-experience-cloud.md)
 
 **업데이트 날짜: 2020년 5월 19일**
 
@@ -78,7 +78,7 @@ Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한
 
 **업데이트 날짜: 2020년 3월 10일**
 
-자사 쿠키 섹션의 [호스트 이름 전달 유효성 검사](cookies-first-party.md#validate) 을 업데이트했습니다.
+자사 쿠키 섹션의 [호스트 이름 전달 유효성 검사](cookies-first-party.md#validate)를 업데이트했습니다.
 
 **업데이트 날짜: 2020년 2월 20일**
 
@@ -90,7 +90,7 @@ Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한
 
 **업데이트 날짜: 2018년 6월 8일**
 
-[고객 속성의 데이터 파일 및 데이터 소스 정보](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) 를 여러 개의 파일 업로드에 대한 정보로 업데이트했습니다.
+[고객 속성의 데이터 파일 및 데이터 소스 정보](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)를 여러 개의 파일 업로드에 대한 정보로 업데이트했습니다.
 
 **업데이트 날짜: 2018년 6월 6일**
 
