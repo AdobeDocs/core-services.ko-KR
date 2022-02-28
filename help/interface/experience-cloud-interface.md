@@ -7,7 +7,7 @@ topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
 ht-degree: 100%
 
@@ -95,7 +95,7 @@ Experience Cloud 검색을 통해 [Experience League](https://experienceleague.a
 
 계정 환경 설정 메뉴에서 다음을 할 수 있습니다.
 
-* 어두운 테마 지정(일부 애플리케이션에서는 이 테마를 지원하지 않음)
+* 어두운 테마 지정 (일부 애플리케이션에서는 이 테마를 지원하지 않음)
 * [조직](organizations.md) 검색
 * 로그아웃
 * 계정 [환경 설정, 알림 및 구독](#preferences) 구성
