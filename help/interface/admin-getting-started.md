@@ -11,7 +11,7 @@ exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
 workflow-type: tm+mt
 source-wordcount: '1567'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,10 +33,10 @@ ID 유형에 대한 자세한 내용은 [Adobe Admin Console의 ID 유형](https
 
 ### 마이그레이션 프로세스
 
-조직 관리자는 사용자의 마이그레이션 30일 전에 알림 이메일을 수신하게 됩니다.
+마이그레이션 시간이 되면 조직 관리자는 사용자의 마이그레이션 30일 전에 알림 이메일을 수신하게 됩니다.
 
-* 마이그레이션은 조직의 주요 작업 시간대가 아닐 때 또는 주말에 오후 10시에서 오전 6시 사이로 예약됩니다.
-* 마이그레이션 중에 Experience Cloud 응용 프로그램에 약 15분 동안 액세스할 수 없고 최대 30분 동안 Admin Console에 액세스할 수 없습니다. 그렇지 않으면 이 마이그레이션이 원활하게 이루어집니다.
+* 마이그레이션은 조직의 주요 시간대 또는 주말을 기준으로 오후 10시에서 오전 6시 사이로 예약됩니다.
+* 마이그레이션하는 동안 Experience Cloud 애플리케이션에 약 15분 동안 액세스할 수 없으며 Admin Console에는 최대 30분 동안 액세스할 수 없습니다. 그렇지 않으면 이 마이그레이션이 원활하게 이루어집니다.
 
 ### 마이그레이션 후 변경 사항
 
@@ -82,13 +82,13 @@ _[!UICONTROL 제품 프로필]_&#x200B;은 사용자에게 할당할 수 있는 
 1. **[!UICONTROL 새 프로필]**&#x200B;을 선택합니다.
 1. 프로필 세부 사항을 구성한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-자세한 내용 및 Creative Cloud와 Document Cloud 제품 관리에 대한 도움말은 [관리 사용 안내서](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/users.ug.html)의 [ID](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/identity.ug.html) 를 참조하십시오.
+자세한 내용 및 Creative Cloud와 Document Cloud 제품 관리에 대한 도움말은 [관리 사용 안내서](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/users.ug.html)의 [ID](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/identity.ug.html)를 참조하십시오.
 
 **관련 도움말**
 
-* 관리 사용 안내서의 [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html) 를 참조하십시오.
-* 자세한 내용은 Target 도움말의 [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ko-KR) 을 참조하십시오.
-* 비디오: [Adobe Admin Console에서 Adobe Target 작업 공간을 구성하는 방법](https://helpx.adobe.com/kr/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* 관리 사용 안내서의 [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)를 참조하십시오.
+* 자세한 내용은 Target 도움말의 [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ko-KR)을 참조하십시오.
+* 비디오: [Adobe Admin Console에서 Adobe Target 작업 영역을 구성하는 방법](https://helpx.adobe.com/kr/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 사용자에게 관리자 역할 위임 {#delegate-rights}
 
@@ -141,18 +141,18 @@ Analytics 사용자 ID 마이그레이션 도구는 Analytics 관리자가 Analy
 
 **관련 도움말**
 
-* [ Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en)
+* [Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR)
 * [Analytics 사용자 ID 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ko-KR)
 
 ## Adobe Target 관리 - 제품 프로필과 작업 영역 비교 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
-Adobe Target에서 작업 영역과 제품 프로필은 동일한 개념입니다. 이를 통해 조직에서는 특정 사용자 세트를 특정 속성 세트에 할당할 수 있습니다. 여러 가지 방식에서 작업 공간은 Adobe Analytics의 보고서 세트와 비슷합니다.
+Adobe Target에서 작업 영역과 제품 프로필은 동일한 개념입니다. 이를 통해 조직에서는 특정 사용자 세트를 특정 속성 세트에 할당할 수 있습니다. 여러 가지 방식에서 작업 영역은 Adobe Analytics의 보고서 세트와 비슷합니다.
 
 다음을 참조하십시오.
 
 * [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
 * [제품 및 프로필 관리](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* 비디오: [Adobe Admin Console에서 Adobe Target 작업 공간을 구성하는 방법](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* 비디오: [Adobe Admin Console에서 Adobe Target 작업 영역을 구성하는 방법](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign 제품 프로필, 테넌트 및 보안 그룹 관리 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -160,7 +160,7 @@ Campaign의 *테넌트*&#x200B;는 Admin Console 제품 페이지에서 *제품*
 
 *보안 그룹*&#x200B;은 제품 프로필로 표시됩니다.
 
-보안 그룹과 보안 그룹에 사용자를 지정하는 것에 대한 자세한 내용은 [그룹 및 사용자 관리](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=ko-KR) 를 참조하십시오.
+보안 그룹과 보안 그룹에 사용자를 지정하는 것에 대한 자세한 내용은 [그룹 및 사용자 관리](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=ko-KR)를 참조하십시오.
 
 ## Experience Platform 데이터 수집 (Launch) 관리 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
@@ -168,11 +168,11 @@ Experience Platform [!UICONTROL 데이터 수집] ([!UICONTROL Launch])은 [!UIC
 
 사용자를 [!UICONTROL Platform Launch]에 초대하고 사용자 역할과 권한을 할당합니다.
 
-[사용자 권한](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ko-KR) 를 참조하여 Admin Console에서의 사용자 권한에 대해 알아보고, 프로필에 권한 지정하기를 포함하여 Launch 관련 옵션 설정에 관해 알아보십시오.
+[사용자 권한](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ko-KR)를 참조하여 Admin Console에서의 사용자 권한에 대해 알아보고, 프로필에 권한 지정하기를 포함하여 Launch 관련 옵션 설정에 관해 알아보십시오.
 
 ## Experience Manager as a Cloud Service
 
-Adobe Enterprise 고객은 Adobe [!UICONTROL Admin Console]에서 조직으로 표시됩니다. Experience Manager 고객은 Adobe [!UICONTROL Admin Console] 을 사용하여 Experience Manager as a [!UICONTROL Cloud Service]에 대한 제품 자격 및 IMS 인증을 관리할 수 있습니다.
+Adobe Enterprise 고객은 Adobe [!UICONTROL Admin Console]에서 조직으로 표시됩니다. Experience Manager 고객은 Adobe [!UICONTROL Admin Console]을 사용하여 Experience Manager as a [!UICONTROL Cloud Service]에 대한 제품 자격 및 IMS 인증을 관리할 수 있습니다.
 
 [Experience Manager as a Cloud Service를 위한 IMS 지원](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=ko-KR)을 참조하십시오.
 
@@ -180,17 +180,17 @@ Adobe Enterprise 고객은 Adobe [!UICONTROL Admin Console]에서 조직으로 �
 
 Audience Manager 사용자를 만들고 그룹에 지정합니다. 제한(트레이트, 세그먼트, 대상 및 [!DNL AlgoModel])을 볼 수도 있습니다.
 
-Audience Manager 도움말의 [관리](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=ko-KR) 를 참조하십시오.
+Audience Manager 도움말의 [관리](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=ko-KR)를 참조하십시오.
 
-## Experience Cloud에서 지원되는 브라우저입니다
+## Experience Cloud에서 지원되는 브라우저
 
-* [!DNL Microsoft® Edge] (Microsoft®는 Internet Explorer 8, 9 및 10에 대한 [지원을 종료](https://www.microsoft.com/ko-kr/WindowsForBusiness/End-of-IE-support) 했습니다. 따라서 Adobe는 이러한 버전의 Internet Explorer에 대해 보고된 문제는 수정하지 않습니다.)
+* [!DNL Microsoft® Edge] (Microsoft®는 Internet Explorer 8, 9 및 10에 대한 [지원을 종료](https://www.microsoft.com/ko-kr/WindowsForBusiness/End-of-IE-support)했습니다. 따라서 Adobe는 이러한 버전의 Internet Explorer에 대해 보고된 문제는 수정하지 않습니다.)
 * [!DNL Google Chrome]
 * [!DNL Firefox]
 * [!DNL Safari]
 * [!DNL Opera]
 
-**참고:** Experience Cloud 인터페이스는 이러한 브라우저를 지원하지만 개별 애플리케이션이 모든 브라우저를 지원하는 것은 아닙니다. (예를 들어 [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)는 [!DNL Opera]를 지원하지 않으며, [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=ko-KR)은 [!DNL Safari]를 지원하지 않습니다.)
+**참고:** Experience Cloud 인터페이스는 이러한 브라우저를 지원하지만 개별 애플리케이션이 모든 브라우저를 지원하는 것은 아닙니다. (예를 들어 [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=ko-KR)는 [!DNL Opera]를 지원하지 않으며, [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=ko-KR)은 [!DNL Safari]를 지원하지 않습니다.)
 
 ### 솔루션 및 제품 요구 사항
 
