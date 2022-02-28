@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
+source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 94%
+source-wordcount: '1285'
+ht-degree: 97%
 
 ---
 
@@ -104,60 +104,6 @@ Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사
 * **[!UICONTROL 피드백]:** Experience Cloud 경험에 관한 의견을 공유할 수 있습니다. 귀하의 피드백은 Adobe의 제품 및 서비스를 개선하는 데 사용됩니다.
 * **[!UICONTROL 상태]:** `https://status.adobe.com/experience_cloud`로 이동하여 제품 작동 상태 및 [!UICONTROL 구독 관리]를 확인합니다.
 * **[!UICONTROL 개발자 연결]:** `adobe.io`로 이동하여 개발자 설명서를 찾습니다.
-
-## 오브젝트 및 엔티티에 대한 [!UICONTROL 통합 검색] {#globally-search}
-
-[!UICONTROL 통합 검색]을 사용하면 원활하고 일관성 있는 원클릭 환경에서 검색 가능한 비즈니스 오브젝트 또는 엔티티를 찾을 수 있습니다. 이 검색은 최근에 액세스한 오브젝트를 표시합니다.
-
-![개체 및 엔티티를 전역으로 검색](assets/platform-search.png)
-
-### 가용성
-
-통합 검색은 페이지 상단(Experience Cloud 헤더)에 표시되며 현재 지원되는 제품에 대해 항상 표시됩니다.
-
-* Experience Platform (AEP)
-* Journey Optimizer (AJO)
-
-더 많은 컨텐츠가 인덱싱되면 이 기능은 관련 애플리케이션에 추가됩니다.
-
-### 검색 가능한 오브젝트 및 필드
-
-입력할 때 표시할 액세스 권한이 있는 오브젝트에서 일치하는 상위 결과가 표시됩니다.
-
-![Experience Cloud의 통합 검색](assets/unified-search-results.png)
-
-검색 가능한 비즈니스 오브젝트는 다음과 같습니다.
-
-* 세그먼트 (이름, 설명)
-* 스키마 (이름, 설명)
-* 데이터 세트 (이름, 설명)
-* 소스 (이름, 설명)
-* 대상 (이름, 설명)
-* 쿼리 (이름, 설명)
-* 메시지 (이름, 설명)
-* 오퍼 (이름, 설명)
-* 구성 요소 (이름, 설명)
-* 여정 (이름, 설명)
-
-키워드가 탐색 페이지와 일치하는 경우 탐색 페이지 예제 데이터 세트에 대한 빠른 액세스 링크를 가져올 수 있습니다.
-
-또한 Experience League 및 커뮤니티에서 도움말 문서를 찾을 수 있습니다. 자연어 쿼리가 지원됩니다.
-
-예, _스키마를 만드는 방법_ 아래의 Experience League에서 결과를 생성합니다. _[!UICONTROL 학습]_:
-
-![Experience Cloud 도움말의 통합 검색](assets/unified-search-learning.png)
-
-검색 알고리즘은 가장 관련성이 높은 레코드를 먼저 표시합니다. 결과 순서는 다음과 같은 몇 가지 요인에 따라 달라집니다.
-
-* 오브젝트에 액세스할 수 있는 사용자 권한
-* 일치율
-* 정확한 일치
-* _[!UICONTROL 상위 결과]_ 섹션에는 상위 30개 결과가 표시됩니다.
-
-검색을 구체화하려면 다음 중 하나를 클릭하십시오.
-
-* **[!UICONTROL 모든 학습]**: Experience League에서 검색 열기.
-* **[!UICONTROL 모두 표시...]**: 결과를 세분화하고 필터링할 수 있습니다.
 
 ## 사용자 프로필 및 계정 환경 설정 {#preferences}
 
