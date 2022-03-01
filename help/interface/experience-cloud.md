@@ -11,7 +11,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
 source-wordcount: '1285'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -182,7 +182,7 @@ Experience Cloud는 다음 호스트를 사용하여 애플리케이션을 제�
 
 Adobe Experience League에서 제공하는 자체 도움말 튜토리얼과 빠른 사용 방법을 활용할 수 있습니다.
 
-* [Experience League의 모든 튜토리얼](https://experienceleague.adobe.com/?lang=ko-KR#quick-how-tos)
+* [Experience League의 모든 튜토리얼](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
 * [Experience Platform 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
 * [실시간 고객 데이터 플랫폼](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ko-KR)
 
