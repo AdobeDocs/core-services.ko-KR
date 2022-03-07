@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 
 **업데이트 날짜: 2022년 2월 28일**
 
-다음에 대한 페이지가 추가되었습니다 [통합 검색](search-experience-cloud.md)
+[통합 검색](search-experience-cloud.md) 페이지 추가됨
 
 **업데이트 날짜: 2022년 2월 8일**
 
@@ -142,6 +142,6 @@ Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한
 
 **업데이트 날짜: 2014년 5월 22일**
 
-Audiences를 위한 설명서가 추가되었습니다.
+Audiences에 대한 설명서가 추가되었습니다.
 
 [대상](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)을 참조하십시오
