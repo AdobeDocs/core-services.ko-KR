@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: e2d1c99e191a14622126d868fce45c5ce88e571f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4640'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
 
-## 3월 - 2022년
+## 2022년 3월
 
 | 기능 | 설명 |
 | ------- |-------|
-| 액세스 [!UICONTROL 최근 항목] 검색 창을 통해 Experience Platform 및 Journey Optimizer 간 | 이제 사용자는 통합 검색 막대를 통해 AEP 및 AJO의 모든 페이지에서 최근에 액세스한 개체에 액세스할 수 있습니다. |
+| 검색창을 통해 Experience Platform 및 Journey Optimizer 전체에 걸쳐 [!UICONTROL 최근 항목] 액세스 | 이제 사용자는 통합된 검색창을 통해 AEP 및 AJO의 모든 페이지에서 최근에 액세스된 오브젝트에 액세스할 수 있습니다. |
 
 ## 2022년 2월
 
