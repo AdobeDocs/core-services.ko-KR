@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+source-git-commit: 77e99651b49fa411a9af941bbf73b746e05a3609
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 92%
 
 ---
 
@@ -54,6 +54,8 @@ Experience Cloud Assets는 애플리케이션 간에 공유할 수 있는 마케
 도구 모음에서 검색, 타임라인, 렌디션, 편집, 주석 달기 및 다운로드를 포함한 기능에 빠르게 액세스할 수 있습니다.
 
 ![도구 모음 액세스](assets/asset-tools.png)
+
+! Target에서 사용되었거나 사용 중인 자산을 삭제하려면 해당 자산의 모든 사용을 제거해야 합니다.
 
 ## 에셋 편집 {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
