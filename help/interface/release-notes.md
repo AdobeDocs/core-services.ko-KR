@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e2d1c99e191a14622126d868fce45c5ce88e571f
-workflow-type: ht
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+workflow-type: tm+mt
 source-wordcount: '4640'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -294,7 +294,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 **수정 사항**
 
-* [!DNL Experience Cloud]와 [!DNL Media Optimizer] 간 SSO(Single Sign-On)가 되지 않던 문제를 수정했습니다.
+* [!DNL Experience Cloud]와 [!DNL Advertising Cloud] 간 SSO(Single Sign-On)가 되지 않던 문제를 수정했습니다.
 
 **알려진 문제**
 
@@ -386,7 +386,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 사용자가 보드에서 PowerPoint 파일을 공유할 수 없습니다.
 * 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
 * 일부 사용자의 경우 대용량 파일 형식을 Experience Cloud Assets에 업로드할 때 문제가 발생할 수 있습니다.
-* 사용자가 Media Optimizer에서 Experience Cloud 카드에 대한 링크를 누락할 수 있습니다.
+* 사용자가 Advertising Cloud에서 Experience Cloud 카드에 대한 링크를 누락할 수 있습니다.
 * 일부 관리자는 Experience Cloud 가입 초대를 수락한 후 자신의 계정을 연결할 때 문제가 발생할 수 있습니다.
 * Experience Cloud 인터페이스는 여러 사용자가 동시에 사용하는 경우 성능이 저하될 수 있습니다.
 * 일부 사용자는 오류 알림을 받는 대신 오래된 에셋을 삭제할 수 있습니다.
@@ -595,7 +595,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 **수정 사항**
 
 * [!DNL Experience Cloud]가 [!DNL Adobe Target]에 연결되어 있지 않습니다. 이 문제는 [!DNL Adobe Target] 로그인을 여러 [!DNL Target] 서버에서 사용할 수 있을 때 발생합니다.
-* [!DNL Adobe Media Optimizer]에서 사용자를 생성할 때 [!DNL Experience Cloud]에서 사용자를 자동으로 생성하지 않습니다.
+* [!DNL Adobe Advertising Cloud]에서 사용자를 생성할 때 [!DNL Experience Cloud]에서 사용자를 자동으로 생성하지 않습니다.
 * 새 사용자를 추가하기 위한 콤보 상자의 옵션이 입력하는 동안 일시적으로 사라졌습니다.
 * 에셋 카드 보기의 설명 링크를 선택할 수 없습니다.
 * 사용자 지정 태그를 에셋에 추가한 후에 다른 메타데이터 변경 사항이 지속되지 않습니다.
@@ -643,12 +643,12 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 에셋 카드 보기의 주석 링크를 선택할 수 없습니다.
 * 새 사용자를 추가하기 위한 콤보 상자의 옵션이 입력하는 동안 일시적으로 사라집니다.
 * [!DNL Experience Cloud]에 로그인하는 데 1초 이상 소요됩니다.
-* [!DNL Media Optimizer]에서 공유한 데이터가 [!DNL Experience Cloud]에서 잘못 표시되었습니다.
-* [!DNL Media Optimizer]에서 사용자가 만들어져도 Adobe [!DNL Experience Cloud]에서 사용자가 자동으로 만들어지지 않습니다.
+* [!DNL Advertising Cloud]에서 공유한 데이터가 [!DNL Experience Cloud]에서 잘못 표시되었습니다.
+* [!DNL Advertising Cloud]에서 사용자가 만들어져도 Adobe [!DNL Experience Cloud]에서 사용자가 자동으로 만들어지지 않습니다.
 * 여러 [!DNL Experience Cloud] 서버에서 [!DNL Adobe Target] 로그인을 사용하는 경우 [!DNL Adobe Target]를 [!DNL Target]에 연결할 수 없습니다.
 * [!DNL Experience Cloud] 인터페이스는 많은 사용자가 동시에 사용하는 경우 속도가 느려질 수 있습니다.
 * [!DNL Search&Promote] 조직 및 제품 액세스 [!UICONTROL 페이지에서]에 연결할 수 없습니다.
-* [!DNL Adobe Media Optimizer] 시뮬레이션 카드가 올바로 렌더링하고 있지 않습니다.
+* [!DNL Adobe Advertising Cloud] 시뮬레이션 카드가 올바로 렌더링하고 있지 않습니다.
 * [!DNL Analytics]에서 트렌드 보고서에 적용된 필터가 [!DNL Experience Cloud]의 카드에 적용되지 않았습니다.
 * Analytics에서 트렌드 보고서에 적용된 필터가 Experience Cloud의 카드에 적용되지 않았습니다.
 * 일부 Excel 또는 CSV 파일을 보드에 업로드할 수 없습니다.
@@ -664,7 +664,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 **수정 사항**
 
 * 아바타 이미지를 제거하는 기능을 추가했습니다.
-* [!DNL Adobe Media Optimizer] 계정 연결이 해제되지 않았던 문제를 수정했습니다.
+* [!DNL Adobe Advertising Cloud] 계정 연결이 해제되지 않았던 문제를 수정했습니다.
 
 **알려진 문제**
 
@@ -678,16 +678,16 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 여러 Target 서버에서 [!DNL Adobe Target] 로그인을 사용하는 경우 Experience Cloud를 [!DNL Adobe Target]에 연결할 수 없습니다.
 * Experience Cloud에 로그인하는 데 1초 이상 소요됩니다.
 * 사용자 지정 태그를 에셋에 추가하면 다른 메타데이터 변경 사항을 지속할 수 없습니다.
-* Experience Cloud에서 사용자를 생성할 때 [!DNL Adobe Media Optimizer]에서 사용자를 자동으로 생성하지 않습니다.
+* Experience Cloud에서 사용자를 생성할 때 [!DNL Adobe Advertising Cloud]에서 사용자를 자동으로 생성하지 않습니다.
 * 새 사용자를 추가하기 위한 콤보 상자의 옵션이 입력하는 동안 일시적으로 사라집니다.
-* [!DNL Media Optimizer]에서 공유한 데이터가 Experience Cloud에서 잘못 표시되었습니다.
+* [!DNL Advertising Cloud]에서 공유한 데이터가 Experience Cloud에서 잘못 표시되었습니다.
 * Flickr 이미지가 공유되지 않습니다.
 * [!DNL Analytics]에서 트렌드 보고서에 적용된 필터가 Experience Cloud의 카드에 적용되지 않았습니다.
 * 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
 * [!DNL Search&Promote] 연결은 [!UICONTROL 조직 및 제품 액세스]에서 사용할 수 없습니다.
 * 사용자는 보드를 새로 고쳐서 삭제된 카드가 보기에서 사라지도록 해야 합니다.
 * 일부 Excel 또는 CSV 파일을 보드에 업로드할 수 없습니다.
-* [!DNL Adobe Media Optimizer] 시뮬레이션 카드가 올바로 렌더링하고 있지 않습니다.
+* [!DNL Adobe Advertising Cloud] 시뮬레이션 카드가 올바로 렌더링하고 있지 않습니다.
 * 일부 PNG 파일은 카드에서 렌더링할 수 없습니다.
 * Beta 피드백을 제출할 수 없습니다.
 

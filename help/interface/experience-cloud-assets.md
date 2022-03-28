@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 77e99651b49fa411a9af941bbf73b746e05a3609
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 92%
+source-wordcount: '363'
+ht-degree: 95%
 
 ---
 
 # Experience Cloud Assets 개요
 
-Experience Cloud Assets는 애플리케이션 간에 공유할 수 있는 마케팅 준비가 끝난 에셋에 대해 중앙 집중식 단일 저장소를 제공합니다. 에셋은 디지털 문서, 이미지, 비디오, 오디오 또는 그 일부로, 다양한 표현물과 하위 에셋(예: [!DNL Photoshop] 파일의 레이어, [!DNL PowerPoint] 파일의 슬라이드, PDF의 페이지, ZIP에 있는 파일)을 가질 수 있습니다.
+Experience Cloud Assets는 애플리케이션 간에 공유할 수 있는 마케팅 준비가 끝난 에셋에 대해 중앙 집중식 단일 저장소를 제공합니다. 자산은 디지털 문서, 이미지, 비디오, 오디오 또는 그 일부로, 다양한 표현물과 하위 자산(예: [!DNL Photoshop] 파일의 레이어, [!DNL PowerPoint] 파일의 슬라이드, PDF의 페이지, ZIP에 있는 파일)을 가질 수 있습니다.
 
 에셋 서비스에는 다음이 포함됩니다.
 
@@ -26,10 +26,9 @@ Experience Cloud Assets는 애플리케이션 간에 공유할 수 있는 마케
 
 에셋을 사용하면 일관성 및 브랜드 준수가 향상되며 마켓 출시 속도도 빨라집니다. 다음과 같은 애플리케이션의 워크플로를 능률화할 수 있습니다.
 
-* **[!DNL Social]**: 소셜 속성, Facebook, Twitter, LinkedIn, Google+에 게시
-* **[!DNL Target]**: A/B 및 다변량 테스트 환경 만들기
-* **[!DNL Media Optimizer]** : 다양한 채널 및 캠페인에서 광고 단위 개발
-* **[!DNL Campaign]**: 이메일 소식지 및 캠페인에 에셋 배치
+* **[!DNL Adobe Target]**: A/B 및 다변량 테스트 환경 만들기
+* **[!DNL Ad Cloud]** : 다양한 채널 및 캠페인에서 광고 단위 개발
+* **[!DNL Adobe Campaign]**: 이메일 소식지 및 캠페인에 에셋 배치
 
 [!UICONTROL Experience Cloud Assets]에서 다음 작업을 수행할 수 있습니다.
 
@@ -55,7 +54,9 @@ Experience Cloud Assets는 애플리케이션 간에 공유할 수 있는 마케
 
 ![도구 모음 액세스](assets/asset-tools.png)
 
-! Target에서 사용되었거나 사용 중인 자산을 삭제하려면 해당 자산의 모든 사용을 제거해야 합니다.
+>[!NOTE]
+>
+>자산에서 성공적으로 삭제하려면 먼저 Adobe Target 활동에서 자산을 제거해야 합니다. [!DNL Target].
 
 ## 에셋 편집 {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
