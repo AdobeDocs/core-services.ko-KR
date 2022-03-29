@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: a4a1914856001a93967c6a63ad4d389138b33217
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 96%
 
 ---
 
@@ -40,4 +40,4 @@ Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL �
 
 >[!NOTE]
 >
->Experience Platform에 대한 제품 설명서는 [여기](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko-KR)에 있습니다. [!UICONTROL Experience Platform] 개발자를 위한 기술 설명서는 [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html)에서 찾을 수 있습니다.
+>Experience Platform에 대한 제품 설명서는 [여기](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=en)에 있습니다. 기술 설명서 [!UICONTROL Experience Platform] 개발자는 [Adobe 개발자](https://developer.adobe.com/apis).
