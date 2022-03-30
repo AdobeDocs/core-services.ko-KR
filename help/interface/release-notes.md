@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4640'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -386,7 +386,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 사용자가 보드에서 PowerPoint 파일을 공유할 수 없습니다.
 * 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
 * 일부 사용자의 경우 대용량 파일 형식을 Experience Cloud Assets에 업로드할 때 문제가 발생할 수 있습니다.
-* 사용자가 Advertising Cloud에서 Experience Cloud 카드에 대한 링크를 누락할 수 있습니다.
+* Advertising Cloud에서 사용자의 Experience Cloud 카드에 대한 링크가 누락될 수 있습니다.
 * 일부 관리자는 Experience Cloud 가입 초대를 수락한 후 자신의 계정을 연결할 때 문제가 발생할 수 있습니다.
 * Experience Cloud 인터페이스는 여러 사용자가 동시에 사용하는 경우 성능이 저하될 수 있습니다.
 * 일부 사용자는 오류 알림을 받는 대신 오래된 에셋을 삭제할 수 있습니다.
