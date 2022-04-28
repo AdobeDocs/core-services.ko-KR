@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 85%
 
 ---
 
@@ -26,31 +26,41 @@ Experience Cloud 내 조직 관리 및 전환에 대해 알아봅니다.
 
 올바른 조직에 로그인했는지 확인하려면 프로필 아바타를 클릭하여 조직 이름을 확인합니다. 둘 이상의 조직에 대한 액세스 권한을 보유하고 있다면 다른 조직을 확인하고 헤더 표시줄에서 바로 해당 조직으로 전환할 수도 있습니다.
 
-조직이 Federated ID를 사용하는 경우 Experience Cloud를 통해 주소 및 암호를 입력할 필요 없이 조직의 Single Sign-On으로 로그인할 수 있습니다. 이 작업을 수행하려면 `#/sso:@domain` 를 Experience Cloud URL(`https://experience.adobe.com`)에 추가합니다.
+조직이 Federated ID를 사용하는 경우 Experience Cloud를 통해 주소 및 암호를 입력할 필요 없이 조직의 Single Sign-On으로 로그인할 수 있습니다. 이 작업을 수행하려면 `#/sso:@domain`를 Experience Cloud URL(`https://experience.adobe.com`)에 추가합니다.
 
 예를 들어 조직에 Federated ID와 도메인 `adobecustomer.com`가 있는 경우 URL 링크를 `https://experience.adobe.com/#/sso:@adobecustomer.com`로 설정합니다. 애플리케이션 경로가 첨부된 이 URL을 책갈피로 지정하여 바로 특정 애플리케이션으로 이동할 수도 있습니다. (예: Adobe Analytics의 경우 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
 ![단계 결과](assets/organization-switch.png)
 
-## 조직 ID 찾기 {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## 조직 ID 보기 {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-지원을 위해 조직 ID를 찾아야 할 수도 있습니다. **[!UICONTROL 조직]** 메뉴를 사용하여 올바른 조직에 있는지 확인하거나 조직 간에 전환할 수 있습니다.
+지원을 위해 지정된 조직 ID를 찾아야 할 수도 있습니다. **[!UICONTROL 조직]** 메뉴를 사용하여 올바른 조직에 있는지 확인하거나 조직 간에 전환할 수 있습니다.
 
 조직 ID는 공급된 Experience Cloud 회사와 연결된 ID입니다. 이 ID는 24자의 영숫자 문자열과 `@AdobeOrg`(포함 필수)로 구성됩니다.
 
-`https://experience.adobe.com`의 페이지에서 키보드 단축키 **Ctrl+i**&#x200B;를 사용한 다음 대화 상자에서 **[!UICONTROL 할당된 조직]** 탭을 클릭하여 다른 계정 정보와 함께 조직 ID를 볼 수 있습니다.
+키보드 단축키를 사용하여 조직 ID와 다른 계정 정보를 볼 수 있습니다 **Ctrl+i** 페이지 `https://experience.adobe.com`.
 
-![할당된 조직 ID](assets/assigned-organization.png)
+**조직 ID를 보려면**
 
-또는 관리자가 Admin Console에 로그인하여([https://adminconsole.adobe.com](https://adminconsole.adobe.com)로 이동) URL에서 IMS 조직 ID를 볼 수 있습니다.
+1. in [Experience Cloud](https://experience.adobe.com.), 누르기 **Ctrl+i** 클릭합니다.
 
-예를 들면 다음 URL의 경우
+   ![할당된 조직 ID](assets/assigned-organization.png)
 
-`https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
+1. 을(를) 클릭합니다. **[!UICONTROL 지정된 조직]** 탭에서 사용할 수 있습니다.
 
-ID:
+1. 조직 이름을 클릭합니다.
 
-`C538193582390300A495CC9@AdobeOrg`
+1. 찾기 **[!UICONTROL ID]**.
+
+   또는, 관리자가 Admin Console에 로그인할 수 있습니다(다음으로 이동). [https://adminconsole.adobe.com](https://adminconsole.adobe.com))을 클릭하여 URL에서 조직 ID를 확인합니다.
+
+   예를 들면 다음 URL의 경우
+
+   `https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
+
+   ID:
+
+   `C538193582390300A495CC9@AdobeOrg`
 
 ## Adobe ID에 애플리케이션 계정 연결 {#task_FD389E78640848919E247AC5E95B8369}
 

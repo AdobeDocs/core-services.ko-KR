@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -100,7 +100,7 @@ Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있
 
 ## 내 IMS 조직 ID는 어디서 볼 수 있습니까?
 
-자세한 내용은 [조직 ID 찾기](organizations.md)를 참조하십시오.
+자세한 내용은 [조직 ID 보기](organizations.md) 자세한 내용
 
 ## 사용자 중 한 명이 회사를 퇴사할 경우 어떻게 해야 합니까?
 

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 91%
 
 ---
 
@@ -35,11 +35,11 @@ GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스
 
 1. 다음을 확인합니다.
 
-   * IMS 조직 ID
+   * [조직 ID](#organizations.md)
    * 작업을 수행하려는 CRS 데이터 소스의 별칭 ID
    * 작업할 프로필의 CRM ID
 
-   IMS 조직 ID는 @AdobeOrg가 추가된 24자 영숫자 문자열입니다. 마케팅 팀이나 내부 Adobe 시스템 관리자가 조직의 IMS 조직 ID를 모르는 경우에는 Adobe 고객 지원 센터(gdprsupport@adobe.com)에 문의하십시오. Privacy API에 요청을 제출하려면 IMS 조직 ID가 필요합니다.
+   사용자 [조직 ID](#organizations.md) 는 24자의 영숫자 문자열과 @AdobeOrg. 개인 정보 API에 요청을 제출하려면 조직의 ID가 필요합니다. 다음 위치에서 Adobe 고객 지원 센터에 문의하십시오. `gdprsupport@adobe.com` id를 찾을 수 없는 경우.
 
 1. [!UICONTROL 개인정보보호 서비스]에서 고객 속성에 액세스 및 삭제 요청을 제출하고 기존 요청의 상태를 확인할 수 있습니다.
 
