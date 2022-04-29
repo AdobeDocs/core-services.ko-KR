@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4676'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 | 기능 | 설명 |
 | ------- |-------|
-| 자연어 검색 | 통합 검색을 통해 단일 인터페이스를 통해 모든 도움말 질문에 대한 즉각적인 답변을 얻을 수 있습니다. 이 기능은 항상 [!DNL Experience Platform] 및 [!DNL Journey Optimizer]. |
+| 자연어 검색 | 통합 검색의 단일 인터페이스를 통해 모든 질문에 대한 즉각적인 답변을 얻으십시오. 이 기능은 [!DNL Experience Platform] 및 [!DNL Journey Optimizer]의 모든 페이지에서 언제든지 사용할 수 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
