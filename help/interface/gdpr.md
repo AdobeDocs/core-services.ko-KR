@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -33,13 +33,13 @@ GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스
 
 [!UICONTROL 고객 속성]에 대한 데이터에 액세스하고 삭제를 요청하려면 다음을 수행해야 합니다.
 
-1. 다음을 확인합니다.
+1. 다음 항목을 확인하십시오.
 
    * [조직 ID](#organizations.md)
    * 작업을 수행하려는 CRS 데이터 소스의 별칭 ID
    * 작업할 프로필의 CRM ID
 
-   사용자 [조직 ID](#organizations.md) 는 24자의 영숫자 문자열과 @AdobeOrg. 개인 정보 API에 요청을 제출하려면 조직의 ID가 필요합니다. 다음 위치에서 Adobe 고객 지원 센터에 문의하십시오. `gdprsupport@adobe.com` id를 찾을 수 없는 경우.
+   [조직 ID](#organizations.md)는 @AdobeOrg가 추가된 24자 영숫자 문자열입니다. Privacy API에 요청을 제출하려면 조직 ID가 필요합니다. ID를 찾을 수 없는 경우 Adobe 고객 지원 센터(`gdprsupport@adobe.com`)에 문의하십시오.
 
 1. [!UICONTROL 개인정보보호 서비스]에서 고객 속성에 액세스 및 삭제 요청을 제출하고 기존 요청의 상태를 확인할 수 있습니다.
 
