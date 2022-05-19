@@ -10,10 +10,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: ec35013fd5c266db6128e370dfde4b24ccce5737
+source-git-commit: 8ec1639479777a67d351dff699815fde982a968e
 workflow-type: tm+mt
 source-wordcount: '1616'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Analytics는 쿠키를 사용하여 이미지 요청과 브라우저 세션 간�
 
 >[!NOTE]
 >
->수집 도메인과 사이트 도메인의 일치 여부와 관계없이 Apple의 ITP(Intelligent Tracking Prevention) 프로그램이 ITP가 관리하는 브라우저에서 Adobe가 설정한 자사 쿠키를 단기간 사용할 수 있게 하며, 여기에는 macOS의 Safari와 iOS와 iPadOS의 모든 브라우저가 포함됩니다. 2020년 11월 현재 CNAME를 통해 설정한 쿠키와 JavaScript를 통해 설정한 쿠키의 만료일이 동일합니다. 이 만료일은 변경될 수 있습니다.
+>수집 도메인이 사이트 도메인과 일치하는지에 관계없이 Apple의 ITP(Intelligent Tracking Prevention) 프로그램은 macOS의 Safari와 iOS 및 iPadOS의 모든 브라우저를 포함하는 ITP가 관리하는 브라우저에서 Adobe이 설정한 자사 쿠키를 단기간 동안 만듭니다. 2020년 11월 현재 CNAME를 통해 설정한 쿠키와 JavaScript를 통해 설정한 쿠키의 만료일이 동일합니다. 이 만료일은 변경될 수 있습니다.
 
 데이터 수집에 CNAME를 설정하려는 경우와 사이트에 HTTPS 프로토콜을 사용하는 보안 페이지가 있는 경우, 자사 쿠키를 구현하기 위해 Adobe와 협력하여 SSL 인증서를 구할 수 있습니다.
 
