@@ -1,5 +1,5 @@
 ---
-description: 조직 및 Experience Cloud에 솔루션 계정 연결에 대해 알아봅니다.
+description: 조직(IMS 조직 ID) 및 솔루션 계정을 Experience Cloud에 연결하는 방법에 대해 알아봅니다.
 keywords: Adobe Experience Cloud 서비스
 solution: Experience Cloud
 title: '조직 및 계정 연결 '
@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
+source-git-commit: 953b5c7c058e2641bc3bcfb66a968146ea617404
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 85%
+source-wordcount: '580'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud 내 조직 관리 및 전환에 대해 알아봅니다.
 
 ## 조직 식별 {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-** 조직은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 항목입니다. 조직은 모든 Experience Cloud 제품 및 애플리케이션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
+An *조직* (IMS 조직 ID)는 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 해주는 엔티티입니다. 조직은 모든 Experience Cloud 제품 및 애플리케이션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
 
 올바른 조직에 로그인했는지 확인하려면 프로필 아바타를 클릭하여 조직 이름을 확인합니다. 둘 이상의 조직에 대한 액세스 권한을 보유하고 있다면 다른 조직을 확인하고 헤더 표시줄에서 바로 해당 조직으로 전환할 수도 있습니다.
 
@@ -32,7 +32,7 @@ Experience Cloud 내 조직 관리 및 전환에 대해 알아봅니다.
 
 ![단계 결과](assets/organization-switch.png)
 
-## 조직 ID 보기 {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## IMS 조직 ID 보기 {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
 지원을 위해 지정된 조직 ID를 찾아야 할 수도 있습니다. **[!UICONTROL 조직]** 메뉴를 사용하여 올바른 조직에 있는지 확인하거나 조직 간에 전환할 수 있습니다.
 
@@ -40,7 +40,7 @@ Experience Cloud 내 조직 관리 및 전환에 대해 알아봅니다.
 
 키보드 단축키를 사용하여 조직 ID와 다른 계정 정보를 볼 수 있습니다 **Ctrl+i** 페이지 `https://experience.adobe.com`.
 
-**조직 ID를 보려면**
+**IMS 조직 ID를 보려면**
 
 1. in [Experience Cloud](https://experience.adobe.com.), 누르기 **Ctrl+i** 클릭합니다.
 
