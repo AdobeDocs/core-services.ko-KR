@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
-workflow-type: ht
-source-wordcount: '4676'
-ht-degree: 100%
+source-git-commit: 761a40f8beb1f9bc3ed74c0ae6c89eca2f6479bd
+workflow-type: tm+mt
+source-wordcount: '4750'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,16 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 설명서 업데이트 목록은 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)를 참조하십시오.
 
 모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
+
+## 2022년 7월
+
+예정된 릴리스: **2022년 7월 11일**
+
+| 기능 | 설명 |
+| ------- | ------- |
+| 통합 홈 - 빠른 액세스 위젯 | **더욱 빠르게 탐색:** 이제 홈 경험을 추가로 개인화하고 원하는 애플리케이션을 손쉽게 결정할 수 있습니다. 새로운 고정 기능을 사용하여 [!UICONTROL 빠른 액세스]. <br>**고급 피닝으로 계속 정보 제공:** 이제 새 응용 프로그램을 찾기가 쉬워졌습니다. 새로 지정된 응용 프로그램은 _새로 만들기_ 배지 및 자동 고정 [!UICONTROL 빠른 액세스]. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 2022년 4월
 
