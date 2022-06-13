@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 953b5c7c058e2641bc3bcfb66a968146ea617404
+source-git-commit: 2c0814a22b501a93b4a5f2bb1ba6f13c13fc7e1a
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '577'
 ht-degree: 78%
 
 ---
@@ -22,7 +22,7 @@ Experience Cloud 내 조직 관리 및 전환에 대해 알아봅니다.
 
 ## 조직 식별 {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-An *조직* (IMS 조직 ID)는 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 해주는 엔티티입니다. 조직은 모든 Experience Cloud 제품 및 애플리케이션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
+An *조직* (조직 ID)는 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 해주는 엔티티입니다. 조직은 모든 Experience Cloud 제품 및 애플리케이션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
 
 올바른 조직에 로그인했는지 확인하려면 프로필 아바타를 클릭하여 조직 이름을 확인합니다. 둘 이상의 조직에 대한 액세스 권한을 보유하고 있다면 다른 조직을 확인하고 헤더 표시줄에서 바로 해당 조직으로 전환할 수도 있습니다.
 
@@ -32,7 +32,7 @@ An *조직* (IMS 조직 ID)는 관리자가 그룹과 사용자를 구성하고,
 
 ![단계 결과](assets/organization-switch.png)
 
-## IMS 조직 ID 보기 {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## 조직 ID 보기 {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
 지원을 위해 지정된 조직 ID를 찾아야 할 수도 있습니다. **[!UICONTROL 조직]** 메뉴를 사용하여 올바른 조직에 있는지 확인하거나 조직 간에 전환할 수 있습니다.
 
@@ -40,17 +40,13 @@ An *조직* (IMS 조직 ID)는 관리자가 그룹과 사용자를 구성하고,
 
 키보드 단축키를 사용하여 조직 ID와 다른 계정 정보를 볼 수 있습니다 **Ctrl+i** 페이지 `https://experience.adobe.com`.
 
-**IMS 조직 ID를 보려면**
+**조직 ID를 보려면**
 
 1. in [Experience Cloud](https://experience.adobe.com.), 누르기 **Ctrl+i** 클릭합니다.
 
    ![할당된 조직 ID](assets/assigned-organization.png)
 
-1. 을(를) 클릭합니다. **[!UICONTROL 지정된 조직]** 탭에서 사용할 수 있습니다.
-
-1. 조직 이름을 클릭합니다.
-
-1. 찾기 **[!UICONTROL ID]**.
+1. 아래 **[!UICONTROL 사용자 정보]**, 다음 **[!UICONTROL 현재 조직 ID]**, 조직 ID가 표시됩니다.
 
    또는, 관리자가 Admin Console에 로그인할 수 있습니다(다음으로 이동). [https://adminconsole.adobe.com](https://adminconsole.adobe.com))을 클릭하여 URL에서 조직 ID를 확인합니다.
 
