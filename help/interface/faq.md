@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 8cb55c6fb6f0acfb8787b0125f7c4a25bcb71e28
-workflow-type: ht
-source-wordcount: '776'
-ht-degree: 100%
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+workflow-type: tm+mt
+source-wordcount: '775'
+ht-degree: 94%
 
 ---
 
@@ -82,11 +82,11 @@ Experience Cloud의 프로비저닝은 다음을 의미합니다.
 
 Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있습니다. 사용자에게 로그인 지침이 포함된 이메일이 전송됩니다.
 
-[Adobe 지원 센터에 문의](https://experienceleague.adobe.com/?support-solution=General#support) 하여 회사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
+당신은 [Adobe 지원 문의](https://experienceleague.adobe.com/?support-solution=General#support) 를 입력하여 회사가 완전히 프로비저닝되었는지 확인합니다.
 
 ## 사용자가 계정 링크를 관리하려면 어디로 이동해야 합니까?
 
-일부 사용자는 애플리케이션(Analytics) 계정을 Adobe ID 또는 Enterprise ID에 연결해야 할 수 있습니다.
+일부 사용자는 자신의 애플리케이션(Analytics) 계정을 Adobe ID 또는 Enterprise ID에 연결해야 할 수 있습니다.
 
 [Adobe ID에 애플리케이션 계정 연결](organizations.md#task_FD389E78640848919E247AC5E95B8369)을 참조하십시오.
 

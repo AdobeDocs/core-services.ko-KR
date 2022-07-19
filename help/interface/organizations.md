@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c6884ade4a793f1cedbc5d497cb9c8ea798a7408
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 80%
+source-wordcount: '574'
+ht-degree: 72%
 
 ---
 
@@ -26,7 +26,7 @@ An *조직* (조직 ID)는 관리자가 그룹과 사용자를 구성하고, Exp
 
 올바른 조직에 로그인했는지 확인하려면 프로필 아바타를 클릭하여 조직 이름을 확인합니다. 둘 이상의 조직에 대한 액세스 권한을 보유하고 있다면 다른 조직을 확인하고 헤더 표시줄에서 바로 해당 조직으로 전환할 수도 있습니다.
 
-조직이 Federated ID를 사용하는 경우 Experience Cloud를 통해 주소 및 암호를 입력할 필요 없이 조직의 Single Sign-On으로 로그인할 수 있습니다. 이 작업을 수행하려면 `#/sso:@domain`를 Experience Cloud URL(`https://experience.adobe.com`)에 추가합니다.
+조직에서 Federated ID를 사용하는 경우 Experience Cloud을 통해 이메일 주소와 암호를 입력하지 않고도 조직의 단일 사인온으로 로그인할 수 있습니다. 추가 `#/sso:@domain` Experience Cloud URL(`https://experience.adobe.com`)을 클릭하여 이 작업을 수행합니다.
 
 예를 들어 조직에 Federated ID와 도메인 `adobecustomer.com`가 있는 경우 URL 링크를 `https://experience.adobe.com/#/sso:@adobecustomer.com`로 설정합니다. 애플리케이션 경로가 첨부된 이 URL을 책갈피로 지정하여 바로 특정 애플리케이션으로 이동할 수도 있습니다. (예: Adobe Analytics의 경우 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
@@ -34,7 +34,7 @@ An *조직* (조직 ID)는 관리자가 그룹과 사용자를 구성하고, Exp
 
 ## 조직 ID 보기 {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-지원을 위해 지정된 조직 ID를 찾아야 할 수도 있습니다. **[!UICONTROL 조직]** 메뉴를 사용하여 올바른 조직에 있는지 확인하거나 조직 간에 전환할 수 있습니다.
+지원을 위해 지정된 조직 ID를 찾을 수 있습니다. **[!UICONTROL 조직]** 메뉴를 사용하여 올바른 조직에 있는지 확인하거나 조직 간에 전환할 수 있습니다.
 
 조직 ID는 공급된 Experience Cloud 회사와 연결된 ID입니다. 이 ID는 24자의 영숫자 문자열과 `@AdobeOrg`(포함 필수)로 구성됩니다.
 
@@ -60,7 +60,7 @@ An *조직* (조직 ID)는 관리자가 그룹과 사용자를 구성하고, Exp
 
 ## Adobe ID에 애플리케이션 계정 연결 {#task_FD389E78640848919E247AC5E95B8369}
 
-일반적으로 Experience Cloud 관리자는 애플리케이션 및 서비스에 대한 액세스 권한을 부여합니다. 드문 경우이긴 하지만 애플리케이션 자격 증명을 Adobe ID에 연결해야 할 수 있습니다.
+일반적으로 Experience Cloud 관리자는 애플리케이션 및 서비스에 대한 액세스 권한을 부여합니다. 드문 경우이지만 애플리케이션 자격 증명을 Adobe ID에 연결할 수 있습니다.
 
 1. Experience Cloud로의 초대 이메일에 기재되어 있는 단계를 따릅니다.
 1. Adobe ID 또는 Enterprise ID를 사용하여 로그인합니다.

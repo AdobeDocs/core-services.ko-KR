@@ -1,8 +1,8 @@
 ---
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
-workflow-type: ht
-source-wordcount: '427'
-ht-degree: 100%
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 92%
 
 ---
 # 기여자 문서
@@ -21,13 +21,13 @@ Adobe는 설명서 팀 외부 직원뿐만 아니라 커뮤니티 기여를 환�
 
 ### 부분 변경 사항
 
-부분 업데이트에 선의로 기여하려는 경우 문서를 방문하여 문서 내의 **편집** 링크를 선택하면 문서에 해당하는 GitHub 소스로 이동하게 됩니다. 그런 다음 Github UI를 사용하여 업데이트를 만듭니다. 자세한 내용은 일반 [Adobe Docs 기여자 안내서](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html?lang=ko-KR) 를 참조하십시오.
+부분 업데이트에 선의로 기여하려는 경우 문서를 방문하여 문서 내의 **편집** 링크를 선택하면 문서에 해당하는 GitHub 소스로 이동하게 됩니다. 그런 다음 Github UI를 사용하여 업데이트를 만듭니다. 자세한 내용은 일반 [Adobe Docs 기여자 안내서](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html) 를 참조하십시오.
 
 이 REPO의 설명서 및 코드 샘플에 대해 사용자가 제출하는 부분 수정 또는 설명은 Adobe 사용 약관의 적용을 받습니다.
 
 ### 커뮤니티 멤버의 주요 변경 사항 또는 새로운 문서
 
-Adobe 커뮤니티에 소속되어 있고 새로운 문서를 만들거나 주요 변경 사항을 제출하려는 경우 Git 리포지토리에서 문제 탭을 사용하여 문제를 제출하면 설명서 팀과 대화를 시작할 수 있습니다. 플랜에 동의하면 직원과 협력하여 공용 및 개인 리포지토리에서 작업을 결합하여 새로운 콘텐츠를 제공할 수 있습니다.
+Adobe 커뮤니티에 소속되어 있고 새로운 문서를 만들거나 주요 변경 사항을 제출하려는 경우 Git 리포지토리에서 문제 탭을 사용하여 문제를 제출하면 설명서 팀과 대화를 시작할 수 있습니다. 플랜에 동의하면 직원과 협력하여 공용 및 개인 리포지토리에서 작업을 결합하여 새로운 컨텐츠를 제공할 수 있습니다.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
@@ -43,7 +43,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 커뮤니티 기여자는 기본 편집에 GitHub UI를 사용하거나 리포지토리를 포크하여 큰 기여를 할 수 있습니다.
 
-자세한 내용은 [Adobe Docs 기여자 안내서](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html?lang=ko-KR) 를 참조하십시오.
+자세한 내용은 [Adobe Docs 기여자 안내서](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html) 를 참조하십시오.
 
 ## Markdown을 사용하여 주제 서식을 지정하는 방법
 

@@ -10,10 +10,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 8ec1639479777a67d351dff699815fde982a968e
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 93%
+source-wordcount: '1604'
+ht-degree: 91%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe 관리 인증서 프로그램에서는 추가 비용 없이 새로운 자�
    **보안** - 예를 들어 호스트 이름 `smetrics.example.com` 은 `example.com.adobedc.net`을 가리킵니다.
 
 >[!NOTE]
-> 이전에는 Adobe이 고객에게 HTTPS용 CNAME과 HTTP용 CNAME 1개를 설정하도록 권장했습니다. 이 방법은 트래픽을 암호화하는 가장 좋은 방법이며 대부분의 브라우저에서 HTTP를 강력하게 비활성화하므로 더 이상 HTTP용 CNAME을 설정하지 않는 것이 좋습니다. HTTP에 대해 CNAME을 구성해야 하는 경우 Adobe 고객 지원 센터에 문의하십시오.
+> 이전에는 Adobe이 고객에게 HTTPS용 CNAME과 HTTP용 CNAME 1개를 설정하도록 권장했습니다. 이 방법은 트래픽을 암호화하는 가장 좋은 방법이며 대부분의 브라우저에서 HTTP를 강력하게 비활성화하므로 더 이상 HTTP용 CNAME을 설정하지 않는 것이 좋습니다. HTTP용 CNAME을 구성하려면 Adobe 고객 지원 센터에 문의하십시오.
 
 1. CNAME이 설치되면, Adobe는 DigiCert와 협력하여 Adobe 프로덕션 서버에 인증서를 구입하고 설치합니다.
 
@@ -77,8 +77,8 @@ SSL 인증서는 매년 만료됩니다. 즉, Adobe는 매년 각 구현에 대�
 |---|---|
 | **이 프로세스는 안전합니까?** | 예. Adobe 관리 프로그램은 Adobe의 기존 방식보다 더 안전하며 Adobe 및 인증 기관의 외부에서 인증서나 개인 키가 변경되지 않습니다. |
 | **Adobe는 어떻게 도메인의 인증서를 구입할 수 있습니까?** | Adobe 소유 호스트 이름에 지정된 호스트 이름(예: `telemetry.example.com`)을 지정한 경우에만 인증서를 구입할 수 있습니다. 이것은 본질적으로 이 호스트 이름을 Adobe에 위임하며 Adobe가 사용자를 대신하여 인증서를 구매할 수 있도록 합니다. |
-| **인증서가 해지되도록 요청할 수 있습니까?** | 예. 도메인의 소유는 인증서를 해지하도록 요청할 수 있습니다. 이렇게 하려면 고객 지원 센터에서 티켓을 열면 됩니다. |
-| **이 인증서는 SHA-2 암호화를 사용합니까?** | 예. Adobe는 DigiCert와 협력하여 SHA-2 인증서를 발행합니다. |
+| **인증서가 해지되도록 요청할 수 있습니까?** | 예, 도메인의 소유는 인증서가 해지되었음을 요청할 수 있습니다. 고객 지원 센터에서 티켓을 열면 이 작업이 완료됩니다. |
+| **이 인증서는 SHA-2 암호화를 사용합니까?** | 예, Adobe은 DigiCert와 함께 SHA-2 인증서를 발행합니다. |
 | **이 경우 추가 비용이 발생합니까?** | 아니요. Adobe는 현재 모든 Adobe Digital Experience 고객에게 추가 비용 없이 이 서비스를 제공하고 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
