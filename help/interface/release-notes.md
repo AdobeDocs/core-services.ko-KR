@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 761a40f8beb1f9bc3ed74c0ae6c89eca2f6479bd
-workflow-type: ht
-source-wordcount: '4750'
-ht-degree: 100%
+source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
+workflow-type: tm+mt
+source-wordcount: '4767'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,10 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
 
 ## 2022년 7월
+
+**관리자에 대한 업데이트 알림 프로비저닝**
+
+* 자세한 내용은 [프로비저닝 업데이트 알림](admin-getting-started.md#provisioning) Experience Cloud의 프로비저닝에 대한 중요한 업데이트를 보려면
 
 릴리스 예정일: **2022년 7월 11일**
 

@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 0175ba36d29dcbcdcfd3e8ff9d359972c19ac448
+source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 100%
+source-wordcount: '1896'
+ht-degree: 85%
 
 ---
 
@@ -25,6 +25,52 @@ Admin Console 로그인, Experience Cloud 사용자 권한 및 제품 프로필 
 
 관리 도구에서 모든 Experience Cloud 사용자 목록과 세부 사항을 정렬 및 필터링 가능한 목록으로 볼 수 있습니다. [관리 도구에서 Experience Cloud 사용자 보기](admin-tool-experience-cloud.md)를 참조하십시오.
 
+## 프로비저닝 업데이트 알림{#provisioning}
+
+업데이트됨: **2022년 7월 20일**
+
+>[!IMPORTANT]
+>
+>Experience Cloud 프로비저닝에 대한 다음 알림을 검토하십시오.
+
+Adobe은 모든 Experience Cloud 고객이 일부 Experience Cloud 제품 간의 상호 운용성을 지원하는 기본 기능에 액세스할 수 있도록 프로비저닝을 업데이트하고 있습니다. 사용자는 Experience Cloud 조직에 추가된 새 자격 부여 권한으로서 Adobe Experience Platform을 갖게 됩니다. [!UICONTROL 데이터 수집] 를 포함한 서비스로 사용할 수 있습니다.
+
+Adobe Experience Platform [!UICONTROL 데이터 수집] include [태그](https://experienceleague.adobe.com/docs/tags.html?lang=en) 간소화된 범용 태그 관리를 위해 그리고 신뢰할 수 있고 강력하고 완벽한 스트리밍 데이터 인프라를 제공합니다. 태그는 고객 경험 데이터 수집을 단순화하고 경험 전달을 간소화합니다.
+
+**Admin Console 변경 사항**
+
+관리자는 다음과 같이 Admin Console에 대한 변경 사항 또는 추가 사항을 볼 수 있습니다.
+
+* Admin Console의 Adobe Experience Platform 제품 카드에 포함되는 항목:
+
+   * 장소
+   * 보증
+   * ID 네임스페이스
+   * 샌드박스
+   * 경험 데이터 모델
+   * 스키마
+   * 데이터스트림
+   * 방문자 ID
+
+   현재 Experience Platform을 사용하지 않는 조직의 경우 _Adobe Experience Platform_ 위에 나열된 기능을 포함하여 Admin Console의 제품입니다.
+
+   현재 Experience Platform을 사용하는 조직의 경우 _위치_ 이제 Experience Platform 카드에 통합됩니다.
+
+* Adobe Experience Platform 데이터 수집(이전의 Launch) 및 개인 정보 는 다른 Experience Platform 기능과 별도의 제품 카드로 계속 표시됩니다.
+
+새로운 기능에 대한 자세한 내용은 Experience League의 해당 페이지를 참조하십시오.
+
+* [데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
+* [장소](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en)
+* [보증](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html%3Flang%3Dde)
+* [ID 네임스페이스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko)
+* [샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko-KR)
+* [경험 데이터 모델](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)
+* [스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR)
+* [데이터스트림](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en)
+* [방문자 ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=en#section_3C9F6DF37C654D939625BB4D485E4354)
+* [개인 정보 보호](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)
+
 ## Experience Cloud 사용자 인증 (마이그레이션 예정){#migration}
 
 2022년 2월부터 Adobe는 조직이 개별 프로필에 대한 비즈니스 권한을 보다 효율적으로 관리할 수 있도록 프로필 관리 시스템을 업데이트합니다. 따라서 개별 Adobe ID(Type1)에 해당하는 개인 프로필을 보유하고 있는 모든 사용자는 새 비즈니스 프로필로 마이그레이션됩니다. 이 프로필은 _Business ID_(Type2e)에 해당합니다.
@@ -35,7 +81,7 @@ ID 유형에 대한 자세한 내용은 [Adobe Admin Console의 ID 유형](https
 
 마이그레이션 시간이 되면 조직 관리자는 사용자의 마이그레이션 30일 전에 알림 이메일을 수신하게 됩니다.
 
-* 마이그레이션은 조직의 주요 시간대 또는 주말을 기준으로 오후 10시에서 오전 6시 사이로 예약됩니다.
+* 마이그레이션은 오후 10시 사이에 예약됩니다. - 조직의 기본 시간대와 주말 기준 오전 6시
 * 마이그레이션하는 동안 Experience Cloud 애플리케이션에 약 15분 동안 액세스할 수 없으며 Admin Console에는 최대 30분 동안 액세스할 수 없습니다. 그렇지 않으면 이 마이그레이션이 원활하게 이루어집니다.
 
 ### 마이그레이션 후 변경 사항
