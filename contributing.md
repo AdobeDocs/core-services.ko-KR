@@ -1,8 +1,8 @@
 ---
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '277'
+ht-degree: 100%
 
 ---
 # 기여
@@ -13,9 +13,7 @@ ht-degree: 0%
 
 ## 행동 강령
 
-이 프로젝트는 Adobe [행동 수칙](code-of-conduct.md)을 준수합니다. 참여 시
-이 수칙을 준수해야 합니다. 부적절한 행동은
-[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com)에 신고해 주십시오.
+이 프로젝트는 Adobe [행동 수칙](code-of-conduct.md)을 준수합니다. 참여 시 이 수칙을 준수해야 합니다. 부적절한 행동은 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com)에 신고해 주십시오.
 
 ## 질문이 있습니까?
 
@@ -27,7 +25,7 @@ ht-degree: 0%
 
 본 프로젝트에 대한 모든 서드파티 기여는 서명된 콘텐츠 작가 라이선스 계약을
 동반해야 합니다. 이를 통해 Adobe는 귀하의 기여를 프로젝트의 일부로서
-재배포할 수 있는 권한을 얻게 됩니다. [CLA에 서명](http://opensource.adobe.com/cla.html)하십시오. Adobe CLA는 한 번만 제출하므로 이전에 제출한 적이 있다면 언제든지 해당 제품을 이용할 수 있습니다.
+재배포할 수 있는 권한을 얻게 됩니다. [CLA에 서명](http://opensource.adobe.com/cla.html)하십시오. Adobe CLA를 한 번만 제출하면 되므로 이전에 제출한 적이 있는 경우에는 쉽게 이동할 수 있습니다.
 
 ## 수칙 검토
 
