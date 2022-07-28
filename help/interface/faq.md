@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Experience Cloud를 사용하는 관리자를 위한 브라우저 지원, 일반
 
 ## 우리 회사에서 Experience Cloud 인터페이스를 통해 로그인해야 하는 이유는 무엇입니까?
 
-Experience Cloud 인터페이스에서 제공하는 기능은 귀하의 비즈니스에 새로운 가치를 가져옵니다. 또한 향후 애플리케이션에 액세스하기 위한 표준 경로로 사용되며 결과적으로는 다른 개별 애플리케이션 로그인 흐름을 대체하게 됩니다. Experience Cloud를 통해 로그인하면 나중에 원활하게 전환할 수 있습니다.
+Experience Cloud 인터페이스에서 제공하는 기능은 귀하의 비즈니스에 새로운 가치를 부여합니다. 또한 향후 애플리케이션에 액세스하기 위한 표준 경로로 사용되며 결과적으로는 다른 개별 애플리케이션 로그인 흐름을 대체하게 됩니다. Experience Cloud를 통해 로그인하면 나중에 원활하게 전환할 수 있습니다.
 
 ## 우리 회사 마이그레이션에 대한 우려를 해결하려면 어떻게 해야 합니까?
 
@@ -82,11 +82,11 @@ Experience Cloud의 프로비저닝은 다음을 의미합니다.
 
 Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있습니다. 사용자에게 로그인 지침이 포함된 이메일이 전송됩니다.
 
-당신은 [Adobe 지원 문의](https://experienceleague.adobe.com/?support-solution=General#support) 를 입력하여 회사가 완전히 프로비저닝되었는지 확인합니다.
+[Adobe 지원 센터에 문의](https://experienceleague.adobe.com/?support-solution=General#support)하여 귀사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
 
 ## 사용자가 계정 링크를 관리하려면 어디로 이동해야 합니까?
 
-일부 사용자는 자신의 애플리케이션(Analytics) 계정을 Adobe ID 또는 Enterprise ID에 연결해야 할 수 있습니다.
+일부 사용자는 애플리케이션(Analytics) 계정을 Adobe ID 또는 Enterprise ID에 연결해야 할 수도 있습니다.
 
 [Adobe ID에 애플리케이션 계정 연결](organizations.md#task_FD389E78640848919E247AC5E95B8369)을 참조하십시오.
 
@@ -94,7 +94,7 @@ Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있
 
 [사용자 계정 관리](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)를 참조하십시오.
 
-## 조직이란?
+## 조직이란 무엇입니까?
 
 [](organizations.md) 조직은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 항목입니다. 조직은 모든 Experience Cloud 제품 및 애플리케이션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
 
