@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1275'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Experience Cloud 헤더에서 다음 작업을 수행할 수 있습니다.
 
    올바른 [조직](organizations.md)에 로그인했는지 확인하려면 프로필 아바타를 클릭하여 조직 이름을 확인합니다. 둘 이상의 조직에 대한 액세스 권한을 보유하고 있다면 다른 조직을 확인하고 헤더 표시줄에서 바로 해당 조직으로 전환할 수도 있습니다.
 
-   조직에서 Federated ID를 사용하는 경우 Experience Cloud을 통해 이메일 주소와 암호를 입력하지 않고도 조직의 단일 사인온으로 로그인할 수 있습니다. 추가 `#/sso:@domain` Experience Cloud URL(`https://experience.adobe.com`)을 클릭하여 이 작업을 수행합니다.
+   조직이 Federated ID를 사용하는 경우 Experience Cloud를 통해 주소 및 암호를 입력할 필요 없이 조직의 SSO(Single Sign-On)로 로그인할 수 있습니다. 이 작업을 수행하려면 `#/sso:@domain`을 Experience Cloud URL(`https://experience.adobe.com`)에 추가하십시오.
 
    예를 들어 조직에 Federated ID와 도메인 `adobecustomer.com`가 있는 경우 URL 링크를 `https://experience.adobe.com/#/sso:@adobecustomer.com`로 설정합니다. 애플리케이션 경로가 첨부된 이 URL을 책갈피로 지정하여 바로 특정 애플리케이션으로 이동할 수도 있습니다. (예: Adobe Analytics의 경우 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
@@ -94,13 +94,13 @@ Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사
 
 ## 도움말 및 지원 요청 {#support}
 
-헤더의 도움말 아이콘(![에셋](assets/help-icon.png))을 사용하여 [Experience League](https://experienceleague.adobe.com/#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용합니다. 오픈엔드 피드백을 제출하고 우선 순위가 지정된 지원 티켓을 만들 수도 있습니다.
+헤더의 도움말 아이콘(![에셋](assets/help-icon.png))을 사용하여 [Experience League](https://experienceleague.adobe.com/#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선 순위가 지정된 지원 티켓을 만들 수도 있습니다.
 
 ![도움말 및 지원 요청](assets/search-menu.png)
 
 [!UICONTROL 도움말] 메뉴로 또한 다음에 액세스할 수 있습니다.
 
-* **[!UICONTROL 지원]:** 지원 티켓을 만들거나 Twitter를 사용하여 [!UICONTROL 지원].
+* **[!UICONTROL 지원]:** 지원 티켓을 만들거나 Twitter를 사용하여 [!UICONTROL 지원 센터]에 문의합니다.
 * **[!UICONTROL 피드백]:** Experience Cloud 경험에 관한 의견을 공유할 수 있습니다. 귀하의 피드백은 Adobe의 제품 및 서비스를 개선하는 데 사용됩니다.
 * **[!UICONTROL 상태]:** `https://status.adobe.com/experience_cloud`로 이동하여 제품 작동 상태 및 [!UICONTROL 구독 관리]를 확인합니다.
 * **[!UICONTROL 개발자 연결]:** `adobe.io`로 이동하여 개발자 설명서를 찾습니다.
@@ -143,7 +143,7 @@ Experience Cloud는 다음 호스트를 사용하여 애플리케이션을 제�
 | 기술 | 도메인 |
 |--- |--- |
 | Adobe Experience Cloud 도메인 | `adobe.com`, `adobe.net`, `adobe.io` |
-| Adobe ID 관리 서비스 (IMS) | `adobelogin.com` |
+| Adobe Identity Management Service (IMS) | `adobelogin.com` |
 | Experience Cloud 글꼴 | `typekit.net` |
 | Gainsight (제품 지침 및 도움말용) | `esp.aptrinsic.com` |
 
@@ -183,13 +183,13 @@ Adobe Experience League에서 제공하는 자체 도움말 튜토리얼과 빠�
 
 * [Experience League의 모든 튜토리얼](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
 * [Experience Platform 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=ko)
-* [실시간 고객 데이터 플랫폼](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ko)
+* [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ko)
 
 ## 릴리스 정보 및 관련 Experience Cloud 도움말
 
 * [모든 Experience Cloud 애플리케이션에 대한 제품 설명서](https://experienceleague.adobe.com/docs/home.html?lang=ko) - Experience Cloud 학습 및 지원에서 탐색
 * [릴리스 정보 및 제품 업데이트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko) - Experience Cloud의 새로운 기능 및 구독을 통한 업데이트 받기
-* [핵심 서비스 구현 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - 핵심 서비스에 대한 비디오 및 튜토리얼 보기
+* [핵심 서비스 구현 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=ko) - 핵심 서비스에 대한 비디오 및 튜토리얼 보기
 * [Experience League의 전문가 지원](https://experienceleague.adobe.com/) - 전문가 및 커뮤니티의 안내형 학습
 * [교육 및 훈련](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK) - Adobe의 제품을 최대한 활용할 수 있도록 Adobe와 협력하기
 * [고객 경험 블로그](https://blog.adobe.com/en/topics/digital-transformation) - Experience Cloud 블로그 보기
