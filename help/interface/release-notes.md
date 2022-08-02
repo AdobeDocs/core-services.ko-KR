@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4767'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 ## 2022년 7월
 
-**관리자에 대한 업데이트 알림 프로비저닝**
+**관리자를 위한 프로비저닝 업데이트 알림**
 
-* 자세한 내용은 [프로비저닝 업데이트 알림](admin-getting-started.md#provisioning) Experience Cloud의 프로비저닝에 대한 중요한 업데이트를 보려면
+* Experience Cloud의 중요한 프로비저닝 업데이트는 [프로비저닝 업데이트 알림](admin-getting-started.md#provisioning)을 참조하십시오.
 
 릴리스 예정일: **2022년 7월 11일**
 
@@ -84,7 +84,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 | 기능 | 날짜 | 설명 |
 | ------- | ------- | -------|
-| [!UICONTROL Unified Recents] - 최근에 액세스한 비즈니스 개체에 대한 확장 지원 | 2021년 8월 10일 | [!UICONTROL Unified Recents]는 Journey Optimizer 및 Experience Platform의 추가 비즈니스 개체로 확장됩니다. Journey Optimizer 고객은 Adobe Journey Optimizer 홈 페이지에서 최근에 액세스한 개체(메시지, 여정, 세그먼트, 스키마, 데이터 세트, 데이터 소스, 이벤트, 작업, 소스 및 대상)를 찾을 수 있습니다. |
+| [!UICONTROL Unified Recents] - 최근에 액세스한 비즈니스 오브젝트에 대한 확장 지원 | 2021년 8월 10일 | [!UICONTROL Unified Recents]는 Journey Optimizer 및 Experience Platform의 추가 비즈니스 오브젝트로 확장됩니다. Journey Optimizer 고객은 Adobe Journey Optimizer 홈 페이지에서 최근에 액세스한 오브젝트(메시지, 여정, 세그먼트, 스키마, 데이터 세트, 데이터 소스, 이벤트, 작업, 소스 및 대상)를 찾을 수 있습니다. |
 
 ## 2021년 7월
 
@@ -104,7 +104,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 | 기능 | 날짜 | 설명 |
 | ------- | ------- | ------- |
 | Experience Cloud 헤더 및 탐색 | 2021년 5월 20일 | Adobe Experience Cloud 업데이트에는 헤더의 밝은 테마 변경 기능과 Experience Cloud 헤더에서 어두운 테마로 쉽게 전환하고 사용자 아바타의 추가 환경 설정을 제어하는 링크가 포함되어 있습니다. Experience Cloud의 모든 애플리케이션이 테마를 지원하는 것은 아니지만, 이 기능은 향후에 테마를 지원할 수 있도록 합니다. |
-| Experience Cloud 글로벌 검색 | 2021년 5월 20일 | 이번 릴리스로 Experience Cloud 글로벌 검색을 통해 [Experience League](https://experienceleague.adobe.com/#home) 설명서, 과정 및 튜토리얼을 검색할 수 있게 되었습니다. (현재 글로벌 검색은 Experience Platform 사용자만 사용할 수 있습니다. [!UICONTROL Platform] 용 글로벌 검색을 사용하면 세그먼트, 데이터 세트, 스키마 등과 같은 Experience Cloud의 모든 비즈니스 개체를 검색할 수 있습니다.) |
+| Experience Cloud 글로벌 검색 | 2021년 5월 20일 | 이번 릴리스로 Experience Cloud 글로벌 검색을 통해 [Experience League](https://experienceleague.adobe.com/#home) 설명서, 과정 및 튜토리얼을 검색할 수 있게 되었습니다. (현재 글로벌 검색은 Experience Platform 사용자만 사용할 수 있습니다. [!UICONTROL Platform] 용 글로벌 검색을 사용하면 세그먼트, 데이터 세트, 스키마 등과 같은 Experience Cloud의 모든 비즈니스 오브젝트를 검색할 수 있습니다.) |
 | Experience Cloud 언어 환경 설정 | 2021년 5월 20일 | 이 업데이트에는 Experience Cloud [환경 설정](https://experience.adobe.com/preferences)에서 원하는 언어를 설정하는 기능이 포함되어 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
