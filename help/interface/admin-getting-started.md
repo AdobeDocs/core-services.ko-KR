@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1896'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -27,19 +27,19 @@ Admin Console 로그인, Experience Cloud 사용자 권한 및 제품 프로필 
 
 ## 프로비저닝 업데이트 알림{#provisioning}
 
-업데이트됨: **2022년 7월 20일**
+업데이트 날짜: **2022년 7월 20일**
 
 >[!IMPORTANT]
 >
 >Experience Cloud 프로비저닝에 대한 다음 알림을 검토하십시오.
 
-Adobe은 모든 Experience Cloud 고객이 일부 Experience Cloud 제품 간의 상호 운용성을 지원하는 기본 기능에 액세스할 수 있도록 프로비저닝을 업데이트하고 있습니다. 사용자는 Experience Cloud 조직에 추가된 새 자격 부여 권한으로서 Adobe Experience Platform을 갖게 됩니다. [!UICONTROL 데이터 수집] 를 포함한 서비스로 사용할 수 있습니다.
+Adobe는 모든 Experience Cloud 고객이 일부 Experience Cloud 제품 간의 상호 운용성을 지원하는 기본 기능을 이용할 수 있도록 프로비저닝을 업데이트하고 있습니다. 사용자는 자신의 Experience Cloud 조직에 새로운 자격으로 추가되고 [!UICONTROL 데이터 수집]이 포함 서비스로 제공되는 Adobe Experience Platform을 이용하게 됩니다.
 
-Adobe Experience Platform [!UICONTROL 데이터 수집] include [태그](https://experienceleague.adobe.com/docs/tags.html?lang=en) 간소화된 범용 태그 관리를 위해 그리고 신뢰할 수 있고 강력하고 완벽한 스트리밍 데이터 인프라를 제공합니다. 태그는 고객 경험 데이터 수집을 단순화하고 경험 전달을 간소화합니다.
+Adobe Experience Platform [!UICONTROL Data Collection]에는 단순화된 범용 태그 관리를 위한 [태그](https://experienceleague.adobe.com/docs/tags.html?lang=ko-KR)가 포함되어 있으며, 신뢰할 수 있고 강력하며 완벽한 스트리밍 데이터 인프라를 제공합니다. 태그는 고객 경험 데이터 수집을 단순화하고 경험 전달을 간소화합니다.
 
 **Admin Console 변경 사항**
 
-관리자는 다음과 같이 Admin Console에 대한 변경 사항 또는 추가 사항을 볼 수 있습니다.
+관리자는 다음과 같은 Admin Console에서의 변경 사항 또는 추가 사항을 확인할 수 있습니다.
 
 * Admin Console의 Adobe Experience Platform 제품 카드에 포함되는 항목:
 
@@ -52,24 +52,24 @@ Adobe Experience Platform [!UICONTROL 데이터 수집] include [태그](https:/
    * 데이터스트림
    * 방문자 ID
 
-   현재 Experience Platform을 사용하지 않는 조직의 경우 _Adobe Experience Platform_ 위에 나열된 기능을 포함하여 Admin Console의 제품입니다.
+   현재 Experience Platform을 사용하지 않는 조직의 경우, 위에 나열된 기능을 포함하여 _Adobe Experience Platform_ 제품이 Admin Console에 표시됩니다.
 
-   현재 Experience Platform을 사용하는 조직의 경우 _위치_ 이제 Experience Platform 카드에 통합됩니다.
+   현재 Experience Platform을 사용하는 조직의 경우, 이제 _장소_&#x200B;가 Experience Platform 카드로 통합됩니다.
 
-* Adobe Experience Platform 데이터 수집(이전의 Launch) 및 개인 정보 는 다른 Experience Platform 기능과 별도의 제품 카드로 계속 표시됩니다.
+* Adobe Experience Platform Data Collection(이전의 Launch) 및 개인정보 보호는 다른 Experience Platform 기능과 별도의 제품 카드로 계속 표시됩니다.
 
 새로운 기능에 대한 자세한 내용은 Experience League의 해당 페이지를 참조하십시오.
 
-* [데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
-* [장소](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en)
-* [보증](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html%3Flang%3Dde)
-* [ID 네임스페이스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko)
+* [데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ko-KR)
+* [장소](https://experienceleague.adobe.com/docs/places/using/home.html?lang=ko-KR)
+* [보증](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=ko-KR%3Flang%3Dde)
+* [ID 네임스페이스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko-KR)
 * [샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko-KR)
-* [경험 데이터 모델](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)
-* [스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR)
-* [데이터스트림](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en)
-* [방문자 ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=en#section_3C9F6DF37C654D939625BB4D485E4354)
-* [개인 정보 보호](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)
+* [경험 데이터 모델](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR)
+* [스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR-KR)
+* [데이터스트림](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ko-KR)
+* [방문자 ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=ko-KR#section_3C9F6DF37C654D939625BB4D485E4354)
+* [개인정보 보호](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR)
 
 ## Experience Cloud 사용자 인증 (마이그레이션 예정){#migration}
 
@@ -81,7 +81,7 @@ ID 유형에 대한 자세한 내용은 [Adobe Admin Console의 ID 유형](https
 
 마이그레이션 시간이 되면 조직 관리자는 사용자의 마이그레이션 30일 전에 알림 이메일을 수신하게 됩니다.
 
-* 마이그레이션은 오후 10시 사이에 예약됩니다. - 조직의 기본 시간대와 주말 기준 오전 6시
+* 마이그레이션은 조직의 주요 시간대 또는 주말을 기준으로 오후 10시에서 오전 6시 사이로 예약됩니다.
 * 마이그레이션하는 동안 Experience Cloud 애플리케이션에 약 15분 동안 액세스할 수 없으며 Admin Console에는 최대 30분 동안 액세스할 수 없습니다. 그렇지 않으면 이 마이그레이션이 원활하게 이루어집니다.
 
 ### 마이그레이션 후 변경 사항
@@ -196,9 +196,9 @@ Adobe Target에서 작업 영역과 제품 프로필은 동일한 개념입니�
 
 다음을 참조하십시오.
 
-* [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [제품 및 프로필 관리](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* 비디오: [Adobe Admin Console에서 Adobe Target 작업 영역을 구성하는 방법](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
+* [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ko-KR)
+* [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* 비디오: [Adobe Admin Console에서 Adobe Target 작업 영역을 구성하는 방법](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=ko-KR)
 
 ## Campaign 제품 프로필, 테넌트 및 보안 그룹 관리 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -240,6 +240,6 @@ Audience Manager 도움말의 [관리](https://experienceleague.adobe.com/docs/a
 
 ### 솔루션 및 제품 요구 사항
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=ko-KR)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=ko-KR)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=ko-KR)
