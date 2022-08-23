@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '2294'
-ht-degree: 100%
+source-git-commit: 9e700186f7385162e3892b2d42828b29f78ecd9d
+workflow-type: tm+mt
+source-wordcount: '2381'
+ht-degree: 96%
 
 ---
 
@@ -104,7 +104,7 @@ Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 
 
 ### Analytics 및 Adobe Target - 고객 ID 동기화 {#section_AD473A6A21C1446498E700363F9A8437}
 
-Experience Cloud ID 서비스 설정의 일부로, Analytics 및 [!DNL Target]에 대해 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko-KR) 를 Experience Cloud와 동기화하는 것이 좋습니다.
+Experience Cloud ID 서비스 설정의 일부로, Analytics 및 [!DNL Target]에 대해 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) 를 Experience Cloud와 동기화하는 것이 좋습니다.
 
 Adobe Target에서 `mbox3rdpartyid`은(는) 고객 ID 를 가져와 [!DNL Target] (으)로 보내야 합니다. ( [!DNL Target]에서 [고객 속성 사용](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=ko-KR) 을 참조하십시오.)
 
@@ -116,6 +116,11 @@ Adobe Target에서 `mbox3rdpartyid`은(는) 고객 ID 를 가져와 [!DNL Target
 * prop 또는 eVar에서 *`Customer ID (52mc210tr42)`* 를 입력합니다.
 
 고객 ID는 고객 ID가 알려지는 모든 [!DNL Analytics] 서버 호출에서 설정되어야 합니다.
+
+#### Analytics: 고객 ID를 Data Warehouse 채우기 방법과 동기화
+
+고객 속성을 처음 사용할 수 있게 되자 일부 고객은 Experience Cloud ID 서비스를 아직 구현하지 않아 고객 속성을 쉽게 활용할 수 없었습니다. 이 문제를 해결하기 위해 Adobe은 Adobe Analytics Data Warehouse를 사용하여 ID 동기화를 수행하는 수단을 만들었습니다. 이 기능을 &quot;데이터 웨어하우스 채우기&quot;라고 합니다. 이제 Data Warehouse 채우기 작업은 일반적으로 필요하지 않으며, 그 결과 2022년 10월부터 더 이상 사용할 수 없습니다.
+
 
 ### Mobile SDK
 
@@ -143,7 +148,7 @@ Analytics를 사용하는 경우 지역 데이터 수집(RDC)에 있는지 확�
 
 ## Adobe Target 구현 업데이트 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* 라이브러리 검색이 자동으로 수행되도록 [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=ko-KR)에서 [!UICONTROL Adobe Target 확장]을 추가하는 것이 좋습니다. [!UICONTROL Experience Platform Launch]를 사용하여 Adobe Target(및 기타 애플리케이션)용으로 [Experience Cloud ID 서비스 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko-KR)을 설정할 수도 있습니다. Adobe Target에서 핵심 서비스를 사용하려면 [!UICONTROL Experience Cloud ID 서비스] 업데이트가 **필요합니다.**
+* 라이브러리 검색이 자동으로 수행되도록 [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=ko-KR)에서 [!UICONTROL Adobe Target 확장]을 추가하는 것이 좋습니다. [!UICONTROL Experience Platform Launch]를 사용하여 Adobe Target(및 기타 애플리케이션)용으로 [Experience Cloud ID 서비스 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)을 설정할 수도 있습니다. Adobe Target에서 핵심 서비스를 사용하려면 [!UICONTROL Experience Cloud ID 서비스] 업데이트가 **필요합니다.**
 * [!UICONTROL Experience Platform Launch]를 사용하지 않는다면 [mbox 라이브러리를 수동으로 업데이트](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=ko-KR) 하십시오.
 * [!DNL Adobe Target]에 대한 보고 소스로 Adobe Analytics를 사용하기 위한 액세스 권한을 요청하십시오. [!DNL Target] 및 [!DNL Analytics] 데이터가 처리 중에 동일한 서버 호출에 결합되므로 방문자가 두 애플리케이션 간에 연결됩니다. [Analytics for Target 구현](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko-KR)을 참조하십시오.
 
@@ -230,4 +235,4 @@ Adobe [!DNL Experience Cloud] 내의 실시간 대상 프로파일링 및 기타
 
 지침이 필요하면 [Adobe Experience Cloud - Adobe 옵트아웃 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/opt-out.html?lang=ko-KR) 을 참조하십시오.
 
-도메인 간 추적을 사용하려면 [데이터 수집 CNAME 및 도메인 간 추적](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=ko-KR) 을 참조하십시오.
+도메인 간 추적을 사용하려면 [데이터 수집 CNAME 및 도메인 간 추적](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en) 을 참조하십시오.
