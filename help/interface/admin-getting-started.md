@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
+source-git-commit: 7bbb6c4ec77fa73db8640358504504bc7df36465
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1894'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ Adobe Experience Platform [!UICONTROL Data Collection]에는 단순화된 범용
 
 * [데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ko-KR)
 * [장소](https://experienceleague.adobe.com/docs/places/using/home.html?lang=ko-KR)
-* [보증](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=ko-KR%3Flang%3Dde)
+* [보증](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=ko-KR)
 * [ID 네임스페이스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko-KR)
 * [샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko-KR)
 * [경험 데이터 모델](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR)
@@ -81,7 +81,7 @@ ID 유형에 대한 자세한 내용은 [Adobe Admin Console의 ID 유형](https
 
 마이그레이션 시간이 되면 조직 관리자는 사용자의 마이그레이션 30일 전에 알림 이메일을 수신하게 됩니다.
 
-* 마이그레이션은 조직의 주요 시간대 또는 주말을 기준으로 오후 10시에서 오전 6시 사이로 예약됩니다.
+* 마이그레이션은 오후 10시 사이에 예약됩니다. - 조직의 기본 시간대와 주말 기준 오전 6시
 * 마이그레이션하는 동안 Experience Cloud 애플리케이션에 약 15분 동안 액세스할 수 없으며 Admin Console에는 최대 30분 동안 액세스할 수 없습니다. 그렇지 않으면 이 마이그레이션이 원활하게 이루어집니다.
 
 ### 마이그레이션 후 변경 사항
