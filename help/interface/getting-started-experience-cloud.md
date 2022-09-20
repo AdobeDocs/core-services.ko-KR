@@ -2,17 +2,17 @@
 description: Adobe Experience Cloud에 로그인하고, 암호 및 알림을 관리하고, 기본 랜딩 페이지를 지정하는 방법을 알아봅니다.
 keywords: 핵심 서비스, Experience Cloud 로그인
 solution: Experience Cloud
-title: '로그인 및 Experience Cloud 프로필 설정 관리 '
+title: 로그인 및 Experience Cloud 프로필 설정 관리
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
-workflow-type: ht
-source-wordcount: '972'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '977'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 로그인한 다음 올바른 [조직](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)에 속해 있는지 확인하십시오.
 
-1. Experience Cloud 풀다운 메뉴(![](assets/menu-icon.png))를 선택한 다음 **[!UICONTROL 관리]**&#x200B;를 선택합니다.
+1. Experience Cloud 메뉴( ![환경 설정](assets/menu-icon.png))를 선택한 다음 을 선택합니다. **[!UICONTROL 관리]**.
 
    **[!UICONTROL 관리]** 링크가 표시되지 않으면 표시된 [조직](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)의 Experience Cloud 관리자가 아닌 것입니다. 관리자가 되는 것과 관련하여 지원이 필요한 경우 귀사의 고객 지원 또는 기존 Experience Cloud 관리자에게 문의하십시오.
 1. **[!UICONTROL 관리]**&#x200B;를 선택합니다.
@@ -60,9 +60,9 @@ Experience Cloud에 로그인하는 관리자 이외의 사용자를 위한 도�
 
    Experience Cloud 관리자가 계정 유형(Adobe ID 또는 Enterprise ID)을 확인하는 데 도움을 줄 수 있습니다.
 
-1. 랜딩 페이지에서 선택기 아이콘 ![](assets/menu-icon.png) 을 선택 풀다운 메뉴에 액세스합니다.
+1. 랜딩 페이지에서 선택기 아이콘을 선택합니다  ![메뉴](assets/menu-icon.png) 를 클릭하여 풀다운 메뉴에 액세스합니다.
 
-   ![](assets/experience-cloud-core-services.png)
+   ![메뉴](assets/experience-cloud-core-services.png)
 
    이 메뉴에 표시되는 애플리케이션 및 서비스는 [관리자](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)가 정의한 애플리케이션 권한에 따라 다릅니다.
 
@@ -82,7 +82,7 @@ Experience Cloud에 로그인한 후 개인 세부 사항을 편집하고, 표�
 
 시스템 업데이트, 유지 관리 알림, 게시물, 언급 및 공유된 Assets에 대한 알림(이메일을 통해 또는 제품 내에서)을 받습니다. 고객 속성에 대한 업로드 상태를 포함하여 알림을 받으려는 제품 및 애플리케이션을 지정할 수도 있습니다.
 
-알림으로 이동하려면 **[!UICONTROL 알림]** 아이콘 ![](assets/notifications-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** 아이콘 ![](assets/icon_edit_board.png)을 선택합니다.
+알림으로 이동하려면 **[!UICONTROL 알림 을 참조하십시오]** 아이콘  ![알림](assets/notifications-icon.png)를 선택한 다음, **[!UICONTROL 설정]** 아이콘  ![편집](assets/icon_edit_board.png).
 
 본인에게 중요한 메시지 유형을 기반으로 하여 알림 표시를 정렬하고 알림을 검색할 수 있습니다. 다음 작업도 수행할 수 있습니다.
 

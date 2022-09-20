@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: a0fd3904711305148f768be8afb3e9b3395af472
-workflow-type: ht
-source-wordcount: '1283'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '1285'
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ Experience Cloud 헤더에서 다음 작업을 수행할 수 있습니다.
 
 Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이션, 서비스 및 조직에 빠르게 액세스할 수 있습니다.
 
-조직의 Experience Cloud 애플리케이션 및 서비스에 액세스하려면 애플리케이션 선택기 ![](assets/menu-icon.png)로 이동하십시오.
+조직 내에서 프로비저닝된 Experience Cloud 애플리케이션 및 서비스에 액세스하려면 애플리케이션 선택기로 이동하십시오 ![메뉴](assets/menu-icon.png).
 
 ![Experience Cloud 애플리케이션 액세스](assets/platform-core-services.png)
 
@@ -114,7 +114,7 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 * 로그아웃
 * 계정 환경 설정, 알림 및 구독 구성
 
-환경 설정을 관리하려면 계정 메뉴 ![](assets/preferences-icon-sm.png)에서 **[!UICONTROL 환경 설정]**&#x200B;을 선택합니다.
+환경 설정을 관리하려면 **[!UICONTROL 기본 설정]** 계정 메뉴에서 ![환경 설정](assets/preferences-icon-sm.png).
 
 ![사용자 프로필 및 계정 환경 설정](assets/preferences-page.png)
 
@@ -138,7 +138,7 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 
 ## Experience Cloud 도메인 {#domains}
 
-Experience Cloud는 다음 호스트를 사용하여 애플리케이션을 제공하고 성능과 제품 경험을 개선합니다. Adobe에서 최적의 경험을 구축하려면 다음 도메인을 방화벽의 허용 목록에 추가하는 것이 좋습니다. 추가 도메인은 Adobe Analytics와 같은 특정 Experience Cloud 애플리케이션에서 사용할 수 있습니다. 자세한 내용은 해당 애플리케이션의 설명서를 참조하십시오.
+Experience Cloud는 다음 호스트를 사용하여 애플리케이션을 제공하고 성능과 제품 경험을 개선합니다. Adobe은 최적의 환경을 위해 이러한 도메인을 방화벽의 허용 목록에 추가하는 것이 좋습니다. 추가 도메인은 Adobe Analytics와 같은 특정 Experience Cloud 애플리케이션에서 사용할 수 있습니다. 자세한 내용은 해당 애플리케이션의 설명서를 참조하십시오.
 
 | 기술 | 도메인 |
 |--- |--- |
@@ -190,7 +190,7 @@ Adobe Experience League에서 제공하는 자체 도움말 튜토리얼과 빠�
 
 * [모든 Experience Cloud 애플리케이션에 대한 제품 설명서](https://experienceleague.adobe.com/docs/home.html?lang=ko) - Experience Cloud 학습 및 지원에서 탐색
 * [릴리스 정보 및 제품 업데이트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko) - Experience Cloud의 새로운 기능 및 구독을 통한 업데이트 받기
-* [핵심 서비스 구현 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=ko) - 핵심 서비스에 대한 비디오 및 튜토리얼 보기
+* [핵심 서비스 구현 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - 핵심 서비스에 대한 비디오 및 튜토리얼 보기
 * [Experience League의 전문가 지원](https://experienceleague.adobe.com/) - 전문가 및 커뮤니티의 안내형 학습
 * [교육 및 훈련](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK) - Adobe의 제품을 최대한 활용할 수 있도록 Adobe와 협력하기
 * [고객 경험 블로그](https://blog.adobe.com/en/topics/digital-transformation) - Experience Cloud 블로그 보기

@@ -2,17 +2,17 @@
 description: 조직(IMS 조직 ID) 개요와 Experience Cloud로의 솔루션 계정 연결에 대해 알아봅니다.
 keywords: Adobe Experience Cloud 서비스
 solution: Experience Cloud
-title: '조직 및 계정 연결 '
+title: 조직 및 계정 연결
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '575'
+ht-degree: 77%
 
 ---
 
@@ -64,7 +64,7 @@ An *조직* (조직 ID)는 관리자가 그룹과 사용자를 구성하고, Exp
 
 1. Experience Cloud로의 초대 이메일에 기재되어 있는 단계를 따릅니다.
 1. Adobe ID 또는 Enterprise ID를 사용하여 로그인합니다.
-1. 애플리케이션 선택기 선택. (![](assets/menu-icon.png)).
+1. 애플리케이션 선택기를 선택합니다. ( ![메뉴](assets/menu-icon.png)).
 
    ![Adobe ID에 애플리케이션 계정 연결](assets/solutions-active.png)
 

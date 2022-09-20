@@ -2,17 +2,17 @@
 description: 고객 속성 소스를 만들고 Adobe Experience Cloud로 업로드하는 방법에 대해 알아봅니다.
 keywords: 고객 속성;핵심 서비스
 solution: Experience Cloud
-title: '고객 속성 소스를 만들고 데이터 파일 업로드 '
+title: 고객 속성 소스를 만들고 데이터 파일 업로드
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '1169'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '1171'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 >
 >고객 속성 소스를 만들거나, 수정하거나, 삭제할 때, ID가 새 데이터 소스와의 동기화를 시작하기 전에 최대 한 시간이 지연됩니다. 고객 속성 소스를 만들거나 수정하려면 Audience Manager에 관리 권한이 있어야 합니다. 관리 권한을 얻으려면 Audience Manager 고객 지원 센터 또는 컨설팅 팀에 문의하십시오.
 
-1. [!DNL Experience Cloud]에서 메뉴  ![](assets/menu-icon.png) 아이콘을 선택합니다.
+1. 에서 [!DNL Experience Cloud]메뉴에서 을 선택합니다.  ![메뉴](assets/menu-icon.png) 아이콘.
 1. **[!DNL Experience Platform]**&#x200B;에서 **[!UICONTROL 사용자]** > **[!UICONTROL 고객 속성]**&#x200B;을 선택합니다.
 
    [!UICONTROL 고객 속성] 페이지에서 기존 속성 데이터 소스를 관리 및 편집할 수 있습니다.
@@ -120,7 +120,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
       **파일 업로드 그래픽**
 
-      ![](assets/file_upload_attributes.png)
+      ![속성](assets/file_upload_attributes.png)
 
    * **[!UICONTROL Unique Customer ID:]** 이 속성 소스에 업로드한 고유한 ID 수를 표시합니다.
 

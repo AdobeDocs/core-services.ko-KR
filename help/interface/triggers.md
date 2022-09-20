@@ -4,17 +4,17 @@ keywords: 통합,트리거
 seo-description: How to configure Experience Cloud Triggers.
 seo-title: Triggers
 solution: Experience Cloud
-title: '트리거 개요 '
+title: 트리거 개요
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '702'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '703'
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ Experience Cloud 내의 [!UICONTROL 트리거]를 통해 주요 소비자 행동
 >
 >현재 트리거는 100개로 기술적 제한이 있습니다.
 
-1. Experience Cloud에서 ![](assets/menu-icon.png)를 선택한 다음 **[!UICONTROL 데이터 수집/실행]**&#x200B;을 선택합니다.
+1. Experience Cloud에서 ![메뉴](assets/menu-icon.png)를 선택하고 을 선택합니다. **[!UICONTROL 데이터 수집/실행]**.
 2. [!UICONTROL 트리거] 카드에서 **[!UICONTROL 트리거 관리]**&#x200B;를 선택합니다.
 3. **[!UICONTROL 새 트리거]**&#x200B;를 선택한 다음 트리거 유형을 지정합니다.
 
