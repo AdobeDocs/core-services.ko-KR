@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 7bbb6c4ec77fa73db8640358504504bc7df36465
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1894'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ ID 유형에 대한 자세한 내용은 [Adobe Admin Console의 ID 유형](https
 
 마이그레이션 시간이 되면 조직 관리자는 사용자의 마이그레이션 30일 전에 알림 이메일을 수신하게 됩니다.
 
-* 마이그레이션은 오후 10시 사이에 예약됩니다. - 조직의 기본 시간대와 주말 기준 오전 6시
+* 마이그레이션은 조직의 주요 시간대 또는 주말을 기준으로 오후 10시에서 오전 6시 사이로 예약됩니다.
 * 마이그레이션하는 동안 Experience Cloud 애플리케이션에 약 15분 동안 액세스할 수 없으며 Admin Console에는 최대 30분 동안 액세스할 수 없습니다. 그렇지 않으면 이 마이그레이션이 원활하게 이루어집니다.
 
 ### 마이그레이션 후 변경 사항
@@ -196,9 +196,9 @@ Adobe Target에서 작업 영역과 제품 프로필은 동일한 개념입니�
 
 다음을 참조하십시오.
 
-* [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [제품 및 프로필 관리](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* 비디오: [Adobe Admin Console에서 Adobe Target 작업 영역을 구성하는 방법](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
+* [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ko-KR)
+* [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* 비디오: [Adobe Admin Console에서 Adobe Target 작업 영역을 구성하는 방법](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=ko-KR)
 
 ## Campaign 제품 프로필, 테넌트 및 보안 그룹 관리 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -240,6 +240,6 @@ Audience Manager 도움말의 [관리](https://experienceleague.adobe.com/docs/a
 
 ### 솔루션 및 제품 요구 사항
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=ko-KR)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=ko-KR)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=ko-KR)
