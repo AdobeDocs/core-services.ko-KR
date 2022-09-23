@@ -1,17 +1,15 @@
 ---
 description: Experience Cloud에서 승인된 Creative Cloud 사용자를 관리하는 관리 도구에 대해 알아봅니다.
-keywords: 에셋 공유, Creative Cloud, 핵심 서비스
 solution: Experience Cloud
 title: Creative Cloud 사용자 관리
-uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '121'
 ht-degree: 97%
 
 ---

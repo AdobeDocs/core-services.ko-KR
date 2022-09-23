@@ -1,18 +1,17 @@
 ---
-description: Experience Cloud에서 업로드되고 사용되는 PII(개인 식별 정보)와 관련된 고려 사항 및 모범 사례입니다.
-keywords: 고객 속성;핵심 서비스
+description: Experience Cloud에서 업로드되고 사용되는 PII(개인 식별 정보)와 관련된 고려 사항 및 모범 사례를 알아봅니다.
 solution: Experience Cloud
-title: '고객 속성에 대한 개인정보 보호 고려 사항 '
+title: 고객 속성에 대한 개인정보 보호 고려 사항
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '515'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 96%
 
 ---
 

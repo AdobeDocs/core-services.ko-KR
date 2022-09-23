@@ -1,17 +1,16 @@
 ---
 description: Analytics Premium으로 업그레이드할 때의 요구 사항과 예상되는 사항에 대해 알아봅니다.
-keywords: Adobe Analytics Premium 업그레이드
 solution: Experience Cloud
-title: 'Analytics Premium 및 Experience Cloud로 업그레이드 '
+title: Analytics Premium 및 Experience Cloud로 업그레이드
 topic: Administration
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '622'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '618'
 ht-degree: 100%
 
 ---
@@ -56,7 +55,7 @@ Predictive Intelligence로 업그레이드하면 [Analytics Premium](upgrade-to-
 
 | 제품 | 업그레이드 |
 |---|---|
-| Reports &amp; Analytics | [기여도 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=ko-KR) |
+| Reports &amp; Analytics | [기여도 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
 | Data Workbench | 대상 자격 조건 및 예측 마케팅을 위해 사전 빌드된 작업 공간. |
 | Analytics Platform | 라이브 스트림(대시보드 및 트리거) |
 

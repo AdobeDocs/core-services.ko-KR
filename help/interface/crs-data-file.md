@@ -1,17 +1,16 @@
 ---
 description: 고객 속성을 Experience Cloud에 업로드하기 위한 데이터 파일 요구 사항 및 여러 데이터 소스에 대해 알아봅니다.
-keywords: 고객 속성;핵심 서비스
 solution: Experience Cloud
-title: '고객 속성의 데이터 파일 및 데이터 소스에 대해 알아보기 '
+title: 고객 특성의 데이터 파일 및 데이터 소스에 대해 알아보기
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: cad3e95cc15edc7daa1ac1855c8475a6988e7026
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1214'
 ht-degree: 98%
 
 ---
@@ -150,7 +149,7 @@ CSV 파일은 다음 형식을 따라야 합니다.
 
 ```
 Visitor.setCustomerIDs({ 
-     "ds_id1”:"123456", 
+     "ds_id1":"123456", 
      "ds_id2":"123456" 
 });
 ```

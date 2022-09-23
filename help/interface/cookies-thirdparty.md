@@ -1,17 +1,16 @@
 ---
 description: 서드파티 쿠키 지원이 브라우저 전체에서 어떻게 점점 제한되고 있는지 알아봅니다.
-keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: '서드파티 쿠키 지원 변경이 고객에게 영향을 미치는 방식 '
+title: 서드파티 쿠키 지원 변경이 고객에게 영향을 미치는 방식
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '265'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '263'
 ht-degree: 100%
 
 ---

@@ -1,6 +1,5 @@
 ---
 description: 조직(IMS 조직 ID) 개요와 Experience Cloud로의 솔루션 계정 연결에 대해 알아봅니다.
-keywords: Adobe Experience Cloud 서비스
 solution: Experience Cloud
 title: 조직 및 계정 연결
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
@@ -9,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '571'
 ht-degree: 77%
 
 ---

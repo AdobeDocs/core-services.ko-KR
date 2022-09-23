@@ -1,17 +1,16 @@
 ---
 description: 솔루션 데이터 소스 및 구독 구성에 대해 알아봅니다. 구독을 통해 Experience Cloud와 애플리케이션(Analytics 및 Target) 간에 고객 속성 데이터 흐름을 사용할 수 있습니다.
-keywords: 고객 속성;핵심 서비스
-application: Experience Cloud
-title: '구독을 구성하는 방법 '
+solution: Experience Cloud
+title: 구독을 구성하는 방법
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '391'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '387'
 ht-degree: 100%
 
 ---

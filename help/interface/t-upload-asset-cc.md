@@ -1,18 +1,17 @@
 ---
-description: Creative Cloud 브라우저에서 Experience Cloud로 에셋을 공유 폴더에 업로드하는 방법
-keywords: 에셋 공유, Creative Cloud, 핵심 서비스
+description: Creative Cloud 브라우저에서 Experience Cloud으로 공유 폴더로 자산을 업로드합니다.
 solution: Experience Cloud
-title: 'Creative Cloud 브라우저에서 공유 폴더로 에셋 업로드 '
+title: Creative Cloud 브라우저에서 공유 폴더로 자산 업로드
 uuid: 701e28ed-4d1f-4109-882e-64d3b16cd2da
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '89'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 81%
 
 ---
 

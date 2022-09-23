@@ -2,11 +2,11 @@
 description: Experience Cloud의 중앙 인터페이스 구성 요소와 로그인하는 방법에 대해 알아봅니다. 글로벌 검색, 계정 환경 설정, 인터페이스 탐색 방법 및 도움말 보기에 대해 알아봅니다.
 solution: Experience Cloud
 title: Experience Cloud 중앙 UI 구성 요소
-feature: "Central Interface Components"
+feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 96%

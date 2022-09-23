@@ -1,17 +1,16 @@
 ---
 description: Adobe Experience Cloud 솔루션 및 서비스의 쿠키 및 개인정보 보호에 대해 알아봅니다.
-keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: '쿠키 및 개인정보 보호 '
+title: 쿠키 및 개인정보 보호
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 169b5c67-aab6-4b2a-832e-c5998d796bf7
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '347'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '345'
 ht-degree: 100%
 
 ---

@@ -1,17 +1,16 @@
 ---
 description: Adobe Experience Cloud를 사용하는 관리자를 위한 브라우저 지원에 대해 알아보고, 일반적인 질문에 대한 답변을 얻을 수 있습니다.
-keywords: 핵심 서비스, Experience Cloud, Experience Platform, Analytics, Target, 사용자 관리
 solution: Experience Cloud
-title: 'Experience Cloud FAQ '
+title: Experience Cloud FAQ
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: ht
-source-wordcount: '775'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '765'
 ht-degree: 100%
 
 ---

@@ -1,18 +1,17 @@
 ---
-description: '"고객 속성, Audiences 및 사용자 관리와 같은 Experience Cloud 서비스에 대한 최신 기능, 릴리스 정보 및 알려진 문제"'
-keywords: 핵심 서비스
+description: 고객 속성, 대상 및 사용자 관리와 같은 Experience Cloud 서비스의 최신 기능, 릴리스 노트 및 알려진 문제에 대해 알아봅니다.
 solution: Experience Cloud
-title: '누적 릴리스 정보 '
+title: 누적 릴리스 노트
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
-workflow-type: ht
-source-wordcount: '4767'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '4768'
+ht-degree: 99%
 
 ---
 
@@ -150,7 +149,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 * Experience Cloud 애플리케이션 제품군의 Marketo와 Experience Platform에 대한 브랜딩 업데이트를 포함하도록 앱 전환기를 업데이트했습니다. (MCUI-6529)
 * 피드 및 관리 페이지에 대한 탐색 링크를 포함하도록 Experience Cloud 홈을 업데이트했습니다. (MCUI-6682)
-* &quot;like&quot; 절의 올바른 사용을 위해 [!UICONTROL 트리거] 정의에서 문제를 수정했습니다. (MCUI-6611)
+* 에서 문제가 해결되었습니다. [!UICONTROL 트리거] &quot;like&quot; 절의 올바른 사용을 위한 정의입니다. (MCUI-6611)
 * 구독 서비스의 개선된 로그인을 위해 고객 속성을 개선합니다. (MCUI-6519)
 
 ## 릴리스 19.1.1 - 2019년 1월 17일

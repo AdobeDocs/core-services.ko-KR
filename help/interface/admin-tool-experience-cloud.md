@@ -1,18 +1,17 @@
 ---
 description: Experience Cloud 관리 도구에 대해 알아봅니다. 모든 Experience Cloud 사용자 및 정책의 정렬 및 필터링 가능한 목록을 확인합니다.
-keywords: 핵심 서비스
 application: Experience Cloud
-title: 'Experience Cloud 사용자 및 사용자 세부 사항 보기 '
+title: Experience Cloud 사용자 및 사용자 세부 사항 보기
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '1270'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '1268'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +45,7 @@ ht-degree: 100%
 | [!UICONTROL 이메일] | 사용자와 연결된 이메일 주소입니다. 열은 A->Z, Z->A로 정렬할 수 있습니다. |
 | [!UICONTROL ID 유형] | 사용자 계정의 ID 유형입니다. 특정 ID 유형이 표시되도록 필터를 적용할 수 있습니다. 자세한 내용은 [ID 유형 관리](https://helpx.adobe.com/kr/enterprise/using/identity.html) 를 참조하십시오. |
 | [!UICONTROL 솔루션] | 사용자가 액세스할 수 있는 Experience Cloud 애플리케이션 요약입니다. 특정 애플리케이션 액세스 권한으로 사용자 목록의 범위를 좁히는 필터를 적용할 수 있습니다. |
-| [!UICONTROL 마지막 로그인] | Experience Cloud에 최근 사용자가 로그인한 시간 및 날짜입니다. 이 열은 오름차순 또는 내림차순 날짜로 정렬할 수 있습니다. <br> **중요:** 2020년 1월 13일부터 사용자의 마지막 로그인 데이터는 365일 동안 보관됩니다. 이 정보는 Experience Cloud의 최근 로그인 활동을 표시하기 위한 것으로, 2020년 1월 13일 이전에 비활성 계정에 대해 조치를 취하기 위한 추천 사항은 아닙니다. |
+| [!UICONTROL 마지막 로그인] | Experience Cloud에 최근 사용자가 로그인한 시간 및 날짜입니다. 이 열은 오름차순 또는 내림차순 날짜로 정렬할 수 있습니다. <br> **중요 사항:** 2020년 1월 13일부터 사용자의 마지막 로그인 데이터는 365일 동안 보관됩니다. 이 정보는 Experience Cloud의 최근 로그인 활동을 표시하기 위한 것으로, 2020년 1월 13일 이전에 비활성 계정에 대해 조치를 취하기 위한 추천 사항은 아닙니다. |
 
 ## 사용자 목록 보기 사용자 지정
 
@@ -78,7 +77,7 @@ ht-degree: 100%
 * 이름
 * 이메일
 * 사용자 이름(Federated ID 계정의 사용자 이름은 이메일 주소와 다를 수 있음)
-* [ID 유형](https://helpx.adobe.com/kr/enterprise/using/identity.html)
+* [ID 유형](https://helpx.adobe.com/enterprise/using/identity.html)
 * 국가
 * 마지막 로그인
 
@@ -131,7 +130,7 @@ ht-degree: 100%
 
 ![Admin Console의 정책 세부 정보 보기](assets/admin-tool-policy-detail.png)
 
-각 제품 프로필에 대한 세부 보기에는 제품 프로필의 주제(사용자, 그룹 등)에 대한 중요한 세부 정보가 표시됩니다. 제품 프로필에서 활성화한 권한 및 리소스도 표시합니다.
+각 제품 프로필에 대한 세부 사항 보기에는 제품 프로필의 주제(사용자, 그룹 등)에 대한 중요한 세부 사항이 표시됩니다. 제품 프로필에서 활성화한 권한 및 리소스도 표시합니다.
 
 제품 프로필의 세부 사항을 CSV 파일로 내보낼 수 있습니다. [!UICONTROL CSV 내보내기] 옵션을 사용하면 두 개의 CSV 파일이 생성됩니다.
 

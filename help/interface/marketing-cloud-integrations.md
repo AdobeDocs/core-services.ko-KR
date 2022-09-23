@@ -1,17 +1,16 @@
 ---
 description: Adobe Experience Cloud의 사용 가능한 애플리케이션 통합에 대해 알아봅니다.
-keywords: 통합
 solution: Experience Cloud
-title: 'Experience Cloud 통합 '
+title: Experience Cloud 통합
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1421'
 ht-degree: 99%
 
 ---

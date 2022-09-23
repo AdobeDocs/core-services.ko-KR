@@ -1,6 +1,5 @@
 ---
 description: 교차 애플리케이션 서비스를 위한 Adobe Analytics 및 Adobe Target 애플리케이션을 현대화합니다. Experience Cloud 서비스를 사용하는 방법을 알아봅니다.
-keywords: 핵심 서비스, 고객 속성
 solution: Experience Cloud
 title: 애플리케이션 간 서비스 애플리케이션 활성화
 index: true
@@ -9,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 9e700186f7385162e3892b2d42828b29f78ecd9d
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: '2377'
 ht-degree: 96%
 
 ---

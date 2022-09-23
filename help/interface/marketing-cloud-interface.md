@@ -1,15 +1,12 @@
 ---
-description: Experience Cloud의 새로운 기능 및 업데이트에 대한 개요입니다.
-keywords: 핵심 서비스
-seo-description: An overview of new features and updates in the Experience Cloud.
-seo-title: What's new in the Experience Cloud
+description: Experience Cloud의 새로운 기능 및 업데이트에 대해 알아보십시오.
 solution: Experience Cloud
-title: 'Experience Cloud의 새로운 기능 '
+title: Experience Cloud의 새로운 기능
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '634'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 98%
 
 ---
 
