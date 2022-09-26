@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 100%
 
@@ -190,7 +190,7 @@ Adobe Experience League에서 제공하는 자체 도움말 튜토리얼과 빠�
 
 * [모든 Experience Cloud 애플리케이션에 대한 제품 설명서](https://experienceleague.adobe.com/docs/home.html?lang=ko) - Experience Cloud 학습 및 지원에서 탐색
 * [릴리스 정보 및 제품 업데이트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko) - Experience Cloud의 새로운 기능 및 구독을 통한 업데이트 받기
-* [핵심 서비스 구현 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=ko) - 핵심 서비스에 대한 비디오 및 튜토리얼 보기
+* [핵심 서비스 구현 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - 핵심 서비스에 대한 비디오 및 튜토리얼 보기
 * [Experience League의 전문가 지원](https://experienceleague.adobe.com/) - 전문가 및 커뮤니티의 안내형 학습
 * [교육 및 훈련](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK) - Adobe의 제품을 최대한 활용할 수 있도록 Adobe와 협력하기
 * [고객 경험 블로그](https://blog.adobe.com/en/topics/digital-transformation) - Experience Cloud 블로그 보기
