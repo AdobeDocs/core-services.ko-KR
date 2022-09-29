@@ -1,7 +1,7 @@
 ---
-description: 고객 속성, 대상 및 사용자 관리와 같은 Experience Cloud 서비스의 최신 기능, 릴리스 노트 및 알려진 문제에 대해 알아봅니다.
+description: 고객 속성, 대상자 및 사용자 관리와 같은 Experience Cloud 서비스에 대한 최신 기능, 릴리스 정보 및 알려진 문제에 대해 알아보십시오.
 solution: Experience Cloud
-title: 누적 릴리스 노트
+title: 누적 릴리스 정보
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature: Customer Attributes
 topic: Administration
@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4768'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -149,7 +149,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 * Experience Cloud 애플리케이션 제품군의 Marketo와 Experience Platform에 대한 브랜딩 업데이트를 포함하도록 앱 전환기를 업데이트했습니다. (MCUI-6529)
 * 피드 및 관리 페이지에 대한 탐색 링크를 포함하도록 Experience Cloud 홈을 업데이트했습니다. (MCUI-6682)
-* 에서 문제가 해결되었습니다. [!UICONTROL 트리거] &quot;like&quot; 절의 올바른 사용을 위한 정의입니다. (MCUI-6611)
+* &quot;like&quot; 절의 올바른 사용을 위해 [!UICONTROL 트리거] 정의에서 문제를 수정했습니다. (MCUI-6611)
 * 구독 서비스의 개선된 로그인을 위해 고객 속성을 개선합니다. (MCUI-6519)
 
 ## 릴리스 19.1.1 - 2019년 1월 17일
@@ -226,8 +226,8 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 대상 라이브러리 메시지 </td> 
-   <td colname="col2"> <p> Audiences를 빌드하거나 시간 초과가 발생했을 때 유용한 메시지를 포함하도록 대상 라이브러리를 개선했습니다. </p> <p>예를 들면 6개 이상의 규칙을 추가할 때 허용 가능한 최대 규칙을 초과했음을 나타내는 메시지가 표시됩니다. (MAC-27376, MAC-27375) </p> </td> 
+   <td colname="col1"> 대상자 라이브러리 메시지 </td> 
+   <td colname="col2"> <p> Audiences를 빌드하거나 시간 초과가 발생했을 때 유용한 메시지를 포함하도록 대상자 라이브러리를 개선했습니다. </p> <p>예를 들면 6개 이상의 규칙을 추가할 때 허용 가능한 최대 규칙을 초과했음을 나타내는 메시지가 표시됩니다. (MAC-27376, MAC-27375) </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -247,7 +247,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 * 고객 속성 데이터를 업로드할 때 간혹 시간 초과를 초래하는 Audience Manager API 성능 문제를 수정했습니다. (MAC-26305)
 * 사용자가 구독에 최대 200개의 고객 속성을 추가하지 못하던 문제를 수정했습니다. (MAC-26188)
-* Analytics 세분화에서 대상 공유를 방해했던 대상 라이브러리 문제를 수정했습니다. 이 문제로 인해 &quot;데이터 수집&quot;(Audiences 0개)이 표시되었습니다. 이 문제를 방지하려면 세그먼트 크기를 세그먼트당 대상 구성원 수를 5만 명 미만으로 유지하는 것이 좋습니다. (MAC-25788)
+* Analytics 세분화에서 대상자 공유를 방해했던 대상자 라이브러리 문제를 수정했습니다. 이 문제로 인해 “데이터 수집” (대상자 0)이 표시되었습니다. 이 문제를 방지하려면 세그먼트 크기를 세그먼트당 대상자 구성원 수를 5만 명 미만으로 유지하는 것이 좋습니다. (MAC-25788)
 * 고객 속성 - 스키마 편집 페이지에서 디스플레이 이름을 변경하면 발생하는 콘텐츠 인식 오류를 초래하는 이전에 알려진 문제를 수정했습니다. (MAC-25589, AN-103834)
 
 ## 릴리스 15.7 - 2015년 7월 22일 {#section_2683A152176944E48EF6C943892975B7}
@@ -255,7 +255,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 고객 속성의 스키마 보기/편집 페이지에 지정된 속성 설명이 Analytics 보고서에 업데이트되지 않던 문제를 수정했습니다. (MAC-25985)
 * 업로드한 에셋의 썸네일을 렌더링하지 못하는 문제를 해결했습니다. (MAC-25863)
 * Experience Cloud Audiences의 Reports &amp; Analytics에 새 세그먼트를 생성하지 못하는 문제를 해결했습니다. (MAC-25817)
-* 고객이 방문자 ID 서비스를 사용하면 Analytics에서 공유하지 못하는 문제를 해결했습니다. (MAC-25788, MAC-25747)
+* 고객이 방문자 ID 서비스를 사용하면 Analytics에서 대상자를 공유하지 못하는 문제를 해결했습니다. (MAC-25788, MAC-25747)
 * 고객 속성에 멀티바이트 문자 지원을 추가했습니다. (MAC-25552)
 
 **알려진 문제**
@@ -280,7 +280,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>왼쪽 탐색 메뉴가 모든 핵심 서비스 및 애플리케이션에 액세스할 수 있도록 업데이트 및 구성되었습니다. 주목할 만한 변경 사항은 다음과 같습니다. </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"><span class="term"> 대상 라이브러리</span> 및 <span class="term"> 고객 속성</span> 메뉴 모음이 이제 <span class="term"> Audiences</span> 아래에 있습니다. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"><span class="term"> 대상자 라이브러리</span> 및 <span class="term"> 고객 속성</span> 메뉴 모음이 이제 <span class="term"> 대상자</span> 아래에 있습니다. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4"><span class="term"> Exchange</span> 메뉴 선택 사항이 도움말 드롭다운 메뉴에서 왼쪽 탐색 레일로 이동되었습니다. </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> 솔루션</span>은 제거되었습니다. 탐색 레일의 하단에서 모든 애플리케이션을 시작할 수 있습니다. </li> 
     </ul> </td> 
@@ -320,7 +320,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 **알려진 문제**
 
 * Dynamic Tag Management 조직을 Experience Cloud와 연결 및 연결 해제 기능이 새 Experience Cloud 조직에서 작동하지 않습니다. Adobe는 5월 릴리스에서 이 문제를 해결하고 정상적인 기능을 회복할 수 있도록 노력하고 있습니다. Experience Cloud를 통해 Dynamic Tag Management에 SSO(Single Sign-On)를 하려 할 때 문제가 발생하는 경우, [!DNL dtm.adobe.com]에서 기존 로그인을 사용하십시오.
-* 알려진 문제로 인해, 연결된 Analytics 계정이 소유하지 않은 보고서 세트에서는 대상 공유가 되지 않고 있습니다. 해결하기 위한 노력이 진행 중입니다.
+* 알려진 문제로 인해 연결된 Analytics 계정이 소유하지 않은 보고서 세트에서는 대상자 공유가 되지 않고 있습니다. 해결하기 위한 노력이 진행 중입니다.
 
 ## 릴리스 15.3.2 - 2015년 3월 19일 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
 
@@ -334,7 +334,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p>고객 속성 </p> </td> 
-   <td colname="col2"> <p>CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 데이터가 업로드된 후에 Analytics에서 <span class="uicontrol"> 방문자 프로필</span> &gt; <span class="uicontrol"> 고객 속성</span> 보고서를 실행할 수 있습니다. </p> <p>또한 <span class="keyword"> Adobe Target</span>에서 업로드된 데이터를 대상 세그먼트로 사용할 수도 있습니다. </p> <p><a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> 고객 속성</a> 제품 설명서를 참조하십시오. </p> <p> 핵심 서비스의 애플리케이션 현대화에 대한 자세한 내용은 <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">핵심 서비스용 애플리케이션 활성화</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 데이터가 업로드된 후에 Analytics에서 <span class="uicontrol"> 방문자 프로필</span> &gt; <span class="uicontrol"> 고객 속성</span> 보고서를 실행할 수 있습니다. </p> <p>또한 <span class="keyword"> Adobe Target</span>에서 업로드된 데이터를 대상자 세그먼트로 사용할 수도 있습니다. </p> <p><a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> 고객 속성</a> 제품 설명서를 참조하십시오. </p> <p> 핵심 서비스의 애플리케이션 현대화에 대한 자세한 내용은 <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">핵심 서비스용 애플리케이션 활성화</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -374,8 +374,8 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 * 계정 프로비저닝을 위해 사용자 이메일 초대 워크플로를 개선했습니다.
 * [!DNL Experience Cloud]와 [!DNL Adobe Campaign] 에셋이 동일한 폴더 계층을 표시하지 않도록 하는 에셋 폴더 문제가 수정되었습니다.
-* 비활성화된 [!DNL Target] 활동에 속했던 Audiences를 삭제하지 못했던 문제가 수정되었습니다.
-* [!UICONTROL 새 대상 만들기] 페이지의 [!UICONTROL 규칙] 아래에 추가(더하기) 아이콘이 표시되지 않던 문제가 수정되었습니다.
+* 비활성화된 [!DNL Target] 활동에 속했던 대상자를 삭제하지 못했던 문제가 수정되었습니다.
+* [!UICONTROL 새 대상자 만들기] 페이지의 [!UICONTROL 규칙] 아래에 추가(더하기) 아이콘이 표시되지 않던 문제가 수정되었습니다.
 * Internet Explorer 9에 대한 Experience Cloud 인터페이스 지원을 개선했습니다.
 
 ## 릴리스 15.1.1 - 2015년 1월 15일 {#section_F1A352E928AF432E94CC0A289C345184}
@@ -415,7 +415,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 일부 사용자는 Creative Cloud 사용자가 삭제된 후 Creative Cloud 사용자를 다시 공유 폴더에 추가하지 못할 수 있습니다.
 * 일부 사용자는 폴더를 Experience Cloud에서 Creative Cloud로 공유하면 발생하는 알림이 지연될 수 있습니다.
 * 일부 사용자는 Experience Cloud와 Creative Cloud 간에 폴더를 공유할 때 문제가 발생할 수 있습니다.
-* 일부 사용자는 공유된 Audiences가 활성화되면 Analytics 리포트 빌더 내에 대상을 만들 때 문제가 발생할 수 있습니다.
+* 일부 사용자는 공유된 Audiences가 활성화되면 Analytics 리포트 빌더 내에 대상자를 만들 때 문제가 발생할 수 있습니다.
 * 보드에 업로드하는 중 일부 사용자에게 문제가 발생할 수 있습니다.
 
 ## 릴리스 14.11.1 - 2014년 11월 13일 {#section_A6CF1D4F27B9496892A89C983EB39102}
@@ -560,7 +560,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Audiences의 <span class="wintitle"> 저장</span> 버튼 </p> </td> 
-   <td colname="col2"> <p>이제 대상 만들기, <span class="wintitle"> 새 대상 만들기</span> 페이지의 <span class="wintitle"> 저장</span> 버튼이 필수 필드를 모두 채워야만 활성화됩니다. 
+   <td colname="col2"> <p>이제 대상자 만들기, <span class="wintitle"> 새 대상자 만들기</span> 페이지의 <span class="wintitle"> 저장</span> 버튼이 필수 필드를 모두 채워야만 활성화됩니다. 
      <!--MAC-19712 --></p> </td> 
   </tr> 
  </tbody> 
@@ -572,7 +572,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 파일을 업로드하면 드래그하여 놓는 방법보다 더 많은 파일 유형을 사용할 수 있습니다. 최상의 결과를 얻으려면 에셋을 사용하여 업로드하십시오.
 * [!DNL Search&Promote] 조직 및 제품 액세스 페이지에서 에 연결할 수 없습니다.
 * [!DNL Analytics]에서 트렌드 보고서에 적용된 필터가 [!DNL Experience Cloud]의 카드에 적용되지 않았습니다.
-* 일부 사용자는 자신의 고객 관리 계정을 [!DNL Experience Cloud] 계정과 연결하지 못할 수 있습니다.
+* 일부 사용자는 자신의 대상자 관리 계정을 [!DNL Experience Cloud] 계정과 연결하지 못할 수 있습니다.
 * 15분 동안 아무 활동이 없으면 로그아웃됩니다. 또한 한 위치에서 로그아웃해도 Experience Cloud에서 로그아웃됩니다.
 * 일부 Exchange 사용자는 주석에서 자신의 이름이 실제 이름이 아닌 긴 문자열 ID임을 확인할 수 있습니다.
 
@@ -596,7 +596,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Audiences </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> 대상</span></p> <p> <span class="wintitle"> 대상</span>은 세그먼트 작업 방식과 유사한 방식으로 대상을 만들고, 편집하고, 관리하는 곳입니다. 예를 들어 Reports &amp; Analytics에서 세그먼트를 만든 후 <span class="wintitle"> Experience Cloud</span><span class="wintitle"> 대상</span>에 공유할 수 있습니다. 이렇게 공유된 대상은 <span class="keyword"> Adobe Target</span>에서 캠페인 활동에 사용하거나 Adobe Audience Manager에서 세분화에 사용할 수 있습니다. </p> <p> <p>참고: 이 기능에 대한 액세스 권한을 요청하려면 <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>를 방문하십시오. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> 대상자</span></p> <p> <span class="wintitle"> 대상자</span>는 세그먼트 작업 방식과 유사한 방식으로 대상자를 만들고, 편집하고, 관리하는 곳입니다. 예를 들어 Reports &amp; Analytics에서 세그먼트를 만든 후 <span class="wintitle"> Experience Cloud</span><span class="wintitle"> 대상자</span>에 공유할 수 있습니다. 이렇게 공유된 대상자는 <span class="keyword"> Adobe Target</span>에서 캠페인 활동에 사용하거나 Adobe Audience Manager에서 세분화에 사용할 수 있습니다. </p> <p> <p>참고: 이 기능에 대한 액세스 권한을 요청하려면 <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>를 방문하십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
@@ -673,7 +673,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * [!DNL Analytics]에서 트렌드 보고서에 적용된 필터가 [!DNL Experience Cloud]의 카드에 적용되지 않았습니다.
 * Analytics에서 트렌드 보고서에 적용된 필터가 Experience Cloud의 카드에 적용되지 않았습니다.
 * 일부 Excel 또는 CSV 파일을 보드에 업로드할 수 없습니다.
-* 일부 사용자는 자신의 고객 관리 계정을 [!DNL Experience Cloud]와 연결하지 못할 수 있습니다.
+* 일부 사용자는 자신의 대상자 관리 계정을 [!DNL Experience Cloud]와 연결하지 못할 수 있습니다.
 * 일부 사용자는 [!DNL Analytics]에서 [!DNL Experience Cloud] 세그먼트를 공유할 때 오류가 발생할 수 있습니다.
 * 일부 사용자는 [!UICONTROL 에셋 선택기]에서 하위 폴더로 드릴다운하지 못할 수 있습니다.
 * 일부 사용자는 [!DNL Experience Cloud]에서 AdLens 가젯을 공유할 수 없습니다.
