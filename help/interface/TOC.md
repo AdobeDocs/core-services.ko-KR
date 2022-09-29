@@ -3,12 +3,12 @@ audience: administrator
 user-guide-title: Experience Cloud 중앙 인터페이스 구성 요소
 breadcrumb-title: Experience Cloud 중앙 인터페이스 구성 요소
 title: Experience Cloud 인터페이스 및 관리 안내서
-description: Experience Cloud 인터페이스 및 사용자 계정 환경 설정에 대해 알아봅니다. 비즈니스 개체를 검색하고 사용자 및 제품을 관리하는 방법을 알아봅니다. 고객 속성, 대상 라이브러리, 쿠키 및 Experience Cloud 자산 공유를 구성합니다.
+description: Experience Cloud 인터페이스 및 사용자 계정 환경 설정에 대해 알아봅니다. 비즈니스 개체를 검색하고 사용자 및 제품을 관리하는 방법에 대해 알아봅니다. 고객 속성, 대상자 라이브러리, 쿠키를 구성하고 Experience Cloud 에셋을 공유하십시오.
 index: true
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 89%
    + [Experience Cloud 서비스](core-services-landing.md)
    + [Experience Cloud의 통합 검색](search-experience-cloud.md)
    + [애플리케이션 간 서비스 구현 활성화](core-services.md)
-   + Experience Cloud 대상 라이브러리 {#audiences}
+   + Experience Cloud 대상자 라이브러리 {#audiences}
       + [Experience Cloud Audiences](audience-library.md)
       + [대상자 만들기](t-audience-create.md)
-      + [Analytics 대상 세그먼트 게시](t-publish-audience-segment.md)
+      + [Analytics 대상자 세그먼트 게시](t-publish-audience-segment.md)
    + Experience Cloud 고객 속성 {#customer-attributes}
       + [고객 속성 개요](attributes.md)
       + [고객 속성 관련 자주 묻는 질문](faq-crs.md)
