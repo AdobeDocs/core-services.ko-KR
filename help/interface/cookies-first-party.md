@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 52796154e260648eb2fc57cc2b45453e9cb3227a
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 85%
+source-wordcount: '1615'
+ht-degree: 79%
 
 ---
 
@@ -47,28 +47,32 @@ Adobe 관리 인증서 프로그램에서는 추가 비용 없이 새로운 자�
 
 자사 데이터 수집을 위한 새 자사 SSL 인증서를 구현하는 방법은 다음과 같습니다.
 
-1. [자사 도메인 요청 양식](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) 을 작성하고 Adobe 관리 프로그램에서 자사 데이터 수집을 설정하도록 요청하는 고객 지원 센터를 통해 티켓을 엽니다. 문서 내에 각 필드가 예와 함께 설명되어 있습니다.
+1. [자사 도메인 요청 양식](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) 을 작성하고 Adobe 관리 프로그램에서 자사 데이터 수집을 설정하도록 요청하는 고객 지원 센터를 통해 티켓을 엽니다.
 
-2. CNAME 레코드를 만듭니다(아래 지침 참조).
+   문서 내에 각 필드가 예와 함께 설명되어 있습니다.
+
+1. CNAME 레코드를 만듭니다(아래 지침 참조).
 
    티켓을 수령하는 즉시 고객 지원 센터에서 CNAME 기록을 제공해야 합니다. Adobe가 귀하를 대신하여 인증서를 구입할 수 있으려면 먼저 회사의 DNS 서버에서 이러한 레코드를 구성해야 합니다. CNAME은 다음과 비슷합니다.
 
    **보안** - 예를 들어 호스트 이름 `smetrics.example.com` 은 `example.com.adobedc.net`을 가리킵니다.
 
->[!NOTE]
-> 이전에는 Adobe이 고객에게 HTTPS용 CNAME과 HTTP용 CNAME 1개를 설정하도록 권장했습니다. 이 방법은 트래픽을 암호화하는 가장 좋은 방법이며 대부분의 브라우저에서 HTTP를 강력하게 비활성화하므로 더 이상 HTTP용 CNAME을 설정하지 않는 것이 좋습니다. HTTP용 CNAME을 구성하려면 Adobe 고객 지원 센터에 문의하십시오.
+   >[!NOTE]
+   > 이전에는 Adobe에서 고객이 HTTPS용 CNAME과 HTTP용 CNAME 중 하나를 설정하도록 권장했습니다. 이 방법은 트래픽을 암호화하는 가장 좋은 방법이며 대부분의 브라우저에서 HTTP를 강력하게 비활성화하므로 더 이상 HTTP용 CNAME을 설정하지 않는 것이 좋습니다. HTTP용 CNAME을 구성하려면 Adobe 고객 지원 센터에 문의하십시오.
 
 1. CNAME이 설치되면, Adobe는 DigiCert와 협력하여 Adobe 프로덕션 서버에 인증서를 구입하고 설치합니다.
 
    기존 구현이 있는 경우 기존 방문자를 유지하기 위해 방문자 마이그레이션을 고려해야 합니다. 인증서가 Adobe의 프로덕션 환경에 라이브로 푸시된 후 추적 서버 변수를 새로운 호스트 이름으로 업데이트할 수 있습니다. 즉, 사이트가 안전하지 않은 경우(HTTP) `s.trackingServer`를 업데이트하십시오. 사이트가 안전한 경우(HTTPS) `s.trackingServer` 및 `s.trackingServerSecure` 변수를 모두 업데이트합니다.
 
-2. [호스트 이름 전달의 유효성을 검사합니다](#validate) (아래 참조).
+1. [호스트 이름 전달의 유효성을 검사합니다](#validate) (아래 참조).
 
-3. [구현 코드를 업데이트합니다](#update) (아래 참조).
+1. [구현 코드를 업데이트합니다](#update) (아래 참조).
 
 ### 유지 관리 및 갱신
 
-SSL 인증서는 매년 만료됩니다. 즉, Adobe는 매년 각 구현에 대한 새 인증서를 구입해야 합니다. 조직 내의 지원되는 모든 사용자는 구현 만료 시기가 다가올 때마다 이메일 알림을 받게 됩니다. Adobe가 호스트 이름을 갱신하기 위해, 지원되는 한 사용자는 Adobe에서 이메일에 회신하고 데이터 수집을 위해 만료되는 호스트 이름을 계속 사용할 계획임을 나타내야 합니다. 이때 Adobe는 자동으로 새 인증서를 구입하여 설치합니다.
+자사 인증서가 만료되기 30일 전에 Adobe은 CNAME이 여전히 유효하고 사용 중인지 확인합니다. 그럴 경우 Adobe은 사용자가 서비스를 계속 사용하고 사용자를 대신하여 인증서를 자동으로 재업데이트한다고 가정합니다.
+
+현재 CNAME이 제거되어 더 이상 유효하지 않은 경우 Adobe이 인증서를 갱신하지 않으며 시스템의 항목이 제거로 표시됩니다. CNAME이 제거된 경우 Adobe은 해당 URL을 사용하여 추적이 발생하지 않았음을 알고 있으므로 제거해도 안전합니다.
 
 ### 자주 묻는 질문
 
