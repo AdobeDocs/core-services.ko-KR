@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 52796154e260648eb2fc57cc2b45453e9cb3227a
+source-git-commit: f5cead10ecfeefeb560e92881524650e55bd938d
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 79%
+source-wordcount: '1636'
+ht-degree: 78%
 
 ---
 
@@ -58,7 +58,7 @@ Adobe 관리 인증서 프로그램에서는 추가 비용 없이 새로운 자�
    **보안** - 예를 들어 호스트 이름 `smetrics.example.com` 은 `example.com.adobedc.net`을 가리킵니다.
 
    >[!NOTE]
-   > 이전에는 Adobe에서 고객이 HTTPS용 CNAME과 HTTP용 CNAME 중 하나를 설정하도록 권장했습니다. 이 방법은 트래픽을 암호화하는 가장 좋은 방법이며 대부분의 브라우저에서 HTTP를 강력하게 비활성화하므로 더 이상 HTTP용 CNAME을 설정하지 않는 것이 좋습니다. HTTP용 CNAME을 구성하려면 Adobe 고객 지원 센터에 문의하십시오.
+   > 이전에는 Adobe에서 고객이 HTTPS용 CNAME과 HTTP용 CNAME을 각각 한 개씩 설정하도록 권장했습니다. 이 방법은 트래픽을 암호화하는 가장 좋은 방법이며 대부분의 브라우저에서 HTTP를 강력하게 비활성화하므로 더 이상 HTTP용 CNAME을 설정하지 않는 것이 좋습니다. 이제 두 항목을 모두 설정하는 것이 가장 좋습니다 `trackingServer` 및 `trackingServerSecure` ( 동일한 CNAME 사용) 예를 들어, 둘 다 `trackingServer` 및 `trackingServerSecure` 이 설정되면 `smetrics.example.com`. HTTP는 타사 호스트 이름에만 사용할 수 있습니다.
 
 1. CNAME이 설치되면, Adobe는 DigiCert와 협력하여 Adobe 프로덕션 서버에 인증서를 구입하고 설치합니다.
 
