@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: f5cead10ecfeefeb560e92881524650e55bd938d
+source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 78%
+source-wordcount: '1622'
+ht-degree: 79%
 
 ---
 
@@ -72,7 +72,8 @@ Adobe 관리 인증서 프로그램에서는 추가 비용 없이 새로운 자�
 
 자사 인증서가 만료되기 30일 전에 Adobe은 CNAME이 여전히 유효하고 사용 중인지 확인합니다. 그럴 경우 Adobe은 사용자가 서비스를 계속 사용하고 사용자를 대신하여 인증서를 자동으로 재업데이트한다고 가정합니다.
 
-현재 CNAME이 제거되어 더 이상 유효하지 않은 경우 Adobe이 인증서를 갱신하지 않으며 시스템의 항목이 제거로 표시됩니다. CNAME이 제거된 경우 Adobe은 해당 URL을 사용하여 추적이 발생하지 않았음을 알고 있으므로 제거해도 안전합니다.
+>[!NOTE]
+> CNAME이 제거되었거나 더 이상 유효하지 않은 경우(제공된 Adobe SSL 호스트 이름에 매핑하지 않음) Adobe이 인증서를 갱신할 수 없으며 추가 통신 없이 시스템 항목이 제거되도록 표시됩니다.
 
 ### 자주 묻는 질문
 
