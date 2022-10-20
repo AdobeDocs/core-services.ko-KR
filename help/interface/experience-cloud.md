@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 013a05d68f3fdf0dc71e048dfa6144be08cdfe6a
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 100%
+source-wordcount: '1337'
+ht-degree: 96%
 
 ---
 
@@ -123,6 +123,8 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 | 기능 | 설명 |
 |--- |--- |
 | 기본 [조직](organizations.md) | Experience Cloud를 시작할 때 보려는 조직을 선택합니다. |
+| [!UICONTROL 제품 데이터 수집] | Adobe 제품 사용 방법에 대한 데이터를 수집하는 데 Adobe에서 사용할 수 있는 기술을 선택합니다. |
+| [!UICONTROL 개인화된 학습 권장 사항 및 프로모션] | Adobe 제품에 대한 개인화된 도움말을 받을 위치를 선택합니다. 이 도움말은 이메일, 제품 내 및 Experience League 커뮤니티를 통해 사용할 수 있습니다. 추가 정보. |
 | [!UICONTROL 구독] | 구독하기 원하는 제품 및 범주를 선택하십시오. [!UICONTROL 알림] 팝업 및 이메일 알림. |
 | [!UICONTROL 우선 순위] | 높은 우선 순위로 고려하고 싶은 범주를 선택하십시오. 이러한 범주는 높음 태그로 표시되며 경고처럼 게재되도록 구성할 수 있습니다. |
 | [!UICONTROL 경고] | 브라우저에 경고를 표시할 알림을 선택하십시오. 경고는 창의 오른쪽 상단에 몇 초 동안 표시됩니다. |
