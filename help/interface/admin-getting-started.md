@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 100%
 
@@ -196,9 +196,9 @@ Adobe Target에서 작업 영역과 제품 프로필은 동일한 개념입니�
 
 다음을 참조하십시오.
 
-* [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ko-KR)
-* [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* 비디오: [Adobe Admin Console에서 Adobe Target 작업 영역을 구성하는 방법](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=ko-KR)
+* [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
+* [제품 및 프로필 관리](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* 비디오: [Adobe Admin Console에서 Adobe Target 작업 영역을 구성하는 방법](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
 
 ## Campaign 제품 프로필, 테넌트 및 보안 그룹 관리 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -240,6 +240,6 @@ Audience Manager 도움말의 [관리](https://experienceleague.adobe.com/docs/a
 
 ### 솔루션 및 제품 요구 사항
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=ko-KR)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=ko-KR)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=ko-KR)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
