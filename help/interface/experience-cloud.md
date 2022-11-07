@@ -1,5 +1,5 @@
 ---
-description: Experience Cloud 중앙 인터페이스 구성 요소에 대해 알아봅니다. 이 도움말에는 Admin Console에서의 사용자 및 제품 관리, Experience Cloud 서비스를 위한 애플리케이션 활성화, 대상 라이브러리, 고객 속성, Experience Cloud Assets 등에 대한 도움말이 포함되어 있습니다.
+description: Experience Cloud 중앙 인터페이스 구성 요소에 대해 알아봅니다. 이 도움말에는 Admin Console에서의 사용자 및 제품 관리, Experience Cloud 서비스를 위한 애플리케이션 활성화, 대상자 라이브러리, 고객 속성, Experience Cloud Assets 등에 대한 도움말이 포함되어 있습니다.
 solution: Experience Cloud
 title: Experience Cloud 인터페이스 도움말 및 설명서
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
@@ -10,8 +10,8 @@ level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -123,8 +123,8 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 | 기능 | 설명 |
 |--- |--- |
 | 기본 [조직](organizations.md) | Experience Cloud를 시작할 때 보려는 조직을 선택합니다. |
-| [!UICONTROL 제품 데이터 수집] | Adobe 제품 사용 방법에 대한 데이터를 수집하는 데 Adobe에서 사용할 수 있는 기술을 선택합니다. |
-| [!UICONTROL 개인화된 학습 권장 사항 및 프로모션] | Adobe 제품에 대한 개인화된 도움말을 받을 위치를 선택합니다. 이 도움말은 이메일, 제품 내 및 Experience League 커뮤니티를 통해 사용할 수 있습니다. [자세히 보기.](personalized-learning-preferences.md) |
+| [!UICONTROL 제품 데이터 수집] | 귀하가 Adobe 제품을 사용하는 방식에 대한 데이터를 Adobe에서 수집하는 데 사용되는 기술을 선택하십시오. |
+| [!UICONTROL 맞춤형 학습 권장 사항 및 프로모션] | Adobe 제품에 대한 개인화된 지원을 받을 위치를 선택하십시오. 해당 지원은 이메일, 제품 내 알림 및 Experience League 커뮤니티를 통해 제공됩니다. [자세히 보기.](personalized-learning-preferences.md) |
 | [!UICONTROL 구독] | 구독하기 원하는 제품 및 범주를 선택하십시오. [!UICONTROL 알림] 팝업 및 이메일 알림. |
 | [!UICONTROL 우선 순위] | 높은 우선 순위로 고려하고 싶은 범주를 선택하십시오. 이러한 범주는 높음 태그로 표시되며 경고처럼 게재되도록 구성할 수 있습니다. |
 | [!UICONTROL 경고] | 브라우저에 경고를 표시할 알림을 선택하십시오. 경고는 창의 오른쪽 상단에 몇 초 동안 표시됩니다. |
@@ -152,9 +152,9 @@ Experience Cloud는 다음 호스트를 사용하여 애플리케이션을 제�
 
 ## 관리 및 교차 애플리케이션 서비스에 대한 도움말 보기
 
-이 안내서는 Admin Console의 Experience Cloud 사용자 및 제품 관리에 대한 도움말 액세스를 제공하며 플랫폼 서비스를 위한 애플리케이션을 활성화합니다. 또한 대상 라이브러리, 고객 속성, Experience Cloud Assets 등의 도움말에 액세스할 수 있습니다.
+이 안내서는 Admin Console의 Experience Cloud 사용자 및 제품 관리에 대한 도움말 액세스를 제공하며 플랫폼 서비스를 위한 애플리케이션을 활성화합니다. 또한 대상자 라이브러리, 고객 속성, Experience Cloud Assets 등의 도움말에 액세스할 수 있습니다.
 
-* [[!UICONTROL 대상 라이브러리]](audience-library.md)
+* [[!UICONTROL 대상자 라이브러리]](audience-library.md)
 * [[!UICONTROL 고객 속성]](attributes.md)
 * [[!UICONTROL 트리거]](triggers.md)
 * [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets.md)
