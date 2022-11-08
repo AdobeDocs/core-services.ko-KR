@@ -2,14 +2,14 @@
 description: Experience Cloud의 맞춤형 학습 환경 설정에 대해 알아봅니다. 이를 통해 고객은 사용 데이터를 기반으로 이메일, Adobe Experience Cloud 제품 및 Adobe Experience League 커뮤니티를 통해 개인화된 지원 및 프로모션을 받을 수 있습니다.
 solution: Experience Cloud
 title: Experience Cloud 맞춤형 학습 환경 설정
-feature: "Customer Attributes"
-source-git-commit: 47d2a52d0e36d61496a64aab4b7dd11735d04eb1
+feature: Customer Attributes
+exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
+source-git-commit: d4cbde45df379d2e90b401f4ebc097a5d587d389
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 91%
 
 ---
-
 
 # 맞춤형 학습 권장 사항 및 프로모션
 
@@ -20,7 +20,7 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
 * 사용할 가능성이 높은 기능
 * 등
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home)
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="200"}
 
 
 [사용자 환경 설정](https://experience.adobe.com/preferences/)에서 언제든지 선택 항목을 업데이트할 수 있습니다.
@@ -102,12 +102,12 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
 
 ### Adobe 제품에서
 
-![](assets/personalized-learning-in-product.gif){width="500"}
+![](assets/personalized-learning-in-product.gif){width="800"}
 
 ### Adobe로부터 수신한 이메일에서
 
-![](assets/personalized-learning-email.png){width="500"}
+![](assets/personalized-learning-email.png){width="400"}
 
 ### Experience League 커뮤니티에서
 
-![](assets/personalized-learning-communities.png){width="500"}
+![](assets/personalized-learning-communities.png){width="800"}
