@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Experience Cloud 맞춤형 학습 환경 설정
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: d4cbde45df379d2e90b401f4ebc097a5d587d389
+source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '410'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
 * 사용할 가능성이 높은 기능
 * 등
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="200"}
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 [사용자 환경 설정](https://experience.adobe.com/preferences/)에서 언제든지 선택 항목을 업데이트할 수 있습니다.
@@ -37,8 +37,6 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
 <tbody>
   <tr>
     <td colspan="3">다음 세 가지 방법으로 Adobe 제품을 사용한 후 관련 모범 사례, 팁 및 요령, 유용한 워크스루 등을 받아 보십시오.</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Adobe 제품에서...<br></td>
@@ -51,7 +49,7 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
   </tr>
   <tr>
     <td>Adobe로부터 수신한 이메일에서...</td>
-    <td>제품에서 내 작업과 관련된 학습 콘텐츠를 봅니다.</td>
+    <td>제품에서 귀하의 작업과 관련된 학습 콘텐츠를 봅니다.</td>
   </tr>
   <tr>
     <td>Experience League 커뮤니티에서..</td>
@@ -72,8 +70,6 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
 <tbody>
   <tr>
     <td colspan="3">다음 세 가지 방법으로 작업에 따라 개인화된 학습 이벤트, 연구 세션 및 통합을 위한 기회를 받으십시오.</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Adobe 제품에서...<br></td>
@@ -97,6 +93,9 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
 </table>
 
 
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+
+
 ## 이 맞춤형 학습 정보가 표시되는 모습에 대한 예를 참조하십시오.
 
 
@@ -111,3 +110,5 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
 ### Experience League 커뮤니티에서
 
 ![](assets/personalized-learning-communities.png){width="800"}
+
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
