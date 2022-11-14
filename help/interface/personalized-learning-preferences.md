@@ -5,7 +5,7 @@ title: Experience Cloud 맞춤형 학습 환경 설정
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
 ht-degree: 100%
 
