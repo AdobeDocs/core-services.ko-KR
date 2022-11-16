@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Experience Cloud 맞춤형 학습 환경 설정
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 7d115f64105cf24faaa467ab542362663b6e4602
+source-git-commit: 1efadba40356a3bbd87f7150ebe0c417bc2af1c8
 workflow-type: ht
 source-wordcount: '0'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
 * 사용할 가능성이 높은 기능
 * 등
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+[![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 [사용자 환경 설정](https://experience.adobe.com/preferences/)에서 언제든지 선택 항목을 업데이트할 수 있습니다.
@@ -85,8 +85,7 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
 </table>
 
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
-
+[![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 
@@ -110,4 +109,6 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
 
 ![](assets/personalized-learning-communities.png){width="800"}
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+
+
+[![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
