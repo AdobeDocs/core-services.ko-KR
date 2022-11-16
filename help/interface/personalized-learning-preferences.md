@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Experience Cloud 맞춤형 학습 환경 설정
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
-workflow-type: ht
-source-wordcount: '410'
-ht-degree: 100%
+source-git-commit: 7d115f64105cf24faaa467ab542362663b6e4602
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,18 +26,15 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
 [사용자 환경 설정](https://experience.adobe.com/preferences/)에서 언제든지 선택 항목을 업데이트할 수 있습니다.
 
 
+
+
+
 ## Adobe 제품 및 서비스에 대한 맞춤형 교육 및 지원 권장 사항
 
+다음 세 가지 방법으로 Adobe 제품을 사용한 후 관련 모범 사례, 팁 및 요령, 유용한 워크스루 등을 받아 보십시오.
+
 <table>
-<thead>
-  <tr>
-    <th colspan="3">Adobe 제품 및 서비스에 대한 맞춤형 교육 및 지원 권장 사항</th>
-  </tr>
-</thead>
 <tbody>
-  <tr>
-    <td colspan="3">다음 세 가지 방법으로 Adobe 제품을 사용한 후 관련 모범 사례, 팁 및 요령, 유용한 워크스루 등을 받아 보십시오.</td>
-  </tr>
   <tr>
     <td>Adobe 제품에서...<br></td>
     <td>실시간 도움말은 팝업 및 도구 설명을 참조하십시오.</td>
@@ -59,18 +56,13 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
 </table>
 
 
+
 ## Adobe 제품, 서비스, 이벤트 및 프로모션에 대한 개인화된 정보
 
+다음 세 가지 방법으로 작업에 따라 개인화된 학습 이벤트, 연구 세션 및 통합을 위한 기회를 받으십시오.
+
 <table>
-<thead>
-  <tr>
-    <th colspan="3">Adobe 제품, 서비스, 이벤트 및 프로모션에 대한 개인화된 정보</th>
-  </tr>
-</thead>
 <tbody>
-  <tr>
-    <td colspan="3">다음 세 가지 방법으로 작업에 따라 개인화된 학습 이벤트, 연구 세션 및 통합을 위한 기회를 받으십시오.</td>
-  </tr>
   <tr>
     <td>Adobe 제품에서...<br></td>
     <td>귀하와 관련된 초대 및 기회에 대한 팝업 및 도구 설명을 참조하십시오.</td>
@@ -96,6 +88,9 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
 [![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
+
+
+
 ## 이 맞춤형 학습 정보가 표시되는 모습에 대한 예를 참조하십시오.
 
 
@@ -103,9 +98,13 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
 
 ![](assets/personalized-learning-in-product.gif){width="800"}
 
+
+
 ### Adobe로부터 수신한 이메일에서
 
 ![](assets/personalized-learning-email.png){width="400"}
+
+
 
 ### Experience League 커뮤니티에서
 
