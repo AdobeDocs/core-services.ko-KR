@@ -5,9 +5,9 @@ title: Experience Cloud 맞춤형 학습 환경 설정
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 source-git-commit: 199643aeaaf422ec9ad637e18a03d25b5782546b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
-사용자의 제품 데이터 사용 및 수집 섹션에서 언제든지 선택 사항을 업데이트할 수 있습니다 [사용자 환경 설정 설정](https://experience.adobe.com/preferences/).
+[사용자 환경 설정](https://experience.adobe.com/preferences/)의 제품 데이터 사용 및 수집 섹션에서 언제든지 선택 사항을 업데이트할 수 있습니다.
 
 
 
@@ -38,7 +38,7 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
   <tr>
     <td>Adobe 제품에서...<br></td>
     <td>실시간 도움말은 팝업 및 도구 설명을 참조하십시오.</td>
-    <td rowspan="3">여기에는 다음과 같은 항목이 포함되어 있습니다. <ul><li>Adobe 전문가의 단계별 가이드 및 유용한 팁</li> 
+    <td rowspan="3">여기에는 다음과 같은 항목이 포함되어 있습니다. <ul><li>Adobe 전문가의 단계별 안내서 및 유용한 팁</li> 
     <li>비디오 튜토리얼 및 정보 워크스루</li> 
     <li>심층 훈련 및 교육</li> 
     <li>비디오 및 게시물 추천</li>
