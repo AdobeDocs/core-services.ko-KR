@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
+source-git-commit: 0e4bf07a15c4601b3e6278a57880920710a69a79
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 79%
@@ -55,7 +55,7 @@ Adobe 관리 인증서 프로그램에서는 추가 비용 없이 새로운 자�
 
    티켓을 수령하는 즉시 고객 지원 센터에서 CNAME 기록을 제공해야 합니다. Adobe가 귀하를 대신하여 인증서를 구입할 수 있으려면 먼저 회사의 DNS 서버에서 이러한 레코드를 구성해야 합니다. CNAME은 다음과 비슷합니다.
 
-   **보안** - 예를 들어 호스트 이름 `smetrics.example.com` 은 `example.com.adobedc.net`을 가리킵니다.
+   **보안** - 예를 들어 호스트 이름 `smetrics.example.com` 은 `[random-10-character-string].data.adobedc.net`을 가리킵니다.
 
    >[!NOTE]
    > 이전에는 Adobe에서 고객이 HTTPS용 CNAME과 HTTP용 CNAME을 각각 한 개씩 설정하도록 권장했습니다. 이 방법은 트래픽을 암호화하는 가장 좋은 방법이며 대부분의 브라우저에서 HTTP를 강력하게 비활성화하므로 더 이상 HTTP용 CNAME을 설정하지 않는 것이 좋습니다. 이제 두 항목을 모두 설정하는 것이 가장 좋습니다 `trackingServer` 및 `trackingServerSecure` ( 동일한 CNAME 사용) 예를 들어, 둘 다 `trackingServer` 및 `trackingServerSecure` 이 설정되면 `smetrics.example.com`. HTTP는 타사 호스트 이름에만 사용할 수 있습니다.
@@ -94,12 +94,12 @@ Adobe 관리 인증서 프로그램에서는 추가 비용 없이 새로운 자�
 FPC 전문가가 구성된 호스트 이름과 지정할 CNAME을 제공합니다. 예:
 
 * **SSL 호스트 이름**:`smetrics.mysite.com`
-* **SSL CNAME**:`mysite.com.adobedc.net`
+* **SSL CNAME**:`[random-10-character-string].data.adobedc.net`
 
 >[!NOTE]
 > 여전히 비-보안 상태로 사용한다면 다음과 같이 표시됩니다.
 > * **비SSL 호스트 이름**:`metrics.mysite.com`
-> * **비 SSL CNAME**:`mysite.com.adobedc.net`
+> * **비 SSL CNAME**:`[random-10-character-string].data.adobedc.net`
 
 
 구현 코드를 변경하지 않는 한, 이 단계는 데이터 수집에 영향을 주지 않으며 구현 코드를 업데이트한 후 언제든지 완료할 수 있습니다.
