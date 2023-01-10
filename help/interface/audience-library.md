@@ -60,7 +60,7 @@ ht-degree: 100%
 | 도움말 | 리소스 |
 |--- |--- |
 | 대상을 찾을 수 없습니까? | 프로비저닝되었는지 확인합니다. [시작하기 - 핵심 서비스용 애플리케이션을 사용하도록 설정](core-services.md)을 참조하십시오.<br>프로필 및 대상(통합 프로비저닝 양식)에 대한 액세스를 요청하려면 [여기](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES)로 이동합니다. |
-| 사용 사례 | 사용할 애플리케이션에 대한 자세한 내용을 보려면 기술 자료의 [대상 만들기 옵션](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en)으로 이동하십시오. |
+| 사용 사례 | 사용할 애플리케이션에 대한 자세한 내용을 보려면 기술 자료의 [대상 만들기 옵션](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ko-KR)으로 이동하십시오. |
 | 포럼 | [대상 포럼](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community)은 대상 관련 지원을 받을 수 있는 또 다른 리소스입니다. |
 
 {style=&quot;table-layout:auto&quot;}
