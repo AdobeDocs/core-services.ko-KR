@@ -7,9 +7,9 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 087db5e8d9dd066567797fb426797e746cd7fe2c
+source-git-commit: e7c487b9139262b8ba02584b5e8517a3919b8fb2
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '487'
 ht-degree: 100%
 
 ---
@@ -59,4 +59,4 @@ Experience Cloud의 [!UICONTROL 고객 속성] 을 사용하면 고객 관계 �
 | Adobe Analytics | 마케터와 분석가는 다음을 이해할 수 있습니다.<ul><li>Gold 수준 고객에게 가장 효과적인 온라인 캠페인.</li><li>Gold 수준 고객이 검색하는 제품과 Platinum 수준 고객이 검색하는 제품.</li><li>사이트 재디자인이 이전 고객의 전환율에 긍정적인 영향을 주고 있는지 여부.</li><li>낮은 라이프타임 값을 갖는 고객이 내 사이트에서 나타내는 제품 검색 경향.</li></ul> |
 | Adobe Target | 속성 데이터를 사용하면 Adobe Target 사용자가 다음을 수행할 수 있습니다.<ul><li>충성도 클럽 구성원에게 특별한 할인 및 특별 제공 서비스를 보여 줍니다.</li><li>고급 상품을 선호하는 고객에게 고가의 제품을 권장합니다.</li><li>이미 이메일을 받는 고객의 경우 이메일 등록용으로 예약된 공간에 상향 판매 제공 서비스를 보여 줍니다.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
