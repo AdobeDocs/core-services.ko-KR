@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '824'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 100%
 | Campaign | <ul><li>다양한 Adobe Experience Cloud 애플리케이션의 공유 대상을 Adobe Campaign에 가져오기.</li><li>공유 대상의 양식에서 받는 사람 목록 내보내기. 이러한 공유 대상은 사용하는 여러 Adobe Experience Cloud 애플리케이션에서 사용할 수 있습니다.</li></ul> |
 | Advertising Cloud | 대상을 타겟으로 사용합니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ ht-degree: 100%
 | 사용 사례 | 사용할 애플리케이션에 대한 자세한 내용을 보려면 기술 자료의 [대상 만들기 옵션](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ko-KR)으로 이동하십시오. |
 | 포럼 | [대상 포럼](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community)은 대상 관련 지원을 받을 수 있는 또 다른 리소스입니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 대상 라이브러리 인터페이스 요소 {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
@@ -82,4 +82,4 @@ ht-degree: 100%
 | 현재 크기 | 현재 대상 크기입니다. |
 | 활성 | 세그먼트의 활성 상태입니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
