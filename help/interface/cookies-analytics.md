@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 3ef59cfa7ea4c1a27776153d847b0ba20e8fc6b4
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '735'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Analytics는 쿠키를 사용하여 새로운 방문자를 익명으로 정의�
 | 위치 | CNAME 고객에게만 해당됩니다. 서드파티 시나리오에 해당되지 않습니다. 쿠키는 CNAME 및 Analytics 이미지 요청에 사용된 동일한 도메인에 저장됩니다. |
 | 크기 | 45바이트 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 쿠키 이름: s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
@@ -54,7 +54,7 @@ Analytics는 쿠키를 사용하여 새로운 방문자를 익명으로 정의�
 | 위치 | 이 쿠키는 페이지의 도메인에 저장됩니다. |
 | 크기 | 4바이트 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 쿠키 이름: s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -66,7 +66,7 @@ Analytics는 쿠키를 사용하여 새로운 방문자를 익명으로 정의�
 | 위치 | 이 쿠키는 페이지의 도메인에 저장됩니다. |
 | 크기 | 페이지 URL 크기에 따라 다르지만 일반적으로 100-200바이트입니다 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 쿠키 이름: s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
@@ -78,7 +78,7 @@ Analytics는 쿠키를 사용하여 새로운 방문자를 익명으로 정의�
 | 위치 | 이 쿠키는 이미지 요청의 도메인(사용자가 서드파티 쿠키를 사용하거나 사용자의 도메인이 자사 쿠키를 사용하는 경우, 일반적으로 2o7.net 또는 omtrdc.net 아래의 고객이 특정된 하위 도메인)에 저장됩니다. |
 | 크기 | 44바이트 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Analytics는 쿠키를 사용하여 새로운 방문자를 익명으로 정의�
 | 위치 | 이 쿠키는 도메인에 자사 쿠키로 저장됩니다. |
 | 크기 | 33바이트 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 쿠키 플래그
 
@@ -108,7 +108,7 @@ Analytics는 쿠키를 사용하여 새로운 방문자를 익명으로 정의�
 | s_cc(Javascript) | 아니요 | 아니요 | 설정 해제 |
 | s_sq(Javascript) | 아니요 | 아니요 | 설정 해제 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -116,6 +116,8 @@ Analytics는 쿠키를 사용하여 새로운 방문자를 익명으로 정의�
 
 ## 플러그인에 의해 설정된 쿠키 {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-추가적인 쿠키는 Analytics 플러그인 사용에 따라 설정할 수 있습니다. 이러한 쿠키는 다양한 상황에서 사용하기 위해 클라이언트가 사용할 수 있는 코드 스니펫입니다. 이러한 상황들로는 URL에서 값 검색, Analytics에 전달할 값 연결, 양식 포기 캡처 등이 있습니다. 각 플러그인에 의해 설정된 쿠키의 특성에 대해 알아보려면 ClientCare에 문의하십시오. 예로는 [!DNL s_vh] Set Once Per *및* Set and Get Last Value *플러그인과 함께 사용되는* 쿠키가 있습니다.
+{{plug-in}}
+
+추가적인 쿠키는 Analytics 플러그인 사용에 따라 설정할 수 있습니다. 이러한 쿠키는 다양한 상황에서 사용하기 위해 클라이언트가 사용할 수 있는 코드 스니펫입니다. 이러한 상황들로는 URL에서 값 검색, Analytics에 전달할 값 연결, 양식 포기 캡처 등이 있습니다. 예로는 [!DNL s_vh] Set Once Per *및* Set and Get Last Value *플러그인과 함께 사용되는* 쿠키가 있습니다.
 
 이메일에 배치된 코드와 같이, JavaScript 없이 이미지 요청에 전달된 전환 변수(eVarX)는 이메일 클라이언트와 웹 브라우저가 쿠키 공간을 공유하는 경우에만 올바르게 어트리뷰션됩니다.
