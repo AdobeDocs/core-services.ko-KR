@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
+source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 100%
+source-wordcount: '1347'
+ht-degree: 97%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 100%
 Experience Cloud 헤더에서 다음 작업을 수행할 수 있습니다.
 
 * 애플리케이션 및 서비스에 액세스하기
-* 제품 설명서, 튜토리얼 및 커뮤니티 게시물 검색하기
-* 글로벌 검색을 사용하여 전역으로 비즈니스 개체 검색하기 (Experience Platform 사용자에게만 제공)
+* 도움말 메뉴에서 제품 설명서, 튜토리얼 및 커뮤니티 게시물을 검색합니다. Experience League에서 결과 보기
+* 검색 필드에서 글로벌 검색(Experience Platform 사용자만 해당)을 사용하여 전역으로 비즈니스 객체를 검색합니다.
 * 계정 환경 설정 관리 (경고, 알림 및 구독)
 
 ## Experience Cloud에 로그인 {#signin}
@@ -130,7 +130,7 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 | [!UICONTROL 경고] | 브라우저에 경고를 표시할 알림을 선택하십시오. 경고는 창의 오른쪽 상단에 몇 초 동안 표시됩니다. |
 | 이메일 | 이메일 알림을 수신할 빈도를 지정합니다. (발송하지 않음, 실시간, 매일 또는 매주) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 알림 및 공지 {#notifications}
 
@@ -192,7 +192,7 @@ Adobe Experience League에서 제공하는 자체 도움말 튜토리얼과 빠�
 
 * [모든 Experience Cloud 애플리케이션에 대한 제품 설명서](https://experienceleague.adobe.com/docs/home.html?lang=ko) - Experience Cloud 학습 및 지원에서 탐색
 * [릴리스 정보 및 제품 업데이트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko) - Experience Cloud의 새로운 기능 및 구독을 통한 업데이트 받기
-* [핵심 서비스 구현 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - 핵심 서비스에 대한 비디오 및 튜토리얼 보기
+* [핵심 서비스 구현 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=ko) - 핵심 서비스에 대한 비디오 및 튜토리얼 보기
 * [Experience League의 전문가 지원](https://experienceleague.adobe.com/) - 전문가 및 커뮤니티의 안내형 학습
 * [교육 및 훈련](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK) - Adobe의 제품을 최대한 활용할 수 있도록 Adobe와 협력하기
 * [고객 경험 블로그](https://blog.adobe.com/en/topics/digital-transformation) - Experience Cloud 블로그 보기
