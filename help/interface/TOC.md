@@ -3,10 +3,10 @@ audience: administrator
 user-guide-title: Experience Cloud 중앙 인터페이스 구성 요소
 breadcrumb-title: Experience Cloud 중앙 인터페이스 구성 요소
 title: Experience Cloud 인터페이스 및 관리 안내서
-description: Experience Cloud 인터페이스 및 사용자 계정 환경 설정에 대해 알아봅니다. 비즈니스 개체를 검색하고 사용자 및 제품을 관리하는 방법에 대해 알아봅니다. 고객 속성, 대상자 라이브러리, 쿠키를 구성하고 Experience Cloud 에셋을 공유하십시오.
+description: Experience Cloud 인터페이스 및 사용자 계정 환경 설정에 대해 알아봅니다. 비즈니스 개체를 검색하고 사용자 및 제품을 관리하는 방법에 대해 알아봅니다. 고객 속성, 대상자 라이브러리, 쿠키를 구성하고 Experience Cloud 자산을 공유하십시오.
 index: true
 source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
 ht-degree: 100%
 
@@ -42,13 +42,13 @@ ht-degree: 100%
       + [Experience Platform Launch 사용자 안내서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR)
       + [트리거](triggers.md)
    + Experience Cloud Assets {#assets}
-      + [Experience Cloud 에셋 개요](experience-cloud-assets.md)
-      + [Creative Cloud와 Experience Cloud 폴더 및 에셋 공유](creative-cloud.md)
+      + [Experience Cloud 자산 개요](experience-cloud-assets.md)
+      + [Creative Cloud와 Experience Cloud 폴더 및 자산 공유](creative-cloud.md)
       + [Creative Cloud 사용자 관리](t-admin-add-cc-user.md)
-      + [Experience Cloud 에셋 폴더 공유](t-share-creative-cloud.md)
-      + [Creative Cloud 브라우저에서 공유 폴더로 에셋 업로드](t-upload-asset-cc.md)
-      + [Creative Cloud 데스크탑에서 공유 폴더로 에셋 업로드](t-cc-asset-upload-thor.md)
-      + [공유를 위한 에셋 파일 요구 사항](assets-file-reqs.md)
+      + [Experience Cloud 자산 폴더 공유](t-share-creative-cloud.md)
+      + [Creative Cloud 브라우저에서 공유 폴더로 자산 업로드](t-upload-asset-cc.md)
+      + [Creative Cloud 데스크탑에서 공유 폴더로 자산 업로드](t-cc-asset-upload-thor.md)
+      + [공유를 위한 자산 파일 요구 사항](assets-file-reqs.md)
       + [공유 폴더 비헤이비어](asset-behavior.md)
 + Experience Cloud 관리 {#administration}
    + [Experience Cloud 사용자 ID 및 제품 관리(Admin Console)](admin-getting-started.md)
