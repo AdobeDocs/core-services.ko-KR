@@ -7,10 +7,10 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
+source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 98%
+source-wordcount: '468'
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ Experience Cloud의 [!UICONTROL 고객 속성] 을 사용하면 고객 관계 �
 
 * **Adobe Target** 고객 속성에 `at.js` (임의 버전) 또는 `mbox.js` 버전 58 이상이 필요합니다.
 
-   [at.js 배포 방법](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=ko-KR) 또는 [Mbox.js 구현](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=ko-KR)을 참고하십시오.
+   다음을 참조하십시오 [at.js를 배포하는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=en).
 
 ## 엔터프라이즈 고객 데이터란? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 

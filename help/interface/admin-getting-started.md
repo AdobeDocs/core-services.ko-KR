@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
 workflow-type: tm+mt
-source-wordcount: '1891'
-ht-degree: 100%
+source-wordcount: '1863'
+ht-degree: 98%
 
 ---
 
@@ -128,11 +128,11 @@ _[!UICONTROL 제품 프로필]_&#x200B;은 사용자에게 할당할 수 있는 
 1. **[!UICONTROL 새 프로필]**&#x200B;을 선택합니다.
 1. 프로필 세부 사항을 구성한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-자세한 내용 및 Creative Cloud와 Document Cloud 제품 관리에 대한 도움말은 [관리 사용 안내서](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/users.ug.html)의 [ID](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/identity.ug.html)를 참조하십시오.
+자세한 내용 및 Creative Cloud와 Document Cloud 제품 관리에 대한 도움말은 [관리 사용 안내서](https://helpx.adobe.com/kr/enterprise/using/users.html)의 [ID](https://helpx.adobe.com/kr/enterprise/using/identity.html)를 참조하십시오.
 
 **관련 도움말**
 
-* 관리 사용 안내서의 [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)를 참조하십시오.
+* 관리 사용 안내서의 [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-products.html)를 참조하십시오.
 * 자세한 내용은 Target 도움말의 [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ko-KR)을 참조하십시오.
 * 비디오: [Adobe Admin Console에서 Adobe Target 작업 영역을 구성하는 방법](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=ko-KR)
 
@@ -188,7 +188,7 @@ Analytics 사용자 ID 마이그레이션 도구는 Analytics 관리자가 Analy
 **관련 도움말**
 
 * [Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR)
-* [Analytics 사용자 ID 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ko-KR)
+* [Analytics 사용자 ID 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=en)
 
 ## Adobe Target 관리 - 제품 프로필과 작업 영역 비교 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
@@ -197,7 +197,7 @@ Adobe Target에서 작업 영역과 제품 프로필은 동일한 개념입니�
 다음을 참조하십시오.
 
 * [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ko-KR)
-* [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-products.html)
 * 비디오: [Adobe Admin Console에서 Adobe Target 작업 영역을 구성하는 방법](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=ko-KR)
 
 ## Campaign 제품 프로필, 테넌트 및 보안 그룹 관리 {#section_09CDF75366444CF5810CF321B7C712F3}
@@ -220,7 +220,7 @@ Experience Platform [!UICONTROL 데이터 수집] ([!UICONTROL Launch])은 [!UIC
 
 Adobe Enterprise 고객은 Adobe [!UICONTROL Admin Console]에서 조직으로 표시됩니다. Experience Manager 고객은 Adobe [!UICONTROL Admin Console]을 사용하여 Experience Manager as a [!UICONTROL Cloud Service]에 대한 제품 자격 및 IMS 인증을 관리할 수 있습니다.
 
-[Experience Manager as a Cloud Service를 위한 IMS 지원](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=ko-KR)을 참조하십시오.
+[Experience Manager as a Cloud Service를 위한 IMS 지원](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=ko-KR)을 참조하십시오.
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
@@ -236,10 +236,9 @@ Audience Manager 도움말의 [관리](https://experienceleague.adobe.com/docs/a
 * [!DNL Safari]
 * [!DNL Opera]
 
-**참고:** Experience Cloud 인터페이스는 이러한 브라우저를 지원하지만 개별 애플리케이션이 모든 브라우저를 지원하는 것은 아닙니다. (예를 들어 [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=ko-KR)는 [!DNL Opera]를 지원하지 않으며, [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=ko-KR)은 [!DNL Safari]를 지원하지 않습니다.)
+**참고:** Experience Cloud 인터페이스는 이러한 브라우저를 지원하지만 개별 애플리케이션이 모든 브라우저를 지원하는 것은 아닙니다. (예를 들어 [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en)는 [!DNL Opera]를 지원하지 않으며, [!DNL Adobe Target]은 [!DNL Safari]를 지원하지 않습니다.)
 
 ### 솔루션 및 제품 요구 사항
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=ko-KR)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=ko-KR)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=ko-KR)
