@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1347'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 97%
 Experience Cloud 헤더에서 다음 작업을 수행할 수 있습니다.
 
 * 애플리케이션 및 서비스에 액세스하기
-* 도움말 메뉴에서 제품 설명서, 튜토리얼 및 커뮤니티 게시물을 검색합니다. Experience League에서 결과 보기
-* 검색 필드에서 글로벌 검색(Experience Platform 사용자만 해당)을 사용하여 전역으로 비즈니스 객체를 검색합니다.
+* 도움말 메뉴에서 제품 설명서, 튜토리얼 및 커뮤니티 게시물 검색 Experience League에서 결과 보기
+* 검색 필드에서 글로벌 검색을 사용하여 전역으로 비즈니스 오브젝트 검색 (Experience Platform 사용자만 해당)
 * 계정 환경 설정 관리 (경고, 알림 및 구독)
 
 ## Experience Cloud에 로그인 {#signin}
@@ -94,7 +94,7 @@ Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사
 
 ## 도움말 및 지원 요청 {#support}
 
-헤더의 도움말 아이콘(![에셋](assets/help-icon.png))을 사용하여 [Experience League](https://experienceleague.adobe.com/#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선 순위가 지정된 지원 티켓을 만들 수도 있습니다.
+헤더의 도움말 아이콘(![자산](assets/help-icon.png))을 사용하여 [Experience League](https://experienceleague.adobe.com/#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선 순위가 지정된 지원 티켓을 만들 수도 있습니다.
 
 ![도움말 및 지원 요청](assets/search-menu.png)
 
