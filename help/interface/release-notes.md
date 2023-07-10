@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 2f72053beee5f6fc8b2a499cce56efe1afcfa376
+source-git-commit: 4c3b72fb17b241208b5dea4f85cf1fd2a97ab303
 workflow-type: tm+mt
-source-wordcount: '5006'
-ht-degree: 96%
+source-wordcount: '4770'
+ht-degree: 100%
 
 ---
 
@@ -23,21 +23,23 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)를 참조하십시오.
 
-## 2023년 7월 - 8월
+<!-- ## July - August 2023
 
-릴리스: **2023년 7월 20일 - 8월 31일**
+NA - released July 2022
 
-Adobe이 프로비저닝을 업데이트하여 다음을 모두 제공 [!DNL Experience Cloud] 고객은 일부 구성요소 간의 상호 운용성을 지원하는 기본 기능에 액세스할 수 있습니다 [!DNL Experience Cloud] 제품. 사용자에게 다음이 제공됩니다. [!DNL Experience Platform] 에 새 권리 유형이 추가됨 [!DNL Experience Cloud] 조직, 포함 [데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ko-KR) 포함 서비스입니다. [!DNL Experience Platform] [!UICONTROL 데이터 수집] 에는 단순화된 범용 태그 관리를 위한 태그가 포함되어 있으며, 신뢰할 수 있고 강력하며 완벽한 스트리밍 데이터 인프라를 제공합니다. 이 업데이트는 경험 데이터 수집을 단순화하고 경험 전달을 간소화합니다.
+Release: **July 20 - August 31, 2023**
 
-이 업데이트를 통해 관리자는 Admin Console에 대한 변경 사항 또는 추가 사항을 볼 수 있습니다.
+Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
 
-* Adobe [!DNL Experience Platform] Admin Console의 제품 카드에는 다음이 포함됩니다. [위치](https://experienceleague.adobe.com/docs/places/using/home.html), [보증](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=ko-KR), [ID 네임스페이스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko), [샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko), [경험 데이터 모델](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR), [스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR), [데이터스트림](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), 및 [EXPERIENCE CLOUD ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
+With this update, administrators may see changes or additions to the Admin Console:
 
-   * 현재 을 사용하고 있지 않은 조직의 경우 [!DNL Experience Platform], 이제 [!DNL Experience Platform] 의 제품 [!UICONTROL Admin Console]위에 나열된 기능을 포함합니다.
+* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
 
-   * 현재 을 사용 중인 조직의 경우 [!DNL Experience Platform], [!UICONTROL 위치] 이(가) 로 통합됩니다. [!DNL Experience Platform] 카드.
+  * For organizations who are not currently using [!DNL Experience Platform], you will now see the [!DNL Experience Platform] product in the [!UICONTROL Admin Console], including the capabilities listed above.
 
-* Adobe [!DNL Experience Platform] [데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ko-KR) (이전 [!DNL Launch]) 및 [개인 정보 보호](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko) 는 다른 카드와 별도로 고유 제품 카드로 계속 표시됩니다. [!DNL Experience Platform] 기능
+  * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
+
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
 
 ## 2023년 5월
 
