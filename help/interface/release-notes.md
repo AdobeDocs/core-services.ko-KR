@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: ht
-source-wordcount: '4768'
-ht-degree: 100%
+source-git-commit: 2f72053beee5f6fc8b2a499cce56efe1afcfa376
+workflow-type: tm+mt
+source-wordcount: '5006'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,29 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 설명서 업데이트 목록은 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)를 참조하십시오.
 
-모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
+모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)를 참조하십시오.
+
+## 2023년 7월 - 8월
+
+릴리스: **2023년 7월 20일 - 8월 31일**
+
+Adobe이 프로비저닝을 업데이트하여 다음을 모두 제공 [!DNL Experience Cloud] 고객은 일부 구성요소 간의 상호 운용성을 지원하는 기본 기능에 액세스할 수 있습니다 [!DNL Experience Cloud] 제품. 사용자에게 다음이 제공됩니다. [!DNL Experience Platform] 에 새 권리 유형이 추가됨 [!DNL Experience Cloud] 조직, 포함 [데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ko-KR) 포함 서비스입니다. [!DNL Experience Platform] [!UICONTROL 데이터 수집] 에는 단순화된 범용 태그 관리를 위한 태그가 포함되어 있으며, 신뢰할 수 있고 강력하며 완벽한 스트리밍 데이터 인프라를 제공합니다. 이 업데이트는 경험 데이터 수집을 단순화하고 경험 전달을 간소화합니다.
+
+이 업데이트를 통해 관리자는 Admin Console에 대한 변경 사항 또는 추가 사항을 볼 수 있습니다.
+
+* Adobe [!DNL Experience Platform] Admin Console의 제품 카드에는 다음이 포함됩니다. [위치](https://experienceleague.adobe.com/docs/places/using/home.html), [보증](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=ko-KR), [ID 네임스페이스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko), [샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko), [경험 데이터 모델](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR), [스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR), [데이터스트림](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), 및 [EXPERIENCE CLOUD ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
+
+   * 현재 을 사용하고 있지 않은 조직의 경우 [!DNL Experience Platform], 이제 [!DNL Experience Platform] 의 제품 [!UICONTROL Admin Console]위에 나열된 기능을 포함합니다.
+
+   * 현재 을 사용 중인 조직의 경우 [!DNL Experience Platform], [!UICONTROL 위치] 이(가) 로 통합됩니다. [!DNL Experience Platform] 카드.
+
+* Adobe [!DNL Experience Platform] [데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ko-KR) (이전 [!DNL Launch]) 및 [개인 정보 보호](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko) 는 다른 카드와 별도로 고유 제품 카드로 계속 표시됩니다. [!DNL Experience Platform] 기능
+
+## 2023년 5월
+
+릴리스: **2023년 5월 25일**
+
+* [!DNL Experience Cloud] **[!UICONTROL 도움말]** 메뉴에서 콘텐츠 검색이 업데이트되어 [Experience League](https://experienceleague.adobe.com/?lang=ko-KR/#home) 검색 결과에서 애플리케이션별로 필터링됩니다.
 
 ## 2022년 7월
 
@@ -35,7 +57,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 | ------- | ------- |
 | 통합 홈 - 빠른 액세스 위젯 | **더 빠른 이동:** 이제 홈 환경을 더욱 개인화하고 원하는 애플리케이션을 결정할 수 있습니다. 새로운 고정 기능을 사용하여 [!UICONTROL 빠른 액세스]의 전면과 중앙에 표시되는 애플리케이션을 선택하십시오. <br>**스마트 고정 기능으로 최신 정보 수신:** 이제 새 애플리케이션을 더 쉽게 찾을 수 있습니다. 새로 할당된 애플리케이션에는 _신규_ 배지가 표시되고 [!UICONTROL 빠른 액세스]에 자동으로 고정됩니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2022년 4월
 
@@ -43,7 +65,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 | ------- |-------|
 | 자연어 검색 | 통합 검색의 단일 인터페이스를 통해 모든 질문에 대한 즉각적인 답변을 얻으십시오. 이 기능은 [!DNL Experience Platform] 및 [!DNL Journey Optimizer]의 모든 페이지에서 언제든지 사용할 수 있습니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2022년 3월
 
@@ -66,7 +88,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 | AEP 대시보드 | [!DNL Helios Lite]은 Experience Platform 위젯 생성 워크플로 내에서 차트 권장 사항을 제공합니다. 데이터 선택(현재 단일 변수 데이터 선택)이 주어지면 [!DNL Helios]는 해당 데이터 선택과 동반될 수 있는 적절한 시각화를 권장합니다. |
 | AEP 대시보드 | [!DNL Instory]은 차트에 대한 ML 기반 서면 내레이션 및 캡션을 제공합니다. 그래프로 표시된 데이터의 주요 변경 사항 및 인시던트를 호출하는 관련 글머리 기호로 AEP 대시보드 페이지의 차트를 장식합니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2021년 10월
 
@@ -77,7 +99,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 | Experience Cloud [!UICONTROL 트리거] 탐색 | [Experience Cloud 트리거](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=ko-KR)는 프로비저닝된 사용자의 헤더에 있는 애플리케이션 전환기에서 직접 탐색할 수 있습니다. |
 | **공지:** 인터페이스 탐색 업데이트 예정 | 2021년 11월에 _[!UICONTROL 실행/데이터 수집으로 이동]_ 탐색 기능이 <https://experience.adobe.com/implement>에서 제거됩니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2021년 8월
 
@@ -96,7 +118,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 | Adobe Federated ID용 SSO(Single Sign-On) 지원 | 2021년 6월 17일 | Federated ID를 사용하는 경우, 이메일 주소 또는 암호를 입력할 필요 없이 Experience Cloud에 로그인할 수 있습니다. 이 기능을 사용하려면 `#/sso:@domain`을 Experience Cloud URL에 추가하십시오. <br>예를 들어 소유하고 있는 도메인이 `adobecustomer.com`이고 Adobe Analytics에 로그인하고자 한다고 가정하겠습니다. URL은 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`가 됩니다. |
 | Experience League 검색 | 2021년 6월 1일 | Experience League 설명서 검색이 개선되었습니다. [Experience League](https://experienceleague.adobe.com/docs/?lang=ko-KR)로 이동하고 **[!UICONTROL 검색]** 필드를 사용하여 튜토리얼, 설명서, 과정 등을 찾을 수 있습니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2021년 5월
 
@@ -106,7 +128,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 | Experience Cloud 글로벌 검색 | 2021년 5월 20일 | 이번 릴리스로 Experience Cloud 글로벌 검색을 통해 [Experience League](https://experienceleague.adobe.com/#home) 설명서, 과정 및 튜토리얼을 검색할 수 있게 되었습니다. (현재 글로벌 검색은 Experience Platform 사용자만 사용할 수 있습니다. [!UICONTROL Platform] 용 글로벌 검색을 사용하면 세그먼트, 데이터 세트, 스키마 등과 같은 Experience Cloud의 모든 비즈니스 오브젝트를 검색할 수 있습니다.) |
 | Experience Cloud 언어 환경 설정 | 2021년 5월 20일 | 이 업데이트에는 Experience Cloud [환경 설정](https://experience.adobe.com/preferences)에서 원하는 언어를 설정하는 기능이 포함되어 있습니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2020년 8월
 
@@ -114,7 +136,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 | -----------| ---------- |
 | 관리 도구 - 정책 | 이 페이지에는 조직의 전체 Experience Cloud 정책 목록이 표시됩니다. 제품, 인스턴스, 사용자 및 개발자에 대한 정보를 제공합니다. 정책 목록을 검색, 정렬 및 필터링하여 요구에 맞게 표시할 수 있습니다. 자세한 내용은 [Experience Cloud 관리 도구](admin-tool-experience-cloud.md) 도움말을 참조하십시오. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2020년 4월
 
@@ -127,7 +149,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 | -----------| ---------- |
 | 관리 도구 - 사용자 세부 정보 보기 | 관리자는 새로운 관리 도구에서 모든 Experience Cloud 사용자의 정렬 및 필터링 가능한 목록과 세부 정보를 볼 수 있습니다. 사용자 세부 정보에는 사용자의 제품 액세스, 역할 및 마지막으로 액세스한 정보가 포함됩니다. 자세한 내용은 [Experience Cloud 관리 도구](admin-tool-experience-cloud.md) 도움말을 참조하십시오. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **수정 사항**
 
