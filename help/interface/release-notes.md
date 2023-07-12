@@ -21,7 +21,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 설명서 업데이트 목록은 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)를 참조하십시오.
 
-모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)를 참조하십시오.
+모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
 
 <!-- ## July - August 2023
 
@@ -45,7 +45,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 릴리스: **2023년 5월 25일**
 
-* [!DNL Experience Cloud] **[!UICONTROL 도움말]** 메뉴에서 콘텐츠 검색이 업데이트되어 [Experience League](https://experienceleague.adobe.com/?lang=ko-KR/#home) 검색 결과에서 애플리케이션별로 필터링됩니다.
+* [!DNL Experience Cloud] **[!UICONTROL 도움말]** 메뉴에서 콘텐츠 검색이 업데이트되어 [Experience League](https://experienceleague.adobe.com/#home) 검색 결과에서 애플리케이션별로 필터링됩니다.
 
 ## 2022년 7월
 
@@ -99,7 +99,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 통합 검색 | 통합 검색은 검색 인덱스에 오브젝트 유형을 계속 추가합니다. 이번 업데이트를 통해 글로벌 검색은 이제 Experience League 콘텐츠와 다음 Journey Optimizer 오브젝트 유형을 검색합니다. <ul><li>데이터 세트</li><li>대상</li><li>쿼리</li><li>스키마</li><li>세그먼트</li><li>소스</li><li>오퍼</li><li>구성 요소</li><li>메시지</li><li>여정</li></ul> |
 | 제품 사용 데이터 동의 | 초기 로그인 시 Adobe가 사용자에게 유용하고 개인 맞춤화된 콘텐츠(Experience Cloud 제품 사용 데이터를 기반으로 하는 튜토리얼, 안내서, 빠른 팁, 권장 사항, 학습 비디오 등)를 제공할 수 있는 방법에 대한 환경 설정을 제출하라는 메시지가 표시됩니다. <https://experience.adobe.com/preferences>에서 이러한 데이터의 수집 및 사용에 대한 환경 설정 업데이트도 이 요청에 포함됩니다. |
 | Experience Cloud [!UICONTROL 트리거] 탐색 | [Experience Cloud 트리거](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=ko-KR)는 프로비저닝된 사용자의 헤더에 있는 애플리케이션 전환기에서 직접 탐색할 수 있습니다. |
-| **공지:** 인터페이스 탐색 업데이트 예정 | 2021년 11월에 _[!UICONTROL 실행/데이터 수집으로 이동]_ 탐색 기능이 <https://experience.adobe.com/implement>에서 제거됩니다. |
+| **공지:** 인터페이스 탐색 업데이트 예정 | 2021년 11월에 _[!UICONTROL Launch / Data Collection으로 이동]_ 탐색 기능이 <https://experience.adobe.com/implement>에서 제거됩니다. |
 
 {style="table-layout:auto"}
 
@@ -208,7 +208,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 **수정 사항**
 
-* 주문형 에셋에서 Experience Cloud 피드로 공유된 에셋을 썸네일로 표시하지 못하는 문제를 수정했습니다. (MAC-29955)
+* 주문형 자산에서 Experience Cloud 피드로 공유된 자산을 썸네일로 표시하지 못하는 문제를 수정했습니다. (MAC-29955)
 
 ## 릴리스 16.2 - 2016년 2월 18일 {#section_D9610373116C4D77A38F67815C725EA3}
 
@@ -222,7 +222,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Assets 개선 사항 </p> </td> 
-   <td colname="col2"> <p>Experience Cloud Assets에서는 중앙의 한 위치에서 디지털 에셋을 저장, 공유 및 동기화할 수 있습니다. Experience Cloud Assets는 AEM(<span class="keyword"> Adobe Experience Manager</span>)에서 사용할 수 있는 기능 중 일부를 사용합니다. </p> <p><a href="experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local"> Experience Cloud</a>를 참조하십시오</p> </td> 
+   <td colname="col2"> <p>Experience Cloud Assets에서는 중앙의 한 위치에서 디지털 자산을 저장, 공유 및 동기화할 수 있습니다. Experience Cloud Assets는 AEM(<span class="keyword"> Adobe Experience Manager</span>)에서 사용할 수 있는 기능 중 일부를 사용합니다. </p> <p><a href="experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local"> Experience Cloud</a>를 참조하십시오</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>계정 연결 개선 사항 </p> </td> 
@@ -277,7 +277,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 ## 릴리스 15.7 - 2015년 7월 22일 {#section_2683A152176944E48EF6C943892975B7}
 
 * 고객 속성의 스키마 보기/편집 페이지에 지정된 속성 설명이 Analytics 보고서에 업데이트되지 않던 문제를 수정했습니다. (MAC-25985)
-* 업로드한 에셋의 썸네일을 렌더링하지 못하는 문제를 해결했습니다. (MAC-25863)
+* 업로드한 자산의 썸네일을 렌더링하지 못하는 문제를 해결했습니다. (MAC-25863)
 * Experience Cloud Audiences의 Reports &amp; Analytics에 새 세그먼트를 생성하지 못하는 문제를 해결했습니다. (MAC-25817)
 * 고객이 방문자 ID 서비스를 사용하면 Analytics에서 대상자를 공유하지 못하는 문제를 해결했습니다. (MAC-25788, MAC-25747)
 * 고객 속성에 멀티바이트 문자 지원을 추가했습니다. (MAC-25552)
@@ -397,7 +397,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 수정 사항:
 
 * 계정 프로비저닝을 위해 사용자 이메일 초대 워크플로를 개선했습니다.
-* [!DNL Experience Cloud]와 [!DNL Adobe Campaign] 에셋이 동일한 폴더 계층을 표시하지 않도록 하는 에셋 폴더 문제가 수정되었습니다.
+* [!DNL Experience Cloud]와 [!DNL Adobe Campaign] 자산이 동일한 폴더 계층을 표시하지 않도록 하는 자산 폴더 문제가 수정되었습니다.
 * 비활성화된 [!DNL Target] 활동에 속했던 대상자를 삭제하지 못했던 문제가 수정되었습니다.
 * [!UICONTROL 새 대상자 만들기] 페이지의 [!UICONTROL 규칙] 아래에 추가(더하기) 아이콘이 표시되지 않던 문제가 수정되었습니다.
 * Internet Explorer 9에 대한 Experience Cloud 인터페이스 지원을 개선했습니다.
@@ -434,7 +434,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * Advertising Cloud에서 사용자의 Experience Cloud 카드에 대한 링크가 누락될 수 있습니다.
 * 일부 관리자는 Experience Cloud 가입 초대를 수락한 후 자신의 계정을 연결할 때 문제가 발생할 수 있습니다.
 * Experience Cloud 인터페이스는 여러 사용자가 동시에 사용하는 경우 성능이 저하될 수 있습니다.
-* 일부 사용자는 오류 알림을 받는 대신 오래된 에셋을 삭제할 수 있습니다.
+* 일부 사용자는 오류 알림을 받는 대신 오래된 자산을 삭제할 수 있습니다.
 * 일부 사용자는 동일한 Adobe ID로 동시에 두 개의 브라우저에 로그인할 때 문제가 발생할 수 있습니다.
 * 일부 사용자는 Creative Cloud 사용자가 삭제된 후 Creative Cloud 사용자를 다시 공유 폴더에 추가하지 못할 수 있습니다.
 * 일부 사용자는 폴더를 Experience Cloud에서 Creative Cloud로 공유하면 발생하는 알림이 지연될 수 있습니다.
@@ -446,7 +446,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 알려진 문제:
 
-* 일부 사용자는 오류 알림을 받는 대신 오래된 에셋을 삭제할 수 있습니다.
+* 일부 사용자는 오류 알림을 받는 대신 오래된 자산을 삭제할 수 있습니다.
 * 일부 [!DNL .png] 파일을 카드에서 렌더링할 수 없습니다.
 * 보드에 업로드하는 중 일부 사용자에게 문제가 발생할 수 있습니다.
 * 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
@@ -488,7 +488,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 일부 [!DNL .png] 파일을 카드에서 렌더링할 수 없습니다.
 * 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
 * 일부 사용자는 PDF에서 카드를 만들어 보드에 공유하지 못할 수 있습니다.
-* 일부 사용자는 오류 알림을 받는 대신 오래된 에셋을 삭제할 수 있습니다.
+* 일부 사용자는 오류 알림을 받는 대신 오래된 자산을 삭제할 수 있습니다.
 * 사용자가 보드에서 PowerPoint 파일을 공유할 수 없습니다.
 * [!DNL Experience Cloud] 인터페이스는 여러 사용자가 동시에 사용하는 경우 성능이 저하될 수 있습니다.
 * [!DNL Search&Promote] 조직 및 제품 액세스 페이지에서 에 연결할 수 없습니다.
@@ -505,7 +505,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
 * 일부 사용자가 PDF에서 카드를 만들어 보드에 공유하지 못할 수 있습니다.
 * 보드에 업로드하는 중 일부 사용자에게 문제가 발생할 수 있습니다.
-* 일부 사용자는 오류 알림을 받는 대신 오래된 에셋을 삭제할 수 있습니다.
+* 일부 사용자는 오류 알림을 받는 대신 오래된 자산을 삭제할 수 있습니다.
 * 사용자가 보드에서 PowerPoint 파일을 공유할 수 없습니다.
 * 일부 [!DNL .png] 파일을 카드에서 렌더링할 수 없습니다.
 * [!DNL Experience Cloud] 인터페이스는 여러 사용자가 동시에 사용하는 경우 성능이 저하될 수 있습니다.
@@ -538,7 +538,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 보드에 업로드하는 중 일부 사용자에게 문제가 발생할 수 있습니다.
 * 일부 사용자는 [!DNL Target]에서 [!DNL Experience Cloud]로 로그인하지 못할 수 있습니다.
 * 일부 Audience Manager 사용자는 [!DNL Experience Cloud]에 로그인하지 못할 수 있습니다.
-* 일부 사용자는 오류 알림을 받는 대신 오래된 에셋을 삭제할 수 있습니다.
+* 일부 사용자는 오류 알림을 받는 대신 오래된 자산을 삭제할 수 있습니다.
 * [!DNL Experience Cloud]에서 삭제된 파일은 [!DNL Digital Asset Management]에서 삭제할 수 없습니다.
 * 사용자가 보드에서 PowerPoint 파일을 공유할 수 없습니다.
 * 일부 [!DNL .png] 파일을 카드에서 렌더링할 수 없습니다.
@@ -555,7 +555,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * [!DNL Experience Cloud]에서 삭제된 파일은 [!DNL Digital Asset Management]에서 삭제할 수 없습니다.
 * 일부 [!UICONTROL Exchange] 사용자는 주석에서 자신의 이름이 실제 이름이 아닌 긴 문자열 ID임을 확인할 수 있습니다.
 * 일부 [!DNL .png] 파일을 카드에서 렌더링할 수 없습니다.
-* 파일을 업로드하면 드래그하여 놓는 방법보다 더 많은 파일 유형을 사용할 수 있습니다. 최상의 결과를 얻으려면 [!UICONTROL 에셋]을 사용하여 업로드하십시오.
+* 파일을 업로드하면 드래그하여 놓는 방법보다 더 많은 파일 유형을 사용할 수 있습니다. 최상의 결과를 얻으려면 [!UICONTROL 자산]을 사용하여 업로드하십시오.
 * [!DNL Search&Promote] 조직 및 제품 액세스 페이지에서 에 연결할 수 없습니다.
 * [!DNL Exchange] 사용자는 환경을 개선하려면 쿠키를 지워야 합니다.
 * [!DNL Experience Cloud] 인터페이스는 많은 사용자가 동시에 사용하는 경우 속도가 느려질 수 있습니다.
@@ -593,7 +593,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 **알려진 문제**
 
 * [!DNL Experience Cloud]에서 삭제된 파일은 [!DNL Digital Asset Management]에서 삭제할 수 없습니다.
-* 파일을 업로드하면 드래그하여 놓는 방법보다 더 많은 파일 유형을 사용할 수 있습니다. 최상의 결과를 얻으려면 에셋을 사용하여 업로드하십시오.
+* 파일을 업로드하면 드래그하여 놓는 방법보다 더 많은 파일 유형을 사용할 수 있습니다. 최상의 결과를 얻으려면 자산을 사용하여 업로드하십시오.
 * [!DNL Search&Promote] 조직 및 제품 액세스 페이지에서 에 연결할 수 없습니다.
 * [!DNL Analytics]에서 트렌드 보고서에 적용된 필터가 [!DNL Experience Cloud]의 카드에 적용되지 않았습니다.
 * 일부 사용자는 자신의 대상자 관리 계정을 [!DNL Experience Cloud] 계정과 연결하지 못할 수 있습니다.
@@ -616,7 +616,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Exchange </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> 도움말</span> &gt; <span class="uicontrol"> Exchange</span></p> <p><span class="keyword"> Experience Cloud</span><span class="wintitle"> Exchange</span>는 앱을 통해 디지털 마케팅 확장 기능을 검색, 탐색, 선택, 지불, 다운로드할 수 있는 단일 대상입니다. </p> <p>앱에는 Data Connectors, Adobe의 핵심 제품에 대한 사용자 지정 구성, 서드파티 애플리케이션, 보고서 및 <span class="keyword"> Experience Cloud</span> 카드가 포함됩니다. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> 도움말</span> &gt; <span class="uicontrol"> Exchange</span></p> <p><span class="keyword"> Experience Cloud</span><span class="wintitle"> Exchange</span>는 앱을 통해 디지털 마케팅 확장 기능을 검색, 탐색, 선택, 지불, 다운로드할 수 있는 단일 대상입니다. </p> <p>앱에는 Data Connectors, Adobe의 핵심 제품에 대한 사용자 정의 구성, 서드파티 애플리케이션, 보고서 및 <span class="keyword"> Experience Cloud</span> 카드가 포함됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Audiences </p> </td> 
@@ -631,8 +631,8 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
    <td colname="col2"> <p>새 Adobe 사용자는 Scene7 계정을 Adobe ID 및 해당 팀원과 연결할 수 있습니다. 관리자는 Scene7 계정에서 사용자의 연결을 끊을 수도 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>에셋 동기화. </p> </td> 
-   <td colname="col2"> <p> Experience Manager Assets 내의 에셋을 Experience Cloud 및 Creative Cloud와 공유할 수 있습니다. 이러한 에셋에 대한 모든 변경 사항은 Experience Cloud 및 Creative Cloud에 있는 공유된 에셋 사본에 반영됩니다. </p> </td> 
+   <td colname="col1"> <p>자산 동기화. </p> </td> 
+   <td colname="col2"> <p> Experience Manager Assets 내의 자산을 Experience Cloud 및 Creative Cloud와 공유할 수 있습니다. 이러한 자산에 대한 모든 변경 사항은 Experience Cloud 및 Creative Cloud에 있는 공유된 자산 사본에 반영됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -642,9 +642,9 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * [!DNL Experience Cloud]가 [!DNL Adobe Target]에 연결되어 있지 않습니다. 이 문제는 [!DNL Adobe Target] 로그인을 여러 [!DNL Target] 서버에서 사용할 수 있을 때 발생합니다.
 * [!DNL Adobe Advertising Cloud]에서 사용자를 생성할 때 [!DNL Experience Cloud]에서 사용자를 자동으로 생성하지 않습니다.
 * 새 사용자를 추가하기 위한 콤보 상자의 옵션이 입력하는 동안 일시적으로 사라졌습니다.
-* 에셋 카드 보기의 설명 링크를 선택할 수 없습니다.
-* 사용자 지정 태그를 에셋에 추가한 후에 다른 메타데이터 변경 사항이 지속되지 않습니다.
-* 이미지가 Adobe Target Essentials에 사용되는 경우 에셋에서 이미지를 삭제해도 경고가 표시되지 않습니다.
+* 자산 카드 보기의 설명 링크를 선택할 수 없습니다.
+* 사용자 정의 태그를 자산에 추가한 후에 다른 메타데이터 변경 사항이 지속되지 않습니다.
+* 이미지가 Adobe Target Essentials에 사용되는 경우 자산에서 이미지를 삭제해도 경고가 표시되지 않습니다.
 * 여러 사용자가 동시에 사용할 경우 [!UICONTROL Experience Cloud] 인터페이스 성능이 느려집니다.
 * 에서 사용된 이미지를 [!DNL Adobe Target Essentials] [!UICONTROL Experience Cloud Assets]에서 삭제해도 경고가 발생하지 않습니다.
 * 로그인 동안 **[!UICONTROL 내 정보 저장]**&#x200B;을 선택하지 않았을 때 사용자가 15분 후 로그아웃되었습니다.
@@ -679,13 +679,13 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 **수정 사항**
 
-* 사용자 지정 태그를 에셋에 추가하면 다른 메타데이터 변경 사항을 지속할 수 없습니다.
+* 사용자 정의 태그를 자산에 추가하면 다른 메타데이터 변경 사항을 지속할 수 없습니다.
 * 사용자는 보드를 새로 고쳐서 삭제된 카드가 보기에서 사라지도록 해야 합니다.
 * 로그인 동안 **[!UICONTROL 내 정보 저장]**&#x200B;을 선택하지 않으면 사용자가 15분 후 로그아웃됩니다.
 * [!DNL Analytics] 애플리케이션 랜딩 페이지에 형식 오류가 표시됩니다.
 * 모든 권한과 자격 변경 사항이 적용되려면 사용자가 로그아웃한 후 다시 로그인해야 합니다.
-* 이미지가 [!UICONTROL 에 사용되는 경우] 에셋 [!DNL Adobe Target Essentials]에서 이미지를 삭제해도 경고가 표시되지 않습니다.
-* 에셋 카드 보기의 주석 링크를 선택할 수 없습니다.
+* 이미지가 [!UICONTROL 에 사용되는 경우] 자산 [!DNL Adobe Target Essentials]에서 이미지를 삭제해도 경고가 표시되지 않습니다.
+* 자산 카드 보기의 주석 링크를 선택할 수 없습니다.
 * 새 사용자를 추가하기 위한 콤보 상자의 옵션이 입력하는 동안 일시적으로 사라집니다.
 * [!DNL Experience Cloud]에 로그인하는 데 1초 이상 소요됩니다.
 * [!DNL Advertising Cloud]에서 공유한 데이터가 [!DNL Experience Cloud]에서 잘못 표시되었습니다.
@@ -699,7 +699,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 일부 Excel 또는 CSV 파일을 보드에 업로드할 수 없습니다.
 * 일부 사용자는 자신의 대상자 관리 계정을 [!DNL Experience Cloud]와 연결하지 못할 수 있습니다.
 * 일부 사용자는 [!DNL Analytics]에서 [!DNL Experience Cloud] 세그먼트를 공유할 때 오류가 발생할 수 있습니다.
-* 일부 사용자는 [!UICONTROL 에셋 선택기]에서 하위 폴더로 드릴다운하지 못할 수 있습니다.
+* 일부 사용자는 [!UICONTROL 자산 선택기]에서 하위 폴더로 드릴다운하지 못할 수 있습니다.
 * 일부 사용자는 [!DNL Experience Cloud]에서 AdLens 가젯을 공유할 수 없습니다.
 
 ## 릴리스 14.3.1 - 2014년 3월 13일 {#section_5D142E3225E3477A84DC01B8197D39BC}
@@ -718,11 +718,11 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 모든 권한과 자격 변경 사항이 적용되려면 사용자가 로그아웃한 후 다시 로그인해야 합니다.
 * *`Remember me`*&#x200B;를 선택하지 않으면 사용자는 15분 후 로그아웃됩니다.
 * [!DNL Analytics] 애플리케이션 랜딩 페이지에 형식 오류가 표시됩니다.
-* 에셋 카드 보기의 설명 링크를 선택할 수 없습니다.
+* 자산 카드 보기의 설명 링크를 선택할 수 없습니다.
 * Experience Cloud 인터페이스는 많은 사용자가 동시에 사용하는 경우 속도가 느려질 수 있습니다.
 * 여러 Target 서버에서 [!DNL Adobe Target] 로그인을 사용하는 경우 Experience Cloud를 [!DNL Adobe Target]에 연결할 수 없습니다.
 * Experience Cloud에 로그인하는 데 1초 이상 소요됩니다.
-* 사용자 지정 태그를 에셋에 추가하면 다른 메타데이터 변경 사항을 지속할 수 없습니다.
+* 사용자 정의 태그를 자산에 추가하면 다른 메타데이터 변경 사항을 지속할 수 없습니다.
 * Experience Cloud에서 사용자를 생성할 때 [!DNL Adobe Advertising Cloud]에서 사용자를 자동으로 생성하지 않습니다.
 * 새 사용자를 추가하기 위한 콤보 상자의 옵션이 입력하는 동안 일시적으로 사라집니다.
 * [!DNL Advertising Cloud]에서 공유한 데이터가 Experience Cloud에서 잘못 표시되었습니다.
