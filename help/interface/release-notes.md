@@ -21,7 +21,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 설명서 업데이트 목록은 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)를 참조하십시오.
 
-모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
+모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)를 참조하십시오.
 
 <!-- ## July - August 2023
 
@@ -156,7 +156,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 **수정 사항**
 
 * **고객 속성:** 이제 고객 속성 UI에 타겟에서 동기화된 프로필의 추가 상태가 표시됩니다. (MCUI-10231)
-* **핵심 서비스 트리거:** 사용 부족으로 중단 유형 트리거를 만들 때 성향 점수 &quot;30일 후에 반환될 가능성&quot;이 제거되었습니다. (MCUI-10056)
+* **핵심 서비스 트리거:** 사용 부족으로 중단 유형 트리거를 만들 때 성향 점수 “30일 후에 반환될 가능성”이 제거되었습니다. (MCUI-10056)
 
 ## 2020년 1월
 
@@ -167,13 +167,13 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * Experience Cloud 로그인 시 일부 사용자의 세션이 로그아웃되는 중요한 문제를 해결했습니다. (MCUI-6908)
 * 성능을 개선하고 지연을 줄이도록 Experience Cloud 로그인을 업데이트했습니다. (MCUI-6854, MCUI-6869, MCUI-6883)
 * 인터페이스 외관이 업데이트되었습니다. (MCUI-6861, MCUI-6911, MCUI-6862)
-* [!UICONTROL 트리거] 정의에서 _Like_ 절을 잘못 해석하는 Experience Cloud [!UICONTROL 트리거] 문제를 수정했습니다. (MCUI-6611)
+* [!UICONTROL 트리거] 정의에서 _Like_ 절을 잘못 해석하는 Experience Cloud [!UICONTROL 트리거] 문제를 해결했습니다. (MCUI-6611)
 
 ## 2019년 4월
 
 * Experience Cloud 애플리케이션 제품군의 Marketo와 Experience Platform에 대한 브랜딩 업데이트를 포함하도록 앱 전환기를 업데이트했습니다. (MCUI-6529)
 * 피드 및 관리 페이지에 대한 탐색 링크를 포함하도록 Experience Cloud 홈을 업데이트했습니다. (MCUI-6682)
-* &quot;like&quot; 절의 올바른 사용을 위해 [!UICONTROL 트리거] 정의에서 문제를 수정했습니다. (MCUI-6611)
+* “like” 절의 올바른 사용을 위해 [!UICONTROL 트리거] 정의에서 문제를 해결했습니다. (MCUI-6611)
 * 구독 서비스의 개선된 로그인을 위해 고객 속성을 개선합니다. (MCUI-6519)
 
 ## 릴리스 19.1.1 - 2019년 1월 17일
@@ -208,7 +208,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 **수정 사항**
 
-* 주문형 자산에서 Experience Cloud 피드로 공유된 자산을 썸네일로 표시하지 못하는 문제를 수정했습니다. (MAC-29955)
+* 주문형 자산에서 Experience Cloud 피드로 공유된 자산을 썸네일로 표시하지 못하는 문제를 해결했습니다. (MAC-29955)
 
 ## 릴리스 16.2 - 2016년 2월 18일 {#section_D9610373116C4D77A38F67815C725EA3}
 
@@ -233,7 +233,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 **수정 사항**
 
-* Analytics에 대한 연결 및 SSO를 차단하는 문제를 수정했습니다. 이 문제는 &quot;알림: 오류 메시지: 오류 IMS SSO 실패: 연결된 회사를 찾을 수 없습니다.&quot;를 표시합니다.
+* Analytics에 대한 연결 및 SSO를 차단하는 문제를 해결했습니다. 이 문제는 “알림: 오류 메시지: 오류 IMS SSO 실패: 연결된 회사를 찾을 수 없음”을 표시합니다.
 
 **알려진 문제**
 
@@ -264,19 +264,19 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 **알려진 문제**
 
-* 고객이 Experience Cloud를 통해 Analytics에 SSO하는 경우 Report Builder에 로그인할 수 없습니다. 이 문제는 이전 Analytics 자격 증명을 사용하는 고객에게 영향을 주지 않습니다.
-* Analytics의 &quot;보고서에 대한 링크&quot; 기능에서 알려진 문제입니다. Experience Cloud를 통해 Analytics에 로그인한 고객은 보고서를 공유하려고 할 때 Analytics의 SSO 이외 로그인 페이지로 이동됩니다.
+* 고객이 Experience Cloud를 통해 Analytics에 SSO(Single Sign-On)하는 경우 Report Builder에 로그인할 수 없습니다. 이 문제는 이전 Analytics 자격 증명을 사용하는 고객에게 영향을 주지 않습니다.
+* Analytics의 “보고서에 대한 링크” 기능에서 알려진 문제입니다. Experience Cloud를 통해 Analytics에 로그인한 고객은 보고서를 공유하려고 할 때 Analytics의 SSO 이외 로그인 페이지로 이동됩니다.
 
 ## 릴리스 15.9 - 2015년 9월 10일 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
-* 고객 속성 데이터를 업로드할 때 간혹 시간 초과를 초래하는 Audience Manager API 성능 문제를 수정했습니다. (MAC-26305)
-* 사용자가 구독에 최대 200개의 고객 속성을 추가하지 못하던 문제를 수정했습니다. (MAC-26188)
-* Analytics 세분화에서 대상자 공유를 방해했던 대상자 라이브러리 문제를 수정했습니다. 이 문제로 인해 “데이터 수집” (대상자 0)이 표시되었습니다. 이 문제를 방지하려면 세그먼트 크기를 세그먼트당 대상자 구성원 수를 5만 명 미만으로 유지하는 것이 좋습니다. (MAC-25788)
-* 고객 속성 - 스키마 편집 페이지에서 디스플레이 이름을 변경하면 발생하는 콘텐츠 인식 오류를 초래하는 이전에 알려진 문제를 수정했습니다. (MAC-25589, AN-103834)
+* 고객 속성 데이터를 업로드할 때 간혹 시간 초과를 초래하는 Audience Manager API 성능 문제를 해결했습니다. (MAC-26305)
+* 사용자가 구독에 최대 200개의 고객 속성을 추가하지 못하던 문제를 해결했습니다. (MAC-26188)
+* Analytics 세분화에서 대상자 공유를 방해했던 대상자 라이브러리 문제를 해결했습니다. 이 문제로 인해 “데이터 수집” (대상자 0)이 표시되었습니다. 이 문제를 방지하려면 세그먼트 크기를 세그먼트당 대상자 구성원 수를 5만 명 미만으로 유지하는 것이 좋습니다. (MAC-25788)
+* 고객 속성 - 스키마 편집 페이지에서 디스플레이 이름을 변경하면 발생하는 내용 인식 오류를 초래하는 이전에 알려진 문제를 해결했습니다. (MAC-25589, AN-103834)
 
 ## 릴리스 15.7 - 2015년 7월 22일 {#section_2683A152176944E48EF6C943892975B7}
 
-* 고객 속성의 스키마 보기/편집 페이지에 지정된 속성 설명이 Analytics 보고서에 업데이트되지 않던 문제를 수정했습니다. (MAC-25985)
+* 고객 속성의 스키마 보기/편집 페이지에 지정된 속성 설명이 Analytics 보고서에 업데이트되지 않던 문제를 해결했습니다. (MAC-25985)
 * 업로드한 자산의 썸네일을 렌더링하지 못하는 문제를 해결했습니다. (MAC-25863)
 * Experience Cloud Audiences의 Reports &amp; Analytics에 새 세그먼트를 생성하지 못하는 문제를 해결했습니다. (MAC-25817)
 * 고객이 방문자 ID 서비스를 사용하면 Analytics에서 대상자를 공유하지 못하는 문제를 해결했습니다. (MAC-25788, MAC-25747)
@@ -312,9 +312,9 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
  </tbody> 
 </table>
 
-* 일부 고객의 경우 고객 속성이 동기화되지 않던 문제를 수정했습니다.
+* 일부 고객의 경우 고객 속성이 동기화되지 않던 문제를 해결했습니다.
 * [Adobe Target 제품 설명서](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko-KR) 페이지가 일본어로 표시되지 않는 문제를 해결했습니다.
-* [!DNL Creative Cloud]와 [!DNL Experience Cloud] 간 주석에서 일본어 텍스트를 사용할 수 없던 문제를 수정했습니다.
+* [!DNL Creative Cloud]와 [!DNL Experience Cloud] 간 주석에서 일본어 텍스트를 사용할 수 없던 문제를 해결했습니다.
 
 ## 릴리스 15.4.1 - 2015년 4월 8일 {#section_75634120CC934B3381EDEA7F6F976F0A}
 
@@ -339,7 +339,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 **수정 사항**
 
-* [!DNL Experience Cloud]와 [!DNL Advertising Cloud] 간 SSO(Single Sign-On)가 되지 않던 문제를 수정했습니다.
+* [!DNL Experience Cloud]와 [!DNL Advertising Cloud] 간 SSO(Single Sign-On)가 되지 않던 문제를 해결했습니다.
 
 **알려진 문제**
 
@@ -423,8 +423,8 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 **수정 사항**
 
-* 카드에서 PNG 파일을 렌더링할 수 없던 문제를 수정했습니다.
-* 드래그 앤 드롭으로 파일을 Experience Cloud Assets에 업로드할 때 발생하는 문제를 수정했습니다.
+* 카드에서 PNG 파일을 렌더링할 수 없던 문제를 해결했습니다.
+* 드래그 앤 드롭으로 파일을 Experience Cloud Assets에 업로드할 때 발생하는 문제를 해결했습니다.
 
 **알려진 문제**
 
@@ -450,7 +450,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 일부 [!DNL .png] 파일을 카드에서 렌더링할 수 없습니다.
 * 보드에 업로드하는 중 일부 사용자에게 문제가 발생할 수 있습니다.
 * 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
-* 관리자는 계정 설정에서 변경된 사항을 보기 위해 로그아웃했다가 다시 로그인해야합니다.
+* 관리자는 계정 설정에서 변경된 사항을 보기 위해 로그아웃했다가 다시 로그인해야 합니다.
 * 사용자가 보드에서 PowerPoint 파일을 공유할 수 없습니다.
 * [!DNL Experience Cloud] 인터페이스는 여러 사용자가 동시에 사용하는 경우 성능이 저하될 수 있습니다.
 * Adobe Experience Manager에서 Creative Cloud로의 동기화가 작동하지 않습니다.
@@ -559,7 +559,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * [!DNL Search&Promote] 조직 및 제품 액세스 페이지에서 에 연결할 수 없습니다.
 * [!DNL Exchange] 사용자는 환경을 개선하려면 쿠키를 지워야 합니다.
 * [!DNL Experience Cloud] 인터페이스는 많은 사용자가 동시에 사용하는 경우 속도가 느려질 수 있습니다.
-* 일부 사용자는 내용이 [!DNL Creative Cloud]에서 공유되지 않을 경우 [!DNL Experience Cloud] 콘텐츠가 폴더에서 제거될 수 있습니다.
+* 일부 사용자는 콘텐츠가 [!DNL Creative Cloud]에서 공유되지 않을 경우 [!DNL Experience Cloud] 콘텐츠가 폴더에서 제거될 수 있습니다.
 * 15분 동안 아무 활동이 없으면 로그아웃됩니다. 또한 한 위치에서 로그아웃해도 [!DNL Experience Cloud]에서 로그아웃됩니다.
 * 일부 사용자는 자신의 Audience Manager 계정을 [!DNL Experience Cloud]에 연결하지 못할 수 있습니다.
 * [!UICONTROL Exchange] 사용자는 영어로 된 섹터만 볼 수 있습니다.
@@ -709,7 +709,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 **수정 사항**
 
 * 아바타 이미지를 제거하는 기능을 추가했습니다.
-* [!DNL Adobe Advertising Cloud] 계정 연결이 해제되지 않았던 문제를 수정했습니다.
+* [!DNL Adobe Advertising Cloud] 계정 연결이 해제되지 않았던 문제를 해결했습니다.
 
 **알려진 문제**
 
