@@ -1,26 +1,26 @@
 ---
-description: 광고 참여 이벤트를 전환 이벤트에 매핑하고 해당 정보를 사용하여 광고 입찰을 최적화하는 Adobe Ad Cloud 쿠키에 대해 알아봅니다.
-title: 'Advertising Cloud 쿠키 '
+description: 광고 참여 이벤트를 전환 이벤트에 매핑하고 해당 정보를 사용하여 광고 입찰을 최적화하는 Adobe Advertising 쿠키에 대해 알아봅니다.
+title: Adobe Advertising 쿠키
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 854a2b298db4fab3339e2b2ea03701dc6511af8d
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: 5d0e02713ec4b233e06ecd3ac0234d1526b947f1
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 75%
 
 ---
 
-# Advertising Cloud 쿠키{#advertising-cloud-cookies}
+# Adobe Advertising 쿠키{#advertising-cloud-cookies}
 
-Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 이벤트에 매핑하고 해당 정보를 사용하여 광고 입찰을 최적화합니다.
+Adobe Advertising(이전의 Adobe Advertising Cloud)는 쿠키를 사용하여 광고 참여 이벤트를 전환 이벤트에 매핑하고 해당 정보를 사용하여 광고 입찰을 최적화합니다.
 
 >[!NOTE]
 >
->[Adobe Experience Cloud ID(ECID) 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) 를 사용하는 Beta Advertising Cloud JavaScript 태그는 Advertising Cloud 쿠키가 아닌 [자사 Experience Cloud s_ecid 쿠키](cookies-first-party.md)를 생성합니다.
+>를 사용하는 베타 Adobe Advertising Javascript 태그 [Adobe Experience Cloud ID(ECID) 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko-KR) 생성 [자사 Experience Cloud s_ecid 쿠키](cookies-first-party.md), Adobe Advertising 쿠키가 아님.
 
 ## 쿠키 이름: _lcc
 
@@ -67,7 +67,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p>정보가 저장됨 </p> </td> 
-   <td colname="col2"> <p>Advertising Cloud DSP 추적을 사용한 광고 참여용 인코딩된 ID 및 타임스탬프 </p> </td> 
+   <td colname="col2"> <p>Adobe Advertising DSP 추적을 사용한 광고 참여에 대한 인코딩된 ID 및 타임스탬프 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>만료 </p> </td> 
@@ -104,11 +104,11 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>만료 </p> </td> 
-   <td colname="col2"> <p>2021년 2월 24일 전에 설정된 쿠키는 730일 이후에 만료됩니다. 2021년 2월 25일 후에 설정된 쿠키는 364일 이후에 만료됩니다.</p> </td> 
+   <td colname="col2"> <p>1년</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용 </p> </td> 
-   <td colname="col2"> <p>서퍼 ID를 관련 대상 세그먼트 및 전환과 연관시키는 자사 쿠키 </p> <p> 마지막 방문에 대한 정보는 Adobe 서버에 대한 불필요한 요청을 방지하여 페이지 로드 횟수를 최적화하는 데 사용됩니다. </p> <p>마지막 검색 클릭에 대한 정보는 전환 이벤트가 클릭 또는 뷰스루의 결과(클릭 없는 노출 횟수에서의 전환 결과)라면 결정하는 데 도움이 됩니다. </p> </td> 
+   <td colname="col2"> <p>서퍼 ID를 관련 대상 세그먼트 및 전환과 연관시키는 자사 쿠키 </p> <p> 마지막 방문에 대한 정보는에 대한 불필요한 요청을 방지하여 페이지 로드 시간을 최적화하는 데 사용됩니다. [!DNL Adobe] 서버. </p> <p>마지막 검색 클릭에 대한 정보는 전환 이벤트가 클릭 또는 뷰스루의 결과(클릭 없는 노출 횟수에서의 전환 결과)라면 결정하는 데 도움이 됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>위치 </p> </td> 
@@ -121,7 +121,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  </tbody> 
 </table>
 
-## 쿠키 이름: ev_sync_*
+## 쿠키 이름: ev_sync_&#42;
 
 (ev_sync_ax, ev_sync_bk, ev_sync_dd, ev_sync_fs, ev_sync_ix, ev_sync_nx, ev_sync_ox, ev_sync_pm, ev_sync_rc, ev_sync_tm, ev_sync_yh)
 
@@ -143,7 +143,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용 </p> </td> 
-   <td colname="col2"> <p>Advertising Cloud 서퍼 ID를 파트너 광고 교환과 동기화하는 서드파티 광고 교환 관련 쿠키. 새 서퍼에 대해 작성되며, 기간이 만료되면 동기화 요청을 보냅니다. </p> </td> 
+   <td colname="col2"> <p>Adobe Advertising 서퍼 ID를 파트너 광고 교환과 동기화하는 타사 광고 교환 관련 쿠키. 새 서퍼에 대해 작성되며, 기간이 만료되면 동기화 요청을 보냅니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>위치 </p> </td> 
@@ -172,7 +172,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>만료 </p> </td> 
-   <td colname="col2"> <p>2년 </p> </td> 
+   <td colname="col2"> <p>1년 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용 </p> </td> 
@@ -234,7 +234,7 @@ Advertising Cloud는 쿠키를 사용하여 광고 참여 이벤트를 전환 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p>정보가 저장됨 </p> </td> 
-   <td colname="col2"> <p>Advertising Cloud DSP(Demand Side Platform) ID </p> </td> 
+   <td colname="col2"> <p>Adobe Advertising DSP(Demand Side Platform) ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>만료 </p> </td> 
