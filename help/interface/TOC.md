@@ -3,12 +3,12 @@ audience: administrator
 user-guide-title: Experience Cloud 중앙 인터페이스 구성 요소
 breadcrumb-title: Experience Cloud 중앙 인터페이스 구성 요소
 title: Experience Cloud 인터페이스 및 관리 안내서
-description: Experience Cloud 인터페이스 및 사용자 계정 환경 설정에 대해 알아봅니다. 비즈니스 개체를 검색하고 사용자 및 제품을 관리하는 방법에 대해 알아봅니다. 고객 속성, 대상자 라이브러리, 쿠키를 구성하고 Experience Cloud 자산을 공유하십시오.
+description: Experience Cloud 인터페이스 및 사용자 계정 환경 설정에 대해 알아봅니다. 비즈니스 오브젝트를 검색하고 사용자 및 제품을 관리하는 방법에 대해 알아봅니다. 고객 속성, 대상자 라이브러리, 쿠키를 구성하고 Experience Cloud 자산을 공유하십시오.
 index: true
 source-git-commit: 850df6ff4e65f339e35f08bd5aacd2f38f79bea0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 99%
       + [고객 속성에 대한 개인정보 보호 고려 사항](privacy-mac.md)
    + Experience Cloud 활성화 {#activation}
       + [활성화 개요](activation.md)
-      + [Experience Platform Launch 사용자 안내서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR)
+      + [Experience Platform Launch 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR)
       + [트리거](triggers.md)
    + Experience Cloud Assets {#assets}
       + [Experience Cloud 자산 개요](experience-cloud-assets.md)
