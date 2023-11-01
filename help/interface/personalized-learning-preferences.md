@@ -2,9 +2,8 @@
 description: Experience Cloud의 맞춤형 학습 환경 설정에 대해 알아봅니다. 이를 통해 고객은 사용 데이터를 기반으로 이메일, Adobe Experience Cloud 제품 및 Adobe Experience League 커뮤니티를 통해 개인화된 지원 및 프로모션을 받을 수 있습니다.
 solution: Experience Cloud
 title: Experience Cloud 맞춤형 학습 환경 설정
-feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 199643aeaaf422ec9ad637e18a03d25b5782546b
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: ht
 source-wordcount: '397'
 ht-degree: 100%
