@@ -1,14 +1,13 @@
 ---
 description: Experience Cloud 중앙 인터페이스 구성 요소에 대해 알아봅니다. 이 도움말에는 Admin Console에서의 사용자 및 제품 관리, Experience Cloud 서비스를 위한 애플리케이션 활성화, 대상자 라이브러리, 고객 속성, Experience Cloud Assets 등에 대한 도움말이 포함되어 있습니다.
-solution: Experience Cloud
 title: Experience Cloud 인터페이스 도움말 및 설명서
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: Customer Attributes
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
+source-git-commit: acdf73ddc3bacbf18c069b7fd6afd935a17003a4
 workflow-type: ht
 source-wordcount: '1347'
 ht-degree: 100%
