@@ -2,14 +2,15 @@
 description: Adobe Experience Cloud의 용어와 Experience Cloud 및 Creative Cloud 용어의 차이점에 대해 알아봅니다.
 solution: Experience Cloud
 title: 용어
-feature: Customer Attributes
+feature-set: Experience Cloud Services
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: ad67ac4d64a181ba642f9314a2dc40df279c505f
 workflow-type: ht
-source-wordcount: '1445'
+source-wordcount: '1442'
 ht-degree: 100%
 
 ---
@@ -21,7 +22,7 @@ Experience Cloud 사용자를 위한 용어 참조 및 Creative Cloud에서 그�
 | 용어 | Creative Cloud | Experience Cloud |
 |--- |----- |---- |
 | 에셋 | Creative Cloud에서 에셋은 일반적으로 이미지 파일입니다.<br>에셋은 Photoshop 파일의 레이어, PowerPoint 파일의 슬라이드, PDF의 페이지, ZIP에 들어 있는 파일일 수 있습니다. | Experience Cloud에서 에셋은 디지털 문서, 이미지, 비디오 또는 오디오 파일로, 다양한 렌디션과 하위 에셋을 가질 수 있습니다. 해당 예는 다음과 같습니다.<ul><li>파일</li><li>문서</li><li>이미지</li><li>비디오</li><li>오디오 클립</li><li>프레젠테이션</li><li>이미지 템플릿</li><li>비디오 템플릿</li></ul> |
-| 속성 |  | 사람들이 [세그먼트](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko-KR)에 대한 자격이 되는 경우 공통으로 가지는 사항. (Audience Manager의 [트레이트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=ko-KR)와 비슷합니다.) |
+| 속성 | | 사람들이 [세그먼트](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko-KR)에 대한 자격이 되는 경우 공통으로 가지는 사항. (Audience Manager의 [트레이트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=ko-KR)와 비슷합니다.) |
 | Audiences | Creative Cloud에서 대상은 비디오를 보는 사람이 될 수 있습니다. | Experience Cloud에서 대상이란 사용자가 캠페인 활동에서 타기팅할 수 있는 사람의 컬렉션을 의미합니다.<br>대상의 멤버십은 방문자의 컨텍스트에 따라 작동하는 규칙 세트 또는 고정된 목록을 기반으로 결정할 수 있습니다. Facebook 그룹의 이메일 가입자 또는 멤버 목록을 예로 들 수 있습니다.<br> [Experience Cloud Audiences](audience-library.md)에서 대상을 만들고 관리하는 것은 Experience Cloud에 공유하는 기능을 추가하여 세그먼트를 만들고 사용하는 것과 비슷합니다.<br>**Adobe Target**<br> Adobe Target에서 대상은 이전에 세그먼트라고 불렀습니다.<br>**Adobe Analytics**<br> Analytics에서 대상은 웹 사이트 방문자로 생각할 수 있습니다. 대상 세그먼트를 만들고 대상을 Experience Cloud에 게시할 수 있습니다. |
 | 캠페인 | Creative Cloud에서, 캠페인은 Creative Cloud 이미지 에셋을 사용하는 마케팅 캠페인으로 생각할 수 있습니다. | Experience Cloud에서 캠페인은 대상에 표시되는 콘텐츠 내용을 결정합니다. 콘텐츠가 표시되는 위치와 시기도 결정합니다. 캠페인에는 특정 목표가 있으며, 지표로 목표를 추적합니다.<br>캠페인을 실행하기 위해서는 캠페인의 규칙 세트와 방문자의 컨텍스트가 일치해야 하고, 위치 채널의 기술적 제한에 따른 콘텐츠 배달이 필요합니다.<br>Adobe Target에서 캠페인과 활동이라는 용어는 동의어입니다. |
 | 채널 | Creative Cloud에서 채널은 서로 다른 유형의 정보를 저장하는 회색 음영 이미지일 수 있습니다. 정보 채널과 색상 채널이 있습니다. | Experience Cloud에서, 채널은 위치 속성이나 캠페인에 있는 활동입니다.<br>Analytics에서 마케팅 채널은 이메일 캠페인 방식 등 일반적으로 방문자가 사이트에 도착하는 방식에 대한 통찰력을 제공하는 데 사용됩니다.<br>해당 예는 다음과 같습니다.<ul><li>이메일</li><li>디스플레이 광고</li><li>소셜 네트워크</li><li>유료 검색</li><li>자연어 검색</li><li>참조 도메인</li></ul> |
@@ -29,7 +30,7 @@ Experience Cloud 사용자를 위한 용어 참조 및 Creative Cloud에서 그�
 | 소비자 ID | 특별한 용도는 없습니다. | Experience Platform Co-op 그래프 멤버가 개인을 인식하는 데 사용하는 ID. 이 번호는 브랜드에 의해 지정되며 종종 CRM 시스템에 유지됩니다. **참고:** 이 ID를 _setCustomerIDs_(소비자 ID를 Experience Cloud로 보내는 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/about-id-service.html?lang=ko-KR) 기능 호출)와 혼동하지 마십시오. |
 | 콘텐츠 | Creative Cloud에서 콘텐츠는 페이지의 텍스트 및 이미지를 나타냅니다. 이 용어는 Creative와 Experience Cloud 간에 유사하게 사용됩니다. | Experience Cloud에서 콘텐츠는 구체적 목표를 지원하기 위해 캠페인의 일부로 사용할 수 있는 마케팅 콘텐츠를 참조하며,<br>특정 위치에 사용되고 에셋으로 구성될 수 있습니다. 콘텐츠는 제품 정보처럼 구조화하거나, 모바일 애플리케이션의 화면 또는 웹 페이지처럼 구조화하지 않을 수 있습니다.<br>해당 예는 다음과 같습니다.<ul><li>웹 페이지</li><li>배너</li><li>상태 업데이트</li><li>주석</li><li>텍스트 광고</li><li>제품 정보</li><li>제품 평가</li><li>양식 데이터</li><li>검색 색인의 문서</li><li>소셜 게시물</li><li>기사</li><li>발행물</li></ul> |
 | 대시보드 | 특별한 용도는 없습니다. | 하나의 보기에서 여러 주요 지표를 나타내는 데이터 시각화 컬렉션입니다. |
-| 데이터 사용 적용 | 특별한 용도는 없습니다. | 데이터 사용 시 Adobe 기업 개인정보 보호정책, 계약 고려 사항 및 일반 개인정보 보호 원칙을 준수할 수 있도록 데이터 사용 메타데이터를 사용하기 위해 시스템(애플리케이션, 앱, 서비스, SDK, API 등)을 통해 제정되고 정의된 정책, 시스템 디자인, 관행 및 절차. |
+| 데이터 사용 적용 | 특별한 용도는 없습니다. | 데이터 사용 시 Adobe 기업 개인정보 처리방침, 계약 고려 사항 및 일반 개인정보 보호 원칙을 준수할 수 있도록 데이터 사용 메타데이터를 사용하기 위해 시스템(애플리케이션, 앱, 서비스, SDK, API 등)을 통해 제정되고 정의된 정책, 시스템 디자인, 관행 및 절차. |
 | 디바이스 | 특별한 용도는 없습니다. | 애플리케이션이 실행되는 태블릿, 휴대폰 또는 데스크탑 등의 하드웨어 디바이스. |
 | Device Co-op | 특별한 용도는 없습니다. | 디바이스 간에 개인을 더 잘 식별하고 더 의미 있고 일관된 환경을 제공하기 위해 소비자가 사용하는 디바이스에 대한 데이터를 공유하는 데 동의한 브랜드 그룹. |
 | [!UICONTROL Experience Cloud ID 서비스] (ECID) | 특별한 용도는 없습니다. | 사이트 방문자에게 지정된 고유한 영구 ID. Experience Platform ID 서비스에서 사용할 수 있는 특정 엔티티입니다. [자세히...](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR) |
@@ -46,4 +47,4 @@ Experience Cloud 사용자를 위한 용어 참조 및 Creative Cloud에서 그�
 | 솔루션 | 특별한 용도는 없습니다. | Experience Cloud에서 애플리케이션은 Adobe Analytics, Adobe Social, Adobe Target 등과 같은 제품으로 알려져 있습니다. |
 | 트레이트 | N/A | 키-값 쌍(예:color=blue)입니다. Audience Manager에서 [트레이트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=ko-KR)는 세그먼트를 만드는 데 사용됩니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
