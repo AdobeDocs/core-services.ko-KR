@@ -1,17 +1,16 @@
 ---
 description: Experience Cloud의 다양한 애플리케이션과 서비스를 사용하여 페이지 로드 시간을 줄이는 데 도움이 되는 DNS 프리페치를 구현하는 방법을 알아봅니다.
 solution: Experience Cloud
-title: '다양한 애플리케이션 및 서비스에서 DNS 프리페치 사용 '
+title: 다양한 애플리케이션 및 서비스에서 DNS 프리페치 사용
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 100%
 
 ## DNS 프리페치 및 Adobe Experience Cloud 애플리케이션 {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-DNS 프리페치는 페이지에 임베드된 정적 링크에서 자동으로 작동합니다. 즉, 다음과 같은 이유로 다른 [!UICONTROL Experience Cloud] 애플리케이션 및 서비스에서는 자동 DNS 프리페치가 작동하지 않습니다.
+DNS 프리페치는 페이지에 임베드된 정적 링크에서 자동으로 작동합니다. 즉, 자동 DNS 프리페치가 다른 버전에서는 작동하지 않습니다 [!UICONTROL Experience Cloud] 다음과 같은 이유 때문에 애플리케이션 및 서비스를 사용할 수 없습니다.
 
 * 각 Experience Cloud 애플리케이션 또는 서비스는 페이지가 로드될 때 동적으로 DNS 호출을 생성합니다.
 * 이러한 호출을 수행하기 전에 브라우저에서 IP 주소로 도메인 이름을 확인할 수 없습니다.
@@ -38,7 +37,7 @@ DNS 프리페치는 페이지에 임베드된 정적 링크에서 자동으로 �
 
 * **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
-   비보안 및 보안 추적 서버를 사용하는 경우 각 DNS 이름에 대한 별도의 태그를 추가합니다.
+  비보안 및 보안 추적 서버를 사용하는 경우 각 DNS 이름에 대한 별도의 태그를 추가합니다.
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
@@ -56,4 +55,3 @@ DNS 프리페치는 페이지에 임베드된 정적 링크에서 자동으로 �
 >[!MORELIKETHIS]
 >
 >* [DNS 프리페치](https://www.chromium.org/developers/design-documents/dns-prefetching)
-

@@ -1,15 +1,15 @@
 ---
 description: Adobe Experience Cloud 사용자 및 제품 관리, 사용자(Audiences 및 고객 속성), Journey Orchestration, 오퍼, 장소, Experience Platform Launch 및 모바일 서비스에 대해 알아봅니다.
 solution: Experience Cloud
-title: 'Experience Cloud 서비스 개요 '
-feature: Customer Attributes
+title: Experience Cloud 서비스 개요
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 96%
 
 ---
@@ -36,8 +36,8 @@ Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL �
 | [관리](admin-getting-started.md) | Admin Console에 로그인, Experience Cloud 사용자 권한과 제품 프로필 관리 및 브라우저 지원 방법에 대해 알아봅니다. |
 | [쿠키](cookies-privacy.md) | 고객 개인정보 보호 및 데이터 보안을 유지 관리하는 것은 Adobe의 최우선 과제입니다. Adobe는 여러 개인정보 보호 조직에 참여하고 개인정보 규제 기관 및 자체 규제 원칙과 협력합니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
->Experience Platform에 대한 제품 설명서는 [여기](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=en)에 있습니다. 기술 설명서 [!UICONTROL Experience Platform] 개발자는 [Adobe 개발자](https://developer.adobe.com/apis).
+>Experience Platform에 대한 제품 설명서는 [여기](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=en)에 있습니다. 에 대한 기술 설명서 [!UICONTROL Experience Platform] 개발자는 다음 위치에서 찾음: [Adobe Developer](https://developer.adobe.com/apis).

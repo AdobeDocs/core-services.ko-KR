@@ -3,12 +3,12 @@ description: 교차 애플리케이션 서비스를 위한 Adobe Analytics 및 A
 solution: Experience Cloud
 title: 애플리케이션 간 서비스 애플리케이션 활성화
 index: true
-feature: Customer Attributes
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 95%
@@ -151,9 +151,9 @@ Analytics를 사용하는 경우 지역 데이터 수집(RDC)에 있는지 확�
 * [!UICONTROL Experience Platform Launch]를 사용하지 않는다면 [mbox 라이브러리를 수동으로 업데이트](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=ko-KR) 하십시오.
 * [!DNL Adobe Target]에 대한 보고 소스로 Adobe Analytics를 사용하기 위한 액세스 권한을 요청하십시오. [!DNL Target] 및 [!DNL Analytics] 데이터가 처리 중에 동일한 서버 호출에 결합되므로 방문자가 두 애플리케이션 간에 연결됩니다. [Analytics for Target 구현](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko-KR)을 참조하십시오.
 
-   >[!IMPORTANT]
-   >
-   >모든 Analytics 고객에게 고객 속성과 같은 핵심 서비스가 공급됩니다. Analytics 사용자가 아닌 경우 고객 지원 센터에 문의하여 제공받을 수 있도록 요청하십시오.
+  >[!IMPORTANT]
+  >
+  >모든 Analytics 고객에게 고객 속성과 같은 핵심 서비스가 공급됩니다. Analytics 사용자가 아닌 경우 고객 지원 센터에 문의하여 제공받을 수 있도록 요청하십시오.
 
 ## 구현 확인 {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
