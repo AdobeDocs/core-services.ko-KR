@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud 중앙 인터페이스 구성 요소
 title: Experience Cloud 인터페이스 및 관리 안내서
 description: Experience Cloud 인터페이스 및 사용자 계정 환경 설정에 대해 알아봅니다. 비즈니스 오브젝트를 검색하고 사용자 및 제품을 관리하는 방법에 대해 알아봅니다. 고객 속성, 대상자 라이브러리, 쿠키를 구성하고 Experience Cloud 자산을 공유하십시오.
 index: true
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: c5a755f7fef9052162def14d0eb59b50d1d1268c
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '341'
 ht-degree: 98%
 
 ---
@@ -68,6 +68,7 @@ ht-degree: 98%
       + [[!DNL Target] 쿠키](cookies-target.md)
       + [브라우저 쿠키에 대한 개인정보 보호 설정 활성화](browser-cookie-settings.md)
       + [서드파티 쿠키 지원 변경이 고객에게 영향을 미치는 방식](cookies-thirdparty.md)
++ [Experience Cloud 트리거](triggers.md)
 + Experience Cloud UI 릴리스 정보 {#release-notes}
    + [중앙 인터페이스 구성 요소 릴리스 정보](release-notes.md)
    + [모든 Experience Cloud에 대한 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)
