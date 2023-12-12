@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
-workflow-type: ht
-source-wordcount: '1863'
-ht-degree: 100%
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+workflow-type: tm+mt
+source-wordcount: '1634'
+ht-degree: 96%
 
 ---
 
@@ -52,9 +52,9 @@ Adobe Experience Platform [!UICONTROL Data Collection]에는 단순화된 범용
    * 데이터스트림
    * 방문자 ID
 
-   현재 Experience Platform을 사용하지 않는 조직의 경우, 위에 나열된 기능을 포함하여 _Adobe Experience Platform_ 제품이 Admin Console에 표시됩니다.
+  현재 Experience Platform을 사용하지 않는 조직의 경우, 위에 나열된 기능을 포함하여 _Adobe Experience Platform_ 제품이 Admin Console에 표시됩니다.
 
-   현재 Experience Platform을 사용하는 조직의 경우, 이제 _장소_&#x200B;가 Experience Platform 카드로 통합됩니다.
+  현재 Experience Platform을 사용하는 조직의 경우, 이제 _장소_&#x200B;가 Experience Platform 카드로 통합됩니다.
 
 * Adobe Experience Platform Data Collection(이전의 Launch) 및 개인정보 보호는 다른 Experience Platform 기능과 별도의 제품 카드로 계속 표시됩니다.
 
@@ -92,7 +92,7 @@ Admin Console
 * 개인 사용자용 Adobe ID 사용자는 Business ID로 업데이트됩니다.
 * Business ID 디렉터리는 **[!UICONTROL 설정]** > **[!UICONTROL ID]** > **[!UICONTROL 디렉터리]**&#x200B;에 추가됩니다.
 
-   ![Admin Console ID - Business ID](assets/identity-home.png)
+  ![Admin Console ID - Business ID](assets/identity-home.png)
 
 ### 마이그레이션 후 로그인
 
@@ -208,13 +208,13 @@ Campaign의 *테넌트*&#x200B;는 Admin Console 제품 페이지에서 *제품*
 
 보안 그룹과 보안 그룹에 사용자를 지정하는 것에 대한 자세한 내용은 [그룹 및 사용자 관리](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=ko-KR)를 참조하십시오.
 
-## Experience Platform 데이터 수집 (Launch) 관리 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
+## Experience Platform 데이터 수집 관리 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL 데이터 수집] ([!UICONTROL Launch])은 [!UICONTROL Admin Console]의 [!UICONTROL 제품] 페이지에 표시됩니다. 제품 시작 프로필에 다른 애플리케이션과 서비스를 포함할 수 있습니다.
+Experience Platform [!UICONTROL 데이터 수집] 에 표시 [!UICONTROL 제품] 페이지의 [!UICONTROL Admin Console]. 데이터 수집 제품 프로필에 다른 애플리케이션과 서비스를 포함할 수 있습니다.
 
-사용자를 [!UICONTROL Platform Launch]에 초대하고 사용자 역할과 권한을 할당합니다.
+사용자 초대 대상 [!UICONTROL 플랫폼 데이터 수집] 사용자 역할 및 권한을 할당할 수 있습니다.
 
-[사용자 권한](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ko-KR)를 참조하여 Admin Console에서의 사용자 권한에 대해 알아보고, 프로필에 권한 지정하기를 포함하여 Launch 관련 옵션 설정에 관해 알아보십시오.
+다음을 참조하십시오 [사용자 권한](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ko-KR) Admin Console의 사용자 권한 및 프로필에 대한 권한 설정에 대한 정보입니다.
 
 ## Experience Manager as a Cloud Service
 

@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 98%
+source-wordcount: '1125'
+ht-degree: 94%
 
 ---
 
@@ -66,7 +66,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 >
 >고객 속성 소스를 만들거나, 수정하거나, 삭제할 때, ID가 새 데이터 소스와의 동기화를 시작하기 전에 최대 한 시간이 지연됩니다. 고객 속성 소스를 만들거나 수정하려면 Audience Manager에 관리 권한이 있어야 합니다. 관리 권한을 얻으려면 Audience Manager 고객 지원 센터 또는 컨설팅 팀에 문의하십시오.
 
-1. 에서 [!DNL Experience Cloud]메뉴에서 을 선택합니다.  ![메뉴](assets/menu-icon.png) 아이콘.
+1. 다음에서 [!DNL Experience Cloud]메뉴를 선택합니다.  ![메뉴](assets/menu-icon.png) 아이콘.
 1. **[!DNL Experience Platform]**&#x200B;에서 **[!UICONTROL 사용자]** > **[!UICONTROL 고객 속성]**&#x200B;을 선택합니다.
 
    [!UICONTROL 고객 속성] 페이지에서 기존 속성 데이터 소스를 관리 및 편집할 수 있습니다.
@@ -81,52 +81,52 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
    * **[!UICONTROL 설명:]** (선택 사항) 데이터 속성 소스에 대한 설명입니다.
 
-   * **[!UICONTROL 별칭 ID:]** 특정 CRM 시스템과 같은 고객 속성 데이터의 소스를 나타냅니다. [!UICONTROL 별칭 ID]는 고객 속성 소스 코드에 사용되는 고유 ID입니다. ID는 고유해야 하고 공백 없는 소문자로 이루어져야 합니다. Experience Cloud에서 고객 속성 소스에 대한 [!UICONTROL 별칭 ID] 필드에 입력한 값은 구현(Mobile SDK의 데이터 수집 (Launch), Dynamic Tag Management 또는 JavaScript를 통한 구현)에서 전달되는 값과 일치해야 합니다.
+   * **[!UICONTROL 별칭 ID:]** 특정 CRM 시스템과 같은 고객 속성 데이터의 소스를 나타냅니다. [!UICONTROL 별칭 ID]는 고객 속성 소스 코드에 사용되는 고유 ID입니다. ID는 고유해야 하고 공백 없는 소문자로 이루어져야 합니다. 에 입력한 값 [!UICONTROL 별칭 ID] Experience Cloud의 고객 속성 소스에 대한 필드는 구현(Mobile SDK의 Platform 데이터 수집 또는 JavaScript를 통해)에서 전달되는 값과 일치해야 합니다.
 
-      별칭 ID는 추가 고객 ID 값을 설정하는 특정 영역에 해당합니다. 예:
+     별칭 ID는 추가 고객 ID 값을 설정하는 특정 영역에 해당합니다. 예:
 
       * **Dynamic Tag Management:** 별칭 ID는 *Experience Cloud ID 서비스* 도구에 있는 [!UICONTROL 고객 설정] 아래의 [통합 코드](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR) 값에 해당합니다.
 
       * **방문자 API:** 별칭 ID는 각 방문자에게 연결할 수 있는 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko-KR)에 해당합니다.
 
-         예를 들어 *&quot;crm_id&quot;*:
+        예를 들어 *&quot;crm_id&quot;*:
 
-         ```
-         "crm_id":"67312378756723456"
-         ```
+        ```
+        "crm_id":"67312378756723456"
+        ```
 
       * **iOS:** 별칭 ID는 [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ko-KR)의 *&quot;idType&quot;*&#x200B;에 해당합니다.
 
-         예:
+        예:
 
-         `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
+        `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
       * **Android™:** 별칭 ID는 [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=ko-KR)의 *&quot;idType&quot;*&#x200B;에 해당됩니다.
 
-         예:
+        예:
 
-         `identifiers.put(`**`"idType"`**`, "idValue");`
+        `identifiers.put(`**`"idType"`**`, "idValue");`
 
-         별칭 ID 필드 및 고객 ID와 관련된 데이터 처리에 대한 자세한 내용은 [여러 데이터 소스 활용](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) 을 참조하십시오.
+        별칭 ID 필드 및 고객 ID와 관련된 데이터 처리에 대한 자세한 내용은 [여러 데이터 소스 활용](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) 을 참조하십시오.
+
    * **[!UICONTROL File Upload:]** `.csv` 데이터 파일을 드래그 앤 드롭하거나 FTP를 통해 데이터를 업로드할 수 있습니다. (FTP를 사용하려면 `.fin` 파일도 필요합니다.) [FTP를 통해 데이터 업로드](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)를 참조하십시오.
 
-      >[!IMPORTANT]
-      >
-      >특정 데이터 파일 요구 사항이 있습니다. 자세한 내용은 [데이터 파일 요구 사항](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) 을 참조하십시오.
+     >[!IMPORTANT]
+     >
+     >특정 데이터 파일 요구 사항이 있습니다. 자세한 내용은 [데이터 파일 요구 사항](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) 을 참조하십시오.
 
 
-      파일을 업로드한 후에는 이 페이지의 [!UICONTROL 파일 업로드] 제목 아래에 있는 표 데이터가 표시됩니다. 스키마의 유효성을 검사하거나, 구독을 구성하거나, FTP를 설정할 수 있습니다.
+     파일을 업로드한 후에는 이 페이지의 [!UICONTROL 파일 업로드] 제목 아래에 있는 표 데이터가 표시됩니다. 스키마의 유효성을 검사하거나, 구독을 구성하거나, FTP를 설정할 수 있습니다.
 
-      **파일 업로드 그래픽**
+     **파일 업로드 그래픽**
 
-      ![속성](assets/file_upload_attributes.png)
+     ![속성](assets/file_upload_attributes.png)
 
    * **[!UICONTROL Unique Customer ID:]** 이 속성 소스에 업로드한 고유한 ID 수를 표시합니다.
 
    * **[!UICONTROL 고객 제공 ID가 Experience Cloud 방문자 ID로 별칭 지정됨:]** 몇 개의 ID가 Experience Cloud ID에 별칭이 지정되었는지 표시합니다.
 
    * **[!UICONTROL 별칭 개수가 많은 고객 제공 ID:]** 500개 이상의 별칭 지정된 Experience Cloud 방문자 ID가 있는 고객 제공 ID 개수를 표시합니다. 이러한 고객 제공 ID는 개인을 나타내기보다는 일종의 공유 로그인을 나타낼 수 있습니다. 시스템은 이러한 ID와 연결된 속성을 최근에 별칭으로 지정된 500개의 Experience Cloud 방문자 ID에 배포하며 별칭 수가 10,000개가 될 때까지 이 작업을 계속합니다. 그러면 시스템은 고객이 제공한 ID를 무효화하고, 연계된 속성을 더 이상 배포하지 않습니다.
-
 
 ## 스키마 유효성 검사 {#task_404AAC411B0D4E129AB3AC8B7BE85859}
 

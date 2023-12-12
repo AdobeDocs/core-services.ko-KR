@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '2371'
-ht-degree: 95%
+source-wordcount: '2191'
+ht-degree: 89%
 
 ---
 
 # Experience Cloud 서비스에 대한 구현 활성화
 
-최근 Experience Platform Launch를 사용하여 Experience Cloud을 구현한 경우 고객 속성 및 Experience Cloud Audiences에 대해 이미 설정되어 있습니다. Admin Console에서 사용자와 제품을 관리할 수도 있습니다.
+최근에 Experience Platform 태그를 사용하여 Experience Cloud을 구현한 경우 고객 속성 및 Experience Cloud 대상에 대해 이미 설정되어 있습니다. Admin Console에서 사용자와 제품을 관리할 수도 있습니다.
 
 기존 고객은 애플리케이션 구현을 현대화하고 Experience Cloud를 구현할 수 있습니다. 이를 통해 Adobe Analytics, Audience Manager 및 Adobe Target 전반에서 고객 속성 및 대상 기능을 활용할 수 있습니다. 이를 구현하려면 다음 작업을 수행합니다.
 
@@ -41,7 +41,7 @@ Experience Cloud에 참여하기 위해 수행할 작업:
 
    >[!NOTE]
    >
-   >[!DNL Target]의 경우 [!DNL mbox.js]에서 at.js로 마이그레이션하십시오. [at.js 1.x에서 at.js 2. x로 업그레이드](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html)를 참조하십시오.
+   >[!DNL Target]의 경우 [!DNL mbox.js]에서 at.js로 마이그레이션하십시오. 다음을 참조하십시오 [at.js 1. x에서 at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html).
 
 1. 구현을 현대화하고 관리자가 프로비저닝되도록 합니다.
 
@@ -89,14 +89,14 @@ Experience Cloud 핵심 서비스를 활성화하는 가장 간단한 방법은 
 
 전체 Experience Cloud ID 서비스 도움말(이전의 방문자 ID)를 보려면 [여기](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko-KR#intro)로 이동하십시오.
 
-**[!UICONTROL Experience Platform Launch] 나 [!UICONTROL Dynamic Tag Management]를 사용하지 않습니까?**
+**사용 안 함 [!UICONTROL Experience Platform 태그]?**
 
-[!UICONTROL Experience Platform Launch] 나 [!UICONTROL Dynamic Tag Management]를 사용하지 않는 경우 다음과 같이 JavaScript 배포([!DNL VisitorAPI.js])를 사용하여 ID 서비스를 수동으로 구현하십시오.
+을 사용하지 않는 경우 [!UICONTROL Experience Platform 태그], JavaScript 배포 를 통해 ID 서비스를 수동으로 구현(`VisitorAPI.js`)를 클릭하여 제품에서 사용할 수 있습니다.
 
 | 작업 | 설명 |
 | -----------| ---------- |  
 | [Analytics용 Experience Cloud ID 서비스 구현](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=ko-KR) | [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko-KR)를 추가적으로 설정하는 것도 좋습니다. 이러한 ID는 각 방문자와 연결되며 Experience Cloud의 현재 및 향후 기능을 활성화합니다. |
-| 기존 [!DNL s_code] 를 버전 H.27.3 이상으로 업데이트하거나 기존 [!DNL AppMeasurement.js] 를 버전 1.4 이상으로 업데이트합니다. | 이러한 파일은 Analytics 관리 도구의 [코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ko-KR)에서 다운로드할 수 있습니다. ( [!DNL AppMeasurement.js]에 대한 자세한 내용이 필요한 경우 [JavaScript 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=ko-KR#js) 안내서를 사용할 수 있습니다.) |
+| 기존 `s_code` 를 버전 H.27.3 이상으로 업데이트하거나 기존 `AppMeasurement.js` 를 버전 1.4 이상으로 업데이트합니다. | 이러한 파일은 Analytics 관리 도구의 [코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ko-KR)에서 다운로드할 수 있습니다. ( [!DNL AppMeasurement.js]에 대한 자세한 내용이 필요한 경우 [JavaScript 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=ko-KR#js) 안내서를 사용할 수 있습니다.) |
 | Analytics에 대한 고객 ID 동기화 | [Analytics - 고객 ID 동기화](core-services.md#section_AD473A6A21C1446498E700363F9A8437) (아래)를 참조하십시오. |
 
 {style="table-layout:auto"}
@@ -143,12 +143,12 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스, [!UICONTROL Peopl
 
 Analytics를 사용하는 경우 지역 데이터 수집(RDC)에 있는지 확인합니다. 데이터 수집 도메인이 `omtrdc.net`이거나 CNAME이 `omtrdc.net`으로 매핑된 경우 RDC를 사용해야 합니다. 자세한 내용은 [RDC로 전환](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=ko-KR) 을 참조하십시오. 자사 쿠키를 사용하는 경우 데이터 수집 CNAME 및 도메인 간 추적에 대해 알려면 [CNAME 및 Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=ko-KR) 를 참조하십시오.
 
-방문자 API를 비롯한 JavaScript 라이브러리를 업데이트하여 Analytics 구현을 현대화하는 것이 좋습니다. 이를 가장 간단하게 해내는 방법은 [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ko-KR) 을 Experience Platform 데이터 수집 (Launch)에 추가하는 것입니다.
+방문자 API를 비롯한 JavaScript 라이브러리를 업데이트하여 Analytics 구현을 현대화하는 것이 좋습니다. 을(를) 수행하는 간단한 방법은 [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ko-KR) Experience Platform 데이터 수집에서.
 
 ## Adobe Target 구현 업데이트 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* 라이브러리 검색이 자동으로 수행되도록 [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=ko-KR)에서 [!UICONTROL Adobe Target 확장]을 추가하는 것이 좋습니다. [!UICONTROL Experience Platform Launch]를 사용하여 Adobe Target(및 기타 애플리케이션)용으로 [Experience Cloud ID 서비스 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko-KR)을 설정할 수도 있습니다. Adobe Target에서 핵심 서비스를 사용하려면 [!UICONTROL Experience Cloud ID 서비스] 업데이트가 **필요합니다.**
-* [!UICONTROL Experience Platform Launch]를 사용하지 않는다면 [mbox 라이브러리를 수동으로 업데이트](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=ko-KR) 하십시오.
+* 을(를) 추가하는 것이 좋습니다 [Adobe Target 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=ko-KR) 위치: [!UICONTROL Experience Platform] 태그를 활성화하면 라이브러리 검색이 자동으로 수행됩니다. 다음을 설정할 수도 있습니다 [Experience Cloud ID 서비스 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko-KR) Adobe Target(및 기타 애플리케이션)의 경우 [!UICONTROL Experience Platform] 태그 사이에 코드를 삽입하지 마십시오. 다음 [!UICONTROL Experience Cloud ID 서비스] 업데이트 **필수** Adobe Target에서 사용자 서비스를 사용할 수 있도록 해줍니다.
+* 을 사용하지 않는 경우 [!UICONTROL Experience Platform] 태그, [mbox 라이브러리 업데이트](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=ko-KR) 수동으로.
 * [!DNL Adobe Target]에 대한 보고 소스로 Adobe Analytics를 사용하기 위한 액세스 권한을 요청하십시오. [!DNL Target] 및 [!DNL Analytics] 데이터가 처리 중에 동일한 서버 호출에 결합되므로 방문자가 두 애플리케이션 간에 연결됩니다. [Analytics for Target 구현](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko-KR)을 참조하십시오.
 
   >[!IMPORTANT]

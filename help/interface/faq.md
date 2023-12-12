@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: ht
-source-wordcount: '765'
-ht-degree: 100%
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Experience Cloud를 사용하는 관리자를 위한 브라우저 지원, 일반
 핵심 서비스에 대한 구현이 제공되지 않은 경우, 다음 방법에 대해 설명하는 [핵심 서비스에 대한 애플리케이션 활성화](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)를 참조하십시오.
 
 1. [Experience Cloud에 참여 및 관리자 되기](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Experience Platform Launch를 사용하여 Experience Cloud ID 서비스 구현](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=ko-KR)
+1. [Experience Platform 태그를 사용하여 Experience Cloud ID 서비스 구현](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=ko-KR).
 1. [보고서 세트를 Experience Cloud 조직에 매핑](core-services.md#concept_apg_zq2_rw)
 1. [(Analytics 전용) Analytics AppMeasurement 코드 현대화](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Adobe Target만 해당) Adobe Target 구현 현대화](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
