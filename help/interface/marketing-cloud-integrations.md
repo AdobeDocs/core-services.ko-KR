@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '952'
 ht-degree: 99%
 
 ---
@@ -111,26 +111,6 @@ Experience Cloud 애플리케이션 또는 Audience Manager의 기타 외부 시
 * [Analytics 서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko-KR)
 * [Audience Manager 세그먼트를 Analytics에 보내기](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ko-KR)
 * [Adobe Target 데이터 통합](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html?lang=ko-KR)
-
-## 활성화 {#section_A23510A2D57842F6BAD043650C06DE42}
-
-도움말: [시작하기](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=ko-KR)
-
-Experience Cloud 활성화 애플리케이션을 사용하여 Experience Cloud 애플리케이션을 설정 및 디버깅합니다.
-
-1. [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR) 를 사용하여 페이지에 Experience Cloud 애플리케이션을 활성화하는 코드를 삽입합니다.
-1. [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=ko-KR) 를 사용하여 구현을 테스트합니다.
-
-Adobe Experience Cloud Debugger 확장 프로그램을 사용하여 감사에서 발견한 문제를 디버깅하거나 구현에 대한 다른 정보를 조사합니다.
-
-**해당 애플리케이션 또는 서비스**
-
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)
-* [Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=ko-KR)
-* [Advertising Cloud](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR)
-* [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR)
-* [MAC ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR)
-* [Nielsen 추적](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR)
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 

@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
 workflow-type: tm+mt
-source-wordcount: '4770'
+source-wordcount: '4743'
 ht-degree: 100%
 
 ---
@@ -99,8 +99,6 @@ With this update, administrators may see changes or additions to the Admin Conso
 | ------- | ------- |
 | 통합 검색 | 통합 검색은 검색 인덱스에 오브젝트 유형을 계속 추가합니다. 이번 업데이트를 통해 글로벌 검색은 이제 Experience League 콘텐츠와 다음 Journey Optimizer 오브젝트 유형을 검색합니다. <ul><li>데이터 세트</li><li>대상</li><li>쿼리</li><li>스키마</li><li>세그먼트</li><li>소스</li><li>오퍼</li><li>구성 요소</li><li>메시지</li><li>여정</li></ul> |
 | 제품 사용 데이터 동의 | 초기 로그인 시 Adobe가 사용자에게 유용하고 개인 맞춤화된 콘텐츠(Experience Cloud 제품 사용 데이터를 기반으로 하는 튜토리얼, 안내서, 빠른 팁, 권장 사항, 학습 비디오 등)를 제공할 수 있는 방법에 대한 환경 설정을 제출하라는 메시지가 표시됩니다. <https://experience.adobe.com/preferences>에서 이러한 데이터의 수집 및 사용에 대한 환경 설정 업데이트도 이 요청에 포함됩니다. |
-| Experience Cloud [!UICONTROL 트리거] 탐색 | [Experience Cloud 트리거](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=ko-KR)는 프로비저닝된 사용자의 헤더에 있는 애플리케이션 전환기에서 직접 탐색할 수 있습니다. |
-| **공지:** 인터페이스 탐색 업데이트 예정 | 2021년 11월에 _[!UICONTROL Launch / Data Collection으로 이동]_ 탐색 기능이 <https://experience.adobe.com/implement>에서 제거됩니다. |
 
 {style="table-layout:auto"}
 
@@ -235,10 +233,6 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 **수정 사항**
 
 * Analytics에 대한 연결 및 SSO를 차단하는 문제를 해결했습니다. 이 문제는 “알림: 오류 메시지: 오류 IMS SSO 실패: 연결된 회사를 찾을 수 없음”을 표시합니다.
-
-**알려진 문제**
-
-**[!UICONTROL Experience Cloud]** > **[!UICONTROL 활성화]** 인터페이스를 통해 Dynamic Tag Management에 액세스했지만 Dynamic Tag Management 계정이 Experience Cloud(Adobe ID)에 연결되어 있지 않으면 Dynamic Tag Management에 로그인할 수 없습니다. 이 문제가 발생하지 않도록 하려면 새 브라우저 탭에서 직접 `dtm.adobe.com`으로 이동합니다.
 
 ## 릴리스 16.1 - 2016년 1월 21일 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -382,11 +376,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
    <td colname="col1"> <p>일대다 매핑 </p> </td> 
    <td colname="col2"> <p>이제 Experience Cloud에서 애플리케이션 계정을 연결할 때, 애플리케이션과 조직이 여러 개 있으면 여러 제품 및 서비스를 하나의 조직에 매핑할 수 있습니다. </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p>활성화 </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> 활성화</a>는 이제 <span class="keyword"> Experience Cloud</span>에서 왼쪽 탐색 창에 표시됩니다. <span class="wintitle"> 활성화</span>는 현재 Dynamic Tag Management 기술로 구성된 <span class="keyword"> Experience Cloud</span> 서비스로서, 선택하면 이 서비스로 리디렉션됩니다. </p> </td> 
-  </tr> 
-  <tr> 
+    <tr> 
    <td colname="col1"> <p>설명서 업데이트 - 핵심 서비스 </p> </td> 
    <td colname="col2"> <p>핵심 서비스 구현을 돕기 위해 <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">핵심 서비스용 애플리케이션을 사용하도록 설정</a> 항목을 추가했습니다. </p> </td> 
   </tr> 
