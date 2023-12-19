@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 8b32f5d688309c01acc5f0618d119f56d339a9e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1229'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -174,8 +174,8 @@ Experience Cloud는 다음 호스트를 사용하여 애플리케이션을 제�
 * [Experience Platform Co-op 그래프](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=ko)
 * [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)
-* [Experience Platform 태그](https://experienceleague.adobe.com/docs/tags.html?lang=ko-KR)
-* [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko)
+* [Experience Platform 태그](https://experienceleague.adobe.com/docs/tags.html?lang=ko)
+* [Experience Cloud 디버거](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko)
 
 ## 튜토리얼
 
