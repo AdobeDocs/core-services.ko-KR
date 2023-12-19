@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1634'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -210,11 +210,11 @@ Campaign의 *테넌트*&#x200B;는 Admin Console 제품 페이지에서 *제품*
 
 ## Experience Platform 데이터 수집 관리 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL 데이터 수집] 에 표시 [!UICONTROL 제품] 페이지의 [!UICONTROL Admin Console]. 데이터 수집 제품 프로필에 다른 애플리케이션과 서비스를 포함할 수 있습니다.
+Experience Platform [!UICONTROL 데이터 수집]은 [!UICONTROL Admin Console]의 [!UICONTROL 제품] 페이지에 표시됩니다. 데이터 수집 제품 프로필에 다른 애플리케이션과 서비스를 포함할 수 있습니다.
 
-사용자 초대 대상 [!UICONTROL 플랫폼 데이터 수집] 사용자 역할 및 권한을 할당할 수 있습니다.
+사용자를 [!UICONTROL Platform 데이터 수집]에 초대하고 사용자 역할과 권한을 할당하십시오.
 
-다음을 참조하십시오 [사용자 권한](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ko-KR) Admin Console의 사용자 권한 및 프로필에 대한 권한 설정에 대한 정보입니다.
+Admin Console에서의 사용자 권한에 대한 정보와 프로필에 권한을 설정하는 방법에 대한 자세한 내용은 [사용자 권한](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ko-KR)을 참조하십시오.
 
 ## Experience Manager as a Cloud Service
 
