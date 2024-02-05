@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 92d03444472fc7dddbe955d386452291ed1ca2d8
+source-git-commit: cef927ad0f9f875841d2acf670950de0a766df7e
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 79%
+source-wordcount: '1594'
+ht-degree: 72%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 79%
 
 Analytics는 쿠키를 사용하여 이미지 요청과 브라우저 세션 간에 지속되지 않는 변수 및 구성 요소에 대한 정보를 제공합니다. 가능한 경우, Adobe는 자사 쿠키를 사용해 사이트에서 활동을 기록합니다. 소유한 다른 도메인과 같은 다른 사이트에서의 활동을 기록하려면 서드파티 쿠키가 필요합니다.
 
-대부분의 브라우저 및 안티스파이웨어 애플리케이션은 서드파티 쿠키를 거부하고 삭제하도록 설계되었습니다. Adobe에서 쿠키는 서드파티 쿠키가 차단된 경우에만 설정될 수 있습니다. 특정 동작은 Experience Platform ID 서비스(ECID 서비스) 또는 Analytics 레거시 식별자(s_vi 쿠키)의 사용 여부에 따라 다릅니다.
+대부분의 브라우저 및 안티스파이웨어 애플리케이션은 서드파티 쿠키를 거부하고 삭제하도록 설계되었습니다. Adobe은 서드파티 쿠키가 차단된 경우에도 쿠키를 항상 설정할 수 있도록 합니다. 특정 동작은 Experience Platform ID 서비스(ECID 서비스) 또는 Analytics 레거시 식별자(s_vi 쿠키)의 사용 여부에 따라 다릅니다.
 
 * 수집 도메인과 사이트 도메인의 일치 여부와 관계없이 [Experience Platform ID 서비스(ECID 서비스)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en) 는 자사 쿠키를 자동으로 설정합니다. 일치하지 않는 경우 ID 서비스는 JavaScript를 사용하여 사이트 도메인의 쿠키를 설정합니다.
 * [Analytics 레거시 식별자](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) ( `s_vi` 쿠키)를 사용하는 경우, 이는 데이터 수집 서버를 구성한 방식에 따라 다릅니다. 데이터 수집 서버가 사이트의 도메인과 일치하면, 쿠키는 자사 쿠키로 설정됩니다. 데이터 수집 서버가 사이트의 도메인과 일치하지 않으면, 쿠키는 서드파티 쿠키로 설정됩니다. 이 경우, 서드파티 쿠키가 차단되면 Analytics는 표준 &#39;s_vi&#39; 쿠키 대신에 자사 [대체 ID(s_fid)](cookies-analytics.md) 를 설정합니다.
 
-수집 서버가 사이트의 도메인과 일치하는지 확인하려면 CNAME 구현을 사용하여 CNAME 구현에 지정된 사용자 지정 도메인에서 Adobe의 수집 서버로 전달할 수 있습니다. 여기에는 Adobe 호스트 도메인을 가리키도록 CNAME 별칭을 구성하기 위한 회사 DNS 설정의 변경도 관련되어 있습니다. 다양한 Adobe 제품이 CNAME 사용을 지원하며, 모든 경우에 CNAME는 특정 고객에 대해 신뢰할 수 있는 자사 엔드포인트를 만드는 데 사용되고, 해당 고객이 소유합니다. 여러 도메인을 제어하는 경우 도메인 간 사용자를 추적하기 위해 단일 CNAME 엔드포인트를 사용할 수 있지만, 사이트 도메인이 CNAME 도메인 쿠키와 일치하지 않으면 모두 서드파티로 설정됩니다.
+수집 서버가 사이트의 도메인과 일치하는지 확인하려면 CNAME 구현을 사용하여 CNAME 구현에 지정된 사용자 지정 도메인에서 Adobe의 수집 서버로 전달할 수 있습니다. 여기에는 Adobe 호스트 도메인을 가리키도록 CNAME 별칭을 구성하기 위한 회사 DNS 설정의 변경도 관련되어 있습니다. 다양한 Adobe 제품이 CNAME 사용을 지원하며, 모든 경우에 CNAME은 특정 고객에 대해 신뢰할 수 있는 자사 엔드포인트를 만드는 데 사용되고, 해당 고객이 소유합니다. 여러 도메인을 제어하는 경우 도메인 간 사용자를 추적하기 위해 단일 CNAME 엔드포인트를 사용할 수 있지만, 사이트 도메인이 CNAME 도메인 쿠키와 일치하지 않으면 모두 서드파티로 설정됩니다.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Analytics는 쿠키를 사용하여 이미지 요청과 브라우저 세션 간�
 
 SSL 인증서 발급 프로세스는 종종 혼란스럽고 시간이 걸릴 수 있습니다. 그 결과 Adobe는 업계 선도적인 인증 기관(CA)인 DigiCert와의 파트너십을 구축했으며 이러한 인증서의 구매 및 관리를 자동화하는 통합 프로세스를 개발했습니다.
 
-귀하의 권한이 주어지면 Adobe는 CA와 협력하여 새로운 SHA-2 SSL 인증서를 발행, 배포 및 관리할 것입니다. Adobe는 예상치 못한 만료, 해지 또는 보안 문제가 조직의 보안 수집을 위협하지 않도록 이 인증서를 계속 관리합니다.
+귀하의 허락을 받아 당사는 CA와 협력하여 새로운 SHA-2 SSL 인증서를 발급, 배포 및 관리합니다. Adobe는 예상치 못한 만료, 해지 또는 보안 문제가 조직의 보안 수집을 위협하지 않도록 이 인증서를 계속 관리합니다.
 
 ## Adobe 관리 인증서 프로그램
 
@@ -47,13 +47,13 @@ Adobe 관리 인증서 프로그램에서는 추가 비용 없이 새로운 자�
 
 자사 데이터 수집을 위한 새 자사 SSL 인증서를 구현하는 방법은 다음과 같습니다.
 
-1. [자사 도메인 요청 양식](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) 을 작성하고 Adobe 관리 프로그램에서 자사 데이터 수집을 설정하도록 요청하는 고객 지원 센터를 통해 티켓을 엽니다.
+1. 다음을 입력하십시오. [자사 도메인 요청 양식](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) Adobe 관리 프로그램에서 자사 데이터 수집을 설정하도록 요청하는 고객 지원 센터를 통해 티켓을 엽니다.
 
    문서 내에 각 필드가 예와 함께 설명되어 있습니다.
 
 1. CNAME 레코드를 만듭니다(아래 지침 참조).
 
-   티켓을 수령하는 즉시 고객 지원 센터에서 CNAME 기록을 제공해야 합니다. Adobe가 귀하를 대신하여 인증서를 구입할 수 있으려면 먼저 회사의 DNS 서버에서 이러한 레코드를 구성해야 합니다. CNAME은 다음과 비슷합니다.
+   티켓을 받으면 고객 지원 담당자가 CNAME 기록을 제공해야 합니다. Adobe가 귀하를 대신하여 인증서를 구입할 수 있으려면 먼저 회사의 DNS 서버에서 이러한 레코드를 구성해야 합니다. CNAME은 다음과 비슷합니다.
 
    **보안** - 예를 들어 호스트 이름 `smetrics.example.com` 은 `[random-10-character-string].data.adobedc.net`을 가리킵니다.
 
