@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 8b32f5d688309c01acc5f0618d119f56d339a9e5
+source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 100%
+source-wordcount: '1230'
+ht-degree: 99%
 
 ---
 
@@ -161,7 +161,7 @@ Experience Cloud는 다음 호스트를 사용하여 애플리케이션을 제�
 * [핵심 서비스용 애플리케이션 활성화](core-services.md)
 * [자주 묻는 질문](admin-getting-started.md)
 * [조직 및 계정 연결](organizations.md)
-* [통합](marketing-cloud-integrations.md)
+* [통합](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en)
 * [Adobe Target과 Experience Cloud 통합](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko)
 * [Experience Cloud 개인정보 보호 및 보안 개요](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS 프리페치](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)

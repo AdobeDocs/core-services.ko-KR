@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
+source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 99%
+source-wordcount: '923'
+ht-degree: 84%
 
 ---
 
 # Experience Cloud 통합 개요
 
-Adobe Experience Cloud는 강력한 기능 세트를 갖춘 일반 데이터 플랫폼을 기반으로 구축한 최고의 통합 애플리케이션 및 서비스 세트입니다.
+이 페이지에서는 Experience Cloud 응용 프로그램 통합을 시작하는 몇 가지 방법에 대해 설명합니다. 자세한 내용은 다음 라이브러리를 참조하십시오. [통합 비디오 자습서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR) Experience League.
 
 ## 플랫폼 서비스용 Experience Cloud 애플리케이션 활성화 {#section_A3D024994DA3492F8435CFCC4EF035C2}
 
@@ -27,15 +27,15 @@ Adobe Experience Cloud는 강력한 기능 세트를 갖춘 일반 데이터 플
 
 * Experience Cloud에서 회사 프로비저닝.
 * 관리자가 될 수 있도록 설정.
-* [Experience Cloud ID 서비스 구현](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR).
-* Platform 데이터 수집으로 [!DNL Analytics] 및 [!DNL Target] 구현을 현대화하십시오.
-* 핵심 서비스 사용 시작.
+* [Experience Cloud ID 서비스 구현](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko).
+* 현대화 [!DNL Analytics] 및 [!DNL Target] 를 통한 구현 [!UICONTROL 플랫폼 데이터 수집].
+* 다음과 같은 Experience Cloud 서비스 사용 시작 [!UICONTROL 고객 속성] 및 [!UICONTROL 대상].
 
 솔루션 또는 서비스:
 
-* Experience Platform 데이터 수집
-* Analytics
-* Target
+* [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)
+* [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=kr)
+* [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=en)
 * [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)
 
 ## Experience Cloud ID 서비스 {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
@@ -53,7 +53,7 @@ ID 서비스는 Experience Cloud의 모든 애플리케이션에서 방문자를
 
 도움말: [Audiences](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
 
-Experience Cloud 대상 라이브러리에서 Audiences를 만들고 관리합니다. 다음과 같은 다양한 소스에서 대상을 만들거나 파생할 수 있습니다.
+Experience Cloud에서 대상자 만들기 및 관리 [!UICONTROL 대상 라이브러리]. 다음과 같은 다양한 소스에서 대상을 만들거나 파생할 수 있습니다.
 
 * [!DNL Experience Cloud]에서 대상을 새로 만드는 경우.
 * [!DNL Analytics] 세그먼트를 [!DNL Experience Cloud]에 게시하는 경우.
@@ -129,22 +129,9 @@ Adobe Target을 Adobe Analytics 및 기타 Experience Cloud 애플리케이션�
 
 ## Experience Manager 통합 {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
 
-도움말: [Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ko-KR)
+* 비디오 자습서: [Experience Manager 통합](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
 
-기타 애플리케이션 및 서드파티 서비스와 AEM을 통합합니다.
-
-**해당 애플리케이션 또는 서비스**
-
-* [Analytics](https://experienceleague.adobe.com/docs/)
-* [Analytics with External Providers](https://experienceleague.adobe.com/docs/)
-* [Experience Cloud](https://experienceleague.adobe.com/docs/)
-* [Creative Cloud](https://experienceleague.adobe.com/docs/)
-* [Audience Manager](https://experienceleague.adobe.com/docs/)
-* [Campaign](https://experienceleague.adobe.com/docs/)
-* [Scene7](https://experienceleague.adobe.com/docs/)
-* [Adobe Target](https://experienceleague.adobe.com/docs/)
-* [서드파티 서비스](https://experienceleague.adobe.com/docs/) (data connectors)
-* [확장](https://experienceleague.adobe.com/docs/)
+* 제품 설명서: [Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ko-KR)
 
 ## Experience Manager - Assets {#section_CB865F8EFE4C4147BF8E2E4B66B5A318}
 
@@ -160,15 +147,19 @@ AEM(Adobe Experience Manager) 에셋 내의 에셋을 Adobe Creative Cloud와 �
 
 ## [!DNL Adobe Advertising] {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-도움말(로그인 필요): [Adobe Experience Cloud 솔루션 및 서비스와의 통합](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
+* 도움말(로그인 필요): [Adobe Experience Cloud 솔루션 및 서비스와의 통합](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
+
+* [Adobe Advertising 설명서](https://experienceleague.adobe.com/docs/advertising.html?lang=en) Experience League
 
 **해당 애플리케이션 또는 서비스**
 
 **Analytics:** 사이트 참여 및 전환 데이터를 매일 [!DNL Adobe Advertising]에 전송할 수 있습니다. 해당 데이터를 광고 최적화 및 보고에 사용할 수 있습니다. 또한 [!DNL Advertising]에서 매일 Analytics에 검색 엔진 및 소셜 네트워크 트래픽 데이터를 전송할 수 있으며, 해당 데이터를 Reports &amp; Analytics, Report Builder 및 AdHoc Analysis 기능의 보고서에 사용할 수 있습니다.
 
-**Dynamic Tag Manager:** Dynamic Tag Manager를 사용하여 검색, 소셜 및 디스플레이 광고 랜딩 페이지에 대한 서드파티 추적 태그 및 [광고 픽셀 기반 전환 추적 태그를 만들 수 있습니다.](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR) (또한 [!DNL Advertising] 태그를 직접 [!DNL Advertising] 내에서 만들 수 있습니다.)
+**태그:** 다음을 사용할 수 있습니다. [Experience Platform 태그를 사용하여 광고 픽셀 기반 전환 추적 태그 만들기](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR), 및 서드파티 추적 태그 (검색, 소셜 및 디스플레이 광고 랜딩 페이지)에 사용됩니다. (또한 [!DNL Advertising] 태그를 직접 [!DNL Advertising] 내에서 만들 수 있습니다.)
 
-**Experience Cloud Audiences:** (디스플레이 관리 부서가 있는 광고주) [Adobe Experience Cloud Audiences](audience-library.md) 를 디스플레이 광고 대상으로 사용할 수 있습니다. Experience Cloud에서 만든 대상과 Adobe Experience Cloud에 게시한 Analytics의 대상을 자동으로 사용할 수 있습니다. [!DNL Adobe Advertising] 계정이 이를 허용하도록 구성된 경우 Audience Manager의 대상을 사용할 수도 있습니다. Adobe Experience Cloud, 프로필 및 Audiences 액세스 관련 정보와 [!DNL Adobe Advertising] 및 Adobe Experience Cloud Audiences 사이의 초기 설정의 자세한 정보를 알아보려면 계정 관리자에게 문의하십시오. **참고:** Adobe Target도 사용하는 경우 Adobe Experience Cloud에 게시한 모든 Audiences를 Adobe Target의 활동에도 사용할 수 있습니다.
+**Experience Cloud Audiences:** (디스플레이 관리 부서가 있는 광고주) [Adobe Experience Cloud Audiences](audience-library.md) 를 디스플레이 광고 대상으로 사용할 수 있습니다. Experience Cloud에서 만든 대상과 Experience Cloud에 게시한 Analytics의 대상을 자동으로 사용할 수 있습니다. 다음과 같은 경우 Audience Manager의 대상 을 사용할 수도 있습니다. [!DNL Adobe Advertising] 계정이 이를 허용하도록 구성되었습니다.
+
+Adobe Experience Cloud, 프로필 및 Audiences 액세스 관련 정보와 [!DNL Adobe Advertising] 및 Adobe Experience Cloud Audiences 사이의 초기 설정의 자세한 정보를 알아보려면 계정 관리자에게 문의하십시오. **참고:** Adobe Target도 사용하는 경우 Adobe Experience Cloud에 게시한 모든 대상을 Adobe Target의 활동에도 사용할 수 있습니다.
 
 **Experience Cloud Assets:** (디스플레이 관리 부서가 있는 광고주) 새 디스플레이 Beta 보기를 사용하여 Adobe Experience Cloud Assets를 디스플레이 광고를 위한 크리에이티브 기능으로 사용할 수 있습니다. Adobe Experience Cloud 에셋에 액세스하려면 [Adobe Experience Cloud를 통해 Adobe Advertising에 로그인해야 합니다.](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) Adobe Experience Cloud 액세스 관련 정보를 자세히 알아보려면 계정 관리자에게 문의하십시오.
 
