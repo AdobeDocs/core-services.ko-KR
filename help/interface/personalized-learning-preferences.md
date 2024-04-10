@@ -3,9 +3,9 @@ description: Experience Cloud의 맞춤형 학습 환경 설정에 대해 알아
 solution: Experience Cloud
 title: Experience Cloud 맞춤형 학습 환경 설정
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: 8d62b535e0a11879477d5310575d9cf8332b3d5f
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '380'
 ht-degree: 100%
 
 ---
@@ -21,12 +21,7 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
 
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
-
 [사용자 환경 설정](https://experience.adobe.com/preferences/)의 제품 데이터 사용 및 수집 섹션에서 언제든지 선택 사항을 업데이트할 수 있습니다.
-
-
-
-
 
 ## Adobe 제품 및 서비스에 대한 맞춤형 교육 및 지원 권장 사항
 
@@ -53,8 +48,6 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
   </tr>
 </tbody>
 </table>
-
-
 
 ## Adobe 제품, 서비스, 이벤트 및 프로모션에 대한 개인화된 정보
 
@@ -85,9 +78,6 @@ Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제�
 
 
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
-
-
-
 
 ## 이 맞춤형 학습 정보가 표시되는 모습에 대한 예를 참조하십시오.
 

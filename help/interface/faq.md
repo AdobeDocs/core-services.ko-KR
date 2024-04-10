@@ -1,23 +1,23 @@
 ---
 description: Adobe Experience Cloud를 사용하는 관리자를 위한 브라우저 지원에 대해 알아보고, 일반적인 질문에 대한 답변을 얻을 수 있습니다.
 solution: Experience Cloud
-title: Experience Cloud FAQ
+title: Experience Cloud에 대해 자주 묻는 질문
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
-workflow-type: ht
-source-wordcount: '727'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '719'
+ht-degree: 84%
 
 ---
 
 # Experience Cloud FAQ
 
-Experience Cloud를 사용하는 관리자를 위한 브라우저 지원, 일반적인 질문과 답변을 살펴볼 수 있습니다.
+Experience Cloud 관리자를 위한 브라우저 지원 및 일반적인 질문과 대답에 대해 알아봅니다.
 
 ## Experience Cloud에서 지원되는 브라우저는 무엇입니까?
 
@@ -31,7 +31,7 @@ Experience Cloud를 사용하는 관리자를 위한 브라우저 지원, 일반
 
 핵심 서비스에 대한 구현이 제공되지 않은 경우, 다음 방법에 대해 설명하는 [핵심 서비스에 대한 애플리케이션 활성화](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)를 참조하십시오.
 
-1. [Experience Cloud에 참여 및 관리자 되기](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
+1. [Experience Cloud 가입 및 관리자 되기](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Experience Platform 태그를 사용하여 Experience Cloud ID 서비스 구현](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=ko-KR)
 1. [보고서 세트를 Experience Cloud 조직에 매핑](core-services.md#concept_apg_zq2_rw)
 1. [(Analytics 전용) Analytics AppMeasurement 코드 현대화](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
@@ -62,10 +62,10 @@ Experience Cloud 인터페이스에서 제공하는 기능은 귀하의 비즈�
 
 ## _프로비저닝이란_ 무엇입니까?
 
-Experience Cloud의 프로비저닝은 다음을 의미합니다.
+Experience Cloud에서 프로비저닝은 다음을 의미합니다.
 
 * 사용자는 [!DNL Experience Cloud]에 로그인하고 애플리케이션을 연결할 수 있습니다.
-* 또한 Experience Cloud를 통해 사용자와 같은 기능을 사용할 수 있습니다.
+* 방문자는 Experience Cloud을 통해 사용자와 같은 기능을 사용할 수 있습니다.
 * 애플리케이션별 로그인 프로세스의 사용을 중단할 준비를 갖출 수 있습니다.
 * 애플리케이션에 대한 액세스 제어 권한은 그대로 유지할 수 있습니다.
 
@@ -95,7 +95,7 @@ Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있
 
 ## 조직이란 무엇입니까?
 
-[](organizations.md) 조직은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 항목입니다. 조직은 모든 Experience Cloud 제품 및 애플리케이션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
+An [조직](organizations.md) 는 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 해 주는 엔티티입니다. 조직은 모든 Experience Cloud 제품 및 애플리케이션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
 
 ## 내 IMS 조직 ID는 어디서 볼 수 있습니까?
 
@@ -103,7 +103,7 @@ Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있
 
 ## 사용자 중 한 명이 회사를 퇴사할 경우 어떻게 해야 합니까?
 
-애플리케이션 자체에서 액세스 권한이 제거됩니다. 따라서 Experience Cloud에서 또는 직접 로그인을 통해 제품에 액세스할 수 없습니다. Experience Cloud 수준에서도 제거해야 합니다.
+애플리케이션 자체에서 액세스 권한이 제거됩니다. Experience Cloud 또는 직접 로그인을 통해 제품에 액세스할 수 없습니다. Experience Cloud 수준에서도 제거해야 합니다.
 
 ## Adobe ID란?
 

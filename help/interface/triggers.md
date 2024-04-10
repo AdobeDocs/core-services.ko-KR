@@ -1,5 +1,5 @@
 ---
-description: Experience Cloud 트리거를 구성하는 방법을 알아봅니다.
+description: Experience Cloud 트리거를 구성하는 방법에 대해 알아봅니다.
 solution: Experience Cloud
 title: 트리거 개요
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '677'
 ht-degree: 97%
 
 ---
@@ -35,21 +35,21 @@ Experience Cloud 내의 [!UICONTROL 트리거]를 통해 주요 소비자 행동
 
 ### 트리거 유형
 
-일반적으로 트리거는 마케팅 캠페인을 시작하는 데 15-90분 정도 걸릴 수 있습니다. 이것은 데이터 수집 구현, 파이프라인 로드, 정의된 트리거의 사용자 지정 구성 및 Adobe Campaign의 워크플로에 따라 달라집니다.
+일반적으로 트리거는 마케팅 캠페인을 시작하는 데 15-90분 정도 걸릴 수 있습니다. 이는 데이터 수집 구현, 파이프라인 로드, 정의된 트리거의 사용자 정의 구성 및 Adobe Campaign의 워크플로에 따라 달라집니다.
 
 * **포기:** 방문자가 제품을 보고 장바구니에 추가하지 않을 경우에 실행할 트리거를 만들 수 있습니다.
-* **작업:** 예를 들어 뉴스레터 등록, 이메일 구독 또는 신용카드 신청(확인) 후에 동작할 트리거를 만들 수 있습니다. 유통업의 경우 회원 프로그램에 등록한 방문자를 대상으로 트리거를 만들 수 있습니다. 미디어 및 엔터테인먼트에서는 특정 프로그램을 시청하고 설문 조사에 응답하기를 원하는 방문자를 대상으로 트리거를 만들 수 있습니다.
+* **액션:** 예를 들어 뉴스레터 등록, 이메일 구독 또는 신용카드 신청(확인) 후에 동작할 트리거를 만들 수 있습니다. 유통업의 경우 회원 프로그램에 등록한 방문자를 대상으로 트리거를 만들 수 있습니다. 미디어 및 엔터테인먼트에서는 특정 프로그램을 시청하고 설문 조사에 응답하기를 원하는 방문자를 대상으로 트리거를 만들 수 있습니다.
 * **세션 시작 및 세션 종료:** 세션 시작 및 세션 종료 이벤트에 대한 트리거를 만듭니다.
 
 ## Experience Cloud 트리거 만들기 {#task_821F37183AC045E5AC8EED20317598FE}
 
-트리거를 생성하고 트리거 조건을 구성합니다. 예를 들어, 장바구니 포기와 같은 지표 또는 제품 이름과 같은 차원과 같이, 방문 중의 트리거 규칙에 대한 기준을 지정할 수 있습니다. 규칙이 충족되면 트리거가 실행됩니다.
+트리거를 생성하고 트리거 조건을 구성합니다. 예를 들어 장바구니 포기와 같은 지표 또는 제품 이름과 같은 차원과 같이, 방문 중의 트리거 규칙에 대한 기준을 지정할 수 있습니다. 규칙이 충족되면 트리거가 실행됩니다.
 
 >[!NOTE]
 >
 >현재 트리거는 100개로 기술적 제한이 있습니다.
 
-1. Experience Cloud에서 ![메뉴](assets/menu-icon.png)를 선택하고 을 선택합니다. **[!UICONTROL 데이터 수집/실행]**.
+1. Experience Cloud에서 ![메뉴](assets/menu-icon.png)을 선택한 다음 을 선택합니다. **[!UICONTROL 데이터 수집/실행]**.
 2. [!UICONTROL 트리거] 카드에서 **[!UICONTROL 트리거 관리]**&#x200B;를 선택합니다.
 3. **[!UICONTROL 새 트리거]**&#x200B;를 선택한 다음 트리거 유형을 지정합니다.
 
@@ -66,7 +66,7 @@ Experience Cloud 내의 [!UICONTROL 트리거]를 통해 주요 소비자 행동
    | [!UICONTROL 컨테이너] | [!UICONTROL 컨테이너]는 트리거를 정의하는 규칙, 조건 또는 필터를 설정하고 저장하는 위치입니다. 동시에 발생하기를 원하는 이벤트의 경우, 동일한 컨테이너에 있어야 합니다. 각 컨테이너는 히트 수준에서 독립적으로 처리됩니다. 예를 들어 AND 연산자로 두 개의 컨테이너가 연결된 경우 두 개의 히트 수가 요구 사항을 충족하면 규칙이 유효할 수 있습니다. |
    | 후에 새로운 세션 시작 | 세션 시작 및 세션 종료 이벤트에 대한 트리거를 만듭니다. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 5. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 6. [!DNL Adobe Campaign]에서 [실시간 재마케팅](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=ko-KR)에 트리거를 사용합니다.

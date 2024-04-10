@@ -1,27 +1,27 @@
 ---
-description: 고객 속성을 Experience Cloud에 업로드하기 위한 데이터 파일 요구 사항 및 여러 데이터 소스에 대해 알아봅니다.
+description: 업로드할 데이터 파일 요구 사항 및 여러 데이터 소스에 대해 알아봅니다 [!DNL Customer Attributes] Experience Cloud.
 solution: Experience Cloud
-title: 고객 특성의 데이터 파일 및 데이터 소스에 대해 알아보기
+title: 데이터 파일 및 데이터 소스
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 98%
+source-wordcount: '1186'
+ht-degree: 90%
 
 ---
 
-# 고객 속성에 대한 데이터 파일 및 데이터 소스 정보
+# 의 데이터 파일 및 데이터 소스 정보 [!DNL Customer Attributes]
 
-고객 속성을 Experience Cloud에 업로드하기 위한 데이터 파일 요구 사항 및 여러 데이터 소스입니다.
+업로드를 위한 데이터 파일 요구 사항 및 여러 데이터 소스 [!DNL Customer Attributes] Experience Cloud.
 
-엔터프라이즈에서 CRM 또는 비슷한 데이터에 액세스해야 합니다. Experience Cloud에 업로드하는 데이터는 `.csv` 파일이어야 합니다. FTP 또는 sFTP를 통해 업로드하는 경우 `.fin` 파일도 업로드합니다.
+엔터프라이즈에서 CRM 또는 비슷한 데이터에 액세스해야 합니다. Experience Cloud에 업로드하는 데이터는 `.csv` 파일. FTP 또는 sFTP를 통해 업로드하는 경우 `.fin` 파일도 업로드합니다.
 
-고객 속성은 하루에 몇 개의 파일을 처리하도록 설계되었습니다. 작은 파일이 대량으로 있어 처리가 지연되는 문제를 방지하기 위해 동일한 조직의 이전 일괄 처리 후 30분 이내에 전송된 파일은 우선 순위가 낮은 큐로 라우팅됩니다.
+[!DNL Customer Attributes] 는 하루에 몇 개의 파일을 처리하도록 설계되었습니다. 작은 파일이 대량으로 있어 처리가 지연되는 문제를 방지하기 위해 동일한 조직의 이전 일괄 처리 후 30분 이내에 전송된 파일은 우선 순위가 낮은 큐로 라우팅됩니다.
 
 ## 허용되는 파일 형식 및 이름 지정 요구 사항 {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
@@ -76,7 +76,7 @@ CSV 파일은 다음 형식을 따라야 합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>고객 ID 열 </p> </td> 
-   <td colname="col2"> <p> 첫 번째 열은 고유한 고객 ID여야 합니다. 사용된 ID는 Experience Cloud ID 서비스에 전달되는 ID에 해당해야 합니다. </p> <p>Analytics의 경우 prop 또는 eVar에 저장되는 ID입니다. </p> <p>Target의 경우 setCustomerID 값입니다. (<a href="core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics 및 Adobe Target - 고객 ID 동기화</a> 참조) </p> <p> 이 고객 ID는 CRM가 데이터베이스의 각 사용자에 대해 사용하는 고유한 식별자입니다. 나머지 열은 CRM에서 가져오는 속성입니다. 업로드할 속성의 수를 선택합니다. </p> <p>열 제목에는 읽을 수 있는 친근한 이름이 권장되지만 필수는 아닙니다. 업로드 후에 스키마의 유효성을 검사할 때 업로드한 행 및 열에 친근한 이름을 매핑할 수 있습니다. </p> <p> <b>고객 ID에 대하여</b> </p> <p>일반적으로 기업에서는 CRM 시스템의 고객 ID를 사용합니다. 이 ID는 사용자가 로그인할 때 <span class="codeph">setCustomerID</span> 호출을 사용하여 설정됩니다. 이 ID는 Experience Cloud에 업로드된 CRM 파일의 키로도 사용됩니다. <a href="t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">별칭 ID</a>는 Audience Manager에서 별칭 데이터가 저장되는 데이터 저장소용의 친근한 이름입니다. 이 시스템에서는 별칭을 데이터 저장소(setCustomerID를 통해)로 보냅니다. CRM 파일은 이 데이터 저장소의 데이터에 적용됩니다. </p> <p><span class="codeph">setCustomerIDs</span> 정보에 대해서는 <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en" format="https" scope="external">고객 ID 및 인증 상태</a>를 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p> 첫 번째 열은 고유한 고객 ID여야 합니다. 사용된 ID는 Experience Cloud ID 서비스에 전달되는 ID에 해당해야 합니다. </p> <p>Analytics의 경우 prop 또는 eVar에 저장되는 ID입니다. </p> <p>Target의 경우 setCustomerID 값입니다. (<a href="core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics 및 Adobe Target - 고객 ID 동기화</a> 참조) </p> <p> 이 고객 ID는 CRM가 데이터베이스의 각 사용자에 대해 사용하는 고유한 식별자입니다. 나머지 열은 CRM에서 가져오는 속성입니다. 업로드할 속성의 수를 선택합니다. </p> <p>열 제목에는 읽을 수 있는 친근한 이름이 권장되지만 필수는 아닙니다. 업로드 후에 스키마의 유효성을 검사할 때 업로드한 행 및 열에 친근한 이름을 매핑할 수 있습니다. </p> <p> <b>고객 ID에 대하여</b> </p> <p>일반적으로 기업에서는 CRM 시스템의 고객 ID를 사용합니다. 이 ID는 사용자가 로그인할 때 <span class="codeph">setCustomerID</span> 호출을 사용하여 설정됩니다. 이 ID는 Experience Cloud에 업로드되는 CRM 파일의 키로도 사용됩니다. <a href="t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">별칭 ID</a>는 Audience Manager에서 별칭 데이터가 저장되는 데이터 저장소용의 친근한 이름입니다. 이 시스템에서는 별칭을 데이터 저장소(setCustomerID를 통해)로 보냅니다. CRM 파일은 이 데이터 저장소의 데이터에 적용됩니다. </p> <p><span class="codeph">setCustomerIDs</span> 정보에 대해서는 <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko-KR" format="https" scope="external">고객 ID 및 인증 상태</a>를 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>후속 머리글 및 열 </p> </td> 
@@ -84,7 +84,7 @@ CSV 파일은 다음 형식을 따라야 합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>속성 제한 </p> </td> 
-   <td colname="col2"> <p>수백 개의 <span class="filepath"> .csv </span> 열을 Experience Cloud의 고객 속성 서비스에 업로드할 수 있습니다. 그렇지만 구독을 구성하고 속성을 선택할 때 보유하고 있는 애플리케이션에 따라 다음과 같은 제한이 적용됩니다. </p> <p> 
+   <td colname="col2"> <p>수백 개의 파일을 업로드할 수 있습니다. <span class="filepath"> .csv </span> Experience Cloud의 고객 속성 서비스에 대한 열입니다. 그렇지만 구독을 구성하고 속성을 선택할 때 보유하고 있는 애플리케이션에 따라 다음과 같은 제한이 적용됩니다. </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>: 총 3개 </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 보고서 세트당 200개 </li> 

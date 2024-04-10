@@ -1,19 +1,19 @@
 ---
 role: User,Admin
-user-guide-title: Experience Cloud 중앙 인터페이스 구성 요소 안내서
-breadcrumb-title: Experience Cloud 중앙 인터페이스 구성 요소 안내서
-title: Experience Cloud 중앙 인터페이스 구성 요소 안내서
+user-guide-title: Experience Cloud 인터페이스 및 관리 안내서
+breadcrumb-title: Experience Cloud 인터페이스 및 관리 안내서
+title: Experience Cloud 인터페이스 및 관리 안내서
 description: Experience Cloud 인터페이스 및 사용자 계정 환경 설정에 대해 알아봅니다. 비즈니스 오브젝트를 검색하고 사용자 및 제품을 관리하는 방법에 대해 알아봅니다. 고객 속성, 대상자 라이브러리, 쿠키를 구성하고 Experience Cloud 자산을 공유하십시오.
 index: true
-source-git-commit: 6586616d6ce861daa500ad3126b0815e6f1632e0
+source-git-commit: 064f3c981b921fd5aec9b252b839d8b7f59b3dee
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 
-# Experience Cloud 중앙 인터페이스 구성 요소 안내서 {#interface}
+# Experience Cloud 인터페이스 및 관리 안내서 {#interface}
 
 + [Experience Cloud 중앙 인터페이스 구성 요소 안내서](experience-cloud.md)
 + Experience Cloud 서비스 {#services}

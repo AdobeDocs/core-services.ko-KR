@@ -1,5 +1,5 @@
 ---
-description: FTP를 통해 고객 속성 데이터를 Experience Cloud로 업로드하는 방법을 알아봅니다.
+description: FTP를 통해 Experience Cloud에 고객 속성 데이터를 업로드하는 방법을 알아봅니다.
 solution: Experience Cloud
 title: FTP를 통한 고객 속성 데이터 파일 업로드
 feature: Customer Attributes
@@ -7,16 +7,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 77%
 
 ---
 
 # 선택 사항 - FTP를 통한 데이터 파일 업로드
 
-드래그 앤 드롭을 사용하여 업로드하지 않는 경우에는 FTP를 통해 고객 속성 데이터를 Experience Cloud로 업로드할 수 있습니다.
+드래그 앤 드롭을 사용하여 업로드하지 않는 경우에는 FTP를 통해 고객 속성 데이터를 업로드하여 Experience Cloud을 수행할 수 있습니다.
 
 Experience Cloud에서 고객 속성 소스 및 FTP 계정을 만든 후에 데이터를 업로드할 수 있습니다. 속성 소스당 FTP 계정을 1개 만듭니다. 업로드한 파일은 해당 계정의 루트 폴더에 저장됩니다. 데이터는 `.csv` 형식이어야 하며, 업로드가 완료되었음을 나타내는 두 번째 `.fin` 파일도 있어야 합니다.
 

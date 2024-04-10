@@ -7,10 +7,10 @@ feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 100%
+source-wordcount: '128'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Exchange Marketplace는 앱을 통해 디지털 마케팅 확장 기능을 검�
 
 * 애플리케이션을 거부하거나 승인합니다.
 
-* Experience Cloud에서 게시합니다.
+* Experience Cloud에 게시합니다.
 
 * 범주, 회사, 유형, 사용자 등을 기준으로 검색 및 필터링합니다.
 

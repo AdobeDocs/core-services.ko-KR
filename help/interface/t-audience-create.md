@@ -1,5 +1,5 @@
 ---
-description: 특성 규칙을 사용하여 Adobe Experience Cloud에서 대상자를 만들고 복합 대상자를 정의하는 방법을 알아봅니다.
+description: 속성 규칙을 사용하여 Adobe Experience Cloud에서 대상자를 만들고 복합 대상자를 정의하는 방법을 알아봅니다.
 solution: Experience Cloud
 title: 대상자 만들기
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 99%
+source-wordcount: '510'
+ht-degree: 94%
 
 ---
 
@@ -40,12 +40,12 @@ ht-degree: 99%
 * 페이지 데이터 또는 원시 분석 데이터에서 파생된 홈/가든 섹션
 * [!DNL Experience Cloud]에 [게시된](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) [!DNL Adobe Analytics] 세그먼트에서 파생된 Chrome 및 Safari 사용자.
 
-   ![복합 대상에 대한 규칙 만들기](assets/audience_create.png)
+  ![복합 대상에 대한 규칙 만들기](assets/audience_create.png)
 
 **대상을 만들려면**
 
 1. [!DNL Experience Cloud]에서 [!DNL Experience Platform]의 **[!UICONTROL 사용자]** > **[!UICONTROL 대상 라이브러리]를 선택합니다.**
-1. [!UICONTROL 대상] 페이지에서 **[!UICONTROL 새로 만들기]** 를 선택합니다. ![추가](assets/add_icon_small.png)
+1. 다음에서 [!UICONTROL 대상] 페이지, 선택 **[!UICONTROL 신규]**. ![추가](assets/add_icon_small.png)
 
    ![단계 결과](assets/audience_create_new.png)
 

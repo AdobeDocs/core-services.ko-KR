@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: e71461000e352d4a8acba413e0db6180a37395ff
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ Experience Cloud Assets는 애플리케이션 간에 공유할 수 있는 마케
 
 >[!NOTE]
 >
->자산에서 성공적으로 삭제하려면 먼저 Adobe Target 활동에서 자산을 제거해야 합니다. [!DNL Target].
+>Adobe Target 활동에서 자산을 제거하기 전에 먼저 해당 활동에서 자산을 제거해야 합니다. [!DNL Target].
 
 ## 에셋 편집 {#section_CD3C55A9D4574455B94D0955391C8FEC}
 

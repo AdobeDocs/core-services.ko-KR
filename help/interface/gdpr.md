@@ -1,21 +1,21 @@
 ---
-title: '개인정보 보호 규정을 위한 고객 속성 지원 '
+title: "[!DNL Customer Attributes] 개인 정보 보호 규정 지원"
 description: 개인정보 보호 규정을 위한 고객 속성 지원에 대해 알아봅니다.
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 77%
 
 ---
 
-# 개인정보 보호 규정을 위한 고객 속성 지원
+# [!DNL Customer Attributes] 개인정보 보호 규정 지원
 
-이 페이지는 [!UICONTROL 고객 속성]이 데이터 보호 규정(GDPR)을 어떻게 지원하는지 설명합니다.
+이 페이지에서는 다음 방법에 대해 설명합니다. [!DNL Customer Attributes] 는 일반 데이터 보호 규정(GDPR)을 지원합니다.
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,13 @@ ht-degree: 100%
 
 Adobe Experience Cloud는 고객을 대신하여 수신하여 보관하는 모든 개인 데이터에 대한 데이터 처리자의 역할을 합니다. 귀하는 정보 통제자로서 Adobe Experience Cloud가 귀하를 대신하여 처리하고 저장하는 개인 데이터를 결정합니다.
 
-이 문서에서는 [!UICONTROL 고객 속성]이 Adobe Experience Platform Privacy Service API 및 Privacy Service UI를 사용하여 데이터 주체의 GDPR 데이터 액세스 및 삭제 권한을 지원하는 방법에 대해 설명합니다.
+이 문서에서는 다음 방법을 설명합니다 [!DNL Customer Attributes] 는 Adobe Experience Platform Privacy Service API 및 Privacy Service UI를 사용하여 데이터 주체의 GDPR 데이터 액세스 및 삭제 권한을 지원합니다.
 
 GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스](https://business.adobe.com/privacy/general-data-protection-regulation.html)를 참조하십시오.
 
-## [!UICONTROL 고객 속성]에 대한 요청을 전송하기 위한 필수 설정
+## 다음에 대한 요청을 전송하기 위한 필수 설정 [!DNL Customer Attributes]
 
-[!UICONTROL 고객 속성]에 대한 데이터에 액세스하고 삭제를 요청하려면 다음을 수행해야 합니다.
+다음에 대한 데이터에 액세스하고 삭제를 요청하려면 [!DNL Customer Attributes], 다음을 수행해야 합니다.
 
 1. 다음 항목을 확인하십시오.
 
@@ -41,9 +41,9 @@ GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스
 
    [조직 ID](#organizations.md)는 @AdobeOrg가 추가된 24자 영숫자 문자열입니다. Privacy API에 요청을 제출하려면 조직 ID가 필요합니다. ID를 찾을 수 없는 경우 Adobe 고객 지원 센터(`gdprsupport@adobe.com`)에 문의하십시오.
 
-1. [!UICONTROL 개인정보보호 서비스]에서 고객 속성에 액세스 및 삭제 요청을 제출하고 기존 요청의 상태를 확인할 수 있습니다.
+1. 위치 [!UICONTROL Privacy Service]에 액세스 및 삭제 요청을 제출할 수 있습니다. [!DNL Customer Attributes]을 클릭하고 기존 요청의 상태를 확인합니다.
 
-## [!UICONTROL 고객 속성] JSON 요청의 필수 필드 값
+## 의 필수 필드 값 [!DNL Customer Attributes] JSON 요청
 
 &quot;company context&quot;:
 
@@ -105,8 +105,8 @@ GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스
 ```
 attributes:
 {
-"value”:<*value*>,
-"key”:<*key*>,
-"displayName”:<*displayName*>
+"value":<*value*>,
+"key":<*key*>,
+"displayName":<*displayName*>
 }
 ```

@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 807f8a25a58b8416b2db083434dfce84b94954b2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1634'
-ht-degree: 100%
+source-wordcount: '1582'
+ht-degree: 74%
 
 ---
 
-# Experience Cloud 사용자 및 제품 관리
+# 에서 사용자 및 제품 관리 [!DNL Experience Cloud]
 
-Admin Console 로그인, Experience Cloud 사용자 권한 및 제품 프로필 관리, 브라우저 지원에 대해 알아보십시오.
+Admin Console에 로그인, Experience Cloud 사용자 권한과 제품 프로필 관리 및 브라우저 지원 방법에 대해 알아봅니다.
 
 >[!IMPORTANT]
 >
@@ -35,13 +35,13 @@ Admin Console 로그인, Experience Cloud 사용자 권한 및 제품 프로필 
 
 Adobe는 모든 Experience Cloud 고객이 일부 Experience Cloud 제품 간의 상호 운용성을 지원하는 기본 기능을 이용할 수 있도록 프로비저닝을 업데이트하고 있습니다. 사용자는 자신의 Experience Cloud 조직에 새로운 자격으로 추가되고 [!UICONTROL 데이터 수집]이 포함 서비스로 제공되는 Adobe Experience Platform을 이용하게 됩니다.
 
-Adobe Experience Platform [!UICONTROL Data Collection]에는 단순화된 범용 태그 관리를 위한 [태그](https://experienceleague.adobe.com/docs/tags.html?lang=ko-KR)가 포함되어 있으며, 신뢰할 수 있고 강력하며 완벽한 스트리밍 데이터 인프라를 제공합니다. 태그는 고객 경험 데이터 수집을 단순화하고 경험 전달을 간소화합니다.
+Adobe Experience Platform [!UICONTROL Data Collection]에는 단순화된 범용 태그 관리를 위한 [태그](https://experienceleague.adobe.com/en/docs/tags)가 포함되어 있으며, 신뢰할 수 있고 강력하며 완벽한 스트리밍 데이터 인프라를 제공합니다. 태그는 고객 경험 데이터 수집을 단순화하고 경험 전달을 간소화합니다.
 
-**Admin Console 변경 사항**
+**의 변경 사항[!DNL Admin Console]**
 
-관리자는 다음과 같은 Admin Console에서의 변경 사항 또는 추가 사항을 확인할 수 있습니다.
+관리자는에 대한 변경 사항이나 추가 사항을 볼 수 있습니다. [!DNL Admin Console] 다음과 같이:
 
-* Admin Console의 Adobe Experience Platform 제품 카드에 포함되는 항목:
+* Admin Console의 Adobe Experience Platform 제품 카드에는 다음이 포함됩니다.
 
    * 장소
    * 보증
@@ -52,7 +52,7 @@ Adobe Experience Platform [!UICONTROL Data Collection]에는 단순화된 범용
    * 데이터스트림
    * 방문자 ID
 
-  현재 Experience Platform을 사용하지 않는 조직의 경우, 위에 나열된 기능을 포함하여 _Adobe Experience Platform_ 제품이 Admin Console에 표시됩니다.
+  현재 Experience Platform을 사용하지 않는 조직의 경우 _Adobe Experience Platform_ 의 제품 [!DNL Admin Console]위에 나열된 기능을 포함합니다.
 
   현재 Experience Platform을 사용하는 조직의 경우, 이제 _장소_&#x200B;가 Experience Platform 카드로 통합됩니다.
 
@@ -60,8 +60,8 @@ Adobe Experience Platform [!UICONTROL Data Collection]에는 단순화된 범용
 
 새로운 기능에 대한 자세한 내용은 Experience League의 해당 페이지를 참조하십시오.
 
-* [데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ko-KR)
-* [장소](https://experienceleague.adobe.com/docs/places/using/home.html?lang=ko-KR)
+* [데이터 수집](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)
+* [장소](https://experienceleague.adobe.com/en/docs/places/using/home)
 * [보증](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=ko-KR)
 * [ID 네임스페이스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko-KR)
 * [샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko-KR)
@@ -75,24 +75,24 @@ Adobe Experience Platform [!UICONTROL Data Collection]에는 단순화된 범용
 
 2022년 2월부터 Adobe는 조직이 개별 프로필에 대한 비즈니스 권한을 보다 효율적으로 관리할 수 있도록 프로필 관리 시스템을 업데이트합니다. 따라서 개별 Adobe ID(Type1)에 해당하는 개인 프로필을 보유하고 있는 모든 사용자는 새 비즈니스 프로필로 마이그레이션됩니다. 이 프로필은 _Business ID_(Type2e)에 해당합니다.
 
-ID 유형에 대한 자세한 내용은 [Adobe Admin Console의 ID 유형](https://helpx.adobe.com/kr/enterprise/using/identity.html)을 참조하십시오.
+다음을 참조하십시오 [Adobe의 ID 유형 [!DNL Admin Console]](https://helpx.adobe.com/kr/enterprise/using/identity.html) id 유형에 대한 자세한 내용
 
 ### 마이그레이션 프로세스
 
 마이그레이션 시간이 되면 조직 관리자는 사용자의 마이그레이션 30일 전에 알림 이메일을 수신하게 됩니다.
 
 * 마이그레이션은 조직의 주요 시간대 또는 주말을 기준으로 오후 10시에서 오전 6시 사이로 예약됩니다.
-* 마이그레이션하는 동안 Experience Cloud 애플리케이션에 약 15분 동안 액세스할 수 없으며 Admin Console에는 최대 30분 동안 액세스할 수 없습니다. 그렇지 않으면 이 마이그레이션이 원활하게 이루어집니다.
+* 마이그레이션하는 동안 약 15분 동안 Experience Cloud 애플리케이션에 액세스할 수 없으며 [!DNL Admin Console] 최대 30분 동안 액세스할 수 없습니다. 그렇지 않으면 이 마이그레이션이 원활하게 이루어집니다.
 
 ### 마이그레이션 후 변경 사항
 
-Admin Console
+[!DNL Admin Console]
 
-* 여러 계정을 보유한 관리자는 [!UICONTROL Admin Console]에 로그인할 때 프로필 선택기가 표시됩니다.
-* 개인 사용자용 Adobe ID 사용자는 Business ID로 업데이트됩니다.
-* Business ID 디렉터리는 **[!UICONTROL 설정]** > **[!UICONTROL ID]** > **[!UICONTROL 디렉터리]**&#x200B;에 추가됩니다.
+* 여러 계정을 보유한 관리자는에 로그인할 때 프로필 선택기가 표시됩니다 [!DNL Admin Console].
+* 개별 Adobe ID 사용자가 Business ID로 업데이트됩니다.
+* Business ID 디렉터리가에 추가됩니다. **[!UICONTROL 설정]** > **[!UICONTROL 신원]** > **[!UICONTROL 디렉터리]**.
 
-  ![Admin Console ID - Business ID](assets/identity-home.png)
+  ![[!DNL Admin Console] ID - 비즈니스 ID](assets/identity-home.png)
 
 ### 마이그레이션 후 로그인
 
@@ -104,26 +104,26 @@ Admin Console
 
 1. 옵션 중 하나를 선택하면 기존의 랜딩 페이지 경험이 구축됩니다.
 
-1. Adobe 프로필은 각 비즈니스 플랜과 연결되어 있으며 추가 Adobe Cloud 제품(Creative Cloud 및 Document Cloud)에서 생성된 자산을 구성하는 기능을 제공합니다.
+1. Adobe 프로필은 각 비즈니스 플랜과 연결되어 있으며 추가 Adobe 클라우드 서비스(Creative Cloud 및 Document Cloud)에서 생성된 에셋을 구성하는 기능을 제공합니다.
 
 자세한 내용은 [Adobe 프로필 소개](https://helpx.adobe.com/kr/enterprise/kb/introducing-adobe-profiles.html)를 참조하십시오.
 
 ## 제품 프로필이란? {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
-_[!UICONTROL 제품 프로필]_&#x200B;은 사용자에게 할당할 수 있는 제품 및 서비스 그룹입니다. Experience Cloud에서 권한은 사용자가 아닌 제품 프로필을 기반으로 합니다. (그러나 특정 사용자에게 관리 권한을 위임할 수 있습니다.)
+_[!UICONTROL 제품 프로필]_ 는 사용자에게 할당할 수 있는 제품 및 서비스 그룹입니다. Experience Cloud에서 권한은 사용자가 아닌 제품 프로필을 기반으로 합니다. (그러나 특정 사용자에게 관리 권한을 위임할 수 있습니다.)
 
 예를 들면 Analytics에서 보고서 세트, 지표 및 차원과 함께 Analysis Workspace 및 Report Builder와 같은 보고 도구의 컬렉션을 구성할 수 있습니다. 프로필에 사용자를 추가하여 제품 프로필에 대한 권한을 부여할 수 있습니다.
 
-* 이 페이지에서 [제품 프로필에 대한 Analytics 액세스 권한 할당](admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391)을 참조하십시오.
-* 이 페이지에서 [사용자에게 관리자 역할 위임](#delegate-rights)을 참조하십시오.
+* 이 페이지에서 [제품 프로필에 Analytics 액세스 권한을 지정](admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391) 을 참조하십시오.
+* 이 페이지에서 [사용자에게 관리자 역할 위임](#delegate-rights) 을 참조하십시오.
 
-## Experience Cloud 제품 프로필 관리 {#task_16335111C52D40E9BAC73D0699584DBF}
+## Manage Experience Cloud 제품 프로필 {#task_16335111C52D40E9BAC73D0699584DBF}
 
-제품 프로필을 생성하여 권한 그룹에 할당할 수 있습니다.
+제품 프로필을 만들어 권한 그룹에 지정할 수 있습니다.
 
-조직에 사용자를 초대할 때 사용자에게 제품 및 제품 프로필에 대한 액세스 권한을 부여할 수 있습니다. 제한된 관리 권한을 사용자에게 위임할 수도 있습니다. 마찬가지로 사용자 그룹을 만든 다음 제품 프로필에 그룹을 추가하여 액세스 권한을 활성화할 수 있습니다.
+사용자를 조직에 초대할 때 사용자에게 제품 및 제품 프로필에 대한 액세스 권한을 제공할 수 있습니다. 제한된 관리 권한을 사용자에게 위임할 수도 있습니다. 마찬가지로 사용자 그룹을 작성한 후, 제품 프로필에 액세스할 수 있는 그룹을 추가할 수 있습니다.
 
-1. [Admin Console](https://adminconsole.adobe.com/enterprise/)에서 **[!UICONTROL 제품]**&#x200B;을 선택합니다.
+1. 다음에서 [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/), 선택 **[!UICONTROL 제품]**.
 1. 조직 이름을 선택합니다.
 1. **[!UICONTROL 새 프로필]**&#x200B;을 선택합니다.
 1. 프로필 세부 사항을 구성한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
@@ -132,40 +132,41 @@ _[!UICONTROL 제품 프로필]_&#x200B;은 사용자에게 할당할 수 있는 
 
 **관련 도움말**
 
-* 관리 사용 안내서의 [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-products.html)를 참조하십시오.
+* [사용자 관리](https://helpx.adobe.com/kr/enterprise/using/users.html) 위치: [!DNL Admin Console]
+* [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-products.html) 위치: [!DNL Admin Console].
 * 자세한 내용은 Target 도움말의 [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ko)을 참조하십시오.
-* 비디오: [Adobe Admin Console에서 Adobe Target 작업 영역을 구성하는 방법](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=ko-KR)
+* 비디오: [Adobe에서 Adobe Target 작업 공간을 구성하는 방법 [!DNL Admin Console]](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=ko-KR)
 
 ## 사용자에게 관리자 역할 위임 {#delegate-rights}
 
-Admin Console에서 조직의 다른 사용자에게 제한된 관리 권한을 위임할 수 있습니다. 위임된 역할을 통해 사용자는 최종 사용자에 대한 소프트웨어 액세스를 관리하고, 액세스 배포 기능을 제공하고, 지원 위임자 역할을 할 수 있습니다.
+위치 [!DNL Admin Console], 조직의 다른 사용자에게 제한된 관리 권한을 위임할 수 있습니다. 위임된 역할을 통해 사용자는 최종 사용자에 대한 소프트웨어 액세스를 관리하고, 액세스 배포 기능을 제공하고, 지원 위임자 역할을 할 수 있습니다.
 
 예를 들어 다음 작업을 수행할 수 있습니다.
 
 * 제작 감독이 Creative Cloud에 대한 액세스 권한을 부여하도록 할 수 있습니다.
-* 마케팅 관리자가 Experience Cloud에 대한 액세스 권한을 부여하도록 할 수 있습니다.
+* 마케팅 관리자가 Experience Cloud 액세스 권한을 부여하도록 허용합니다.
 * 이러한 두 역할이 서로의 역할을 넘지 않도록 구분합니다.
 
 이러한 역할을 사용하면 필요 이상으로 더 많은 기능을 제공하지 않고 다른 사람에게 관리를 동시에 위임할 수 있습니다.
 
-1. Admin Console에서 **[!UICONTROL 사용자]**&#x200B;를 선택한 다음 사용자 이름을 선택합니다.
+1. 다음에서 [!DNL Admin Console], 선택 **[!UICONTROL 사용자]**&#x200B;을 클릭한 다음 사용자 이름을 선택합니다.
 
-   ![Admin Console의 관리 권한](assets/edit-admin-rights.png)
+   ![의 관리 권한 [!DNL Admin Console]](assets/edit-admin-rights.png)
 
 1. **[!UICONTROL 관리 권한 편집]**&#x200B;을 선택합니다.
 
-   ![Admin Console의 관리 권한 편집](assets/edit-admin-rights-page.png)
+   ![에서 관리 권한 편집 [!DNL Admin Console]](assets/edit-admin-rights-page.png)
 
 1. 사용자의 관리 권한을 지정합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 ## Analytics 사용자 및 제품 관리 {#section_97DE101F92CD494AB073893680992F1A}
 
-제품 프로필에 Analytics 보고서 액세스 권한(보고서 세트, 지표, 치수 등)을 할당할 수 있습니다.
+제품 프로필에 Analytics 보고서 액세스 권한(보고서 세트, 지표, 차원 등)을 지정할 수 있습니다.
 
-예를 들어 여러 Analytics 도구([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder])가 포함된 제품 프로필을 만들 수 있습니다. 이러한 프로필에는 특정 지표 및 차원(eVar 포함)에 대한 권한과 세그먼트 또는 계산된 지표 생성과 같은 기능이 포함됩니다.
+예를 들면 여러 Analytics 도구([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] 및 [!UICONTROL Report Builder])가 포함된 제품 프로필을 만들 수 있습니다. 이러한 프로필에는 특정 지표 및 차원(eVar 포함)에 대한 권한과 세그먼트 또는 계산된 지표 생성과 같은 기능이 포함됩니다.
 
-1. [Admin Console](https://adminconsole.adobe.com/enterprise)에 로그인한 다음 **[!UICONTROL 제품]**&#x200B;을 선택합니다.
+1. 에 로그인 [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise)을 선택한 다음 을 선택합니다. **[!UICONTROL 제품]**.
 1. [!UICONTROL 제품] 페이지에서 해당 제품을 선택한 다음 **[!UICONTROL 권한]** (관리자만 사용 가능)을 선택합니다.
 1. 프로필의 권한 구성:
 
@@ -175,38 +176,38 @@ Admin Console에서 조직의 다른 사용자에게 제한된 관리 권한을 
 | 지표 | 트래픽, 전환, 사용자 정의 이벤트, 애플리케이션 이벤트, 콘텐츠 인식 등에 대한 권한을 활성화합니다. |
 | 차원 | eVar, 트래픽 보고서, 애플리케이션 보고서 및 경로 보고서를 포함하여 세분된 수준에서 사용자 액세스를 사용자 정의합니다. |
 | 보고서 세트 도구 | 웹 서비스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항목에 대한 사용자 권한을 활성화합니다. |
-| Analytics 도구 | 일반 항목(청구, 로그 등), 회사 관리, 도구, 웹 서비스 액세스, Report Builder 및 Data Connectors 통합에 대한 사용자 권한을 활성화합니다. Admin Console 사용자 정의 카테고리의 회사 설정이 Analytics 도구로 이동되었습니다. |
+| Analytics 도구 | 일반 항목(청구, 로그 등), 회사 관리, 도구, 웹 서비스 액세스, Report Builder 및 Data Connectors 통합에 대한 사용자 권한을 활성화합니다. 사용자 지정의 회사 설정 [!DNL Admin Console] 범주가 Analytics 도구로 이동되었습니다. |
 
 **사용자 계정 마이그레이션**
 
-Analytics 사용자 ID 마이그레이션 도구는 Analytics 관리자가 Analytics 사용자 관리에서 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/)로 사용자 계정을 마이그레이션하도록 지원하는 데 사용할 수 있습니다.
+Analytics 사용자 ID 마이그레이션 도구는 Analytics 관리자가 Analytics 사용자 관리에서 로 사용자 계정을 마이그레이션하도록 지원하는 데 사용할 수 있습니다. [Adobe [!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/).
 
-계정 마이그레이션이 단계적으로 고객에게 배포되고 있습니다. Adobe에서는 기존 사용자 계정을 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에서 Admin Console로 마이그레이션할 때 사용자에게 알리고 지원합니다.
+계정 마이그레이션이 단계적으로 고객에게 배포되고 있습니다. Adobe은 기존 사용자 계정을 마이그레이션할 때 사용자에게 알리고 지원합니다. **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]** (으)로 [!DNL Admin Console].
 
 마이그레이션 후 사용자는 Adobe ID(또는 Enterprise ID)를 사용하여 로그인하고 [experience.adobe.com](https://experience.adobe.com)에서 해당 Experience Cloud 애플리케이션 및 서비스를 인증합니다. 사용자가 이전 계정([!DNL my.omniture.com], [!DNL sc.omniture.com] 및 [!DNL experiencecloud.adobe.com])을 통해 로그인하려고 하면 [!DNL experience.adobe.com]으로 리디렉션됩니다.
 
 **관련 도움말**
 
-* [Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR)
+* [의 분석 [!DNL Admin Console]](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR)
 * [Analytics 사용자 ID 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=ko)
 
-## Adobe Target 관리 - 제품 프로필과 작업 영역 비교 {#section_3860AF177C9E4C7E9C390D36A414F353}
+## Adobe Target 관리 - 제품 프로필과 작업 공간 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
-Adobe Target에서 작업 영역과 제품 프로필은 동일한 개념입니다. 이를 통해 조직에서는 특정 사용자 세트를 특정 속성 세트에 할당할 수 있습니다. 여러 가지 방식에서 작업 영역은 Adobe Analytics의 보고서 세트와 비슷합니다.
+Adobe Target에서 작업 공간은 제품 프로필입니다. 이를 통해 조직에서는 특정 사용자 세트를 특정 속성 세트에 할당할 수 있습니다. 여러 가지 방식에서 작업 영역은 Adobe Analytics의 보고서 세트와 비슷합니다.
 
 다음을 참조하십시오.
 
 * [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ko)
 * [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-products.html)
-* 비디오: [Adobe Admin Console에서 Adobe Target 작업 영역을 구성하는 방법](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=ko-KR)
+* 비디오: [Adobe에서 Adobe Target 작업 공간을 구성하는 방법 [!DNL Admin Console]](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=ko-KR)
 
-## Campaign 제품 프로필, 테넌트 및 보안 그룹 관리 {#section_09CDF75366444CF5810CF321B7C712F3}
+## 캠페인 제품 프로필, 테넌트 및 보안 그룹 관리 {#section_09CDF75366444CF5810CF321B7C712F3}
 
 Campaign의 *테넌트*&#x200B;는 Admin Console 제품 페이지에서 *제품*&#x200B;으로 표시됩니다.
 
 *보안 그룹*&#x200B;은 제품 프로필로 표시됩니다.
 
-보안 그룹과 보안 그룹에 사용자를 지정하는 것에 대한 자세한 내용은 [그룹 및 사용자 관리](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=ko-KR)를 참조하십시오.
+보안 그룹과 보안 그룹에 사용자를 지정하는 것에 대한 자세한 내용은 [그룹 및 사용자 관리](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=ko-KR) 를 참조하십시오.
 
 ## Experience Platform 데이터 수집 관리 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
@@ -214,11 +215,11 @@ Experience Platform [!UICONTROL 데이터 수집]은 [!UICONTROL Admin Console]�
 
 사용자를 [!UICONTROL Platform 데이터 수집]에 초대하고 사용자 역할과 권한을 할당하십시오.
 
-Admin Console에서의 사용자 권한에 대한 정보와 프로필에 권한을 설정하는 방법에 대한 자세한 내용은 [사용자 권한](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ko-KR)을 참조하십시오.
+다음을 참조하십시오 [사용자 권한](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ko-KR) 의 사용자 권한에 대한 자세한 내용은 [!DNL Admin Console] 프로필에 대한 권한 설정에 대해 설명합니다.
 
 ## Experience Manager as a Cloud Service
 
-Adobe Enterprise 고객은 Adobe [!UICONTROL Admin Console]에서 조직으로 표시됩니다. Experience Manager 고객은 Adobe [!UICONTROL Admin Console]을 사용하여 Experience Manager as a [!UICONTROL Cloud Service]에 대한 제품 자격 및 IMS 인증을 관리할 수 있습니다.
+Adobe 엔터프라이즈 고객은 Adobe에서 조직으로 표시됩니다 [!DNL Admin Console]. Experience Manager 고객은 Adobe을 사용할 수 있습니다 [!DNL Admin Console] as a Experience Manager에 대한 제품 자격 및 IMS 인증을 관리하려면 [!UICONTROL Cloud Service].
 
 [Experience Manager as a Cloud Service를 위한 IMS 지원](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=ko)을 참조하십시오.
 

@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: a1d24f95b1ac567686d58af8adf0132e5beb8f2a
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 21%
+source-wordcount: '636'
+ht-degree: 15%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 21%
 >
 >에 사용된 쿠키에 대한 정보 [!DNL Target] 를 사용한 구현 [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko-KR){target=_blank}, see "Does the [!DNL Adobe Experience Platform Web SDK] use cookies? If so, what cookies does it use?" in [Frequently Asked questions in the DNL Platform Web SDK overview guide](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}.
 >
->필요한 경우 쿠키 지속 시간을 제외하고 이 문서에서 설명한 설정을 변경할 수 있습니다. [쿠키 설정을 변경하는 경우 계정 담당자에게 문의하십시오.](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank}
+>필요한 경우 쿠키 지속 시간을 제외하고 이 문서에서 설명한 설정을 변경할 수 있습니다. [계정 담당자에게 문의하십시오.](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank} 쿠키 설정을 변경하는 경우.
 >
->[!DNL Target] 사용자는 사용자 지정 타사 쿠키를 생성할 수도 있습니다.
+>[!DNL Target] 사용자는 사용자 지정된 서드파티 쿠키를 만들 수도 있습니다.
 
 ## 자사 쿠키
 

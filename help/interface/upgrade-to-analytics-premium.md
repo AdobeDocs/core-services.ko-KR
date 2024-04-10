@@ -1,21 +1,21 @@
 ---
 description: Analytics Premium으로 업그레이드할 때의 요구 사항과 예상되는 사항에 대해 알아봅니다.
 solution: Experience Cloud
-title: Analytics Premium 및 Experience Cloud로 업그레이드
+title: Analytics Premium 및 Experience Cloud으로 업그레이드
 topic: Administration
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '577'
+ht-degree: 90%
 
 ---
 
-# Analytics Premium 및 Experience Cloud로 업그레이드
+# Analytics Premium 및 Experience Cloud으로 업그레이드
 
 관리자는 Analytics Premium으로 업그레이드할 때 요구 사항 및 예상 내용과 Experience Cloud 관리자로서 도움말을 찾을 위치에 대해 알아볼 수 있습니다.
 
@@ -36,7 +36,6 @@ Analytics Premium을 사용하면 다음 항목을 사용할 수 있습니다.
 >* eVars 76-250 및 100-250(표준)은 관리 도구에 표시되지만 활성화되어 있지는 않습니다.
 >* 기여도 분석은 Adobe에 의해 켜져 있습니다. 위치는 변경되지 않으며 Anomaly Detection 페이지에서 계속 사용할 수 있으나, 모든 데이터 포인트 분석을 자동으로 시작합니다.
 
-
 ## Analytics Premium Complete {#section_BFAD815EDF364845A52B340B2FD5B64C}
 
 Analytics Premium Complete에서는 [Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507)의 모든 기능과 다음의 업그레이드를 사용할 수 있습니다.
@@ -47,7 +46,7 @@ Analytics Premium Complete에서는 [Analytics Premium](upgrade-to-analytics-pre
 | Data Workbench | <ul><li>알고리즘 기여도 분석</li><li>사전 빌드된 작업 공간</li></ul> |
 | Analytics Platform | [라이브 스트림](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/index.md)(원시 데이터, 대시보드, 트리거) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Predictive Intelligence {#section_B407932C07A7476F83FB0275C3FB63DC}
 
@@ -55,11 +54,11 @@ Predictive Intelligence로 업그레이드하면 [Analytics Premium](upgrade-to-
 
 | 제품 | 업그레이드 |
 |---|---|
-| Reports &amp; Analytics | [기여도 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
+| Reports &amp; Analytics | [기여도 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=ko-KR) |
 | Data Workbench | 대상 자격 조건 및 예측 마케팅을 위해 사전 빌드된 작업 공간. |
 | Analytics Platform | 라이브 스트림(대시보드 및 트리거) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
@@ -71,7 +70,7 @@ Customer 360으로 업그레이드하면 [Analytics Premium](upgrade-to-analytic
 | Data Workbench | <ul><li>파생된 고객 속성</li><li>대상 검색을 위해 사전 빌드된 작업 공간</li></ul> |
 | Analytics Platform | [고객 속성](attributes.md) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Advanced Attribution {#section_9E4986A8389946CCAA7D003268343296}
 
@@ -87,9 +86,9 @@ TechOps에서는 계약 약정을 검토하고 적절한 관리 인프라의 용
 
 ## Experience Cloud - 사용자 및 제품 관리 {#section_6471C54454024301B2E0B687F79F6738}
 
-[시작하기 - 핵심 서비스를 위한 애플리케이션 활성화](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)에 설명된 구현 현대화에 따를 경우, Analytics Standard 및 Premium 사용자는 Experience Cloud 및 핵심 서비스를 이용할 수 있습니다. (해당 프로세스는 구현을 현대화하는 데 도움이 되며, Experience Cloud에서 관리자가 될 수 있도록 해 줍니다.)
+[시작하기 - 핵심 서비스를 위한 애플리케이션 활성화](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)에 설명된 구현 현대화에 따를 경우, Analytics Standard 및 Premium 사용자는 Experience Cloud 및 핵심 서비스를 이용할 수 있습니다. (해당 프로세스는 구현을 현대화하는 데 도움이 되며, Experience Cloud에서 관리자가 될 수 있도록 해줍니다.)
 
-Experience Cloud에 참여하면 [!DNL experience.adobe.com]의 Experience Cloud를 통해 로그인하고 핵심 서비스(고객 속성, 대상 및 모바일 앱 분석 등)를 사용할 수 있습니다.
+Experience Cloud에 참여하면 의 Experience Cloud을 통해 로그인할 수 있습니다. [!DNL experience.adobe.com] 핵심 서비스(고객 속성, 대상 및 모바일 앱 분석 포함)를 사용할 수 있습니다.
 
 ### 사용자 및 그룹 관리
 

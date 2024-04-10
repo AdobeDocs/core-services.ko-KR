@@ -1,17 +1,17 @@
 ---
 description: 교차 애플리케이션 서비스를 위한 Adobe Analytics 및 Adobe Target 애플리케이션을 현대화합니다. Experience Cloud 서비스를 사용하는 방법을 알아봅니다.
 solution: Experience Cloud
-title: 애플리케이션 간 서비스 애플리케이션 활성화
+title: 교차 애플리케이션 서비스용 애플리케이션 활성화
 index: true
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '2191'
-ht-degree: 89%
+source-wordcount: '2181'
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 
 기존 고객은 애플리케이션 구현을 현대화하고 Experience Cloud를 구현할 수 있습니다. 이를 통해 Adobe Analytics, Audience Manager 및 Adobe Target 전반에서 고객 속성 및 대상 기능을 활용할 수 있습니다. 이를 구현하려면 다음 작업을 수행합니다.
 
-1. [Experience Cloud에 참여 및 관리자 되기](#section_2423F0BD3DF642658103310EE5EA6154)
+1. [Experience Cloud 가입 및 관리자 되기](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Experience Cloud ID 서비스 구현](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [보고서 세트를 Experience Cloud 조직에 매핑](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [Analytics AppMeasurement 코드 업데이트](#section_1798D9D0F05C47E29816AC4EEB9A0913)
@@ -46,7 +46,7 @@ Experience Cloud에 참여하기 위해 수행할 작업:
 1. 구현을 현대화하고 관리자가 프로비저닝되도록 합니다.
 
    * [ [!UICONTROL Experience Cloud ID 서비스]](core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) 구현에서 아래 절차를 따르십시오.
-   * 계정 관리자에게 문의하여 Experience Cloud에 대한 프로비저닝 프로세스를 시작합니다.
+   * 계정 관리자에게 문의하여 Experience Cloud을 위한 프로비저닝 프로세스를 시작합니다.
 
 1. [!UICONTROL Admin Console]에서 사용자 및 제품 관리.
 
@@ -60,7 +60,7 @@ Experience Cloud 메뉴 탐색에서 **[!UICONTROL Admin Console]** 링크를 �
 
 ### 사용자 로그인
 
-Experience Cloud에 로그인하려면 귀하의 사용자는
+Experience Cloud에 로그인하려면 사용자가 다음을 수행해야 합니다.
 
 * Adobe ID(또는 회사의 Enterprise ID)가 있어야 합니다.
 * [experience.adobe.com](https://experience.adobe.com)에 로그인합니다.
@@ -73,13 +73,13 @@ Experience Cloud에 로그인하려면 귀하의 사용자는
 
 이러한 그룹을 Experience Cloud 엔터프라이즈 그룹에 매핑하면 그러한 사용자가 해당 애플리케이션 계정 자격 증명을 해당 Adobe ID에 수동으로 링크해야 합니다.
 
-[Experience Cloud에서 계정 연결](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)을 참조하십시오.
+다음을 참조하십시오 [Experience Cloud에서 계정 연결](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)
 
 >[!NOTE]
 >
 >엔터프라이즈 및 애플리케이션 그룹이 매핑되면 새로운 사용자가 자동으로 연결됩니다. (솔루션 자격 증명은 자동으로 만들어지고 해당 Adobe ID에 연결됩니다.)
 
-다음 섹션에서는 구현을 현대화하는 방법을 설명합니다. 구현을 현대화하면 Experience Cloud에서 핵심 서비스가 활성화됩니다.
+다음 섹션에서는 구현을 현대화하는 방법을 설명합니다. 구현을 현대화하면 Experience Cloud에서 핵심 서비스를 사용할 수 있습니다.
 
 ## [!UICONTROL Experience Cloud ID 서비스] 구현 {#section_3C9F6DF37C654D939625BB4D485E4354}
 
@@ -107,7 +107,7 @@ Experience Cloud ID 서비스 설정의 일부로, Analytics 및 [!DNL Target]�
 
 Adobe Target에서 `mbox3rdpartyid`은(는) 고객 ID 를 가져와 [!DNL Target] (으)로 보내야 합니다. ( [!DNL Target]에서 [고객 속성 사용](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=ko-KR) 을 참조하십시오.)
 
-방문자가 사용자의 웹 사이트에서 인증을 받거나 다른 방식으로 식별될 경우, 구현을 통해 페이지나 앱에 해당 개인의 CRM 고객 ID를 노출해야 합니다. 그러면 해당 기능 호출을 사용하여 고객 ID를 Experience Cloud와 동기화할 수 있습니다. 이와 같이 동기화가 진행되면 방문자의 CRM 고객 ID가 Experience Cloud에 저장되고 Experience Cloud에서 사용할 해당 고객의 속성이 활성화됩니다.
+방문자가 사용자의 웹 사이트에서 인증을 받거나 다른 방식으로 식별될 경우, 구현을 통해 페이지나 앱에 해당 개인의 CRM 고객 ID를 노출해야 합니다. 그런 다음 적절한 함수 호출을 사용하여 고객 ID를 동기화하여 Experience Cloud에 사용할 수 있습니다. 이렇게 동기화하면 Experience Cloud에 방문자의 CRM 고객 ID가 저장되고 Experience Cloud에 사용할 해당 고객의 특성이 활성화됩니다.
 
 예를 들어 CRM 시스템에서 Bob의 고객 ID가 `52mc210tr42` 라고 가정해봅시다. Bob이 사용자 사이트에서 인증을 받으면 사용자는 이 ID를 페이지에 제공하고 다음 두 가지 방법 중 하나로 해당 ID를 사용하여 동기화해야 합니다.
 

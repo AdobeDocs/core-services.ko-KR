@@ -1,15 +1,15 @@
 ---
 description: Creative Cloud 브라우저에서 Experience Cloud 폴더로 에셋을 업로드합니다.
-title: Creative Cloud 브라우저에서 공유 폴더로 자산 업로드
+title: Creative Cloud 브라우저에서 공유 폴더로 에셋 업로드
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
-source-git-commit: acdf73ddc3bacbf18c069b7fd6afd935a17003a4
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 81%
+source-wordcount: '73'
+ht-degree: 63%
 
 ---
 

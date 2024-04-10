@@ -2,17 +2,17 @@
 description: Experience Cloud에서 이동, 삭제 및 복원 시 공유 폴더의 동작 방식 규칙에 대해 알아봅니다.
 keywords: 에셋 공유, Creative Cloud, 핵심 서비스
 solution: Experience Cloud
-title: '공유 폴더 동작 '
+title: 공유 폴더 동작
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '623'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '628'
+ht-degree: 99%
 
 ---
 

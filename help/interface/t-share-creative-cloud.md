@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 100%
+source-wordcount: '318'
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ Creative Cloud 사용자와 Experience Cloud 에셋 폴더를 공유합니다.
 
    ![이미지에 주석 추가](assets/asset_comment_cc.png)
 
-   Experience Cloud에서는 이미지를 선택한 후 타임라인 아이콘을 선택하여 이미지에 주석을 추가합니다. 주석은 Creative Cloud 및 Experience Cloud의 에셋에서 동기화됩니다.
+   Experience Cloud에서 이미지를 선택한 다음 타임라인 아이콘을 선택하여 이미지에 주석을 추가합니다. 주석은 Creative Cloud 및 Experience Cloud의 에셋에서 동기화됩니다.
 
    ![이미지에 주석 추가](assets/asset_comment_mac.png)
 

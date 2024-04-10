@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 94%
+source-wordcount: '1122'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->이 기능에 액세스하려면 고객 속성 제품 프로필(고객 속성 - 기본 액세스)에 사용자를 지정해야 합니다. **[!UICONTROL 관리]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 제품]**&#x200B;으로 이동합니다. *고객 속성*&#x200B;이 [!UICONTROL 제품 프로필] 중 하나로 표시되면 작업을 시작할 수 있습니다. 고객 속성 그룹에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!UICONTROL 고객 속성] 메뉴 항목이 표시됩니다.
+>이 기능에 액세스하려면 고객 속성 제품 프로필(고객 속성 - 기본 액세스)에 사용자를 지정해야 합니다. **[!UICONTROL 관리]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 제품]**&#x200B;으로 이동합니다. If *고객 속성* 을 다음 중 하나로 표시합니다. [!UICONTROL 제품 프로필]을(를) 시작합니다. 고객 속성 그룹에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!UICONTROL 고객 속성] 메뉴 항목이 표시됩니다.
 >
 >고객 속성 기능을 사용하려면 사용자가 애플리케이션 수준 그룹(Analytics 또는 [!DNL Target])에도 속해야 합니다.
 
@@ -60,7 +60,7 @@ ht-degree: 94%
 
 ## 속성 소스를 만들고 데이터 파일 업로드 {#task_09DAC0F2B76141E491721C1E679AABC8}
 
-Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한 단계를 수행합니다.
+Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 다음 단계를 수행합니다.
 
 >[!IMPORTANT]
 >
@@ -145,7 +145,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
 ## 구독 구성 및 속성 소스 활성화 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-구독을 구성하면 Experience Cloud와 애플리케이션 간에 데이터 흐름이 설정됩니다. 속성 소스를 활성화하면 데이터가 가입 중인 애플리케이션으로 유입될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 대조됩니다.
+구독을 구성하면 Experience Cloud과 애플리케이션 간에 데이터 흐름이 설정됩니다. 속성 소스를 활성화하면 데이터가 가입 중인 애플리케이션으로 유입될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 대조됩니다.
 
 [구독 구성](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF)을 참조하십시오.
 
@@ -163,7 +163,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 이러한
 
 ![업로드한 속성에 따른 Analytics 세그먼트](assets/08_crs_usecase.png)
 
-Experience Cloud에 게시한 세그먼트는 Experience Cloud Audiences 및 Audience Manager에서 사용할 수 있습니다.
+세그먼트를 Experience Cloud에 게시하면 Experience Cloud 대상 및 Audience Manager에서 사용할 수 있게 됩니다.
 
 ## Adobe Target에서 고객 속성 사용 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 

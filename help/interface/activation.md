@@ -1,17 +1,17 @@
 ---
 description: Experience Platform Launch라고 하는 최신 Tag Management 제품에 대해 알아봅니다.
 solution: Experience Cloud Services
-title: Experience Cloud의 활성화 서비스
+title: Experience Cloud의 Activation Services
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 2d74c6cc78fef614db340cc16a95c603a472907f
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '229'
+ht-degree: 97%
 
 ---
 

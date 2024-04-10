@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
+source-git-commit: 56936fd32f7208fb2a0c4a2abc67d48f30dd788c
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 84%
+source-wordcount: '913'
+ht-degree: 78%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 84%
 
 다음 방법을 설명합니다.
 
-* Experience Cloud에서 회사 프로비저닝.
+* Experience Cloud에서 회사를 프로비저닝합니다.
 * 관리자가 될 수 있도록 설정.
 * [Experience Cloud ID 서비스 구현](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko).
 * 현대화 [!DNL Analytics] 및 [!DNL Target] 를 통한 구현 [!UICONTROL 플랫폼 데이터 수집].
-* 다음과 같은 Experience Cloud 서비스 사용 시작 [!UICONTROL 고객 속성] 및 [!UICONTROL 대상].
+* 다음과 같은 Experience Cloud 서비스 사용 시작 [[!DNL Customer Attributes]](attributes.md) 및 [[!DNL Audience Library]](audience-library.md).
 
 솔루션 또는 서비스:
 
@@ -53,7 +53,7 @@ ID 서비스는 Experience Cloud의 모든 애플리케이션에서 방문자를
 
 도움말: [Audiences](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
 
-Experience Cloud에서 대상자 만들기 및 관리 [!UICONTROL 대상 라이브러리]. 다음과 같은 다양한 소스에서 대상을 만들거나 파생할 수 있습니다.
+Experience Cloud에서 대상 만들기 및 관리 [!UICONTROL 대상 라이브러리]. 다음과 같은 다양한 소스에서 대상을 만들거나 파생할 수 있습니다.
 
 * [!DNL Experience Cloud]에서 대상을 새로 만드는 경우.
 * [!DNL Analytics] 세그먼트를 [!DNL Experience Cloud]에 게시하는 경우.

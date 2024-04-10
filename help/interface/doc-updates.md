@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 8b32f5d688309c01acc5f0618d119f56d339a9e5
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 98%
 
 ---
 
 # 설명서 업데이트 - Experience Cloud
 
 Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
+
+**업데이트 날짜: 2024-04-09**
+
+일반 업데이트.
 
 **업데이트 날짜: 2022년 2월 28일**
 
