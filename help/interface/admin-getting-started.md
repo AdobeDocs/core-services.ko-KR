@@ -11,7 +11,7 @@ exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '1582'
-ht-degree: 74%
+ht-degree: 81%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Experience Platform [!UICONTROL Data Collection]에는 단순화된 범용
 
 관리자는에 대한 변경 사항이나 추가 사항을 볼 수 있습니다. [!DNL Admin Console] 다음과 같이:
 
-* Admin Console의 Adobe Experience Platform 제품 카드에는 다음이 포함됩니다.
+* Admin Console의 Adobe Experience Platform 제품 카드에 포함되는 항목:
 
    * 장소
    * 보증
@@ -104,13 +104,13 @@ Adobe Experience Platform [!UICONTROL Data Collection]에는 단순화된 범용
 
 1. 옵션 중 하나를 선택하면 기존의 랜딩 페이지 경험이 구축됩니다.
 
-1. Adobe 프로필은 각 비즈니스 플랜과 연결되어 있으며 추가 Adobe 클라우드 서비스(Creative Cloud 및 Document Cloud)에서 생성된 에셋을 구성하는 기능을 제공합니다.
+1. Adobe 프로필은 각 비즈니스 플랜과 연결되어 있으며 추가 Adobe Cloud 제품(Creative Cloud 및 Document Cloud)에서 생성된 자산을 구성하는 기능을 제공합니다.
 
 자세한 내용은 [Adobe 프로필 소개](https://helpx.adobe.com/kr/enterprise/kb/introducing-adobe-profiles.html)를 참조하십시오.
 
 ## 제품 프로필이란? {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
-_[!UICONTROL 제품 프로필]_ 는 사용자에게 할당할 수 있는 제품 및 서비스 그룹입니다. Experience Cloud에서 권한은 사용자가 아닌 제품 프로필을 기반으로 합니다. (그러나 특정 사용자에게 관리 권한을 위임할 수 있습니다.)
+_[!UICONTROL 제품 프로필]_&#x200B;은 사용자에게 할당할 수 있는 제품 및 서비스 그룹입니다. Experience Cloud에서 권한은 사용자가 아닌 제품 프로필을 기반으로 합니다. (그러나 특정 사용자에게 관리 권한을 위임할 수 있습니다.)
 
 예를 들면 Analytics에서 보고서 세트, 지표 및 차원과 함께 Analysis Workspace 및 Report Builder와 같은 보고 도구의 컬렉션을 구성할 수 있습니다. 프로필에 사용자를 추가하여 제품 프로필에 대한 권한을 부여할 수 있습니다.
 
@@ -134,7 +134,7 @@ _[!UICONTROL 제품 프로필]_ 는 사용자에게 할당할 수 있는 제품 
 
 * [사용자 관리](https://helpx.adobe.com/kr/enterprise/using/users.html) 위치: [!DNL Admin Console]
 * [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-products.html) 위치: [!DNL Admin Console].
-* 자세한 내용은 Target 도움말의 [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ko)을 참조하십시오.
+* 자세한 내용은 Target 도움말의 [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ko-KR)을 참조하십시오.
 * 비디오: [Adobe에서 Adobe Target 작업 공간을 구성하는 방법 [!DNL Admin Console]](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=ko-KR)
 
 ## 사용자에게 관리자 역할 위임 {#delegate-rights}
@@ -189,15 +189,15 @@ Analytics 사용자 ID 마이그레이션 도구는 Analytics 관리자가 Analy
 **관련 도움말**
 
 * [의 분석 [!DNL Admin Console]](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR)
-* [Analytics 사용자 ID 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=ko)
+* [Analytics 사용자 ID 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=ko-KR)
 
-## Adobe Target 관리 - 제품 프로필과 작업 공간 {#section_3860AF177C9E4C7E9C390D36A414F353}
+## Adobe Target 관리 - 제품 프로필과 작업 영역 비교 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 Adobe Target에서 작업 공간은 제품 프로필입니다. 이를 통해 조직에서는 특정 사용자 세트를 특정 속성 세트에 할당할 수 있습니다. 여러 가지 방식에서 작업 영역은 Adobe Analytics의 보고서 세트와 비슷합니다.
 
 다음을 참조하십시오.
 
-* [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ko)
+* [Enterprise 사용자 권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=ko-KR)
 * [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-products.html)
 * 비디오: [Adobe에서 Adobe Target 작업 공간을 구성하는 방법 [!DNL Admin Console]](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=ko-KR)
 
@@ -221,11 +221,11 @@ Experience Platform [!UICONTROL 데이터 수집]은 [!UICONTROL Admin Console]�
 
 Adobe 엔터프라이즈 고객은 Adobe에서 조직으로 표시됩니다 [!DNL Admin Console]. Experience Manager 고객은 Adobe을 사용할 수 있습니다 [!DNL Admin Console] as a Experience Manager에 대한 제품 자격 및 IMS 인증을 관리하려면 [!UICONTROL Cloud Service].
 
-[Experience Manager as a Cloud Service를 위한 IMS 지원](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=ko)을 참조하십시오.
+[Experience Manager as a Cloud Service를 위한 IMS 지원](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=ko-KR)을 참조하십시오.
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
-Audience Manager 사용자를 만들고 그룹에 지정합니다. 제한(트레이트, 세그먼트, 대상 및 [!DNL AlgoModel])을 볼 수도 있습니다.
+Audience Manager 사용자를 만들고 그룹에 지정합니다. 제한(특성, 세그먼트, 대상 및 [!DNL AlgoModel])을 볼 수도 있습니다.
 
 Audience Manager 도움말의 [관리](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=ko-KR)를 참조하십시오.
 
@@ -237,9 +237,9 @@ Audience Manager 도움말의 [관리](https://experienceleague.adobe.com/docs/a
 * [!DNL Safari]
 * [!DNL Opera]
 
-**참고:** Experience Cloud 인터페이스는 이러한 브라우저를 지원하지만 개별 애플리케이션이 모든 브라우저를 지원하는 것은 아닙니다. (예를 들어 [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=ko)는 [!DNL Opera]를 지원하지 않으며, [!DNL Adobe Target]은 [!DNL Safari]를 지원하지 않습니다.)
+**참고:** Experience Cloud 인터페이스는 이러한 브라우저를 지원하지만 개별 애플리케이션이 모든 브라우저를 지원하는 것은 아닙니다. (예를 들어 [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=ko-KR)는 [!DNL Opera]를 지원하지 않으며, [!DNL Adobe Target]은 [!DNL Safari]를 지원하지 않습니다.)
 
 ### 솔루션 및 제품 요구 사항
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=ko)
-* [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=ko)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=ko-KR)
+* [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=ko-KR)
