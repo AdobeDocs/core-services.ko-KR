@@ -1,7 +1,7 @@
 ---
-description: 고객 속성, 대상자 및 사용자 관리와 같은 Experience Cloud 서비스에 대한 최신 기능, 릴리스 정보 및 알려진 문제에 대해 알아봅니다.
+description: Customer Attributes, 대상자 및 사용자 관리와 같은 Experience Cloud 서비스에 대한 최신 기능, 릴리스 정보 및 알려진 문제에 대해 알아보십시오.
 solution: Experience Cloud
-title: Experience Cloud 인터페이스에 대한 누적 릴리스 노트
+title: Experience Cloud 인터페이스의 누적 릴리스 정보
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature-set: Experience Cloud
 feature: Release Notes
@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4735'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -154,7 +154,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 **수정 사항**
 
-* **고객 속성:** 이제 고객 속성 UI에 타겟에서 동기화된 프로필의 추가 상태가 표시됩니다. (MCUI-10231)
+* **고객 속성:** 이제 고객 속성 UI에 Target에서 동기화된 프로필의 추가 상태가 표시됩니다. (MCUI-10231)
 * **핵심 서비스 트리거:** 사용 부족으로 중단 유형 트리거를 만들 때 성향 점수 “30일 후에 반환될 가능성”이 제거되었습니다. (MCUI-10056)
 
 ## 2020년 1월
@@ -200,7 +200,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>피드 개선 사항 </p> </td> 
-   <td colname="col2"> <p> Experience Cloud 피드에서 게시물을 만들 때, 이제 대상 줄에서 기본으로 조직 대신에 현재 활성화된 주제를 사용합니다.</p> </td> 
+   <td colname="col2"> <p> Experience Cloud 피드에서 게시물을 만들 때, 이제 대상자 줄에서 기본으로 조직 대신에 현재 활성화된 주제를 사용합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -259,14 +259,14 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 **알려진 문제**
 
-* 고객이 Experience Cloud을 통해 Analytics에 SSO하는 경우 Report Builder에 로그인할 수 없습니다. 이 문제는 이전 Analytics 자격 증명을 사용하는 고객에게 영향을 주지 않습니다.
-* Analytics의 “보고서에 대한 링크” 기능에서 알려진 문제입니다. Experience Cloud을 통해 Analytics에 로그인한 고객은 보고서를 공유하려고 할 때 Analytics의 SSO 이외 로그인 페이지로 이동됩니다.
+* 고객이 Experience Cloud를 통해 Analytics에 SSO(Single Sign-On)하는 경우 Report Builder에 로그인할 수 없습니다. 이 문제는 이전 Analytics 자격 증명을 사용하는 고객에게 영향을 주지 않습니다.
+* Analytics의 “보고서에 대한 링크” 기능에서 알려진 문제입니다. Experience Cloud를 통해 Analytics에 로그인한 고객은 보고서를 공유하려고 할 때 Analytics의 SSO 이외 로그인 페이지로 이동됩니다.
 
 ## 릴리스 15.9 - 2015년 9월 10일 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
 * 고객 속성 데이터를 업로드할 때 간혹 시간 초과를 초래하는 Audience Manager API 성능 문제를 해결했습니다. (MAC-26305)
 * 사용자가 구독에 최대 200개의 고객 속성을 추가하지 못하던 문제를 해결했습니다. (MAC-26188)
-* Analytics 세분화에서 대상자 공유를 방해했던 대상자 라이브러리 문제를 해결했습니다. 이 문제로 인해 “데이터 수집” (대상자 0)이 표시되었습니다. 이 문제를 방지하려면 세그먼트 크기를 세그먼트당 대상자 구성원 수를 5만 명 미만으로 유지하는 것이 좋습니다. (MAC-25788)
+* Analytics 세분화에서 대상자 공유를 방해했던 대상자 라이브러리 문제를 해결했습니다. 이 문제로 인해 “데이터 수집”(대상자 0)이 표시되었습니다. 이 문제를 방지하려면 세그먼트 크기를 세그먼트당 대상자 멤버 수를 5만 명 미만으로 유지하는 것이 좋습니다. (MAC-25788)
 * 고객 속성 - 스키마 편집 페이지에서 디스플레이 이름을 변경하면 발생하는 내용 인식 오류를 초래하는 이전에 알려진 문제를 해결했습니다. (MAC-25589, AN-103834)
 
 ## 릴리스 15.7 - 2015년 7월 22일 {#section_2683A152176944E48EF6C943892975B7}
@@ -279,7 +279,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 **알려진 문제**
 
-알려진 문제는 Audience Manager에 자동으로 생성된 계정이 중복 생성되고 자동으로 사용자의 Experience Cloud ID에 연결되는 문제입니다. 이 문제는 계정에 연결하기 전에 Audience Manager로 이동을 시도하면 발생합니다. Adobe은 Audience Manager으로 이동하기 전에 Audience Manager 계정을 Experience Cloud에 연결할 것을 권장합니다. (MAC-25640)
+알려진 문제는 Audience Manager에 자동으로 생성된 계정이 중복 생성되고 자동으로 사용자의 Experience Cloud ID에 연결되는 문제입니다. 이 문제는 계정에 연결하기 전에 Audience Manager로 이동을 시도하면 발생합니다. Adobe에서는 Audience Manager로 이동하기 전에 Audience Manager 계정을 Experience Cloud에 연결하는 것을 권장합니다. (MAC-25640)
 
 ## 릴리스 15.6.1 - 2015년 6월 11일 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
@@ -338,7 +338,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 **알려진 문제**
 
-* Dynamic Tag Management 조직을 Experience Cloud과 연결 및 연결 해제는 새로 생성된 Experience Cloud 조직에서 작동하지 않습니다. Adobe는 5월 릴리스에서 이 문제를 해결하고 정상적인 기능을 회복할 수 있도록 노력하고 있습니다. Experience Cloud을 통해 Dynamic Tag Management에 SSO(Single Sign-On)를 하려 할 때 문제가 발생하는 경우, 다음의 기존 로그인을 사용하십시오. [!DNL dtm.adobe.com].
+* Dynamic Tag Management 조직을 Experience Cloud와 연결 및 연결 해제 기능이 새 Experience Cloud 조직에서 작동하지 않습니다. Adobe는 5월 릴리스에서 이 문제를 해결하고 정상적인 기능을 회복할 수 있도록 노력하고 있습니다. Experience Cloud를 통해 Dynamic Tag Management에 SSO(Single Sign-On)를 하려 할 때 문제가 발생하는 경우, [!DNL dtm.adobe.com]에서 기존 로그인을 사용하십시오.
 * 알려진 문제로 인해 연결된 Analytics 계정이 소유하지 않은 보고서 세트에서는 대상자 공유가 되지 않고 있습니다. 해결하기 위한 노력이 진행 중입니다.
 
 ## 릴리스 15.3.2 - 2015년 3월 19일 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
@@ -374,7 +374,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>일대다 매핑 </p> </td> 
-   <td colname="col2"> <p>이제 Experience Cloud에서 애플리케이션 계정을 연결할 때 애플리케이션과 조직이 여러 개 있으면 여러 제품 및 서비스를 하나의 조직에 매핑할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>이제 Experience Cloud에서 애플리케이션 계정을 연결할 때, 애플리케이션과 조직이 여러 개 있으면 여러 제품 및 서비스를 하나의 조직에 매핑할 수 있습니다. </p> </td> 
   </tr> 
     <tr> 
    <td colname="col1"> <p>설명서 업데이트 - 핵심 서비스 </p> </td> 
@@ -423,13 +423,13 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 사용자 관리에서 수행한 그룹 및 자격 변경 사항은 새로 로그인해야 적용됩니다.
 * 일부 사용자의 경우 대용량 파일 형식을 Experience Cloud Assets에 업로드할 때 문제가 발생할 수 있습니다.
 * Advertising Cloud에서 사용자의 Experience Cloud 카드에 대한 링크가 누락될 수 있습니다.
-* 일부 관리자는 Experience Cloud 가입 초대를 수락한 후 자신의 계정을 연결할 때 문제가 발생할 수 있습니다.
+* 일부 관리자는 Experience Cloud 가입 초대장을 승인한 후 자신의 계정을 연결할 때 문제가 발생할 수 있습니다.
 * Experience Cloud 인터페이스는 여러 사용자가 동시에 사용하는 경우 성능이 저하될 수 있습니다.
 * 일부 사용자는 오류 알림을 받는 대신 오래된 자산을 삭제할 수 있습니다.
 * 일부 사용자는 동일한 Adobe ID로 동시에 두 개의 브라우저에 로그인할 때 문제가 발생할 수 있습니다.
 * 일부 사용자는 Creative Cloud 사용자가 삭제된 후 Creative Cloud 사용자를 다시 공유 폴더에 추가하지 못할 수 있습니다.
-* 일부 사용자는 폴더가 Experience Cloud에서 Creative Cloud으로 공유될 때 발생하는 알림이 지연될 수 있습니다.
-* 일부 사용자는 Experience Cloud과 Creative Cloud 간에 폴더를 공유할 때 문제가 발생할 수 있습니다.
+* 일부 사용자는 폴더를 Experience Cloud에서 Creative Cloud로 공유하면 발생하는 알림이 지연될 수 있습니다.
+* 일부 사용자는 Experience Cloud와 Creative Cloud 간에 폴더를 공유할 때 문제가 발생할 수 있습니다.
 * 일부 사용자는 공유된 Audiences가 활성화되면 Analytics 리포트 빌더 내에 대상자를 만들 때 문제가 발생할 수 있습니다.
 * 보드에 업로드하는 중 일부 사용자에게 문제가 발생할 수 있습니다.
 

@@ -6,9 +6,9 @@ title: Experience Cloud 인터페이스 및 관리 안내서
 description: Experience Cloud 인터페이스 및 사용자 계정 환경 설정에 대해 알아봅니다. 비즈니스 오브젝트를 검색하고 사용자 및 제품을 관리하는 방법에 대해 알아봅니다. 고객 속성, 대상자 라이브러리, 쿠키를 구성하고 Experience Cloud 자산을 공유하십시오.
 index: true
 source-git-commit: 064f3c981b921fd5aec9b252b839d8b7f59b3dee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 94%
       + [스키마 업데이트](t-update-schema.md)
       + [개인정보 보호 규정 지원](gdpr.md)
       + [캘리포니아 소비자 개인정보 보호법 지원](ccpa.md)
-      + [고객 속성에 대한 개인정보 보호 고려 사항](privacy-mac.md)
+      + [Customer Attributes에 대한 개인정보 보호 고려 사항](privacy-mac.md)
    + Experience Cloud Assets {#assets}
       + [Experience Cloud 자산 개요](experience-cloud-assets.md)
       + [Creative Cloud와 Experience Cloud 폴더 및 자산 공유](creative-cloud.md)
