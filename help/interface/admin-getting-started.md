@@ -231,7 +231,7 @@ Audience Manager 도움말의 [관리](https://experienceleague.adobe.com/docs/a
 
 ## Experience Cloud에서 지원되는 브라우저
 
-* [!DNL Microsoft® Edge](Microsoft®는 Internet Explorer 8, 9 및 10에 대한 [지원을 종료](https://www.microsoft.com/ko-kr/WindowsForBusiness/End-of-IE-support)했습니다. 따라서 Adobe는 이러한 버전의 Internet Explorer에 대해 보고된 문제는 수정하지 않습니다.)
+* [!DNL Microsoft® Edge] (Microsoft®는 Internet Explorer 8, 9 및 10에 대한 [지원을 종료](https://www.microsoft.com/ko-kr/WindowsForBusiness/End-of-IE-support)했습니다. 따라서 Adobe는 이러한 버전의 Internet Explorer에 대해 보고된 문제는 수정하지 않습니다.)
 * [!DNL Google Chrome]
 * [!DNL Firefox]
 * [!DNL Safari]

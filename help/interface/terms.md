@@ -31,7 +31,7 @@ Experience Cloud 사용자를 위한 용어 참조 및 Creative Cloud에서 그�
 | 데이터 사용 적용 | 특별한 용도는 없습니다. | 데이터 사용 시 Adobe 기업 개인정보 처리방침, 계약 고려 사항 및 일반 개인정보 보호 원칙을 준수할 수 있도록 데이터 사용 메타데이터를 사용하기 위해 시스템(애플리케이션, 앱, 서비스, SDK, API 등)을 통해 제정되고 정의된 정책, 시스템 디자인, 관행 및 절차. |
 | 디바이스 | 특별한 용도는 없습니다. | 애플리케이션이 실행되는 태블릿, 휴대폰 또는 데스크탑 등의 하드웨어 디바이스. |
 | Device Co-op | 특별한 용도는 없습니다. | 디바이스 간에 개인을 더 잘 식별하고 더 의미 있고 일관된 환경을 제공하기 위해 소비자가 사용하는 디바이스에 대한 데이터를 공유하는 데 동의한 브랜드 그룹. |
-| [!UICONTROL Experience Cloud ID 서비스](ECID) | 특별한 용도는 없습니다. | 사이트 방문자에게 지정된 고유한 영구 ID. Experience Platform ID 서비스에서 사용할 수 있는 특정 엔티티입니다. [자세히...](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko) |
+| [!UICONTROL Experience Cloud ID 서비스] (ECID) | 특별한 용도는 없습니다. | 사이트 방문자에게 지정된 고유한 영구 ID. Experience Platform ID 서비스에서 사용할 수 있는 특정 엔티티입니다. [자세히...](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko) |
 | [!UICONTROL Experience Platform ID 서비스] | 특별한 용도는 없습니다. | ID를 연결하는 서비스입니다. 사람 기반의 경험 관리를 위한 디바이스 연결 서비스입니다. |
 | 연결 | 특별한 용도는 없습니다. 연결은 하이퍼링크 탐색 및 글꼴, 속성, 레이어 등의 항목 연결을 나타냅니다. | Experience Cloud에서 연결은 일반적으로 서로 다른 애플리케이션 계정을 인터페이스에 연결하는 것을 말합니다.<br> [조직 및 계정 연결](organizations.md)을 참조하십시오.<br>또한 다른 사용자에게 전송된 Analytics 보고서에 대한 표준 URL을 연결이라고도 합니다. |
 | 위치 | Creative Cloud에서 위치는 파일 위치 또는 열린 이미지나 문서의 위치를 나타냅니다. | Experience Cloud에서 위치는 대상자가 콘텐츠를 보고 상호 작용할 수 있는 장소입니다. 위치와 콘텐츠 간의 연관성이 다소 정적이거나 캠페인 규칙에 따라 동적으로 관리할 수 있습니다. 위치는 콘텐츠를 게재할 수 있는 방법 및 지표를 수집할 수 있는 방법을 결정하는 특정 채널에 항상 속합니다.<br>해당 예는 다음과 같습니다.<ul><li>사이트</li><li>속성(소셜)</li><li>인벤토리 표시</li><li>랜딩 페이지</li><li>모바일 애플리케이션</li><li>슬롯(비디오)</li></ul> |
