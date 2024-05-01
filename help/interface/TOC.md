@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud 인터페이스 및 관리 안내서
 title: Experience Cloud 인터페이스 및 관리 안내서
 description: Experience Cloud 인터페이스 및 사용자 계정 환경 설정에 대해 알아봅니다. 비즈니스 오브젝트를 검색하고 사용자 및 제품을 관리하는 방법에 대해 알아봅니다. 고객 속성, 대상자 라이브러리, 쿠키를 구성하고 Experience Cloud 자산을 공유하십시오.
 index: true
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 85%
+source-wordcount: '227'
+ht-degree: 80%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 85%
 
 + [Experience Cloud 중앙 인터페이스 구성 요소 안내서](experience-cloud.md)
 
-+ Experience Cloud 서비스 {#services}
-   + [Experience Cloud 서비스](services/overview.md)
++ 서비스 {#services}
+   + [개요](services/overview.md)
    + [시작하기](services/getting-started.md)
    + 자산 {#assets}
-      + [Experience Cloud 자산 개요](services/assets/experience-cloud-assets.md)
-      + [Creative Cloud와 Experience Cloud 폴더 및 자산 공유](services/assets/creative-cloud.md)
+      + [개요](services/assets/experience-cloud-assets.md)
+      + [Creative Cloud과 폴더 및 에셋 공유](services/assets/creative-cloud.md)
       + [Creative Cloud 사용자 관리](services/assets/manage-cc-users.md)
-      + [Experience Cloud 자산 폴더 공유](services/assets/share.md)
+      + [에셋 폴더 공유](services/assets/share.md)
       + [공유 폴더에 자산 업로드](services/assets/upload.md)
       + [공유를 위한 자산 파일 요구 사항](services/assets/file-reqs.md)
       + [공유 폴더 비헤이비어](services/assets/behavior.md)
@@ -46,17 +46,17 @@ ht-degree: 85%
       + [Customer Attributes에 대한 개인정보 보호 고려 사항](services/customer-attributes/privacy-mac.md)
    + [트리거](services/triggers.md)
 
-+ Experience Cloud 기능 {#features}
++ 기능 {#features}
    + [계정 환경 설정](features/account-preferences.md)
    + [통합 검색](features/search.md)
    + [개인화된 학습](features/personalized-learning.md)
 
-+ Experience Cloud 관리 {#administration}
-   + [Experience Cloud 사용자 세부 사항 보기(관리 도구)](administration/admin-tool-experience-cloud.md)
++ 관리 {#administration}
+   + [사용자 세부 사항 보기(관리 도구)](administration/admin-tool-experience-cloud.md)
    + [조직 및 계정 연결](administration/organizations.md)
-   + [Experience Cloud 통합](administration/integrations.md)
+   + [통합](administration/integrations.md)
 
-+ Experience Cloud 데이터 수집 {#data-collection}
++ 데이터 수집 {#data-collection}
    + [Adobe 관리 인증서 프로그램](data-collection/adobe-managed-cert.md)
    + [IP 주소](data-collection/ip-addresses.md)
    + [도메인](data-collection/domains.md)

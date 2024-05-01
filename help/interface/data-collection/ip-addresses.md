@@ -1,15 +1,15 @@
 ---
-title: Adobe Experience Cloud IP 주소
+title: Adobe Experience Cloud에서 사용하는 IP 주소
 description: 조직 방화벽이 Adobe에서 생성하는 IP 주소를 차단하는 경우 이 목록을 사용하여 방화벽 설정을 업데이트하십시오.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: df91266d6a15c74e3f110050338498062cc34058
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 27%
+source-wordcount: '373'
+ht-degree: 24%
 
 ---
 
-# Adobe Experience Cloud IP 주소 및 도메인
+# Adobe Experience Cloud에서 사용하는 IP 주소
 
 일부 방화벽 구성은 Adobe 데이터 수집 서버나 데이터에 액세스하는 서버에서 오는 IP 주소를 차단합니다. 이 범위 목록을 사용하여 액세스를 허용하고 조직 내에서 데이터를 보내도록 조직의 방화벽 설정을 변경할 수 있습니다. 이 페이지에는 Adobe이 사용하는 인바운드 시스템(예: 데이터 수집)과 아웃바운드 시스템(예: Adobe Analytics의 데이터 피드)이 모두 포함되어 있습니다.
 
@@ -17,17 +17,16 @@ ht-degree: 27%
 >
 >Adobe은 이 문서를 최신 상태로 유지하기 위해 최선을 다하고 있지만 IP 범위 목록이 동일하게 유지된다고 보장하지는 못합니다. 비즈니스의 성장 및 확장과 같은 변경 가능성이 있을 수 있으며, 인터넷 레지스트리에서 Adobe의 IP 주소 공간을 변경해야 하거나, 인터넷 서비스 공급자가 제대로 작동하지 않을 수 있습니다.
 
-아래 나열된 IP 주소 블록 외에도 개별 Adobe Experience Cloud 제품에는 다음과 같은 자체 도메인이 사용됩니다.
+아래에 나열된 IP 주소 블록 외에도 개별 Adobe Experience Cloud 제품에는 사용하는 자체 IP 주소가 있습니다.
 
-* [Adobe Experience Cloud](domains.md)
-* Adobe Analytics
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * Customer Journey Analytics
 
 ## 모든 Adobe IP 주소 블록
 
 다음 표에는 모든 Adobe 소유 IP 주소가 나와 있습니다. 이 표에는 전 세계 Adobe에서 운영하는 모든 Adobe 직원 사무실 및 데이터 센터가 포함되어 있습니다. 퍼블릭 클라우드에서 호스팅되는 서비스는 포함되지 않습니다.
 
-| IP 블록 (CIDR 표기법) |
+| IP 블록(CIDR 표기법) |
 | --- |
 | `63.140.32.0/19` |
 | `66.117.16.0/20` |
@@ -48,7 +47,7 @@ ht-degree: 27%
 
 이 섹션의 모든 IP 범위는 위 표에 포함되어 있습니다.
 
-| 위치 | IP 범위 (CIDR 표기법) |
+| 위치 | IP 범위(CIDR 표기법) |
 | --- | --- |
 | 오스트레일리아 | `63.140.55.0/24` |
 | 오스트레일리아 | `63.140.56.0/23` |
