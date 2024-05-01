@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: a15918f0-c03b-4d32-a254-47f46023b127
-source-git-commit: df91266d6a15c74e3f110050338498062cc34058
+source-git-commit: db363c7f35dbd475548af5cbae2977ebf7a9c672
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 17%
 
 ---
@@ -19,8 +19,8 @@ Experience Cloud은 다음 호스트를 사용하여 애플리케이션을 제�
 
 아래 나열된 도메인 외에도 개별 Adobe Experience Cloud 제품에는 다음과 같은 도메인을 사용하는 것이 있습니다.
 
-* Adobe Analytics
-* Customer Journey Analytics
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
 
 | 기술 | 도메인 |
 | --- | --- |
