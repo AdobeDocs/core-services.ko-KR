@@ -1,8 +1,7 @@
 ---
 title: Adobe Experience Cloud에서 사용하는 IP 주소
 description: 조직 방화벽이 Adobe에서 생성하는 IP 주소를 차단하는 경우 이 목록을 사용하여 방화벽 설정을 업데이트하십시오.
-exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: db363c7f35dbd475548af5cbae2977ebf7a9c672
+source-git-commit: 6ef38a303e19f5b18be9e61819d3aff03faeedd4
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 24%
