@@ -8,7 +8,7 @@ index: true
 source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 80%
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 80%
       + [공유 폴더에 자산 업로드](services/assets/upload.md)
       + [공유를 위한 자산 파일 요구 사항](services/assets/file-reqs.md)
       + [공유 폴더 비헤이비어](services/assets/behavior.md)
-   + 대상 라이브러리 {#audiences}
+   + 대상자 라이브러리 {#audiences}
       + [개요](services/audiences/overview.md)
       + [대상자 만들기](services/audiences/create.md)
    + [Exchange](services/exchange.md)
@@ -49,7 +49,7 @@ ht-degree: 80%
 + 기능 {#features}
    + [계정 환경 설정](features/account-preferences.md)
    + [통합 검색](features/search.md)
-   + [개인화된 학습](features/personalized-learning.md)
+   + [맞춤형 학습](features/personalized-learning.md)
 
 + 관리 {#administration}
    + [사용자 세부 사항 보기(관리 도구)](administration/admin-tool-experience-cloud.md)
@@ -62,7 +62,7 @@ ht-degree: 80%
    + [도메인](data-collection/domains.md)
    + 쿠키 {#cookies}
       + [쿠키 개요](data-collection/cookies/overview.md)
-      + [광고 쿠키](data-collection/cookies/advertising.md)
+      + [Advertising 쿠키](data-collection/cookies/advertising.md)
       + [Analytics 쿠키](data-collection/cookies/analytics.md)
       + [Audience Manager 쿠키](data-collection/cookies/audience-manager.md)
       + [Experience Cloud 쿠키](data-collection/cookies/experience-cloud.md)
