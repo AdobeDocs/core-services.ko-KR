@@ -6,9 +6,9 @@ title: Experience Cloud 인터페이스 및 관리 안내서
 description: Experience Cloud 인터페이스 및 사용자 계정 환경 설정에 대해 알아봅니다. 비즈니스 오브젝트를 검색하고 사용자 및 제품을 관리하는 방법에 대해 알아봅니다. 고객 속성, 대상자 라이브러리, 쿠키를 구성하고 Experience Cloud 자산을 공유하십시오.
 index: true
 source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 92%
    + [시작하기](services/getting-started.md)
    + 자산 {#assets}
       + [개요](services/assets/experience-cloud-assets.md)
-      + [Creative Cloud과 폴더 및 에셋 공유](services/assets/creative-cloud.md)
+      + [Creative Cloud와 폴더 및 자산 공유](services/assets/creative-cloud.md)
       + [Creative Cloud 사용자 관리](services/assets/manage-cc-users.md)
-      + [에셋 폴더 공유](services/assets/share.md)
+      + [자산 폴더 공유](services/assets/share.md)
       + [공유 폴더에 자산 업로드](services/assets/upload.md)
       + [공유를 위한 자산 파일 요구 사항](services/assets/file-reqs.md)
       + [공유 폴더 비헤이비어](services/assets/behavior.md)
@@ -52,7 +52,7 @@ ht-degree: 92%
    + [맞춤형 학습](features/personalized-learning.md)
 
 + 관리 {#administration}
-   + [사용자 세부 사항 보기(관리 도구)](administration/admin-tool-experience-cloud.md)
+   + [사용자 세부 정보 보기 (관리 도구)](administration/admin-tool-experience-cloud.md)
    + [조직 및 계정 연결](administration/organizations.md)
    + [통합](administration/integrations.md)
 
