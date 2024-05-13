@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 0724136e77d6fe1341a64aea75051127956df3b2
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 69%
+ht-degree: 64%
 
 ---
 
@@ -27,7 +27,7 @@ An *조직* (조직 ID)는 관리자가 그룹과 사용자를 구성하고, Exp
 
 ## Federated ID
 
-조직이 Federated ID를 사용하는 경우 Experience Cloud를 통해 주소 및 암호를 입력할 필요 없이 조직의 SSO(Single Sign-On)로 로그인할 수 있습니다. 이 작업을 수행하려면 `#/sso:@domain`을 Experience Cloud URL(`https://experience.adobe.com`)에 추가하십시오.
+조직이 Federated ID를 사용하는 경우 Experience Cloud를 통해 이메일 주소 및 암호를 입력할 필요 없이 조직의 SSO(Single Sign-On)로 로그인할 수 있습니다. 이 작업을 수행하려면 `#/sso:@domain`을 Experience Cloud URL(`https://experience.adobe.com`)에 추가하십시오.
 
 예를 들어 조직에 Federated ID와 도메인 `adobecustomer.com`가 있는 경우 URL 링크를 `https://experience.adobe.com/#/sso:@adobecustomer.com`로 설정합니다. 애플리케이션 경로가 첨부된 이 URL을 책갈피로 지정하여 바로 특정 애플리케이션으로 이동할 수도 있습니다. (예: Adobe Analytics의 경우 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
@@ -45,7 +45,7 @@ An *조직* (조직 ID)는 관리자가 그룹과 사용자를 구성하고, Exp
 
    ![할당된 조직 ID](../assets/assigned-organization.png)
 
-1. 아래 **[!UICONTROL 사용자 정보]**&#x200B;를 찾습니다. **[!UICONTROL 현재 조직 ID]**&#x200B;조직 ID가 표시됩니다.
+1. 아래 **[!UICONTROL 사용자 정보]**&#x200B;를 찾습니다. **[!UICONTROL 현재 조직 ID]**&#x200B;조직 ID를 찾을 수 있습니다.
 
    또는 관리자가 Admin Console에 로그인할 수 있습니다( 다음으로 이동). [https://adminconsole.adobe.com](https://adminconsole.adobe.com))을 클릭하여 URL에서 조직 ID를 볼 수 있습니다.
 
@@ -87,7 +87,7 @@ An *조직* (조직 ID)는 관리자가 그룹과 사용자를 구성하고, Exp
 
 ![프로필 편집](../assets/edit-profile.png)
 
-기본 조직 및 랜딩 페이지에서 로그인 경험을 사용자 지정할 수 있습니다.
+아래 **[!UICONTROL 기본 조직 및 랜딩 페이지]**, 로그인 경험을 사용자 지정할 수 있습니다.
 
 ![기본 조직 및 랜딩 페이지](../assets/default-organization.png)
 
