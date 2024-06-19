@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: e7c4085f41c674826ddc097a01a24ff9ab6aae2c
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '379'
 ht-degree: 16%
 
 ---
@@ -28,6 +28,7 @@ Analytics는 쿠키를 사용하여 새로운 방문자를 익명으로 정의�
 | **`s_sq`** | Session | 100-200바이트 | 자사 | Activity Map에서 사용됩니다. 여기에는 방문자가 클릭한 이전 링크에 대한 정보가 포함되어 있습니다. JavaScript로 설정됩니다. |
 | **`s_vi`** | 2년 | 44바이트 | 자사 또는 `*.omtrdc.net` (타사) | 고유 방문자 ID 및 타임스탬프를 저장합니다. HTTP 응답으로 설정됩니다. 각 방문자 ID는 Adobe 서버의 방문자 프로필과 연결됩니다. 방문자 프로필은 모든 방문자 ID 쿠키 만료와 관계없이 비활성 기간 1년 후 삭제됩니다. 다음 `Secure` 플래그가 다음과 같이 설정됩니다. `SameSite` 은 &quot;없음&quot;이고 연결은 HTTPS입니다. `SameSite` 은 기본적으로 자사 쿠키에 대해 &quot;Lax&quot;입니다. `SameSite` 과 같은 서드파티 쿠키를 사용할 때 는 &quot;없음&quot;입니다. `omtrdc.net` 또는 `2o7.net`. 설정 `SameSite` 단일 CNAME을 사용하여 여러 도메인 또는 속성을 추적할 때 &quot;없음&quot;으로 변경됩니다. |
 | **`s_fid`** | 2년 | 33바이트 | 자사 | 대체 고유 방문자 ID 및 타임스탬프를 저장합니다. 표준인 경우 JavaScript로 설정 `s_vi` 쿠키는 서드파티 쿠키 제한 사항으로 인해 설정할 수 없습니다. 자사 쿠키 구현에 사용되지 않습니다. |
+| **`s_ac`** | 즉각적인 상태가 됨 | 1바이트 | 자사 | AppMeasurement 쿠키를 설정할 올바른 도메인을 확인하는 데 도움이 됩니다. 정적 값 포함 `"1"`. 이 쿠키가 설정되면 즉시 삭제됩니다. |
 
 {style="table-layout:auto"}
 
