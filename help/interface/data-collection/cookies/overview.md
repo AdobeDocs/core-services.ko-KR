@@ -2,13 +2,13 @@
 description: Adobe Experience Cloud의 솔루션 및 서비스에서 쿠키가 사용되는 방법을 알아봅니다.
 title: Experience Cloud에서 쿠키를 사용하는 방법
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
+source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 58%
 
 ---
-
 
 # Experience Cloud에 사용된 쿠키
 
@@ -22,10 +22,10 @@ Adobe Experience Cloud에 포함된 대부분의 서비스에서 쿠키를 사�
 
 Adobe Experience Cloud 서비스는 쿠키를 사용하여 이미지 요청과 브라우저 세션 간에 지속되지 않는 변수 및 구성 요소에 대한 정보를 제공합니다. 가능한 경우, Adobe은 자사 쿠키를 사용하여 사이트의 활동을 기록합니다. 소유한 다른 도메인과 같은 다른 사이트에서의 활동을 기록하려면 서드파티 쿠키가 필요합니다.
 
-대부분의 브라우저 및 안티스파이웨어 애플리케이션은 서드파티 쿠키를 거부하고 삭제하도록 설계되었습니다. Adobe은 서드파티 쿠키가 차단된 경우에도 쿠키를 항상 설정할 수 있도록 합니다. 특정 비헤이비어는 Experience Platform ID 서비스(ECID 서비스) 또는 Analytics 레거시 식별자(예: `s_vi` cookie):
+대부분의 브라우저 및 안티스파이웨어 애플리케이션은 서드파티 쿠키를 거부하고 삭제하도록 설계되었습니다. Adobe은 서드파티 쿠키가 차단된 경우에도 쿠키를 항상 설정할 수 있도록 합니다. 특정 동작은 Experience Platform ID 서비스(ECID 서비스) 또는 Analytics 레거시 식별자(`s_vi` 쿠키 등)의 사용 여부에 따라 다릅니다.
 
-* 다음 [Experience Platform ID 서비스(ECID 서비스)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko-KR) 수집 도메인과 사이트 도메인의 일치 여부와 관계없이 자사 쿠키를 자동으로 설정합니다. 일치하지 않는 경우 ID 서비스는 JavaScript를 사용하여 사이트의 도메인에 쿠키를 설정합니다.
-* 를 사용하는 경우 [Analytics 레거시 식별자](analytics.md) (예: `s_vi` cookie), 데이터 수집 서버를 구성한 방식에 따라 다릅니다. 데이터 수집 서버가 사이트의 도메인과 일치하면, 쿠키는 자사 쿠키로 설정됩니다. 수집 서버가 현재 도메인과 일치하지 않으면, 쿠키는 서드파티로 설정됩니다. 이 경우, 서드파티 쿠키가 차단되면 Analytics는 자사 대체 ID( )를 설정합니다.`s_fid`표준 대신 `s_vi` 쿠키.
+* [Experience Platform ID 서비스(ECID 서비스)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko-KR)는 수집 도메인과 사이트 도메인의 일치 여부와 관계없이 자사 쿠키를 자동으로 설정합니다. 일치하지 않는 경우 ID 서비스는 JavaScript을 사용하여 사이트의 도메인에 쿠키를 설정합니다.
+* [Analytics 레거시 식별자](analytics.md)(예: `s_vi` 쿠키)을 사용하는 경우 데이터 수집 서버를 구성한 방식에 따라 다릅니다. 데이터 수집 서버가 사이트의 도메인과 일치하면, 쿠키는 자사 쿠키로 설정됩니다. 수집 서버가 현재 도메인과 일치하지 않으면, 쿠키는 서드파티로 설정됩니다. 이 경우, 서드파티 쿠키가 차단되면 Analytics는 표준 `s_vi` 쿠키 대신 자사 대체 ID(`s_fid`)를 설정합니다.
 
 수집 서버가 사이트의 도메인과 일치하는지 확인하려면 CNAME 구현을 사용하여 CNAME 구현에 지정된 사용자 지정 도메인에서 Adobe의 수집 서버로 전달할 수 있습니다. 이 작업에는 Adobe 호스트 도메인을 가리키도록 CNAME 별칭을 구성하기 위한 회사 DNS 설정의 변경도 관련되어 있습니다. 다양한 Adobe 제품이 CNAME 사용을 지원하며, 모든 경우에 CNAME는 특정 고객에 대해 신뢰할 수 있는 자사 엔드포인트를 만드는 데 사용되고, 해당 고객이 소유합니다. 여러 도메인을 제어하는 경우 도메인 간 사용자를 추적하기 위해 단일 CNAME 엔드포인트를 사용할 수 있지만, 사이트 도메인이 CNAME 도메인 쿠키와 일치하지 않으면 모두 서드파티로 설정됩니다.
 

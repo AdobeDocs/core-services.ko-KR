@@ -1,7 +1,7 @@
 ---
 description: Experience Cloud와 Creative Cloud 간에 폴더 및 에셋을 공유하는 방법을 알아봅니다.
 solution: Experience Cloud
-title: Creative Cloud과 Experience Cloud 폴더 및 에셋 공유
+title: Creative Cloud과 Experience Cloud 폴더 및 Assets 공유
 feature: Assets
 topic: Administration
 role: Admin

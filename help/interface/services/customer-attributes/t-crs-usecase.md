@@ -1,7 +1,7 @@
 ---
 description: 고객 속성 소스를 만들고 Adobe Experience Cloud에 업로드합니다.
 solution: Experience Cloud
-title: 고객 속성 소스를 만들고 데이터 파일 업로드
+title: 고객 속성 Source 만들기 및 데이터 파일 업로드
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->이 기능에 액세스하려면 고객 속성 제품 프로필(고객 속성 - 기본 액세스)에 사용자를 지정해야 합니다. **[!UICONTROL 관리]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 제품]**&#x200B;으로 이동합니다. If *고객 속성* 을 다음 중 하나로 표시합니다. [!UICONTROL 제품 프로필]을(를) 시작합니다. 고객 속성 그룹에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!UICONTROL 고객 속성] 메뉴 항목이 표시됩니다.
+>이 기능에 액세스하려면 고객 속성 제품 프로필(고객 속성 - 기본 액세스)에 사용자를 지정해야 합니다. **[!UICONTROL 관리]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 제품]**&#x200B;으로 이동합니다. *고객 특성*&#x200B;이 [!UICONTROL 제품 프로필] 중 하나로 표시되면 작업을 시작할 수 있습니다. 고객 속성 그룹에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!UICONTROL 고객 속성] 메뉴 항목이 표시됩니다.
 >
 >고객 속성 기능을 사용하려면 사용자가 애플리케이션 수준 그룹(Analytics 또는 [!DNL Target])에도 속해야 합니다.
 
@@ -48,13 +48,13 @@ ht-degree: 84%
 
 ## 속성 소스를 만들고 데이터 파일 업로드 {#task_09DAC0F2B76141E491721C1E679AABC8}
 
-Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 다음 단계를 수행합니다.
+Experience Cloud의 새 고객 속성 Source 만들기 페이지에서 다음 단계를 수행합니다.
 
 >[!IMPORTANT]
 >
 >고객 속성 소스를 만들거나, 수정하거나, 삭제할 때, ID가 새 데이터 소스와의 동기화를 시작하기 전에 최대 한 시간이 지연됩니다. 고객 속성 소스를 만들거나 수정하려면 Audience Manager에 관리 권한이 있어야 합니다. 관리 권한을 얻으려면 Audience Manager 고객 지원 센터 또는 컨설팅 팀에 문의하십시오.
 
-1. 다음에서 [!DNL Experience Cloud]메뉴를 선택합니다.  ![메뉴](assets/menu-icon.png) 아이콘.
+1. [!DNL Experience Cloud]에서 메뉴 ![메뉴](assets/menu-icon.png) 아이콘을 선택합니다.
 1. **[!DNL Experience Platform]**&#x200B;에서 **[!UICONTROL 사용자]** > **[!UICONTROL 고객 속성]**&#x200B;을 선택합니다.
 
    [!UICONTROL 고객 속성] 페이지에서 기존 속성 데이터 소스를 관리 및 편집할 수 있습니다.
@@ -71,7 +71,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 다음 �
 
    * **[!UICONTROL 설명:]** (선택 사항) 데이터 속성 소스에 대한 설명입니다.
 
-   * **[!UICONTROL 별칭 ID:]** 특정 CRM 시스템과 같은 고객 속성 데이터의 소스를 나타냅니다. [!UICONTROL 별칭 ID]는 고객 속성 소스 코드에 사용되는 고유 ID입니다. ID는 고유해야 하고 공백 없는 소문자로 이루어져야 합니다. 에 입력한 값 [!UICONTROL 별칭 ID] Experience Cloud의 고객 속성 소스에 대한 필드는 구현(Mobile SDK의 Platform 데이터 수집 또는 JavaScript를 통해)에서 전달되는 값과 일치해야 합니다.
+   * **[!UICONTROL 별칭 ID:]** 특정 CRM 시스템과 같은 고객 속성 데이터의 소스를 나타냅니다. [!UICONTROL 별칭 ID]는 고객 속성 소스 코드에 사용되는 고유 ID입니다. ID는 고유해야 하고 공백 없는 소문자로 이루어져야 합니다. Experience Cloud에서 고객 특성 소스에 대한 [!UICONTROL 별칭 ID] 필드에 입력한 값은 구현(Mobile SDK의 Platform 데이터 수집을 통해 또는 JavaScript을 통해)에서 전달되는 값과 일치해야 합니다.
 
      별칭 ID는 추가 고객 ID 값을 설정하는 특정 영역에 해당합니다. 예:
 
@@ -110,7 +110,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 다음 �
 
      **파일 업로드 그래픽**
 
-     ![속성](assets/file_upload_attributes.png)
+     ![특성](assets/file_upload_attributes.png)
 
    * **[!UICONTROL Unique Customer ID:]** 이 속성 소스에 업로드한 고유한 ID 수를 표시합니다.
 
@@ -141,7 +141,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 다음 �
 
 **속성 소스를 활성화하려면**
 
-다음에서 [!UICONTROL 새로 만들기 또는 고객 속성 소스 편집] 페이지를 찾은 다음 [!UICONTROL 활성화] 제목, 선택 **[!UICONTROL 활성]**.
+[!UICONTROL 새로 만들기 또는 고객 특성 편집 Source] 페이지에서 [!UICONTROL 활성화] 제목을 찾은 다음 **[!UICONTROL 활성]**&#x200B;을 선택합니다.
 
 ![단계 결과](assets/activate_attribute_source.png)
 
@@ -161,4 +161,4 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 다음 �
 
 ![Adobe Target에서 고객 속성 사용](assets/crs-add-attribute-target.png)
 
-[!DNL Target] 도움말에서 [새 대상 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=ko-KR) 를 참조하십시오.
+[!DNL Target] 도움말에서 [새 대상 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) 를 참조하십시오.

@@ -20,7 +20,7 @@ ht-degree: 96%
 
 Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리스 정보 및 알려진 문제입니다.
 
-설명서 업데이트 목록은 다음을 참조하십시오. [설명서 업데이트 정보](doc-updates.md).
+설명서 업데이트 목록은 [설명서 업데이트](doc-updates.md)를 참조하세요.
 
 모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
 
@@ -191,7 +191,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 * Marketing Cloud-to-AEM와 Marketing Cloud-to-Creative Cloud 간의 에셋 공유를 제어하기 위해 백엔드 기능을 배포했습니다. (CORE-14386)
 * 일부 환경에서 새 테넌트의 프로비저닝이 차단되는 문제를 해결했습니다. (CORE-15509)
-* 사용자를으로 리디렉션하는 문제가 해결되었습니다. `experiencecloud.adobe.com` 사용 `http` 대신 `https`. (CORE-15587)
+* `https` 대신 `http`을(를) 사용하여 사용자를 `experiencecloud.adobe.com`(으)로 리디렉션하는 문제를 해결했습니다. (CORE-15587)
 * 일부 새로운 테넌트에 대한 알림이 차단되는 문제를 해결했습니다. (CORE-15240)
 
 ## 2018년 6월
@@ -216,7 +216,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 ## 2017년 10월
 
-**알려진 문제**: 예약된 유지 관리/제품 업데이트와 관련된 많은 유지 관리 알림이 알림 이메일 다이제스트에서 누락됩니다. Adobe는 모든 유지 관리 알림이 이메일 다이제스트에 포함되도록 하기 위해 노력하고 있습니다.
+**알려진 문제**: 예약된 유지 관리/제품 업데이트와 관련된 많은 유지 관리 알림이 알림 이메일 다이제스트에서 누락되었습니다. Adobe는 모든 유지 관리 알림이 이메일 다이제스트에 포함되도록 하기 위해 노력하고 있습니다.
 
 ## 2017년 8월
 
@@ -232,7 +232,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 | 기능 | 설명 |
 |--- |--- |
-| 벌크 보고서 세트 매핑 | 이제 관리 > 보고서 세트 매핑에서 여러 보고서 세트를 선택한 다음 조직에 매핑할 수 있습니다. (이전에는 개별적으로 매핑해야 했습니다.)  <br>보고서 세트를 단일 조직에 매핑하면 Experience Cloud에서 교차 애플리케이션 기능과 서비스를 사용할 수 있습니다. |
+| 벌크 보고서 세트 매핑 | 이제 관리 > 보고서 세트 매핑에서 여러 보고서 세트를 선택한 다음 조직에 매핑할 수 있습니다. (이전에는 개별적으로 매핑해야 했습니다.)  <br>보고서 세트를 단일 조직에 매핑하면 Experience Cloud에서 교차 응용 프로그램 기능과 서비스를 사용할 수 있습니다. |
 | Experience Cloud Audiences 업데이트 | **보고서 세트 적용**<br>&#x200B;이제 모든 [대상 규칙](../services/audiences/create.md)에 보고서 세트를 적용할 수 있습니다. (이전에는 각 규칙 정의에 보고서 세트를 지정해야 했음.) <br>**Prop 및 변수**<br>&#x200B;이제 실시간 대상에 Analytics Prop 및 기본 변수(eVars 및 이벤트 포함)를 포함할 수 있습니다. |
 
 {style="table-layout:auto"}
@@ -343,7 +343,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 * 고객이 방문자 ID 서비스를 사용하면 Analytics에서 대상자를 공유하지 못하는 문제를 해결했습니다. (MAC-25788, MAC-25747)
 * 고객 속성에 멀티바이트 문자 지원을 추가했습니다. (MAC-25552)
 
-**알려진 문제**: 알려진 문제로 인해 자동으로 생성된 계정이 Audience Manager에서 중복되어 생성되고 자동으로 사용자의 Experience Cloud ID에 연결됩니다. 이 문제는 계정에 연결하기 전에 Audience Manager로 이동을 시도하면 발생합니다. Adobe에서는 Audience Manager로 이동하기 전에 Audience Manager 계정을 Experience Cloud에 연결하는 것을 권장합니다. (MAC-25640)
+**알려진 문제**: 알려진 문제로 인해 Audience Manager에서 자동으로 생성된 계정이 중복되어 자동으로 사용자의 Experience Cloud ID에 연결됩니다. 이 문제는 계정에 연결하기 전에 Audience Manager로 이동을 시도하면 발생합니다. Adobe에서는 Audience Manager로 이동하기 전에 Audience Manager 계정을 Experience Cloud에 연결하는 것을 권장합니다. (MAC-25640)
 
 ## 2015년 5월
 

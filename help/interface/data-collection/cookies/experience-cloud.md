@@ -17,7 +17,7 @@ ht-degree: 91%
 
 # Experience Cloud 쿠키
 
-Adobe Experience Cloud은 쿠키를 사용하여 Experience Cloud 애플리케이션에서 사용되는 방문자 ID를 저장합니다. 이러한 쿠키는 특히 의 Adobe Experience Cloud 애플리케이션에 액세스하는 데 적용됩니다. [experience.adobe.com](https://experience.adobe.com).
+Adobe Experience Cloud은 쿠키를 사용하여 Experience Cloud 애플리케이션에서 사용되는 방문자 ID를 저장합니다. 이러한 쿠키는 특히 [experience.adobe.com](https://experience.adobe.com)에서 Adobe Experience Cloud 애플리케이션에 액세스하는 데 적용됩니다.
 
 **쿠키 이름: s_ecid**
 
@@ -60,7 +60,7 @@ Adobe Experience Cloud은 쿠키를 사용하여 Experience Cloud 애플리케�
 
 [Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 는 JavaScript를 사용하여 현재 웹 사이트의 도메인에 있는 `AMCV_###@AdobeOrg` 쿠키에 고유한 방문자 ID를 저장합니다. 여기서 `###` 는 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`와 같은 임의의 문자열을 나타냅니다.
 
-[쿠키 및 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko-KR)도 참조하십시오.
+[쿠키 및 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)도 참조하십시오.
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 

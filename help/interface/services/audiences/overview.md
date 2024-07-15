@@ -68,12 +68,12 @@ ht-degree: 94%
 | 신규 | [대상자 만들기](create.md). |
 | 제목 및 설명 | 대상자를 식별하고 설명하는 열 머리글입니다. |
 | 작성자 | 대상자 세그먼트를 만든 사용자입니다. |
-| 소스 | 대상자가 만들어진 위치를 식별합니다.<ul><li>**분석:** Adobe Analytics에서 만든 다음 Experience Cloud에 게시한 세그먼트입니다.</li><li>**Experience Cloud:** [Experience Cloud Audiences에서 생성된](create.md) 새 대상자입니다.</li><li>**Audience Manager:** Audience Manager에서 만든 대상자는 Experience Cloud Audiences에 자동으로 표시됩니다.</li></ul> |
+| 소스 | 대상자가 만들어진 위치를 식별합니다.<ul><li>**Analytics:** Adobe Analytics에서 만든 후 Experience Cloud에 게시한 세그먼트입니다.</li><li>**Experience Cloud:** [Experience Cloud Audiences에서 생성된](create.md) 새 대상자입니다.</li><li>**Audience Manager:** Audience Manager에서 만든 대상자는 Experience Cloud Audiences에 자동으로 표시됩니다.</li></ul> |
 | 현재 크기 | 현재 대상자 크기입니다. |
 | 활성 | 세그먼트의 활성 상태입니다. |
 
 {style="table-layout:auto"}
 
-## Adobe Analytics에서 대상 게시
+## Adobe Analytics의 Publish 대상
 
-다음을 참조하십시오 [Experience Cloud에 세그먼트 게시](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) 자세한 내용은 Adobe Analytics 설명서 를 참조하십시오.
+자세한 내용은 Adobe Analytics 설명서에서 [Experience Cloud에 대한 Publish 세그먼트](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)를 참조하십시오.

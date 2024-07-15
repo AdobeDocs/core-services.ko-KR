@@ -17,11 +17,11 @@ ht-degree: 64%
 
 # Experience Cloud 내 조직
 
-An *조직* (조직 ID)는 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 항목입니다.
+*조직*(조직 ID)은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 엔터티입니다.
 
 조직은 모든 Experience Cloud 제품 및 애플리케이션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
 
-![Experience Cloud 조직](../assets/organizations-menu.png)
+![조직 Experience Cloud](../assets/organizations-menu.png)
 
 올바른 조직에 로그인했는지 확인하려면 프로필 아바타를 클릭하여 조직 이름을 확인합니다. 둘 이상의 조직에 액세스할 수 있는 경우 헤더 막대에서 다른 조직을 보고 전환할 수도 있습니다.
 
@@ -37,17 +37,17 @@ An *조직* (조직 ID)는 관리자가 그룹과 사용자를 구성하고, Exp
 
 조직 ID는 공급된 Experience Cloud 회사와 연결된 ID입니다. 이 ID는 24자의 영숫자 문자열과 `@AdobeOrg`(포함 필수)로 구성됩니다.
 
-키보드 단축키를 사용하여 조직 ID와 다른 계정 정보를 볼 수 있습니다 **Ctrl+i** 다음 위치의 모든 페이지에서 `https://experience.adobe.com`.
+`https://experience.adobe.com`의 모든 페이지에서 키보드 단축키 **Ctrl+i**&#x200B;을 사용하여 다른 계정 정보와 함께 조직 ID를 볼 수 있습니다.
 
 **조직 ID를 보려면**
 
-1. 위치 [Experience Cloud](https://experience.adobe.com), 누르기 **Ctrl+i** 키보드에서.
+1. [Experience Cloud](https://experience.adobe.com)에서 키보드에서 **Ctrl+i**&#x200B;을 누릅니다.
 
    ![할당된 조직 ID](../assets/assigned-organization.png)
 
-1. 아래 **[!UICONTROL 사용자 정보]**&#x200B;를 찾습니다. **[!UICONTROL 현재 조직 ID]**&#x200B;조직 ID를 찾을 수 있습니다.
+1. **[!UICONTROL 사용자 정보]**&#x200B;에서 **[!UICONTROL 현재 조직 ID]**&#x200B;를 찾으면 조직 ID를 찾을 수 있습니다.
 
-   또는 관리자가 Admin Console에 로그인할 수 있습니다( 다음으로 이동). [https://adminconsole.adobe.com](https://adminconsole.adobe.com))을 클릭하여 URL에서 조직 ID를 볼 수 있습니다.
+   또는 관리자가 Admin Console([https://adminconsole.adobe.com](https://adminconsole.adobe.com)(으)로 이동)에 로그인하고 URL에서 조직 ID를 볼 수 있습니다.
 
    예를 들면 다음 URL의 경우
 
@@ -87,7 +87,7 @@ An *조직* (조직 ID)는 관리자가 그룹과 사용자를 구성하고, Exp
 
 ![프로필 편집](../assets/edit-profile.png)
 
-아래 **[!UICONTROL 기본 조직 및 랜딩 페이지]**, 로그인 경험을 사용자 지정할 수 있습니다.
+**[!UICONTROL 기본 조직 및 랜딩 페이지]**&#x200B;에서 로그인 환경을 사용자 지정할 수 있습니다.
 
 ![기본 조직 및 랜딩 페이지](../assets/default-organization.png)
 

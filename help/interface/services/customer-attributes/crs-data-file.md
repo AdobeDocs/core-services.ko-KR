@@ -1,5 +1,5 @@
 ---
-description: 업로드할 데이터 파일 요구 사항 및 여러 데이터 소스에 대해 알아봅니다 [!DNL Customer Attributes] Experience Cloud.
+description: Experience Cloud에  [!DNL Customer Attributes] 을(를) 업로드하기 위한 데이터 파일 요구 사항 및 여러 데이터 소스에 대해 알아봅니다.
 solution: Experience Cloud
 title: 데이터 파일 및 데이터 소스
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
@@ -15,13 +15,13 @@ ht-degree: 90%
 
 ---
 
-# 의 데이터 파일 및 데이터 소스 정보 [!DNL Customer Attributes]
+# [!DNL Customer Attributes]의 데이터 파일 및 데이터 원본 정보
 
-업로드를 위한 데이터 파일 요구 사항 및 여러 데이터 소스 [!DNL Customer Attributes] Experience Cloud.
+[!DNL Customer Attributes]을(를) Experience Cloud에 업로드하기 위한 데이터 파일 요구 사항 및 여러 데이터 소스입니다.
 
-엔터프라이즈에서 CRM 또는 비슷한 데이터에 액세스해야 합니다. Experience Cloud에 업로드하는 데이터는 `.csv` 파일. FTP 또는 sFTP를 통해 업로드하는 경우 `.fin` 파일도 업로드합니다.
+엔터프라이즈에서 CRM 또는 비슷한 데이터에 액세스해야 합니다. Experience Cloud에 업로드하는 데이터는 `.csv` 파일이어야 합니다. FTP 또는 sFTP를 통해 업로드하는 경우 `.fin` 파일도 업로드합니다.
 
-[!DNL Customer Attributes] 는 하루에 몇 개의 파일을 처리하도록 설계되었습니다. 작은 파일이 대량으로 있어 처리가 지연되는 문제를 방지하기 위해 동일한 조직의 이전 일괄 처리 후 30분 이내에 전송된 파일은 우선 순위가 낮은 큐로 라우팅됩니다.
+[!DNL Customer Attributes]은(는) 하루에 몇 개의 파일을 처리하도록 디자인되었습니다. 작은 파일이 대량으로 있어 처리가 지연되는 문제를 방지하기 위해 동일한 조직의 이전 일괄 처리 후 30분 이내에 전송된 파일은 우선 순위가 낮은 큐로 라우팅됩니다.
 
 ## 허용되는 파일 형식 및 이름 지정 요구 사항 {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
@@ -84,7 +84,7 @@ CSV 파일은 다음 형식을 따라야 합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>속성 제한 </p> </td> 
-   <td colname="col2"> <p>수백 개의 파일을 업로드할 수 있습니다. <span class="filepath"> .csv </span> Experience Cloud의 고객 속성 서비스에 대한 열입니다. 그렇지만 구독을 구성하고 속성을 선택할 때 보유하고 있는 애플리케이션에 따라 다음과 같은 제한이 적용됩니다. </p> <p> 
+   <td colname="col2"> <p>수백 개의 <span class="filepath"> .csv </span> 열을 Experience Cloud의 고객 특성 서비스에 업로드할 수 있습니다. 그렇지만 구독을 구성하고 속성을 선택할 때 보유하고 있는 애플리케이션에 따라 다음과 같은 제한이 적용됩니다. </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>: 총 3개 </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 보고서 세트당 200개 </li> 

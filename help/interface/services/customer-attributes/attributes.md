@@ -28,7 +28,7 @@ Experience Cloud의 [!DNL Customer Attributes]를 사용하면 고객 관계 관
 
 ## [!DNL Customer Attributes]를 업로드하기 위한 사전 요구 사항 {#section_BD38693AFBF34926BA28E964963B4EA0}
 
-* **그룹 멤버십:** 고객 속성 데이터를 업로드하려면 사용자가 고객 속성 그룹의 멤버여야 합니다. 또한 Adobe Analytics 그룹 또는 Adobe Target 그룹에 속해야 합니다.
+* **그룹 구성원:** 고객 특성 데이터를 업로드하려면 사용자가 고객 특성 그룹의 구성원이어야 합니다. 또한 Adobe Analytics 그룹 또는 Adobe Target 그룹에 속해야 합니다.
 
   고객 속성에 액세스할 수 있는지 확인하려면 [!DNL Experience Cloud] 관리자가 [Experience Cloud](https://experience.adobe.com)에 로그인해야 합니다. **[!UICONTROL 관리]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 제품]**&#x200B;으로 이동합니다. *[!DNL Customer Attributes]*&#x200B;가 [!UICONTROL 제품 프로필] 중 하나로 표시되면 작업을 시작할 수 있습니다.
 

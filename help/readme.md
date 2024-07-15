@@ -1,9 +1,8 @@
 ---
 source-git-commit: 58ccef353b492b1c2adfbb8c2471e1f92263e6e4
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '329'
-ht-degree: 98%
+source-wordcount: '326'
+ht-degree: 94%
 
 ---
 # 지침
@@ -51,4 +50,4 @@ ht-degree: 98%
 
 ## 추가 정보
 
-자세한 게시 지침, 스타일 안내서, 샘플 및 기타 리소스는 [공동 작업 설명서 Repo](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)를 참조하십시오.
+자세한 게시 지침, 스타일 가이드, 샘플 및 기타 리소스는 [공동 작업 설명서 리포지토리](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)를 참조하십시오.

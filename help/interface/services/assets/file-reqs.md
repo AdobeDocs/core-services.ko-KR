@@ -1,5 +1,5 @@
 ---
-title: 자산 공유를 위한 파일 요구 사항
+title: Assets 공유를 위한 파일 요구 사항
 description: Adobe Experience Cloud와 Creative Cloud 간에 에셋을 공유하기 위해 허용되는 파일 형식 및 크기 제한에 대해 알아봅니다.
 solution: Experience Cloud
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0

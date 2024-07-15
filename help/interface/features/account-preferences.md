@@ -6,7 +6,8 @@ feature: Account Preferences,Notifications,Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: a4e0461791cd676365857c2dd4ef28c0e40c3430
+exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
+source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 72%
@@ -32,9 +33,9 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 |--- |--- |
 | 기본 [조직](../administration/organizations.md) | Experience Cloud를 시작할 때 보려는 조직을 선택합니다. |
 | [!UICONTROL 제품 데이터 수집] | 귀하가 Adobe 제품을 사용하는 방식에 대한 데이터를 Adobe에서 수집하는 데 사용되는 기술을 선택하십시오. |
-| [!UICONTROL 맞춤형 학습 권장 사항 및 프로모션] | 수신하려는 위치 선택 [개인화된 도움말](personalized-learning.md) Adobe 제품용. 이 도움말은 이메일, 제품 내 및 Experience League 커뮤니티를 통해 사용할 수 있습니다. |
-| [!UICONTROL 구독] | 구독하기 원하는 제품 및 범주를 선택하십시오. 의 알림 [!UICONTROL 알림] 팝오버 및 이메일. |
-| [!UICONTROL 우선 순위] | 높은 우선 순위로 고려하고 싶은 범주를 선택하십시오. 이 범주는 [!UICONTROL 높음] 태그를 지정하고 경고와 같은 게재에 대해 구성할 수 있습니다. |
+| [!UICONTROL 맞춤형 학습 권장 사항 및 프로모션] | Adobe 제품에 대해 [개인화된 도움말](personalized-learning.md)을 받을 위치를 선택하십시오. 이 도움말은 이메일, 제품 내 및 Experience League 커뮤니티를 통해 사용할 수 있습니다. |
+| [!UICONTROL 구독] | 구독하기 원하는 제품 및 범주를 선택하십시오. [!UICONTROL 알림] 팝오버 및 이메일의 알림입니다. |
+| [!UICONTROL 우선 순위] | 높은 우선 순위로 고려하고 싶은 범주를 선택하십시오. 이러한 범주는 [!UICONTROL 높음] 태그로 표시되며 경고와 같은 게재를 위해 구성할 수 있습니다. |
 | [!UICONTROL 경고] | 브라우저에 경고를 표시할 알림을 선택하십시오. 경고는 창의 오른쪽 상단에 몇 초 동안 표시됩니다. |
 | 이메일 | 이메일 알림을 수신할 빈도를 지정합니다. (발송하지 않음, 실시간, 매일 또는 매주) |
 

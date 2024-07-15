@@ -45,7 +45,7 @@ ht-degree: 94%
 **대상을 만들려면**
 
 1. [!DNL Experience Cloud]에서 [!DNL Experience Platform]의 **[!UICONTROL 사용자]** > **[!UICONTROL 대상 라이브러리]를 선택합니다.**
-1. 다음에서 [!UICONTROL 대상] 페이지, 선택 **[!UICONTROL 신규]**. ![추가](assets/add_icon_small.png)
+1. [!UICONTROL 대상] 페이지에서 **[!UICONTROL 새로 만들기]**&#x200B;를 선택합니다. ![추가](assets/add_icon_small.png)
 
    ![단계 결과](assets/audience_create_new.png)
 

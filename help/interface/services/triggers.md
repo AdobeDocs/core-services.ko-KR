@@ -49,7 +49,7 @@ Experience Cloud 내의 [!UICONTROL 트리거]를 통해 주요 소비자 행동
 >
 >현재 트리거는 100개로 기술적 제한이 있습니다.
 
-1. Experience Cloud에서 ![메뉴](../assets/menu-icon.png)을 선택한 다음 을 선택합니다. **[!UICONTROL 데이터 수집/실행]**.
+1. Experience Cloud에서 ![메뉴](../assets/menu-icon.png)를 선택한 다음 **[!UICONTROL 데이터 수집/실행]**&#x200B;을 선택합니다.
 2. [!UICONTROL 트리거] 카드에서 **[!UICONTROL 트리거 관리]**&#x200B;를 선택합니다.
 3. **[!UICONTROL 새 트리거]**&#x200B;를 선택한 다음 트리거 유형을 지정합니다.
 
