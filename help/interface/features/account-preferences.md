@@ -1,16 +1,16 @@
 ---
 title: 계정 환경 설정 및 알림
-description: Experience Cloud의 사용자 프로필 및 계정 환경 설정에 대해 알아봅니다. 제품 알림을 구독하고 제품 알림을 받습니다.
+description: Experience Cloud의 사용자 프로필 및 계정 환경 설정에 대해 알아봅니다. 제품 알림을 구독하고 제품 알림을 받습니다. 브라우저 및 언어 지원에 대해 알아봅니다.
 solution: Experience Cloud
 feature: Account Preferences,Notifications,Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 2d65d40c462bd031939c0a8efc1631540dd96ec1
+source-git-commit: 99b611d1418174ce27fe6a7b231f84bab9e12468
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 79%
+source-wordcount: '448'
+ht-degree: 81%
 
 ---
 
@@ -46,6 +46,22 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 제품 릴리스, 유지 관리 알림, 공유 항목 및 승인 요청을 포함하여 관련성 있고 실행 가능한 업데이트에 대한 알림을 받으려면 **[!UICONTROL 알림]**&#x200B;을 선택합니다.
 
 ![알림 및 공지](../assets/notifications-menu-small.png)
+
+## Experience Cloud의 브라우저 지원 {#browser}
+
+최상의 성능을 위해 Experience Cloud는 최신 버전과 두 개의 이전 버전을 포함하여 가장 많이 사용되는 브라우저에 최적화되었습니다.
+
+* Chrome
+* Edge
+* Firefox
+* Opera
+* Safari
+
+브라우저가 목록에 없어도 지원될 수 있지만 목록에 있는 브라우저 중 하나를 선택하는 것이 좋습니다.
+
+>[!NOTE]
+>
+>Experience Cloud 도메인에서 실행 중인 모든 애플리케이션이 전체 브라우저를 지원하는 것은 아닙니다. 확실치 않다면 특정 애플리케이션의 설명서를 참조하십시오.
 
 ## Experience Cloud의 언어 지원 {#languages}
 
