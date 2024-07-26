@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
+source-git-commit: 2d65d40c462bd031939c0a8efc1631540dd96ec1
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 72%
+source-wordcount: '366'
+ht-degree: 79%
 
 ---
 
@@ -46,3 +46,20 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 제품 릴리스, 유지 관리 알림, 공유 항목 및 승인 요청을 포함하여 관련성 있고 실행 가능한 업데이트에 대한 알림을 받으려면 **[!UICONTROL 알림]**&#x200B;을 선택합니다.
 
 ![알림 및 공지](../assets/notifications-menu-small.png)
+
+## Experience Cloud의 언어 지원 {#languages}
+
+Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사용자의 기본 언어를 지원합니다. 현재 지원되는 언어는 다음과 같습니다.
+
+* 중국어
+* 영어
+* 프랑스어
+* 독일어
+* 이탈리아어
+* 일본어
+* 한국어
+* 포르투갈어
+* 스페인어
+* 대만어
+
+모든 애플리케이션이 전 세계 언어를 지원하고 있지만 모든 애플리케이션이 위에서 언급된 모든 언어로 제공되지 않습니다. 기본 언어가 Experience Cloud 애플리케이션에서 지원되지 않는 경우 보조 언어를 기본값으로 설정할 수 있습니다. [Experience Cloud 사용자 환경 설정](https://experience.adobe.com/preferences)에서 수행할 수 있습니다.
