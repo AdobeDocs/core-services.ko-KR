@@ -2,9 +2,9 @@
 title: Adobe Experience Cloud에서 사용하는 IP 주소
 description: 조직의 방화벽에서 Adobe의 IP 주소를 차단하는 경우 이 목록을 사용하여 방화벽 설정을 업데이트합니다.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: 12ff555472b99d7297c3d180e786f300b2d490e9
+source-git-commit: d76af0f0f98b28ad1ac7b539743b722464fe98fa
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '377'
 ht-degree: 5%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 5%
 
 * [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
 
 ## 모든 Adobe IP 주소 블록
 

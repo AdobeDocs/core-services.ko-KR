@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: a15918f0-c03b-4d32-a254-47f46023b127
-source-git-commit: db363c7f35dbd475548af5cbae2977ebf7a9c672
+source-git-commit: d76af0f0f98b28ad1ac7b539743b722464fe98fa
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 17%
+source-wordcount: '106'
+ht-degree: 16%
 
 ---
 
@@ -21,6 +21,7 @@ Experience Cloud은 다음 호스트를 사용하여 애플리케이션을 제�
 
 * [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | 기술 | 도메인 |
 | --- | --- |
@@ -28,4 +29,4 @@ Experience Cloud은 다음 호스트를 사용하여 애플리케이션을 제�
 | Adobe Identity Management Service (IMS) | `adobelogin.com` |
 | 글꼴 | `typekit.net` |
 | 데이터 수집(제품 성능 및 사용용) | `adobedtm.com` |
-| Gainsight (제품 지침 및 도움말용) | `esp.aptrinsic.com` |
+| Gainsight (제품 지침 및 도움말용) | `esp.aptrinsic.com`, `esp-m.aptrinsic.com` |
