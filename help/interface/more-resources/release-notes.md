@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: a4e0461791cd676365857c2dd4ef28c0e40c3430
+source-git-commit: 2690962f4b72d26fcde9883bb0bac3d49a9efa1a
 workflow-type: tm+mt
-source-wordcount: '5078'
+source-wordcount: '5089'
 ht-degree: 96%
 
 ---
@@ -23,6 +23,10 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 설명서 업데이트 목록은 [설명서 업데이트](doc-updates.md)를 참조하세요.
 
 모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
+
+## 2024년 9월
+
+[환경 설정](/help\interface\features\account-preferences.md) Experience Cloud에 대한 Slack 알림을 구성할 수 있습니다.
 
 <!-- ## July - August 2023
 
@@ -184,7 +188,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 
 * Creative Cloud와 Experience Cloud 간 에셋 주석 동기화를 개선했습니다. (CORE-15971)
 * Experience Cloud-Creative Cloud 에셋 동기화를 제어하는 기능 플래그를 추가했습니다. (CORE-15938)
-* 향상된 검색 및 목록 생성 환경을 포함하여 대상 세그먼트 생성을 개선했습니다. (CORE-5833, CORE-14278)
+* 향상된 검색 및 목록 생성 환경을 포함하여 대상자 세그먼트 생성을 개선했습니다. (CORE-5833, CORE-14278)
 * Experience Cloud에서 Creative Cloud로의 폴더 공유를 차단하는 높은 우선 순위가 문제를 해결했습니다. (CORE-16677)
 
 ## 2018년 7월
@@ -233,7 +237,7 @@ Journey Optimizer, Offers 및 Experience League에서 사용할 수 있도록 �
 | 기능 | 설명 |
 |--- |--- |
 | 벌크 보고서 세트 매핑 | 이제 관리 > 보고서 세트 매핑에서 여러 보고서 세트를 선택한 다음 조직에 매핑할 수 있습니다. (이전에는 개별적으로 매핑해야 했습니다.)  <br>보고서 세트를 단일 조직에 매핑하면 Experience Cloud에서 교차 응용 프로그램 기능과 서비스를 사용할 수 있습니다. |
-| Experience Cloud Audiences 업데이트 | **보고서 세트 적용**<br>&#x200B;이제 모든 [대상 규칙](../services/audiences/create.md)에 보고서 세트를 적용할 수 있습니다. (이전에는 각 규칙 정의에 보고서 세트를 지정해야 했음.) <br>**Prop 및 변수**<br>&#x200B;이제 실시간 대상에 Analytics Prop 및 기본 변수(eVars 및 이벤트 포함)를 포함할 수 있습니다. |
+| Experience Cloud Audiences 업데이트 | **보고서 세트 적용**<br>&#x200B;이제 모든 [대상자 규칙](../services/audiences/create.md)에 보고서 세트를 적용할 수 있습니다. (이전에는 각 규칙 정의에 보고서 세트를 지정해야 했음.) <br>**Prop 및 변수**<br>&#x200B;이제 실시간 대상자에 Analytics Prop 및 기본 변수(eVars 및 이벤트 포함)를 포함할 수 있습니다. |
 
 {style="table-layout:auto"}
 

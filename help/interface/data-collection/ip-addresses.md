@@ -1,15 +1,15 @@
 ---
-title: Adobe Experience Cloud에서 사용하는 IP 주소
+title: Experience Cloud에서 사용하는 IP 주소
 description: 조직의 방화벽에서 Adobe의 IP 주소를 차단하는 경우 이 목록을 사용하여 방화벽 설정을 업데이트합니다.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: d76af0f0f98b28ad1ac7b539743b722464fe98fa
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '373'
 ht-degree: 5%
 
 ---
 
-# Adobe Experience Cloud에서 사용하는 IP 주소
+# Experience Cloud에서 사용하는 IP 주소
 
 일부 방화벽 구성은 Adobe의 데이터 수집 서버 또는 데이터 액세스를 담당하는 서버에서 생성하는 IP 주소를 차단합니다. 이 범위 목록을 사용하여 액세스를 허용하고 조직 내에서 데이터를 보내도록 조직의 방화벽 설정을 변경할 수 있습니다. 이 페이지에는 Adobe이 사용하는 인바운드 시스템(예: 데이터 수집)과 아웃바운드 시스템(예: Adobe Analytics의 데이터 피드)이 모두 포함되어 있습니다.
 

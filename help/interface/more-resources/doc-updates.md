@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience Cloud 도움말 업데이트에 대한 정보입니다.
+description: Experience Cloud 도움말 업데이트에 대한 정보입니다.
 solution: Experience Cloud
 title: 설명서 업데이트
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 80%
+source-wordcount: '545'
+ht-degree: 78%
 
 ---
 
@@ -114,7 +114,7 @@ Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한
 
 **15 2017년 3월**
 
-[대상 만들기](../services/audiences/create.md)에서 Raw Analytics 데이터의 정의를 업데이트했습니다.
+[대상자 만들기](../services/audiences/create.md)에서 Raw Analytics 데이터의 정의를 업데이트했습니다.
 
 **9 2016년 5월**
 
