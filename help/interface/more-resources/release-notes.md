@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e2227bc64f5f294692df5c3c1419a5e376f0d136
+source-git-commit: 05ba40e4ef28c6d244446cc862a0320048f4b219
 workflow-type: tm+mt
-source-wordcount: '5078'
+source-wordcount: '5109'
 ht-degree: 96%
 
 ---
@@ -24,9 +24,13 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
 
-<!-- ## September 2024
+## 2024년 9월 2일
 
-You can configure Slack notifications for Experience Cloud. -->
+| 기능 | 설명 |
+| -----------| ---------- |
+| Slack 알림 | Slack에게 Experience Cloud 알림을 전송하도록 계정 환경 설정을 구성할 수 있습니다. 자세한 내용은 [환경 설정](../features/account-preferences.md) 도움말의 _Slack 알림_&#x200B;을 참조하세요. |
+
+[Experience Cloud 관리 도구](../administration/admin-tool-experience-cloud.md) 보기
 
 <!-- ## July - August 2023
 
