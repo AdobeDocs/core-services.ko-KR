@@ -2,12 +2,12 @@
 title: 계정 환경 설정 및 알림
 description: Experience Cloud의 사용자 프로필 및 계정 환경 설정에 대해 알아봅니다. 제품 알림을 구독하고 제품 알림을 받습니다. 브라우저 및 언어 지원에 대해 알아봅니다.
 solution: Experience Cloud
-feature: Account Preferences,Notifications,Alerts
+feature: Account Preferences, Notifications, Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: df6bff60d4eb2cac74bc83546affa9c6b212d76e
+source-git-commit: 331bdbb210849085f7c525e6cc14f2e1388d9484
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 69%
