@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 05ba40e4ef28c6d244446cc862a0320048f4b219
+source-git-commit: df6bff60d4eb2cac74bc83546affa9c6b212d76e
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 69%
@@ -69,7 +69,7 @@ Slack에게 Experience Cloud 알림을 전송하도록 계정 환경 설정을 �
 
 1. Experience Cloud 환경 설정에서 **[!UICONTROL 알림]**(으)로 이동합니다.
 
-[Slack 알림](../assets/slack.png)
+   ![Slack 알림](../assets/slack.png)
 
 1. 원하는 제품 및 범주에 대해 [!DNL Slack] 알림을 사용하도록 설정하십시오.
 
