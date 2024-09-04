@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud 인터페이스 및 관리 안내서
 title: Experience Cloud 인터페이스 및 관리 안내서
 description: Experience Cloud 인터페이스 및 사용자 계정 환경 설정에 대해 알아봅니다. 비즈니스 오브젝트를 검색하고 사용자 및 제품을 관리하는 방법에 대해 알아봅니다. 고객 속성, 대상자 라이브러리, 쿠키를 구성하고 Experience Cloud 자산을 공유하십시오.
 index: true
-source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
+source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 98%
 
 ---
 
@@ -47,14 +47,15 @@ ht-degree: 100%
    + [트리거](services/triggers.md)
 
 + 기능 {#features}
-   + [계정 환경 설정](features/account-preferences.md)
+   + [알림 및 계정 환경 설정](features/account-preferences.md)
    + [통합 검색](features/search.md)
    + [맞춤형 학습](features/personalized-learning.md)
+   + [브라우저 및 언어 지원](browser-language.md)
 
 + 관리 {#administration}
    + [사용자 세부 정보 보기 (관리 도구)](administration/admin-tool-experience-cloud.md)
    + [조직 및 계정 연결](administration/organizations.md)
-   + [통합](administration/integrations.md)
+   + [Experience Cloud 통합](administration/integrations.md)
 
 + 데이터 수집 {#data-collection}
    + [Adobe 관리 인증서 프로그램](data-collection/adobe-managed-cert.md)

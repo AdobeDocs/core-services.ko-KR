@@ -1,31 +1,33 @@
 ---
 title: 계정 환경 설정 및 알림
-description: Experience Cloud의 사용자 프로필 및 계정 환경 설정에 대해 알아봅니다. 제품 알림을 구독하고 제품 알림을 받습니다. 브라우저 및 언어 지원에 대해 알아봅니다.
+description: Experience Cloud의 사용자 프로필 및 계정 환경 설정에 대해 알아봅니다. 전자 메일 및  [!DNL Slack]에 대한 제품 알림을 구독하고 제품 알림을 설정합니다.
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 331bdbb210849085f7c525e6cc14f2e1388d9484
+source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 69%
+source-wordcount: '644'
+ht-degree: 22%
 
 ---
 
 # 계정 환경 설정 및 알림 {#preferences}
 
-Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니다. 계정 환경 설정 메뉴에서 다음을 할 수 있습니다.
+Experience Cloud [환경 설정](https://experience.adobe.com/preferences)에는 알림(인앱, 이메일 및 [!DNL Slack]), 구독 및 경고가 포함됩니다.
 
-* 어두운 테마 지정 (일부 애플리케이션에서는 이 테마를 지원하지 않음)
+환경 설정에서 다음을 수행할 수 있습니다.
+
 * [조직](../administration/organizations.md) 검색
-* 로그아웃
-* 계정 환경 설정, 알림 및 구독 구성
+* 어두운 테마를 지정합니다(일부 애플리케이션에서는 이 테마를 지원하지 않음).
+* 사용자 환경 설정, 알림 및 구독을 구성합니다.
+* Experience Cloud에서 로그아웃
+
+## 환경 설정 관리
 
 환경 설정을 관리하려면 계정 메뉴 **[!UICONTROL 환경 설정]**&#x200B;에서 ![환경 설정](../assets/preferences-icon-sm.png)을 선택합니다.
-
-![사용자 프로필 및 계정 환경 설정](../assets/preferences-page.png)
 
 [!UICONTROL Experience Cloud 환경 설정]에서 다음 기능을 구성할 수 있습니다.
 
@@ -33,75 +35,87 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 |--- |--- |
 | 기본 [조직](../administration/organizations.md) | Experience Cloud를 시작할 때 보려는 조직을 선택합니다. |
 | [!UICONTROL 제품 데이터 수집] | 귀하가 Adobe 제품을 사용하는 방식에 대한 데이터를 Adobe에서 수집하는 데 사용되는 기술을 선택하십시오. |
+| [알림](#notifications-and-announcements) | [!UICONTROL 인앱], [!UICONTROL 이메일] 또는 [Slack](#slack-notifications) 알림을 사용하도록 설정하십시오. |
 | [!UICONTROL 맞춤형 학습 권장 사항 및 프로모션] | Adobe 제품에 대해 [개인화된 도움말](personalized-learning.md)을 받을 위치를 선택하십시오. 이 도움말은 이메일, 제품 내 및 Experience League 커뮤니티를 통해 사용할 수 있습니다. |
 | [!UICONTROL 구독] | 구독하기 원하는 제품 및 범주를 선택하십시오. [!UICONTROL 알림] 팝오버 및 이메일의 알림입니다. |
 | [!UICONTROL 우선 순위] | 높은 우선 순위로 고려하고 싶은 범주를 선택하십시오. 이러한 범주는 [!UICONTROL 높음] 태그로 표시되며 경고와 같은 게재를 위해 구성할 수 있습니다. |
 | [!UICONTROL 경고] | 브라우저에 경고를 표시할 알림을 선택하십시오. 경고는 창의 오른쪽 상단에 몇 초 동안 표시됩니다. |
 | 이메일 | 이메일 알림을 수신할 빈도를 지정합니다. (발송하지 않음, 실시간, 매일 또는 매주) |
 
-## [!UICONTROL 알림] 및 [!UICONTROL 공지] {#notifications}
+## Experience Cloud에서 알림 구독 {#notifications}
 
-제품 릴리스, 유지 관리 알림, 공유 항목 및 승인 요청을 포함하여 관련성 있고 실행 가능한 업데이트에 대한 알림을 받으려면 **[!UICONTROL 알림]**&#x200B;을 선택합니다.
+구독하려는 제품 및 범주를 선택할 수 있습니다. 알림은 [!UICONTROL 알림] 팝오버(인앱), 이메일 또는 [Slack](#slack-notifications)에 표시됩니다(구독에 따라 다름).
 
-![알림 및 공지](../assets/notifications-menu-small.png)
+이메일 및 Slack 알림은 Experience Cloud에 로그인되지 않은 상황에 유용합니다.
 
-## [!DNL Slack] 알림
+### 인앱 및 이메일 알림 구독
 
-릴리스: **2024년 9월 2일**
+1. Experience Cloud [환경 설정](https://experience.adobe.com/preferences)(으)로 이동합니다.
 
-Slack에게 Experience Cloud 알림을 전송하도록 계정 환경 설정을 구성할 수 있습니다.
+1. **[!UICONTROL 알림]**&#x200B;에서 **[!UICONTROL 인앱]** 또는 **[!UICONTROL 전자 메일]**&#x200B;을 사용하도록 설정하십시오.
+
+   알림에 대한 변경 사항은 자동으로 저장됩니다.
+
+### [!DNL Slack] 알림 구독 {#slack}
+
+>[!NOTE]
+>
+>Slack 알림이 릴리스됩니다. **2024년 9월 11일**
+
+
+[!DNL Slack] 채널로 Experience Cloud 알림을 보내도록 계정 환경 설정을 구성할 수 있습니다.
 
 **전제 조건**
 
 * Experience Cloud 계정이 있어야 합니다.
-* [!DNL Slack] 계정이 있어야 합니다.
+* [!DNL Slack] 계정이 있어야 합니다. Slack 관리자가 Slack과 Experience Cloud 통합을 활성화합니다.
 * 하나 이상의 [!DNL Slack] 작업 영역에 속해 있어야 합니다.
 
-### Slack 알림을 구성하려면
+**Slack 알림을 구독하려면**
 
-1. Experience Cloud에 로그인합니다.
+1. Experience Cloud [환경 설정](https://experience.adobe.com/preferences)(으)로 이동
 
-1. 계정 아이콘을 클릭한 다음 **[!UICONTROL 환경 설정]**&#x200B;을 클릭합니다.
+1. [!DNL Slack]을(를) 찾은 다음 **[!UICONTROL Slack에 추가]**&#x200B;를 클릭합니다.
 
-1. [!DNL Slack]에서 **[!UICONTROL Slack에 추가]**&#x200B;를 클릭합니다.
+   ![Slack에 추가](../assets/add-to-slack.png)
 
-1. [!DNL Slack]이(가) 열리면 **[!UICONTROL 허용]**&#x200B;을 클릭하세요.
+   [!DNL Slack]이(가) 설치되어 있으면 응용 프로그램이 열리고 권한 요청 메시지가 표시됩니다.
 
-1. Experience Cloud 환경 설정에서 **[!UICONTROL 알림]**(으)로 이동합니다.
+   * **[!UICONTROL 허용]**&#x200B;을 클릭합니다.
+
+   [!DNL Slack]이(가) 설치되지 않은 경우 _설치 요청_ 메시지가 표시됩니다.
+
+   ![Slack 통합 요청](../assets/slack-request.png)
+
+   * Slack에서 응용 프로그램의 오른쪽 상단 모서리에서 작업 영역을 선택합니다.
+
+   * Slack 작업 영역 관리자에 대한 응용 프로그램 승인을 요청하려면 **[!UICONTROL 제출]**&#x200B;을 클릭하십시오.
+
+   * 응용 프로그램 요청이 승인된 후 [!DNL Slack]에서 알림을 받게 됩니다.
+
+   * [!DNL Slack] 승인을 받은 후 Experience Cloud **[!UICONTROL 알림]**(으)로 돌아간 다음 **[!UICONTROL Slack에 추가]**&#x200B;를 클릭합니다.
+
+1. **[!UICONTROL 알림]**&#x200B;에서 원하는 제품 및 범주에 대해 [!DNL Slack] 알림을 사용하도록 설정하십시오.
 
    ![Slack 알림](../assets/slack.png)
 
-1. 원하는 제품 및 범주에 대해 [!DNL Slack] 알림을 사용하도록 설정하십시오.
+   알림에 대한 업데이트는 자동으로 저장됩니다.
 
-## Experience Cloud의 브라우저 지원 {#browser}
+### [!DNL Slack]에서 보게 되는 내용
 
-최상의 성능을 위해 Experience Cloud는 최신 버전과 두 개의 이전 버전을 포함하여 가장 많이 사용되는 브라우저에 최적화되었습니다.
+Slack 알림에는 다음 정보가 표시됩니다.
 
-* Chrome
-* Edge
-* Firefox
-* Opera
-* Safari
+* 응용 프로그램 이름 _Adobe Experience Cloud_&#x200B;에서 개인 메시지를 받습니다.
+* 메시지에는 Adobe Experience Platform, Adobe Experience Manager 등과 같은 특정 애플리케이션에 대한 제품 로고가 포함됩니다.
+* Experience Cloud 시 모든 알림을 볼 수 있는 링크입니다.
+* Experience Cloud 시 알림 환경 설정을 관리할 수 있는 링크입니다.
 
-브라우저가 목록에 없어도 지원될 수 있지만 목록에 있는 브라우저 중 하나를 선택하는 것이 좋습니다.
+## Experience Cloud에서 [!UICONTROL 알림] 및 공지 보기 {#view-notifications}
 
->[!NOTE]
->
->Experience Cloud 도메인에서 실행 중인 모든 애플리케이션이 전체 브라우저를 지원하는 것은 아닙니다. 확실치 않다면 특정 애플리케이션의 설명서를 참조하십시오.
+Experience Cloud 헤더에서 [구독](#notifications)한 알림과 알림을 볼 수 있습니다.
 
-## Experience Cloud의 언어 지원 {#languages}
+1. 머리글에서 종 아이콘을 클릭합니다. ![알림 및 공지](../assets/bell-icon.png)
 
-Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사용자의 기본 언어를 지원합니다. 현재 지원되는 언어는 다음과 같습니다.
+1. **[!UICONTROL 알림]** 또는 **[!UICONTROL 공지]**&#x200B;를 클릭합니다.
 
-* 중국어
-* 영어
-* 프랑스어
-* 독일어
-* 이탈리아어
-* 일본어
-* 한국어
-* 포르투갈어
-* 스페인어
-* 대만어
-
-모든 애플리케이션이 전 세계 언어를 지원하고 있지만 모든 애플리케이션이 위에서 언급된 모든 언어로 제공되지 않습니다. 기본 언어가 Experience Cloud 애플리케이션에서 지원되지 않는 경우 보조 언어를 기본값으로 설정할 수 있습니다. [Experience Cloud 사용자 환경 설정](https://experience.adobe.com/preferences)에서 수행할 수 있습니다.
+   이 위치에서는 제품, 동료 사용자와의 공동 작업 및 기타 관련 업데이트에 대한 중요한 정보를 받을 수 있습니다. 업데이트에는 제품 릴리스, 유지 관리 알림, 공유 항목 및 승인 요청이 포함됩니다.
