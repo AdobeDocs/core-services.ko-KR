@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 2e2e26e262a7e56ddaaf8b4bfa453b041c832548
+source-git-commit: b79d6c6fb7bb165fdd5d47061da16f65f6fc7579
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 21%
@@ -91,7 +91,7 @@ Experience Cloud [환경 설정](https://experience.adobe.com/preferences)에는
 
 ### Slack의 권한 요청 {#slack-troubleshoot}
 
-[!DNL Slack]이(가) 설치되지 않은 경우 **[!UICONTROL Slack에 추가]**&#x200B;를 클릭한 후 Slack이 열리면 _설치 요청_ 메시지가 표시됩니다.
+[!DNL Slack]이(가) 설치되지 않은 경우 **[!UICONTROL Slack에 추가]**&#x200B;를 클릭한 후 Slack이 열리면 _[!UICONTROL 설치 요청]_ 메시지가 표시됩니다.
 
 ![Slack 통합 요청](../assets/slack-request.png)
 
