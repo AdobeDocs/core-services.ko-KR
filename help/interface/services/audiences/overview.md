@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: b257260bdbb7870dd6da807bceddfcddd2aef779
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 94%
@@ -28,7 +28,7 @@ ht-degree: 94%
 * [!DNL Analytics] 세그먼트를 [!DNL Experience Cloud]에 게시
 * [!DNL Audience Manager]
 
-**실시간 및 기존 대상**
+**실시간 및 기존 대상자**
 
 실시간 타겟팅 사용 사례를 파악하기 위해 소스에 관계없이 모든 대상자에 액세스할 수 있습니다. 하지만 Analytics에서 Audience Manager로 공유한 대상자는 실시간 타겟팅에 액세스할 수 없습니다. 시스템은 다음과 같은 두 가지 방식으로 대상자를 평가합니다.
 
@@ -46,7 +46,7 @@ ht-degree: 94%
 | Mobile Services | [!UICONTROL 디바이스 유형] 보고서의 썬버스트 시각화 기능을 사용하여 모바일 트래픽을 분석합니다. |
 | [!DNL Target] | [ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)는 방문자 ID 및 데이터를 여러 애플리케이션에서 사용하기 위해 실행 가능한 하나의 프로필에 통합합니다. Adobe Analytics의 세그먼트 작성 프로세스 동안 [!UICONTROL Experience Cloud에 게시] 확인란을 선택하면 Adobe Target의 사용자 정의 대상자 라이브러리 내에서 세그먼트를 사용할 수 있습니다. [!DNL Analytics]나 [!DNL Audience Manager]에서 만들어진 세그먼트는 [!DNL Target]의 활동에 사용할 수 있습니다. 예를 들어 [!DNL Analytics]에서 만들어진 대상자 세그먼트 및 [!DNL Analytics] 전환 지표에 따라 캠페인 활동을 만들 수 있습니다. |
 | [!DNL Audience Manager] | 공유 대상자는 [!DNL Audience Manager] 세분화에서 사용할 수 있습니다. 모든 Experience Cloud 대상자는 기본적으로 다음 기능을 제공하는 [!DNL Audience Manager]에서 사용할 수 있습니다.<ul><li>내장된 자동화(애플리케이션 워크플로에서 공유 및 소비되는 방식에 관계없음)</li><li>오프사이트 대상</li><li>유사 잠재고객 모델링</li></ul> |
-| Campaign | <ul><li>다양한 Adobe Experience Cloud 애플리케이션의 공유 대상자를 Adobe Campaign에 가져오기.</li><li>공유 대상의 양식에서 받는 사람 목록 내보내기. 이러한 공유 대상자는 사용하는 여러 Adobe Experience Cloud 애플리케이션에서 사용할 수 있습니다.</li></ul> |
+| Campaign | <ul><li>다양한 Adobe Experience Cloud 애플리케이션의 공유 대상자를 Adobe Campaign에 가져오기.</li><li>공유 대상자의 양식에서 받는 사람 목록 내보내기. 이러한 공유 대상자는 사용하는 여러 Adobe Experience Cloud 애플리케이션에서 사용할 수 있습니다.</li></ul> |
 | Advertising Cloud | 대상자를 대상으로 사용합니다. |
 
 {style="table-layout:auto"}
@@ -62,6 +62,7 @@ ht-degree: 94%
 **[!UICONTROL Experience Cloud]** > **[!UICONTROL Experience Platform]** > **[!UICONTROL 사용자]** > **[!UICONTROL 대상자 라이브러리]**
 
 ![대상자 라이브러리의 대상자 추가](assets/audience_library.png)
+
 
 | 요소 | 설명 |
 |--- |--- |
