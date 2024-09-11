@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: b79d6c6fb7bb165fdd5d47061da16f65f6fc7579
+source-git-commit: 0b2cae6b7aec7e91ac4b46de4d844dd2269095a9
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '664'
 ht-degree: 21%
 
 ---
@@ -22,7 +22,7 @@ Experience Cloud [환경 설정](https://experience.adobe.com/preferences)에는
 
 * [조직](../administration/organizations.md) 검색
 * 어두운 테마를 지정합니다(일부 애플리케이션에서는 이 테마를 지원하지 않음).
-* 사용자 환경 설정, 알림 및 구독을 구성합니다.
+* 사용자를 위한 계정 환경 설정, 알림 및 구독을 구성합니다.
 * Experience Cloud에서 로그아웃
 
 ## 환경 설정 관리
@@ -58,20 +58,15 @@ Experience Cloud [환경 설정](https://experience.adobe.com/preferences)에는
 
 ### [!DNL Slack] 알림 구독 {#slack}
 
->[!NOTE]
->
->Slack 알림이 릴리스됩니다. **2024년 9월 11일**
-
-
 [!DNL Slack] 채널로 Experience Cloud 알림을 보내도록 계정 환경 설정을 구성할 수 있습니다.
 
 **전제 조건**
 
 * Experience Cloud 계정이 있어야 합니다.
-* [!DNL Slack] 계정이 있어야 합니다. Slack 관리자가 Slack과 Experience Cloud 통합을 활성화합니다.
+* [!DNL Slack] 계정이 있어야 합니다. [!DNL Slack] 관리자가 [!DNL Slack]과(와) Experience Cloud 통합을 활성화합니다.
 * 하나 이상의 [!DNL Slack] 작업 영역에 속해 있어야 합니다.
 
-**Slack 알림을 구독하려면**
+**알림 [!DNL Slack]개를 구독하려면**
 
 1. Experience Cloud [환경 설정](https://experience.adobe.com/preferences)(으)로 이동합니다.
 
@@ -89,34 +84,34 @@ Experience Cloud [환경 설정](https://experience.adobe.com/preferences)에는
 
    알림에 대한 업데이트는 자동으로 저장됩니다.
 
-### Slack의 권한 요청 {#slack-troubleshoot}
+### [!DNL Slack]에서 권한 요청(문제 해결) {#slack-troubleshoot}
 
-[!DNL Slack]이(가) 설치되지 않은 경우 **[!UICONTROL Slack에 추가]**&#x200B;를 클릭한 후 Slack이 열리면 _[!UICONTROL 설치 요청]_ 메시지가 표시됩니다.
+[!DNL Slack]이(가) 설치되지 않은 경우 **[!UICONTROL Slack에 추가]**&#x200B;를 클릭한 후 Slack이 열리면 _[!UICONTROL 설치 요청]_ 메시지가 표시됩니다. 예:
 
-![Slack 통합 요청](../assets/slack-request.png)
+![Slack 통합 요청](../assets/slack-workspace.png)
 
 **Slack에서 권한을 요청하려면**
 
-1. Slack에서 응용 프로그램의 오른쪽 상단 모서리에서 작업 영역을 선택합니다.
+1. [!DNL Slack]의 **[!UICONTROL Workspace]** 메뉴(오른쪽 상단)에서 작업 영역을 선택하십시오.
 
-1. Slack 작업 영역 관리자에 대한 응용 프로그램 승인을 요청하려면 **[!UICONTROL 제출]**&#x200B;을 클릭하십시오.
+1. [!DNL Slack] 작업 영역 관리자에 대한 응용 프로그램 승인을 요청하려면 **[!UICONTROL 제출]**&#x200B;을 클릭하십시오.
 
 1. 응용 프로그램 요청이 승인된 후 [!DNL Slack]에서 알림을 받게 됩니다.
 
-1. [!DNL Slack] 승인을 받은 후 Experience Cloud **[!UICONTROL 알림]** 및 [Slack 구독](#slack-notifications)(위에서 설명)으로 돌아가십시오.
+1. [!DNL Slack] 승인을 받은 후 **[!UICONTROL Experience Cloud]**(으)로 돌아가서 [Slack 구독](#slack-notifications)(위에 설명)의 단계를 따릅니다.
 
 ### [!DNL Slack]에서 보게 되는 내용
 
-Slack 통합이 완료되면 Slack 알림에 다음 정보가 표시됩니다.
+[!DNL Slack]을(를) 통합한 후 [!DNL Slack] 알림에 다음 정보가 표시됩니다.
 
-* 응용 프로그램 이름 _Adobe Experience Cloud_&#x200B;에서 개인 메시지를 받습니다.
-* 메시지에는 Adobe Experience Platform, Adobe Experience Manager 등과 같은 특정 애플리케이션에 대한 제품 로고가 포함됩니다.
+* 응용 프로그램 이름 _Adobe[!DNL Experience Cloud]_&#x200B;에서 개인 메시지를 받습니다.
+* 메시지에는 Adobe [!DNL Experience Platform], Adobe [!DNL Experience Manager] 등과 같은 특정 응용 프로그램에 대한 제품 로고가 포함됩니다.
 * Experience Cloud 시 모든 알림을 볼 수 있는 링크입니다.
 * Experience Cloud 시 알림 환경 설정을 관리할 수 있는 링크입니다.
 
 ## Experience Cloud에서 [!UICONTROL 알림] 및 공지 보기 {#view-notifications}
 
-Experience Cloud 헤더에서 [구독](#notifications)한 알림과 알림을 볼 수 있습니다.
+[!DNL Experience Cloud] 헤더에서 [구독](#notifications)한 알림을 볼 수 있으며 알림을 볼 수도 있습니다.
 
 1. 머리글에서 종 아이콘을 클릭합니다. ![알림 및 공지](../assets/bell-icon.png)
 
