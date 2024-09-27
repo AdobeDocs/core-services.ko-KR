@@ -7,40 +7,26 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 0b2cae6b7aec7e91ac4b46de4d844dd2269095a9
+source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 21%
+source-wordcount: '632'
+ht-degree: 8%
 
 ---
 
 # 계정 환경 설정 및 알림 {#preferences}
 
-Experience Cloud [환경 설정](https://experience.adobe.com/preferences)에는 알림(인앱, 이메일 및 [!DNL Slack]), 구독 및 경고가 포함됩니다.
+Experience Cloud 환경 설정을 찾으려면 **[!UICONTROL 사용자 계정]** ![환경 설정](../assets/preferences-icon-sm.png) 아이콘을 클릭한 다음 **[!UICONTROL 환경 설정]**&#x200B;을 클릭하십시오.
 
-환경 설정에서 다음을 수행할 수 있습니다.
-
-* [조직](../administration/organizations.md) 검색
-* 어두운 테마를 지정합니다(일부 애플리케이션에서는 이 테마를 지원하지 않음).
-* 사용자를 위한 계정 환경 설정, 알림 및 구독을 구성합니다.
-* Experience Cloud에서 로그아웃
-
-## 환경 설정 관리
-
-환경 설정을 관리하려면 계정 메뉴 **[!UICONTROL 환경 설정]**&#x200B;에서 ![환경 설정](../assets/preferences-icon-sm.png)을 선택합니다.
-
-[!UICONTROL Experience Cloud 환경 설정]에서 다음 기능을 구성할 수 있습니다.
+[!UICONTROL Experience Cloud 환경 설정] 페이지에서 다음 계정 기능을 관리할 수 있습니다.
 
 | 기능 | 설명 |
 |--- |--- |
-| 기본 [조직](../administration/organizations.md) | Experience Cloud를 시작할 때 보려는 조직을 선택합니다. |
+| 프로필 | [Adobe 계정 프로필](https://account.adobe.com/kr/profile)을 업데이트하세요. <p>Adobe.com에 로그인하거나 제품 및 서비스를 Adobe 하거나 [!DNL Behance]과(와) 같은 공개 사이트에 로그인하면 프로필 사진과 이름이 표시됩니다. |
+| 일반 | [조직](../administration/organizations.md)을(를) 선택하십시오.<p>이 조직은 Experience Cloud에 로그인할 때 사용되는 기본 조직입니다. |
 | [!UICONTROL 제품 데이터 수집] | 귀하가 Adobe 제품을 사용하는 방식에 대한 데이터를 Adobe에서 수집하는 데 사용되는 기술을 선택하십시오. |
-| [알림](#notifications-and-announcements) | [!UICONTROL 인앱], [!UICONTROL 이메일] 또는 [Slack](#slack-notifications) 알림을 사용하도록 설정하십시오. |
+| 알림 | 제품 [알림](#subscribe-to-notifications-in-experience-cloud) 및 경고를 원하는 방법과 시기를 구성하십시오. <ul><li>경고를 구독할 제품 선택</li><li>알림 유형 구성([!UICONTROL 앱 내], [!UICONTROL 전자 메일] 또는 [Slack](#slack-notifications))</li><li>이메일 알림을 수신할 빈도를 지정합니다. (발송하지 않음, 실시간, 매일 또는 매주)</li><li>경고 우선 순위를 결정합니다. 인앱 경고가 창의 오른쪽 상단 모서리에 몇 초 동안 나타납니다. 또는 경고를 닫을 때까지 경고를 표시할지 여부를 지정할 수 있습니다.</li></ul> |
 | [!UICONTROL 맞춤형 학습 권장 사항 및 프로모션] | Adobe 제품에 대해 [개인화된 도움말](personalized-learning.md)을 받을 위치를 선택하십시오. 이 도움말은 이메일, 제품 내 및 Experience League 커뮤니티를 통해 사용할 수 있습니다. |
-| [!UICONTROL 구독] | 구독하기 원하는 제품 및 범주를 선택하십시오. [!UICONTROL 알림] 팝오버 및 이메일의 알림입니다. |
-| [!UICONTROL 우선 순위] | 높은 우선 순위로 고려하고 싶은 범주를 선택하십시오. 이러한 범주는 [!UICONTROL 높음] 태그로 표시되며 경고와 같은 게재를 위해 구성할 수 있습니다. |
-| [!UICONTROL 경고] | 브라우저에 경고를 표시할 알림을 선택하십시오. 경고는 창의 오른쪽 상단에 몇 초 동안 표시됩니다. |
-| 이메일 | 이메일 알림을 수신할 빈도를 지정합니다. (발송하지 않음, 실시간, 매일 또는 매주) |
 
 ## Experience Cloud에서 알림 구독 {#notifications}
 
