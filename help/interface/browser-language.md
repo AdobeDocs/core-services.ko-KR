@@ -6,9 +6,10 @@ feature: Account Preferences
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
+exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '193'
 ht-degree: 43%
 
 ---
@@ -35,9 +36,9 @@ Experience Cloud은 각 사용자의 기본 언어와 보조 언어를 지원합
 
 지원되는 언어를 보려면 다음과 같이 하십시오.
 
-1. Experience Cloud에서 **[!UICONTROL 프로필]** > [환경 설정](https://experience.adobe.com/preferences)(으)로 이동합니다.
+1. Experience Cloud에서 **[!UICONTROL 프로필]** > [환경 설정](https://experience.adobe.com/preferences)을 클릭합니다.
 
-1. [!UICONTROL 프로필]에서 언어 링크를 클릭합니다.
+1. **[!UICONTROL 프로필]**&#x200B;에서 언어 링크를 클릭합니다.
 
 1. **[!UICONTROL 언어 선택]**&#x200B;의 **[!UICONTROL 첫 언어]** 메뉴에서 언어를 선택하십시오.
 

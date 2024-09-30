@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 0724136e77d6fe1341a64aea75051127956df3b2
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 64%
+source-wordcount: '538'
+ht-degree: 55%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 64%
 
 ![조직 Experience Cloud](../assets/organizations-menu.png)
 
-올바른 조직에 로그인했는지 확인하려면 프로필 아바타를 클릭하여 조직 이름을 확인합니다. 둘 이상의 조직에 액세스할 수 있는 경우 헤더 막대에서 다른 조직을 보고 전환할 수도 있습니다.
+올바른 조직에 로그인했는지 확인하려면 **[!UICONTROL 프로필]**&#x200B;을 클릭하여 기본 조직 이름을 확인합니다. 둘 이상의 조직에 액세스할 수 있는 경우 헤더 막대에서 다른 조직을 보고 전환할 수도 있습니다.
 
 ## Federated ID
 
@@ -33,7 +33,7 @@ ht-degree: 64%
 
 ## 조직 ID 보기 {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-지원을 위해 할당된 조직 ID를 찾을 수 있습니다. **[!UICONTROL 조직]** 메뉴를 사용하여 올바른 조직에 있는지 확인하거나 조직 간에 전환할 수 있습니다.
+지원을 위해 할당된 조직 ID를 찾을 수 있습니다. 헤더에서 **[!UICONTROL 조직]** 선택기를 사용하여 올바른 조직에 있는지 확인하거나 조직 간에 전환할 수 있습니다.
 
 조직 ID는 공급된 Experience Cloud 회사와 연결된 ID입니다. 이 ID는 24자의 영숫자 문자열과 `@AdobeOrg`(포함 필수)로 구성됩니다.
 
@@ -65,31 +65,30 @@ ht-degree: 64%
 
 1. Adobe ID 또는 Enterprise ID를 사용하여 로그인합니다.
 
-1. 애플리케이션 선택기를 선택합니다. ( ![메뉴](../assets/menu-icon.png)).
+1. **[!UICONTROL 응용 프로그램 선택기]**&#x200B;를 클릭합니다. ( ![메뉴](../assets/menu-icon.png)).
 
    ![Adobe ID에 애플리케이션 계정 연결](../assets/solutions-active.png)
 
    액세스 권한이 있는 애플리케이션에 색상이 지정됩니다.
 
-1. 원하는 애플리케이션을 선택합니다.
+1. 원하는 애플리케이션을 클릭합니다.
 
-   ![원하는 애플리케이션 선택](../assets/analytics-link-accounts.png)
+   ![응용 프로그램 클릭](../assets/analytics-link-accounts.png)
 
    이 유형의 메시지는 적절한 그룹에 속하거나 애플리케이션에 대한 권한이 있지만, 계정 자격 증명을 아직 Adobe ID에 연결하지 않은 경우 표시됩니다.
 
-1. **[!UICONTROL 계정 연결]**&#x200B;을 선택한 다음 자격 증명을 제공합니다.
+1. **[!UICONTROL 계정 연결]**&#x200B;을 클릭한 다음 자격 증명을 제공합니다.
 
-## 기본 조직 및 랜딩 페이지 지정 {#concept_6A191B42A9874A9780882903BA18F071}
+## 기본 조직 지정 {#concept_6A191B42A9874A9780882903BA18F071}
 
-로그인할 때 사용할 기본 조직 및 랜딩 페이지를 지정할 수 있습니다.
+로그인할 때 사용할 기본 조직을 지정할 수 있습니다.
 
-프로필에서 **[!UICONTROL 프로필 편집을 선택합니다]**.
+1. 헤더에서 **[!UICONTROL 프로필]**&#x200B;을 클릭한 다음 기본 설정을 클릭합니다.
+
+1. [!UICONTROL 일반]에서 기본 조직을 선택합니다.
+
 
 ![프로필 편집](../assets/edit-profile.png)
-
-**[!UICONTROL 기본 조직 및 랜딩 페이지]**&#x200B;에서 로그인 환경을 사용자 지정할 수 있습니다.
-
-![기본 조직 및 랜딩 페이지](../assets/default-organization.png)
 
 ## 계정 연결 문제 해결 {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 

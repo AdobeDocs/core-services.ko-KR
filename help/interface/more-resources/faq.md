@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 69%
+source-wordcount: '700'
+ht-degree: 67%
 
 ---
 
@@ -87,7 +87,13 @@ Experience Cloud의 프로비저닝은 다음을 의미합니다.
 
 +++
 
-+++사용자 및 제품 프로필을 관리하려면 어떻게 해야 합니까?
++++사용자 환경 설정, 알림 및 경고를 관리하려면 어떻게 해야 합니까?
+
+* [계정 환경 설정 및 알림](/help/interface/features/account-preferences.md) 보기
+
++++
+
++++제품 프로필 및 사용자 계정 자격 증명을 관리하려면 어떻게 해야 합니까?
 
 * 도움이 필요하면 [Admin Console 사용 안내서](https://helpx.adobe.com/kr/enterprise/admin-guide.html) 를 참조하십시오.
 

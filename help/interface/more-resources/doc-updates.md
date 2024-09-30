@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
+source-git-commit: 468375c0435e5cffc92db5b737eb55fa92454b99
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 78%
+source-wordcount: '557'
+ht-degree: 77%
 
 ---
 
@@ -18,9 +18,11 @@ ht-degree: 78%
 
 Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
 
-<!-- **9 September 2024**
+**2024년 9월**
 
-Added help about [subscribing to Slack notifications](../features/account-preferences.md#subscribe-to-slack-notifications). -->
+[Slack 알림 구독](../features/account-preferences.md#subscribe-to-slack-notifications)에 대한 도움말을 추가했습니다.
+
+[사용자 환경 설정](../features/account-preferences.md)을 업데이트했습니다.
 
 **26 2024년 4월**
 

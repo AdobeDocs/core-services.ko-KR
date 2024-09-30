@@ -7,16 +7,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 9a6833139a0fb8eed8a10daeda34f354a7133f17
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '633'
 ht-degree: 8%
 
 ---
 
 # 계정 환경 설정 및 알림 {#preferences}
 
-Experience Cloud 환경 설정을 찾으려면 헤더에서 **[!UICONTROL 사용자 계정]** ![환경 설정](../assets/preferences-icon-sm.png) 아이콘을 클릭한 다음 **[!UICONTROL 환경 설정]**&#x200B;을 클릭합니다.
+Experience Cloud 환경 설정을 찾으려면 헤더에서 **[!UICONTROL 프로필]** ![환경 설정](../assets/preferences-icon-sm.png)을 클릭한 다음 **[!UICONTROL 환경 설정]**&#x200B;을 클릭하십시오.
 
 ![환경 설정](../assets/preferences-navigation.png){width="100" zoomable="yes"}
 
