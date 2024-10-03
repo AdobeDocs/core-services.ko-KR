@@ -10,7 +10,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 77%
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ Experience Cloud 헤더에서 다음 작업을 수행할 수 있습니다.
 * 모든 Experience Cloud 애플리케이션 및 서비스에 액세스
 * 도움말 메뉴에서 제품 설명서, 튜토리얼 및 커뮤니티 게시물 검색 Experience League에서 결과 보기
 * 검색 필드에서 글로벌 검색을 사용하여 전역으로 비즈니스 오브젝트 검색 (Experience Platform 사용자만 해당)
-* 계정 [환경 설정](features/account-preferences.md)(경고, 알림 및 구독) 관리
+* 계정 [환경 설정](features/account-preferences.md) 관리 (경고, 알림 및 구독)
 
 ## Experience Cloud에 로그인 {#signin}
 
@@ -79,10 +79,10 @@ Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이�
 * 로그아웃
 * 계정 환경 설정, 알림 및 구독 구성
 
-## 제품 내 알림 및 공지 보기 {#notifications}
+## 제품 내 알림 및 공지 사항 보기 {#notifications}
 
-알림 및 공지를 보려면 벨 아이콘을 클릭합니다. 공지는 제품 릴리스, 유지 관리 알림, 공유 항목 및 승인 요청을 포함하여 관련성 있고 실행 가능한 업데이트일 수 있습니다.
+알림 및 공지 사항을 보려면 종 모양 아이콘을 클릭하십시오. 공지 사항에는 제품 릴리스, 유지 관리 알림, 공유 항목 및 승인 요청을 포함하여 관련성 있고 실행 가능한 업데이트에 대한 알림이 포함됩니다.
 
 ![알림 및 공지](assets/notifications-menu-small.png)
 
-알림 및 알림을 관리하려면 [계정 환경 설정 및 알림](features/account-preferences.md)을 참조하세요.
+알림 및 경고를 관리하려면 [계정 환경 설정 및 알림](features/account-preferences.md)을 참조하십시오.
