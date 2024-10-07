@@ -3,12 +3,12 @@ role: User,Admin
 user-guide-title: Experience Cloud 인터페이스 및 관리 안내서
 breadcrumb-title: Experience Cloud 인터페이스 및 관리 안내서
 title: Experience Cloud 인터페이스 및 관리 안내서
-description: Experience Cloud 인터페이스 및 사용자 계정 환경 설정에 대해 알아봅니다. 비즈니스 오브젝트를 검색하고 사용자 및 제품을 관리하는 방법에 대해 알아봅니다. 고객 속성, 대상자 라이브러리, 쿠키를 구성하고 Experience Cloud 자산을 공유하십시오.
+description: Experience Cloud 인터페이스, 쿠키 및 계정 환경 설정에 대해 알아봅니다. 제품을 관리하고 고객 속성 및 대상 라이브러리를 비롯한 인물 서비스를 구성합니다. Experience Cloud Assets 공유.
 index: true
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 009c387189d928d3807326939fa56461325011f1
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 88%
 
 ---
 
