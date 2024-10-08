@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Experience Cloud 헤더에서 다음 작업을 수행할 수 있습니다.
 
    **조직 확인**
 
-   [조직](administration/organizations.md)이 인터페이스 헤더에 표시됩니다.
+   [조직](administration/organizations.md)은 인터페이스 헤더에 표시됩니다.
 
    조직이 Federated ID를 사용하는 경우 Experience Cloud를 통해 이메일 주소 및 암호를 입력할 필요 없이 조직의 SSO(Single Sign-On)로 로그인할 수 있습니다. 이 작업을 수행하려면 `#/sso:@domain`을 Experience Cloud URL(`https://experience.adobe.com`)에 추가하십시오.
 
@@ -57,7 +57,7 @@ Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이�
 
 ## 도움말 및 지원 요청 {#support}
 
-헤더의 **[!UICONTROL 도움말 센터]**(![에셋](assets/help-icon.png))를 사용하여 [Experience League](https://experienceleague.adobe.com/#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선 순위가 지정된 지원 티켓을 만들 수도 있습니다.
+헤더의 **[!UICONTROL 도움말 센터]**(![자산](assets/help-icon.png))를 사용하여 [Experience League](https://experienceleague.adobe.com/#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선 순위가 지정된 지원 티켓을 만들 수도 있습니다.
 
 ![도움말 및 지원 요청](assets/search-menu.png)
 
@@ -70,7 +70,7 @@ Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이�
 
 ## 사용자 프로필 관리
 
-[!UICONTROL 프로필] 메뉴에서 다음 작업을 수행할 수 있습니다.
+[!UICONTROL 프로필] 메뉴에서 다음과 같은 작업을 수행할 수 있습니다.
 
 * 어두운 테마 지정 (일부 애플리케이션에서는 이 테마를 지원하지 않음)
 * Experience Cloud [환경 설정](features/account-preferences.md) 관리
