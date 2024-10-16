@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 27d656b3cfe614f0a5b47d8987343a4c36d9ed33
+source-git-commit: f21e82e53a835d723bfd070cd99157c60c5f3eb7
 workflow-type: tm+mt
-source-wordcount: '5104'
-ht-degree: 96%
+source-wordcount: '5162'
+ht-degree: 95%
 
 ---
 
@@ -24,11 +24,17 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
 
+## 2024년 10월 2일 목요일
+
+| 기능 | 설명 |
+| -----------| ---------- |
+| 사용자 정의 가능 홈 | Experience Cloud 랜딩 페이지에서 **[!UICONTROL 편집]**&#x200B;을 클릭합니다. [!UICONTROL 편집] 모드를 사용하면 위젯 라이브러리 및 사용자 지정 배경에 액세스하여 Experience Cloud 홈 페이지를 개인화할 수 있습니다. [!UICONTROL 편집] 모드는 일괄 작업 및 레이아웃 조정을 포함하여 위젯을 이동, 크기 조정 및 관리할 수 있는 매끄럽고 직관적인 컨트롤을 제공하여 심미적이고 맞춤화된 환경을 제공합니다. |
+
 ## 2024년 9월 10일
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| Slack 알림 | Slack에게 Experience Cloud 알림을 전송하도록 계정 환경 설정을 구성할 수 있습니다. 자세한 내용은 [환경 설정](../features/account-preferences.md) 도움말의 _Slack 알림_&#x200B;을 참조하세요. |
+| Slack 알림 | Experience Cloud 알림이 Slack으로 전송되도록 계정 환경 설정을 구성할 수 있습니다. 자세한 내용은 [환경 설정](../features/account-preferences.md) 도움말의 _Slack 알림_&#x200B;을 참조하세요. |
 
 <!-- ## July - August 2023
 
