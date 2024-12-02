@@ -1,5 +1,5 @@
 ---
-title: “[!DNL Customer Attributes] 개인정보 보호 규정 지원”
+title: 일반 데이터 보호 규정에 대한 [!DNL Customer Attributes] 지원
 description: 개인정보 보호 규정을 위한 고객 속성 지원에 대해 알아봅니다.
 feature: Customer Attributes
 topic: Administration
@@ -9,7 +9,7 @@ exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
