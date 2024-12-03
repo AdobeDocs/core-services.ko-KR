@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: d1d2e6a05ff247cf178ebe9849da53287485d44c
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 84%
+source-wordcount: '1102'
+ht-degree: 77%
 
 ---
 
@@ -71,11 +71,15 @@ Experience Cloud의 새 고객 속성 Source 만들기 페이지에서 다음 �
 
    * **[!UICONTROL 설명:]** (선택 사항) 데이터 속성 소스에 대한 설명입니다.
 
-   * **[!UICONTROL 별칭 ID:]** 특정 CRM 시스템과 같은 고객 속성 데이터의 소스를 나타냅니다. [!UICONTROL 별칭 ID]는 고객 속성 소스 코드에 사용되는 고유 ID입니다. ID는 고유해야 하고 공백 없는 소문자로 이루어져야 합니다. Experience Cloud에서 고객 특성 소스에 대한 [!UICONTROL 별칭 ID] 필드에 입력한 값은 구현(Mobile SDK의 Platform 데이터 수집을 통해 또는 JavaScript을 통해)에서 전달되는 값과 일치해야 합니다.
+   * **[!UICONTROL 별칭 ID:]** 특정 CRM 시스템과 같은 고객 속성 데이터의 소스를 나타냅니다. [!UICONTROL 별칭 ID]은(는) [!UICONTROL 고객 특성 Source] 코드에 사용되는 고유 ID입니다. ID는 고유해야 하고 공백 없는 소문자로 이루어져야 합니다. Experience Cloud에서 고객 특성 소스에 대한 [!UICONTROL 별칭 ID] 필드에 입력한 값은 구현(Mobile SDK의 Platform 데이터 수집을 통해 또는 JavaScript을 통해)에서 전달되는 값과 일치해야 합니다.
+
+     >[!IMPORTANT]
+     >
+     >별칭 ID가 여러 서비스에 저장되고 둘 사이에 프로필을 매핑하는 데 사용되므로 별칭 ID와 연결된 데이터 소스를 삭제해도 해당 별칭 ID는 사용할 수 없습니다.
 
      별칭 ID는 추가 고객 ID 값을 설정하는 특정 영역에 해당합니다. 예:
 
-      * **Dynamic Tag Management:** 별칭 ID는 *Experience Cloud ID 서비스* 도구에 있는 [!UICONTROL 고객 설정] 아래의 [통합 코드](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) 값에 해당합니다.
+      * **태그:** 별칭 ID는 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) 도구의 [!UICONTROL 고객 설정]에 있는 *통합 코드* 값에 해당합니다.
 
       * **방문자 API:** 별칭 ID는 각 방문자에게 연결할 수 있는 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)에 해당합니다.
 
@@ -99,7 +103,7 @@ Experience Cloud의 새 고객 속성 Source 만들기 페이지에서 다음 �
 
         별칭 ID 필드 및 고객 ID와 관련된 데이터 처리에 대한 자세한 내용은 [여러 데이터 소스 활용](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) 을 참조하십시오.
 
-   * **[!UICONTROL File Upload:]** `.csv` 데이터 파일을 드래그 앤 드롭하거나 FTP를 통해 데이터를 업로드할 수 있습니다. (FTP를 사용하려면 `.fin` 파일도 필요합니다.) [FTP를 통해 데이터 업로드](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)를 참조하십시오.
+   * **[!UICONTROL File Upload:]** `.csv` 데이터 파일을 드래그 앤 드롭하거나 FTP를 통해 데이터를 업로드할 수 있습니다. FTP를 사용하려면 `.fin` 파일도 필요합니다. [FTP를 통해 데이터 업로드](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)를 참조하십시오.
 
      >[!IMPORTANT]
      >
@@ -157,8 +161,8 @@ Experience Cloud의 새 고객 속성 Source 만들기 페이지에서 다음 �
 
 ## Adobe Target에서 고객 속성 사용 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-[!DNL Target]에서는 대상을 만들 때 [!UICONTROL 방문자 프로필] 섹션에서 고객 속성을 선택할 수 있습니다. 모든 고객 속성에는 목록에 `crs.` 접두사가 있습니다. 필요에 따라 이러한 속성을 다른 데이터 속성과 결합하여 대상을 구성합니다.
+[!DNL Target]에서는 대상자를 만들 때 [!UICONTROL 방문자 프로필] 섹션에서 고객 속성을 선택할 수 있습니다. 모든 고객 속성에는 목록에 `crs.` 접두사가 있습니다. 필요에 따라 이러한 속성을 다른 데이터 속성과 결합하여 대상자를 구성합니다.
 
 ![Adobe Target에서 고객 속성 사용](assets/crs-add-attribute-target.png)
 
-[!DNL Target] 도움말에서 [새 대상 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) 를 참조하십시오.
+[!DNL Target] 도움말에서 [새 대상자 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)를 참조하십시오.
