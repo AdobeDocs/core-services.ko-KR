@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: d1d2e6a05ff247cf178ebe9849da53287485d44c
+source-git-commit: 9171da93ad234c98c06a5ace2435f7d476151f51
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 77%
@@ -75,7 +75,7 @@ Experience Cloud의 새 고객 속성 Source 만들기 페이지에서 다음 �
 
      >[!IMPORTANT]
      >
-     >별칭 ID가 여러 서비스에 저장되고 둘 사이에 프로필을 매핑하는 데 사용되므로 별칭 ID와 연결된 데이터 소스를 삭제해도 해당 별칭 ID는 사용할 수 없습니다.
+     >별칭 ID가 여러 서비스에 저장되고 둘 사이에 프로필을 매핑하는 데 사용되므로 별칭 ID와 연결된 데이터 소스를 삭제해도 별칭 ID는 사용할 수 없습니다.
 
      별칭 ID는 추가 고객 ID 값을 설정하는 특정 영역에 해당합니다. 예:
 
