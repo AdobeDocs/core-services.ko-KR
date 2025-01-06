@@ -1,5 +1,5 @@
 ---
-description: Experience Cloud 도움말 업데이트에 대한 정보입니다.
+description: Experience Cloud의 공통 인터페이스 구성 요소에 대해 설명서 업데이트가 발생하는 위치를 알아봅니다.
 solution: Experience Cloud
 title: 설명서 업데이트
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 468375c0435e5cffc92db5b737eb55fa92454b99
+source-git-commit: 855853be8397350bb93f3c9cf02bb73f5e75326f
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 77%
+source-wordcount: '580'
+ht-degree: 73%
 
 ---
 
-# 설명서 업데이트 - Experience Cloud
+# Experience Cloud 설명서 업데이트
 
-Experience Cloud 제품 설명서 업데이트에 대한 정보입니다.
+중앙 인터페이스 및 Experience Cloud 관리에 대한 설명서 업데이트가 발생하는 위치를 알아봅니다.
+
+**2024년 11월**
+
+[제품 사용 데이터](../features/account-preferences.md) 및 [맞춤형 학습](../features/personalized-learning.md)에 대한 업데이트입니다.
 
 **2024년 9월**
 

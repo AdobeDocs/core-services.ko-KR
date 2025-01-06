@@ -1,16 +1,16 @@
 ---
 title: 계정 환경 설정 및 알림
-description: Experience Cloud의 사용자 프로필 및 계정 환경 설정에 대해 알아봅니다. 전자 메일 및  [!DNL Slack]에 대한 제품 알림을 구독하고 제품 알림을 설정합니다.
+description: Experience Cloud 프로필, 계정 환경 설정 및 사용자의 제품 사용 데이터에 대해 알아봅니다. 전자 메일 및  [!DNL Slack]에 대한 제품 알림을 구독하고 제품 알림을 설정합니다.
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 10%
+source-wordcount: '825'
+ht-degree: 3%
 
 ---
 
@@ -24,11 +24,23 @@ Experience Cloud 환경 설정을 찾으려면 헤더에서 **[!UICONTROL 프로
 
 | 기능 | 설명 |
 |--- |--- |
-| 프로필 | [Adobe 계정 프로필](https://account.adobe.com/kr/profile)을 업데이트하세요. <p>Adobe.com에 로그인하거나 제품 및 서비스를 Adobe 하거나 [!DNL Behance]과(와) 같은 공개 사이트에 로그인하면 프로필 사진과 이름이 표시됩니다. |
-| 일반 | [조직](../administration/organizations.md)을(를) 선택하십시오.<p>이 조직은 Experience Cloud에 로그인할 때 사용되는 기본 조직입니다. |
-| [!UICONTROL 제품 데이터 수집] | 귀하가 Adobe 제품을 사용하는 방식에 대한 데이터를 Adobe에서 수집하는 데 사용되는 기술을 선택하십시오. |
-| 알림 | 제품 [알림](#subscribe-to-notifications-in-experience-cloud) 및 경고를 원하는 방법과 시기를 구성하십시오. <ul><li>경고를 구독할 제품 선택</li><li>알림 유형 구성([!UICONTROL 앱 내], [!UICONTROL 전자 메일] 또는 [Slack](#slack-notifications))</li><li>이메일 알림을 수신할 빈도를 지정합니다. (발송하지 않음, 실시간, 매일 또는 매주)</li><li>경고 우선 순위를 결정합니다. 인앱 경고가 창의 오른쪽 상단 모서리에 몇 초 동안 나타납니다. 또는 경고를 닫을 때까지 경고를 표시할지 여부를 지정할 수 있습니다.</li></ul> |
-| [!UICONTROL 맞춤형 학습 권장 사항 및 프로모션] | Adobe 제품에 대해 [개인화된 도움말](personalized-learning.md)을 받을 위치를 선택하십시오. 이 도움말은 이메일, 제품 내 및 Experience League 커뮤니티를 통해 사용할 수 있습니다. |
+| [!UICONTROL 프로필] | [Adobe 계정 프로필](https://account.adobe.com/kr/profile)을 업데이트하세요. <p>Adobe.com에 로그인하거나 제품 및 서비스를 Adobe 하거나 [!DNL Behance]과(와) 같은 공개 사이트에 로그인하면 프로필 사진과 이름이 표시됩니다. |
+| [!UICONTROL 일반] | [조직](../administration/organizations.md)을(를) 선택하십시오.<p>이 조직은 Experience Cloud에 로그인할 때 사용되는 기본 조직입니다. |
+| [!UICONTROL 제품 사용 데이터] | Experience Cloud 애플리케이션을 사용할 때 Adobe과 공유할 제품 사용 데이터를 제어할 수 있습니다. 이는 조직의 콘텐츠나 데이터 자체가 아니라 당사 제품을 사용하는 방식에 대한 데이터입니다. Adobe은 이 정보를 사용하여 당사의 제품을 개선하고, 향상된 제품 내 지원을 제공하며, 당사의 경험과 커뮤니케이션을 개인화합니다. <p>자세한 내용은 [제품 사용 데이터](#product-usage-data)(이 페이지)를 참조하세요. |
+| [!UICONTROL 알림] | 제품 [알림](#subscribe-to-notifications-in-experience-cloud) 및 경고를 원하는 방법과 시기를 구성하십시오. <ul><li>경고를 구독할 제품 선택</li><li>알림 유형 구성([!UICONTROL 앱 내], [!UICONTROL 전자 메일] 또는 [Slack](#slack-notifications))</li><li>이메일 알림을 수신할 빈도를 지정합니다. (발송하지 않음, 실시간, 매일 또는 매주)</li><li>경고 우선 순위를 결정합니다. 인앱 경고가 창의 오른쪽 상단 모서리에 몇 초 동안 나타납니다. 또는 경고를 닫을 때까지 경고를 표시할지 여부를 지정할 수 있습니다.</li></ul> |
+
+## [!UICONTROL 제품 사용 데이터] {#product-usage-data}
+
+Adobe과 공유하도록 선택하는 제품 사용 데이터에는 Adobe 애플리케이션을 사용하고 상호 작용하는 방법에 대한 다음 유형의 정보가 포함됩니다.
+
+* 디바이스 모델 및 운영 체제, 소프트웨어 및 하드웨어 정보, 브라우저 및 디바이스 설정, 고유 식별자(IP 주소, 쿠키 ID 또는 디바이스 ID 등), 설치된 메모리 양, 언어 설정 및 화면 해상도 등의 브라우저 및 디바이스 정보
+* 사용하는 기능 및 선택하는 옵션을 포함하여 Adobe Experience Cloud 앱과 상호 작용하는 방법;
+* 버전 번호와 같은 Adobe 제품 정보
+* 페이지 수, 고유 식별자 등 콘텐츠 및 문서에 대한 정보이지만 콘텐츠 자체는 아닙니다.
+* 콘텐츠에 액세스하는 횟수, 앱 내에서 콘텐츠와 상호 작용하는 방법 등의 콘텐츠 사용 정보.
+* 충돌 및 오류 로그
+
+Adobe은 이 정보를 사용하여 당사의 제품을 개선하고, 제품 내 및 고객 지원 센터를 통해 귀하에게 지원을 제공하며, 당사의 경험과 커뮤니케이션을 개인화합니다. [개인화된 경험](personalized-learning.md)에 대해 자세히 알아보세요.
 
 ## Experience Cloud에서 알림 구독 {#notifications}
 
