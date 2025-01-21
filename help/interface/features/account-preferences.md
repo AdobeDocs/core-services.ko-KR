@@ -1,6 +1,6 @@
 ---
 title: 계정 환경 설정 및 알림
-description: Experience Cloud 프로필, 계정 환경 설정 및 사용자의 제품 사용 데이터에 대해 알아봅니다. 전자 메일 및  [!DNL Slack]에 대한 제품 알림을 구독하고 제품 알림을 설정합니다.
+description: Experience Cloud의 사용자 프로필, 계정 환경 설정, 제품 사용 데이터에 대해 알아봅니다. 전자 메일 및  [!DNL Slack]에 대한 제품 알림을 구독하고 제품 알림을 설정합니다.
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
@@ -10,7 +10,7 @@ exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
 source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
