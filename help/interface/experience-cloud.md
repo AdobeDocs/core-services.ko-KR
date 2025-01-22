@@ -7,8 +7,8 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
-workflow-type: ht
+source-git-commit: b122f71a8bffeaaeb20c974c618bacc5a40c2cd9
+workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Experience Cloud 헤더에서 다음 작업을 수행할 수 있습니다.
 
 Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이션, 서비스 및 조직에 빠르게 액세스할 수 있습니다.
 
-조직의 Experience Cloud 애플리케이션 및 서비스에 액세스하려면 애플리케이션 선택기 ![메뉴](assets/menu-icon.png)로 이동하십시오.
+조직의 Experience Cloud 애플리케이션 및 서비스에 액세스하려면 애플리케이션 선택기 ![메뉴](assets/apps-icon.png)로 이동하십시오.
 
 ![Experience Cloud 애플리케이션 액세스](assets/platform-core-services.png)
 

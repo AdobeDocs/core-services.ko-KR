@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: b3484afe7ed1e015030f73ea0a25b921c32d81dd
+source-git-commit: fcebe4c0c356ef1f8d8756203f9ff7348b91f2b1
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 90%
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 이 설명서는 [!DNL People] 서비스([!DNL Audience Library] 및 [!DNL Customer Attributes]), Experience Cloud를 위한 사용자 및 제품 관리, 쿠키, 계정 환경 설정, 알림 등과 같은 Experience Cloud 통합 헤더의 기능에 적용됩니다.
 
-Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL 애플리케이션 선택기]** ![서비스 선택기](../assets/menu-icon.png)를 클릭합니다.
+Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL 애플리케이션 선택기]** ![서비스 선택기](../assets/apps-icon.png)를 클릭합니다.
 
 ![Experience Cloud 서비스](../assets/platform-core-services.png)
 
