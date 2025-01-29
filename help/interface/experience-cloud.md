@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e06568253b81742912b99bdf6e94c282abe2d429
+source-git-commit: 7bb32ff62b11cdc3fa5df9d14a9481d5ada657ab
 workflow-type: ht
 source-wordcount: '508'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 [Experience Cloud](https://experience.adobe.com)는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능 및 서비스에 빠르게 액세스할 수 있습니다.
 
-![Experience Cloud](assets/landing.png){width="100" zoomable="yes"}
+![Experience Cloud](assets/landing.png)
 
 Experience Cloud 헤더에서 다음 작업을 수행할 수 있습니다.
 
@@ -37,7 +37,7 @@ Experience Cloud 헤더에서 다음 작업을 수행할 수 있습니다.
 1. 암호를 입력합니다.
 1. 올바른 조직에 속해 있는지 확인합니다.
 
-   ![올바른 조직에 속해 있는지 확인합니다](assets/organizations-menu.png){width="100" zoomable="yes"}
+   ![올바른 조직에 속해 있는지 확인합니다](assets/organizations-menu.png)
 
    **조직 확인**
 
@@ -53,13 +53,13 @@ Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이�
 
 조직의 Experience Cloud 애플리케이션 및 서비스에 액세스하려면 애플리케이션 선택기 ![메뉴](assets/apps-icon.png)로 이동하십시오.
 
-![Experience Cloud 애플리케이션 액세스](assets/platform-core-services.png){width="100" zoomable="yes"}
+![Experience Cloud 애플리케이션 액세스](assets/platform-core-services.png)
 
 ## 도움말 및 지원 요청 {#support}
 
 헤더의 **[!UICONTROL 도움말 센터]**(![자산](assets/help-icon.png))를 사용하여 [Experience League](https://experienceleague.adobe.com/#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선 순위가 지정된 지원 티켓을 만들 수도 있습니다.
 
-![도움말 및 지원 요청](assets/search-menu.png){width="100" zoomable="yes"}
+![도움말 및 지원 요청](assets/search-menu.png)
 
 [!UICONTROL 도움말] 메뉴로 또한 다음에 액세스할 수 있습니다.
 
@@ -83,6 +83,6 @@ Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이�
 
 알림 및 공지 사항을 보려면 종 모양 아이콘을 클릭하십시오. 공지 사항에는 제품 릴리스, 유지 관리 알림, 공유 항목 및 승인 요청을 포함하여 관련성 있고 실행 가능한 업데이트에 대한 알림이 포함됩니다.
 
-![알림 및 공지](assets/notifications-menu-small.png){width="100" zoomable="yes"}
+![알림 및 공지](assets/notifications-menu-small.png)
 
 알림 및 경고를 관리하려면 [계정 환경 설정 및 알림](features/account-preferences.md)을 참조하십시오.
