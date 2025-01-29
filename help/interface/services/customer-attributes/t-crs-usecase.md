@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 65d77199580a85e3be3e82c06cb215f980d159fd
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 77%
@@ -55,13 +55,13 @@ Experience Cloud의 새 고객 속성 Source 만들기 페이지에서 다음 �
 >고객 속성 소스를 만들거나, 수정하거나, 삭제할 때, ID가 새 데이터 소스와의 동기화를 시작하기 전에 최대 한 시간이 지연됩니다. 고객 속성 소스를 만들거나 수정하려면 Audience Manager에 관리 권한이 있어야 합니다. 관리 권한을 얻으려면 Audience Manager 고객 지원 센터 또는 컨설팅 팀에 문의하십시오.
 
 1. [!DNL Experience Cloud]에서 메뉴 ![메뉴](assets/menu-icon.png) 아이콘을 선택합니다.
-1. **[!DNL Experience Platform]**&#x200B;에서 **[!UICONTROL 사용자]** > **[!UICONTROL 고객 속성]**&#x200B;을 선택합니다.
+1. **[!DNL Experience Platform]**&#x200B;에서 **[!UICONTROL 사용자]**> **[!UICONTROL 고객 속성]**&#x200B;을 클릭합니다.
 
    [!UICONTROL 고객 속성] 페이지에서 기존 속성 데이터 소스를 관리 및 편집할 수 있습니다.
 
    ![단계 결과](assets/03_crs_usecase.png)
 
-1. **[!UICONTROL 새로 만들기]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
 
    ![단계 결과](assets/04_crs_usecase.png)
 
@@ -71,7 +71,7 @@ Experience Cloud의 새 고객 속성 Source 만들기 페이지에서 다음 �
 
    * **[!UICONTROL 설명:]** (선택 사항) 데이터 속성 소스에 대한 설명입니다.
 
-   * **[!UICONTROL 별칭 ID:]** 특정 CRM 시스템과 같은 고객 속성 데이터의 소스를 나타냅니다. [!UICONTROL 별칭 ID]은(는) [!UICONTROL 고객 특성 Source] 코드에 사용되는 고유 ID입니다. ID는 고유해야 하고 공백 없는 소문자로 이루어져야 합니다. Experience Cloud에서 고객 특성 소스에 대한 [!UICONTROL 별칭 ID] 필드에 입력한 값은 구현(Mobile SDK의 Platform 데이터 수집을 통해 또는 JavaScript을 통해)에서 전달되는 값과 일치해야 합니다.
+   * **[!UICONTROL 별칭 ID:]** 특정 CRM 시스템과 같은 고객 속성 데이터의 소스를 나타냅니다. [!UICONTROL 별칭 ID]은(는) [!UICONTROL 고객 특성 Source] 코드에 사용되는 고유 ID입니다. ID는 고유해야 하고 공백 없는 소문자로 이루어져야 합니다. Experience Cloud에서 고객 특성 소스에 대한 [!UICONTROL 별칭 ID] 필드에 입력한 값은 구현(Mobile SDK의 Platform Data Collection 또는 JavaScript을 통해)에서 전달되는 값과 일치해야 합니다.
 
      >[!IMPORTANT]
      >
@@ -109,7 +109,7 @@ Experience Cloud의 새 고객 속성 Source 만들기 페이지에서 다음 �
      >
      >특정 데이터 파일 요구 사항이 있습니다. 자세한 내용은 [데이터 파일 요구 사항](crs-data-file.md) 을 참조하십시오.
 
-     파일을 업로드한 후에는 이 페이지의 [!UICONTROL 파일 업로드] 제목 아래에 있는 표 데이터가 표시됩니다. 스키마의 유효성을 검사하거나, 구독을 구성하거나, FTP를 설정할 수 있습니다.
+     파일을 업로드한 후에는 이 페이지의 [!UICONTROL 파일 업로드] 제목 아래에 있는 테이블 데이터가 표시됩니다. 스키마의 유효성을 검사하거나, 구독을 구성하거나, FTP를 설정할 수 있습니다.
 
      **파일 업로드 그래픽**
 
@@ -144,7 +144,7 @@ Experience Cloud의 새 고객 속성 Source 만들기 페이지에서 다음 �
 
 **속성 소스를 활성화하려면**
 
-[!UICONTROL 새로 만들기 또는 고객 특성 편집 Source] 페이지에서 [!UICONTROL 활성화] 제목을 찾은 다음 **[!UICONTROL 활성]**&#x200B;을 선택합니다.
+[!UICONTROL 새로 만들기 또는 고객 특성 편집 Source] 페이지에서 [!UICONTROL 활성화] 제목을 찾은 다음 **[!UICONTROL 활성]**&#x200B;을 클릭합니다.
 
 ![단계 결과](assets/activate_attribute_source.png)
 

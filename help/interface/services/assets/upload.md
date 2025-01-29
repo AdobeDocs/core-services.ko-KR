@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 70%
@@ -23,12 +23,12 @@ Creative Cloud 데스크탑 또는 Creative Cloud 브라우저를 통해 에셋�
 
 1. [!DNL Creative Cloud] 브라우저를 시작하고 [!UICONTROL Creative Cloud 파일]로 이동합니다.
 1. 공유 폴더를 엽니다.
-1. **[!UICONTROL 작업]** > **[!UICONTROL 업로드]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 작업]**>**[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
 1. 운영 체제의 파일 검색을 사용하여 에셋을 선택하거나 이동합니다.
 
 ## Creative Cloud 데스크탑에서 공유 폴더로 자산 업로드
 
 1. 공유를 활성화합니다.
 1. [!DNL Creative Cloud] 데스크탑을 시작하고 [!UICONTROL **자산**]&#x200B;으로 이동합니다.
-1. **[!UICONTROL 폴더 열기]**&#x200B;를 선택합니다.
-1. 운영 체제의 파일 검색을 사용하여 에셋을 선택하거나 이동합니다.
+1. **[!UICONTROL 폴더 열기]를 클릭합니다.**
+1. 운영 체제의 파일 검색을 사용하여 자산을 선택하거나 이동합니다.

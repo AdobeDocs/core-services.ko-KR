@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 76%
@@ -35,7 +35,7 @@ Experience Cloud에서 고객 속성 소스 및 FTP 계정을 만든 후에 데�
 
    `ftp.adobe.com/<sftpname>`에서 FTP 사이트에 로그인했는지 확인하십시오.
 
-1. **[!UICONTROL 작업]** > **[!UICONTROL 파일 업로드]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 작업]** > **[!UICONTROL 파일 업로드]**&#x200B;를 클릭합니다.
 
 1. `.fin` 파일을 업로드하여 검색할 수 있게 만듭니다.
 

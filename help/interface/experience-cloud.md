@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 7bb32ff62b11cdc3fa5df9d14a9481d5ada657ab
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,8 +32,8 @@ Experience Cloud 헤더에서 다음 작업을 수행할 수 있습니다.
 로그인한 다음 올바른 [조직](administration/organizations.md)에 속해 있는지 확인하십시오.
 
 1. [Adobe Experience Cloud](https://experience.adobe.com)를 탐색하십시오.
-1. Adobe 이메일 주소를 입력한 다음 **[!UICONTROL 계속]**&#x200B;을 선택합니다.
-1. 계정을 선택합니다.
+1. Adobe 이메일 주소를 입력한 다음 **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
+1. 계정을 클릭합니다.
 1. 암호를 입력합니다.
 1. 올바른 조직에 속해 있는지 확인합니다.
 

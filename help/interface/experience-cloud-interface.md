@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 91%
@@ -59,7 +59,7 @@ Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사
 로그인한 다음 올바른 [조직](organizations.md)에 속해 있는지 확인하십시오.
 
 1. [Adobe Experience Cloud](https://experience.adobe.com)를 탐색하십시오.
-1. **[!UICONTROL Adobe ID로 로그인]**&#x200B;을 선택합니다.
+1. **[!UICONTROL Adobe ID로 로그인]**&#x200B;을 클릭합니다.
 1. 올바른 조직에 속해 있는지 확인합니다.
 
    ![조직 확인](assets/organizations-menu.png)
@@ -74,7 +74,7 @@ Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사
 
 Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이션, 서비스 및 조직에 빠르게 액세스할 수 있습니다.
 
-소유한 Experience Cloud 서비스에 액세스하려면 응용 프로그램 선택기 ![메뉴](assets/menu-icon.png)를 선택하십시오.
+소유한 Experience Cloud 서비스에 액세스하려면 응용 프로그램 선택기 ![메뉴](assets/menu-icon.png)를 클릭하십시오.
 
 ![Experience Cloud 애플리케이션 액세스](assets/platform-core-services.png)
 
@@ -104,7 +104,7 @@ Experience Cloud 검색을 통해 [Experience League](https://experienceleague.a
 
 Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니다.
 
-환경 설정을 관리하려면 계정 메뉴 ![환경 설정](assets/preferences-icon-sm.png)에서 **[!UICONTROL 환경 설정]**&#x200B;을(를) 선택하십시오.
+* 환경 설정을 관리하려면 계정 메뉴 ![환경 설정](assets/preferences-icon-sm.png)에서 **[!UICONTROL 환경 설정]**&#x200B;을 클릭하세요.
 
 ![Experience Cloud 관리](assets/preferences-page.png)
 
@@ -122,7 +122,7 @@ Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니�
 
 ## 알림 및 공지 {#notifications}
 
-본인에게 중요한 알림과 Adobe의 공지를 보려면 **[!UICONTROL 알림]** 을 선택합니다.
+본인에게 중요한 알림과 Adobe의 공지를 보려면 **[!UICONTROL 알림]**&#x200B;을 클릭하십시오.
 
 ![알림 및 공지](assets/notifications-menu-small.png)
 
