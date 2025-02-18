@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 1e0206286d4ac0f1987ee053bcbfce8649902ccd
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 55%
@@ -17,11 +17,11 @@ ht-degree: 55%
 
 # Experience Cloud 내 조직
 
-*조직*(조직 ID)은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 엔터티입니다.
+*조직*(조직 ID)은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 항목입니다.
 
 조직은 모든 Experience Cloud 제품 및 애플리케이션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
 
-![조직 Experience Cloud](../assets/organizations-menu.png)
+![Experience Cloud 조직](../assets/organizations-menu.png)
 
 올바른 조직에 로그인했는지 확인하려면 **[!UICONTROL 프로필]**&#x200B;을 클릭하여 기본 조직 이름을 확인합니다. 둘 이상의 조직에 액세스할 수 있는 경우 헤더 막대에서 다른 조직을 보고 전환할 수도 있습니다.
 
@@ -47,7 +47,7 @@ ht-degree: 55%
 
 1. **[!UICONTROL 사용자 정보]**&#x200B;에서 **[!UICONTROL 현재 조직 ID]**&#x200B;를 찾으면 조직 ID를 찾을 수 있습니다.
 
-   또는 관리자가 Admin Console([https://adminconsole.adobe.com](https://adminconsole.adobe.com)(으)로 이동)에 로그인하고 URL에서 조직 ID를 볼 수 있습니다.
+   또는 관리자가 Admin Console([https://adminconsole.adobe.com](https://adminconsole.adobe.com)&#x200B;(으)로 이동)에 로그인하고 URL에서 조직 ID를 볼 수 있습니다.
 
    예를 들면 다음 URL의 경우
 
@@ -61,11 +61,11 @@ ht-degree: 55%
 
 일반적으로 Experience Cloud 관리자는 애플리케이션 및 서비스에 대한 액세스 권한을 부여합니다. 드문 경우이긴 하지만 애플리케이션 자격 증명을 Adobe ID에 연결할 수 있습니다.
 
-1. Experience Cloud에 초대 이메일의 단계를 따릅니다.
+1. Experience Cloud에 대한 이메일 초대의 단계를 따릅니다.
 
 1. Adobe ID 또는 Enterprise ID를 사용하여 로그인합니다.
 
-1. **[!UICONTROL 응용 프로그램 선택기]**&#x200B;를 클릭합니다. ( ![메뉴](../assets/menu-icon.png)).
+1. **[!UICONTROL 응용 프로그램 선택기]**&#x200B;를 클릭합니다. ( ![메뉴](../assets/apps-icon.png)).
 
    ![Adobe ID에 애플리케이션 계정 연결](../assets/solutions-active.png)
 
