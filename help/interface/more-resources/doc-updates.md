@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 855853be8397350bb93f3c9cf02bb73f5e75326f
+source-git-commit: e0b8281058b44012bdd7befa6ce26355a35bcf11
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 73%
+source-wordcount: '605'
+ht-degree: 70%
 
 ---
 
 # Experience Cloud 설명서 업데이트
 
-중앙 인터페이스 및 Experience Cloud 관리에 대한 설명서 업데이트가 발생하는 위치를 알아봅니다.
+Experience Cloud의 중앙 인터페이스 및 관리를 위해 설명서 업데이트가 발생하는 위치를 알아봅니다.
+
+**2025년 2월**
+
+[Experience Cloud에서 사용자 및 제품 관리](../administration/admin-console.md)를 추가했습니다. 이 페이지는 관리자가 모든 애플리케이션에 대한 사용자 및 제품 관리(Admin Console) 도움말을 찾을 수 있도록 도와줍니다.
 
 **2024년 11월**
 
