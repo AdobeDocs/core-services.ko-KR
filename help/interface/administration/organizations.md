@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 1e0206286d4ac0f1987ee053bcbfce8649902ccd
+source-git-commit: f83ddfe82a55c6b88cf35a14b030d9b82c17f16d
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 55%
+source-wordcount: '585'
+ht-degree: 50%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 55%
 ![Experience Cloud 조직](../assets/organizations-menu.png)
 
 올바른 조직에 로그인했는지 확인하려면 **[!UICONTROL 프로필]**&#x200B;을 클릭하여 기본 조직 이름을 확인합니다. 둘 이상의 조직에 액세스할 수 있는 경우 헤더 막대에서 다른 조직을 보고 전환할 수도 있습니다.
+
+>[!NOTE]
+>
+>조직 간을 전환하면 해당 특정 조직의 Admin Console에 액세스할 수 있습니다. 원하는 조직이 표시되지 않으면 해당 조직의 관리자에게 액세스 권한을 요청해야 할 수 있습니다. (여러 Admin Console을 병합해야 하는 경우 Adobe 고객 지원 센터에 문의하십시오.)
 
 ## Federated ID
 
