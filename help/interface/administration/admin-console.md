@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: e2e6c0daf8f765fe76f9c7bd44042d91dce142f2
+source-git-commit: 9932f21e4aa4d4a5bf08d7f1617b4c25d4fb14bb
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 5%
+source-wordcount: '788'
+ht-degree: 3%
 
 ---
 
@@ -22,6 +22,43 @@ ht-degree: 5%
 모든 Adobe 애플리케이션에 적용할 수 있는 일반 ID 관리 도움말은 [Enterprise 및 Teams 관리 가이드](https://helpx.adobe.com/kr/enterprise/admin-guide.html)를 참조하십시오.
 
 다음 섹션에서는 Admin Console 도움말의 리소스에 대한 링크를 제공합니다.
+
+## Admin Console의 관리자 역할
+
+Admin Console은 세 가지 기본 관리 역할을 제공하며, 각 역할에는 특정 수준의 액세스 및 책임이 있습니다.
+
+**시스템 관리자:** 전체 액세스 - 콘솔의 모든 측면을 관리합니다.
+
+주요 책임:
+
+* 사용자를 추가, 제거 및 관리합니다.
+* 제품 라이선스를 할당 및 취소합니다.
+* ID 및 인증 설정을 구성합니다.
+* 청구 정보를 보고 관리합니다.
+* 추가 관리자 및 위임 역할을 설정합니다.
+
+  **최적의 대상:** IT 관리자 또는 팀이 전체 조직의 Adobe 환경을 감독하는 데 도움이 됩니다.
+
+**제품 관리자:** 제품별 관리 - 특정 Adobe 제품에 대한 액세스 및 권한을 제어합니다.
+
+주요 책임:
+
+* 특정 제품에 대한 라이센스를 할당하고 관리합니다.
+* 제품 프로필을 만들고 관리합니다.
+* 할당된 제품 내에서 사용자를 추가하거나 제거합니다.
+
+  **Marketo Engage 또는 Adobe Creative Cloud과 같은 특정 소프트웨어를 관리하는 팀/사용자에 대한 최적의 용도:**
+
+**제품 프로필 관리자:** 세분화된 역할 관리 - 제품 내의 사용자 그룹 및 권한 관리에 중점을 둡니다.
+
+* 주요 책임 사항:
+* 제품 프로필을 만들고 관리합니다.
+* 프로필 내에서 권한 및 기능 액세스 권한을 할당합니다.
+* 프로필 내에 사용자를 추가하거나 제거합니다.
+
+  **가장 적합한 대상:** 부서 팀장 또는 팀 관리자가 전문화된 요구 사항을 가진 소규모 그룹을 감독하는 경우
+
+  관리자는 조직의 요구 사항에 따라 역할을 결합하여 유연성을 높일 수 있습니다.
 
 ## Admin Console 설정
 
