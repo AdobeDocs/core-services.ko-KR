@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: d39d8a26a6870edd4d1674da12f24ab5ac5d05bc
+source-git-commit: 91f06f12c9c9ec8df19f513f2a09de0b871137cb
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '728'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 Admin Console은 세 가지 기본 관리 역할을 제공하며, 각 역할에는 특정 수준의 액세스 및 책임이 있습니다.
 
-| 도움말 링크 | 설명 |
+| 역할 | 설명 |
 | ------- | ------- |
 | 시스템 관리자 | 전체 액세스 - 콘솔의 모든 측면을 관리합니다. <br>주요 책임: <br><ul><li>사용자를 추가, 제거 및 관리합니다.</li><li>제품 라이선스를 할당 및 취소합니다.</li><li>ID 및 인증 설정 구성</li><li>청구 정보를 보고 관리합니다.</li><li>추가 관리자 및 위임 역할을 설정합니다.</li></ul> **최적의 대상:** IT 관리자 또는 팀이 전체 조직의 Adobe 환경을 감독하는 데 도움이 됩니다. |
 | 제품 관리자 | 제품별 관리 - 특정 Adobe 제품에 대한 액세스 및 권한을 제어합니다.<br>주요 책임:<ul><li>특정 제품에 대한 라이센스를 할당하고 관리합니다.</li><li>제품 프로필을 만들고 관리합니다.</li><li>할당된 제품 내에서 사용자를 추가하거나 제거합니다.</li></ul>   **Marketo Engage 또는 Adobe Creative Cloud과 같은 특정 소프트웨어를 관리하는 팀/사용자에 대한 최적의 용도:** |
@@ -37,7 +37,7 @@ Experience Cloud 응용 프로그램에 대한 ID 및 제품 라이선스를 관
 
 다음은 Admin Console에서 관리자로 시작할 때 필요할 수 있는 리소스입니다.
 
-### 작업 설정
+### 리소스 설정
 
 | 도움말 링크 | 설명 |
 | ------- | ------- |
