@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 91f06f12c9c9ec8df19f513f2a09de0b871137cb
+source-git-commit: 4b9318849f76941cb59ab5e9ca08045705c8ec46
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 4%
@@ -41,7 +41,7 @@ Experience Cloud 응용 프로그램에 대한 ID 및 제품 라이선스를 관
 
 | 도움말 링크 | 설명 |
 | ------- | ------- |
-| [ID 및 SSO(Single Sign-On) 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL 설정]** <br>SSO(Single Sign-On)를 사용하거나 사용하지 않고 다른 ID 유형의 사용자 계정을 설정하는 방법에 대해 알아봅니다. Adobe 소프트웨어에 대한 SSO를 설정하고, SAML 설정을 구성하고, 가장 일반적인 질문과 오류를 살펴봅니다. |
+| [ID 및 SSO(Single Sign-On) 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL 설정]** <br> SSO(Single Sign-On)를 사용하거나 사용하지 않고 다른 ID 유형의 사용자 계정을 설정하는 방법을 알아봅니다. Adobe 소프트웨어에 대한 SSO를 설정하고, SAML 설정을 구성하고, 가장 일반적인 질문과 오류를 살펴봅니다. |
 | [디렉터리 트러스트를 통해 조직 설정](https://helpx.adobe.com/enterprise/using/directory-trust.html) | 다른 조직에서 이미 요청한 도메인에 대해 사용자를 인증합니다. 조직을 찾고 전환하는 방법에 대한 자세한 내용은 [Experience Cloud의 조직](organizations.md)을 참조하세요. |
 | [인증 설정(enterprise)](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Console은 안전 및 보안을 보장하기 위해 여러 암호 보호 수준 및 정책을 지원합니다. 암호 보호 수준을 사용하여 조직의 모든 사용자에게 적용하도록 지정할 수 있습니다. |
 | [개인 정보 및 보안 연락처](https://helpx.adobe.com/enterprise/using/security-contacts.html) | 조직 및 사용자의 데이터를 보호합니다. 소프트웨어 솔루션과 관련된 보안 사고가 발생하면 해당 규정 준수 담당자에게 알림이 전송됩니다. 기업은 데이터 보호, 무결성 및 기타 규정 준수 관련 업무를 담당하는 인력을 보유하고 있습니다. 따라서 보안 사고 발생 시 신속한 알림을 받을 수 있도록 이러한 담당자에 대한 연락처 정보가 매우 중요합니다. |
