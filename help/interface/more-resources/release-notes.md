@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
+source-git-commit: c9226cb71fdda9a04c4b8d3d25f348746af62865
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1232'
 ht-degree: 88%
 
 ---
@@ -28,7 +28,7 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 | 일자 | 업데이트 | 설명 |
 | -----------| -----------| ---------- |
-| 2025년 3월 6일 금요일 | 마우스 오른쪽 버튼 클릭 메뉴 옵션 | 마우스 오른쪽 버튼 클릭 브라우저 드롭다운 메뉴 기능을 사용할 수 있도록 헤더 탐색 탭에 대한 Experience Cloud 애플리케이션 프레임 수정. 이는 스펙트럼 2 설계 시스템의 2월 릴리스에서 소개된 문제를 해결합니다. |
+| 2025년 3월 6일 금요일 | 마우스 오른쪽 버튼 클릭 메뉴 옵션 수정 | 이제 Experience Cloud 헤더 탐색 탭에서 마우스 오른쪽 버튼 클릭, 브라우저 드롭다운 메뉴 기능을 사용할 수 있습니다. 이는 스펙트럼 2 설계 시스템의 2월 릴리스에서 소개된 문제를 해결합니다. |
 
 ## 2025년 2월
 
