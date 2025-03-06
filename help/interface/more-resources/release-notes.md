@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: b44a57082f65be8f9957d48ee50adcc1b6f72ce5
+source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 90%
+source-wordcount: '1235'
+ht-degree: 88%
 
 ---
 
@@ -24,15 +24,21 @@ Experience Cloud 중앙 인터페이스 구성 요소에 대한 기능, 릴리�
 
 모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
 
+## 2025년 3월
+
+| 일자 | 업데이트 | 설명 |
+| -----------| -----------| ---------- |
+| 2025년 3월 6일 금요일 | 마우스 오른쪽 버튼 클릭 메뉴 옵션 | 마우스 오른쪽 버튼 클릭 브라우저 드롭다운 메뉴 기능을 사용할 수 있도록 헤더 탐색 탭에 대한 Experience Cloud 애플리케이션 프레임 수정. 이는 스펙트럼 2 설계 시스템의 2월 릴리스에서 소개된 문제를 해결합니다. |
+
 ## 2025년 2월
 
-| 날짜 | 기능 | 설명 |
+| 일자 | 기능 | 설명 |
 | -----------| -----------| ---------- |
-| 2월 13일 (릴리스 예정일) | 스펙트럼 2 | 헤더 표시줄과 헤더 표시줄에서 액세스한 구성 요소를 포함하는 Experience Cloud 애플리케이션 프레임뿐만 아니라 특정 애플리케이션의 왼쪽 탐색 레일이 Adobe의 최신 디자인 시스템인 스펙트럼 2로 업데이트됩니다. 이렇게 새로 고침된 설계에는 업데이트된 도상학이 포함되지만 동일한 기능이 포함됩니다. 그러나 헤더의 여러 요소는 다른 Adobe 사이트 및 애플리케이션과 일치하도록 재배치됩니다. |
+| 2월 13일 | 스펙트럼 2 | 헤더 표시줄과 헤더 표시줄에서 액세스한 구성 요소를 포함하는 Experience Cloud 애플리케이션 프레임뿐만 아니라 특정 애플리케이션의 왼쪽 탐색 레일이 Adobe의 최신 디자인 시스템인 스펙트럼 2로 업데이트됩니다. 이렇게 새로 고침된 설계에는 업데이트된 도상학이 포함되지만 동일한 기능이 포함됩니다. 그러나 헤더의 여러 요소는 다른 Adobe 사이트 및 애플리케이션과 일치하도록 재배치됩니다. |
 
 ## 2025년 1월
 
-| 날짜 | 기능 | 설명 |
+| 일자 | 기능 | 설명 |
 | -----------| -----------| ---------- |
 | 1월 9일 | 제품 사용 데이터 | Experience Cloud 제품 사용 데이터 환경 설정을 보다 쉽게 제어할 수 있도록 Experience Cloud [환경 설정](../features/account-preferences.md#product-usage-data) 페이지를 간소화하여 중복 옵션을 제거했습니다. 이러한 간소화를 통해 현재 사용자 환경 설정을 보관해 두었으며, [»Experience Cloud 환경 설정](https://experience.adobe.com/preferences)에서 언제든지 환경 설정을 업데이트할 수 있습니다. |
 
