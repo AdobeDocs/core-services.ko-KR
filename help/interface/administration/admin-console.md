@@ -1,6 +1,6 @@
 ---
 title: 사용자 및 제품 라이선스 관리
-description: Admin Console for Experience Cloud 애플리케이션에서 사용자 및 제품 라이선스를 관리합니다.
+description: Experience Cloud 애플리케이션의 Admin Console에서 사용자와 제품 라이선스를 관리합니다.
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
 source-git-commit: daebfdac5f3e97cf97353d34ca7be90f29a1e1ef
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
