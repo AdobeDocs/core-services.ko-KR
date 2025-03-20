@@ -8,18 +8,18 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: daebfdac5f3e97cf97353d34ca7be90f29a1e1ef
+source-git-commit: ce65c5292caaa4a24945e2119e78fd97a7d84109
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '749'
 ht-degree: 7%
 
 ---
 
 # 사용자 관리 및 제품 라이선스
 
-이 페이지에서는 일반적인 사용자 및 제품 관리 설명서에 대한 링크와 함께 Experience Cloud 관리자를 위한 정보를 제공합니다.
+Adobe [Admin Console](https://adminconsole.adobe.com/enterprise/)에서 사용자 및 제품 라이선스를 관리할 수 있습니다. 모든 Adobe 애플리케이션에 적용할 수 있는 일반 ID 관리 도움말은 [Enterprise 및 Teams 관리 가이드](https://helpx.adobe.com/kr/enterprise/admin-guide.html)를 참조하십시오.
 
-모든 Adobe 애플리케이션에 적용할 수 있는 일반 ID 관리 도움말은 [Enterprise 및 Teams 관리 가이드](https://helpx.adobe.com/kr/enterprise/admin-guide.html)를 참조하십시오.
+이 페이지에서는 Experience Cloud 관리자에게 특히 유용한 정보를 제공하고, 역할을 정의하며, Enterprise Guide의 일반 사용자 및 제품 관리 항목에 대한 링크를 제공합니다.
 
 ## Admin Console의 관리자 역할
 
