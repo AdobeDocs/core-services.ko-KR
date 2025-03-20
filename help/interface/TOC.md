@@ -6,9 +6,9 @@ title: Experience Cloud 인터페이스 및 관리
 description: Experience Cloud 인터페이스, 쿠키 및 계정 환경 설정에 대해 알아봅니다. 제품을 관리하고 고객 속성 및 대상자 라이브러리를 포함하는 People 서비스를 구성합니다. Experience Cloud Assets를 공유합니다.
 index: true
 source-git-commit: dd4f3b5df4bb7f3775977049e8d9a67e21052f10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
