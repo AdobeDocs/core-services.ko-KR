@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: cb928a0398699b966a0f0dacc569c7958dac12d1
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -76,7 +76,7 @@ Adobe Experience Cloud은 쿠키를 사용하여 Experience Cloud 애플리케�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 만료 </p> </td> 
-   <td colname="col2"> <p> 2년 </p> </td> 
+   <td colname="col2"> <p> 13개월 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 사용 </p> </td> 
