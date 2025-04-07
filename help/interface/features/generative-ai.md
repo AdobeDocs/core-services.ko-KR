@@ -9,13 +9,13 @@ level: Intermediate
 hide: false
 hidefromtoc: true
 index: n
-source-git-commit: 7f852f0f3b4943cad28c2db2bb65f438a3f5a54a
+exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
+source-git-commit: 3f1065affe2665bb0867de02e4aef4c755c5f201
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1808'
 ht-degree: 4%
 
 ---
-
 
 # Experience Cloud 애플리케이션의 AI
 
@@ -83,6 +83,26 @@ AEM Sites은 [변형 생성](https://experienceleague.adobe.com/en/docs/experien
 [이미지 생성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image)을 참조하세요.
 
 **Adobe Firefly과의 호환성:** 예
+
+## Adobe Journey Optimizer
+
+Journey Optimizer은 두 가지 수준의 질문으로 [AI Assistant](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)를 사용합니다.
+
+**제품 지식** - 제품 insight에 대한 Adobe 데이터 저장소(예: Experience League 제품 설명서)를 쿼리합니다. 이 출력은 고객을 구분하지 않습니다. 예:
+
+* 하나의 Adobe Journey Optimizer 샌드박스에서 몇 개의 라이브 활동을 가질 수 있습니까?
+
+**Operational Insights(Beta)** - 고객의 샌드박스로 분할된 여정에 대한 중앙 집중식 운영 데이터가 포함된 고객별 Operational Insights 데이터 저장소를 쿼리합니다. 비즈니스 개체에서만 메타데이터를 가져오고 샌드박스 내의 데이터에 액세스하지 않습니다.
+
+* 지난 7일 동안 얼마나 많은 여정이 생성되었습니까?
+
+Operational Insights 출력은 고객의 비즈니스 개체에서 가져온 메타데이터에 따라 다릅니다.
+
+여정은 Journey Optimizer에서 AI Assistant에 사용할 수 있는 유일한 개체이며 메타데이터는 현재 샌드박스에서 가져옵니다.
+
+자세한 내용은 [AI 도우미와 함께 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant) 및 [필드 준비](https://fieldreadiness-adobe.highspot.com/items/6661f1c132683fd5e6a8adf4?lfrm=srp.1#11)를 참조하십시오.
+
+**Adobe Firefly과의 호환성:** 아니요
 
 
 
