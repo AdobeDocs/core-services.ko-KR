@@ -9,9 +9,9 @@ level: Intermediate
 hide: false
 hidefromtoc: true
 index: n
-source-git-commit: bc1f602df5a4b6f2d6eb9a3b00f2756a09d97e2b
+source-git-commit: 7f852f0f3b4943cad28c2db2bb65f438a3f5a54a
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1664'
 ht-degree: 4%
 
 ---
@@ -39,7 +39,10 @@ ht-degree: 4%
 
 ## AI를 사용하는 Experience Cloud 애플리케이션
 
-서브헤드 버전(완료되지 않음)...
+>[!TIP]
+>
+>서브헤드 버전(시작 부분만)...
+
 
 * [GenStudio for Performance Marketing](#gspm)
 * [Experience Manager Sites(Cloud Service)](#aem-sites)
@@ -83,9 +86,12 @@ AEM Sites은 [변형 생성](https://experienceleague.adobe.com/en/docs/experien
 
 
 
-테이블 버전...
-
 ## AI를 사용하는 Experience Cloud 애플리케이션
+
+>[!TIP]
+>
+>테이블 버전...
+
 
 Experience Cloud 애플리케이션이 생성 AI 또는 AI Assistant를 사용하는 방법과 Adobe Firefly 지원 여부에 대해 알아봅니다.
 
