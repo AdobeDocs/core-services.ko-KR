@@ -10,10 +10,10 @@ hide: false
 hidefromtoc: true
 index: n
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: fb9d3c45beca38e1ca372b24565946bf1a1da839
+source-git-commit: d54af09033b1a0727e9b7aa3dbf4a9be6003a8ea
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 4%
+source-wordcount: '1371'
+ht-degree: 3%
 
 ---
 
@@ -44,12 +44,20 @@ Experience League의 제품 지식 응답은 링크를 통해 확인할 수 있�
 * [Journey Optimizer의 AI 어시스턴트](#journey-optimizer)
 * [Adobe Journey Optimizer Prime 및 Ultimate](#ajo-prime-ultimate)
 * [Journey Optimizer B2B 에디션](#ajo-b2b)
+* [Journey Optimizer Prime 및 Ultimate의 AI 지원](#ajo-prime-ultimate)
+* [Journey Optimizer B2B edition의 AI 지원](#ajo-b2b)
+* [Campaign Managed Cloud Services의 AI 지원](#campaign-cs)
+* [Customer Journey Analytics의 AI 지원](#cja)
+* [Customer Journey Analytics의 지능형 캡션](#cja-captions)
+* [Real-Time CDP의 AI 지원](#rtcdp)
+* [Marketo의 Dynamic Chat](#marketo)
+* [Workfront의 AI 지원](#workfront)
 
 ### GenStudio for Performance Marketing {#gspm}
 
-[GenStudio for Performance Marketing](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home)은(는) 캠페인 자산을 만들고, 전달하고, 최적화할 수 있는 생성 AI 기반 플랫폼입니다. AI의 생성 기능은 마케팅 콘텐츠가 생성, 검토, 공유 및 분석되는 방식을 전환합니다.
+[GenStudio for Performance Marketing](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home)은(는) 기능이 아니라 생성 AI 기반 플랫폼입니다. AI의 생성 기능은 마케팅 콘텐츠가 생성, 검토, 공유 및 분석되는 방식을 전환합니다.
 
-기능 _GenStudio for Performance Marketing 만들기_(또는 간단히 _만들기_)을 사용하면 마케터와 분산 팀이 고성능의 브랜드 내 경험을 만들 수 있습니다. 다음에 대한 콘텐츠를 생성할 수 있습니다.
+[만들기](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/overview) 홈에서 고성능의 브랜드 내 경험을 만들 수 있습니다. 콘텐츠 생성 대상:
 
 * 이메일
 * 메타 광고
@@ -93,7 +101,7 @@ Journey Optimizer에서 AI Assistant를 통해 제품 지식과 운영 통찰력
 
 * _하나의 Adobe Journey Optimizer 샌드박스에서 몇 개의 라이브 활동을 사용할 수 있습니까?_
 
-**Operational Insights(Beta)** - 고객의 샌드박스로 분할된 여정에 대한 중앙 집중식 운영 데이터가 포함된 고객별 Operational Insights 데이터 저장소를 쿼리합니다. 이 기능은 비즈니스 개체에서만 메타데이터를 가져오고 샌드박스 내의 데이터에 액세스하지 않습니다.
+**Operational Insights(Beta)** - AI Assistant는 여정에 대한 중앙 집중식 운영 데이터가 포함된 고객별 Operational Insights 데이터 저장소를 쿼리하고 고객의 샌드박스로 분할합니다. 이 기능은 비즈니스 개체에서만 메타데이터를 가져오고 샌드박스 내의 데이터에 액세스하지 않습니다.
 
 예제 프롬프트:
 
@@ -105,7 +113,7 @@ _여정_&#x200B;은(는) Journey Optimizer에서 AI Assistant에 사용할 수 �
 
 **Adobe Firefly과 호환:** 아니요
 
-## Journey Optimizer Prime 및 Ultimate {#ajo-prime-ultimate}
+## Journey Optimizer Prime 및 Ultimate의 AI 지원 {#ajo-prime-ultimate}
 
 Journey Optimizer Prime 및 Ultimate에서는 [AI Assistant for Content Accelerator](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)를 사용하여 텍스트 및 이미지에 대한 사전 예방적 콘텐츠 변형 제안을 제공합니다.
 
@@ -117,33 +125,27 @@ Journey Optimizer Prime 및 Ultimate에서는 [AI Assistant for Content Accelera
 
 ## Journey Optimizer B2B edition의 AI 지원 {#ajo-b2b}
 
-Journey Optimizer B2B edition은 제품 정보 프롬프트에 따라 [AI Assistant](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant)를 사용하여 제품 지식을 지원합니다.
+Journey Optimizer B2B edition은 제품 정보 프롬프트에 따라 [AI Assistant](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)를 사용하여 제품 지식을 지원합니다.
 
 **제품 지식** - 제품 insight에 대한 Adobe 데이터 저장소(예: Experience League 제품 설명서)를 쿼리합니다. 이 출력은 고객을 구분하지 않습니다.
 
 * **입력:** 계정 여정에서 전자 메일을 보내는 방법
 
-* **출력:** 제품 지식을 Experience League(공개 설명서)에서 가져옵니다. [자세히 알아보기...](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant)
+* **출력:** 제품 지식을 Experience League(공개 설명서)에서 가져옵니다. [자세히 알아보기...](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/question-guidance)
 
 **Adobe Firefly과 호환:** 아니요
 
-## Campaign 관리 클라우드 서비스
+## Campaign Managed Cloud Services의 AI 지원 {#campaign-cs}
 
-Campaign Managed Cloud Services는 [AI Assistant for Content Accelerator](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs)를 사용하여 이메일, SMS, 푸시 등 여러 채널에서 브랜드 스타일, 레이아웃, 색조 등에 최적화된 콘텐츠를 통해 마케팅 목표를 기반으로 개인화되고 매력적이며 효과적인 콘텐츠를 자동 생성합니다.
-
-* **전자 메일** - 전체 전자 메일, 텍스트만 또는 이미지만 생성합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-content)
-
-* **SMS** - 전체 SMS 또는 텍스트만 생성합니다. [자세히 알아보기...](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-sms)
-
-* **푸시** - 매력적인 메시지를 만들고 콘텐츠를 생성합니다. [자세히 알아보기...](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-push)
+Campaign Managed Cloud Services는 [콘텐츠 가속기용 AI 도우미](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs)를 사용합니다. 이 기능을 사용하면 마케팅 목표를 기반으로 개인화되고, 매력적이며, 효과적인 콘텐츠를 자동 생성할 수 있으며, 브랜드 윤곽선 스타일, 레이아웃, 색조 등에 최적화된 콘텐츠를 사용할 수 있습니다. [이메일](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-content), [SMS](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-sms), [푸시](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-push) 등의 채널에서 사용할 수 있습니다.
 
 **참고:** Campaign Managed Cloud Services의 Content Accelerator에서 출력되는 내용은 손실되지 않습니다.
 
 **Adobe Firefly 호환:** 예
 
-## Customer Journey Analytics - AI 지원
+## Customer Journey Analytics의 AI 지원 {#cja}
 
-CJA은 [AI Assistant](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant)를 사용하여 Experience League에서 제품 지식과 통찰력을 찾는 데 도움을 줍니다.
+Customer Journey Analytics은 [AI Assistant](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant)를 사용하여 Experience League에서 제품 지식과 통찰력을 찾는 데 도움을 줍니다.
 
 **예제 프롬프트:** 계산된 지표를 만들려면 어떻게 해야 합니까?
 
@@ -153,29 +155,17 @@ CJA은 [AI Assistant](https://experienceleague.adobe.com/en/docs/analytics-platf
 
 **Adobe Firefly과 호환:** 아니요
 
-## Customer Journey Analytics - 지능형 캡션
+## Customer Journey Analytics의 지능형 캡션 {#cja-captions}
 
-[지능형 캡션](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)은(는) Workspace 시각화의 선 시각화에 자연어 인사이트를 제공합니다.
-
-**입력 예:** 선 시각화. **지능형 캡션**&#x200B;을 클릭하면 이러한 선 시각화에 따라 캡션이 자동으로 생성됩니다.
-
-**출력:** 자동 생성된 자연어 캡션
+Customer Journey Analytics의 [지능형 캡션](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)은(는) 가장 자주 사용되는 Workspace 시각화에 대한 자연어 통찰력을 제공합니다.
 
 **Adobe Firefly과 호환:** 아니요
 
-## Real-Time CDP
+## Real-Time CDP의 AI 지원 {#rtcdp}
 
-Real-Time CDP은 [AI Assistant](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home)를 사용하여 Experience League에서 제품 지식과 통찰력을 찾는 데 도움을 줍니다. 이 서비스는 데이터베이스를 쿼리하고 데이터베이스의 데이터를 사람이 읽을 수 있는 답변으로 변환합니다.
+Real-Time CDP은 [AI Assistant](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home)를 사용하여 Experience League에서 제품 지식과 통찰력을 찾는 데 도움을 줍니다. 질문에 대한 [팁을 얻으세요](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions).
 
-두 가지 클래스의 질문을 사용할 수 있습니다.
-
-**제품 지식** - 제품 insight에 대한 Adobe 데이터 저장소(예: Experience League 제품 설명서)를 쿼리합니다. 이 출력은 고객을 구분하지 않습니다.
-
-예:
-
-* _프로필 풍부성은 어떻게 계산됩니까?_
-
-**Operational Insights(Beta)** - 고객의 AEP 샌드박스로 분할된 중앙 집중식 운영 데이터가 포함된 고객별 Operational Insights 데이터 저장소를 쿼리합니다. 속성, 대상, 데이터 흐름, 데이터 세트, 대상, 스키마 및 소스에서만 메타데이터를 가져오고 샌드박스 내의 데이터에 액세스하지 않습니다.
+또한 운영 통찰력(베타 버전)도 제공합니다. AI Assistant는 고객의 AEP 샌드박스로 분할되어 중앙 집중식 운영 데이터가 포함된 고객별 운영 통찰력 데이터 스토어를 쿼리합니다. 속성, 대상, 데이터 흐름, 데이터 세트, 대상, 스키마 및 소스에서만 메타데이터를 가져오고 샌드박스 내의 데이터에 액세스하지 않습니다.
 
 예를 들어 대상자에 대한 쿼리의 경우 [!DNL AI Assistant]은(는) 대상자의 이름 및 기타 관련 메타데이터에는 액세스할 수 있지만 해당 대상자 내의 프로필에는 액세스할 수 없습니다.
 
@@ -189,12 +179,11 @@ Real-Time CDP은 [AI Assistant](https://experienceleague.adobe.com/ko/docs/exper
 
 **Firefly 호환:** 아니요
 
-
-## Marketo
+## Marketo의 Dynamic Chat {#marketo}
 
 [Dynamic Chat](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-overview)은(는) 사용자 지정 및 사전 승인된 질문과 답변과 대화 요약으로 AI 지원 대화를 만듭니다 |<ul><li> **질문 생성:** 콘텐츠를 추출하여 질문/응답을 생성하는 데 사용할 URL을 제공합니다. </li><li> **대화 요약:** 대화 요약을 생성합니다. </li></ul> [자세히 알아보기...](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/response-library)  | 아니요 |
 
-## Workfront
+## Workfront의 AI 지원 {#workfront}
 
 Workfront의 [AI Assistant](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)는 자연어 대화에서 인앱 정보와 제안을 제공하여 작업을 완수하도록 도와줍니다. AI Assistant는 다음 기능을 제공합니다. 프로젝트/작업/문제/문서를 요약하고, Experience League의 Workfront 설명서에서 가져온 지침 또는 참조 정보를 제공하며, 계산된 사용자 정의 필드에 대한 공식을 생성하거나 구체화합니다.  | <ul><li>**프로젝트 입력 요약:** 이 프로젝트 요약 </li><li> **프로젝트 출력 요약:** 프로젝트의 목적과 상태에 대한 간단한 설명을 반환하고 완료되었으며 아직 보류 중인 작업의 예를 제공하고 몇 가지 추가 세부 정보와 메모를 제공합니다.</li><li> **수식 입력 생성/세분화:** &quot;잘못된 식 오류를 제거하려면 이 수식을 다시 작성하십시오.&quot; </li><li> **수식 출력 생성/세분화:** 생성 또는 세분화된 수식. </li></ul>**참고:** AI Assistant는 수식의 크기와 복잡성에 따라 수정된 수식을 생성하는 데 몇 분 정도 걸릴 수 있습니다. | 아니요  |
 
