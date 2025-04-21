@@ -10,10 +10,10 @@ hide: false
 hidefromtoc: true
 index: n
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: d54af09033b1a0727e9b7aa3dbf4a9be6003a8ea
+source-git-commit: 4c0e9ef974ab31a7d82a61c3a69f7d76389774f9
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 3%
+source-wordcount: '1314'
+ht-degree: 4%
 
 ---
 
@@ -77,7 +77,7 @@ AEM Sites에서 [변형 생성](https://experienceleague.adobe.com/en/docs/exper
 
 ### 입력 및 출력 필드
 
-**입력:** 입력 필드는 다음과 같습니다.
+입력 필드는 다음과 같습니다.
 
 * 생성할 변형 수
 * Audience Source
@@ -85,9 +85,9 @@ AEM Sites에서 [변형 생성](https://experienceleague.adobe.com/en/docs/exper
 * 추가 컨텍스트
 * 고객 중심 프롬프트
 
-**출력:** 생성된 콘텐츠/마켓 카피. Firefly의 생성 AI 기능을 사용하여 Adobe Express에서 이미지를 생성하는 옵션도 있습니다.
+출력은 생성된 콘텐츠 또는 마켓 카피입니다.
 
-자세한 내용은 [이미지 생성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image)을 참조하세요.
+Firefly의 생성 AI 기능을 사용하여 Adobe Express에서 이미지를 생성하는 옵션도 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image)
 
 **Adobe Firefly 호환:** 예
 
@@ -145,7 +145,7 @@ Campaign Managed Cloud Services는 [콘텐츠 가속기용 AI 도우미](https:/
 
 ## Customer Journey Analytics의 AI 지원 {#cja}
 
-Customer Journey Analytics은 [AI Assistant](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant)를 사용하여 Experience League에서 제품 지식과 통찰력을 찾는 데 도움을 줍니다.
+Customer Journey Analytics은 [AI Assistant](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)를 사용하여 Experience League에서 제품 지식과 통찰력을 찾는 데 도움을 줍니다.
 
 **예제 프롬프트:** 계산된 지표를 만들려면 어떻게 해야 합니까?
 
@@ -173,7 +173,7 @@ Real-Time CDP은 [AI Assistant](https://experienceleague.adobe.com/ko/docs/exper
 
 * 입력: _보유 데이터 세트 수?_
 
-* 응답: _Operational Insights 출력은 고객의 비즈니스 개체(특성, 대상, 데이터 흐름, 데이터 세트, 대상, 스키마 및 원본)에서 가져온 메타데이터에 따라 다르며, 쿼리된 데이터가 포함된 특정 UI 페이지에 대한 링크를 포함합니다._
+* 응답: Operational Insights 출력은 고객의 비즈니스 개체(속성, 대상, 데이터 흐름, 데이터 세트, 대상, 스키마 및 소스)에서 가져온 메타데이터에 따라 다르며, 쿼리된 데이터가 포함된 특정 UI 페이지에 대한 링크를 포함합니다.
 
 자세한 예제는 [Experience Platform의 AI Assistant](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home)에서 _제품 지식_ 및 _Operational Insights_ 입력 테이블을 참조하십시오.
 
@@ -181,12 +181,22 @@ Real-Time CDP은 [AI Assistant](https://experienceleague.adobe.com/ko/docs/exper
 
 ## Marketo의 Dynamic Chat {#marketo}
 
-[Dynamic Chat](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-overview)은(는) 사용자 지정 및 사전 승인된 질문과 답변과 대화 요약으로 AI 지원 대화를 만듭니다 |<ul><li> **질문 생성:** 콘텐츠를 추출하여 질문/응답을 생성하는 데 사용할 URL을 제공합니다. </li><li> **대화 요약:** 대화 요약을 생성합니다. </li></ul> [자세히 알아보기...](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/response-library)  | 아니요 |
+Adobe Dynamic Chat의 생성 AI 기반 기능을 사용하면 판매 에이전트의 생산성을 최적화하고, 웹 사이트 방문자의 의도에 대한 통찰력을 얻고, 방문자 질문에 안전한 방식으로 응답할 수 있습니다. 질문, 답변 및 대화 요약을 사전 승인할 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
+
+**Firefly 호환:** 아니요
 
 ## Workfront의 AI 지원 {#workfront}
 
-Workfront의 [AI Assistant](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)는 자연어 대화에서 인앱 정보와 제안을 제공하여 작업을 완수하도록 도와줍니다. AI Assistant는 다음 기능을 제공합니다. 프로젝트/작업/문제/문서를 요약하고, Experience League의 Workfront 설명서에서 가져온 지침 또는 참조 정보를 제공하며, 계산된 사용자 정의 필드에 대한 공식을 생성하거나 구체화합니다.  | <ul><li>**프로젝트 입력 요약:** 이 프로젝트 요약 </li><li> **프로젝트 출력 요약:** 프로젝트의 목적과 상태에 대한 간단한 설명을 반환하고 완료되었으며 아직 보류 중인 작업의 예를 제공하고 몇 가지 추가 세부 정보와 메모를 제공합니다.</li><li> **수식 입력 생성/세분화:** &quot;잘못된 식 오류를 제거하려면 이 수식을 다시 작성하십시오.&quot; </li><li> **수식 출력 생성/세분화:** 생성 또는 세분화된 수식. </li></ul>**참고:** AI Assistant는 수식의 크기와 복잡성에 따라 수정된 수식을 생성하는 데 몇 분 정도 걸릴 수 있습니다. | 아니요  |
+Workfront의 AI Assistant는 인앱 정보 및 제안 사항을 제공하여 작업을 완수하도록 도와줍니다. 다음과 같은 작업을 수행할 수 있습니다.
 
+* 일부 객체의 요약을 가져와 객체의 의도 또는 세부 사항을 개략적으로 볼 수 있습니다.
+* 질문하고 [!DNL AI Assistant]이(가) Experience League에서 답을 찾도록 하세요.
+* 프롬프트에 따라 생성된 공식을 가져옵니다. 계산된 필드에서 잘못된 사용자 정의 표현식의 오류를 해결할 수도 있습니다.
+* 프로젝트, 작업 및 문제를 찾습니다.
+
+[자세히 알아보기...](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
+
+**Firefly 호환:** 아니요
 
 <!-- ## Experience Cloud applications that use AI
 
