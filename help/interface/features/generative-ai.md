@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: b94bf94368312b3ed64a559da946a1be8ccb3c18
+source-git-commit: a5d595fc8ee9b76ee1bf4a24364674a3af447b2a
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 5%
+source-wordcount: '1109'
+ht-degree: 4%
 
 ---
 
@@ -47,20 +47,18 @@ In AI Assistant, security is the priority:
 Experience Cloud 제품의 생성 AI 또는 AI Assistant 지원 및 Adobe Firefly 지원 여부에 대해 알아봅니다.
 
 * [GenStudio for Performance Marketing](#gspm)
-* [AEM Sites(Cloud Service)에서 변형 생성](#aem-sites)
+* [Experience Manager Sites에서 변형 생성](#aem-sites)
 * [Journey Optimizer의 AI 어시스턴트](#journey-optimizer)
-* [Adobe Journey Optimizer Prime 및 Ultimate](#ajo-prime-ultimate)
-* [Journey Optimizer B2B 에디션](#ajo-b2b)
 * [Journey Optimizer Prime 및 Ultimate의 AI 지원](#ajo-prime-ultimate)
 * [Journey Optimizer B2B edition의 AI 지원](#ajo-b2b)
-* [Campaign Managed Cloud Services의 AI 지원](#campaign-cs)
+* [Campaign v8 웹 사용자 인터페이스의 AI 지원](#campaign-cs)
 * [Customer Journey Analytics의 AI 지원](#cja)
 * [Customer Journey Analytics의 지능형 캡션](#cja-captions)
 * [Real-Time CDP의 AI 지원](#rtcdp)
 * [Marketo의 Dynamic Chat](#marketo)
 * [Workfront의 AI 지원](#workfront)
 
-### GenStudio for Performance Marketing {#gspm}
+## GenStudio for Performance Marketing {#gspm}
 
 GenStudio for Performance Marketing은 브랜드 표준을 준수하고 엔터프라이즈 정책을 준수하는 마케팅 콘텐츠를 생성하고 관리할 수 있는 AI 기반 플랫폼입니다. 이메일, 메타 광고, LinkedIn 광고, 디스플레이 광고 및 배너에 대한 콘텐츠를 생성합니다.
 
@@ -70,7 +68,7 @@ GenStudio for Performance Marketing은 브랜드 표준을 준수하고 엔터�
 
 Adobe Firefly과의 호환성: **계획**
 
-### Experience Manager Sites에서 변형 생성 {#aem-sites}
+## Experience Manager Sites에서 변형 생성 {#aem-sites}
 
 AEM Sites에서 변형 생성 은 생성 AI를 사용하여 프롬프트에 따라 콘텐츠 변형을 만듭니다. 이러한 프롬프트는 Adobe에서 제공하거나 사용자가 생성 및 관리합니다.
 
@@ -110,7 +108,7 @@ Journey Optimizer B2B edition은 AI Assistant를 사용하여 제품 지식을 �
 
 Adobe Firefly과의 호환성: **아니요**
 
-## Campaign Managed Cloud Services의 AI 지원 {#campaign-cs}
+## Campaign v8 웹 UI의 AI 지원  {#campaign-cs}
 
 Campaign Managed Cloud Services는 Content Accelerator용 AI Assistant를 사용합니다. 이 기능을 사용하면 마케팅 목표를 기반으로 개인화되고, 매력적이며, 효과적인 콘텐츠를 자동 생성할 수 있으며, 브랜드 윤곽선 스타일, 레이아웃, 색조 등에 최적화된 콘텐츠를 사용할 수 있습니다. 이메일, SMS 및 푸시와 같은 채널에서 사용할 수 있습니다.
 
