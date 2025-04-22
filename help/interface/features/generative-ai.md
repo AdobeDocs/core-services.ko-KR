@@ -1,15 +1,15 @@
 ---
 title: Experience Cloud 애플리케이션의 AI
-description: Experience Cloud 애플리케이션이 생성 AI 및 AI Assistant를 사용하는 방법을 알아봅니다.
+description: 생성 AI와 Experience Cloud 애플리케이션에서 genAI 및 AI Assistant를 사용하는 방법에 대해 알아봅니다.
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 7060cc75e06a00dd06475958f94b03ceaf39ae62
+source-git-commit: aad561869cdfa7ddbc66b296d0a46c8f49f83d94
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1313'
 ht-degree: 4%
 
 ---
@@ -34,6 +34,16 @@ Experience Cloud을 처음 사용하는 경우 생성 AI를 사용하여 제품 
 
 Experience League의 제품 지식 응답은 링크를 통해 확인할 수 있고 인용됩니다. AI Assistant를 최대한 활용하기 위해 [목표 기반 프롬프트](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home)의 유형에 대해 알아봅니다.
 
+<!-- **Your data remains yours**
+
+In AI Assistant, security is the priority:
+
+* Customer data is not used to train language models.
+* AI Assistant looks at only the documents that you tell it to. You are in control.
+* Your people can use AI Assistant only on documents they can access.
+* It's audit-ready: Responses are attributable to source documents.
+* Enterprise controls are in place to manage who has AI access in the company. -->
+
 ## AI를 지원하는 기능이 있는 애플리케이션
 
 * [GenStudio for Performance Marketing](#gspm)
@@ -52,7 +62,7 @@ Experience League의 제품 지식 응답은 링크를 통해 확인할 수 있�
 
 ### GenStudio for Performance Marketing {#gspm}
 
-[GenStudio for Performance Marketing](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home)은(는) 기능이 아니라 생성 AI 기반 플랫폼입니다. AI의 생성 기능은 마케팅 콘텐츠가 생성, 검토, 공유 및 분석되는 방식을 전환합니다.
+[GenStudio for Performance Marketing](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home)은(는) 마케팅 콘텐츠가 생성, 검토, 공유 및 분석되는 방법을 변화시킬 수 있는 기능을 갖춘 발전적인 AI 기반 플랫폼입니다.
 
 [만들기](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/overview) 홈에서 고성능의 브랜드 내 경험을 만들 수 있습니다. 콘텐츠 생성 대상:
 
