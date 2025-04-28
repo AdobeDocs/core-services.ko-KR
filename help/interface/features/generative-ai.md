@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 835bcd684384d1c8809fba062c9e9d8edd4de535
+source-git-commit: c97ace2c192517a49a01c4247d9f6b4220e0514d
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1103'
 ht-degree: 3%
 
 ---
@@ -136,7 +136,13 @@ Adobe Firefly과의 호환성: **아니요**
 
 ## [!DNL Customer Journey Analytics] {#cja-captions}
 
-[!DNL Customer Journey Analytics]의 지능형 캡션은 가장 자주 사용되는 Workspace 시각화에 대한 자연어 통찰력을 제공합니다. 지능형 캡션은 다른 사용자와 공유하기 위해 서사와 컨텍스트가 필요한 분석가에게 이상적입니다. 비즈니스 사용자는 이를 사용하여 높은 수준의 아이디어를 빠르게 발견할 수 있습니다.
+[!DNL Customer Journey Analytics]의 _지능형 캡션_&#x200B;을(를) 사용하여 가장 자주 사용되는 Workspace 시각화에 대한 자연어 통찰력을 얻을 수 있습니다. 지능형 캡션은 다른 사용자와 공유하기 위해 서사와 컨텍스트가 필요한 분석가에게 이상적입니다. 비즈니스 사용자는 이를 사용하여 높은 수준의 아이디어를 빠르게 발견할 수 있습니다.
+
+예:
+
+* **입력:** CJA에서 지원되는 시각화(선, 영역, 막대 차트, 흐름 또는 폴아웃 포함)를 실행한 다음 **[!UICONTROL 지능형 캡션]**&#x200B;을 클릭합니다.
+
+* **출력:** 컨텍스트 및 키 변환을 보여 주는 자동 생성된 자연어 캡션을 봅니다. 그런 다음 생성된 데이터를 검토, 복사 및 조직과 공유하는 등의 작업을 수행할 수 있습니다. [방법 보기](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
 [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
