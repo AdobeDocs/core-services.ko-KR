@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: cadc0d7eaaa9acb868f96561c2a562d9d29fc9ac
+source-git-commit: 0e9f35807a856e87923b2ba48f37365870cbd339
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1174'
 ht-degree: 3%
 
 ---
@@ -36,15 +36,16 @@ ht-degree: 3%
 
 [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
-**데이터는 그대로 유지됩니다**
+<!-- **Your data remains yours**
 
-AI Assistant에서는 보안이 최우선입니다.
+In AI Assistant, security is the priority:
 
-* 고객 데이터는 언어 모델을 교육하는 데 사용되지 않습니다.
-* AI 비서는 사용자가 지정하는 문서만 봅니다. 당신이 통제하고 있어요
-* 직원들은 액세스할 수 있는 문서에만 AI Assistant를 사용할 수 있습니다.
-* 감사 준비됨: 응답은 소스 문서에 기인한 것입니다.
-* 회사에서 AI 액세스 권한이 있는 사용자를 관리하기 위해 엔터프라이즈 제어 기능이 마련되었습니다.
+* Customer data is not used to train language models.
+* AI Assistant looks at only the documents that you tell it to. You are in control.
+* Your people can use AI Assistant only on documents they can access.
+* It's audit-ready: Responses are attributable to source documents.
+* Enterprise controls are in place to manage who has AI access in the company.
+ -->
 
 ## Experience Cloud 제품의 AI 가용성
 
