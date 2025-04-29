@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 8f342544483dbd42f034fffd2e1c2b25833d5866
+source-git-commit: 182ac8ce357e232d0149272151e4647080b005b8
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1158'
 ht-degree: 3%
 
 ---
 
-# Experience Cloud 제품의 AI
+# Experience Cloud 제품의 생성 AI
 
 이 페이지에서는 생성 AI를 지원하는 제품, [!DNL AI Assistant] 및 Adobe Firefly의 호환 여부를 확인할 수 있습니다. Experience Cloud 애플리케이션에서 AI를 사용하는 방법에 대한 정보 링크를 찾을 수도 있습니다.
 
@@ -57,7 +57,6 @@ In AI Assistant, security is the priority:
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
 * [[!DNL Campaign] 관리 클라우드 서비스](#campaign-cs)
 * [[!DNL Customer Journey Analytics]](#cja)
-* [[!DNL Customer Journey Analytics]](#cja-captions)
 * [[!DNL Real-Time CDP]](#rtcdp)
 * [[!DNL Marketo]](#marketo)
 * [[!DNL Workfront]](#workfront)
@@ -153,9 +152,11 @@ Adobe Firefly 호환성: **예**
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
-Customer Journey Analytics은 [!DNL AI Assistant]을(를) 사용하여 Experience League에서 제품 지식과 통찰력을 찾는 데 도움을 줍니다.
+Customer Journey Analytics은 제품 지식 및 통찰력을 위한 [!DNL AI Assistant]과(와) Workspace 시각화의 [!UICONTROL 지능형 캡션]을(를) 제공합니다.
 
-신규 사용자인 경우 Customer Journey Analytics 개념을 빠르게 학습하고 제품 및 기능을 온보딩하십시오. 예:
+**AI 어시스턴트**
+
+Experience League에서 제품 지식과 통찰력을 살펴보십시오. 신규 사용자인 경우 Customer Journey Analytics 개념을 빠르게 학습하고 제품 및 기능을 온보딩하십시오. 예:
 
 * _계정 여정에서 전자 메일을 보내는 방법_
 
@@ -163,9 +164,7 @@ Customer Journey Analytics은 [!DNL AI Assistant]을(를) 사용하여 Experienc
 
 [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
-Adobe Firefly 호환성: **아니요**
-
-## [!DNL Customer Journey Analytics] {#cja-captions}
+**지능형 캡션**
 
 [!DNL Customer Journey Analytics]의 _지능형 캡션_&#x200B;을(를) 사용하여 가장 자주 사용되는 Workspace 시각화에 대한 자연어 통찰력을 얻을 수 있습니다. 지능형 캡션은 다른 사용자와 공유하기 위해 서사와 컨텍스트가 필요한 분석가에게 이상적입니다. 비즈니스 사용자는 이를 사용하여 높은 수준의 아이디어를 빠르게 발견할 수 있습니다.
 
