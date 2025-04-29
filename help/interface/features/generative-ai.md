@@ -7,16 +7,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: d84fcf64b7019f0146340a423e8e20a932cd7874
+source-git-commit: 8f342544483dbd42f034fffd2e1c2b25833d5866
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1149'
 ht-degree: 3%
 
 ---
 
 # Experience Cloud 제품의 AI
 
-이 페이지에서는 생성 AI를 지원하는 제품, [!DNL AI Assistant] 및 Adobe Firefly의 호환 여부를 확인할 수 있습니다. Experience Cloud에서 AI를 사용하는 방법에 대한 제품별 도움말 리소스 링크를 찾을 수도 있습니다.
+이 페이지에서는 생성 AI를 지원하는 제품, [!DNL AI Assistant] 및 Adobe Firefly의 호환 여부를 확인할 수 있습니다. Experience Cloud 애플리케이션에서 AI를 사용하는 방법에 대한 정보 링크를 찾을 수도 있습니다.
 
 **생성 AI 정보**
 
@@ -28,11 +28,11 @@ ht-degree: 3%
 
 **[!DNL AI Assistant]란?**
 
-[!DNL AI Assistant]은(는) Experience Platform 및 관련 응용 프로그램에서 지원되는 대화 도구입니다. 이를 통해 _제품 지식_&#x200B;을 빠르게 습득하고 지원되는 응용 프로그램에서 거의 즉시 _운영 통찰력_&#x200B;을 습득할 수 있습니다.
+[!DNL AI Assistant]은(는) Experience Platform 및 관련 응용 프로그램에서 지원되는 대화 도구입니다. 이를 사용하여 _제품 지식_&#x200B;을 빠르게 얻을 수 있으며, 지원되는 제품에서는 거의 즉시 _운영 인사이트_&#x200B;를 얻을 수 있습니다.
 
-* **제품 기술 자료:** 제품 기술 자료는 Experience League 설명서에 나와 있는 개념과 주제를 참조합니다. Experience League의 응답은 확인 가능하며 링크로 인용됩니다. [!DNL AI Assistant]을(를) 최대한 활용하기 위해 [목표 기반 프롬프트](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home)의 유형에 대해 알아봅니다.
+* **제품 지식:** 제품 지식은 Experience League 설명서에 기반을 둔 개념과 주제를 참조합니다. [!DNL AI Assistant]을(를) 최대한 활용하기 위해 효과적인 [목표 기반 프롬프트](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home)를 만드는 방법을 알아봅니다. Experience League의 모든 응답은 확인 가능하며 링크로 인용됩니다.
 
-* **Operational Insights:** Operational Insights는 카운트, 조회 및 계보 영향을 포함하여 AI Assistant가 메타 데이터 개체(특성, 대상, 데이터 흐름, 데이터 세트, 대상, 여정, 스키마 및 원본)에 대해 생성하는 답변을 참조합니다. AI Assistant를 사용하면 몇 시간이 아닌 몇 초 만에 작동 인사이트를 확인할 수 있습니다.
+* **Operational insights:** [Operational insights](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions)는 메타데이터 개체(특성, 대상, 데이터 흐름, 데이터 세트 등)에 대해 생성된 응답을 참조합니다. AI Assistant를 사용하면 몇 시간 또는 며칠이 걸릴 수 있는 작업을 단 몇 초 만에 완료할 수 있습니다.
 
 [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
@@ -49,7 +49,7 @@ In AI Assistant, security is the priority:
 
 ## Experience Cloud 제품의 AI 가용성
 
-Experience Cloud 제품의 생성 AI 또는 [!DNL AI Assistant] 지원에 대해 알아봅니다. Adobe Firefly에 대한 지원도 표시됩니다.
+다음 Experience Cloud 애플리케이션이 생성 AI 또는 [!DNL AI Assistant]을(를) 지원하는 방법을 알아봅니다. Adobe Firefly에 대한 지원도 표시됩니다.
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
 * [[!DNL Experience Manager Sites]](#aem-sites)
@@ -70,7 +70,7 @@ Experience Cloud 제품의 생성 AI 또는 [!DNL AI Assistant] 지원에 대해
 
 [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home)
 
-Adobe Firefly과의 호환성: **예**
+Adobe Firefly 호환성: **예**
 
 ## Adobe [!DNL Experience Manager Sites] {#aem-sites}
 
@@ -90,9 +90,10 @@ AEM Sites에서는 _[!UICONTROL 변형 생성]_&#x200B;을 사용할 수 있습�
 
 출력은 생성된 콘텐츠 또는 마켓 카피입니다.
 
+Adobe Firefly 호환성: **예**
+
 [변형 생성에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
-Adobe Firefly과의 호환성: **예**
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
@@ -114,7 +115,7 @@ Adobe Firefly과의 호환성: **예**
 
 [자세히 알아보기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant).
 
-Adobe Firefly과의 호환성: **아니요**
+Adobe Firefly 호환성: **아니요**
 
 ### 콘텐츠 생성을 위한 AI 지원(AJO Prime 및 Ultimate) {#ajo-prime}
 
@@ -124,7 +125,7 @@ AJO _Prime_ 및 _Ultimate_&#x200B;에서 콘텐츠 생성에 [콘텐츠 생성](
 
 [자세히 알아보기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
 
-Adobe Firefly과의 호환성: **예**
+Adobe Firefly 호환성: **예**
 
 ## [!DNL Journey Optimizer B2B Edition] {#ajo-b2b}
 
@@ -138,7 +139,7 @@ Journey Optimizer B2B edition은 [!DNL AI Assistant]을(를) 사용하여 제품
 
 [자세히 알아보기](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
 
-Adobe Firefly과의 호환성: **아니요**
+Adobe Firefly 호환성: **아니요**
 
 ## [!DNL Campaign] 관리 클라우드 서비스 {#campaign-cs}
 
@@ -148,7 +149,7 @@ Campaign 관리 클라우드 서비스는 콘텐츠 생성에 [!DNL AI Assistant
 
 [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs)
 
-Adobe Firefly과의 호환성: **예**
+Adobe Firefly 호환성: **예**
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
@@ -162,7 +163,7 @@ Customer Journey Analytics은 [!DNL AI Assistant]을(를) 사용하여 Experienc
 
 [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
-Adobe Firefly과의 호환성: **아니요**
+Adobe Firefly 호환성: **아니요**
 
 ## [!DNL Customer Journey Analytics] {#cja-captions}
 
@@ -176,7 +177,7 @@ Adobe Firefly과의 호환성: **아니요**
 
 [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
-Adobe Firefly과의 호환성: **아니요**
+Adobe Firefly 호환성: **아니요**
 
 ## [!DNL Real-Time CDP] {#rtcdp}
 
@@ -186,7 +187,7 @@ Real-Time CDP은 [!DNL AI Assistant]을(를) 사용하여 Experience League의 �
 
 [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home)
 
-Adobe Firefly과의 호환성: **아니요**
+Adobe Firefly 호환성: **아니요**
 
 ## [!DNL Marketo] {#marketo}
 
@@ -194,7 +195,7 @@ Adobe Dynamic Chat의 생성 AI 기반 기능을 사용하면 판매 에이전�
 
 [자세히 알아보기](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
 
-Adobe Firefly과의 호환성: **아니요**
+Adobe Firefly 호환성: **아니요**
 
 ## [!DNL Workfront] {#workfront}
 
@@ -207,4 +208,4 @@ Adobe Firefly과의 호환성: **아니요**
 
 [자세히 알아보기](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
 
-Adobe Firefly과의 호환성: **아니요**
+Adobe Firefly 호환성: **아니요**
