@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 0e9f35807a856e87923b2ba48f37365870cbd339
+source-git-commit: d84fcf64b7019f0146340a423e8e20a932cd7874
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1168'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ Experience Cloud 제품의 생성 AI 또는 [!DNL AI Assistant] 지원에 대해
 * [[!DNL Experience Manager Sites]](#aem-sites)
 * [[!DNL Journey Optimizer]](#journey-optimizer)
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
-* [[!DNL Campaign] Managed Services(Campaign v8 웹)](#campaign-cs)
+* [[!DNL Campaign] 관리 클라우드 서비스](#campaign-cs)
 * [[!DNL Customer Journey Analytics]](#cja)
 * [[!DNL Customer Journey Analytics]](#cja-captions)
 * [[!DNL Real-Time CDP]](#rtcdp)
@@ -140,9 +140,9 @@ Journey Optimizer B2B edition은 [!DNL AI Assistant]을(를) 사용하여 제품
 
 Adobe Firefly과의 호환성: **아니요**
 
-## [!DNL Campaign] Managed Services(Campaign v8 웹) {#campaign-cs}
+## [!DNL Campaign] 관리 클라우드 서비스 {#campaign-cs}
 
-Campaign v8(Campaign Managed Cloud Services)은 콘텐츠 생성을 위해 [!DNL AI Assistant]을(를) 사용합니다. 이 기능을 사용하면 마케팅 목표를 기반으로 개인화되고, 매력적이며, 효과적인 콘텐츠를 자동 생성할 수 있으며, 브랜드 윤곽선 스타일, 레이아웃, 색조 등에 최적화된 콘텐츠를 사용할 수 있습니다. 이메일, SMS 및 푸시와 같은 채널에서 사용할 수 있습니다.
+Campaign 관리 클라우드 서비스는 콘텐츠 생성에 [!DNL AI Assistant]을(를) 사용합니다. 이 기능을 사용하면 마케팅 목표를 기반으로 개인화되고, 매력적이며, 효과적인 콘텐츠를 자동 생성할 수 있으며, 브랜드 윤곽선 스타일, 레이아웃, 색조 등에 최적화된 콘텐츠를 사용할 수 있습니다. 이메일, SMS 및 푸시와 같은 채널에서 사용할 수 있습니다.
 
 **참고:** Campaign Managed Cloud Services에서 콘텐츠 생성의 출력은 손실됩니다.
 
