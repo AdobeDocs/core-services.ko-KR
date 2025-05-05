@@ -45,7 +45,7 @@ CCPA를 위한 Adobe 개인정보보호 서비스에 대한 자세한 내용은 
 
 1. [!UICONTROL 개인정보보호 서비스]에서 고객 속성에 액세스 및 삭제 요청을 제출하고 기존 요청의 상태를 확인할 수 있습니다.
 
-## [!UICONTROL 고객 속성 ]JSON 요청의 필수 필드 값
+## [!UICONTROL 고객 속성 &#x200B;]JSON 요청의 필수 필드 값
 
 &quot;company context&quot;:
 

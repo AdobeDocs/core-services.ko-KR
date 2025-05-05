@@ -35,7 +35,7 @@ ht-degree: 84%
 
 * **[!UICONTROL 스키마 보기/편집:]** 다음 단계에 설명된 대로 표시 이름을 속성 데이터에 매핑합니다.
 
-* **[!UICONTROL FTP 설정:]**[ FTP를 통해 데이터를 업로드합니다](t-upload-attributes-ftp.md).
+* **[!UICONTROL FTP 설정:]**&#x200B;[ FTP를 통해 데이터를 업로드합니다](t-upload-attributes-ftp.md).
 
 * **[!UICONTROL ID 조회:]** `.csv`의 CID(고객 ID)를 입력하여 해당 ID에 대한 Experience Cloud 정보를 조회합니다. 이 기능은 방문자에 대한 속성 데이터가 표시되지 않는 문제를 해결하는 데 유용합니다.
 

@@ -131,7 +131,7 @@ Adobe Firefly 호환성: **아니요**
 
 ### 컨텐츠 생성을 위한 AI 어시스턴트(AJO Prime 및 Ultimate) {#ajo-prime}
 
-AJO _Prime_ 및 _Ultimate_&#x200B;에서는 컨텐츠 생성을 위해 컨텐츠 생성](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)을 사용하여 [텍스트 및 이미지에 대한 사전 예방적 컨텐츠 변형 제안을 가져올 수 있습니다.
+AJO _Prime_ 및 _Ultimate_&#x200B;에서는 컨텐츠 생성을 위해 컨텐츠 생성[&#128279;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)을 사용하여 텍스트 및 이미지에 대한 사전 예방적 컨텐츠 변형 제안을 가져올 수 있습니다.
 
 이 기능은 이메일, 푸시 알림, 웹 페이지, 컨텐츠 및 SMS 채널에 사용할 수 있습니다. 프롬프트 기반 텍스트 및 이미지 생성을 제공합니다. AJO Prime 및 Ultimate의 콘텐츠 생성 출력은 손실됩니다.
 
