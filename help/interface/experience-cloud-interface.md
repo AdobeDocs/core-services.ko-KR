@@ -80,7 +80,7 @@ Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이�
 
 ## Experience Cloud의 검색 및 지원 {#search-support}
 
-Experience Cloud 검색을 통해 [Experience League](https://experienceleague.adobe.com/#home)에서 도움말(설명서, 튜토리얼 및 과정)을 검색할 수 있게 되었습니다.
+Experience Cloud 검색을 통해 [Experience League](https://experienceleague.adobe.com/ko#home)에서 도움말(설명서, 튜토리얼 및 과정)을 검색할 수 있게 되었습니다.
 
 ![Experience Cloud의 검색 및 지원](assets/search-menu.png)
 

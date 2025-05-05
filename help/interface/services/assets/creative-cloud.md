@@ -32,4 +32,4 @@ Creative Cloud 사용자가 에셋에 액세스하려면 Experience Cloud에서 
 
 [!DNL Adobe Target]에서 활동을 만들면 [!UICONTROL 오퍼 라이브러리]에서 이미지를 변경하여 공유 이미지 에셋을 사용할 수 있습니다.
 
-[!DNL Target] 도움말에서 [오퍼 라이브러리](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)를 참조하십시오.
+[!DNL Target] 도움말에서 [오퍼 라이브러리](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=ko)를 참조하십시오.

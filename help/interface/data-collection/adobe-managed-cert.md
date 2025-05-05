@@ -94,8 +94,8 @@ Aliases: smetrics.example.com
 
 인증서가 올바르게 작동하는지 확인한 후에는 이러한 값을 사용하도록 Adobe 구현을 업데이트할 수 있습니다.
 
-* Adobe Analytics AppMeasurement 구현의 경우 [`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) 구성 변수를 업데이트하십시오. 기존 구현이 있는 경우 기존 방문자가 새 방문자로 계산되지 않도록 하는 방법에 대한 추가 단계는 [방문자 마이그레이션](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration)을 참조하십시오.
-* Web SDK 구현의 경우 [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) 명령 내에서 [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) 속성을 업데이트합니다.
+* Adobe Analytics AppMeasurement 구현의 경우 [`trackingServer`](https://experienceleague.adobe.com/ko/docs/analytics/implementation/vars/config-vars/trackingserver) 구성 변수를 업데이트하십시오. 기존 구현이 있는 경우 기존 방문자가 새 방문자로 계산되지 않도록 하는 방법에 대한 추가 단계는 [방문자 마이그레이션](https://experienceleague.adobe.com/ko/docs/analytics/technotes/visitor-migration)을 참조하십시오.
+* Web SDK 구현의 경우 [`configure`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/overview) 명령 내에서 [`edgeDomain`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/edgedomain) 속성을 업데이트합니다.
 
 ## 유지 관리 및 갱신
 

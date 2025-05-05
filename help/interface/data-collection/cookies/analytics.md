@@ -34,4 +34,4 @@ Analytics는 쿠키를 사용하여 새로운 방문자를 익명으로 정의�
 
 ## 플러그인에 의해 설정된 쿠키
 
-일부 구현에서는 Analytics에 추가 기능을 제공하는 코드 조각인 플러그인을 사용합니다. 이러한 플러그인은 위에 나열되지 않은 쿠키를 설정할 수 있습니다. 사용 가능한 플러그인 목록과 플러그인이 설정하는 쿠키는 [Analytics 플러그인 개요](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins)를 참조하십시오.
+일부 구현에서는 Analytics에 추가 기능을 제공하는 코드 조각인 플러그인을 사용합니다. 이러한 플러그인은 위에 나열되지 않은 쿠키를 설정할 수 있습니다. 사용 가능한 플러그인 목록과 플러그인이 설정하는 쿠키는 [Analytics 플러그인 개요](https://experienceleague.adobe.com/ko/docs/analytics/implementation/vars/plugins/impl-plugins)를 참조하십시오.

@@ -76,7 +76,7 @@ CSV 파일은 다음 형식을 따라야 합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>고객 ID 열 </p> </td> 
-   <td colname="col2"> <p> 첫 번째 열은 고유한 고객 ID여야 합니다. 사용된 ID는 Experience Cloud ID 서비스에 전달되는 ID에 해당해야 합니다. </p> <p>Analytics의 경우 prop 또는 eVar에 저장되는 ID입니다. </p> <p>Target의 경우 setCustomerID 값입니다. </p> <p> 이 고객 ID는 CRM가 데이터베이스의 각 사용자에 대해 사용하는 고유한 식별자입니다. 나머지 열은 CRM에서 가져오는 속성입니다. 업로드할 속성의 수를 선택합니다. </p> <p>열 제목에는 읽을 수 있는 친근한 이름이 권장되지만 필수는 아닙니다. 업로드 후에 스키마의 유효성을 검사할 때 업로드한 행 및 열에 친근한 이름을 매핑할 수 있습니다. </p> <p> <b>고객 ID에 대하여</b> </p> <p>일반적으로 기업에서는 CRM 시스템의 고객 ID를 사용합니다. 이 ID는 사용자가 로그인할 때 <span class="codeph">setCustomerID</span> 호출을 사용하여 설정됩니다. 이 ID는 Experience Cloud에 업로드되는 CRM 파일의 키로도 사용됩니다. <a href="t-crs-usecase.md" format="dita" scope="local">별칭 ID</a>는 Audience Manager에서 별칭 데이터가 저장되는 데이터 저장소용의 친근한 이름입니다. 이 시스템에서는 별칭을 데이터 저장소(setCustomerID를 통해)로 보냅니다. CRM 파일은 이 데이터 저장소의 데이터에 적용됩니다. </p> <p><span class="codeph">setCustomerIDs</span> 정보에 대해서는 <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external">고객 ID 및 인증 상태</a>를 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p> 첫 번째 열은 고유한 고객 ID여야 합니다. 사용된 ID는 Experience Cloud ID 서비스에 전달되는 ID에 해당해야 합니다. </p> <p>Analytics의 경우 prop 또는 eVar에 저장되는 ID입니다. </p> <p>Target의 경우 setCustomerID 값입니다. </p> <p> 이 고객 ID는 CRM가 데이터베이스의 각 사용자에 대해 사용하는 고유한 식별자입니다. 나머지 열은 CRM에서 가져오는 속성입니다. 업로드할 속성의 수를 선택합니다. </p> <p>열 제목에는 읽을 수 있는 친근한 이름이 권장되지만 필수는 아닙니다. 업로드 후에 스키마의 유효성을 검사할 때 업로드한 행 및 열에 친근한 이름을 매핑할 수 있습니다. </p> <p> <b>고객 ID에 대하여</b> </p> <p>일반적으로 기업에서는 CRM 시스템의 고객 ID를 사용합니다. 이 ID는 사용자가 로그인할 때 <span class="codeph">setCustomerID</span> 호출을 사용하여 설정됩니다. 이 ID는 Experience Cloud에 업로드되는 CRM 파일의 키로도 사용됩니다. <a href="t-crs-usecase.md" format="dita" scope="local">별칭 ID</a>는 Audience Manager에서 별칭 데이터가 저장되는 데이터 저장소용의 친근한 이름입니다. 이 시스템에서는 별칭을 데이터 저장소(setCustomerID를 통해)로 보냅니다. CRM 파일은 이 데이터 저장소의 데이터에 적용됩니다. </p> <p><span class="codeph">setCustomerIDs</span> 정보에 대해서는 <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko" format="https" scope="external">고객 ID 및 인증 상태</a>를 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>후속 머리글 및 열 </p> </td> 
@@ -154,7 +154,7 @@ Visitor.setCustomerIDs({
 });
 ```
 
-(자세한 내용은 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)를 참조하십시오.)
+(자세한 내용은 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)를 참조하십시오.)
 
 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 사용자]** > **[!UICONTROL 고객 속성]**&#x200B;에서 다음을 수행합니다.
 
