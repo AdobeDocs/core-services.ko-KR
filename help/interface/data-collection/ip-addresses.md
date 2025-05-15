@@ -1,27 +1,27 @@
 ---
 title: Experience Cloud에서 사용하는 IP 주소
-description: 조직의 방화벽에서 Adobe의 IP 주소를 차단하는 경우 이 목록을 사용하여 방화벽 설정을 업데이트합니다.
+description: 조직의 방화벽이 Adobe에서 생성하는 IP 주소를 차단하는 경우 이 목록을 사용하여 방화벽 설정을 업데이트합니다.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: faa9b8067a85f86cc0b559bdeeaed80df2339c7d
+source-git-commit: 92f041f11cfa33c2e08e90c45e6fa46729447ac5
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '375'
 ht-degree: 11%
 
 ---
 
 # Experience Cloud에서 사용하는 IP 주소
 
-일부 방화벽 구성은 Adobe의 데이터 수집 서버 또는 데이터 액세스를 담당하는 서버에서 생성하는 IP 주소를 차단합니다. 이 범위 목록을 사용하여 액세스를 허용하고 조직 내에서 데이터를 보내도록 조직의 방화벽 설정을 변경할 수 있습니다. 이 페이지에는 Adobe이 사용하는 인바운드 시스템(예: 데이터 수집)과 아웃바운드 시스템(예: Adobe Analytics의 데이터 피드)이 모두 포함되어 있습니다.
+일부 방화벽 구성은 Adobe의 데이터 수집 서버 또는 데이터 액세스를 담당하는 서버에서 생성하는 IP 주소를 차단합니다. 이 범위 목록을 사용하여 액세스를 허용하고 조직 내에서 데이터를 보내도록 조직의 방화벽 설정을 변경할 수 있습니다. 이 페이지에는 Adobe에서 사용하는 인바운드 시스템(예: 데이터 수집)과 아웃바운드 시스템(예: Adobe Analytics의 데이터 피드)이 모두 포함되어 있습니다.
 
 >[!IMPORTANT]
 >
->Adobe은 이 문서를 최신 상태로 유지하기 위해 최선을 다하고 있지만 IP 범위 목록이 동일하게 유지된다고 보장하지는 못합니다. 비즈니스의 성장 및 확장과 같은 변경 가능성이 있을 수 있으며, 인터넷 레지스트리에서 Adobe의 IP 주소 공간을 변경해야 하거나, 인터넷 서비스 공급자가 제대로 작동하지 않을 수 있습니다.
+>Adobe은 이 문서를 최신 상태로 유지하기 위해 최선을 다하고 있지만 IP 범위 목록이 동일하게 유지된다고 보장할 수 없습니다. 비즈니스의 성장 및 확장과 같은 변화가 있을 수 있으며, 인터넷 레지스트리에서 Adobe의 IP 주소 공간을 변경해야 하거나, 인터넷 서비스 공급자가 제대로 작동하지 않을 수 있습니다.
 
 아래에 나열된 IP 주소 블록 외에도 개별 Adobe Experience Cloud 제품에는 사용하는 자체 IP 주소가 있습니다.
 
-* [Adobe Analytics](https://experienceleague.adobe.com/ko/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/ko/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
 
 ## 모든 Adobe IP 주소 블록
 
@@ -55,7 +55,6 @@ ht-degree: 11%
 | 캘리포니아 | `63.140.32.0/23` |
 | 캘리포니아 | `63.140.34.0/24` |
 | 프랑스 | `63.140.62.0/23` |
-| 인도 | `66.117.20.0/24` |
 | 인도 | `66.117.22.0/23` |
 | 일본 | `130.248.169.0/23` |
 | 일본 | `63.140.50.0/23` |
@@ -64,6 +63,7 @@ ht-degree: 11%
 | 런던 | `185.34.188.0/22` |
 | 런던 | `130.248.152.0/22` |
 | 런던 | `130.248.244.0/23` |
+| 오하이오 | `66.117.20.0/24` |
 | 오레곤 | `66.235.132.0/22` |
 | 오레곤 | `130.248.130.0/23` |
 | 오레곤 | `130.248.150.0/24` |
@@ -93,6 +93,7 @@ Adobe Experience Cloud은 제한된 용량에서 IPv6도 지원합니다. 이러
 | 인도 | `2406:da1a:f34:6a00::/56` |
 | 아일랜드 | `2a05:d018:309:600::/56` |
 | 일본 | `2406:da14:b07:ab00::/56` |
+| 오하이오 | `2600:1f16:130f:7d00::/56` |
 | 오레곤 | `2600:1f14:1eb:7d00::/56` |
 | 오레곤 | `2600:1f14:9d3:2b00::/56` |
 | 싱가포르 | `2406:da18:6e8:1e00::/56` |
@@ -103,4 +104,4 @@ Adobe Experience Cloud은 제한된 용량에서 IPv6도 지원합니다. 이러
 
 >[!TIP]
 >
->Adobe Analytics 내보내기 기능(Data Warehouse 및 데이터 피드 포함)에 대한 FTP 연결은 런던, 오레곤 및 싱가포르 위치의 IPv4 주소에서만 시작됩니다.
+>Adobe Analytics 내보내기 기능(Data Warehouse 및 데이터 피드 포함)에 대한 FTP 연결은 런던, 오레곤 및 싱가포르 위치에 있는 IPv4 주소에서만 시작됩니다.
