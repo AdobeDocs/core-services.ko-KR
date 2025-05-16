@@ -6,9 +6,9 @@ title: Experience Cloud 인터페이스 및 관리
 description: Experience Cloud 인터페이스, 쿠키 및 계정 환경 설정에 대해 알아봅니다. 제품을 관리하고 고객 속성 및 대상자 라이브러리를 포함하는 People 서비스를 구성합니다. Experience Cloud Assets를 공유합니다.
 index: true
 source-git-commit: 82153937f2fbc9b14d76d9ba52b77c41f0a138db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 + 서비스 {#services}
    + [개요](services/overview.md)
    + [시작하기](services/getting-started.md)
-   + 에셋 {#assets}
+   + 자산 {#assets}
       + [개요](services/assets/experience-cloud-assets.md)
       + [Creative Cloud와 폴더 및 자산 공유](services/assets/creative-cloud.md)
       + [Creative Cloud 사용자 관리](services/assets/manage-cc-users.md)
