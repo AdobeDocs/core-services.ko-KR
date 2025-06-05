@@ -26,7 +26,7 @@ Experience Cloud의 Generative AI(genAI)는 창의적 및 인지적 작업을 �
 
 * **응답 생성:** AI는 일반적으로 사용 가능한 데이터 및 지식 저장소를 기반으로 프롬프트에 대한 답변이나 반응을 제공합니다.
 
-**AI Assistant란[!UICONTROL 2}입니다.**]
+**AI Assistant란[!UICONTROL 2&rbrace;입니다.**]
 
 [!UICONTROL AI Assistant]은(는) Experience Platform 및 관련 애플리케이션에서 지원되는 대화 도구입니다. 지원되는 제품에서 _제품 지식_ 및 _운영 통찰력_&#x200B;을 빠르게 얻을 수 있습니다.
 
