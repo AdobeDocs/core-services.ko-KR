@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-source-git-commit: cb928a0398699b966a0f0dacc569c7958dac12d1
+source-git-commit: 2073400a04933226bd036c1fcd729df70f101df3
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 90%
+source-wordcount: '352'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Experience Cloud은 쿠키를 사용하여 Experience Cloud 애플리케�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 만료 </p> </td> 
-   <td colname="col2"> <p>2년 </p> </td> 
+   <td colname="col2"> <p>2년, 대부분의 최신 브라우저는 13개월로 잘립니다.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 사용 </p> </td> 
@@ -58,9 +58,9 @@ Adobe Experience Cloud은 쿠키를 사용하여 Experience Cloud 애플리케�
 
 **쿠키 이름: AMCV_###@AdobeOrg**
 
-[Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko) 는 JavaScript를 사용하여 현재 웹 사이트의 도메인에 있는 `AMCV_###@AdobeOrg` 쿠키에 고유한 방문자 ID를 저장합니다. 여기서 `###` 는 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`와 같은 임의의 문자열을 나타냅니다.
+[Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 는 JavaScript를 사용하여 현재 웹 사이트의 도메인에 있는 `AMCV_###@AdobeOrg` 쿠키에 고유한 방문자 ID를 저장합니다. 여기서 `###` 는 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`와 같은 임의의 문자열을 나타냅니다.
 
-[쿠키 및 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko)도 참조하십시오.
+[쿠키 및 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)도 참조하십시오.
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
