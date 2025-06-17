@@ -23,7 +23,7 @@ ht-degree: 8%
 >
 >이 문서의 정보는 [[!DNL Target] at.js JavaScript 라이브러리](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}에만 적용됩니다.
 >
->[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target=_blank}을(를) 사용하여 [!DNL Target] 구현에 사용된 쿠키에 대한 자세한 내용은 &quot;[!DNL Adobe Experience Platform Web SDK]에서 쿠키를 사용합니까? 그렇다면 어떤 쿠키를 사용합니까?&quot; [DNL Platform Web SDK 개요 안내서의 FAQ](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}에서 참조하십시오.
+>[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target=_blank}을(를) 사용하여 [!DNL Target] 구현에 사용된 쿠키에 대한 자세한 내용은 &quot;[!DNL Adobe Experience Platform Web SDK]에서 쿠키를 사용합니까? 그렇다면 어떤 쿠키를 사용합니까?&quot; [[!DNL Platform Web SDK 개요 안내서의 FAQ]](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}에서 참조하십시오.
 >
 >필요한 경우 쿠키 지속 시간을 제외하고 이 문서에서 설명한 설정을 변경할 수 있습니다. 쿠키 설정을 변경할 때 [계정 담당자에게 문의](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank}합니다.
 >
