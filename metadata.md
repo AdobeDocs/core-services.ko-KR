@@ -1,22 +1,22 @@
 ---
 title: Experience Cloud UI 구성 요소 및 서비스
-description: UI 구성 요소, Adobe Admin Console의 사용자 및 제품 관리, 대상 라이브러리, 고객 속성, Experience Cloud Assets 등에 대해 알아봅니다.
+description: UI 구성 요소, Adobe Admin Console의 사용자 및 제품 관리, 대상 라이브러리, 고객 속성, Experience Cloud Assets 등에 대해 알아봅니다.
 cloud: Experience Cloud
 product: experience cloud
 solution: Experience Cloud Services
 feature-set: Experience Cloud Services,Experience Cloud
 solution-title: Experience Platform
-solution-hub-url: https://helpx.adobe.com/kr/support/experience-cloud/core-services.html
+solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/kr/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.ko-KR
-source-git-commit: d728d89dc93da591b1f27670221728f1e5d28049
-workflow-type: ht
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: Experience Cloud 중앙 인터페이스 구성 요소에 대해 알아봅니다. Admin Console에서 사용자 및 제품 관리에 대한 도움을 받고 애플리케이션을 Experience Cloud 서비스로 사용할 수 있도록 하십시오. 대상자 라이브러리, 고객 속성, Experience Cloud Assets 등의 도움말에 액세스할 수 있습니다.
+description: Experience Cloud 중앙 인터페이스 구성 요소에 대해 알아봅니다. Admin Console에서 사용자 및 제품 관리에 대한 도움을 받고 애플리케이션을 Experience Cloud 서비스로 사용할 수 있도록 하십시오. 대상 라이브러리, 고객 속성, Experience Cloud Assets 등에 대한 도움말을 봅니다.
 title: Experience Cloud 인터페이스 및 관리
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: dd4f3b5df4bb7f3775977049e8d9a67e21052f10
-workflow-type: ht
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -57,7 +57,7 @@ Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이�
 
 ## 도움말 및 지원 요청 {#support}
 
-헤더의 **[!UICONTROL 도움말 센터]**(![자산](assets/help-icon.png))를 사용하여 [Experience League](https://experienceleague.adobe.com/ko#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선순위가 지정된 지원 티켓을 만들 수도 있습니다.
+헤더의 **[!UICONTROL 도움말 센터]**(![자산](assets/help-icon.png))를 사용하여 [Experience League](https://experienceleague.adobe.com/#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선순위가 지정된 지원 티켓을 만들 수도 있습니다.
 
 ![도움말 및 지원 요청](assets/search-menu.png)
 

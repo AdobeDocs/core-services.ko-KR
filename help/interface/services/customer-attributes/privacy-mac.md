@@ -1,21 +1,20 @@
 ---
 description: Experience Cloud에서 업로드되고 사용되는 PII(개인 식별 정보)와 관련된 고려 사항 및 모범 사례에 대해 알아보십시오.
 solution: Experience Cloud
-title: Customer Attributes에 대한 개인정보 보호 고려 사항
-uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
+title: 고객 속성에 대한 개인정보 보호 고려 사항
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# [!DNL Customer Attributes]에 대한 개인정보 보호 고려 사항
+# [!DNL customer attributes]에 대한 개인정보 보호 고려 사항
 
 Adobe Experience Cloud에서 업로드되고 사용되는 PII(개인 식별 정보)와 관련된 고려 사항 및 모범 사례입니다.
 

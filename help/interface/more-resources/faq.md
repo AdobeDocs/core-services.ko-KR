@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 74c584e657e02fdebcaa52cffb6778f8ce5f350c
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 67%
+source-wordcount: '697'
+ht-degree: 65%
 
 ---
 
@@ -56,7 +56,7 @@ Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사
 
 +++
 
-+++Adobe이 우리 회사에 Adobe Experience Cloud 액세스를 위한 비용을 청구합니까?
++++Adobe에서 우리 회사에 Adobe Experience Cloud 액세스 비용을 청구합니까?
 
 아니요. Adobe Experience Cloud은 추가 비용 없이 제공됩니다. 그렇지만 특정 핵심 서비스에는 추가 비용이 있을 수 있습니다.
 
@@ -81,7 +81,7 @@ Adobe 고객 지원 센터는 사용자의 명시적 인증을 요구하는 Adob
 Experience Cloud의 프로비저닝은 다음을 의미합니다.
 
 * 사용자는 Experience Cloud에 로그인하고 애플리케이션을 연결할 수 있습니다.
-* 또한 Experience Cloud를 통해 People과 같은 기능을 사용할 수 있습니다.
+* Experience Cloud을 통해 사용할 수 있는 기능을 사용할 수 있습니다.
 * 애플리케이션별 로그인 프로세스의 사용을 중단할 준비를 갖출 수 있습니다.
 * 애플리케이션에 대한 액세스 제어 권한은 그대로 유지할 수 있습니다.
 
@@ -97,9 +97,9 @@ Experience Cloud의 프로비저닝은 다음을 의미합니다.
 
 * 도움이 필요하면 [Admin Console 사용 안내서](https://helpx.adobe.com/kr/enterprise/admin-guide.html) 를 참조하십시오.
 
-* 사용자 자격 및 제품 관리는 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)(제품 링크)에서 수행됩니다.
+* 사용자 자격 및 제품 관리는 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)&#x200B;(제품 링크)에서 수행됩니다.
 
-* **중요:** Analytics 관리자는 [Admin Console의 Analytics 사용자 관리](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ko)에서 사용자 ID를 Analytics 관리 도구에서 Admin Console로 마이그레이션하는 작업에 대해 참조하십시오.
+* **중요:** Analytics 관리자는 [Admin Console의 Analytics 사용자 관리](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html)에서 사용자 ID를 Analytics 관리 도구에서 Admin Console로 마이그레이션하는 작업에 대해 참조하십시오.
 
 +++
 
@@ -107,7 +107,7 @@ Experience Cloud의 프로비저닝은 다음을 의미합니다.
 
 Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있습니다. 사용자에게 로그인 지침이 포함된 이메일이 전송됩니다.
 
-[Adobe 지원 센터에 문의](https://experienceleague.adobe.com/ko?support-solution=General#support)하여 귀사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
+[Adobe 지원 센터에 문의](https://experienceleague.adobe.com/?support-solution=General#support)하여 귀사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
 
 +++
 

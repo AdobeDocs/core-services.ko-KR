@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -36,10 +36,10 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>콘텐츠</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">demdex</span> 쿠키에는 아래 예와 같이 고유 사용자 ID(UUID)가 포함되어 있습니다. </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=ko" format="https" scope="external">Audience Manager의 ID 색인</a>을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">demdex</span> 쿠키에는 아래 예와 같이 고유 사용자 ID(UUID)가 포함되어 있습니다. </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Audience Manager의 ID 색인</a>을 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>기타 속성</b> </p> </td> 
+   <td colname="col1"> <p> <b>기타 특성</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_11291DA87C5045E880034E06C863BCDA"> 
       <li id="li_40C30A06A12449A4A8748621223CA71B">라이프타임: <span class="wintitle"> demdex </span> 쿠키의 TTL(유지 기간)은 180일입니다. TTL은 각 사용자가 파트너 웹 사이트와 상호 작용할 때 180일로 재설정됩니다. 사용자가 TTL 간격 내에 해당 사이트를 다시 방문하지 않으면 쿠키가 만료됩니다. </li> 
@@ -72,7 +72,7 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
      </ul> </p> <p>아래의 dextp 데이터 구문 섹션을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>기타 속성</b> </p> </td> 
+   <td colname="col1"> <p> <b>기타 특성</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_4922AC2CD55D4C888A6FBEB22F8B889B"> 
       <li id="li_91A68C44E53840379C2ACDED25468735">라이프타임: <span class="wintitle">dextp</span> 쿠키의 TTL(유지 기간)은 180일입니다. </li> 
@@ -84,7 +84,7 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
 
 dextp 쿠키 데이터 구문:
 
-다음 표는 `dextp` 쿠키의 요소들을 데이터 문자열의 위치별로 나열하고 정의합니다.
+다음 테이블은 `dextp` 쿠키의 요소들을 데이터 문자열의 위치별로 나열하고 정의합니다.
 
 <table id="table_BE00604B97F24F5A94AA4F566063D785"> 
  <thead> 
@@ -129,7 +129,7 @@ dextp 쿠키 데이터 구문:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>용도</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span>가 데이터를 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=ko" format="https" scope="external">대상</a>에 전송하는 중 오류가 발생하면 이 쿠키를 설정합니다 . </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span>가 데이터를 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">대상</a>에 전송하는 중 오류가 발생하면 이 쿠키를 설정합니다 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>콘텐츠</b> </p> </td> 
@@ -140,7 +140,7 @@ dextp 쿠키 데이터 구문:
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>기타 속성</b> </p> </td> 
+   <td colname="col1"> <p> <b>기타 특성</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_5D13DD701B484B51BF2808A69A919106"> 
       <li id="li_4E665114C63246FBA32A4E19984D2693">라이프타임: <span class="wintitle">dst</span> 쿠키의 ttl(유지 기간)은 180일입니다. </li> 

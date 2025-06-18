@@ -3,12 +3,12 @@ role: User,Admin
 user-guide-title: Experience Cloud 인터페이스 및 관리
 breadcrumb-title: Experience Cloud 인터페이스 및 관리
 title: Experience Cloud 인터페이스 및 관리
-description: Experience Cloud 인터페이스, 쿠키 및 계정 환경 설정에 대해 알아봅니다. 제품을 관리하고 고객 속성 및 대상자 라이브러리를 포함하는 People 서비스를 구성합니다. Experience Cloud Assets를 공유합니다.
+description: Experience Cloud 인터페이스, 쿠키 및 계정 환경 설정에 대해 알아봅니다. 제품을 관리하고 고객 속성 및 대상 라이브러리를 포함하여 인물 서비스를 구성합니다. Experience Cloud Assets를 공유합니다.
 index: true
-source-git-commit: 1a6acca32b4975f8e35f7d2630f976b8b36fb043
+source-git-commit: cee634cd4f64bac4e06d25e1872a0f84772c46ed
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 98%
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 98%
    + 고객 속성 {#customer-attributes}
       + [개요](services/customer-attributes/attributes.md)
       + [고객 속성 관련 자주 묻는 질문](services/customer-attributes/faq-crs.md)
-      + [고객 속성에 대한 데이터 파일 및 데이터 소스 정보](services/customer-attributes/crs-data-file.md)
+      + [고객 특성에 대한 데이터 파일 및 데이터 소스에 대해](services/customer-attributes/crs-data-file.md)
       + [고객 속성 소스를 만들고 데이터 파일 업로드](services/customer-attributes/t-crs-usecase.md)
       + [선택 사항 - FTP를 통한 데이터 파일 업로드](services/customer-attributes/t-upload-attributes-ftp.md)
       + [스키마 유효성 검사](services/customer-attributes/validate-schema.md)
@@ -43,7 +43,7 @@ ht-degree: 98%
       + [스키마 업데이트](services/customer-attributes/t-update-schema.md)
       + [개인정보 보호 규정 지원](services/customer-attributes/gdpr.md)
       + [캘리포니아 소비자 개인정보 보호법 지원](services/customer-attributes/ccpa.md)
-      + [Customer Attributes에 대한 개인정보 보호 고려 사항](services/customer-attributes/privacy-mac.md)
+      + [고객 속성에 대한 개인정보 보호 고려 사항](services/customer-attributes/privacy-mac.md)
    + [트리거](services/triggers.md)
 
 + 기능 {#features}
