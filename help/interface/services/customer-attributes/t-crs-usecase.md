@@ -79,9 +79,9 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 다음 �
 
      별칭 ID 는 추가 고객 ID 값을 설정하는 특정 영역에 해당합니다. 예:
 
-      * **태그:** 별칭 ID는 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) 도구의 [!UICONTROL 고객 설정]에 있는 *통합 코드* 값에 해당합니다.
+      * **태그:** 별칭 ID는 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko) 도구의 [!UICONTROL 고객 설정]에 있는 *통합 코드* 값에 해당합니다.
 
-      * **방문자 API:** 별칭 ID는 각 방문자와 연결할 수 있는 추가 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)에 해당합니다.
+      * **방문자 API:** 별칭 ID는 각 방문자와 연결할 수 있는 추가 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)에 해당합니다.
 
         예를 들어 *&quot;crm_id&quot;*:
 
@@ -103,7 +103,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 다음 �
 
         별칭 ID 필드 및 고객 ID와 관련된 데이터 처리에 대한 자세한 내용은 [여러 데이터 소스 활용](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)을 참조하십시오.
 
-   * **[!UICONTROL 네임스페이스 코드:]** AEP WebSDK 구현의 일부로 [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)을(를) 사용할 때 이 값을 사용하여 고객 특성 소스를 식별하십시오.
+   * **[!UICONTROL 네임스페이스 코드:]** AEP WebSDK 구현의 일부로 [IdentityMap](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/identity/overview)을(를) 사용할 때 이 값을 사용하여 고객 특성 소스를 식별하십시오.
 
 ## 파일 업로드 {#upload}
 
@@ -170,4 +170,4 @@ Experience Cloud에 게시한 세그먼트는 Experience Cloud 대상 및 Audien
 
 ![Adobe Target에서 고객 특성 사용 ](assets/crs-add-attribute-target.png)
 
-[!DNL Target] 도움말에서 [새 대상자 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)를 참조하십시오.
+[!DNL Target] 도움말에서 [새 대상자 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=ko)를 참조하십시오.

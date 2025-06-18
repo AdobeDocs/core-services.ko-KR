@@ -36,7 +36,7 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>콘텐츠</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">demdex</span> 쿠키에는 아래 예와 같이 고유 사용자 ID(UUID)가 포함되어 있습니다. </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Audience Manager의 ID 색인</a>을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">demdex</span> 쿠키에는 아래 예와 같이 고유 사용자 ID(UUID)가 포함되어 있습니다. </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=ko" format="https" scope="external">Audience Manager의 ID 색인</a>을 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>기타 특성</b> </p> </td> 
@@ -129,7 +129,7 @@ dextp 쿠키 데이터 구문:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>용도</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span>가 데이터를 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">대상</a>에 전송하는 중 오류가 발생하면 이 쿠키를 설정합니다 . </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span>가 데이터를 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=ko" format="https" scope="external">대상</a>에 전송하는 중 오류가 발생하면 이 쿠키를 설정합니다 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>콘텐츠</b> </p> </td> 
