@@ -53,6 +53,7 @@ ht-degree: 92%
 1. [!UICONTROL 규칙]에서 다음과 같은 속성 소스를 선택합니다.
 
    * **[!UICONTROL Real-Time Analytics 데이터:]** (또는 Raw 데이터) 이것은 Real-Time Analytics 이미지 요청에서 파생된 속성 데이터이며 eVar 및 이벤트와 같은 데이터를 포함합니다. 이 속성 소스를 사용할 때 보고서 세트를 선택하고 포함할 차원 또는 이벤트를 정의해야 합니다. 이 보고서 세트 선택 옵션은 보고서 세트에 사용되는 변수 구조를 제공합니다.
+
    >[!NOTE]
    >
    >캐싱으로 인해, Analytics에서 삭제된 보고서 세트는 삭제가 Experience Cloud에 표시되는 데 12시간이 필요합니다.
