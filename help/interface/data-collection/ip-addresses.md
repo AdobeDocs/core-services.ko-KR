@@ -2,9 +2,9 @@
 title: Experience Cloud에서 사용하는 IP 주소
 description: 조직의 방화벽이 Adobe에서 생성하는 IP 주소를 차단하는 경우 이 목록을 사용하여 방화벽 설정을 업데이트합니다.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: 92f041f11cfa33c2e08e90c45e6fa46729447ac5
+source-git-commit: a18b61cb32286680cb1ab2a296df33509fd95a00
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '378'
 ht-degree: 11%
 
 ---
@@ -19,9 +19,10 @@ ht-degree: 11%
 
 아래에 나열된 IP 주소 블록 외에도 개별 Adobe Experience Cloud 제품에는 사용하는 자체 IP 주소가 있습니다.
 
-* [Adobe Analytics](https://experienceleague.adobe.com/ko/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/ko/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## 모든 Adobe IP 주소 블록
 
