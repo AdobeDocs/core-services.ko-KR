@@ -8,7 +8,7 @@ index: true
 source-git-commit: cee634cd4f64bac4e06d25e1872a0f84772c46ed
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -48,8 +48,8 @@ ht-degree: 88%
 
 + 기능 {#features}
    + [계정 환경 설정 및 알림](features/account-preferences.md)
-   + [생성 AI](features/generative-ai.md)
-   + [아젠틱 AI](features/agentic-ai.md)
+   + [생성형 AI](features/generative-ai.md)
+   + [에이전틱 AI](features/agentic-ai.md)
    + [통합 검색](features/search.md)
    + [맞춤형 학습](features/personalized-learning.md)
    + [브라우저 및 언어 지원](browser-language.md)
