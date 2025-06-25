@@ -30,7 +30,7 @@ Experience Cloud의 Generative AI(genAI)는 창의적 및 인지적 작업을 �
 
 [!BADGE 자세히 알아보기]{type=Informative url="https://business.adobe.com/ai/adobe-genai.html" tooltip="GenAI at Adobe"}
 
-**AI Assistant란[!UICONTROL 2}입니다.**]
+**AI Assistant란[!UICONTROL 2&rbrace;입니다.**]
 
 [!UICONTROL AI Assistant]은(는) Experience Platform 및 관련 애플리케이션에서 지원되는 대화 도구입니다. 지원되는 제품에서 _제품 지식_ 및 _운영 통찰력_&#x200B;을 빠르게 얻을 수 있습니다.
 
