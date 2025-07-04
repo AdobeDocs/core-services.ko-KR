@@ -36,7 +36,7 @@ Experience Cloud의 [!DNL Customer attributes]를 사용하면 고객 관계 관
 
 * **Adobe Target** 고객 특성에 `at.js`(임의 버전) 또는 `mbox.js` 버전 58 이상이 필요합니다.
 
-  [at.js를 배포하는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ko)을 참조하십시오.
+  [at.js를 배포하는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)을 참조하십시오.
 
 ## 엔터프라이즈 고객 데이터란? {#enterprise_data}
 
