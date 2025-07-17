@@ -22,7 +22,7 @@ Adobe Experience Cloud은 쿠키를 사용하여 페이지 보기 수 또는 브
 
 일부 브라우저 및 안티스파이웨어 도구는 서드파티 쿠키를 차단합니다. Adobe에는 쿠키가 차단된 경우에도 쿠키가 계속 작동하는지 확인하는 방법이 있습니다. 이 방법이 작동하는 방식은 사용자가 Experience Platform ID 서비스(ECID) 또는 이전 Analytics 쿠키(예: `s_vi` 쿠키)를 사용하는지에 따라 다릅니다.
 
-* [Experience Cloud Identity 서비스](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview): ECID 서비스는 수집 도메인과 사이트 도메인의 일치 여부에 관계없이 항상 자사 쿠키를 설정합니다. JavaScript을 사용하여 사이트의 도메인에 쿠키를 배치합니다.
+* [Experience Cloud Identity 서비스](https://experienceleague.adobe.com/ko/docs/id-service/using/intro/overview): ECID 서비스는 수집 도메인과 사이트 도메인의 일치 여부에 관계없이 항상 자사 쿠키를 설정합니다. JavaScript을 사용하여 사이트의 도메인에 쿠키를 배치합니다.
 
 * [Analytics 레거시 식별자](analytics.md)(예: `s_vi` 쿠키): 쿠키가 퍼스트 파티 또는 서드파티인지 여부는 설정에 따라 다릅니다.
 
