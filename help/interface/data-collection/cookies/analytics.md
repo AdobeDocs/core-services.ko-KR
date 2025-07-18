@@ -32,13 +32,13 @@ Analytics는 쿠키를 사용하여 새로운 방문자를 익명으로 정의�
 
 ## 플러그인에 의해 설정된 쿠키
 
-일부 구현에서는 Analytics에 추가 기능을 제공하는 코드 조각인 플러그인을 사용합니다. 이러한 플러그인은 위에 나열되지 않은 쿠키를 설정할 수 있습니다. 사용 가능한 플러그인 목록과 플러그인이 설정하는 쿠키는 [Analytics 플러그인 개요](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins)를 참조하십시오.
+일부 구현에서는 Analytics에 추가 기능을 제공하는 코드 조각인 플러그인을 사용합니다. 이러한 플러그인은 위에 나열되지 않은 쿠키를 설정할 수 있습니다. 사용 가능한 플러그인 목록과 플러그인이 설정하는 쿠키는 [Analytics 플러그인 개요](https://experienceleague.adobe.com/ko/docs/analytics/implementation/vars/plugins/impl-plugins)를 참조하십시오.
 
 ## Analytics 쿠키 삭제 결과
 
 방문자가 Analytics 쿠키를 삭제하는 경우 다음을 고려하십시오.
 
-* **방문자 ID가 손실됨:** 쿠키가 삭제되면 Adobe Analytics에서 재방문자를 인식할 수 없습니다. 다음에 사용자가 사이트를 방문할 때 새 방문자로 계산됩니다. [크로스 디바이스 분석](https://experienceleague.adobe.com/en/docs/analytics/components/cda/overview)을 통해 이러한 영향을 완화할 수 있습니다.
+* **방문자 ID가 손실됨:** 쿠키가 삭제되면 Adobe Analytics에서 재방문자를 인식할 수 없습니다. 다음에 사용자가 사이트를 방문할 때 새 방문자로 계산됩니다. [크로스 디바이스 분석](https://experienceleague.adobe.com/ko/docs/analytics/components/cda/overview)을 통해 이러한 영향을 완화할 수 있습니다.
 * **세션 연속성이 끊어졌습니다.** 모든 세션 기반 또는 다중 방문 분석(예: 속성 또는 전환 추적)이 중단됩니다. 쿠키 삭제 후 발생하는 이벤트 및 전환은 동일한 사용자가 이전 활동에 연결할 수 없습니다.
 * **Personalization 및 세그먼테이션이 영향을 받습니다.** 이전 데이터가 현재 방문과 더 이상 연결되지 않으므로 방문자 기록 또는 동작을 기반으로 한 세그먼트 또는 개인화된 경험이 재설정됩니다.
 * **도메인 간 추적이 중단됨:** 서드파티 쿠키의 경우 이를 삭제하면 Adobe Analytics에서 사용자가 소유한 여러 도메인 간에 사용자 활동을 연결할 수 없습니다.
