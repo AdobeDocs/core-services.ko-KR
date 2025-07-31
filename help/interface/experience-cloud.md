@@ -7,8 +7,8 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
-workflow-type: ht
+source-git-commit: ab65ddb3bf6887db4fa0b2ffbbef89fc198b191a
+workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이�
 
 ## 도움말 및 지원 요청 {#support}
 
-헤더의 **[!UICONTROL 도움말 센터]**(![자산](assets/help-icon.png))를 사용하여 [Experience League](https://experienceleague.adobe.com/ko#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선순위가 지정된 지원 티켓을 만들 수도 있습니다.
+헤더의 **[!UICONTROL 도움말 센터]**(![자산](assets/help-icon.png))를 사용하여 [Experience League](https://experienceleague.adobe.com/#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선순위가 지정된 지원 티켓을 만들 수도 있습니다.
 
 ![도움말 및 지원 요청](assets/search-menu.png)
 
@@ -86,3 +86,4 @@ Experience Cloud에 로그인하면 통합 헤더에서 모든 애플리케이�
 ![알림 및 공지](assets/notifications-menu-small.png)
 
 알림 및 경고를 관리하려면 [계정 환경 설정 및 알림](features/account-preferences.md)을 참조하십시오.
+
