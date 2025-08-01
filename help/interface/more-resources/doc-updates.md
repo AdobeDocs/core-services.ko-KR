@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 6caf1edc5cead3e937f919ac2bb6c829a758d8fd
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 70%
+source-wordcount: '614'
+ht-degree: 69%
 
 ---
 
 # Experience Cloud 설명서 업데이트
 
 Experience Cloud의 중앙 인터페이스 및 관리를 위해 설명서 업데이트가 발생하는 위치를 알아봅니다.
+
+**2025년 8월**
+
+[Adobe ID 재설정](../features/account-preferences.md)에 대한 정보를 추가했습니다.
 
 **2025년 2월**
 

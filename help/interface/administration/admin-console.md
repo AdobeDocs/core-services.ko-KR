@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 623e9ee0802d01e4f70877b7164490eb6dde3fec
+source-git-commit: 6caf1edc5cead3e937f919ac2bb6c829a758d8fd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '770'
+ht-degree: 7%
 
 ---
 
@@ -42,24 +42,25 @@ Experience Cloud 응용 프로그램에 대한 ID 및 제품 라이선스를 관
 | 도움말 링크 | 설명 |
 | ------- | ------ |
 | [ID 및 SSO(Single Sign-On) 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL 설정]** <br> SSO(Single Sign-On)를 사용하거나 사용하지 않고 다른 ID 유형의 사용자 계정을 설정하는 방법에 대해 알아봅니다. Adobe 소프트웨어에 대한 SSO를 설정하고, SAML 설정을 구성하고, 가장 일반적인 질문과 오류를 살펴봅니다. |
-| [디렉터리 트러스트를 통해 조직 설정](https://helpx.adobe.com/kr/enterprise/using/directory-trust.html) | 다른 조직에서 이미 요청한 도메인에 대해 사용자를 인증합니다. 조직을 찾고 전환하는 방법에 대한 자세한 내용은 [Experience Cloud의 조직](organizations.md)을 참조하세요. |
-| [인증 설정(enterprise)](https://helpx.adobe.com/kr/enterprise/using/authentication-settings.html) | Admin Console은 안전 및 보안을 보장하기 위해 여러 암호 보호 수준 및 정책을 지원합니다. 암호 보호 수준을 사용하여 조직의 모든 사용자에게 적용하도록 지정할 수 있습니다. |
-| [개인 정보 및 보안 연락처](https://helpx.adobe.com/kr/enterprise/using/security-contacts.html) | 조직 및 사용자의 데이터를 보호합니다. 소프트웨어 솔루션과 관련된 보안 사고가 발생하면 해당 규정 준수 담당자에게 알림이 전송됩니다. 기업은 데이터 보호, 무결성 및 기타 규정 준수 관련 업무를 담당하는 인력을 보유하고 있습니다. 따라서 보안 사고 발생 시 신속한 알림을 받을 수 있도록 이러한 담당자에 대한 연락처 정보가 매우 중요합니다. |
+| [디렉터리 트러스트를 통해 조직 설정](https://helpx.adobe.com/enterprise/using/directory-trust.html) | 다른 조직에서 이미 요청한 도메인에 대해 사용자를 인증합니다. 조직을 찾고 전환하는 방법에 대한 자세한 내용은 [Experience Cloud의 조직](organizations.md)을 참조하세요. |
+| [인증 설정(enterprise)](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Console은 안전 및 보안을 보장하기 위해 여러 암호 보호 수준 및 정책을 지원합니다. 암호 보호 수준을 사용하여 조직의 모든 사용자에게 적용하도록 지정할 수 있습니다. |
+| [개인 정보 및 보안 연락처](https://helpx.adobe.com/enterprise/using/security-contacts.html) | 조직 및 사용자의 데이터를 보호합니다. 소프트웨어 솔루션과 관련된 보안 사고가 발생하면 해당 규정 준수 담당자에게 알림이 전송됩니다. 기업은 데이터 보호, 무결성 및 기타 규정 준수 관련 업무를 담당하는 인력을 보유하고 있습니다. 따라서 보안 사고 발생 시 신속한 알림을 받을 수 있도록 이러한 담당자에 대한 연락처 정보가 매우 중요합니다. |
 
 ### 사용자 관리
 
 | 도움말 링크 | 설명 |
 | ------- | ------- |
-| [여러 사용자 관리](https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL 사용자]** <br>Admin Console에 CSV 일괄 업로드를 통해 여러 사용자를 관리하는 방법에 대해 알아봅니다. |
+| [Adobe ID 재설정](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.html) | 로그아웃한 다음 **[!UICONTROL 로그인 도움말 받기]** > **[!UICONTROL 암호 재설정]**&#x200B;을 클릭합니다. |
+| [여러 사용자 관리](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL 사용자]** <br>Admin Console에 CSV 일괄 업로드를 통해 여러 사용자를 관리하는 방법에 대해 알아봅니다. |
 | [ID 유형](https://helpx.adobe.com/kr/enterprise/using/identity.html) | ID 유형을 사용하면 조직이 사용자의 계정 및 데이터를 다양한 수준으로 제어할 수 있습니다. 선택한 ID 모델은 조직이 자산을 저장하고 공유하는 방식에 영향을 줍니다. Federated ID 및 Enterprise ID 모델은 조직에서 만들고 관리하는 반면 Adobe ID는 개인이 만들고 관리합니다. |
-| [사용자 동기화 도구](https://helpx.adobe.com/kr/enterprise/using/user-sync.html)&#x200B;(UST) | Adobe 사용자 동기화 도구는 조직의 ID 관리 시스템(예: Active Directory)과 Adobe Admin Console 간의 사용자 데이터 동기화를 자동화하는 데 사용되는 데스크탑 애플리케이션입니다. 관리자는 이 도구를 사용하여 Adobe 제품 전반에 대한 사용자 프로비저닝, 업데이트 및 비활성화를 간소화할 수 있습니다. |
+| [사용자 동기화 도구](https://helpx.adobe.com/enterprise/using/user-sync.html)&#x200B;(UST) | Adobe 사용자 동기화 도구는 조직의 ID 관리 시스템(예: Active Directory)과 Adobe Admin Console 간의 사용자 데이터 동기화를 자동화하는 데 사용되는 데스크탑 애플리케이션입니다. 관리자는 이 도구를 사용하여 Adobe 제품 전반에 대한 사용자 프로비저닝, 업데이트 및 비활성화를 간소화할 수 있습니다. |
 | [사용자 세부 정보 보기(관리 도구)](admin-tool-experience-cloud.md) | [!UICONTROL 관리 도구]에서 모든 Experience Cloud 사용자 및 정책을 세부 정보와 함께 정렬 및 필터링 가능한 목록으로 봅니다. |
 
 ### 보고서 및 로그
 
 | 도움말 링크 | 설명 |
 | ------- |------- |
-| [감사 로그](https://helpx.adobe.com/kr/enterprise/using/audit-logs.html) | **[!UICONTROL 인사이트]** > **[!UICONTROL 로그]** > **[!UICONTROL 감사 로그]** <br> Admin Console에서 변경한 모든 내용을 추적합니다. |
+| [감사 로그](https://helpx.adobe.com/enterprise/using/audit-logs.html) | **[!UICONTROL 인사이트]** > **[!UICONTROL 로그]** > **[!UICONTROL 감사 로그]** <br> Admin Console에서 변경한 모든 내용을 추적합니다. |
 
 
 ## 애플리케이션별 리소스
@@ -68,46 +69,46 @@ Experience Cloud 응용 프로그램에 대한 ID 및 제품 라이선스를 관
 
 <!-- | Application | Link to resource|
 | ------- | ------- |
-|  [!DNL Analytics] <p>Customer Journey Analytics| [Analytics in the Adobe Admin Console overview](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-console/home) <p>[Administration requirements](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/workspace-faq/frequently-asked-questions-analysis-workspace) |
-| [!DNL Audience Manager] | [Audience Manager user migration to Admin Console](https://experienceleague.adobe.com/ko/docs/audience-manager/user-guide/features/administration/admin-console-migration) |
-| [!DNL Campaign] v8 |  [Get started with permissions](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/gs-permissions) |
-| [!DNL Campaign Standard] to [!DNL Campaign v8] | [User access management from Campaign Standard to Campaign V8](https://experienceleague.adobe.com/ko/docs/campaign-web/acs-to-ac/user-management-acs) |
-| [!DNL Commerce] | [Configure the Commerce Admin Integration with Adobe ID](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/ims/adobe-ims-config) |
-| [!DNL Dynamic Media Classic] | [Administration setup](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/setup/administration-setup#user_administration) |
-| [!DNL Experience Manager as a Cloud Service] |  [Accessing the Admin Console](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/onboarding/journey/admin-console) |
-| [!DNL Experience Platform] <p>[!DNL Data Collection] | [Access control UI overview](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/overview) <p>[Permission management for data collection in Experience Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions)|
-| [!DNL GenStudio for Performance Marketing] | [Provision Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/product-provisioning) |
-| [!DNL Journey Optimizer] | [Manage users and roles](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/access-control/permissions) |
-| [!DNL Journey Optimizer B2B Edition] | [User management](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/user-management) |
-|[!DNL  Journey Orchestration] | [Access management](https://experienceleague.adobe.com/ko/docs/journeys/using/starting-with-journeys/access-management) |
-| [!DNL Marketo Engage] | [Understanding Marketo Subscription and User Migration to the Adobe Admin Console](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/marketo-with-adobe-identity/subscription-and-user-migration/understanding-marketo-subscription-and-user-migration-to-the-adobe-admin-console) |
-| [!DNL Marketo Measure] | [Adobe Admin Console Setup](https://experienceleague.adobe.com/ko/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup) |
-| [!DNL Mix Modeler] | [Access controls](https://experienceleague.adobe.com/ko/docs/mix-modeler/using/data-governance/access-controls) |
-| [!DNL Pass] | [Get started with Account IQ](https://experienceleague.adobe.com/ko/docs/pass/aiq-help/get-started) |
-| [!DNL Target] | [Administrator first steps](https://experienceleague.adobe.com/ko/docs/target/using/administer/start-target) <p> [User management](https://experienceleague.adobe.com/ko/docs/target/using/administer/manage-users/user-management) |
-| [!DNL Workfront] | [Manage users in the Adobe Admin Console](https://experienceleague.adobe.com/ko/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console) |
+|  [!DNL Analytics] <p>Customer Journey Analytics| [Analytics in the Adobe Admin Console overview](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home) <p>[Administration requirements](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/workspace-faq/frequently-asked-questions-analysis-workspace) |
+| [!DNL Audience Manager] | [Audience Manager user migration to Admin Console](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/administration/admin-console-migration) |
+| [!DNL Campaign] v8 |  [Get started with permissions](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions) |
+| [!DNL Campaign Standard] to [!DNL Campaign v8] | [User access management from Campaign Standard to Campaign V8](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/user-management-acs) |
+| [!DNL Commerce] | [Configure the Commerce Admin Integration with Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) |
+| [!DNL Dynamic Media Classic] | [Administration setup](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/setup/administration-setup#user_administration) |
+| [!DNL Experience Manager as a Cloud Service] |  [Accessing the Admin Console](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/admin-console) |
+| [!DNL Experience Platform] <p>[!DNL Data Collection] | [Access control UI overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/overview) <p>[Permission management for data collection in Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions)|
+| [!DNL GenStudio for Performance Marketing] | [Provision Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/product-provisioning) |
+| [!DNL Journey Optimizer] | [Manage users and roles](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions) |
+| [!DNL Journey Optimizer B2B Edition] | [User management](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management) |
+|[!DNL  Journey Orchestration] | [Access management](https://experienceleague.adobe.com/en/docs/journeys/using/starting-with-journeys/access-management) |
+| [!DNL Marketo Engage] | [Understanding Marketo Subscription and User Migration to the Adobe Admin Console](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/marketo-with-adobe-identity/subscription-and-user-migration/understanding-marketo-subscription-and-user-migration-to-the-adobe-admin-console) |
+| [!DNL Marketo Measure] | [Adobe Admin Console Setup](https://experienceleague.adobe.com/en/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup) |
+| [!DNL Mix Modeler] | [Access controls](https://experienceleague.adobe.com/en/docs/mix-modeler/using/data-governance/access-controls) |
+| [!DNL Pass] | [Get started with Account IQ](https://experienceleague.adobe.com/en/docs/pass/aiq-help/get-started) |
+| [!DNL Target] | [Administrator first steps](https://experienceleague.adobe.com/en/docs/target/using/administer/start-target) <p> [User management](https://experienceleague.adobe.com/en/docs/target/using/administer/manage-users/user-management) |
+| [!DNL Workfront] | [Manage users in the Adobe Admin Console](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console) |
 
  -->
 
 * [Advertising 검색, 소셜 및 Commerce](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/new-ui/user-administration)
-* [Analytics](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-console/home)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/workspace-faq/frequently-asked-questions-analysis-workspace)
-* [Audience Manager](https://experienceleague.adobe.com/ko/docs/audience-manager/user-guide/features/administration/admin-console-migration)
+* [Analytics](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/workspace-faq/frequently-asked-questions-analysis-workspace)
+* [Audience Manager](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/administration/admin-console-migration)
 * [Campaign v8](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/gs-permissions)
-* [Campaign Standard](https://experienceleague.adobe.com/ko/docs/campaign-web/acs-to-ac/user-management-acs)
-* [상거래](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/ims/adobe-ims-config)
-* [Dynamic Media Classic](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/setup/administration-setup#user_administration)
+* [Campaign Standard](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/user-management-acs)
+* [상거래](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)
+* [Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/setup/administration-setup#user_administration)
 * [Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/onboarding/journey/admin-console)
-* [Experience Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/overview) 및 [데이터 수집](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions)
-* [GenStudio for Performance Marketing](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/product-provisioning)
-* [Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/access-control/permissions)
-* [Journey Optimizer B2B edition](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/admin/user-management)
-* [Journey Orchestration](https://experienceleague.adobe.com/ko/docs/journeys/using/starting-with-journeys/access-management)
-* [Marketo Engage](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/marketo-with-adobe-identity/subscription-and-user-migration/understanding-marketo-subscription-and-user-migration-to-the-adobe-admin-console)
-* [Marketo Measure](https://experienceleague.adobe.com/ko/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup)
-* [Mix Modeler](https://experienceleague.adobe.com/ko/docs/mix-modeler/using/data-governance/access-controls)
-* [Adobe Pass](https://experienceleague.adobe.com/ko/docs/pass/aiq-help/get-started)
-* [Target](https://experienceleague.adobe.com/ko/docs/target/using/administer/start-target)
-* [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console)
+* [Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/overview) 및 [데이터 수집](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions)
+* [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/product-provisioning)
+* [Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)
+* [Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management)
+* [Journey Orchestration](https://experienceleague.adobe.com/en/docs/journeys/using/starting-with-journeys/access-management)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/marketo-with-adobe-identity/subscription-and-user-migration/understanding-marketo-subscription-and-user-migration-to-the-adobe-admin-console)
+* [Marketo Measure](https://experienceleague.adobe.com/en/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup)
+* [Mix Modeler](https://experienceleague.adobe.com/en/docs/mix-modeler/using/data-governance/access-controls)
+* [Adobe Pass](https://experienceleague.adobe.com/en/docs/pass/aiq-help/get-started)
+* [Target](https://experienceleague.adobe.com/en/docs/target/using/administer/start-target)
+* [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console)
 
 모든 Adobe 응용 프로그램에 대한 대부분의 관리 콘솔 도움말은 [Enterprise 및 Teams 관리 안내서](https://helpx.adobe.com/kr/enterprise/admin-guide.html)에 설명되어 있습니다.
