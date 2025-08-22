@@ -26,7 +26,7 @@ ht-degree: 68%
 * Experience Cloud에서 회사를 프로비저닝합니다.
 * 관리자가 될 수 있도록 설정.
 * [Experience Cloud ID 서비스 구현](https://experienceleague.adobe.com/docs/id-service/using/home.html).
-* [!DNL Analytics]Platform 데이터 수집[!DNL Target]을 통해 [!UICONTROL  및 ] 구현을 현대화하십시오.
+* [!DNL Analytics]Platform 데이터 수집[!DNL Target]을 통해 [!UICONTROL &#x200B; 및 &#x200B;] 구현을 현대화하십시오.
 * [[!DNL customer attributes]](../services/customer-attributes/attributes.md) 및 [[!DNL Audience Library]](../services/audiences/overview.md)과(와) 같은 Experience Cloud 서비스를 시작합니다.
 
 솔루션 또는 서비스:
