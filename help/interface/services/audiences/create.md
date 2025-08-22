@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
+source-git-commit: c98084e3960e40ae28e55050ce0727abce94ba0c
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 66%
+source-wordcount: '540'
+ht-degree: 65%
 
 ---
 
@@ -63,6 +63,8 @@ ht-degree: 66%
 
 1. 대상자 규칙을 정의한 다음 **[!UICONTROL 저장]을 클릭합니다.**
 
+**예: 복합 대상에 대한 규칙 정의**
+
 >[!NOTE]
 >
 >이러한 규칙을 작성할 때 구현 변수를 이해해야 합니다.
@@ -95,4 +97,4 @@ ht-degree: 66%
 
 지정된 기간 동안 데이터 수집이 완료되면 원이 합쳐지면서 정의된 대상자를 표시합니다.
 
-대상이 저장되면 다른 Experience Cloud 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/ko/docs/target/using/activities/activities)에 포함할 수 있습니다.
+대상이 저장되면 다른 Experience Cloud 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)에 포함할 수 있습니다.
