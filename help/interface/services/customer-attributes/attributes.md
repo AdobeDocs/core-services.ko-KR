@@ -7,9 +7,9 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '434'
 ht-degree: 78%
 
 ---
@@ -36,7 +36,7 @@ Experience Cloud의 [!DNL Customer attributes]를 사용하면 고객 관계 관
 
 * **Adobe Target** 고객 특성에 `at.js`(임의 버전) 또는 `mbox.js` 버전 58 이상이 필요합니다.
 
-  [at.js를 배포하는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ko)을 참조하십시오.
+  [at.js를 배포하는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)을 참조하십시오.
 
 ## 엔터프라이즈 고객 데이터란? {#enterprise_data}
 
