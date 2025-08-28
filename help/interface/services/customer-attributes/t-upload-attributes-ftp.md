@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 71%
+source-wordcount: '378'
+ht-degree: 67%
 
 ---
 
-# 선택 사항 - FTP를 통한 데이터 파일 업로드
+# FTP를 통한 데이터 파일 업로드 (선택 사항)
 
 드래그 앤 드롭을 사용하여 업로드하지 않는 경우에는 FTP를 통해 Experience Cloud으로 고객 속성 데이터를 업로드할 수 있습니다.
 
@@ -27,7 +27,7 @@ Experience Cloud에서 고객 속성 소스 및 FTP 계정을 만든 후에 데�
 고객 속성 FTP 사이트로의 파일 업로드는 FTP 또는 SFTP를 통해 수행될 수 있습니다.
 
 * SFTP 연결을 지원하는 클라이언트가 필요합니다.
-* [여기](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=ko)에 설명된 것처럼 사용자 이름/암호를 사용하거나 암호를 사용하지 않고 SFTP를 통해 연결할 수 있습니다.
+* [여기](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)에 설명된 것처럼 사용자 이름/암호를 사용하거나 암호를 사용하지 않고 SFTP를 통해 연결할 수 있습니다.
 
 **FTP를 통한 데이터 파일 업로드**
 
@@ -44,3 +44,29 @@ Experience Cloud에서 고객 속성 소스 및 FTP 계정을 만든 후에 데�
    업로드가 성공적으로 수행되면 두 파일이 모두 **processed** 폴더로 이동됩니다.
 
    파일 이름 및 구조에 대한 중요한 정보가 필요하면 [고객 특성을 업로드하기 위한 데이터 파일 요구 사항](crs-data-file.md)을 참조하십시오.
+
+## FTP 계정 설정
+
+속성 소스당 하나의 FTP 계정을 설정합니다.
+
+[!UICONTROL 파일 업로드 및 스키마 유효성 검사] 페이지에서 **[!UICONTROL FTP 설정]**&#x200B;을 클릭합니다.
+
+![스키마 편집](assets/ftp-account.png)
+
+업로드한 파일은 해당 계정의 루트 폴더에 저장됩니다. 데이터는 `.csv` 형식이어야 하며, 업로드가 완료되었음을 나타내는 두 번째 `.fin` 파일도 있어야 합니다.
+
+문자열, 정수 및 숫자에 적용하는 이름은 [!DNL Analytics] 지표를 만드는 데 사용됩니다.
+
+* 업로드된 **[!UICONTROL 파일에서]**&#x200B;특성:`.csv` 특성 데이터를 읽었습니다.
+
+* **[!UICONTROL 유형:]** 다음과 같은 데이터 유형:
+
+   * **문자열:** 일련의 문자들.
+
+   * **정수:** 범자연수.
+
+   * **숫자:** 최대 2개의 소수 자리를 가질 수 있습니다.
+
+* **[!UICONTROL 이름 표시:]** 속성의 이름입니다. 예를들어 특성 *customer age*&#x200B;을(를) *customer Since*(으)로 변경할 수 있습니다.
+
+* **[!UICONTROL 설명:]** 속성에 대한 설명입니다.

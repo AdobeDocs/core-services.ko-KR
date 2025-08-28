@@ -1,5 +1,5 @@
 ---
-description: Adobe Analytics 및 Adobe Target의 Adobe Experience Cloud [!DNL Customer Attributes] FAQ
+description: Adobe Analytics 및 Adobe Target용 Adobe Experience Cloud의  [!DNL Customer Attributes] 에 대해 자주 묻는 질문에 대한 답변을 받아 보십시오.
 solution: Experience Cloud
 title: ' [!DNL Customer Attributes]에 대한 FAQ'
 feature: Customer Attributes
@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: b296b7fe76ad686d45a5927c55f798dc0203c684
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 80%
+source-wordcount: '1036'
+ht-degree: 79%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics 및 Adobe Target의 [!DNL Customer Attributes] FAQ와 모범 사
 
 | 문제 | 설명 |
 |--- |--- |
-| [!UICONTROL 고객 특성] 구독 제한 사항 | Analytics Premium으로 업그레이드할 때 더 많은 속성은 24시간 후에 사용할 수 있습니다. 이 시간 중에 [!UICONTROL 특성 구독 최대값] 오류가 표시될 수 있습니다. |
+| [!DNL Customer Attribute] 구독 제한 사항 | Analytics Premium으로 업그레이드할 때 더 많은 속성은 24시간 후에 사용할 수 있습니다. 이 시간 중에 [!UICONTROL 특성 구독 최대값] 오류가 표시될 수 있습니다. |
 | 동일한 디바이스에 여러 로그인 | [!DNL Customer Attributes]를 사용하여 고객 프로필을 데이터 소스에 업로드할 때에는 디바이스(동일한 Experience Cloud ID)를 공유하는 사용자는 피하는 것이 좋습니다. Experience Cloud ID(ECID)는 디바이스에서 계속 유지됩니다. 디바이스를 공유하면 ECID가 여러 사용자를 동일한 ECID에 연결하여 예기치 않은 결과가 [!DNL Target]에 발생할 수 있습니다. **참고:** 모바일의 경우 ECID는 모바일 앱이 설치된 후에 영구적입니다. 새 ECID를 생성하려면 앱을 다시 설치해야 합니다. 웹의 경우, 브라우저 쿠키가 지워진 후 새 ECID가 생성됩니다. |
 | 일일 업로드 빈도 제한 | [!DNL Customer Attributes]는 하루에 한 번만 업데이트하는 것이 좋습니다. 동일한 프로필 세트에 대해 다른 고객 프로필 데이터 파일을 업로드하려면 최소 24시간을 기다려야 합니다. |
 | 사용자 정의 Analytics ID(`s.visitorID`) | `s.visitorID`을(를) 사용하여 고객 ID를 설정하는 것은 Adobe Analytics에서 사용자를 식별하는 방법입니다. 단, ID 서비스를 사용하여 [!DNL Analytics] 데이터를 내보내거나 가져오는 통합 기능은 방문자가 `s.visitorID.`<br>를 사용하여 식별될 때 작동하지 않습니다. 여기에는 공유 대상자, [!DNL Analytics] for Adobe Target(A4T) 및 [!DNL Customer Attributes]가 포함되지만 이에 국한되지 않습니다.<br>이러한 통합의 경우 사용자 정의 Analytics ID를 설정할 수 없습니다. |
@@ -45,7 +45,7 @@ Adobe Analytics 및 Adobe Target의 [!DNL Customer Attributes] FAQ와 모범 사
 | **(Adobe Target만 해당)** Adobe Target에서 표시된 적이 없는 고객의 데이터를 미리 로드하거나 업로드할 수 있습니까? | 예. 방문자가 Adobe Target에 대해 첫 번째 요청을 수행하면 시스템은 [!DNL Customer Attributes]에서 고객에 대해 Adobe가 보유한 기존 정보를 가져온 다음 해당 데이터를 사용하여 타겟팅합니다. **참고:** 이 데이터를 검색하는 데는 방문자가 Adobe Target과 처음 상호 작용한 시점부터 최대 20분이 걸릴 수 있습니다. |
 | **(Adobe Target만 해당)** 고객 속성 데이터를 공유 대상자 데이터와 결합하여 슈퍼 대상자를 만들 수 있습니까? | 아니요. 공유된 대상자 데이터는 완전한 대상자입니다. |
 | **(Adobe Target 전용)** [!DNL Customer Attributes]을(를) Adobe Target의 벌크 프로필 API와 어떻게 비교합니까? | 벌크 프로필 API를 사용하면 개별 프로필에 대해 또는 대량으로 API를 통해 Adobe Target 프로필을 직접 업데이트할 수 있습니다. 이 기능은 [!DNL Customer Attributes]와 비슷하지만, 다음과 같은 주요 차이점이 있습니다.<ul><li>프로필 API는 REST API 호출이며, [!DNL Customer Attributes]는 FTP를 사용합니다.</li><li>Adobe Target의 프로필 API는 전체 Experience Cloud 대신 Adobe Target으로만 데이터를 보냅니다.</li><li>[!DNL Customer Attributes]는 이러한 외부 데이터를 만들고 관리할 간단한 인터페이스를 제공합니다.</li></ul> |
-| **(Adobe Target만 해당)** [!DNL Customer Attributes]에서 Adobe Target으로 데이터를 업로드하면 Adobe Target 방문자의 프로필 라이프타임이 연장됩니까? | 예. Adobe Target 도움말의 [방문자 프로필 라이프타임](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=ko) 을 참조하십시오. |
+| **(Adobe Target만 해당)** [!DNL Customer Attributes]에서 Adobe Target으로 데이터를 업로드하면 Adobe Target 방문자의 프로필 라이프타임이 연장됩니까? | 예. Adobe Target 도움말의 [방문자 프로필 라이프타임](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html) 을 참조하십시오. |
 | **(Adobe Target만 해당)** 방문자가 고객 ID로 식별되면 바로 [!DNL Customer Attributes]에 업로드된 데이터를 타겟팅할 수 있습니까? | 예. Adobe Target에 대한 서버 호출 시 여기에 mbox 타사 ID가 포함되면 모든 고객 속성 데이터를 사용할 수 있습니다. |
 | **(Adobe Target만 해당)** **[!UICONTROL 동기화 상태]** 열은 고객 속성 소스에 업로드된 파일에 대해 무엇을 나타냅니까? | 특정 속성 파일에 대한 동기화 상태 아이콘을 선택하여 Adobe Target에 의해 게시되고 동기화된 레코드 수를 볼 수 있습니다. `Sync %`는 Adobe Target에서 동기화된 프로필의 비율(%)을 지정하는 실시간 지표입니다.<br> **참고:** 속성이 Adobe Target과 동기화되려면 최대 24시간이 걸릴 수 있습니다. |
 | [!DNL Customer Attributes] 소스에서 파일 업로드 지표가 나타내는 것은 무엇입니까? | 다음 지표의 도움을 받아 [!DNL Customer Attributes]에 업로드된 속성의 상태를 확인할 수 있습니다. <ul><li>레코드: 속성 파일에 있는 레코드 수입니다.</li><li>**새 레코드:** 속성 파일에 있는 새 레코드 수입니다.</li> <li>**업데이트된 레코드:** 파일에서 업데이트된 값이 있는 [!DNL Customer Attributes]에 존재하는 레코드 수입니다.</li><li>**모든 데이터(레코드):** [!DNL Customer Attributes]에 성공적으로 업로드된 총 레코드 수입니다.</li></ul> |

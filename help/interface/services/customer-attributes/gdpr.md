@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: b296b7fe76ad686d45a5927c55f798dc0203c684
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 95%
 
 ---
 
-# [!DNL Customer attributes] 개인정보 보호 규정 지원
+# [!DNL Customer Attributes] 개인정보 보호 규정 지원
 
 이 페이지는 [!DNL Customer Attributes]가 데이터 보호 규정(GDPR)을 어떻게 지원하는지 설명합니다.
 

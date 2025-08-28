@@ -1,28 +1,28 @@
 ---
-description: Analytics 및 Target에 대한 고객 속성 구독을 구성하고 데이터 소스를 활성화하는 방법에 대해 알아봅니다.
+description: Analytics 및 Target용  [!DNL Customer Attributes] 에서 구독을 구성하고 데이터 소스를 활성화하는 방법에 대해 알아봅니다.
 solution: Experience Cloud
-title: 구독을 구성하는 방법
+title: ' [!DNL Customer Attributes]에서 구독을 구성하는 방법'
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 65%
+source-wordcount: '428'
+ht-degree: 61%
 
 ---
 
 # 구독 구성 및 데이터 소스 활성화
 
-구독을 통해 Experience Cloud과 응용 프로그램([!DNL Analytics] 및 [!DNL Target]) 간에 고객 특성 데이터 흐름을 사용할 수 있습니다.
+[!DNL Customer Attributes]개의 구독을 통해 Experience Cloud과 응용 프로그램([!DNL Analytics] 및 [!DNL Target]) 간에 고객 특성 데이터 흐름을 사용할 수 있습니다.
 
-예를 들어 Adobe Analytics 가입을 구성하면 특성 데이터를 보고서에서 사용할 수 있습니다. Adobe Target을 사용하는 경우 타깃팅 및 세그멘테이션을 위해 고객 특성을 업로드할 수 있습니다.
+예를 들어 Adobe Analytics 구독을 구성하면 속성 데이터를 보고서에서 사용할 수 있습니다. [!DNL Adobe Target]을(를) 사용하는 경우 타깃팅 및 세그멘테이션을 위해 고객 특성을 업로드할 수 있습니다.
 
 **구독을 구성하고 데이터 원본을 활성화하려면**
 
-1. 편집할 고객 속성 소스를 찾습니다.
+1. 편집할 데이터 원본을 [!DNL Customer Attributes]에서 찾습니다.
 
    [!DNL Experience Cloud]에서 **[!UICONTROL 앱]** ![메뉴](assets/menu-icon.png) > **[!DNL Customer Attributes]**&#x200B;을(를) 클릭합니다.
 

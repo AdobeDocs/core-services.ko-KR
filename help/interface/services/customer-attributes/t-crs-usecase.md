@@ -1,21 +1,21 @@
 ---
-description: 고객 속성 소스를 만들고 Adobe Experience Cloud에 업로드하는 방법을 알아봅니다.
+description: ' [!DNL Customer Attributes] 데이터 원본을 만들고 Experience Cloud에 업로드하는 방법을 알아봅니다.'
 solution: Experience Cloud
-title: 고객 속성 데이터 Source 파일 만들기 및 업로드
+title: ' [!DNL Customer Attributes] 데이터 Source 파일 만들기 및 업로드'
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 32f3bd4eb6229a910366f274f9adfbc609440764
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 49%
+source-wordcount: '1103'
+ht-degree: 48%
 
 ---
 
-# 고객 속성 소스를 만들고 데이터 파일 업로드
+# 데이터 소스 만들기 및 파일 업로드
 
 고객 특성 원본(`.csv` 및 `.fin` 파일)을 만들고 데이터를 업로드합니다. 준비가 되면 데이터 소스를 활성화할 수도 있습니다. 데이터 소스가 활성화되면 특성 데이터를 [!DNL Analytics] 및 [!DNL Target]과(와) 공유합니다.
 
@@ -78,9 +78,9 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 다음 �
 
      별칭 ID 는 추가 고객 ID 값을 설정하는 특정 영역에 해당합니다. 예:
 
-      * **태그:** 별칭 ID는 *Experience Cloud ID 서비스* 도구의 [!UICONTROL 고객 설정]에 있는 [통합 코드](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko) 값에 해당합니다.
+      * **태그:** 별칭 ID는 *Experience Cloud ID 서비스* 도구의 [!UICONTROL 고객 설정]에 있는 [통합 코드](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) 값에 해당합니다.
 
-      * **방문자 API:** 별칭 ID는 각 방문자와 연결할 수 있는 추가 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)에 해당합니다.
+      * **방문자 API:** 별칭 ID는 각 방문자와 연결할 수 있는 추가 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)에 해당합니다.
 
         예를 들어 *&quot;crm_id&quot;*:
 
@@ -102,7 +102,7 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 다음 �
 
         별칭 ID 필드 및 고객 ID와 관련된 데이터 처리에 대한 자세한 내용은 [여러 데이터 소스 활용](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)을 참조하십시오.
 
-   * **[!UICONTROL 네임스페이스 코드:]** AEP WebSDK 구현의 일부로 [IdentityMap](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/identity/overview)을(를) 사용할 때 이 값을 사용하여 고객 특성 소스를 식별하십시오.
+   * **[!UICONTROL 네임스페이스 코드:]** AEP WebSDK 구현의 일부로 [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)을(를) 사용할 때 이 값을 사용하여 고객 특성 소스를 식별하십시오.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -170,4 +170,4 @@ Experience Cloud에 게시한 세그먼트는 Experience Cloud 대상 및 Audien
 
 ![Adobe Target에서 고객 특성 사용 ](assets/crs-add-attribute-target.png)
 
-[!DNL Target] 도움말에서 [새 대상자 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=ko)를 참조하십시오.
+[!DNL Target] 도움말에서 [새 대상자 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)를 참조하십시오.

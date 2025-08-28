@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Customer Attributes]'
+title: ' [!DNL Customer Attributes] 정보'
 description: Experience Cloud의 [!DNL Customer Attributes] 에 대해 알아봅니다. Adobe Analytics 및 Adobe Target에서 사용할 고객 속성 데이터를 업로드하는 방법을 알아봅니다.
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
@@ -7,9 +7,9 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '434'
 ht-degree: 73%
 
 ---
@@ -36,7 +36,7 @@ Experience Cloud의 [!DNL Customer Attributes]를 사용하면 고객 관계 관
 
 * **Adobe Target** 고객 특성에 `at.js`(임의 버전) 또는 `mbox.js` 버전 58 이상이 필요합니다.
 
-  [at.js를 배포하는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ko)을 참조하십시오.
+  [at.js를 배포하는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)을 참조하십시오.
 
 ## 엔터프라이즈 고객 데이터란? {#enterprise_data}
 
