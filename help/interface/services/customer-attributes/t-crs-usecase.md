@@ -1,33 +1,35 @@
 ---
-description: 고객 속성 소스를 만들고 Adobe Experience Cloud에 업로드합니다.
+description: 고객 속성 소스를 만들고 Adobe Experience Cloud에 업로드하는 방법을 알아봅니다.
 solution: Experience Cloud
-title: 고객 속성 Source 만들기 및 데이터 파일 업로드
+title: 고객 속성 데이터 Source 파일 만들기 및 업로드
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
+source-git-commit: 32f3bd4eb6229a910366f274f9adfbc609440764
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1110'
 ht-degree: 49%
 
 ---
 
 # 고객 속성 소스를 만들고 데이터 파일 업로드
 
-고객 특성 원본(`.csv` 및 `.fin` 파일)을 만들고 데이터를 업로드합니다. 준비가 되면 데이터 소스를 활성화할 수도 있습니다. 데이터 소스가 활성화되면 속성 데이터를 Analytics 및 Target과 공유합니다.
+고객 특성 원본(`.csv` 및 `.fin` 파일)을 만들고 데이터를 업로드합니다. 준비가 되면 데이터 소스를 활성화할 수도 있습니다. 데이터 소스가 활성화되면 특성 데이터를 [!DNL Analytics] 및 [!DNL Target]과(와) 공유합니다.
 
-## 고객 속성 워크플로 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
+**고객 특성 워크플로**
 
 ![고객 특성 워크플로](assets/crs.png)
 
->[!IMPORTANT]
->
->이 기능에 액세스하려면 고객 속성 제품 프로필(고객 속성 - 기본 액세스)에 사용자를 지정해야 합니다. **[!UICONTROL Admin Console]** > **[!UICONTROL 제품]**(으)로 이동합니다. *고객 특성*&#x200B;이 [!UICONTROL 제품 프로필] 중 하나로 표시되면 작업을 시작할 수 있습니다. 고객 특성 그룹에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!UICONTROL 고객 특성] 메뉴가 표시됩니다.
->
->고객 특성 기능을 사용하려면 사용자가 응용 프로그램 수준 그룹(Adobe Analytics 또는 [!DNL Target])에도 속해야 합니다.
+## 전제 조건
+
+**제품 액세스:** [!DNL Customer Attributes]에 액세스하려면 Admin Console(**[!UICONTROL )의 고객 특성 제품 프로필(]**&#x200B;고객 특성 - 기본 액세스`adminconsole.adobe.com`)에 사용자를 할당해야 합니다.
+
+**[!UICONTROL Admin Console]** > **[!UICONTROL 제품]**(으)로 이동합니다. *고객 특성*&#x200B;이 제품([!UICONTROL 제품 프로필]) 중 하나로 표시되면 작업을 시작할 수 있습니다. 고객 특성 제품 프로필에 추가된 사용자에게는 **[!DNL Customer Attributes]**&#x200B;앱&#x200B;**[!UICONTROL 선택기에서]**&#x200B;이(가) 표시됩니다. (![고객 특성 워크플로](assets/menu-icon.png))
+
+**응용 프로그램 그룹:** **[!DNL Customer Attributes]** 기능을 사용하려면 사용자가 응용 프로그램 수준 그룹(Adobe [!DNL Analytics] 또는 [!DNL Adobe Target])에도 속해야 합니다.
 
 ## 데이터 파일 만들기 {#create-data}
 
@@ -44,7 +46,7 @@ ht-degree: 49%
    ![샘플 엔터프라이즈 고객 데이터 파일](assets/01_crs_usecase.png)
 
 1. 계속하기 전에 파일을 업로드하려면 [데이터 파일 요구 사항](crs-data-file.md)의 중요 정보를 검토하십시오.
-1. 아래 설명된 대로 [고객 속성 소스를 만들고 데이터를 업로드](t-crs-usecase.md)합니다.
+1. 아래 설명된 대로 [고객 속성 소스를 만들고 데이터를 업로드](t-crs-usecase.md#create-source)합니다.
 
 ## 속성 소스를 만들고 데이터 파일 업로드 {#create-source}
 
@@ -54,16 +56,13 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 다음 �
 >
 >고객 속성 소스를 만들거나, 수정하거나 삭제할 때, ID가 새 데이터 소스와의 동기화를 시작하기 전에 최대 한 시간이 지연됩니다. 고객 속성 소스를 만들거나 수정하려면 Audience Manager에 관리 권한이 있어야 합니다. 관리 권한을 얻으려면 Audience Manager 고객 지원 센터 또는 컨설팅에 문의하십시오.
 
-1. [!DNL Experience Cloud]에서 메뉴 ![메뉴](assets/menu-icon.png) 아이콘을 선택합니다.
-1. **[!UICONTROL 고객 특성]**&#x200B;을 선택하세요.
+1. [!DNL Experience Cloud]에서 **[!UICONTROL 앱]** ![메뉴](assets/menu-icon.png) > **[!DNL Customer Attributes]**&#x200B;을(를) 클릭합니다.
 
-   [!UICONTROL 고객 특성] 페이지에서 기존 특성 데이터 원본을 관리하고 편집할 수 있습니다.
-
-   ![고객 특성 기본 화면](assets/cust-attr.png)
+   ![고객 특성 페이지](assets/cust-attr.png)
 
 1. **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
 
-   ![단계 결과](assets/04_crs_usecase.png)
+   ![단계 결과](assets/new-customer-attribute-source.png)
 
 1. [!UICONTROL 고객 특성 만들기 Source] 페이지에서 다음 필드를 구성합니다.
 
@@ -79,9 +78,9 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 다음 �
 
      별칭 ID 는 추가 고객 ID 값을 설정하는 특정 영역에 해당합니다. 예:
 
-      * **태그:** 별칭 ID는 *Experience Cloud ID 서비스* 도구의 [!UICONTROL 고객 설정]에 있는 [통합 코드](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko) 값에 해당합니다.
+      * **태그:** 별칭 ID는 *Experience Cloud ID 서비스* 도구의 [!UICONTROL 고객 설정]에 있는 [통합 코드](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) 값에 해당합니다.
 
-      * **방문자 API:** 별칭 ID는 각 방문자와 연결할 수 있는 추가 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)에 해당합니다.
+      * **방문자 API:** 별칭 ID는 각 방문자와 연결할 수 있는 추가 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)에 해당합니다.
 
         예를 들어 *&quot;crm_id&quot;*:
 
@@ -103,21 +102,27 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 다음 �
 
         별칭 ID 필드 및 고객 ID와 관련된 데이터 처리에 대한 자세한 내용은 [여러 데이터 소스 활용](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)을 참조하십시오.
 
-   * **[!UICONTROL 네임스페이스 코드:]** AEP WebSDK 구현의 일부로 [IdentityMap](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/identity/overview)을(를) 사용할 때 이 값을 사용하여 고객 특성 소스를 식별하십시오.
+   * **[!UICONTROL 네임스페이스 코드:]** AEP WebSDK 구현의 일부로 [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)을(를) 사용할 때 이 값을 사용하여 고객 특성 소스를 식별하십시오.
+
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## 파일 업로드 {#upload}
 
+고객 속성 레코드가 생성되며, 고객 속성을 편집하여 파일을 업로드할 수 있습니다.
 
-1. 파일 업로드를 클릭합니다.
+1. [!DNL Customer Attributes] 페이지에서 특성 원본을 클릭합니다.
 
-2. `.csv` 또는 `.zip` 또는 `.gzip` 데이터 파일을 드래그 앤 드롭 창으로 드래그 앤 드롭합니다.
+1. [!UICONTROL 고객 데이터 편집 Source] 페이지에서 **[!UICONTROL 파일 업로드]**&#x200B;를 클릭합니다.
+
+   ![파일 업로드 및 스키마 유효성 검사](assets/file-upload-schema-validation.png)
+
+1. `.csv` 또는 `.zip` 또는 `.gzip` 데이터 파일을 드래그 앤 드롭 창으로 드래그 앤 드롭합니다.
 
 >[!IMPORTANT]
 >
 >특정 데이터 파일 요구 사항이 있습니다. 자세한 내용은 [데이터 파일 요구 사항](crs-data-file.md) 을 참조하십시오.
 
 파일을 업로드한 후에는 이 페이지의 [!UICONTROL 파일 업로드] 제목 아래에 있는 테이블 데이터가 표시됩니다. 스키마의 유효성을 검사하거나, 구독을 구성하거나, FTP를 설정할 수 있습니다.
-
 
 ![특성](assets/file_upload_attributes.png)
 
@@ -139,20 +144,15 @@ Experience Cloud의 새 고객 속성 소스 만들기 페이지에서 다음 �
 
 스키마에서 속성을 삭제 및 교체하는 방법.
 
-1. [!UICONTROL 고객 특성 편집 Source] 페이지에서 **[!UICONTROL Target]** 또는 **[!UICONTROL Analytics]** 구독([!UICONTROL 구독 구성] 아래)을 제거하십시오.
+1. [!UICONTROL 고객 속성 소스 편집] 페이지에서 **[!UICONTROL Target]** 또는 **[!UICONTROL Analytics]** 구독( **[!UICONTROL 구독 구성]**&#x200B;아래)을 제거합니다.
+
 1. [업데이트된 필드가 있는 새 데이터 파일을 업로드합니다](t-crs-usecase.md).
 
 ## 구독 구성 및 속성 소스 활성화 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
 구독을 구성하면 Experience Cloud과 애플리케이션 간에 데이터 흐름이 설정됩니다. 속성 소스를 활성화하면 데이터가 가입 중인 애플리케이션으로 유입될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 대조됩니다.
 
-[구독 구성](subscription.md)을 참조하십시오.
-
-**속성 소스를 활성화하려면**
-
-[!UICONTROL 새로 만들기 또는 고객 특성 편집 Source] 페이지에서 [!UICONTROL 활성화] 제목을 찾은 다음 **[!UICONTROL 활성]**&#x200B;을 클릭합니다.
-
-![단계 결과](assets/activate_attribute_source.png)
+[구독 구성 및 데이터 소스 활성화](subscription.md)를 참조하십시오.
 
 ## Adobe Analytics에서 고객 속성 사용 {#task_7EB0680540CE4B65911B2C779210915D}
 
@@ -170,4 +170,4 @@ Experience Cloud에 게시한 세그먼트는 Experience Cloud 대상 및 Audien
 
 ![Adobe Target에서 고객 특성 사용 ](assets/crs-add-attribute-target.png)
 
-[!DNL Target] 도움말에서 [새 대상자 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=ko)를 참조하십시오.
+[!DNL Target] 도움말에서 [새 대상자 만들기](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)를 참조하십시오.

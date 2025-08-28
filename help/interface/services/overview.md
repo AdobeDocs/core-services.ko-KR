@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: b790f79a6e49f2103e6b3c1fcde3a36c1ea5c141
+source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 79%
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 # Experience Cloud 서비스 {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-이 설명서는 [!DNL People] 서비스([!DNL Audience Library] 및 [!DNL customer attributes]), Experience Cloud를 위한 사용자 및 제품 관리, 쿠키, 계정 환경 설정, 알림 등과 같은 Experience Cloud 통합 헤더의 기능에 적용됩니다.
+이 설명서는 [!DNL People] 서비스([!DNL Audience Library] 및 [!DNL Customer Attributes]), Experience Cloud를 위한 사용자 및 제품 관리, 쿠키, 계정 환경 설정, 알림 등과 같은 Experience Cloud 통합 헤더의 기능에 적용됩니다.
 
 Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL 애플리케이션 선택기]** ![서비스 선택기](../assets/apps-icon.png)를 클릭합니다.
 

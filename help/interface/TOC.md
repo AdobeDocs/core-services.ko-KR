@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud 인터페이스 및 관리
 title: Experience Cloud 인터페이스 및 관리
 description: Experience Cloud 인터페이스, 쿠키 및 계정 환경 설정에 대해 알아봅니다. 제품을 관리하고 고객 속성 및 대상자 라이브러리를 포함하는 People 서비스를 구성합니다. Experience Cloud Assets를 공유합니다.
 index: true
-source-git-commit: cee634cd4f64bac4e06d25e1872a0f84772c46ed
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 84e5d971dadd2281ff7a225d860400d1807c5d46
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
       + [고객 속성 소스를 만들고 데이터 파일 업로드](services/customer-attributes/t-crs-usecase.md)
       + [선택 사항 - FTP를 통한 데이터 파일 업로드](services/customer-attributes/t-upload-attributes-ftp.md)
       + [스키마 유효성 검사](services/customer-attributes/validate-schema.md)
-      + [구독 구성](services/customer-attributes/subscription.md)
+      + [구독 구성 및 데이터 소스 활성화](services/customer-attributes/subscription.md)
       + [스키마 업데이트](services/customer-attributes/t-update-schema.md)
       + [개인정보 보호 규정 지원](services/customer-attributes/gdpr.md)
       + [캘리포니아 소비자 개인정보 보호법 지원](services/customer-attributes/ccpa.md)

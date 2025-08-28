@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 57%
+source-wordcount: '405'
+ht-degree: 63%
 
 ---
 
 # 캘리포니아 소비자 개인 정보 보호법을 위한 고객 속성 지원
 
-이 페이지에서는 CCPA(캘리포니아 소비자 개인 정보 보호법)에 대한 [!UICONTROL 고객 특성] 지원에 대해 설명합니다.
+이 페이지에서는 CCPA(캘리포니아 소비자 개인 정보 보호법)에 대한 [!DNL Customer Attributes] 지원에 대해 설명합니다.
 
 >[!IMPORTANT]
 >
@@ -27,13 +27,13 @@ CCPA는 2020년 1월 1일에 발효되는 캘리포니아 주의 새로운 개�
 
 서비스 제공업체로서 Adobe Experience Cloud는 귀사가 Experience Cloud 제품 및 서비스 사용에 적용되는 CCPA에 따른 의무를 이행할 수 있도록 지원을 제공합니다. 이 지원에는 개인정보 액세스 및 삭제 요청 관리가 포함됩니다.
 
-이 문서에서는 [!UICONTROL 고객 특성]이(가) Adobe Experience Platform Privacy Service API 및 Privacy Service UI를 사용하여 데이터 주체의 CCPA 데이터 액세스 및 삭제 권한을 지원하는 방법에 대해 설명합니다.
+이 문서에서는 [!DNL Customer Attributes]이(가) Adobe Experience Platform Privacy Service API 및 Privacy Service UI를 사용하여 데이터 주체의 CCPA 데이터 액세스 및 삭제 권한을 지원하는 방법에 대해 설명합니다.
 
 CCPA를 위한 Adobe 개인정보보호 서비스에 대한 자세한 내용은 [Adobe 개인정보보호 센터](https://www.adobe.com/privacy/ccpa.html)를 참조하십시오.
 
-## [!UICONTROL 고객 특성]에 대한 요청을 보내는 데 필요한 설정
+## [!DNL Customer Attributes]에 대한 요청을 전송하기 위한 필수 설정
 
-[!UICONTROL 고객 특성]에 대한 데이터에 액세스하고 삭제를 요청하려면 다음을 수행해야 합니다.
+[!DNL Customer Attributes]에 대한 데이터 액세스 및 삭제를 요청하려면 다음 작업을 수행해야 합니다.
 
 1. 다음 항목을 확인하십시오.
 
@@ -45,7 +45,7 @@ CCPA를 위한 Adobe 개인정보보호 서비스에 대한 자세한 내용은 
 
 1. [!UICONTROL Privacy Service]에서 고객 특성에 액세스 및 삭제 요청을 제출하고 기존 요청의 상태를 확인할 수 있습니다.
 
-## [!UICONTROL 고객 특성] JSON 요청의 필수 필드 값
+## [!DNL Customer Attributes] JSON 요청의 필수 필드 값
 
 &quot;company context&quot;:
 

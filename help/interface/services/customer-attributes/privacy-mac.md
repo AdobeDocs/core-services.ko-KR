@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
+source-git-commit: b296b7fe76ad686d45a5927c55f798dc0203c684
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 99%
 
 ---
 
-# [!DNL customer attributes]에 대한 개인정보 보호 고려 사항
+# [!DNL Customer Attributes]에 대한 개인정보 보호 고려 사항
 
 Adobe Experience Cloud에서 업로드되고 사용되는 PII(개인 식별 정보)와 관련된 고려 사항 및 모범 사례입니다.
 
