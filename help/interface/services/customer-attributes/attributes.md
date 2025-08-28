@@ -7,36 +7,20 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: bd718358c6db1ea4a6150d019773072418b629f9
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 73%
+source-wordcount: '309'
+ht-degree: 80%
 
 ---
 
 # Experience Cloud의 [!DNL Customer Attributes]
 
-Experience Cloud의 [!DNL Customer Attributes]를 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드한 다음 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]에서 데이터를 사용할 수 있습니다.
+**[!UICONTROL 앱]** ![메뉴](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-## [!DNL Customer Attributes] 기능 찾기
-
-1. [!DNL Experience Cloud]에 로그인하고 메뉴 ![메뉴](assets/menu-icon.png) 아이콘을 선택합니다.
-
-1. **[!DNL Customer Attributes]**&#x200B;를 선택합니다.
+Experience Cloud의 [!DNL Customer Attributes]를 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. Experience Cloud의 [ 데이터 원본에 데이터를 ](t-crs-usecase.md)업로드[!DNL Customer Attributes]한 다음 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 사용할 수 있습니다.
 
 ![고객 특성 개요](assets/custom_reports.png)
-
-## 고객 속성 데이터를 업로드하기 위한 사전 요구 사항 {#prerequisites}
-
-* **그룹 구성원:** 고객 특성 데이터를 업로드하려면 사용자가 고객 특성 그룹의 구성원이어야 합니다. 또한 Adobe Analytics 그룹 또는 Adobe Target 그룹에 속해야 합니다.
-
-  고객 특성에 액세스할 수 있는지 확인하려면 [!DNL Experience Cloud] 관리자가 [Experience Cloud](https://experience.adobe.com)에 로그인해야 합니다. **[!UICONTROL Admin Console]** > **[!UICONTROL 제품]**(으)로 이동합니다. *[!DNL Customer Attributes]*&#x200B;가 [!UICONTROL 제품 프로필] 중 하나로 표시되면 작업을 시작할 수 있습니다.
-
-  [!DNL Customer Attributes]에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!DNL Customer Attributes] 메뉴 항목이 표시됩니다.
-
-* **Adobe Target** 고객 특성에 `at.js`(임의 버전) 또는 `mbox.js` 버전 58 이상이 필요합니다.
-
-  [at.js를 배포하는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ko)을 참조하십시오.
 
 ## 엔터프라이즈 고객 데이터란? {#enterprise_data}
 
