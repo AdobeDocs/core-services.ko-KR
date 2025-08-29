@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: d2244e249c7af27bc1b4fc7bfe628bc25b37f4d4
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 49%
@@ -32,11 +32,11 @@ ht-degree: 49%
 
 1. [!UICONTROL 파일 업로드 및 스키마 유효성 검사] 페이지에서 **[!UICONTROL 작업]** > **[!UICONTROL 스키마 보기/편집]**&#x200B;을 클릭합니다
 
-   ![스키마 편집](assets/view_edit_schema.png)
+   ![스키마 편집](assets/actions.png)
 
    [!UICONTROL 스키마 편집] 페이지에서 각 스키마 행은 업로드된 CSV 파일의 열을 나타냅니다.
 
-   ![Experience Cloud에서 스키마 페이지 편집](assets/edit-schema.png)
+   ![Experience Cloud에서 스키마 페이지 편집](assets/schema-edit.png)
 
 **작업**
 
