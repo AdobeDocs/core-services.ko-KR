@@ -1,16 +1,16 @@
 ---
 description: Experience Cloud에서 승인된 Creative Cloud 사용자를 관리하는 관리 도구에 대해 알아봅니다.
 solution: Experience Cloud
-title: Creative Cloud 사용자 관리
+title: Experience Cloud에서 Creative Cloud 사용자 관리
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 73%
+source-wordcount: '122'
+ht-degree: 71%
 
 ---
 
