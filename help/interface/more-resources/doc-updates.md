@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 6caf1edc5cead3e937f919ac2bb6c829a758d8fd
+source-git-commit: 85a5c5c33a8eb5f34f174cf5aa1da56e8e2e5065
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 69%
@@ -144,7 +144,7 @@ Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한
 
 **15 2015년 1월**
 
-이제 Experience Cloud 사용자가 폴더를 Creative Cloud에 공유하고 두 클라우드 간 에셋과 주석을 동기화할 수 있다는 내용이 추가되었습니다. [에셋 공유](../services/assets/creative-cloud.md)를 참조하십시오.
+이제 Experience Cloud 사용자가 폴더를 Creative Cloud에 공유하고 두 클라우드 간 에셋과 주석을 동기화할 수 있다는 내용이 추가되었습니다. [에셋 공유](../services/assets/share.md)를 참조하십시오.
 
 **17 2014년 7월**
 
