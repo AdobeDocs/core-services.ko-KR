@@ -1,5 +1,5 @@
 ---
-description: Experience Cloud 트리거를 구성하는 방법에 대해 알아봅니다.
+description: Experience Cloud 트리거 구성 방법을 알아봅니다.
 solution: Experience Cloud
 title: 트리거 개요
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
@@ -8,20 +8,18 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 0de22f02b4063a54d0b09b6abc1aa16221f42f4b
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 97%
+source-wordcount: '675'
+ht-degree: 93%
 
 ---
 
 # Experience Cloud 트리거
 
-Experience Cloud 내의 [!UICONTROL 트리거]를 통해 주요 소비자 행동을 식별하고, 정의하고, 모니터한 다음 교차 애플리케이션 커뮤니케이션을 생성하여 방문자로 하여금 다시 참여하도록 할 수 있습니다.
+Experience Cloud의 [!UICONTROL 트리거]를 통해 주요 소비자 행동을 식별하고, 정의하고, 모니터한 다음 교차 애플리케이션 커뮤니케이션을 생성하여 방문자로 하여금 다시 참여하도록 할 수 있습니다. 실시간 의사 결정 및 개인화에서 트리거를 사용할 수 있습니다.
 
-## 트리거 개요 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
-
-실시간 의사 결정 및 개인화에서 트리거를 사용할 수 있습니다. 예:
+예:
 
 * 장바구니 포기 또는 제품이 제거된 장바구니 포기에 대한 재마케팅의 신속한 구성
 * 불완전한 양식 및 애플리케이션
@@ -31,9 +29,9 @@ Experience Cloud 내의 [!UICONTROL 트리거]를 통해 주요 소비자 행동
 
 >[!NOTE]
 >
->[!UICONTROL 트리거] 사용에 관한 자세한 내용은 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=ko)에서 확인하실 수 있습니다.
+>[!UICONTROL 트리거] 사용에 관한 자세한 내용은 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)에서 확인하실 수 있습니다.
 
-### 트리거 유형
+## 트리거 유형
 
 일반적으로 트리거는 마케팅 캠페인을 시작하는 데 15-90분 정도 걸릴 수 있습니다. 이는 데이터 수집 구현, 파이프라인 로드, 정의된 트리거의 사용자 정의 구성 및 Adobe Campaign의 워크플로에 따라 달라집니다.
 
@@ -69,19 +67,19 @@ Experience Cloud 내의 [!UICONTROL 트리거]를 통해 주요 소비자 행동
    {style="table-layout:auto"}
 
 5. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-6. [!DNL Adobe Campaign]에서 [실시간 재마케팅](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=ko)에 트리거를 사용합니다.
+6. [!DNL Adobe Campaign]에서 [실시간 재마케팅](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)에 트리거를 사용합니다.
 
-### 예제 트리거
+## 예제 트리거
 
 Experience Cloud 트리거 예:
 
-#### 장바구니 포기 트리거
+### 장바구니 포기 트리거
 
 예를 들어 다음 페이지에서는 방문 중에 본 제품에 기반하여 [!UICONTROL 장바구니 포기] 트리거를 사용할 수 있는 규칙을 보여 줍니다.
 
 ![장바구니 포기 트리거](../assets/abandonment-trigger.png)
 
-#### 레퍼러 트리거
+### 레퍼러 트리거
 
 다음 트리거는 제품이 남성용 부츠이고 레퍼러가 Facebook인 히트일 때 동작합니다. 두 기준(*제품* 및 *레퍼러*)은 동일한 히트에서 평가될 수 있도록, 동일한 컨테이너에 추가되어야 합니다.
 
