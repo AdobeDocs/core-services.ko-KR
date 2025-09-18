@@ -7,18 +7,43 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: 04e614dcfb1f38956d0c9d65e040cd5dfef575a9
+source-git-commit: 3b3d8499fde65e494ba07610a2f8068fd697ad12
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 1%
+source-wordcount: '246'
+ht-degree: 14%
 
 ---
 
-# Experience Cloud 제품의 아젠틱 AI
+# Experience Cloud의 아젠틱 AI
 
-Adobe의 아젠틱 프레임워크는 AI로 팀의 역량을 증폭시켜 경험을 더 빠르고 효과적으로 전달할 수 있습니다. Experience Cloud에서 사용할 수 있는 아젠틱 AI 기능은 다음과 같습니다.
+[!DNL Experience Cloud]의 AI 에이전트(&quot;agentic AI&quot;)는 목표를 명확한 단계로 전환하여 어려운 작업을 쉽게 처리하고 통제합니다.
 
-* [제품 지원 에이전트](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/new-features/customer-support)는 Experience Platform 기능 및 응용 프로그램에 사용할 수 있는 [!UICONTROL AI Assistant]의 셀프서비스 디버깅 및 문제 해결 기능입니다. 워크플로우를 종료하지 않고 지원 문제를 해결하고, 고객 지원 티켓을 만들고, AI Assistant를 사용하여 사례 진행 상황을 추적합니다.
-* [Data Insights Agent](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai)은(는) Customer Journey Analytics의 AI Assistant에서 액세스할 수 있습니다. 데이터에 대한 질문에 빠르고 효율적으로 답변할 수 있는 생성 AI 대화 에이전트입니다. 데이터 보기의 구성 요소를 사용하고 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 구축합니다.
+[!DNL Adobe Experience Platform Agent Orchestrator] 및 [!DNL Platform Agents]은(는) 이러한 AI 기능을 솔루션에 제공합니다. 다음 두 가지 방법으로 사용할 수 있습니다.
 
-[!BADGE 자세히 알아보기]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Business.adobe.com으로 이동"}
+* **기존 [!DNL Experience Cloud] 앱:** 이러한 앱은 자체적으로 작동하지만 [!DNL AEP Agents]을(를) 추가하면 더 많은 권한과 영향력을 얻을 수 있습니다. [!DNL Platform Agent Orchestrator]에 대한 라이선스가 있는 경우 권한이 부여된 앱에 대해 [!DNL Platform Agents]을(를) 사용할 수 있습니다.
+
+* **AI 우선 Experience Cloud 앱:** 이러한 앱은 AI를 핵심으로 합니다. 이들은 핵심 작업에 생성 또는 무관 AI를 사용하며, 무관 기능은 이미 라이선스에 포함되어 있습니다.
+
+## AEP 에이전트 및 사용 방법
+
+| 에이전트 이름 | 가용성 | 지원되는 애플리케이션 | 기능 |
+|---|----------|------------|----------|
+| **Audience Agent** | 준비 중 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 자연어 프롬프트를 사용하여 대상을 만들고 최적화합니다. |
+| [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | 사용 가능 | <ul><li>Customer Journey Analytics</li></ul> | Analysis Workspace에서 데이터 질문에 답변하고 시각화를 구축합니다. |
+| **실험 에이전트** | 준비 중 | <ul><li>AJO Experimentation Accelerator</li></ul> | 분석을 자동화하여 실험 및 성장 기회를 식별합니다. |
+| **Journey Agent** | 준비 중 | <ul><li>Adobe Journey Optimizer</li></ul> | 규모에 맞게 고객 여정을 생성, 분석 및 최적화합니다. |
+| [제품 지원 에이전트](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | 사용 가능 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | AI Assistant를 사용하여 문제를 해결하고 지원 티켓을 생성하며 진행 상황을 추적할 수 있습니다. |
+
+[!BADGE Adobe for Business에 대해 자세히 알아보기]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Business.adobe.com으로 이동"}
+
+<!-- 
+* [Product Support Agent](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) is a self-serve debugging and troubleshooting capability of [!UICONTROL AI Assistant] that you can use for Experience Platform features and applications. Troubleshoot support issues without leaving your workflows, create customer support tickets, and track case progress using AI Assistant.
+* [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) is accessible from the AI Assistant in Customer Journey Analytics. It is a generative AI conversation agent that quickly and efficiently answers questions about your data. It builds relevant visualizations in Analysis Workspace using components from your data view and using your actual data. -->
+
+
+
+
+
+
+
+
