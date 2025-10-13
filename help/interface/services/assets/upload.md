@@ -1,5 +1,5 @@
 ---
-description: Creative Cloud 브라우저 또는 Creative Cloud 데스크탑에서 공유 폴더로 에셋을 업로드합니다.
+description: Creative Cloud 브라우저 또는 Creative Cloud 데스크탑에서 공유 폴더로 자산을 업로드합니다.
 title: 공유 폴더에 자산 업로드
 feature: Assets
 topic: Administration

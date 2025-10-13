@@ -11,8 +11,8 @@ level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
 source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 99%
+source-wordcount: '627'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->공유된 Experience Cloud 폴더 및 에셋은 Creative Cloud 데스크탑에 1:1 관계로 미러링됩니다. Experience Cloud 사용자가 폴더를 변경(공유 삭제, 추가 또는 제거)하면 Creative Cloud 데스크탑 및 웹에서 작업이 미러링됩니다. 따라서 폴더가 공유되지 않으면 로컬 시스템에서 폴더 및 에셋이 삭제됩니다. 공유가 제거되면 폴더 및 해당 콘텐츠가 로컬 컴퓨터의 휴지통으로 이동되며 사용자가 컴퓨터에 직접 복원할 수 있습니다.
+>공유된 Experience Cloud 폴더 및 자산은 1:1 관계로 Creative Cloud 데스크톱에 미러링됩니다. Experience Cloud 사용자가 폴더를 변경(공유 삭제, 추가 또는 제거)하면 Creative Cloud 데스크탑 및 웹에서 작업이 미러링됩니다. 따라서 폴더가 공유되지 않으면 로컬 시스템에서 폴더 및 에셋이 삭제됩니다. 공유가 제거되면 폴더 및 해당 콘텐츠가 로컬 컴퓨터의 휴지통으로 이동되며 사용자가 컴퓨터에 직접 복원할 수 있습니다.
 
 ## 비공유 폴더를 공유 폴더로 {#section_A9BAC1A244A246A984AC62660E61E0C0}
 

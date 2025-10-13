@@ -33,7 +33,7 @@ Adobe Experience Cloud은 RDC(지역 데이터 수집)를 사용하므로 방문
 
 {style="table-layout:auto"}
 
-_*중국 RDC에는 중국 성능 최적화 추가 기능 패키지가 필요하며 AppMeasurement 데이터 수집을 사용하는 Adobe Analytics에만 적용됩니다. 다른 Experience Cloud 서비스와 Web SDK 데이터 수집은 지원되지 않습니다. 중국 성능 최적화 추가 기능 패키지에 대한 자세한 내용은 Adobe 계정 팀에 문의하십시오._
+_*중국 RDC에는 중국 성능 최적화 추가 기능 패키지가 필요하며 AppMeasurement 데이터 수집을 사용하는 Adobe Analytics에만 적용됩니다. 다른 Experience Cloud 서비스 및 웹 SDK 데이터 수집은 지원되지 않습니다. 중국 성능 최적화 추가 기능 패키지에 대한 자세한 내용은 Adobe 계정 팀에 문의하십시오._
 
 ## 타사 데이터 수집
 

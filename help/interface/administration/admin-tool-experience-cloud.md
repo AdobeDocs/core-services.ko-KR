@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 82%
+source-wordcount: '1257'
+ht-degree: 80%
 
 ---
 
@@ -158,8 +158,8 @@ ht-degree: 82%
 
 ## 자세한 권한 및 리소스 목록
 
-이 섹션에는 제품 프로필에 사용할 수 있는 권한 및 리소스의 전체 목록이 표시됩니다. 제품 프로필에 포함된 권한 및 리소스는 &quot;✔&quot;으로 표시되었습니다. 권한 및 리소스 목록은 탭 및 열로 분류되어 쉽게 볼 수 있습니다. 탭과 열에는 현재 제품에 적용되는 섹션 목록이 표시됩니다.
+이 섹션에는 제품 프로필에 사용할 수 있는 권한 및 리소스의 전체 목록이 표시됩니다. 제품 프로필에 포함된 권한 및 리소스는 &quot;✔&quot;(으)로 표시되었습니다. 권한 및 리소스 목록은 탭 및 열로 분류되어 쉽게 볼 수 있습니다. 탭과 열에는 현재 제품에 적용되는 섹션 목록이 표시됩니다.
 
 ## 관련 정보
 
-* [!DNL Admin Console]의 [사용자 관리](https://helpx.adobe.com/kr/enterprise/using/users.html)
+* [의 ](https://helpx.adobe.com/kr/enterprise/using/users.html)사용자 관리[!DNL Admin Console]

@@ -1,5 +1,5 @@
 ---
-description: 사용 데이터를 기반으로 이메일, Experience Cloud 제품 및 Experience League 커뮤니티를 통해 개인화된 도움말과 프로모션을 받습니다.
+description: 사용 데이터를 기반으로 이메일, Experience Cloud 제품 및 Experience League 커뮤니티 내에서 개인화된 도움말과 프로모션을 받을 수 있습니다.
 solution: Experience Cloud
 title: Experience Cloud 맞춤형 학습 환경 설정
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
@@ -12,7 +12,7 @@ ht-degree: 23%
 
 # 맞춤형 학습 권장 사항 및 프로모션
 
-Adobe은 Adobe 제품에 대한 작업에 따라 개인화된 유용한 콘텐츠를 제공합니다. 제품 사용 데이터는 이 컨텍스트를 사용자에게 맞춤화하는 방법을 알려줍니다. [Experience Cloud 환경 설정](https://experience.adobe.com/preferences) 페이지에서 제품 사용 데이터 공유를 옵트인하거나 옵트아웃할 수 있습니다.
+Adobe은 Adobe 제품에서의 작업을 기반으로 개인화된 유용한 콘텐츠를 제공합니다. 제품 사용 데이터는 이 컨텍스트를 사용자에게 맞춤화하는 방법을 알려줍니다. [Experience Cloud 환경 설정](https://experience.adobe.com/preferences) 페이지에서 제품 사용 데이터를 공유하도록 옵트인하거나 옵트아웃할 수 있습니다.
 
 <!-- ## Personalized training and support recommendations for your Adobe products and services
 

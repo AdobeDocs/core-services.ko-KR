@@ -41,7 +41,7 @@ ht-degree: 50%
 
 조직 ID는 공급된 Experience Cloud 회사와 연결된 ID입니다. 이 ID는 24자의 영숫자 문자열과 `@AdobeOrg`(포함 필수)로 구성됩니다.
 
-`https://experience.adobe.com`의 모든 페이지에서 키보드 단축키 **Ctrl+i**&#x200B;을 사용하여 다른 계정 정보와 함께 조직 ID를 볼 수 있습니다.
+**의 모든 페이지에서 키보드 단축키** Ctrl+i`https://experience.adobe.com`을 사용하여 다른 계정 정보와 함께 조직 ID를 볼 수 있습니다.
 
 **조직 ID를 보려면**
 
@@ -100,5 +100,5 @@ ht-degree: 50%
 
 일반적으로, 계정 연결은 Adobe ID가 이전 사용자에게 연결되어 있어서 실패합니다. 계정 연결에 실패하면
 
-* [Adobe 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support)에 문의하십시오.
+* [Adobe 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support)에 문의하십시오.
 * 문제가 해결되는 동안 여전히 표준 로그인을 사용하여 애플리케이션에 액세스할 수 있습니다.
