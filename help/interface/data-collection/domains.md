@@ -19,9 +19,9 @@ Experience Cloud은 다음 호스트를 사용하여 애플리케이션을 제�
 
 아래 나열된 도메인 외에도 개별 Adobe Experience Cloud 제품에는 다음과 같은 도메인을 사용하는 것이 있습니다.
 
-* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
-* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
+* [Adobe Analytics](https://experienceleague.adobe.com/ko/docs/analytics/technotes/domains)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/domains)
+* [Marketo Engage](https://experienceleague.adobe.com/ko/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | 기술 | 도메인 |
 | --- | --- |
