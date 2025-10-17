@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: af3665a14001fbca14afcf906aa35e6c06b6229f
+source-git-commit: 2cc76688e37afa0a0f68e3066fede18b8d3918e6
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 79%
 
 ---
 
-# Experience Cloud 서비스 {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# Experience Cloud 서비스
 
 이 설명서는 [!DNL People] 서비스([!DNL Audience Library] 및 [!DNL Customer Attributes]), Experience Cloud를 위한 사용자 및 제품 관리, 쿠키, 계정 환경 설정, 알림 등과 같은 Experience Cloud 통합 헤더의 기능에 적용됩니다.
 

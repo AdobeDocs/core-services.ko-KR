@@ -5,7 +5,7 @@ breadcrumb-title: Experience Cloud 인터페이스 및 관리
 title: Experience Cloud 인터페이스 및 관리
 description: Experience Cloud 인터페이스, 쿠키 및 계정 환경 설정에 대해 알아봅니다. 제품을 관리하고 고객 속성 및 대상자 라이브러리를 포함하는 People 서비스를 구성합니다. Experience Cloud Assets를 공유합니다.
 index: true
-source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
+source-git-commit: 2cc76688e37afa0a0f68e3066fede18b8d3918e6
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 100%
@@ -16,7 +16,6 @@ ht-degree: 100%
 # Experience Cloud 인터페이스 및 관리 {#interface}
 
 + [Experience Cloud 인터페이스 및 관리](experience-cloud.md)
-
 + 서비스 {#services}
    + [개요](services/overview.md)
    + [시작하기](services/getting-started.md)
@@ -44,7 +43,6 @@ ht-degree: 100%
       + [CCPA를 위한 지원](services/customer-attributes/ccpa.md)
       + [개인정보 보호 고려 사항](services/customer-attributes/privacy-mac.md)
    + [트리거](services/triggers.md)
-
 + 기능 {#features}
    + [계정 환경 설정 및 알림](features/account-preferences.md)
    + [생성형 AI](features/generative-ai.md)
@@ -52,13 +50,11 @@ ht-degree: 100%
    + [통합 검색](features/search.md)
    + [맞춤형 학습](features/personalized-learning.md)
    + [브라우저 및 언어 지원](browser-language.md)
-
 + 관리 {#administration}
    + [사용자 관리 및 제품 라이선스](administration/admin-console.md)
    + [사용자 세부 정보 보기 (관리 도구)](administration/admin-tool-experience-cloud.md)
    + [조직](administration/organizations.md)
    + [Experience Cloud 통합](administration/integrations.md)
-
 + 데이터 수집 {#data-collection}
    + [Adobe 관리 인증서 프로그램](data-collection/adobe-managed-cert.md)
    + [IP 주소](data-collection/ip-addresses.md)
@@ -73,10 +69,8 @@ ht-degree: 100%
       + [Web SDK 쿠키](data-collection/cookies/web-sdk.md)
    + [지역 데이터 수집](data-collection/rdc.md)
    + [DNS 프리페치 사용](data-collection/dns-prefetch.md)
-
 + 릴리스 정보 및 리소스 {#more-resources}
    + [릴리스 정보](more-resources/release-notes.md)
    + [설명서 업데이트](more-resources/doc-updates.md)
    + [자주 묻는 질문](more-resources/faq.md)
    + [용어](more-resources/terms.md)
-
