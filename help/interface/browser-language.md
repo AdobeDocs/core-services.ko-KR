@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
-source-git-commit: fb5ea051385932fbb2c762d4a887c089fcec706e
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '237'
 ht-degree: 56%
 
 ---
 
-# Experience Cloud의 브라우저 지원 {#browser}
+# Experience Cloud의 브라우저 지원
 
 최상의 성능을 위해 Experience Cloud는 최신 버전과 두 개의 이전 버전을 포함하여 가장 많이 사용되는 브라우저에 최적화되었습니다.
 
@@ -30,7 +30,7 @@ ht-degree: 56%
 >
 >Experience Cloud 도메인에서 실행 중인 모든 애플리케이션이 전체 브라우저를 지원하는 것은 아닙니다. 확실치 않다면 특정 애플리케이션의 설명서를 참조하십시오.
 
-## Experience Cloud의 언어 지원 {#languages}
+## Experience Cloud의 언어 지원
 
 Experience Cloud 사용자 인터페이스는 다음 언어로 제공됩니다.
 
@@ -55,12 +55,12 @@ Experience Cloud 사용자 인터페이스는 다음 언어로 제공됩니다.
 
 **기본 언어를 지정하려면**
 
-1. Experience Cloud에서 **[!UICONTROL 프로필]** > [환경 설정](https://experience.adobe.com/preferences)을 클릭합니다.
+1. Experience Cloud에서 **[!UICONTROL Profile]** > [환경 설정](https://experience.adobe.com/preferences)을 클릭합니다.
 
-1. **[!UICONTROL 프로필]**&#x200B;에서 언어 링크를 클릭합니다.
+1. **[!UICONTROL Profile]**&#x200B;에서 언어 링크를 클릭합니다.
 
-1. **[!UICONTROL 언어 선택]**&#x200B;의 **[!UICONTROL 첫 언어]** 메뉴에서 언어를 선택하십시오.
+1. **[!UICONTROL Select language]**&#x200B;의 **[!UICONTROL First language]** 메뉴에서 언어를 선택하십시오.
 
    모든 응용 프로그램 팀은 글로벌 언어 지원에 전념하지만 모든 응용 프로그램이 인터페이스에 나열된 모든 언어로 제공되지 않습니다. 기본 언어가 Experience Cloud 애플리케이션에서 지원되지 않는 경우 보조 기본 언어를 설정할 수 있습니다.
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.

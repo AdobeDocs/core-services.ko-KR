@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: bd718358c6db1ea4a6150d019773072418b629f9
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 50%
+source-wordcount: '1065'
+ht-degree: 45%
 
 ---
 
@@ -25,21 +25,21 @@ ht-degree: 50%
 
 ## [!DNL Customer Attributes] 찾기
 
-[!DNL Experience Cloud]에서 **[!UICONTROL 앱]** ![메뉴](assets/menu-icon.png) > **[!DNL Customer Attributes]**&#x200B;을(를) 클릭합니다.
+[!DNL Experience Cloud]에서 **[!UICONTROL Apps]** ![메뉴](assets/menu-icon.png) > **[!DNL Customer Attributes]**&#x200B;을(를) 클릭합니다.
 
-## [!DNL Customer Attributes]을(를) 사용하기 위한 필수 구성 요소 {#prerequisites}
+## [!DNL Customer Attributes]을(를) 사용하기 위한 필수 구성 요소
 
 * **그룹 구성원:** 데이터를 업로드하려면 사용자가 [!DNL Customer Attributes] 그룹의 구성원이어야 합니다. 또한 Adobe Analytics 그룹 또는 Adobe Target 그룹에 속해야 합니다.
 
-  고객 특성에 액세스할 수 있는지 확인하려면 [!DNL Experience Cloud] 관리자가 [Experience Cloud](https://experience.adobe.com)에 로그인해야 합니다. **[!UICONTROL Admin Console]** > **[!UICONTROL 제품]**(으)로 이동합니다. *[!DNL Customer Attributes]*&#x200B;가 [!UICONTROL 제품 프로필] 중 하나로 표시되면 작업을 시작할 수 있습니다.
+  고객 특성에 액세스할 수 있는지 확인하려면 [!DNL Experience Cloud] 관리자가 [Experience Cloud](https://experience.adobe.com)에 로그인해야 합니다. **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**(으)로 이동합니다. *[!DNL Customer Attributes]*&#x200B;이(가) [!UICONTROL product profiles] 중 하나로 표시되면 시작할 수 있습니다.
 
   [!DNL Customer Attributes]에 추가된 사용자의 경우 Experience Cloud 인터페이스 왼쪽에 [!DNL Customer Attributes] 메뉴 항목이 표시됩니다.
 
 * **Adobe Target** 고객 특성에 `at.js`(임의 버전) 또는 `mbox.js` 버전 58 이상이 필요합니다.
 
-  [at.js를 배포하는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ko)을 참조하십시오.
+  [at.js를 배포하는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)을 참조하십시오.
 
-## 데이터 파일 만들기 {#create-data}
+## 데이터 파일 만들기
 
 이 데이터는 CRM에서 가져온 엔터프라이즈 고객 데이터입니다. 이 데이터에는 멤버 ID, 권한 있는 제품, 최근에 실행한 제품 등을 비롯하여 제품에 대한 가입자 데이터가 포함될 수 있습니다.
 
@@ -56,29 +56,29 @@ ht-degree: 50%
 1. 계속하기 전에 파일을 업로드하려면 [데이터 파일 요구 사항](crs-data-file.md)의 중요 정보를 검토하십시오.
 1. 아래 설명된 대로 [고객 속성 소스를 만들고 데이터를 업로드](t-crs-usecase.md#create-source)합니다.
 
-## 속성 소스를 만들고 데이터 파일 업로드 {#create-source}
+## 속성 소스를 만들고 데이터 파일 업로드
 
-Experience Cloud의 [!UICONTROL 고객 특성 Source 만들기] 페이지에서 다음 단계를 수행합니다.
+Experience Cloud의 [!UICONTROL Create Customer Attribute Source] 페이지에서 다음 단계를 수행합니다.
 
 >[!IMPORTANT]
 >
 >고객 속성 소스를 만들거나, 수정하거나 삭제할 때, ID가 새 데이터 소스와의 동기화를 시작하기 전에 최대 한 시간이 지연됩니다. 고객 속성 소스를 만들거나 수정하려면 Audience Manager에 관리 권한이 있어야 합니다. 관리 권한을 얻으려면 Audience Manager 고객 지원 센터 또는 컨설팅에 문의하십시오.
 
-1. [!DNL Experience Cloud]에서 **[!UICONTROL 앱]** ![메뉴](assets/menu-icon.png) > **[!DNL Customer Attributes]**&#x200B;을(를) 클릭합니다.
+1. [!DNL Experience Cloud]에서 **[!UICONTROL Apps]** ![메뉴](assets/menu-icon.png) > **[!DNL Customer Attributes]**&#x200B;을(를) 클릭합니다.
 
    ![고객 특성 페이지](assets/cust-attr.png)
 
-1. **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
    ![단계 결과](assets/new-customer-attribute-source.png)
 
-1. [!UICONTROL 고객 특성 만들기 Source] 페이지에서 다음 필드를 구성합니다.
+1. [!UICONTROL Create Customer Attribute Source] 페이지에서 다음 필드를 구성합니다.
 
-   * **[!UICONTROL 이름:]** 데이터 속성 소스의 이름입니다. [!DNL Adobe Target]의 경우, 속성 이름에는 공백을 포함할 수 없습니다. 공백이 있는 속성이 전달되면 [!DNL Target]이 이를 무시합니다. 지원되지 않는 다른 문자는 `< , >, ', "`입니다.
+   * **[!UICONTROL Name:]** 데이터 특성 원본의 이름입니다. [!DNL Adobe Target]의 경우, 속성 이름에는 공백을 포함할 수 없습니다. 공백이 있는 속성이 전달되면 [!DNL Target]이 이를 무시합니다. 지원되지 않는 다른 문자는 `< , >, ', "`입니다.
 
-   * **[!UICONTROL Description:]** (선택 사항) 데이터 속성 소스에 대한 설명입니다.
+   * **[!UICONTROL Description:]**(선택 사항) 데이터 특성 소스에 대한 설명입니다.
 
-   * **[!UICONTROL Alias ID:]** 특정 CRM 시스템과 같은 고객 속성 데이터의 소스를 나타냅니다. [!UICONTROL 별칭 ID]은(는) [!UICONTROL 고객 특성 Source] 코드에 사용되는 고유 ID입니다. ID는 고유해야 하고 공백 없는 소문자로 이루어져야 합니다. Experience Cloud에서 고객 특성 소스에 대한 [!UICONTROL 별칭 ID] 필드에 입력한 값은 구현(Mobile SDK의 Platform Data Collection 또는 JavaScript을 통해)에서 전달되는 값과 일치해야 합니다.
+   * **[!UICONTROL Alias ID:]** 특정 CRM 시스템과 같은 고객 특성 데이터의 원본을 나타냅니다. [!UICONTROL Alias ID]은(는) [!UICONTROL customer attribute Source] 코드에서 사용되는 고유 ID입니다. ID는 고유해야 하고 공백 없는 소문자로 이루어져야 합니다. Experience Cloud에서 고객 특성 소스에 대한 [!UICONTROL Alias ID] 필드에 입력한 값은 구현(Mobile SDK의 Platform Data Collection 또는 JavaScript을 통해)에서 전달되는 값과 일치해야 합니다.
 
      >[!IMPORTANT]
      >
@@ -86,9 +86,9 @@ Experience Cloud의 [!UICONTROL 고객 특성 Source 만들기] 페이지에서 
 
      별칭 ID 는 추가 고객 ID 값을 설정하는 특정 영역에 해당합니다. 예:
 
-      * **태그:** 별칭 ID는 *Experience Cloud ID 서비스* 도구의 [!UICONTROL 고객 설정]에 있는 [통합 코드](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko) 값에 해당합니다.
+      * **태그:** 별칭 ID는 *Experience Cloud ID 서비스* 도구의 [!UICONTROL customer Settings]에 있는 [통합 코드](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) 값에 해당합니다.
 
-      * **방문자 API:** 별칭 ID는 각 방문자와 연결할 수 있는 추가 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)에 해당합니다.
+      * **방문자 API:** 별칭 ID는 각 방문자와 연결할 수 있는 추가 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)에 해당합니다.
 
         예를 들어 *&quot;crm_id&quot;*:
 
@@ -110,17 +110,17 @@ Experience Cloud의 [!UICONTROL 고객 특성 Source 만들기] 페이지에서 
 
         별칭 ID 필드 및 고객 ID와 관련된 데이터 처리에 대한 자세한 내용은 [여러 데이터 소스 활용](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)을 참조하십시오.
 
-   * **[!UICONTROL 네임스페이스 코드:]** AEP WebSDK 구현의 일부로 [IdentityMap](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/identity/overview)을(를) 사용할 때 이 값을 사용하여 고객 특성 소스를 식별하십시오.
+   * **[!UICONTROL Namespace Code:]** AEP WebSDK 구현의 일부로 [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)을(를) 사용할 때 이 값을 사용하여 고객 특성 소스를 식별하십시오.
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-## 파일 업로드 {#upload}
+## 파일 업로드
 
 고객 속성 레코드가 생성되며, 고객 속성을 편집하여 파일을 업로드할 수 있습니다.
 
 1. [!DNL Customer Attributes] 페이지에서 특성 원본을 클릭합니다.
 
-1. [!UICONTROL 고객 데이터 편집 Source] 페이지에서 **[!UICONTROL 파일 업로드]**&#x200B;를 클릭합니다.
+1. [!UICONTROL Edit Customer Data Source] 페이지에서 **[!UICONTROL File Upload]**&#x200B;을(를) 클릭합니다.
 
    ![파일 업로드 및 스키마 유효성 검사](assets/file-upload-schema-validation.png)
 
@@ -130,17 +130,17 @@ Experience Cloud의 [!UICONTROL 고객 특성 Source 만들기] 페이지에서 
 >
 >특정 데이터 파일 요구 사항이 있습니다. 자세한 내용은 [데이터 파일 요구 사항](crs-data-file.md) 을 참조하십시오.
 
-파일을 업로드한 후에는 이 페이지의 [!UICONTROL 파일 업로드] 제목 아래에 있는 테이블 데이터가 표시됩니다. 스키마의 유효성을 검사하거나, 구독을 구성하거나, FTP를 설정할 수 있습니다.
+파일을 업로드한 후에는 이 페이지의 [!UICONTROL File Upload] 제목 아래에 표 데이터가 표시됩니다. 스키마의 유효성을 검사하거나, 구독을 구성하거나, FTP를 설정할 수 있습니다.
 
 ![특성](assets/file_upload_attributes.png)
 
-* **[!UICONTROL Unique customer ID:]** 이 특성 소스에 업로드한 고유한 ID 수를 표시합니다.
+* **[!UICONTROL Unique customer ID:]**&#x200B;은(는) 이 특성 소스에 업로드한 고유 ID의 수를 표시합니다.
 
-* **[!UICONTROL 고객 제공 ID가 Experience Cloud 방문자 ID로 별칭 지정됨:]** 몇 개의 ID가 Experience Cloud ID에 별칭이 지정되었는지 표시합니다.
+* **[!UICONTROL customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]**&#x200B;은(는) 몇 개의 ID가 Experience Cloud 방문자 ID에 별칭이 지정되었는지 표시합니다.
 
-* **[!UICONTROL 별칭 개수가 많은 고객 제공 ID:]** 별칭 지정된 Experience Cloud 방문자 ID가 500개 이상인 고객 제공 ID 개수를 표시합니다. 이러한 고객 제공 ID는 개인을 나타내기보다는 일종의 공유 로그인을 나타낼 수 있습니다. 시스템은 이러한 ID와 연결된 속성을 최근에 별칭으로 지정된 500개의 Experience Cloud 방문자 ID에 배포하며 별칭 수가 10,000개가 될 때까지 이 작업을 계속합니다. 그러면 시스템은 고객 제공 ID를 무효화하고, 연결된 속성을 더 이상 배포하지 않습니다. —>
+* **[!UICONTROL customer-Provided IDs with High Alias Counts:]**&#x200B;은(는) 500개 이상의 별칭 지정된 Experience Cloud 방문자 ID가 있는 고객 제공 ID 수를 표시합니다. 이러한 고객 제공 ID는 개인을 나타내기보다는 일종의 공유 로그인을 나타낼 수 있습니다. 시스템은 이러한 ID와 연결된 속성을 최근에 별칭으로 지정된 500개의 Experience Cloud 방문자 ID에 배포하며 별칭 수가 10,000개가 될 때까지 이 작업을 계속합니다. 그러면 시스템은 고객 제공 ID를 무효화하고, 연결된 속성을 더 이상 배포하지 않습니다. —>
 
-## 스키마 유효성 검사 {#validate-schema}
+## 스키마 유효성 검사
 
 유효성 검사 프로세스를 사용하여 표시 이름 및 설명을 업로드된 속성(문자열, 정수, 숫자 등)에 매핑할 수 있습니다. 스키마를 업데이트하여 속성을 삭제할 수도 있습니다.
 
@@ -148,21 +148,21 @@ Experience Cloud의 [!UICONTROL 고객 특성 Source 만들기] 페이지에서 
 
 속성을 삭제하려면 [(선택 사항) 스키마를 업데이트(속성 삭제)](t-crs-usecase.md)를 참조하십시오.
 
-## (선택 사항) 스키마 업데이트(속성 삭제) {#task_6568898BB7C44A42ABFB86532B89063C}
+## (선택 사항) 스키마 업데이트(속성 삭제)
 
 스키마에서 속성을 삭제 및 교체하는 방법.
 
-1. [!UICONTROL 고객 속성 소스 편집] 페이지에서 **[!UICONTROL Target]** 또는 **[!UICONTROL Analytics]** 구독( **[!UICONTROL 구독 구성]**&#x200B;아래)을 제거합니다.
+1. [!UICONTROL Edit Customer Attribute Source] 페이지에서 **[!UICONTROL Target]** 또는 **[!UICONTROL Analytics]** 구독(**[!UICONTROL Configure Subscriptions]** 아래)을 제거하십시오.
 
 1. [업데이트된 필드가 있는 새 데이터 파일을 업로드합니다](t-crs-usecase.md).
 
-## 구독 구성 및 속성 소스 활성화 {#task_1ACA21198F0E46A897A320C244DFF6EA}
+## 구독 구성 및 속성 소스 활성화
 
 구독을 구성하면 Experience Cloud과 애플리케이션 간에 데이터 흐름이 설정됩니다. 속성 소스를 활성화하면 데이터가 가입 중인 애플리케이션으로 유입될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 대조됩니다.
 
 [구독 구성 및 데이터 소스 활성화](subscription.md)를 참조하십시오.
 
-## Adobe Analytics에서 [!DNL Customer Attributes] 데이터 사용 {#task_7EB0680540CE4B65911B2C779210915D}
+## Adobe Analytics에서 [!DNL Customer Attributes] 데이터 사용
 
 이제 Adobe Analytics과 같은 애플리케이션에서 데이터를 사용할 수 있으므로 데이터에 대해 보고하고 분석하여 마케팅 캠페인에서 적절한 조치를 취할 수 있습니다.
 
@@ -172,10 +172,10 @@ Experience Cloud의 [!UICONTROL 고객 특성 Source 만들기] 페이지에서 
 
 Experience Cloud에 게시한 세그먼트는 Experience Cloud 대상 및 Audience Manager에서 사용할 수 있습니다.
 
-## Adobe Target에서 [!DNL Customer Attributes] 데이터 사용 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## Adobe Target에서 [!DNL Customer Attributes] 데이터 사용
 
-[!DNL Target]에서는 대상자를 만들 때 [!UICONTROL 방문자 프로필] 섹션에서 고객 속성을 선택할 수 있습니다. 모든 고객 특성은 목록에 접두사 `crs.`이(가) 있습니다. 필요에 따라 이러한 속성을 다른 데이터 속성과 결합하여 대상자를 구성합니다.
+대상을 만들 때 [!DNL Target]에서 [!UICONTROL Visitor Profile] 섹션에서 고객 특성을 선택할 수 있습니다. 모든 고객 특성은 목록에 접두사 `crs.`이(가) 있습니다. 필요에 따라 이러한 속성을 다른 데이터 속성과 결합하여 대상자를 구성합니다.
 
 ![Adobe Target에서 고객 속성 사용](assets/crs-add-attribute-target.png)
 
-[&#x200B; 도움말에서 &#x200B;](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=ko)대상자 만들기[!DNL Target]를 참조하십시오.
+[ 도움말에서 ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)대상자 만들기[!DNL Target]를 참조하십시오.

@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 91%
+source-wordcount: '644'
+ht-degree: 84%
 
 ---
 
-# 오브젝트 및 엔티티에 대한 [!UICONTROL 통합 검색] {#globally-search}
+# 개체 및 엔터티의 [!UICONTROL Unified Search]
 
-[!UICONTROL 통합 검색]을 사용하면 원활하고 일관성 있는 원클릭 환경에서 검색 가능한 비즈니스 오브젝트 또는 엔티티를 찾을 수 있습니다. 이 검색은 최근에 액세스한 개체도 표시합니다.
+[!UICONTROL Unified Search] 검색을 사용하면 원활하고 일관성 있는 원클릭 환경에서 검색 가능한 비즈니스 개체 또는 엔터티를 찾을 수 있습니다. 이 검색은 최근에 액세스한 개체도 표시합니다.
 
 ![오브젝트 및 엔티티를 전역으로 검색](../assets/platform-search.png)
 
@@ -61,7 +61,7 @@ ht-degree: 91%
 
 또한 Experience League 및 커뮤니티에서 도움말 문서를 찾을 수 있습니다. 자연어 쿼리가 지원됩니다.
 
-예를 들어 _스키마를 만드는 방법_&#x200B;은 _[!UICONTROL 학습]_ 아래의 Experience League에서 결과를 생성합니다.
+예를 들어 _스키마를 만드는 방법_&#x200B;은(는) _[!UICONTROL Learning]_아래의 Experience League에서 결과를 생성합니다.
 
 ![Experience Cloud 도움말의 통합 검색](../assets/unified-search-learning.png)
 
@@ -70,12 +70,12 @@ ht-degree: 91%
 * 오브젝트에 액세스할 수 있는 사용자 권한
 * 일치율
 * 정확한 일치
-* _[!UICONTROL 상위 결과]_ 섹션에는 상위 30개 결과가 표시됩니다.
+* _[!UICONTROL Top Results]_섹션에는 상위 30개 결과가 표시됩니다.
 
 검색을 구체화하려면 다음 중 하나를 클릭하십시오.
 
-* **[!UICONTROL 모든 학습]**: Experience League에서 검색을 엽니다.
-* **[!UICONTROL 모두 표시...]**: 결과를 세분화하고 필터링할 수 있습니다.
+* **[!UICONTROL All Learning]**: Experience League에서 검색을 엽니다.
+* **[!UICONTROL Show all...]**: 결과를 세분화하고 필터링할 수 있습니다.
 
 ## 통합 검색 기능
 

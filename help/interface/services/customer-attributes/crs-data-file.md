@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 64%
@@ -22,7 +22,7 @@ ht-degree: 64%
 
 [!DNL Customer Attributes]은(는) 하루에 몇 개의 파일을 처리하도록 디자인되었습니다. 작은 파일이 너무 많아 처리 지연이 발생하는 문제를 완화하기 위해, 동일한 조직에서 이전 배치 실행 후 30분 이내에 전송된 파일은 낮은 우선순위 큐로 전달됩니다.
 
-## 허용되는 파일 형식 및 이름 지정 요구 사항 {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
+## 허용되는 파일 형식 및 이름 지정 요구 사항
 
 | 파일 유형 | 설명 |
 |--- |--- |
@@ -31,7 +31,7 @@ ht-degree: 64%
 | `.gz` 또는 `.zip` | `.gz`(gzip) 또는 `.zip` - 압축된 파일용. `.zip` 파일은 보관 위치에 둘 이상의 파일을 포함할 수 없습니다. 이름 지정 요구 사항: `.zip` 또는 `.gz`의 이름은 `.csv` 파일의 이름과 일치해야 합니다. 예를 들어 `.csv` 파일이 `crm_small.csv`이면 `.zip` 파일은 `crm_small.csv.zip` 이어야 합니다. `.fin` 파일은 `.csv`과(와) 일치해야 합니다. |
 
 
-## 속성 데이터 파일에 대한 요구 사항 {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
+## 속성 데이터 파일에 대한 요구 사항
 
 **CSV 예**
 
@@ -59,7 +59,7 @@ CSV 파일은 다음 형식을 따라야 합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>고객 ID 열 </p> </td> 
-   <td colname="col2"> <p> 첫 번째 열은 고유한 고객 ID여야 합니다. 사용된 ID는 Experience Cloud ID 서비스에 전달되는 ID에 해당해야 합니다. </p> <p>Analytics의 경우 prop 또는 eVar에 저장되는 ID입니다. </p> <p>Target의 경우 setcustomerID 값입니다. </p> <p> 이 고객 ID는 CRM가 데이터베이스의 각 사용자에 대해 사용하는 고유한 식별자입니다. 나머지 열은 CRM에서 가져오는 속성입니다. 업로드할 속성의 수를 선택합니다. </p> <p>열 제목에는 읽을 수 있는 친근한 이름이 권장되지만 필수는 아닙니다. 업로드 후에 스키마의 유효성을 검사할 때 업로드한 행 및 열에 친근한 이름을 매핑할 수 있습니다. </p> <p> <b>고객 ID 정보</b> </p> <p>일반적으로 기업에서는 CRM 시스템의 고객 ID를 사용합니다. 이 ID는 사용자가 로그인할 때 <span class="codeph"> setcustomerID </span> 호출을 사용하여 설정됩니다. 이 ID는 Experience Cloud에 업로드된 CRM 파일의 키로도 사용됩니다. <a href="t-crs-usecase.md" format="dita" scope="local">별칭 ID</a>는 Audience Manager에서 별칭 데이터가 저장되는 데이터 저장소용의 친근한 이름입니다. 시스템에서는 별칭을 이 데이터 저장소(setcustomerID를 통해)로 보냅니다. CRM 파일은 이 데이터 저장소의 데이터에 적용됩니다. </p> <p><span class="codeph"> setcustomerID </span> 정보에 대해서는 <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko" format="https" scope="external"> 고객 ID 및 인증 상태 </a>을(를) 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 첫 번째 열은 고유한 고객 ID여야 합니다. 사용된 ID는 Experience Cloud ID 서비스에 전달되는 ID에 해당해야 합니다. </p> <p>Analytics의 경우 prop 또는 eVar에 저장되는 ID입니다. </p> <p>Target의 경우 setcustomerID 값입니다. </p> <p> 이 고객 ID는 CRM가 데이터베이스의 각 사용자에 대해 사용하는 고유한 식별자입니다. 나머지 열은 CRM에서 가져오는 속성입니다. 업로드할 속성의 수를 선택합니다. </p> <p>열 제목에는 읽을 수 있는 친근한 이름이 권장되지만 필수는 아닙니다. 업로드 후에 스키마의 유효성을 검사할 때 업로드한 행 및 열에 친근한 이름을 매핑할 수 있습니다. </p> <p> <b>고객 ID 정보</b> </p> <p>일반적으로 기업에서는 CRM 시스템의 고객 ID를 사용합니다. 이 ID는 사용자가 로그인할 때 <span class="codeph"> setcustomerID </span> 호출을 사용하여 설정됩니다. 이 ID는 Experience Cloud에 업로드된 CRM 파일의 키로도 사용됩니다. <a href="t-crs-usecase.md" format="dita" scope="local">별칭 ID</a>는 Audience Manager에서 별칭 데이터가 저장되는 데이터 저장소용의 친근한 이름입니다. 시스템에서는 별칭을 이 데이터 저장소(setcustomerID를 통해)로 보냅니다. CRM 파일은 이 데이터 저장소의 데이터에 적용됩니다. </p> <p><span class="codeph"> setcustomerID </span> 정보에 대해서는 <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> 고객 ID 및 인증 상태 </a>을(를) 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>후속 머리글 및 열 </p> </td> 
@@ -120,7 +120,7 @@ CSV 파일은 다음 형식을 따라야 합니다.
  </tbody> 
 </table>
 
-## 여러 데이터 소스 사용 {#multiple}
+## 여러 데이터 소스 사용
 
 고객 특성 소스를 만들거나, 수정하거나 삭제할 때, ID가 새 데이터 소스와의 동기화를 시작하기 전에 약 한 시간의 지연이 있습니다.
 
@@ -137,7 +137,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-자세한 내용은 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)를 참조하십시오.
+자세한 내용은 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)를 참조하십시오.
 
 **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]**&#x200B;에서:
 

@@ -9,14 +9,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 98%
 
 ---
 
-# Audience Manager 쿠키{#audience-manager-cookies}
+# Audience Manager 쿠키
 
 Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능을 수행합니다. 이러한 기능에는 ID 할당, 데이터 호출 기록, 오류 추적 및 쿠키 설정 여부 테스트 등이 포함됩니다. 이 섹션에서는 Audience Manager에서 설정한 다양한 쿠키를 나열하고 설명합니다.
 
@@ -36,7 +36,7 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>콘텐츠</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">demdex</span> 쿠키에는 아래 예와 같이 고유 사용자 ID(UUID)가 포함되어 있습니다. </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=ko" format="https" scope="external">Audience Manager의 ID 색인</a>을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">demdex</span> 쿠키에는 아래 예와 같이 고유 사용자 ID(UUID)가 포함되어 있습니다. </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Audience Manager의 ID 색인</a>을 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>기타 특성</b> </p> </td> 
@@ -129,7 +129,7 @@ dextp 쿠키 데이터 구문:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>용도</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span>가 데이터를 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=ko" format="https" scope="external">대상</a>에 전송하는 중 오류가 발생하면 이 쿠키를 설정합니다 . </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span>가 데이터를 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">대상</a>에 전송하는 중 오류가 발생하면 이 쿠키를 설정합니다 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>콘텐츠</b> </p> </td> 

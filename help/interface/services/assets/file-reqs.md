@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 61bc8f52-a77e-4e85-939b-6f29963334a1
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 95%
@@ -19,11 +19,11 @@ ht-degree: 95%
 
 Experience Cloud와 Creative Cloud 간에 에셋을 공유하기 위해 허용되는 파일 형식 및 크기 제한입니다.
 
-## 업로드할 수 있는 파일 형식 {#section_52B6A40BB00B45BC944C01C49B4BB590}
+## 업로드할 수 있는 파일 형식
 
 업로드할 수 있는 파일 형식에는 대부분의 이미지, 문서 및 멀티미디어가 포함됩니다. [!DNL Experience Cloud] 에셋 파일 형식에 대한 자세한 내용은 [지원되는 형식](https://helpx.adobe.com/kr/experience-manager/brand-portal/using/brand-portal-supported-formats.html)을 참조하십시오.
 
-## 파일 크기 제한 {#section_410ED8E24DBD4136830AE679C6B10D88}
+## 파일 크기 제한
 
 파일 크기 제한은 브라우저를 기반으로 하며 브라우저마다 다를 수 있습니다.
 
