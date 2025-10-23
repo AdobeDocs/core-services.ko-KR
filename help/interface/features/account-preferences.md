@@ -86,7 +86,7 @@ Adobe은 이 정보를 사용하여 당사의 제품을 개선하고, 제품 내
 
 ### [!DNL Slack]에서 권한 요청(문제 해결)
 
-[!DNL Slack]이(가) 설치되지 않은 경우 _[!UICONTROL Request to install]_을(를) 클릭한 후 Slack이 열리면&#x200B;**[!UICONTROL Add to Slack]**메시지가 표시됩니다. 예:
+[!DNL Slack]이(가) 설치되지 않은 경우 _[!UICONTROL Request to install]_&#x200B;을(를) 클릭한 후 Slack이 열리면&#x200B;**[!UICONTROL Add to Slack]**&#x200B;메시지가 표시됩니다. 예:
 
 ![Slack 통합 요청](../assets/slack-workspace.png)
 
