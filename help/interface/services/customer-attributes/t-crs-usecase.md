@@ -178,5 +178,5 @@ Experience Cloud에 게시한 세그먼트는 Experience Cloud 대상 및 Audien
 
 ![Adobe Target에서 고객 속성 사용](assets/crs-add-attribute-target.png)
 
-[ 도움말에서 ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)대상자 만들기[!DNL Target]를 참조하십시오.
+[&#x200B; 도움말에서 &#x200B;](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)대상자 만들기[!DNL Target]를 참조하십시오.
 
