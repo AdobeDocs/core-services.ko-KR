@@ -7,7 +7,7 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 81%
@@ -18,7 +18,7 @@ ht-degree: 81%
 
 **[!UICONTROL Apps]** ![메뉴](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-Experience Cloud의 [!DNL Customer Attributes]를 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. Experience Cloud의 [&#x200B; 데이터 원본에 데이터를 &#x200B;](t-crs-usecase.md)업로드[!DNL Customer Attributes]한 다음 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 사용할 수 있습니다.
+Experience Cloud의 [!DNL Customer Attributes]를 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. Experience Cloud의 [ 데이터 원본에 데이터를 ](t-crs-usecase.md)업로드[!DNL Customer Attributes]한 다음 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 사용할 수 있습니다.
 
 ![고객 특성 개요](assets/custom_reports.png)
 
@@ -46,3 +46,4 @@ Experience Cloud의 [!DNL Customer Attributes]를 사용하면 고객 관계 관
 | Adobe Target | 속성 데이터를 사용하면 Adobe Target 사용자는 다음과 같은 작업을 수행할 수 있습니다.<ul><li>충성도 클럽 멤버에게 특별한 할인 및 특별 제공 서비스를 보여 줍니다.</li><li>고급 상품을 선호하는 고객에게 고가의 제품을 권장합니다.</li><li>이미 이메일을 받는 고객의 경우 이메일 등록용으로 예약된 공간에 상향 판매 제공 서비스를 보여 줍니다.</li></ul> |
 
 {style="table-layout:auto"}
+

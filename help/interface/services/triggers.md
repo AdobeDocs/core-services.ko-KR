@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 78%
@@ -29,7 +29,7 @@ Experience Cloud의 [!UICONTROL Triggers]을(를) 사용하면 주요 소비자 
 
 >[!NOTE]
 >
->[!UICONTROL Triggers] 사용에 대한 자세한 내용은 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=ko)에서 확인할 수 있습니다.
+>[!UICONTROL Triggers] 사용에 대한 자세한 내용은 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)에서 확인할 수 있습니다.
 
 ## 트리거 유형
 
@@ -48,12 +48,12 @@ Experience Cloud의 [!UICONTROL Triggers]을(를) 사용하면 주요 소비자 
 >현재 트리거는 100개로 기술적 제한이 있습니다.
 
 1. Experience Cloud에서 ![메뉴](../assets/menu-icon.png)를 클릭한 다음 **[!UICONTROL Data Collection/Launch]**&#x200B;을(를) 클릭합니다.
-2. [!UICONTROL Triggers] 카드에서 **[!UICONTROL Manage Triggers]**&#x200B;을(를) 클릭합니다.
-3. **[!UICONTROL New Trigger]**&#x200B;을(를) 클릭한 다음 트리거 유형을 지정합니다.
+1. [!UICONTROL Triggers] 카드에서 **[!UICONTROL Manage Triggers]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL New Trigger]**&#x200B;을(를) 클릭한 다음 트리거 유형을 지정합니다.
 
    ![단계 결과](../assets/add-trigger.png)
 
-4. 다음 필드를 작성하고 지표 및 차원 항목을 규칙 컨테이너로 드래그하여 트리거를 구성합니다.
+1. 다음 필드를 작성하고 지표 및 차원 항목을 규칙 컨테이너로 드래그하여 트리거를 구성합니다.
 
    | 요소 | 설명 |
    |--- |--- |
@@ -66,8 +66,8 @@ Experience Cloud의 [!UICONTROL Triggers]을(를) 사용하면 주요 소비자 
 
    {style="table-layout:auto"}
 
-5. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-6. [!DNL Adobe Campaign]에서 [실시간 재마케팅](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=ko)에 트리거를 사용합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. [!DNL Adobe Campaign]에서 [실시간 재마케팅](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)에 트리거를 사용합니다.
 
 ## 예제 트리거
 

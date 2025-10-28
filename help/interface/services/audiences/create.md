@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: c98084e3960e40ae28e55050ce0727abce94ba0c
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 65%
+source-wordcount: '507'
+ht-degree: 62%
 
 ---
 
 # 대상자 만들기
 
-[!UICONTROL 대상 라이브러리]에서 특성 규칙을 사용하여 대상을 만들고 Experience Cloud 애플리케이션에서 공유할 복합 대상을 정의할 수 있습니다.
+[!UICONTROL Audience Library]에서 특성 규칙을 사용하여 대상을 만들고 Experience Cloud 애플리케이션에서 공유할 복합 대상을 정의할 수 있습니다.
 
 이 문서는 다음 방법을 이해하는 데 도움이 됩니다.
 
@@ -44,24 +44,24 @@ ht-degree: 65%
 
 **대상자를 만들려면**
 
-1. [!DNL Experience Cloud]개의 앱(![앱 아이콘](assets/apps-icon.png))을 클릭한 다음 **[!UICONTROL 사용자]** > **[!UICONTROL 대상 라이브러리].**&#x200B;를 클릭합니다.
+1. [!DNL Experience Cloud]개의 앱(![앱 아이콘](assets/apps-icon.png))을 클릭한 다음 **[!UICONTROL People]** > **[!UICONTROL Audience Library].**&#x200B;을 클릭합니다
 
-1. [!UICONTROL 대상] 페이지에서 **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다. ![새 대상](assets/add_icon_small.png)
+1. [!UICONTROL Audiences] 페이지에서 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다. ![새 대상](assets/add_icon_small.png)
 
    ![대상자 만들기](assets/audience_create_new.png)
 
-1. [!UICONTROL 새 대상 만들기] 페이지에서 **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]** 필드를 완료합니다.
-1. [!UICONTROL 규칙]에서 참조 보고서 세트를 선택한 다음 특성 소스를 선택합니다.
+1. [!UICONTROL Create New Audience] 페이지에서 **[!UICONTROL Title]** 및 **[!UICONTROL Description]** 필드를 작성합니다.
+1. [!UICONTROL Rules]에서 참조 보고서 세트를 선택한 다음 특성 소스를 선택합니다.
 
-   * **[!UICONTROL Real-Time Analytics 데이터:]**(또는 원시 데이터) Real-Time Analytics 이미지 요청에서 파생된 특성 데이터입니다. 여기에는 eVar 및 이벤트가 포함됩니다. 이 속성 소스를 사용할 때 보고서 세트를 선택하고 포함할 차원 또는 이벤트를 정의해야 합니다. 이 보고서 세트 선택 옵션은 보고서 세트에 사용되는 변수 구조를 제공합니다.
+   * **[!UICONTROL Real-Time Analytics Data:]**(또는 원시 데이터) Real-Time Analytics 이미지 요청에서 파생된 특성 데이터입니다. 여기에는 eVar 및 이벤트가 포함됩니다. 이 속성 소스를 사용할 때 보고서 세트를 선택하고 포함할 차원 또는 이벤트를 정의해야 합니다. 이 보고서 세트 선택 옵션은 보고서 세트에 사용되는 변수 구조를 제공합니다.
 
    >[!NOTE]
    >
    >캐싱으로 인해, Analytics에서 삭제된 보고서 세트는 삭제가 Experience Cloud에 표시되는 데 12시간이 필요합니다.
 
-   * **[!UICONTROL 원본에서 파생된]** Experience Cloud:[!DNL Experience Cloud] 특성 데이터입니다. 예를 들어 [!DNL Analytics]에서 만든 대상자 세그먼트의 데이터이거나 [!DNL Audience Manager]의 데이터일 수 있습니다.
+   * **[!UICONTROL Experience Cloud:]** 원본에서 파생된 [!DNL Experience Cloud] 특성 데이터입니다. 예를 들어 [!DNL Analytics]에서 만든 대상자 세그먼트의 데이터이거나 [!DNL Audience Manager]의 데이터일 수 있습니다.
 
-1. 대상자 규칙을 정의한 다음 **[!UICONTROL 저장]을 클릭합니다.**
+1. 대상 규칙을 정의한 다음 **[!UICONTROL Save].**&#x200B;을(를) 클릭합니다.
 
 **예: 복합 대상에 대한 규칙 정의**
 
@@ -69,18 +69,18 @@ ht-degree: 65%
 >
 >이러한 규칙을 작성할 때 구현 변수를 이해해야 합니다.
 
-[!UICONTROL 규칙]에서 *`Home & Garden`* 속성 선택 사항을 정의합니다.
+[!UICONTROL Rules]에서 *`Home & Garden`* 특성 선택 사항을 정의합니다.
 
-* **[!UICONTROL 속성 소스:]** Raw Analytics 데이터
-* **[!UICONTROL 보고서 세트:]** 보고서 세트 31
-* 차원 = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home &amp; Garden]**
+* **[!UICONTROL Attribute Source:]** 원시 Analytics 데이터
+* **[!UICONTROL Report Suite:]** 보고서 세트 31
+* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home & Garden]**
 
 ![대상자 라이브러리의 속성 선택 사항](assets/home_garden.png)
 
 *Chrome 및 Safari 방문자*&#x200B;는 Analytics에서 공유되는 대상자 세그먼트입니다.
 
-* **[!UICONTROL 속성 소스:]** Experience Cloud
-* **[!UICONTROL 차원:]** Chrome/Safari 방문자
+* **[!UICONTROL Attribute Source:]** Experience Cloud
+* **[!UICONTROL Dimension:]**&#x200B;명의 Chrome 및 Safari 방문자
 
 ![Chrome/Safari 방문자](assets/chrome_safari.png)
 
@@ -97,4 +97,5 @@ ht-degree: 65%
 
 지정된 기간 동안 데이터 수집이 완료되면 원이 합쳐지면서 정의된 대상자를 표시합니다.
 
-대상이 저장되면 다른 Experience Cloud 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/ko/docs/target/using/activities/activities)에 포함할 수 있습니다.
+대상이 저장되면 다른 Experience Cloud 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)에 포함할 수 있습니다.
+

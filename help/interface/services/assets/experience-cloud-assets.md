@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 86%
@@ -90,3 +90,4 @@ Experience Cloud Assets는 애플리케이션 간에 공유할 수 있는 마케
 **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]** 클릭
 
 ![사용량 보고서 실행](../../assets/assets-usage-report.png)
+
