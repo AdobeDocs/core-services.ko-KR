@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: d1d4fe5c9fafb03e407ab220d9b39be4ffc71ea4
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '188'
 ht-degree: 67%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 67%
 
 이 설명서는 [!DNL People] 서비스([!DNL Audience Library] 및 [!DNL Customer Attributes]), Experience Cloud를 위한 사용자 및 제품 관리, 쿠키, 계정 환경 설정, 알림 등과 같은 Experience Cloud 통합 헤더의 기능에 적용됩니다.
 
-Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL Application Selector]**&#x200B;을(를) 선택하십시오.
+Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL Application Selector]**을(를) 선택하십시오.
 ![서비스 선택기](../assets/apps-icon.png).
 
 ![Experience Cloud 서비스](../assets/platform-core-services.png)
@@ -27,10 +27,10 @@ Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL A
 
 | 핵심 서비스 | 설명 |
 |--- |--- |
-| [중앙 인터페이스 구성 요소](../experience-cloud.md) | 계정 환경 설정에 액세스하고, 제품 도움말을 검색하고, 애플리케이션과 서비스에 액세스합니다. |
-| [대상자 라이브러리](audiences/overview.md) | 대상자는 방문자의 컬렉션입니다(방문자 ID 목록). Adobe [!DNL Audience Library]을(를) 통해 방문자 데이터를 대상자 세분화로 변환하는 작업을 관리할 수 있습니다. |
-| [고객 속성](customer-attributes/attributes.md) | 이벤트 또는 데이터 소스에 저장된 컨텍스트 데이터를 사용하여 실시간 오케스트레이션 사용 사례 구축. [!UICONTROL Journey Orchestration]은 Experience Platform과 통합된 애플리케이션 서비스입니다. |
-| [자산](assets/experience-cloud-assets.md) | Experience Cloud Assets는 애플리케이션 간에 공유할 수 있는 마케팅 준비가 끝난 자산에 대해 중앙 집중식 단일 저장소를 제공합니다. |
+| [중앙 인터페이스 구성 요소](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud) | 계정 환경 설정에 액세스하고, 제품 도움말을 검색하고, 애플리케이션과 서비스에 액세스합니다. |
+| [대상자 라이브러리](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/overview) | 대상자는 방문자의 컬렉션입니다(방문자 ID 목록). Adobe [!DNL Audience Library]을(를) 통해 방문자 데이터를 대상자 세분화로 변환하는 작업을 관리할 수 있습니다. |
+| [고객 속성](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) | 이벤트 또는 데이터 소스에 저장된 컨텍스트 데이터를 사용하여 실시간 오케스트레이션 사용 사례 구축. [!UICONTROL Journey Orchestration]은 Experience Platform과 통합된 애플리케이션 서비스입니다. |
+| [자산](https://experienceleague.adobe.com/en/docs/core-services/interface/services/assets/experience-cloud-assets) | Experience Cloud Assets는 애플리케이션 간에 공유할 수 있는 마케팅 준비가 끝난 자산에 대해 중앙 집중식 단일 저장소를 제공합니다. |
 
 {style="table-layout:auto"}
 
