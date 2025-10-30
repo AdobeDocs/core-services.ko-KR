@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 85a5c5c33a8eb5f34f174cf5aa1da56e8e2e5065
+source-git-commit: c2a40564821b56c9a899186797d84960698f83dc
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 69%
+source-wordcount: '636'
+ht-degree: 67%
 
 ---
 
 # Experience Cloud 설명서 업데이트
 
 Experience Cloud의 중앙 인터페이스 및 관리를 위해 설명서 업데이트가 발생하는 위치를 알아봅니다.
+
+**2025년 10월**
+
+관리자가 IP 주소로 Adobe 제품에 대한 액세스를 제한하는 경우 오류 메시지에 대한 메모와 함께 [조직 확인](../experience-cloud.md)을 업데이트했습니다.
 
 **2025년 8월**
 
