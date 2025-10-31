@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 609eaf1819189cb4eac76b2b58703b246dfb843b
+source-git-commit: 4c37fc3ec156abfd26ac33066795cf043a9eda2d
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 67%
@@ -19,7 +19,7 @@ ht-degree: 67%
 
 이 설명서는 [!DNL People] 서비스([!DNL Audience Library] 및 [!DNL Customer Attributes]), Experience Cloud를 위한 사용자 및 제품 관리, 쿠키, 계정 환경 설정, 알림 등과 같은 Experience Cloud 통합 헤더의 기능에 적용됩니다.
 
-Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL Application Selector]**&#x200B;을(를) 선택하십시오.
+Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL Application Selector]**을(를) 선택하십시오.
 ![서비스 선택기](../assets/apps-icon.png).
 
 ![Experience Cloud 서비스](../assets/platform-core-services.png)
@@ -38,3 +38,4 @@ Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL A
 >[!NOTE]
 >
 >[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko)에 대한 제품 설명서를 사용할 수 있습니다. [!UICONTROL Experience Platform] 개발자를 위한 기술 설명서는 [Adobe Developer](https://developer.adobe.com/apis)에 있습니다.
+
