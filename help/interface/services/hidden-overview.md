@@ -8,18 +8,20 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 4c37fc3ec156abfd26ac33066795cf043a9eda2d
+source-git-commit: fcd75504a043289c44d13d3f356af3741ac0e6a6
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '185'
 ht-degree: 67%
 
 ---
 
 # Experience Cloud 서비스 {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
+예
+
 이 설명서는 [!DNL People] 서비스([!DNL Audience Library] 및 [!DNL Customer Attributes]), Experience Cloud를 위한 사용자 및 제품 관리, 쿠키, 계정 환경 설정, 알림 등과 같은 Experience Cloud 통합 헤더의 기능에 적용됩니다.
 
-Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL Application Selector]**&#x200B;을(를) 선택하십시오.
+Experience Cloud에서 이러한 서비스에 액세스하려면 **[!UICONTROL Application Selector]**을(를) 선택하십시오.
 ![서비스 선택기](../assets/apps-icon.png).
 
 ![Experience Cloud 서비스](../assets/platform-core-services.png)
