@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: c2a40564821b56c9a899186797d84960698f83dc
+source-git-commit: 4530ff3b00c7323a41ec13d57adead95f0418aaa
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 67%
+source-wordcount: '645'
+ht-degree: 66%
 
 ---
 
 # Experience Cloud 설명서 업데이트
 
 Experience Cloud의 중앙 인터페이스 및 관리를 위해 설명서 업데이트가 발생하는 위치를 알아봅니다.
+
+**2025년 11월**
+
+Experience Cloud의 [Agentic AI에 대한 업데이트](../features/agentic-ai.md)
 
 **2025년 10월**
 
