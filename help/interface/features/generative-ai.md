@@ -136,7 +136,7 @@ AI Assistant는 다음 위치에서 AEM as a Cloud Service을 지원합니다.
 
 #### Experience Manager Sites
 
-AEM Sites에서는 _[!UICONTROL Generate Variations]_을(를) 사용할 수 있습니다. 이 기능은 생성 인공 지능을 사용하여 입력 프롬프트에 따라 콘텐츠 변형을 만듭니다. 프롬프트는 Adobe에서 제공하거나 사용자가 생성 및 관리합니다.
+AEM Sites에서는 _[!UICONTROL Generate Variations]_&#x200B;을(를) 사용할 수 있습니다. 이 기능은 생성 인공 지능을 사용하여 입력 프롬프트에 따라 콘텐츠 변형을 만듭니다. 프롬프트는 Adobe에서 제공하거나 사용자가 생성 및 관리합니다.
 
 변형을 만든 후에는 웹 사이트의 콘텐츠를 사용하고 Edge Delivery Services의 [실험](https://www.aem.live/docs/experimentation) 기능을 사용하여 성공을 측정할 수 있습니다. Firefly의 생성 AI 기능을 사용하여 Adobe Express에서 이미지를 생성하는 옵션도 있습니다.
 
