@@ -2,12 +2,14 @@
 title: Experience Cloud 애플리케이션의 Agentic AI
 description: Experience Cloud 애플리케이션에서 Agentic AI를 사용할 수 있는 위치를 알아봅니다.
 solution: Experience Cloud
+landing-page-name: ai
+landing-page-breadcrumb-title: AI Documentation
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: 7a65070a302478f93464206e376f41140c338450
+source-git-commit: e64c8418adf022e4bf5fa7509eea86a55bb715cf
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 8%
@@ -30,9 +32,9 @@ Adobe [!DNL Experience Platform] [Agent Orchestrator](https://experienceleague.a
 | 에이전트 이름 | 가용성 | 기능 | 지원되는 애플리케이션 |
 |---|----------|----------|----------|
 | [Audience Agent](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | 사용 가능 | 자연어 프롬프트를 사용하여 대상을 만들고 최적화합니다. | <ul><li>Real-Time CDP(B2B 및 B2C 추가)</li><li>Adobe Journey Optimizer(B2B 및 B2C 추가)</li></ul> |
-| [Data Insights Agent](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | 사용 가능 | Analysis Workspace에서 데이터 질문에 답변하고 시각화를 구축합니다. | <ul><li>Customer Journey Analytics</li></ul> |
+| [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | 사용 가능 | Analysis Workspace에서 데이터 질문에 답변하고 시각화를 구축합니다. | <ul><li>Customer Journey Analytics</li></ul> |
 | [Journey Agent](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze) | 사용 가능 | 규모에 맞게 고객 여정을 생성, 분석 및 최적화합니다. | <ul><li>Adobe Journey Optimizer(B2B 및 B2C 추가)</li></ul> |
-| [제품 지원 에이전트](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/new-features/customer-support) | 사용 가능 | AI Assistant를 사용하여 문제를 해결하고 지원 티켓을 생성하며 진행 상황을 추적할 수 있습니다. | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP(B2B 및 B2C 추가)</li><li>Adobe Journey Optimizer(B2B 및 B2C 추가)</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
+| [제품 지원 에이전트](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | 사용 가능 | AI Assistant를 사용하여 문제를 해결하고 지원 티켓을 생성하며 진행 상황을 추적할 수 있습니다. | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP(B2B 및 B2C 추가)</li><li>Adobe Journey Optimizer(B2B 및 B2C 추가)</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
 ## AI-First Experience Cloud 앱
 
@@ -48,7 +50,7 @@ Adobe [!DNL Experience Platform] [Agent Orchestrator](https://experienceleague.a
 
 * Experience Cloud의 [AI](https://experienceleague.adobe.com/ko/docs/ai) 설명서 홈
 
-[!BADGE Adobe for Business에 대해 자세히 알아보기]{type=Informative url="https://business.adobe.com/kr/products/experience-platform/agent-orchestrator.html" tooltip="Business.adobe.com으로 이동"}
+[!BADGE Adobe for Business에 대해 자세히 알아보기]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Business.adobe.com으로 이동"}
 
 
 
