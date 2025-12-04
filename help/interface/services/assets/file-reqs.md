@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 61bc8f52-a77e-4e85-939b-6f29963334a1
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 95%
@@ -33,4 +33,3 @@ Experience Cloud와 Creative Cloud 간에 에셋을 공유하기 위해 허용�
 | Internet Explorer 7 | 2GB | 4GB |
 | Internet Explorer 8 | 2GB | 17,592GB |
 | Internet Explorer 9~11 | 4GB | 17,592GB |
-

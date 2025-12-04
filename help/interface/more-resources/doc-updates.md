@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 4530ff3b00c7323a41ec13d57adead95f0418aaa
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 66%
@@ -124,7 +124,7 @@ Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한
 
 **8 2018년 6월**
 
-[고객 특성의 데이터 파일 및 데이터 소스 정보](../services/customer-attributes/crs-data-file.md)를 여러 개의 파일 업로드에 대한 정보로 업데이트했습니다.
+[고객 속성의 데이터 파일 및 데이터 소스 정보](../services/customer-attributes/crs-data-file.md)를 여러 개의 파일 업로드에 대한 정보로 업데이트했습니다.
 
 **6 2018년 6월**
 
@@ -161,3 +161,4 @@ Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한
 **22 2014년 5월**
 
 [대상](../services/audiences/overview.md)에 대한 설명서를 추가했습니다.
+

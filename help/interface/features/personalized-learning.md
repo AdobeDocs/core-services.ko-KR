@@ -3,7 +3,7 @@ description: 사용 데이터를 기반으로 이메일, Experience Cloud 제품
 solution: Experience Cloud
 title: Experience Cloud 맞춤형 학습 환경 설정
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 23%

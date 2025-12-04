@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 6%
@@ -86,7 +86,7 @@ Adobe은 이 정보를 사용하여 당사의 제품을 개선하고, 제품 내
 
 ### [!DNL Slack]에서 권한 요청(문제 해결)
 
-[!DNL Slack]이(가) 설치되지 않은 경우 _[!UICONTROL Request to install]_&#x200B;을(를) 클릭한 후 Slack이 열리면&#x200B;**[!UICONTROL Add to Slack]**&#x200B;메시지가 표시됩니다. 예:
+[!DNL Slack]이(가) 설치되지 않은 경우 _[!UICONTROL Request to install]_을(를) 클릭한 후 Slack이 열리면&#x200B;**[!UICONTROL Add to Slack]**메시지가 표시됩니다. 예:
 
 ![Slack 통합 요청](../assets/slack-workspace.png)
 
@@ -118,3 +118,4 @@ Adobe은 이 정보를 사용하여 당사의 제품을 개선하고, 제품 내
 1. **[!UICONTROL Notifications]** 또는 **[!UICONTROL Announcements]**&#x200B;를 클릭합니다.
 
    이 위치에서는 제품, 동료 사용자와의 공동 작업 및 기타 관련 업데이트에 대한 중요한 정보를 받을 수 있습니다. 업데이트에는 제품 릴리스, 유지 관리 알림, 공유 항목 및 승인 요청이 포함됩니다.
+

@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 10%
@@ -34,3 +34,4 @@ Adobe Advertising(이전의 Adobe Advertising Cloud)는 쿠키를 사용하여 �
 | **`id_adcloud`** | 91일 | 16바이트 | 자사 | 방문자 ID를 저장합니다. |
 
 {style="table-layout:auto"}
+

@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 64%
@@ -59,11 +59,11 @@ CSV 파일은 다음 형식을 따라야 합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>고객 ID 열 </p> </td> 
-   <td colname="col2"> <p> 첫 번째 열은 고유한 고객 ID여야 합니다. 사용된 ID는 Experience Cloud ID 서비스에 전달되는 ID에 해당해야 합니다. </p> <p>Analytics의 경우 prop 또는 eVar에 저장되는 ID입니다. </p> <p>Target의 경우 setcustomerID 값입니다. </p> <p> 이 고객 ID는 CRM가 데이터베이스의 각 사용자에 대해 사용하는 고유한 식별자입니다. 나머지 열은 CRM에서 가져오는 속성입니다. 업로드할 속성의 수를 선택합니다. </p> <p>열 제목에는 읽을 수 있는 친근한 이름이 권장되지만 필수는 아닙니다. 업로드 후에 스키마의 유효성을 검사할 때 업로드한 행 및 열에 친근한 이름을 매핑할 수 있습니다. </p> <p> <b>고객 ID 정보</b> </p> <p>일반적으로 기업에서는 CRM 시스템의 고객 ID를 사용합니다. 이 ID는 사용자가 로그인할 때 <span class="codeph"> setcustomerID </span> 호출을 사용하여 설정됩니다. 이 ID는 Experience Cloud에 업로드된 CRM 파일의 키로도 사용됩니다. <a href="t-crs-usecase.md" format="dita" scope="local">별칭 ID</a>는 Audience Manager에서 별칭 데이터가 저장되는 데이터 저장소용의 친근한 이름입니다. 시스템에서는 별칭을 이 데이터 저장소(setcustomerID를 통해)로 보냅니다. CRM 파일은 이 데이터 저장소의 데이터에 적용됩니다. </p> <p><span class="codeph"> setcustomerID </span> 정보에 대해서는 <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko" format="https" scope="external"> 고객 ID 및 인증 상태 </a>을(를) 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 첫 번째 열은 고유한 고객 ID여야 합니다. 사용된 ID는 Experience Cloud ID 서비스에 전달되는 ID에 해당해야 합니다. </p> <p>Analytics의 경우 prop 또는 eVar에 저장되는 ID입니다. </p> <p>Target의 경우 setcustomerID 값입니다. </p> <p> 이 고객 ID는 CRM가 데이터베이스의 각 사용자에 대해 사용하는 고유한 식별자입니다. 나머지 열은 CRM에서 가져오는 속성입니다. 업로드할 속성의 수를 선택합니다. </p> <p>열 제목에는 읽을 수 있는 친근한 이름이 권장되지만 필수는 아닙니다. 업로드 후에 스키마의 유효성을 검사할 때 업로드한 행 및 열에 친근한 이름을 매핑할 수 있습니다. </p> <p> <b>고객 ID 정보</b> </p> <p>일반적으로 기업에서는 CRM 시스템의 고객 ID를 사용합니다. 이 ID는 사용자가 로그인할 때 <span class="codeph"> setcustomerID </span> 호출을 사용하여 설정됩니다. 이 ID는 Experience Cloud에 업로드된 CRM 파일의 키로도 사용됩니다. <a href="t-crs-usecase.md" format="dita" scope="local">별칭 ID</a>는 Audience Manager에서 별칭 데이터가 저장되는 데이터 저장소용의 친근한 이름입니다. 시스템에서는 별칭을 이 데이터 저장소(setcustomerID를 통해)로 보냅니다. CRM 파일은 이 데이터 저장소의 데이터에 적용됩니다. </p> <p><span class="codeph"> setcustomerID </span> 정보에 대해서는 <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> 고객 ID 및 인증 상태 </a>을(를) 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>후속 머리글 및 열 </p> </td> 
-   <td colname="col2"> <p>후속 머리글은 각 특성의 이름을 나타내야 합니다. </p> <p> 이러한 열에는 CRM에서 가져오는 고객 특성이 포함되어야 합니다. </p> </td> 
+   <td colname="col2"> <p>후속 머리글은 각 속성의 이름을 나타내야 합니다. </p> <p> 이러한 열에는 CRM에서 가져오는 고객 속성이 포함되어야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>속성 제한 </p> </td> 
@@ -122,9 +122,9 @@ CSV 파일은 다음 형식을 따라야 합니다.
 
 ## 여러 데이터 소스 사용
 
-고객 특성 소스를 만들거나, 수정하거나 삭제할 때, ID가 새 데이터 소스와의 동기화를 시작하기 전에 약 한 시간의 지연이 있습니다.
+고객 속성 소스를 만들거나, 수정하거나 삭제할 때, ID가 새 데이터 소스와의 동기화를 시작하기 전에 약 한 시간의 지연이 있습니다.
 
-각 고객 특성 소스에 대한 별칭 ID는 고유해야 합니다. 동일한 ID를 사용하는 데이터 소스가 여러 개 있는 경우, 다음과 같이 설정할 수 있습니다.
+각 고객 속성 소스에 대한 별칭 ID는 고유해야 합니다. 동일한 ID를 사용하는 데이터 소스가 여러 개 있는 경우, 다음과 같이 설정할 수 있습니다.
 
 **Dynamic Tag Management의 VisitorAPI.js 또는 Experience Cloud ID 도구에서 다음을 수행합니다.**
 
@@ -137,9 +137,8 @@ Visitor.setcustomerIDs({
 });
 ```
 
-자세한 내용은 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)를 참조하십시오.
+자세한 내용은 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)를 참조하십시오.
 
 **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]**&#x200B;에서:
 
-위의 고객 ID에 해당하는 고유한 별칭 ID를 사용하여 두 개의 고객 특성 소스를 만듭니다. 이 방법을 사용하면 동일한 참조 ID를 여러 고객 특성 소스로 보낼 수 있습니다.
-
+위의 고객 ID에 해당하는 고유한 별칭 ID를 사용하여 두 개의 고객 속성 소스를 만듭니다. 이 방법을 사용하면 동일한 참조 ID를 여러 고객 속성 소스로 보낼 수 있습니다.

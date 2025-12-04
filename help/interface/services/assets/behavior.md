@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 96%
@@ -105,4 +105,3 @@ ht-degree: 96%
 ![보관 위치에서 복원된 콘텐츠](../../assets/12_assets_move.png)
 
 **결과:** 콘텐츠가 공유 폴더로 복원되고 모든 공동 작업자가 다시 액세스할 수 있습니다. 공유 폴더가 더 이상 존재하지 않으면 해당 콘텐츠는 원래 상위 폴더의 공유되지 않은 사본에 저장됩니다.
-

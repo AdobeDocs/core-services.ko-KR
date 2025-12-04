@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 37%
@@ -22,7 +22,7 @@ ht-degree: 37%
 
 >[!NOTE]
 >
->유효성 검사 후 스키마를 업데이트하면 고객 특성이 삭제됩니다. [스키마 업데이트(속성 삭제)](t-crs-usecase.md)를 참조하십시오.
+>유효성 검사 후 스키마를 업데이트하면 고객 속성이 삭제됩니다. [스키마 업데이트(속성 삭제)](t-crs-usecase.md)를 참조하십시오.
 
 **스키마의 유효성을 검사하려면**
 
@@ -53,4 +53,3 @@ ht-degree: 37%
    * **[!UICONTROL CID (customer ID):]** 이 CID와 연결된 특성입니다. prop 또는 eVar을 사용하여 CID(AVID)를 업로드하며 속성은 표시되지만 AVID는 표시되지 않는 경우 방문자가 사이트에 로그인되어 있지 않은 것입니다.
 
    * prop 또는 eVar을 사용하여 CID를 업로드하는 경우 **[!UICONTROL AVID (Analytics visitor ID):]**&#x200B;이(가) 표시됩니다. 이러한 ID가 Experience Cloud에 전달되는 경우 입력한 CID와 연결된 모든 방문자 ID가 여기에 표시됩니다.
-

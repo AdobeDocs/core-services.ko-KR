@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 62%
@@ -97,5 +97,4 @@ ht-degree: 62%
 
 지정된 기간 동안 데이터 수집이 완료되면 원이 합쳐지면서 정의된 대상자를 표시합니다.
 
-대상이 저장되면 다른 Experience Cloud 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/ko/docs/target/using/activities/activities)에 포함할 수 있습니다.
-
+대상이 저장되면 다른 Experience Cloud 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)에 포함할 수 있습니다.

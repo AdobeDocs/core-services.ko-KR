@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 84%
@@ -61,7 +61,7 @@ ht-degree: 84%
 
 또한 Experience League 및 커뮤니티에서 도움말 문서를 찾을 수 있습니다. 자연어 쿼리가 지원됩니다.
 
-예를 들어 _스키마를 만드는 방법_&#x200B;은(는) _[!UICONTROL Learning]_&#x200B;아래의 Experience League에서 결과를 생성합니다.
+예를 들어 _스키마를 만드는 방법_&#x200B;은(는) _[!UICONTROL Learning]_아래의 Experience League에서 결과를 생성합니다.
 
 ![Experience Cloud 도움말의 통합 검색](../assets/unified-search-learning.png)
 
@@ -70,7 +70,7 @@ ht-degree: 84%
 * 오브젝트에 액세스할 수 있는 사용자 권한
 * 일치율
 * 정확한 일치
-* _[!UICONTROL Top Results]_&#x200B;섹션에는 상위 30개 결과가 표시됩니다.
+* _[!UICONTROL Top Results]_섹션에는 상위 30개 결과가 표시됩니다.
 
 검색을 구체화하려면 다음 중 하나를 클릭하십시오.
 
@@ -102,3 +102,4 @@ ht-degree: 84%
 * 맞춤법 검사
 * 완전한 검색어 입력
 * 검색하려는 오브젝트에 대한 권한을 보유하고 있는지 확인
+

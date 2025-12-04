@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 56%
@@ -64,3 +64,4 @@ Experience Cloud 사용자 인터페이스는 다음 언어로 제공됩니다.
    모든 응용 프로그램 팀은 글로벌 언어 지원에 전념하지만 모든 응용 프로그램이 인터페이스에 나열된 모든 언어로 제공되지 않습니다. 기본 언어가 Experience Cloud 애플리케이션에서 지원되지 않는 경우 보조 기본 언어를 설정할 수 있습니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
