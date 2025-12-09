@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 63%
+source-wordcount: '412'
+ht-degree: 64%
 
 ---
 
-# 구독 구성 및 데이터 소스 활성화
+# 고객 속성 가입 구성
 
 [!DNL Customer Attributes]개의 구독을 통해 Experience Cloud과 응용 프로그램([!DNL Analytics] 및 [!DNL Target]) 간에 고객 특성 데이터 흐름을 사용할 수 있습니다.
 

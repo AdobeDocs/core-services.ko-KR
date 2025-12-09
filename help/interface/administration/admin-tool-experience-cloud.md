@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1178'
 ht-degree: 76%
 
 ---
 
-# [!UICONTROL Admin Tool]에서 Experience Cloud 사용자 및 정책 보기
+# Experience Cloud [!UICONTROL Admin Tool]
 
 관리자는 [!UICONTROL Admin Tool]에서 모든 Experience Cloud 사용자 및 정책을 세부 정보와 함께 정렬 및 필터링 가능한 목록으로 볼 수 있습니다. 사용자 세부 정보에는 사용자의 제품 액세스, 역할 및 마지막으로 액세스한 정보가 포함됩니다. 정책 세부 사항에는 정책의 (제품 프로필) 사용자, 그룹, 개발자, 통합 및 관리 목록과 정책에 대한 자세한 권한 및 리소스 정보가 포함됩니다.
 
@@ -162,4 +162,4 @@ ht-degree: 76%
 
 ## 관련 정보
 
-* [의 &#x200B;](https://helpx.adobe.com/kr/enterprise/using/users.html)사용자 관리[!DNL Admin Console]
+* [의 ](https://helpx.adobe.com/kr/enterprise/using/users.html)사용자 관리[!DNL Admin Console]

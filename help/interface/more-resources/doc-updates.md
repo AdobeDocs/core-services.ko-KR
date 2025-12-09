@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '642'
 ht-degree: 66%
 
 ---
 
-# Experience Cloud 설명서 업데이트
+# 설명서 업데이트
 
 Experience Cloud의 중앙 인터페이스 및 관리를 위해 설명서 업데이트가 발생하는 위치를 알아봅니다.
 

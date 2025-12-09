@@ -3,14 +3,14 @@ description: 사용 데이터를 기반으로 이메일, Experience Cloud 제품
 solution: Experience Cloud
 title: Experience Cloud 맞춤형 학습 환경 설정
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 23%
+source-wordcount: '103'
+ht-degree: 19%
 
 ---
 
-# 맞춤형 학습 권장 사항 및 프로모션
+# 개인화된 학습 환경 설정
 
 Adobe은 Adobe 제품에서의 작업을 기반으로 개인화된 유용한 콘텐츠를 제공합니다. 제품 사용 데이터는 이 컨텍스트를 사용자에게 맞춤화하는 방법을 알려줍니다. [Experience Cloud 환경 설정](https://experience.adobe.com/preferences) 페이지에서 제품 사용 데이터를 공유하도록 옵트인하거나 옵트아웃할 수 있습니다.
 

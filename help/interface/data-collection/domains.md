@@ -6,22 +6,22 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: a15918f0-c03b-4d32-a254-47f46023b127
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '102'
 ht-degree: 17%
 
 ---
 
-# Adobe Experience Cloud에서 사용하는 도메인
+# Experience Cloud에서 사용하는 도메인
 
 Experience Cloud은 다음 호스트를 사용하여 애플리케이션을 제공하고 성능을 향상시키며 제품 경험을 향상시킵니다. Adobe은 최적의 환경을 위해 이러한 도메인을 조직의 네트워크 또는 방화벽을 통해 허용하는 것을 권장합니다.
 
 아래 나열된 도메인 외에도 개별 Adobe Experience Cloud 제품에는 다음과 같은 도메인을 사용하는 것이 있습니다.
 
-* [Adobe Analytics](https://experienceleague.adobe.com/ko/docs/analytics/technotes/domains)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/domains)
-* [Marketo Engage](https://experienceleague.adobe.com/ko/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | 기술 | 도메인 |
 | --- | --- |

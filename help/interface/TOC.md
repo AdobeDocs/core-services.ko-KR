@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud 인터페이스 및 관리
 title: Experience Cloud 인터페이스 및 관리
 description: Experience Cloud 인터페이스, 쿠키 및 계정 환경 설정에 대해 알아봅니다. 제품을 관리하고 고객 속성 및 대상자 라이브러리를 포함하는 People 서비스를 구성합니다. Experience Cloud Assets를 공유합니다.
 index: true
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 96%
+source-wordcount: '198'
+ht-degree: 89%
 
 ---
 
@@ -16,31 +16,28 @@ ht-degree: 96%
 # Experience Cloud 인터페이스 및 관리 {#interface}
 
 + [Experience Cloud 인터페이스 및 관리](experience-cloud.md)
-+ [숨겨진 홈](hidden-experience-cloud.md)
 + 서비스 {#services}
-   + [개요](services/overview.md)
+   + [서비스 개요](services/overview.md)
    + [시작하기](services/getting-started.md)
-   + [숨겨진 개요](services/hidden-overview.md)
-   + [숨겨진 시작](services/hidden-getting-started.md)
    + 자산 {#assets}
-      + [개요](services/assets/experience-cloud-assets.md)
+      + [Assets 개요](services/assets/experience-cloud-assets.md)
       + [Creative Cloud 사용자 관리](services/assets/manage-cc-users.md)
-      + [자산 폴더 공유](services/assets/share.md)
+      + [에셋 폴더 공유](services/assets/share.md)
       + [공유 폴더에 자산 업로드](services/assets/upload.md)
       + [공유를 위한 자산 파일 요구 사항](services/assets/file-reqs.md)
       + [공유 폴더 비헤이비어](services/assets/behavior.md)
    + 대상자 라이브러리 {#audiences}
-      + [개요](services/audiences/overview.md)
+      + [대상자 개요](services/audiences/overview.md)
       + [대상자 만들기](services/audiences/create.md)
-   + [Exchange](services/exchange.md)
+   + [Adobe Exchange](services/exchange.md)
    + 고객 속성 {#customer-attributes}
-      + [개요](services/customer-attributes/attributes.md)
+      + [고객 속성 개요](services/customer-attributes/attributes.md)
       + [FAQ](services/customer-attributes/faq-crs.md)
-      + [데이터 파일 및 데이터 소스 정보](services/customer-attributes/crs-data-file.md)
-      + [데이터 파일 만들기 및 업로드](services/customer-attributes/t-crs-usecase.md)
+      + [데이터 파일 및 소스](services/customer-attributes/crs-data-file.md)
+      + [데이터 만들기 및 업로드](services/customer-attributes/t-crs-usecase.md)
       + [선택 사항 - FTP를 통해 업로드](services/customer-attributes/t-upload-attributes-ftp.md)
       + [스키마 유효성 검사](services/customer-attributes/validate-schema.md)
-      + [구독 구성 및 데이터 소스 활성화](services/customer-attributes/subscription.md)
+      + [구독 구성](services/customer-attributes/subscription.md)
       + [스키마 업데이트](services/customer-attributes/t-update-schema.md)
       + [GDPR를 위한 지원](services/customer-attributes/gdpr.md)
       + [CCPA를 위한 지원](services/customer-attributes/ccpa.md)
@@ -51,13 +48,13 @@ ht-degree: 96%
    + [생성형 AI](features/generative-ai.md)
    + [에이전틱 AI](features/agentic-ai.md)
    + [통합 검색](features/search.md)
-   + [맞춤형 학습](features/personalized-learning.md)
+   + [개인화된 학습 환경 설정](features/personalized-learning.md)
    + [브라우저 및 언어 지원](browser-language.md)
 + 관리 {#administration}
-   + [사용자 관리 및 제품 라이선스](administration/admin-console.md)
-   + [사용자 세부 정보 보기 (관리 도구)](administration/admin-tool-experience-cloud.md)
-   + [조직](administration/organizations.md)
-   + [Experience Cloud 통합](administration/integrations.md)
+   + [사용자 및 제품 관리](administration/admin-console.md)
+   + [관리 도구](administration/admin-tool-experience-cloud.md)
+   + [조직 및 계정 연결](administration/organizations.md)
+   + [통합](administration/integrations.md)
 + 데이터 수집 {#data-collection}
    + [Adobe 관리 인증서 프로그램](data-collection/adobe-managed-cert.md)
    + [IP 주소](data-collection/ip-addresses.md)
@@ -75,5 +72,5 @@ ht-degree: 96%
 + 릴리스 정보 및 리소스 {#more-resources}
    + [릴리스 정보](more-resources/release-notes.md)
    + [설명서 업데이트](more-resources/doc-updates.md)
-   + [자주 묻는 질문](more-resources/faq.md)
+   + [FAQ](more-resources/faq.md)
    + [용어](more-resources/terms.md)
