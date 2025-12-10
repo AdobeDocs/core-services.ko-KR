@@ -7,10 +7,10 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 81%
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 81%
 
 **[!UICONTROL Apps]** ![메뉴](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-Experience Cloud의 [!DNL Customer Attributes]를 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. Experience Cloud의 [&#x200B; 데이터 원본에 데이터를 &#x200B;](t-crs-usecase.md)업로드[!DNL Customer Attributes]한 다음 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 사용할 수 있습니다.
+Experience Cloud의 [!DNL Customer Attributes]를 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. Experience Cloud의 [ 데이터 원본에 데이터를 ](t-crs-usecase.md)업로드[!DNL Customer Attributes]한 다음 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 사용할 수 있습니다.
 
 ![고객 속성 개요](assets/custom_reports.png)
 
@@ -30,7 +30,7 @@ Experience Cloud의 [!DNL Customer Attributes]를 사용하면 고객 관계 관
 
 ![엔터프라이즈 고객 데이터란?](assets/01_crs_usecase.png)
 
-데이터 파일을 만든 후 **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer attributes]**&#x200B;에서 만든 고객 특성 소스에 업로드할 수 있습니다.
+데이터 파일을 만든 후 **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**&#x200B;에서 만든 고객 특성 소스에 업로드할 수 있습니다.
 
 이 워크플로에 대한 자세한 내용은 [고객 특성 데이터 업로드](t-crs-usecase.md)를 참조하십시오.
 
