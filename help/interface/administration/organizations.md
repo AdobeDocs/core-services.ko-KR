@@ -100,6 +100,6 @@ ht-degree: 48%
 
 일반적으로, 계정 연결은 Adobe ID가 이전 사용자에게 연결되어 있어서 실패합니다. 계정 연결에 실패하면
 
-* [Adobe 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support)에 문의하십시오.
+* [Adobe 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support)에 문의하십시오.
 * 문제가 해결되는 동안 표준 로그인을 사용하여 애플리케이션에 액세스합니다.
 
