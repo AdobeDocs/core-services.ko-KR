@@ -162,4 +162,4 @@ ht-degree: 75%
 
 ## 관련 정보
 
-* [의 ](https://helpx.adobe.com/kr/enterprise/using/users.html)사용자 관리[!DNL Admin Console]
+* [의 &#x200B;](https://helpx.adobe.com/kr/enterprise/using/users.html)사용자 관리[!DNL Admin Console]

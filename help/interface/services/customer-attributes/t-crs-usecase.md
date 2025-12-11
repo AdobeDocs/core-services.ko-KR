@@ -54,7 +54,7 @@ ht-degree: 47%
 
 ## 속성 소스를 만들고 데이터 파일 업로드
 
-Experience Cloud의 _[!UICONTROL Create Customer Attribute Source]_페이지에서 다음 단계를 수행합니다.
+Experience Cloud의 _[!UICONTROL Create Customer Attribute Source]_&#x200B;페이지에서 다음 단계를 수행합니다.
 
 >[!IMPORTANT]
 >
@@ -174,4 +174,4 @@ Experience Cloud에 게시한 세그먼트는 Experience Cloud 대상 및 Audien
 
 ![Adobe Target에서 고객 속성 사용](assets/crs-add-attribute-target.png)
 
-[ 도움말에서 ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=ko-KR)대상자 만들기[!DNL Target]를 참조하십시오.
+[&#x200B; 도움말에서 &#x200B;](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=ko-KR)대상자 만들기[!DNL Target]를 참조하십시오.
