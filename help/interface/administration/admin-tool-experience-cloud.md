@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 76%
+source-wordcount: '1182'
+ht-degree: 75%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 76%
 | [!UICONTROL Email] | 사용자와 연결된 이메일 주소입니다. 열은 A->Z, Z->A로 정렬할 수 있습니다. |
 | [!UICONTROL ID Type] | 사용자 계정의 ID 유형입니다. 특정 ID 유형이 표시되도록 필터를 적용할 수 있습니다. 자세한 내용은 [ID 유형 관리](https://helpx.adobe.com/kr/enterprise/using/identity.html) 를 참조하십시오. |
 | [!UICONTROL Solutions] | 사용자가 액세스할 수 있는 Experience Cloud 애플리케이션 요약입니다. 특정 애플리케이션 액세스 권한으로 사용자 목록의 범위를 좁히는 필터를 적용할 수 있습니다. |
-| [!UICONTROL Last Login] | Experience Cloud에 최근 사용자가 로그인한 시간 및 날짜입니다. 이 열은 오름차순 또는 내림차순 날짜로 정렬할 수 있습니다. <br> **중요:** 2020년 1월 13일부터 사용자의 마지막 로그인 데이터는 365일 동안 유지됩니다. 이 정보는 Experience Cloud의 현재 로그인 활동을 표시하기 위한 것으로, 2020년 1월 13일 이전에 비활성 계정에 대해 조치를 취하기 위한 권장 사항은 아닙니다. |
+| [!UICONTROL Last Login] | 가장 최근 사용자가 Experience Cloud에 로그인한 시간 및 날짜입니다. 이 열은 오름차순 또는 내림차순 날짜로 정렬할 수 있습니다. <br> **중요:** 2020년 1월 13일부터 사용자의 마지막 로그인 데이터는 365일 동안 보관됩니다. 이 정보는 Experience Cloud의 현재 로그인 활동을 표시하기 위한 것으로, 2020년 1월 13일 이전에 비활성 계정에 대해 조치를 취하기 위한 권장 사항은 아닙니다. |
 
 ## 사용자 목록 보기 사용자 지정
 
@@ -162,4 +162,4 @@ ht-degree: 76%
 
 ## 관련 정보
 
-* [의 &#x200B;](https://helpx.adobe.com/kr/enterprise/using/users.html)사용자 관리[!DNL Admin Console]
+* [의 ](https://helpx.adobe.com/kr/enterprise/using/users.html)사용자 관리[!DNL Admin Console]

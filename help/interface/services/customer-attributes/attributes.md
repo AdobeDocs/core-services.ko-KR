@@ -7,10 +7,10 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 84%
+ht-degree: 63%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 84%
 
 **[!UICONTROL Apps]** ![메뉴](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-Experience Cloud의 [!DNL Customer Attributes]를 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. Experience Cloud의 [&#x200B; 데이터 원본에 데이터를 &#x200B;](t-crs-usecase.md)업로드[!DNL Customer Attributes]한 다음 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 사용할 수 있습니다.
+Experience Cloud의 [!DNL Customer Attributes]를 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. Experience Cloud의 [ 데이터 원본에 데이터를 ](t-crs-usecase.md)업로드[!DNL Customer Attributes]한 다음 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 사용할 수 있습니다.
 
 ![고객 속성 개요](assets/custom_reports.png)
 
-## 엔터프라이즈 고객 데이터란?
+## 엔터프라이즈 고객 데이터 기본 정보 {#customer-data}
 
-엔터프라이즈 데이터는 다른 시스템에 있습니다. 이 데이터는 복잡할 수 있고 사용자마다 다른 의미일 수 있습니다. 이 데이터에는 멤버십, 충성도 수준, 연령, 성별, 소유 제품, 관심사 및 라이프타임 값과 같은 정보가 포함될 수 있습니다.
+엔터프라이즈 고객 데이터는 고객, 잠재 고객 및 파트너에 대해 수집된 조직 전체의 정보 집합을 나타냅니다. 다른 시스템에 상주하며 멤버십, 충성도 수준, 연령, 성별, 소유 제품, 관심사 및 라이프타임 값과 같은 정보를 포함할 수 있습니다.
 
-다음 이미지는 멤버 ID, 권한 있는 제품, 가장 최근에 실행한 제품 등을 비롯한 제품에 대한 구독자 데이터를 나타내는 데이터 파일의 예입니다.
+다음 이미지는 구성원 ID, 권한 있는 제품, 최근에 실행한 제품 등을 포함하여 제품에 대한 구독자 데이터를 표시하는 _데이터 파일_&#x200B;의 예입니다.
 
 ![엔터프라이즈 고객 데이터란?](assets/01_crs_usecase.png)
 
