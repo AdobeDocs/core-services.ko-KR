@@ -7,10 +7,10 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: a5afed30f142601d44fd9f10ce1cfde683c6da1f
+source-git-commit: e7f83c8b302a98e6677fb53018738b3b654ab695
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 61%
+source-wordcount: '306'
+ht-degree: 55%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 61%
 
 **[!UICONTROL Apps]** ![메뉴](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-Experience Cloud의 [!DNL Customer Attributes]를 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. Experience Cloud의 [&#x200B; 데이터 원본에 데이터를 &#x200B;](t-crs-usecase.md)업로드[!DNL Customer Attributes]한 다음 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 사용할 수 있습니다.
+Adobe Experience Cloud의 [!DNL Customer Attributes]을(를) 사용하면 고객 관계 관리(CRM) 데이터베이스에서 캡처한 엔터프라이즈 데이터를 업로드할 수 있습니다. Experience Cloud의 [&#x200B; 데이터 원본에 데이터를 &#x200B;](t-crs-usecase.md)업로드[!DNL Customer Attributes]한 다음 [!DNL Adobe Analytics] 및 [!DNL Adobe Target]의 데이터를 사용할 수 있습니다.
 
 ![고객 속성 개요](assets/custom_reports.png)
 
