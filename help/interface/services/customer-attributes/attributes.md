@@ -1,13 +1,13 @@
 ---
 title: ' [!DNL Customer Attributes] 정보'
 description: Experience Cloud의 [!DNL Customer Attributes] 에 대해 알아봅니다. Adobe Analytics 및 Adobe Target에서 사용할 고객 속성 데이터를 업로드하는 방법을 알아봅니다.
-solution: Experience Cloud,Target,Analytics
+solution: Analytics
 feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
+source-git-commit: fc80e5fbbfc542a981f333413b648011f7057b58
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 63%
