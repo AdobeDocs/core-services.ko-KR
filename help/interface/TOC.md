@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud 인터페이스 및 관리
 title: Experience Cloud 인터페이스 및 관리
 description: Experience Cloud 인터페이스, 쿠키 및 계정 환경 설정에 대해 알아봅니다. 제품을 관리하고 고객 속성 및 대상자 라이브러리를 포함하는 People 서비스를 구성합니다. Experience Cloud Assets를 공유합니다.
 index: true
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: ab36454f0266d8ee5238672e175379cc1d47de42
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 88%
+source-wordcount: '205'
+ht-degree: 86%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 88%
    + [계정 환경 설정 및 알림](features/account-preferences.md)
    + [생성형 AI](features/generative-ai.md)
    + [에이전틱 AI](features/agentic-ai.md)
+   + [에이전트 작업 및 AI 신용 소비](features/ai-credit-consumption.md)
    + [통합 검색](features/search.md)
    + [개인화된 학습 환경 설정](features/personalized-learning.md)
    + [브라우저 및 언어 지원](browser-language.md)
