@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud 인터페이스 및 관리
 title: Experience Cloud 인터페이스 및 관리
 description: Experience Cloud 인터페이스, 쿠키 및 계정 환경 설정에 대해 알아봅니다. 제품을 관리하고 고객 속성 및 대상자 라이브러리를 포함하는 People 서비스를 구성합니다. Experience Cloud Assets를 공유합니다.
 index: true
-source-git-commit: 8c8e85c0c5f19191adfd72e20cfb1edd258179f6
+source-git-commit: 94aaba86801096ae5d638ff56e241d6a8b1ef317
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '208'
 ht-degree: 86%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 86%
 # Experience Cloud 인터페이스 및 관리 {#interface}
 
 + [Experience Cloud 인터페이스 및 관리](/help/interface/experience-cloud.md)
++ Experience Cloud의 AI {#features}
+   + [생성형 AI](/help/interface/features/generative-ai.md)
+   + [에이전틱 AI](/help/interface/features/agentic-ai.md)
+   + [에이전트 작업 및 AI 신용 소비](/help/interface/features/ai-credit-consumption.md)
++ 관리 {#administration}
+   + [계정 환경 설정 및 알림](/help/interface/features/account-preferences.md)
+   + [브라우저 및 언어 지원](/help/interface/browser-language.md)
+   + [사용자 및 제품 관리](/help/interface/administration/admin-console.md)
+   + [관리 도구](/help/interface/administration/admin-tool-experience-cloud.md)
+   + [조직 및 계정 연결](/help/interface/administration/organizations.md)
+   + [통합](/help/interface/administration/integrations.md)
+   + [통합 검색](/help/interface/features/search.md)
+   + [개인화된 학습 환경 설정](/help/interface/features/personalized-learning.md)
 + 인터페이스 서비스 {#services}
    + [인터페이스 개요](/help/interface/services/overview.md)
    + [시작하기](/help/interface/services/getting-started.md)
@@ -29,7 +42,6 @@ ht-degree: 86%
    + 대상자 라이브러리 {#audiences}
       + [대상자 개요](/help/interface/services/audiences/overview.md)
       + [대상자 만들기](/help/interface/services/audiences/create.md)
-   + [Adobe Exchange](/help/interface/services/exchange.md)
    + 고객 속성 {#customer-attributes}
       + [고객 속성 개요](/help/interface/services/customer-attributes/attributes.md)
       + [FAQ](/help/interface/services/customer-attributes/faq-crs.md)
@@ -43,19 +55,7 @@ ht-degree: 86%
       + [CCPA를 위한 지원](/help/interface/services/customer-attributes/ccpa.md)
       + [개인정보 보호 고려 사항](/help/interface/services/customer-attributes/privacy-mac.md)
    + [트리거](/help/interface/services/triggers.md)
-+ 기능 {#features}
-   + [계정 환경 설정 및 알림](/help/interface/features/account-preferences.md)
-   + [생성형 AI](/help/interface/features/generative-ai.md)
-   + [에이전틱 AI](/help/interface/features/agentic-ai.md)
-   + [에이전트 작업 및 AI 신용 소비](/help/interface/features/ai-credit-consumption.md)
-   + [통합 검색](/help/interface/features/search.md)
-   + [개인화된 학습 환경 설정](/help/interface/features/personalized-learning.md)
-   + [브라우저 및 언어 지원](/help/interface/browser-language.md)
-+ 관리 {#administration}
-   + [사용자 및 제품 관리](/help/interface/administration/admin-console.md)
-   + [관리 도구](/help/interface/administration/admin-tool-experience-cloud.md)
-   + [조직 및 계정 연결](/help/interface/administration/organizations.md)
-   + [통합](/help/interface/administration/integrations.md)
+   + [Adobe Exchange](/help/interface/services/exchange.md)
 + 데이터 수집 {#data-collection}
    + [Adobe 관리 인증서 프로그램](/help/interface/data-collection/adobe-managed-cert.md)
    + [IP 주소](/help/interface/data-collection/ip-addresses.md)
