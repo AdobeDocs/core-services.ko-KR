@@ -11,9 +11,9 @@ level: Intermediate
 hidefromtoc: true
 index: false
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: da7a2a9e9aa8365288fa6e05afb6485e4c33ccb2
+source-git-commit: 7c01f555359c2993e3d4da077882073a1e8b839a
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '876'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Experience Cloud의 AI 에이전트에 대한 액세스 권한은 다음 중 하
 * [기존 Experience Cloud 애플리케이션](#existing-apps)
 * [AI 우선 Experience Cloud 애플리케이션](#ai-first-apps)
 
-다음 섹션에서는 Experience Cloud에서 아젠틱 AI를 활성화하는 방법에 대해 설명합니다.
+다음 섹션에서는 Experience Cloud에서 아젠틱 AI를 활성화하는 두 가지 방법에 대해 설명합니다.
 
 ## 기존 Experience Cloud 애플리케이션 {#existing-apps}
 
@@ -39,11 +39,11 @@ Experience Cloud의 AI 에이전트에 대한 액세스 권한은 다음 중 하
 
 에이전트는 다음 범주 중 하나에 있는 고객을 위한 기존 Experience Cloud 앱에서 활성화할 수 있습니다.
 
-* Adobe Experience Platform Agents AI Credits 라이선스 구매
-* 사용 제한 평가판에 포함됩니다(제한된 AI 크레딧 제공)
-* Agent Orchestrator Promo SKU(시간 제한 체험판 라이선스)를 거래했습니다
+* Adobe Experience Platform Agents AI Credits 라이선스를 구입했습니다
+* 사용 제한 평가판(제공된 제한된 AI 크레딧)에 포함됩니다
+* Agent Orchestrator Promo SKU(시간 제한 체험판 라이선스)를 거래했습니다.
 
-AI 에이전트를 사용하여 _에이전트 작업_&#x200B;을 수행하면 AI 크레딧이 사용됩니다. 자세한 내용은 [에이전트 작업 및 AI 크레딧 사용량](/help/interface/features/ai-credit-consumption.md)을 참조하세요.
+AI 에이전트를 사용하여 _에이전트 작업_&#x200B;을 수행하면 AI 크레딧이 사용됩니다. _[에이전트 작업 및 AI 크레딧 사용](/help/interface/features/ai-credit-consumption.md)_&#x200B;에서 에이전트 작업 및 AI 크레딧에 대해 자세히 알아보세요.
 
 AI 에이전트는 _사용자_ 입력, 감독을 따르며 제품 수준의 액세스 제어를 준수합니다. 기본 Experience Cloud 제품에서 사용하도록 승인된 데이터에만 작업을 수행하거나 액세스할 수 있습니다.
 
