@@ -1,23 +1,21 @@
 ---
 title: 에이전트 작업 및 AI 크레딧 사용량
-description: Experience Cloud 애플리케이션의 에이전트 작업 및 AI 크레딧 사용량에 대해 알아봅니다.
+description: Experience Cloud 애플리케이션의 에이전트 작업 및 AI 크레딧 사용률에 대해 알아봅니다.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-hidefromtoc: true
-index: false
-source-git-commit: 4f738324ee18bbb63ae8c1d45907ecaf05230b34
+source-git-commit: 608e1685b6ca531da73d2df138b11537097716ce
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 13%
+source-wordcount: '388'
+ht-degree: 12%
 
 ---
 
 # 에이전트 작업 및 AI 신용 소비
 
-Experience Cloud 애플리케이션의 아젠틱 AI 작업 및 AI 신용 사용에 대해 알아봅니다.
+Experience Cloud 애플리케이션의 아젠틱 AI 작업 및 AI 신용 사용에 대해 알아봅니다. 기존 Experience Cloud 애플리케이션에서 Agentic AI 기능을 활성화하는 방법에 대한 자세한 내용은 [Experience Cloud의 Agentic AI](agentic-ai.md#existing-apps)를 참조하십시오.
 
 ## 에이전트 작업
 
