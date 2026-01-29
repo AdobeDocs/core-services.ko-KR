@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 404d76931c8d315efba202536f032ddac223c530
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 62%
@@ -55,9 +55,9 @@ ht-degree: 62%
 
    * **[!UICONTROL Real-Time Analytics Data:]**(또는 원시 데이터) Real-Time Analytics 이미지 요청에서 파생된 특성 데이터입니다. 여기에는 eVar 및 이벤트가 포함됩니다. 이 속성 소스를 사용할 때 보고서 세트를 선택하고 포함할 차원 또는 이벤트를 정의해야 합니다. 이 보고서 세트 선택 옵션은 보고서 세트에 사용되는 변수 구조를 제공합니다.
 
-   >[!NOTE]
-   >
-   >캐싱으로 인해, Analytics에서 삭제된 보고서 세트는 삭제가 Experience Cloud에 표시되는 데 12시간이 필요합니다.
+     >[!NOTE]
+     >
+     >캐싱으로 인해, Analytics에서 삭제된 보고서 세트는 삭제가 Experience Cloud에 표시되는 데 12시간이 필요합니다.
 
    * **[!UICONTROL Experience Cloud:]** 원본에서 파생된 [!DNL Experience Cloud] 특성 데이터입니다. 예를 들어 [!DNL Analytics]에서 만든 대상자 세그먼트의 데이터이거나 [!DNL Audience Manager]의 데이터일 수 있습니다.
 
@@ -97,4 +97,4 @@ ht-degree: 62%
 
 지정된 기간 동안 데이터 수집이 완료되면 원이 합쳐지면서 정의된 대상자를 표시합니다.
 
-대상이 저장되면 다른 Experience Cloud 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/ko/docs/target/using/activities/activities)에 포함할 수 있습니다.
+대상이 저장되면 다른 Experience Cloud 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)에 포함할 수 있습니다.
