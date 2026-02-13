@@ -2,15 +2,19 @@
 title: 사용자 및 사용자 세부 정보 보기
 description: Experience Cloud의 관리 도구에 대해 알아봅니다. 모든 Experience Cloud 사용자 및 정책의 정렬과 필터링 가능한 목록을 봅니다.
 application: Experience Cloud
-index: true
+index: yes
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
+TQID: https://experienceleague.adobe.com/zq5NfbuRlyx2Y0e-u-B8CErQPhfn4Re8-6z3sN9QGE0
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: 1182
 ht-degree: 75%
 
 ---
@@ -162,4 +166,4 @@ ht-degree: 75%
 
 ## 관련 정보
 
-* [의 &#x200B;](https://helpx.adobe.com/kr/enterprise/using/users.html)사용자 관리[!DNL Admin Console]
+* [의 ](https://helpx.adobe.com/kr/enterprise/using/users.html)사용자 관리[!DNL Admin Console]
