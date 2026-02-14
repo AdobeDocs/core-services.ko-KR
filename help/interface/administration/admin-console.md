@@ -64,9 +64,9 @@ Experience Cloud 응용 프로그램에 대한 ID 및 제품 라이선스를 관
 | 도움말 링크 | 설명 |
 | ------- | ------- |
 | [Adobe ID 재설정](https://helpx.adobe.com/kr/manage-account/kb/account-password-sign-help.html) | 로그아웃한 다음 **[!UICONTROL Get help signing in]** > **[!UICONTROL Reset your password]**&#x200B;을(를) 클릭합니다. |
-| [여러 사용자 관리](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** <br>Admin Console에 CSV 일괄 업로드를 통해 여러 사용자를 관리하는 방법을 알아봅니다. |
+| [여러 사용자 관리](https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** <br>Admin Console에 CSV 일괄 업로드를 통해 여러 사용자를 관리하는 방법을 알아봅니다. |
 | [ID 유형](https://helpx.adobe.com/kr/enterprise/using/identity.html) | ID 유형을 사용하면 조직이 사용자의 계정 및 데이터를 다양한 수준으로 제어할 수 있습니다. 선택한 ID 모델은 조직이 자산을 저장하고 공유하는 방식에 영향을 줍니다. Federated ID 및 Enterprise ID 모델은 조직에서 만들고 관리하는 반면 Adobe ID는 개인이 만들고 관리합니다. |
-| [사용자 동기화 도구](https://helpx.adobe.com/enterprise/using/user-sync.html)&#x200B;(UST) | Adobe 사용자 동기화 도구는 조직의 ID 관리 시스템(예: Active Directory)과 Adobe Admin Console 간의 사용자 데이터 동기화를 자동화하는 데 사용되는 데스크탑 애플리케이션입니다. 관리자는 이 도구를 사용하여 Adobe 제품 전반에 대한 사용자 프로비저닝, 업데이트 및 비활성화를 간소화할 수 있습니다. |
+| [사용자 동기화 도구](https://helpx.adobe.com/kr/enterprise/using/user-sync.html)&#x200B;(UST) | Adobe 사용자 동기화 도구는 조직의 ID 관리 시스템(예: Active Directory)과 Adobe Admin Console 간의 사용자 데이터 동기화를 자동화하는 데 사용되는 데스크탑 애플리케이션입니다. 관리자는 이 도구를 사용하여 Adobe 제품 전반에 대한 사용자 프로비저닝, 업데이트 및 비활성화를 간소화할 수 있습니다. |
 | [사용자 세부 정보 보기(관리 도구)](admin-tool-experience-cloud.md) | [!UICONTROL Admin Tool]에서 세부 정보가 있는 모든 Experience Cloud 사용자 및 정책의 정렬 및 필터링 가능한 목록을 봅니다. |
 
 ### 보고서 및 로그
