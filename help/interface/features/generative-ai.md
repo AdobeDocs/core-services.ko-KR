@@ -35,7 +35,7 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c76a89731baf86762bf65453346af8171fdb0ad3
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 2476
 ht-degree: 8%
@@ -83,7 +83,7 @@ Experience Cloud의 Generative AI(genAI)는 창의적 및 인지적 작업을 �
 ### 생성형 AI
 
 <!-- | Product | Key AI features | Firefly Compatibility |
-|----------------|-----------------|---------|
+| ----------------| -----------------| ---------|
 | GenStudio for Performance Marketing | Create personalized, on-brand content | Yes |
 | Adobe Experience Manager (AEM CS) | Generate Variations, Sites Optimizer GenAI, Content Hub, Smart Tags | Yes |
 | Adobe Experience Manager 6.5 | AI Assistant support | Yes |
@@ -98,7 +98,7 @@ Experience Cloud의 Generative AI(genAI)는 창의적 및 인지적 작업을 �
 | Workfront | AI Assistant for work management and recommendations | Yes | -->
 
 | **제품 이름** | **주요 GenAI 기능** | **Firefly 호환성** |
-|------------------|-------------------------|-------------------|
+| ------------------| -------------------------| -------------------|
 | [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home) | genAI를 사용하여 개인화된 브랜드 내 콘텐츠를 만듭니다. | 예 |
 | [Adobe Experience Manager as a Cloud Service(AEM CS)](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | GenAI는 다음 위치에서 사용할 수 있습니다. <ul><li>**AEM Sites**&#x200B;에서 변형 생성([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor))</li><li>**Sites Optimizer**&#x200B;의 GenAI([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-sites-optimizer/content/opportunity-types/overview))</li><li>[Content Hub](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en)의 [AEM Assets](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags) 및 **스마트 태그**</li></ul> AI Assistant for: <ul><li>Experience Hub 개요 페이지</li><li>Edge Delivery Services</li><li>사이트</li><li>자산</li><li>양식</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 예 |
 | [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | AI Assistant for: <ul><li>Experience Hub 개요 페이지</li><li>Edge Delivery Services</li><li>사이트</li><li>자산</li><li>양식</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 예 |

@@ -23,7 +23,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1044
 ht-degree: 74%
@@ -39,7 +39,7 @@ Adobe Analytics 및 Adobe Target의 [!DNL Customer Attributes] FAQ와 모범 사
 [!DNL Customer Attributes]를 사용할 때의 지침 및 제한 사항입니다.
 
 | 문제 | 설명 |
-|--- |--- |
+| --- | --- |
 | [!DNL Customer Attributes] [구독](subscription.md) 제한 사항 | Analytics Premium으로 업그레이드할 때 더 많은 속성은 24시간 후에 사용할 수 있습니다. 이 시간 중에 [!UICONTROL attribute Subscription Max] 오류가 표시될 수 있습니다. |
 | 동일한 디바이스에 여러 로그인 | [!DNL Customer Attributes]를 사용하여 고객 프로필을 데이터 소스에 업로드할 때에는 디바이스(동일한 Experience Cloud ID)를 공유하는 사용자는 피하는 것이 좋습니다. Experience Cloud ID(ECID)는 디바이스에서 계속 유지됩니다. 디바이스를 공유하면 ECID가 여러 사용자를 동일한 ECID에 연결하여 예기치 않은 결과가 [!DNL Target]에 발생할 수 있습니다. **참고:** 모바일의 경우 ECID는 모바일 앱이 설치된 후에 영구적입니다. 새 ECID를 생성하려면 앱을 다시 설치해야 합니다. 웹의 경우, 브라우저 쿠키가 지워진 후 새 ECID가 생성됩니다. |
 | 일일 업로드 빈도 제한 | [!DNL Customer Attributes]는 하루에 한 번만 업데이트하는 것이 좋습니다. 동일한 프로필 세트에 대해 다른 고객 프로필 데이터 파일을 업로드하려면 최소 24시간을 기다려야 합니다. |
@@ -51,7 +51,7 @@ Adobe Analytics 및 Adobe Target의 [!DNL Customer Attributes] FAQ와 모범 사
 ## [!DNL Customer Attributes]에 대한 FAQ
 
 | 질문 | 답변 |
-|--- |--- |
+| --- | --- |
 | [!DNL Customer Attributes]와 관련된 업로드 상태에 대한 알림을 받을 수 있습니까? | 예. |
 | [!DNL Customer Attributes] 사용을 시작하려면 어떤 작업을 수행해야 합니까? | <ol><li>프로비저닝을 받습니다. Adobe Analytics 고객인 경우 Adobe에서 [!DNL Customer Attributes]을(를) 프로비저닝하고 있습니다. Adobe Target만 사용하고 Analytics가 없는 경우 고객 지원 센터에 연락하여 핵심 서비스에 대한 프로비저닝을 요청합니다.</li> <li>CRM 팀과 대화합니다. Analytics 및 Experience Cloud 전체에서 사용하려는 고객 데이터 종류를 알아봅니다.</li><li>핵심 서비스 구현.</li></ol> 사용자가 이 기능을 사용할 수 있도록 설정하는 방법에 대한 자세한 내용은 데이터를 업로드하기 전에 [필수 구성 요소](t-crs-usecase.md#prerequisites-for-using-customer-attributes)를 참조하십시오. |
 | 제가 사용할 수 있는 고객 속성은 몇 개입니까? | 수백 개의 `.csv` 열을 고객 속성 서비스에 업로드할 수 있습니다. 그렇지만 구독을 구성하고 속성을 선택할 때 보유하고 있는 애플리케이션에 따라 다음과 같은 제한이 (보고서 세트에 대해) 적용됩니다.  <ul><li>Foundation: 0개</li><li>Select: 3개</li><li>Prime: 15개</li><li>Ultimate: 200개</li><li>Standard: 총 3개</li><li>Premium: 200개</li><li>Adobe Target Standard: 5개</li><li>Adobe Target Premium: 200개</li></ul> |

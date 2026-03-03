@@ -15,7 +15,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1182
 ht-degree: 75%
@@ -43,7 +43,7 @@ ht-degree: 75%
 ![Admin Console 사용자 페이지](../assets/admin-tool-users.png)
 
 | 요소 | 설명 |
-|---|---|
+| --- | ---|
 | [!UICONTROL Name] | 사용자의 이름과 성씨를 입력합니다. 이 열을 A에서 Z로 또는 Z에서 A로 정렬할 수 있습니다. 사용자에 대한 자세한 내용을 보려면 사용자 이름을 클릭하십시오. |
 | [!UICONTROL Email] | 사용자와 연결된 이메일 주소입니다. 열은 A->Z, Z->A로 정렬할 수 있습니다. |
 | [!UICONTROL ID Type] | 사용자 계정의 ID 유형입니다. 특정 ID 유형이 표시되도록 필터를 적용할 수 있습니다. 자세한 내용은 [ID 유형 관리](https://helpx.adobe.com/kr/enterprise/using/identity.html) 를 참조하십시오. |
@@ -59,7 +59,7 @@ ht-degree: 75%
 * 특정 기준을 가진 사용자 목록에 여러 필터를 적용하려면 **[!UICONTROL Filter By]**&#x200B;을(를) 클릭하십시오. 여러 필터 카테고리가 적용될 때에는 검색에 이메일 도메인 `AND` ID 유형 `AND` 솔루션이 포함됩니다.
 
 | 요소 | 설명 |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Email Domain] 필터 | 이메일 열에서 문자 문자열을 검색하여 결과를 하나 또는 여러 도메인으로 좁힐 수 있습니다. 각 검색어 뒤에 Enter 키를 눌러 여러 필터 추가하십시오. |
 | [!UICONTROL ID Type] 필터 | 사용 가능한 ID 유형 중에서 선택합니다. 여러 ID 유형을 필터로 사용할 수 있습니다. |
 | [!UICONTROL Solution] 필터 | 사용 가능한 애플리케이션 중에서 선택합니다. 여러 애플리케이션 필터가 솔루션 1 `OR` 솔루션 2가 포함된 결과를 검색합니다. |
@@ -93,7 +93,7 @@ ht-degree: 75%
 이 섹션에는 사용자의 모든 제품 프로필 멤버십에 대한 전체 목록이 표시됩니다.
 
 | 요소 | 설명 |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Product] | 제품 프로필과 연관된 제품의 이름입니다. |
 | [!UICONTROL Instance] | 제품 및 제품 프로필과 연관된 인스턴스(로그인 회사 또는 테넌트 등)의 이름입니다. |
 | [!UICONTROL Product profile] | 제품 프로필의 고유 이름입니다. |
@@ -107,7 +107,7 @@ ht-degree: 75%
 ![Admin Console의 정책 페이지](../assets/admin-tool-policies.png)
 
 | 요소 | 설명 |
-|---|---|
+| ---| ---|
 | [!UICONTROL Product rofile] | 제품 프로필의 이름입니다. 열은 A->Z, Z->A로 정렬할 수 있습니다. 정책에 대한 자세한 정보를 보려면 제품 프로필의 이름을 선택하십시오. |
 | [!UICONTROL Product] | 제품 프로필과 연관된 제품입니다. 열은 A->Z, Z->A로 정렬할 수 있습니다. |
 | [!UICONTROL Instance] | 제품 프로필과 연계된 인스턴스(예: 테넌트 또는 로그인 회사)입니다. 고유 인스턴스 또는 테넌트가 없는 제품은 값에 &quot; - &quot;를 표시합니다. 열은 A->Z, Z->A로 정렬할 수 있습니다. |
@@ -123,7 +123,7 @@ ht-degree: 75%
 * 여러 필터를 적용하여 제품 프로필을 특정 기준으로 나열하려면 **[!UICONTROL Filter By]** 아이콘을 클릭합니다. 여러 필터 카테고리가 적용되면 검색에 그룹 연관 `AND` 인스턴스 `AND` 솔루션이 포함됩니다.
 
 | 요소 | 설명 |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Instance] 필터 | 인스턴스 열에서 문자 문자열을 검색하여 결과를 하나 또는 여러 인스턴스로 좁힐 수 있습니다. 각 검색어 뒤에 Enter 키를 눌러 여러 필터를 추가하십시오. |
 | [!UICONTROL Solution] 필터 | 사용 가능한 애플리케이션 중에서 선택합니다. 여러 애플리케이션 필터가 솔루션 1 `OR` 솔루션 2가 포함된 결과를 검색합니다. |
 
@@ -156,7 +156,7 @@ ht-degree: 75%
 이 섹션에는 제품 프로필에 할당된 모든 사용자, 사용자 그룹, 개발자, 통합 및 관리자의 전체 목록이 표시됩니다.
 
 | 탭 | 설명 |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Users] | 제품 프로필에 포함된 사용자 목록입니다. 사용자 그룹 연결이 [!UICONTROL Assigned by group] 열에 나타납니다. |
 | [!UICONTROL User Groups] | 제품 프로필과 연결된 사용자 그룹 목록입니다. |
 | [!UICONTROL Developers] | 제품 프로필과 연결된 개발자 목록입니다. |

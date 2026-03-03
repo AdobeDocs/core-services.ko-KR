@@ -24,7 +24,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 646
 ht-degree: 78%
@@ -72,7 +72,7 @@ Experience Cloud의 [!UICONTROL Triggers]을(를) 사용하면 주요 소비자 
 1. 다음 필드를 작성하고 지표 및 차원 항목을 규칙 컨테이너로 드래그하여 트리거를 구성합니다.
 
    | 요소 | 설명 |
-   |--- |--- |
+   | --- | --- |
    | [!UICONTROL Name] | 이 트리거의 이름입니다. |
    | [!UICONTROL Description] | 이 트리거 및 이를 사용하는 방법 등에 대한 설명입니다. |
    | [!UICONTROL Report Suite] | 이 트리거에서 사용하는 Analytics [보고서 세트](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=ko-KR) 입니다. 이 설정은 사용할 보고 데이터를 식별합니다. |

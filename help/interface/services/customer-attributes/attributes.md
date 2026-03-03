@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 306
 ht-degree: 55%
@@ -57,7 +57,7 @@ Adobe Experience Cloud의 [!DNL Customer Attributes]을(를) 사용하면 고객
 예:
 
 | 솔루션 | 장점 및 사용 사례 |
-|--- |--- |
+| --- | --- |
 | Adobe Analytics | 마케터와 분석가는 다음과 같은 사항을 이해할 수 있습니다.<ul><li>Gold 수준 고객에게 가장 효과적인 온라인 캠페인.</li><li>Gold 수준 고객이 검색하는 제품과 Platinum 수준 고객이 검색하는 제품.</li><li>사이트 재디자인이 이전 고객의 전환율에 긍정적인 영향을 주고 있는지 여부.</li><li>낮은 라이프타임 값을 갖는 고객이 내 사이트에서 나타내는 제품 검색 경향.</li></ul> |
 | Adobe Target | 속성 데이터를 사용하면 Adobe Target 사용자가 다음을 수행할 수 있습니다.<ul><li>로열티 클럽 멤버에게 특별한 할인 및 특별 제공 서비스를 보여 줍니다.</li><li>고급 상품을 선호하는 고객에게 고가의 제품을 권장합니다.</li><li>이미 이메일을 받는 고객의 경우 이메일 등록용으로 예약된 공간에 상향 판매 제공 서비스를 보여 줍니다.</li></ul> |
 

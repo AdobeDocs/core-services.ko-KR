@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 396
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 Adobe Experience Platform Web SDK은 쿠키를 사용하여 구현에 따른 값을 저장합니다.
 
 | 이름 | 최대 나이 | 크기 | 설명 |
-|---|---|---|---|
+| ---| ---| ---| ---|
 | **`AMCV_###@AdobeOrg`** | 34128000(395일) | 100-120바이트(변수) | [`idMigrationEnabled`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)이(가) 활성화된 경우 표시됩니다. 사이트의 일부 부분이 여전히 `visitor.js`을(를) 사용하는 동안 웹 SDK으로 전환하는 데 도움이 됩니다. 웹 SDK은 마이그레이션 중에 이 쿠키를 읽고 씁니다. |
 | **`demdex`** | 15552000(180일) | 다양함 | Audience Manager ID 동기화가 활성화된 경우 표시됩니다. Audience Manager은 고유 ID를 할당하고 ID 동기화, 세그먼테이션, 모델링 및 보고를 지원하도록 이 쿠키를 설정합니다. `demdex`Audience Manager 쿠키[의 &#x200B;](audience-manager.md)을(를) 참조하십시오. |
 | **`kndctr_<orgId>_identity`** | 34128000(395일) | 100-120바이트(변수) | 해당 장치에 대한 ECID 및 기타 관련 정보를 저장합니다. |

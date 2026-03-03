@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 788
 ht-degree: 6%
@@ -43,7 +43,7 @@ Experience Cloud 환경 설정을 찾으려면 헤더에서 **[!UICONTROL Profil
 [!UICONTROL Experience Cloud preferences] 페이지에서 다음 계정 기능을 관리할 수 있습니다.
 
 | 기능 | 설명 |
-|--- |--- |
+| --- | --- |
 | [!UICONTROL Profile] | [Adobe 계정 프로필](https://account.adobe.com/kr/profile)을 업데이트합니다. <p>Adobe.com, Adobe 제품 및 서비스, [!DNL Behance]과(와) 같은 공개 사이트에 로그인하면 프로필 사진과 이름이 표시됩니다. |
 | [!UICONTROL General] | [조직](../administration/organizations.md)을(를) 선택하십시오.<p>이 조직은 Experience Cloud에 로그인할 때 사용되는 기본 조직입니다. |
 | [!UICONTROL Product usage data] | Experience Cloud 애플리케이션을 사용할 때 Adobe과 공유되는 제품 사용 데이터를 제어할 수 있습니다. 이는 조직의 콘텐츠나 데이터 자체가 아니라 당사 제품을 사용하는 방식에 대한 데이터입니다. Adobe은 이 정보를 사용하여 당사의 제품을 개선하고, 향상된 제품 내 지원을 제공하며, 당사의 경험과 커뮤니케이션을 개인화합니다. <p>자세한 내용은 [제품 사용 데이터](#product-usage-data)(이 페이지)를 참조하세요. |

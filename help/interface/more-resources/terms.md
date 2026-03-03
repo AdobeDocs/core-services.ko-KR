@@ -23,7 +23,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1218
 ht-degree: 96%
@@ -35,7 +35,7 @@ ht-degree: 96%
 Experience Cloud 사용자를 위한 용어 참조 및 Creative Cloud에서 그러한 용어를 사용하는 방법을 설명합니다(해당하는 경우).
 
 | 용어 | Creative Cloud | Experience Cloud |
-|--- |----- |---- |
+| --- | ----- | ---- |
 | **자산** | Creative Cloud에서 자산은 일반적으로 이미지 파일입니다.<br>자산은 Photoshop 파일의 레이어, PowerPoint 파일의 슬라이드, PDF의 페이지, ZIP에 들어 있는 파일일 수 있습니다. | Experience Cloud에서 자산은 디지털 문서, 이미지, 비디오 또는 오디오 파일로, 다양한 렌디션과 하위 자산을 가질 수 있습니다. 해당 예는 다음과 같습니다.<ul><li>파일</li><li>문서</li><li>이미지</li><li>비디오</li><li>오디오 클립</li><li>프레젠테이션</li><li>이미지 템플릿</li><li>비디오 템플릿</li></ul> |
 | **속성** | | 사람들이 [세그먼트](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko)에 대한 자격이 되는 경우 공통으로 가지는 사항. (Audience Manager의 [트레이트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=ko)와 비슷합니다.) |
 | **대상자** | Creative Cloud에서 대상자는 비디오를 보는 사람이 될 수 있습니다. | Experience Cloud에서 대상자란 사용자가 캠페인 활동에서 타겟팅할 수 있는 사람의 컬렉션을 의미합니다.<br>대상자의 멤버십은 방문자의 컨텍스트에 따라 작동하는 규칙 세트 또는 고정된 목록을 기반으로 결정할 수 있습니다. Facebook 그룹의 이메일 구독자 또는 멤버 목록을 예로 들 수 있습니다.<br> [Experience Cloud Audiences](../services/audiences/overview.md)에서 대상자를 만들고 관리하는 것은 Experience Cloud에 공유하는 기능을 추가하여 세그먼트를 만들고 사용하는 것과 비슷합니다.<br>**Adobe Target**<br> Adobe Target에서 대상자는 이전에 세그먼트라고 불렀습니다.<br>**Adobe Analytics**<br> Analytics에서 대상자는 웹 사이트 방문자로 생각할 수 있습니다. 대상자 세그먼트를 만들고 대상자를 Experience Cloud에 게시할 수 있습니다. |

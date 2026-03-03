@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 684
 ht-degree: 70%
@@ -53,7 +53,7 @@ ht-degree: 70%
 다음 테이블에서는 Experience Cloud 애플리케이션에서 대상자가 어떻게 사용되는지에 대해 설명합니다.
 
 | 솔루션 | 설명 |
-|--- |--- |
+| --- | --- |
 | Experience Cloud 대상자 | 대상 라이브러리를 사용하여 대상을 기본적으로 만들고, 관리하고, 공유합니다. 다음과 같은 작업을 수행할 수 있습니다.<ul><li>원시 분석 속성을 사용하여 실시간 대상을 사용합니다.</li><li>대상을 결합하여 복합 대상을 만들고 실시간 및 내역 데이터 연결.</li><li>예상 대상 크기의 그래픽 보기를 참조하십시오.</li></ul><br>만들려는 대상자 유형에 대한 추천 사항은 [대상자 만들기 옵션](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ko)을 참조하십시오. |
 | Analytics | 세분화에서 세그먼트를 빌드하여 보고서 세트와 함께 결합한 다음 세그먼트를 Experience Cloud에 게시할 수 있습니다. 세그먼트를 게시하면 Experience Cloud의 [!DNL Audience Library] 페이지에 표시됩니다. 자세한 내용은 [&#x200B; 도움말의 &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)Experience Cloud에 세그먼트 게시[!DNL Analytics]를 참조하십시오. 대상자는 [!DNL Adobe Target] 및 [!DNL Audience Manager]에서 전달된 캠페인 경험의 타깃팅된 대상으로도 사용할 수 있습니다. [!DNL Adobe Analytics]에서 대상을 공유하고 활성 캠페인에서 사용하도록 선택하면 지난 90일 동안 세그먼트 정의 기준을 충족한 방문자 프로필이 [!UICONTROL Audience Services]&#x200B;(으)로 전송됩니다. 공유 대상자에 대한 제한이 75개로 늘어났습니다. [!DNL Analytics]에서 Experience Cloud로 공유하는 대상자는 2천만 명의 고유 멤버를 초과할 수 없습니다. 또한 캐싱으로 인해, Analytics에서 삭제된 보고서 세트는 삭제가 Experience Cloud에 표시되는 데 12시간이 필요합니다. |
 | Mobile Services | [!UICONTROL Device Types] 보고서의 Sunburst 시각화를 사용하여 모바일 트래픽을 분석합니다. |
@@ -78,7 +78,7 @@ ht-degree: 70%
 
 
 | 요소 | 설명 |
-|--- |--- |
+| --- | --- |
 | 신규 | [대상자 만들기](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/audiences/create). |
 | 제목 및 설명 | 대상자를 식별하고 설명하는 열 머리글입니다. |
 | 작성자 | 대상자 세그먼트를 만든 사용자입니다. |
