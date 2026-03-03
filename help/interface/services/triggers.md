@@ -45,7 +45,7 @@ Experience Cloud의 [!UICONTROL Triggers]을(를) 사용하면 주요 소비자 
 
 >[!NOTE]
 >
->[!UICONTROL Triggers] 사용에 대한 자세한 내용은 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)에서 확인할 수 있습니다.
+>[!UICONTROL Triggers] 사용에 대한 자세한 내용은 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=ko)에서 확인할 수 있습니다.
 
 ## 트리거 유형
 
@@ -83,7 +83,7 @@ Experience Cloud의 [!UICONTROL Triggers]을(를) 사용하면 주요 소비자 
    {style="table-layout:auto"}
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-1. [!DNL Adobe Campaign]에서 [실시간 재마케팅](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)에 트리거를 사용합니다.
+1. [!DNL Adobe Campaign]에서 [실시간 재마케팅](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=ko)에 트리거를 사용합니다.
 
 ## 예제 트리거
 
