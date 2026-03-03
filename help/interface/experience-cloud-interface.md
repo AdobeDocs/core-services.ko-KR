@@ -104,7 +104,7 @@ Experience Cloud 검색을 통해 [Experience League](https://experienceleague.a
 
 Experience Cloud 환경 설정에는 알림, 구독 및 경고가 포함됩니다.
 
-* 환경 설정을 관리하려면 계정 메뉴 **[!UICONTROL Preferences]**&#x200B;환경 설정![에서 ](assets/preferences-icon-sm.png)을(를) 클릭하십시오.
+* 환경 설정을 관리하려면 계정 메뉴 **[!UICONTROL Preferences]**&#x200B;환경 설정![에서 &#x200B;](assets/preferences-icon-sm.png)을(를) 클릭하십시오.
 
 ![Experience Cloud 관리](assets/preferences-page.png)
 
