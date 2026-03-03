@@ -8,26 +8,13 @@ role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
 TQID: https://experienceleague.adobe.com/2IL6hUlA1oNxJIFMwbVQUbxEGkJoghVUTyMi5wSRBsE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: e1eba07e-ab89-466f-9ab5-ceb891d7a67d
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: dc42f745-24d2-44a4-99c3-dece518fa4bc
-  - id: eaef3029-0844-43fe-9e1c-7666a24f4d03
-  - id: eb1ae5c4-ef16-4998-851c-73cc9f0b7f06
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: e1eba07e-ab89-466f-9ab5-ceb891d7a67did: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: dc42f745-24d2-44a4-99c3-dece518fa4bcid: eaef3029-0844-43fe-9e1c-7666a24f4d03id: eb1ae5c4-ef16-4998-851c-73cc9f0b7f06id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 788
 ht-degree: 6%
@@ -43,7 +30,7 @@ Experience Cloud 환경 설정을 찾으려면 헤더에서 **[!UICONTROL Profil
 [!UICONTROL Experience Cloud preferences] 페이지에서 다음 계정 기능을 관리할 수 있습니다.
 
 | 기능 | 설명 |
-|--- |--- |
+| --- | --- |
 | [!UICONTROL Profile] | [Adobe 계정 프로필](https://account.adobe.com/kr/profile)을 업데이트합니다. <p>Adobe.com, Adobe 제품 및 서비스, [!DNL Behance]과(와) 같은 공개 사이트에 로그인하면 프로필 사진과 이름이 표시됩니다. |
 | [!UICONTROL General] | [조직](../administration/organizations.md)을(를) 선택하십시오.<p>이 조직은 Experience Cloud에 로그인할 때 사용되는 기본 조직입니다. |
 | [!UICONTROL Product usage data] | Experience Cloud 애플리케이션을 사용할 때 Adobe과 공유되는 제품 사용 데이터를 제어할 수 있습니다. 이는 조직의 콘텐츠나 데이터 자체가 아니라 당사 제품을 사용하는 방식에 대한 데이터입니다. Adobe은 이 정보를 사용하여 당사의 제품을 개선하고, 향상된 제품 내 지원을 제공하며, 당사의 경험과 커뮤니케이션을 개인화합니다. <p>자세한 내용은 [제품 사용 데이터](#product-usage-data)(이 페이지)를 참조하세요. |
@@ -106,7 +93,7 @@ Adobe은 이 정보를 사용하여 당사의 제품을 개선하고, 제품 내
 
 ### [!DNL Slack]에서 권한 요청(문제 해결)
 
-[!DNL Slack]이(가) 설치되지 않은 경우 _[!UICONTROL Request to install]_&#x200B;을(를) 클릭한 후 Slack이 열리면&#x200B;**[!UICONTROL Add to Slack]**&#x200B;메시지가 표시됩니다. 예:
+[!DNL Slack]이(가) 설치되지 않은 경우 _[!UICONTROL Request to install]_을(를) 클릭한 후 Slack이 열리면&#x200B;**[!UICONTROL Add to Slack]**메시지가 표시됩니다. 예:
 
 ![Slack 통합 요청](../assets/slack-workspace.png)
 

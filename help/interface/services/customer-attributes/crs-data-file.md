@@ -8,18 +8,12 @@ role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
 TQID: https://experienceleague.adobe.com/v3ssxsKeUGWeikG4GxFRp8WgRRwCZIOILShX73blwPU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1149
 ht-degree: 64%
@@ -37,7 +31,7 @@ ht-degree: 64%
 ## 허용되는 파일 형식 및 이름 지정 요구 사항
 
 | 파일 유형 | 설명 |
-|--- |--- |
+| --- | --- |
 | `.csv` | 쉼표로 구분된 값 파일(예: Excel에서 만든 파일)입니다. 이 파일에는 고객 속성 데이터가 포함되어 있습니다.   이름 지정 요구 사항: 파일 이름 확장명에 공백이 들어 있지 않은지 확인하십시오. |
 | `.fin` | (필수) `.fin` 파일은 데이터 업로드를 끝냈음을 시스템에 알립니다. `.fin` 파일의 이름은 `.csv` 파일의 이름과 일치해야 합니다.  Adobe에서는 확장명이 `.fin`인 빈 텍스트 파일을 만들 것을 권장합니다. 빈 파일을 사용하면 공간 및 업로드 시간이 절약됩니다. **참고:** 업로드 후에는 `.fin` 파일 이름을 바꿀 수 없습니다. `.fin` 파일은 따로 업로드해야 하며 이전에 업로드한 파일을 이름 변경 후 사용할 수 없습니다. 고객 특성 FTP에서 `.fin` 파일을 업로드하면 시스템이 데이터를 빠르게(1분 이내) 검색합니다. 이 경우 데이터를 덜 자주(시간당 약 한 번) 선택하는 다른 Adobe FTP 기반 시스템과 다릅니다. 드래그 앤 드롭 업로드 방법을 사용할 때는 `.fin` 파일이 필요하지 않습니다. |
 | `.gz` 또는 `.zip` | `.gz`(gzip) 또는 `.zip` - 압축된 파일용. `.zip` 파일은 보관 위치에 둘 이상의 파일을 포함할 수 없습니다. 이름 지정 요구 사항: `.zip` 또는 `.gz`의 이름은 `.csv` 파일의 이름과 일치해야 합니다. 예를 들어 `.csv` 파일이 `crm_small.csv`이면 `.zip` 파일은 `crm_small.csv.zip` 이어야 합니다. `.fin` 파일은 `.csv`과(와) 일치해야 합니다. |
@@ -70,7 +64,7 @@ CSV 파일은 다음 형식을 따라야 합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>고객 ID 열 </p> </td> 
-   <td colname="col2"> <p> 첫 번째 열은 고유한 고객 ID여야 합니다. 사용된 ID는 Experience Cloud ID 서비스에 전달되는 ID에 해당해야 합니다. </p> <p>Analytics의 경우 prop 또는 eVar에 저장되는 ID입니다. </p> <p>Target의 경우 setcustomerID 값입니다. </p> <p> 이 고객 ID는 CRM가 데이터베이스의 각 사용자에 대해 사용하는 고유한 식별자입니다. 나머지 열은 CRM에서 가져오는 속성입니다. 업로드할 속성의 수를 선택합니다. </p> <p>열 제목에는 읽을 수 있는 친근한 이름이 권장되지만 필수는 아닙니다. 업로드 후에 스키마의 유효성을 검사할 때 업로드한 행 및 열에 친근한 이름을 매핑할 수 있습니다. </p> <p> <b>고객 ID 정보</b> </p> <p>일반적으로 기업에서는 CRM 시스템의 고객 ID를 사용합니다. 이 ID는 사용자가 로그인할 때 <span class="codeph"> setcustomerID </span> 호출을 사용하여 설정됩니다. 이 ID는 Experience Cloud에 업로드된 CRM 파일의 키로도 사용됩니다. <a href="t-crs-usecase.md" format="dita" scope="local">별칭 ID</a>는 Audience Manager에서 별칭 데이터가 저장되는 데이터 저장소용의 친근한 이름입니다. 시스템에서는 별칭을 이 데이터 저장소(setcustomerID를 통해)로 보냅니다. CRM 파일은 이 데이터 저장소의 데이터에 적용됩니다. </p> <p><span class="codeph"> setcustomerID </span> 정보에 대해서는 <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko" format="https" scope="external"> 고객 ID 및 인증 상태 </a>을(를) 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 첫 번째 열은 고유한 고객 ID여야 합니다. 사용된 ID는 Experience Cloud ID 서비스에 전달되는 ID에 해당해야 합니다. </p> <p>Analytics의 경우 prop 또는 eVar에 저장되는 ID입니다. </p> <p>Target의 경우 setcustomerID 값입니다. </p> <p> 이 고객 ID는 CRM가 데이터베이스의 각 사용자에 대해 사용하는 고유한 식별자입니다. 나머지 열은 CRM에서 가져오는 속성입니다. 업로드할 속성의 수를 선택합니다. </p> <p>열 제목에는 읽을 수 있는 친근한 이름이 권장되지만 필수는 아닙니다. 업로드 후에 스키마의 유효성을 검사할 때 업로드한 행 및 열에 친근한 이름을 매핑할 수 있습니다. </p> <p> <b>고객 ID 정보</b> </p> <p>일반적으로 기업에서는 CRM 시스템의 고객 ID를 사용합니다. 이 ID는 사용자가 로그인할 때 <span class="codeph"> setcustomerID </span> 호출을 사용하여 설정됩니다. 이 ID는 Experience Cloud에 업로드된 CRM 파일의 키로도 사용됩니다. <a href="t-crs-usecase.md" format="dita" scope="local">별칭 ID</a>는 Audience Manager에서 별칭 데이터가 저장되는 데이터 저장소용의 친근한 이름입니다. 시스템에서는 별칭을 이 데이터 저장소(setcustomerID를 통해)로 보냅니다. CRM 파일은 이 데이터 저장소의 데이터에 적용됩니다. </p> <p><span class="codeph"> setcustomerID </span> 정보에 대해서는 <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> 고객 ID 및 인증 상태 </a>을(를) 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>후속 머리글 및 열 </p> </td> 
@@ -148,7 +142,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-자세한 내용은 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)를 참조하십시오.
+자세한 내용은 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)를 참조하십시오.
 
 **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]**&#x200B;에서:
 
