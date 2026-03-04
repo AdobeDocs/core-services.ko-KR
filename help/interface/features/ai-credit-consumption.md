@@ -6,9 +6,9 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 6b2afaab5949f7246825aa3d19180f6de9c10848
+source-git-commit: ae927640b65458cb1c0df1a817207220f7dfe0ec
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1005'
 ht-degree: 4%
 
 ---
@@ -64,5 +64,6 @@ AI 크레딧 사용은 실행된 작업의 복잡성과 가치에 따라 달라�
 
 ## 이 항목에 대한 추가 도움말
 
+* [Experience Cloud의 GenAI](/help/interface/features/generative-ai.md)
 * [Experience Cloud의 아젠틱 AI](/help/interface/features/agentic-ai.md)
 * [Adobe Experience Platform 에이전트 사용 바인딩된 평가판](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
