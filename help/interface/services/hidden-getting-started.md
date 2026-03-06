@@ -70,7 +70,7 @@ Experience Cloud에 로그인하려면 귀하의 사용자는
 
 [!UICONTROL Experience Cloud ID Service]은(는) 응용 프로그램 간 통합을 위한 공통 ID를 제공합니다. [!DNL Customer Attributes]을(를) 통해 업로드된 CRM 데이터를 기반으로 도메인 간 방문자 식별 및 장치/브라우저 간 타깃팅 및 개인화를 위한 경로를 제공합니다.
 
-Experience Cloud 핵심 서비스를 사용하는 가장 간단한 방법은 [의 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)Experience Cloud ID 서비스 확장[!UICONTROL Experience Platform Launch]을 통해 Analytics 및 Adobe Target에 대해 자동으로 활성화하는 것입니다.
+Experience Cloud 핵심 서비스를 사용하는 가장 간단한 방법은 [의 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)Experience Cloud ID 서비스 확장[!UICONTROL Experience Platform Launch]을 통해 Analytics 및 Adobe Target에 대해 자동으로 활성화하는 것입니다.
 
 전체 Experience Cloud ID 서비스 도움말(이전의 방문자 ID)를 보려면 [여기](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html#intro)로 이동하십시오.
 
@@ -131,7 +131,7 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스)는 개별 Analyti
 
 ## Adobe Target 구현 업데이트 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* 라이브러리 검색이 자동으로 수행되도록 [ 태그에 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html)Adobe Target 확장[!UICONTROL Experience Platform]을 추가하는 것이 좋습니다. [ 태그를 사용하여 Adobe Target(및 기타 응용 프로그램)용 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)Experience Cloud ID 서비스 확장[!UICONTROL Experience Platform]을 설정할 수도 있습니다. Adobe Target에서 People 서비스를 사용하려면 [!UICONTROL Experience Cloud ID Service] 업데이트 **이(가) 필요합니다**.
+* 라이브러리 검색이 자동으로 수행되도록 [&#x200B; 태그에 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html)Adobe Target 확장[!UICONTROL Experience Platform]을 추가하는 것이 좋습니다. [&#x200B; 태그를 사용하여 Adobe Target(및 기타 응용 프로그램)용 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)Experience Cloud ID 서비스 확장[!UICONTROL Experience Platform]을 설정할 수도 있습니다. Adobe Target에서 People 서비스를 사용하려면 [!UICONTROL Experience Cloud ID Service] 업데이트 **이(가) 필요합니다**.
 * [!UICONTROL Experience Platform] 태그를 사용하지 않는 경우 [mbox 라이브러리를 수동으로 업데이트](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html)하십시오.
 * [!DNL Adobe Target]에 대한 보고 소스로 Adobe Analytics를 사용하기 위한 액세스 권한을 요청하십시오. [!DNL Target] 및 [!DNL Analytics] 데이터가 처리 중에 동일한 서버 호출에 결합되므로 방문자가 두 애플리케이션 간에 연결됩니다. [Analytics for Target 구현](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)을 참조하십시오.
 
