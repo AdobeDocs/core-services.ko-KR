@@ -31,16 +31,16 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5e92058e4a48555f2588d93dfd46fb289e477bda
+source-git-commit: 5f4f7b872f6b7bb6963faa7d0c6368137c439cfc
 workflow-type: tm+mt
-source-wordcount: 891
+source-wordcount: 892
 ht-degree: 5%
 
 ---
 
 # Adobe Experience Cloud의 아젠틱 AI
 
-업데이트 날짜: **2026년 3월 4일 목요일**
+업데이트 날짜: **2026년 3월 5일 금요일**
 
 Adobe Experience Platform 에이전트는 [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/home)에서 제공하는 기능을 통해 Experience Cloud 애플리케이션에서 에이전트 AI 기능을 활성화합니다.
 
@@ -63,7 +63,7 @@ Experience Cloud의 AI 에이전트에 대한 액세스 권한은 다음 중 하
 * 사용 제한 평가판(제공된 제한된 AI 크레딧)에 포함됩니다
 * Agent Orchestrator Promo SKU(시간 제한 체험판 라이선스)를 거래했습니다.
 
-AI 에이전트를 사용하여 _에이전트 작업_&#x200B;을 수행하면 AI 크레딧이 사용됩니다. _[에이전트 작업 및 AI 크레딧 사용](/help/interface/features/ai-credit-consumption.md)_&#x200B;에서 에이전트 작업 및 AI 크레딧에 대해 자세히 알아보세요.
+AI 에이전트를 사용하여 _에이전트 작업_&#x200B;을 수행하면 AI 크레딧이 사용됩니다. [에이전트 작업 및 AI 크레딧 사용](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/ai-credit-consumption)에서 에이전트 작업 및 AI 크레딧에 대해 자세히 알아보세요.
 
 AI 에이전트는 _사용자_ 입력, 감독을 따르며 제품 수준의 액세스 제어를 준수합니다. 기본 Experience Cloud 애플리케이션에서 사용하도록 승인된 작업이나 데이터에만 액세스할 수 있습니다.
 

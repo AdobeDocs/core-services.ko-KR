@@ -2,7 +2,7 @@
 title: 사용자 및 사용자 세부 정보 보기
 description: Experience Cloud의 관리 도구에 대해 알아봅니다. 모든 Experience Cloud 사용자 및 정책의 정렬과 필터링 가능한 목록을 봅니다.
 application: Experience Cloud
-index: yes
+index: true
 feature: Admin Console
 topic: Administration
 role: Admin
@@ -15,7 +15,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
 workflow-type: tm+mt
 source-wordcount: 1182
 ht-degree: 75%
