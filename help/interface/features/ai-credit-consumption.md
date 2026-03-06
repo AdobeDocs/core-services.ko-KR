@@ -6,7 +6,7 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: fb09e31069b1eb9f035c115d89b4cd8b4a090583
+source-git-commit: 6a7cd999ec96967084c67d059cb2efd6a3235235
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Adobe Experience Platform 에이전트 작업 및 AI 크레딧 소비
 
-업데이트 날짜: **2026년 3월 4일 목요일**
+업데이트 날짜: **2026년 3월 5일 금요일**
 
 Experience Cloud 애플리케이션의 아젠틱 AI 작업 및 AI 신용 사용에 대해 알아봅니다. 기존 Experience Cloud 애플리케이션에서 Agentic AI 기능을 활성화하는 방법에 대한 자세한 내용은 [Experience Cloud의 Agentic AI](agentic-ai.md#existing-apps)를 참조하십시오.
 
