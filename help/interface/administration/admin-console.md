@@ -20,9 +20,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 916a0c84a0a3e86ffccc101c84006b45e683ea8e
 workflow-type: tm+mt
-source-wordcount: 750
+source-wordcount: 747
 ht-degree: 7%
 
 ---
@@ -62,7 +62,7 @@ Experience Cloud 응용 프로그램에 대한 ID 및 제품 라이선스를 관
 
 | 도움말 링크 | 설명 |
 | ------- | ------- |
-| [Adobe ID 재설정](https://helpx.adobe.com/kr/manage-account/kb/account-password-sign-help.html) | 로그아웃한 다음 **[!UICONTROL Get help signing in]** > **[!UICONTROL Reset your password]**&#x200B;을(를) 클릭합니다. |
+| [Adobe ID 재설정](https://helpx.adobe.com/kr/account/individual/sign-in-and-security/security-and-recovery/cant-sign-in-to-adobe-account.html) | 로그아웃한 다음 **[!UICONTROL Get help signing in]** > **[!UICONTROL Reset your password]**&#x200B;을(를) 클릭합니다. |
 | [여러 사용자 관리](https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** <br>Admin Console에 CSV 일괄 업로드를 통해 여러 사용자를 관리하는 방법을 알아봅니다. |
 | [ID 유형](https://helpx.adobe.com/kr/enterprise/using/identity.html) | ID 유형을 사용하면 조직이 사용자의 계정 및 데이터를 다양한 수준으로 제어할 수 있습니다. 선택한 ID 모델은 조직이 자산을 저장하고 공유하는 방식에 영향을 줍니다. Federated ID 및 Enterprise ID 모델은 조직에서 만들고 관리하는 반면 Adobe ID는 개인이 만들고 관리합니다. |
 | [사용자 동기화 도구](https://helpx.adobe.com/kr/enterprise/using/user-sync.html)&#x200B;(UST) | Adobe 사용자 동기화 도구는 조직의 ID 관리 시스템(예: Active Directory)과 Adobe Admin Console 간의 사용자 데이터 동기화를 자동화하는 데 사용되는 데스크탑 애플리케이션입니다. 관리자는 이 도구를 사용하여 Adobe 제품 전반에 대한 사용자 프로비저닝, 업데이트 및 비활성화를 간소화할 수 있습니다. |
@@ -102,11 +102,11 @@ Experience Cloud 응용 프로그램에 대한 ID 및 제품 라이선스를 관
 
  -->
 
-* [Advertising 검색, 소셜 및 Commerce](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/new-ui/user-administration)
+* [Advertising 검색, 소셜 및 Commerce](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/target/user-administration)
 * [Analytics](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-console/home)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/workspace-faq/frequently-asked-questions-analysis-workspace)
 * [Audience Manager](https://experienceleague.adobe.com/ko/docs/audience-manager/user-guide/features/administration/admin-console-migration)
-* [Campaign v8](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/gs-permissions)
+* [Campaign v8](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/permissions/gs-permissions)
 * [Campaign Standard](https://experienceleague.adobe.com/ko/docs/campaign-web/acs-to-ac/user-management-acs)
 * [상거래](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/ims/adobe-ims-config)
 * [Dynamic Media Classic](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/setup/administration-setup#user_administration)
@@ -119,7 +119,6 @@ Experience Cloud 응용 프로그램에 대한 ID 및 제품 라이선스를 관
 * [Marketo Engage](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/marketo-with-adobe-identity/subscription-and-user-migration/understanding-marketo-subscription-and-user-migration-to-the-adobe-admin-console)
 * [Marketo Measure](https://experienceleague.adobe.com/ko/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup)
 * [Mix Modeler](https://experienceleague.adobe.com/ko/docs/mix-modeler/using/data-governance/access-controls)
-* [Adobe Pass](https://experienceleague.adobe.com/en/docs/pass/aiq-help/get-started)
 * [Target](https://experienceleague.adobe.com/ko/docs/target/using/administer/start-target)
 * [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console)
 
