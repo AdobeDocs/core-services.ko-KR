@@ -35,7 +35,7 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 06923be2a98a9301a3d3e16c47c50cd34f7a05e9
 workflow-type: tm+mt
 source-wordcount: 2476
 ht-degree: 8%
@@ -82,7 +82,8 @@ Experience Cloud의 Generative AI(genAI)는 창의적 및 인지적 작업을 �
 
 ### 생성형 AI
 
-<!-- | Product | Key AI features | Firefly Compatibility |
+<!--
+| Product | Key AI features | Firefly Compatibility |
 | ----------------| -----------------| ---------|
 | GenStudio for Performance Marketing | Create personalized, on-brand content | Yes |
 | Adobe Experience Manager (AEM CS) | Generate Variations, Sites Optimizer GenAI, Content Hub, Smart Tags | Yes |
@@ -95,7 +96,8 @@ Experience Cloud의 Generative AI(genAI)는 창의적 및 인지적 작업을 �
 | Customer Journey Analytics | AI Assistant, Intelligent Captions, Content Analytics | No |
 | Real-Time CDP | AI Assistant for product knowledge and operational insights | No |
 | Marketo | Email Designer, Dynamic Chat, Interactive Webinars | Yes |
-| Workfront | AI Assistant for work management and recommendations | Yes | -->
+| Workfront | AI Assistant for work management and recommendations | Yes |
+-->
 
 | **제품 이름** | **주요 GenAI 기능** | **Firefly 호환성** |
 | ------------------| -------------------------| -------------------|
@@ -405,8 +407,10 @@ Marketo은 GenStudio for Performance Marketing과 통합됩니다
 
 +++
 
-<!-- ## More help on this topic
+<!--
+## More help on this topic
 
-* [AI in Experience Cloud](https://experienceleague.adobe.com/en/docs/ai) documentation home -->
+* [AI in Experience Cloud](https://experienceleague.adobe.com/en/docs/ai) documentation home
+-->
 
 **면책조항:** 이 페이지의 정보는 일반적인 정보 제공 용도로만 사용됩니다. 정보의 정확성과 최신 상태를 유지하기 위해 노력하지만 소프트웨어 및 생성 AI 기능은 자주 변경될 수 있습니다. 이에 따라 Adobe은 정보의 완전성, 정확성 또는 신뢰성을 항상 보증하지 않는다. 이 콘텐츠를 기반으로 결정을 내리기 전에 중요한 세부 정보를 확인하십시오.

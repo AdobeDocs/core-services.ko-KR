@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 06923be2a98a9301a3d3e16c47c50cd34f7a05e9
 workflow-type: tm+mt
 source-wordcount: 103
 ht-degree: 19%
@@ -25,9 +25,10 @@ ht-degree: 19%
 
 # 개인화된 학습 환경 설정
 
-Adobe은 Adobe 제품에서의 작업을 기반으로 개인화된 유용한 콘텐츠를 제공합니다. 제품 사용 데이터는 이 컨텍스트를 사용자에게 맞춤화하는 방법을 알려줍니다. [Experience Cloud 환경 설정](https://experience.adobe.com/preferences) 페이지에서 제품 사용 데이터를 공유하도록 옵트인하거나 옵트아웃할 수 있습니다.
+Adobe은 Adobe 제품에서의 작업을 기반으로 하여 개인화된 유용한 컨텐츠를 제공합니다. 제품 사용 데이터는 이 컨텍스트를 사용자에게 맞추는 방법을 알려줍니다. [Experience Cloud 환경 설정](https://experience.adobe.com/preferences) 페이지에서 제품 사용 데이터 공유를 옵트인하거나 옵트아웃할 수 있습니다.
 
-<!-- ## Personalized training and support recommendations for your Adobe products and services
+<!--
+## Personalized training and support recommendations for your Adobe products and services
 
 Receive relevant best practices, tips & tricks, helpful walk throughs, and more based on your use of your Adobe products in each of these three ways...
 
@@ -80,11 +81,13 @@ Receive tailored opportunities for learning events, research sessions, and integ
 </tbody>
 </table>
 
- -->
+-->
 
-<!-- [![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"} -->
+<!-- 
+[![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"} 
+-->
 
-## 사용자 지정된 학습 정보가 표시되는 모습의 예
+## 사용자 지정된 학습 정보가 표시되는 방식의 예
 
 ### Adobe 제품에서
 
