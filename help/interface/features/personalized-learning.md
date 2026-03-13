@@ -4,19 +4,12 @@ solution: Experience Cloud
 title: Experience Cloud 맞춤형 학습 환경 설정
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 TQID: https://experienceleague.adobe.com/XL454ZwYb9liDNLbDcA7ZYRG-8OHpwuQEmvHCo0q-j4
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 06923be2a98a9301a3d3e16c47c50cd34f7a05e9
 workflow-type: tm+mt
 source-wordcount: 103
 ht-degree: 19%
@@ -25,9 +18,10 @@ ht-degree: 19%
 
 # 개인화된 학습 환경 설정
 
-Adobe은 Adobe 제품에서의 작업을 기반으로 개인화된 유용한 콘텐츠를 제공합니다. 제품 사용 데이터는 이 컨텍스트를 사용자에게 맞춤화하는 방법을 알려줍니다. [Experience Cloud 환경 설정](https://experience.adobe.com/preferences) 페이지에서 제품 사용 데이터를 공유하도록 옵트인하거나 옵트아웃할 수 있습니다.
+Adobe은 Adobe 제품에서의 작업을 기반으로 하여 개인화된 유용한 컨텐츠를 제공합니다. 제품 사용 데이터는 이 컨텍스트를 사용자에게 맞추는 방법을 알려줍니다. [Experience Cloud 환경 설정](https://experience.adobe.com/preferences) 페이지에서 제품 사용 데이터 공유를 옵트인하거나 옵트아웃할 수 있습니다.
 
-<!-- ## Personalized training and support recommendations for your Adobe products and services
+<!--
+## Personalized training and support recommendations for your Adobe products and services
 
 Receive relevant best practices, tips & tricks, helpful walk throughs, and more based on your use of your Adobe products in each of these three ways...
 
@@ -80,11 +74,13 @@ Receive tailored opportunities for learning events, research sessions, and integ
 </tbody>
 </table>
 
- -->
+-->
 
-<!-- [![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"} -->
+<!-- 
+[![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"} 
+-->
 
-## 사용자 지정된 학습 정보가 표시되는 모습의 예
+## 사용자 지정된 학습 정보가 표시되는 방식의 예
 
 ### Adobe 제품에서
 
