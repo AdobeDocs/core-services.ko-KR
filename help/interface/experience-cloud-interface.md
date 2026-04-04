@@ -88,7 +88,7 @@ Experience Cloud 검색을 통해 [Experience League](https://experienceleague.a
 
 * **[!UICONTROL Support]:** 지원 티켓을 만들거나 Twitter를 사용하여 [!UICONTROL Support]에 문의하세요.
 * **[!UICONTROL Feedback]:** 피드백을 통해 Adobe에 연락하여 여러분의 의견을 보내 주세요.
-* **[!UICONTROL Status]:** `https://status.adobe.com/experience_cloud`(으)로 이동하여 제품 작동 상태 및 [!UICONTROL Manage Subscriptions]을(를) 확인합니다.
+* **[!UICONTROL Status]:** `https://status.adobe.com/ko-kr/experience_cloud`(으)로 이동하여 제품 작동 상태 및 [!UICONTROL Manage Subscriptions]을(를) 확인합니다.
 * **[!UICONTROL Developer Connection]:** `adobe.io`(으)로 이동하여 개발자 설명서를 찾습니다.
 
 ## 계정 환경 설정
