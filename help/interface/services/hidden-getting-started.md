@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 3571e84cb237a478d8a9bce3485bef0737d4043c
 workflow-type: tm+mt
-source-wordcount: '1919'
-ht-degree: 81%
+source-wordcount: '2092'
+ht-degree: 73%
 
 ---
 
@@ -33,7 +33,7 @@ Experience Cloud에 참여하기 위해 수행할 작업:
 
    >[!NOTE]
    >
-   >[!DNL Target]의 경우 `mbox.js`에서 at.js로 마이그레이션하십시오. [at.js 1.x에서 at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=ko)로 업그레이드를 참조하십시오.
+   >[!DNL Target]의 경우 `mbox.js`에서 at.js로 마이그레이션하십시오. [at.js에서 업그레이드 1을 참조하십시오. x에서 at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=ko)로 업그레이드를 참조하십시오.
 
 1. [!UICONTROL Admin Console]에서 사용자 및 제품을 관리합니다.
 
@@ -70,7 +70,7 @@ Experience Cloud에 로그인하려면 귀하의 사용자는
 
 [!UICONTROL Experience Cloud ID Service]은(는) 응용 프로그램 간 통합을 위한 공통 ID를 제공합니다. [!DNL Customer Attributes]을(를) 통해 업로드된 CRM 데이터를 기반으로 도메인 간 방문자 식별 및 장치/브라우저 간 타깃팅 및 개인화를 위한 경로를 제공합니다.
 
-Experience Cloud 핵심 서비스를 사용하는 가장 간단한 방법은 [의 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko)Experience Cloud ID 서비스 확장[!UICONTROL Experience Platform Launch]을 통해 Analytics 및 Adobe Target에 대해 자동으로 활성화하는 것입니다.
+Experience Cloud 핵심 서비스를 사용하는 가장 간단한 방법은 [!UICONTROL Experience Platform Launch]의 [Experience Cloud ID 서비스 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko)을 통해 Analytics 및 Adobe Target에 대해 자동으로 활성화하는 것입니다.
 
 전체 Experience Cloud ID 서비스 도움말(이전의 방문자 ID)를 보려면 [여기](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko#intro)로 이동하십시오.
 
@@ -131,7 +131,7 @@ Experience Cloud 서비스(예: Experience Cloud ID 서비스)는 개별 Analyti
 
 ## Adobe Target 구현 업데이트 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* 라이브러리 검색이 자동으로 수행되도록 [&#x200B; 태그에 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=ko)Adobe Target 확장[!UICONTROL Experience Platform]을 추가하는 것이 좋습니다. [&#x200B; 태그를 사용하여 Adobe Target(및 기타 응용 프로그램)용 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko)Experience Cloud ID 서비스 확장[!UICONTROL Experience Platform]을 설정할 수도 있습니다. Adobe Target에서 People 서비스를 사용하려면 [!UICONTROL Experience Cloud ID Service] 업데이트 **이(가) 필요합니다**.
+* 라이브러리 검색이 자동으로 수행되도록 [!UICONTROL Experience Platform] 태그에 [Adobe Target 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=ko)을 추가하는 것이 좋습니다. [!UICONTROL Experience Platform] 태그를 사용하여 Adobe Target(및 기타 응용 프로그램)용 [Experience Cloud ID 서비스 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko)을 설정할 수도 있습니다. Adobe Target에서 People 서비스를 사용하려면 [!UICONTROL Experience Cloud ID Service] 업데이트 **이(가) 필요합니다**.
 * [!UICONTROL Experience Platform] 태그를 사용하지 않는 경우 [mbox 라이브러리를 수동으로 업데이트](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=ko)하십시오.
 * [!DNL Adobe Target]에 대한 보고 소스로 Adobe Analytics를 사용하기 위한 액세스 권한을 요청하십시오. [!DNL Target] 및 [!DNL Analytics] 데이터가 처리 중에 동일한 서버 호출에 결합되므로 방문자가 두 애플리케이션 간에 연결됩니다. [Analytics for Target 구현](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko)을 참조하십시오.
 
@@ -164,9 +164,9 @@ mbox 요청의 Experience Cloud ID:
 
 Experience Cloud ID 서비스를 배포하면 새 방문자는 더 이상 데이터 수집 서버에서 Analytics Experience Cloud ID를 받지 않습니다. 사이트의 섹션이 ID 서비스를 아직 구현하지 않은 경우 방문자가 이러한 섹션으로 이동하면 Experience Cloud ID는 인식되지 않으며 방문자에게 이전 Analytics 방문자 ID가 지정됩니다. 이로 인해 중복 방문 및 잘못된 속성을 포함한 잠재적 문제가 발생할 수 있습니다.
 
-예를 들어 사이트의 지원 섹션에 별도의 CMS에서 관리되는 경우 이 섹션에 대해 다른 Analytics JavaScript 파일을 보유할 수 있습니다. Experience Cloud ID 서비스를 지원 사이트에 배포하기 전에 메인 사이트에 Experience Cloud ID 서비스를 배포하는 경우, 신규 방문자가 지원 섹션을 방문하면 레거시 Analytics ID를 받게 됩니다. 두 사이트 섹션에 걸쳐 일어난 방문은 서로 다른 방문으로 보고됩니다.
+예를 들어 사이트의 지원 섹션에 별도의 CMS에서 관리되는 경우 이 섹션에 대해 다른 Analytics JavaScript 파일을 보유할 수 있습니다. 지원 사이트에 ID 서비스를 배포하기 전에 기본 사이트에 Experience Cloud ID를 배포하는 경우 새 방문자가 지원 섹션을 방문하면 기존 Analytics ID를 받게 됩니다. 두 사이트 섹션에 걸쳐 있는 방문은 서로 다른 방문으로 보고됩니다.
 
-여러 JavaScript 파일 또는 기타 기술(예: Flash)을 사용하는 사이트에 Experience Cloud ID 서비스를 배포하면 조정 문제가 발생할 수 있습니다. 이러한 문제는 사이트의 모든 부분에서 동시에 Experience Cloud ID 서비스를 사용하도록 해야 하기 때문에 발생합니다. 유예 기간을 구성하면 신규 방문자가 ID 서비스에서 Analytics 방문자 ID를 계속 받게 되므로 방문자는 방문자 ID 서비스를 사용하도록 업그레이드되지 않은 사이트의 섹션에서 일관성 있게 식별될 수 있습니다.
+여러 JavaScript 파일 또는 기타 기술(예: Flash)을 사용하는 사이트에 Experience Cloud ID 서비스를 배포하면 조정 문제가 발생할 수 있습니다. 이러한 문제는 사이트의 모든 부분에서 동시에 Experience Cloud ID 서비스를 사용하도록 해야 하기 때문에 발생합니다. 유예 기간을 구성하면 새 방문자가 ID 서비스에서 Analytics 방문자 ID를 계속 받게 됩니다. 방문자는 방문자 ID 서비스를 사용하도록 업그레이드되지 않은 사이트의 섹션에서 일관되게 식별될 수 있습니다.
 
 ## 사용자 및 제품 관리 {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
 
