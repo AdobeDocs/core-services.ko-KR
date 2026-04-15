@@ -23,16 +23,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
 workflow-type: tm+mt
-source-wordcount: 642
-ht-degree: 67%
+source-wordcount: 656
+ht-degree: 66%
 
 ---
 
 # 설명서 업데이트
 
 Experience Cloud의 중앙 인터페이스 및 관리를 위해 설명서 업데이트가 발생하는 위치를 알아봅니다.
+
+**2026년 3월**
+
+[AI 작업 및 크레딧 사용량](../features/ai-credit-consumption.md)이 추가됨
 
 **2025년 11월**
 
