@@ -1,5 +1,5 @@
 ---
-description: Experience Cloud 트리거 구성 방법을 알아봅니다.
+description: CX Enterprise 트리거 구성 방법을 알아봅니다.
 solution: Experience Cloud
 title: 트리거 개요
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
@@ -24,16 +24,16 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 646
-ht-degree: 78%
+source-wordcount: 697
+ht-degree: 74%
 
 ---
 
-# Experience Cloud 트리거
+# CX Enterprise 트리거
 
-Experience Cloud의 [!UICONTROL Triggers]을(를) 사용하면 주요 소비자 행동을 식별, 정의 및 모니터링한 다음 교차 애플리케이션 커뮤니케이션을 생성하여 방문자를 다시 참여하도록 할 수 있습니다. 실시간 의사 결정 및 개인화에서 트리거를 사용할 수 있습니다.
+CX Enterprise의 [!UICONTROL Triggers]을(를) 사용하면 주요 소비자 행동을 식별, 정의 및 모니터링한 다음 교차 애플리케이션 커뮤니케이션을 생성하여 방문자를 다시 참여하도록 할 수 있습니다. 실시간 의사 결정 및 개인화에서 트리거를 사용할 수 있습니다.
 
 예:
 
@@ -55,7 +55,7 @@ Experience Cloud의 [!UICONTROL Triggers]을(를) 사용하면 주요 소비자 
 * **액션:** 예를 들어 뉴스레터 등록, 이메일 구독 또는 신용카드 신청(확인) 후에 동작할 트리거를 만들 수 있습니다. 유통업의 경우 로열티 프로그램에 등록한 방문자를 대상으로 트리거를 만들 수 있습니다. 미디어 및 엔터테인먼트에서는 특정 프로그램을 시청하고 설문 조사에 응답하기를 원하는 방문자를 대상으로 트리거를 만들 수 있습니다.
 * **세션 시작 및 세션 종료:** 세션 시작 및 세션 종료 이벤트에 대한 트리거를 만듭니다.
 
-## Experience Cloud 트리거 만들기
+## CX Enterprise 트리거 만들기
 
 트리거를 생성하고 트리거 조건을 구성합니다. 예를 들어 장바구니 포기와 같은 지표 또는 제품 이름과 같은 차원과 같이, 방문 중의 트리거 규칙에 대한 기준을 지정할 수 있습니다. 규칙이 충족되면 트리거가 실행됩니다.
 
@@ -63,7 +63,7 @@ Experience Cloud의 [!UICONTROL Triggers]을(를) 사용하면 주요 소비자 
 >
 >현재 트리거는 100개로 기술적 제한이 있습니다.
 
-1. Experience Cloud에서 ![메뉴](../assets/menu-icon.png)를 클릭한 다음 **[!UICONTROL Data Collection/Launch]**&#x200B;을(를) 클릭합니다.
+1. CX Enterprise에서 ![메뉴](../assets/menu-icon.png)를 클릭한 다음 **[!UICONTROL Data Collection/Launch]**&#x200B;을(를) 클릭합니다.
 1. [!UICONTROL Triggers] 카드에서 **[!UICONTROL Manage Triggers]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL New Trigger]**&#x200B;을(를) 클릭한 다음 트리거 유형을 지정합니다.
 
@@ -87,7 +87,7 @@ Experience Cloud의 [!UICONTROL Triggers]을(를) 사용하면 주요 소비자 
 
 ## 예제 트리거
 
-Experience Cloud 트리거 예:
+CX Enterprise 트리거의 예:
 
 ### 장바구니 포기 트리거
 

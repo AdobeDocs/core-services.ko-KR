@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience Cloud 자사 쿠키에 사용할 보안 인증서를 설정하는 방법을 알아봅니다.
+description: Adobe CX Enterprise 자사 쿠키에 사용할 보안 인증서를 설정하는 방법을 알아봅니다.
 solution: Experience Cloud,Analytics
 title: Adobe 관리 인증서 프로그램
 index: true
@@ -32,9 +32,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 1106
+source-wordcount: 1234
 ht-degree: 3%
 
 ---
@@ -115,9 +115,9 @@ Aliases: smetrics.example.com
 인증서가 올바르게 작동하는지 확인한 후에는 이러한 값을 사용하도록 Adobe 구현을 업데이트할 수 있습니다.
 
 * **웹 SDK 태그 확장**: 확장을 구성할 때 [[!UICONTROL Edge domain]](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) 필드를 업데이트합니다.
-* **웹 SDK(alloy)**: [`edgeDomain`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/edgedomain) 명령 내에서 [`configure`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/overview) 속성을 업데이트합니다.
+* **웹 SDK(alloy)**: [`configure`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/overview) 명령 내에서 [`edgeDomain`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/edgedomain) 속성을 업데이트합니다.
 * **Adobe Analytics 확장**: 확장을 구성할 때 [[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/analytics/overview) 필드를 업데이트합니다. [방문자 ID 서비스 태그 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/id-service/overview)도 설치되어 있는지 확인하십시오. 자세한 내용은 [Analytics 태그 확장을 사용한 방문자 식별](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/analytics-extension)을 참조하십시오.
-* **AppMeasurement**: [`trackingServerSecure`](https://experienceleague.adobe.com/ko/docs/analytics/implementation/vars/config-vars/trackingserversecure) 구성 변수를 업데이트합니다. [을(를) 사용하여 &#x200B;](https://experienceleague.adobe.com/ko/docs/id-service/using/home)방문자 ID 서비스`VisitorAPI.js`도 구현했는지 확인하십시오. 자세한 내용은 [AppMeasurement을 사용한 방문자 식별](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/analytics-extension)을 참조하십시오.
+* **AppMeasurement**: [`trackingServerSecure`](https://experienceleague.adobe.com/ko/docs/analytics/implementation/vars/config-vars/trackingserversecure) 구성 변수를 업데이트합니다. `VisitorAPI.js`을(를) 사용하여 [방문자 ID 서비스](https://experienceleague.adobe.com/ko/docs/id-service/using/home)도 구현했는지 확인하십시오. 자세한 내용은 [AppMeasurement을 사용한 방문자 식별](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/analytics-extension)을 참조하십시오.
 
 사이트에서 여러 구현 방법을 사용하지만 이러한 방법을 동시에 모두 업데이트할 수 없는 경우에는 유예 기간 구성을 고려해 보십시오. 방문자가 사이트에서 새 방문자로 계산되지 않도록 하는 방법에 대한 추가 단계는 [방문자 ID 서비스 마이그레이션 고려 사항](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/migration)을 참조하십시오.
 
@@ -157,7 +157,7 @@ Adobe은 DigiCert와 협력하여 SHA-2 인증서를 발행합니다.
 
 +++이 프로그램은 추가 비용이 발생합니까?
 
-아니요. Adobe은 모든 Adobe Experience Cloud 고객에게 추가 비용 없이 이 서비스를 제공합니다.
+아니요. Adobe은 모든 Adobe CX Enterprise 고객에게 추가 비용 없이 이 서비스를 제공합니다.
 
 +++
 

@@ -1,6 +1,6 @@
 ---
 title: 지역 데이터 수집
-description: Experience Cloud의 지역 데이터 수집에 대해 알아봅니다.
+description: CX Enterprise의 지역 데이터 수집에 대해 알아봅니다.
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 TQID: https://experienceleague.adobe.com/hjHQDRoNOP2e6pKhKHB9DZaII2o8eJVzL5wjRzaMFwM
 product_v2:
@@ -13,16 +13,16 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 294
+source-wordcount: 299
 ht-degree: 0%
 
 ---
 
 # 지역 데이터 수집
 
-Adobe Experience Cloud은 RDC(지역 데이터 수집)를 사용하므로 방문자와 Adobe 간의 상호 작용이 가능한 한 방문자에게 가까운 위치에서 발생합니다. 에지 사이트에서 로컬로 수집된 데이터는 처리를 위해 핵심 사이트로 안전하게 전달됩니다. 처리된 데이터는 Adobe Experience Cloud 제품 및 서비스에 사용할 수 있습니다.
+Adobe CX Enterprise은 RDC(지역 데이터 수집)를 사용하므로 방문자와 Adobe 간의 상호 작용이 가능한 한 방문자에게 가까운 위치에서 발생합니다. 에지 사이트에서 로컬로 수집된 데이터는 처리를 위해 핵심 사이트로 안전하게 전달됩니다. 처리된 데이터는 Adobe CX Enterprise 제품 및 서비스에 사용할 수 있습니다.
 
 지역 데이터 수집 워크플로우는 다음과 같은 몇 가지 이점을 제공합니다.
 
@@ -44,7 +44,7 @@ Adobe Experience Cloud은 RDC(지역 데이터 수집)를 사용하므로 방문
 
 {style="table-layout:auto"}
 
-_*중국 RDC에는 중국 성능 최적화 추가 기능 패키지가 필요하며 AppMeasurement 데이터 수집을 사용하는 Adobe Analytics에만 적용됩니다. 다른 Experience Cloud 서비스 및 웹 SDK 데이터 수집은 지원되지 않습니다. 중국 성능 최적화 추가 기능 패키지에 대한 자세한 내용은 Adobe 계정 팀에 문의하십시오._
+_*중국 RDC에는 중국 성능 최적화 추가 기능 패키지가 필요하며 AppMeasurement 데이터 수집을 사용하는 Adobe Analytics에만 적용됩니다. 다른 CX Enterprise 서비스 및 웹 SDK 데이터 수집은 지원되지 않습니다. 중국 성능 최적화 추가 기능 패키지에 대한 자세한 내용은 Adobe 계정 팀에 문의하십시오._
 
 ## 타사 데이터 수집
 

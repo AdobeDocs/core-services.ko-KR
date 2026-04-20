@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 04b452cb70ff2429b25c617f0bd1f131f9ffcf2a
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
 source-wordcount: 484
 ht-degree: 1%
@@ -43,6 +43,6 @@ Adobe Experience Platform Web SDK은 쿠키를 사용하여 구현에 따른 값
 | **`kndctr_<orgId>_personalization`** | 34128000(395일) | | Adobe Target이 콘텐츠를 개인화하는 데 사용하는 세션 정보를 저장합니다. |
 | **`mbox`** | 63072000(2년) | | [`targetMigrationEnabled`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled)이(가) 활성화된 경우 표시됩니다. 웹 SDK에서 Target [mbox 쿠키](https://developer.adobe.com/target/implement/client-side/atjs/atjs-cookies/)를 설정할 수 있습니다. |
 | **`mboxEdgeCluster`** | 1800(30분) | | [`targetMigrationEnabled`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled)이(가) 활성화된 경우 표시됩니다. 웹 SDK에서 올바른 에지 클러스터를 `at.js`에 전달하면 사용자가 사이트를 탐색할 때 Target 프로필이 동기화 상태를 유지할 수 있습니다. |
-| **`s_ecid`** | 63115200(2년) | ~45바이트 | `s_ecid=MCMID\|<ECID>` 형식의 Experience Cloud ID(ECID/MID) 복사본을 포함합니다. 주로 CNAME(자사) 시나리오에서 ECID의 자사 백업 역할을 합니다. |
+| **`s_ecid`** | 63115200(2년) | ~45바이트 | `s_ecid=MCMID\|<ECID>` 형식의 CX Enterprise ID(ECID/MID) 복사본을 포함합니다. 주로 CNAME(자사) 시나리오에서 ECID의 자사 백업 역할을 합니다. |
 
 Edge Network은 `secure` 및 `sameSite="none"` 특성이 있는 모든 쿠키를 설정합니다. 현재 웹 사이트에 보안 섹션과 비보안 섹션이 모두 있는 경우 사용자 식별이 부정확할 수 있습니다. 사용자가 사이트의 보안 섹션에서 비보안 섹션으로 이동하면 Edge Network은 요청을 통해 새 `ECID`을(를) 생성합니다.

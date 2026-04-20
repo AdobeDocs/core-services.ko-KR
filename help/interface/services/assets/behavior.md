@@ -1,5 +1,5 @@
 ---
-description: Experience Cloud에서 이동, 삭제 및 복원 시 공유 폴더의 동작 방식 규칙에 대해 알아봅니다.
+description: CX Enterprise에서 이동, 삭제 및 복원 시 공유 폴더의 동작 방식 규칙에 대해 알아봅니다.
 keywords: 에셋 공유, Creative Cloud, 핵심 서비스
 solution: Experience Cloud
 title: 공유 폴더 동작
@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 627
-ht-degree: 96%
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->공유된 Experience Cloud 폴더 및 자산은 1:1 관계로 Creative Cloud 데스크톱에 미러링됩니다. Experience Cloud 사용자가 폴더를 변경(공유 삭제, 추가 또는 제거)하면 Creative Cloud 데스크탑 및 웹에서 작업이 미러링됩니다. 따라서 폴더가 공유되지 않으면 로컬 시스템에서 폴더 및 에셋이 삭제됩니다. 공유가 제거되면 폴더 및 해당 콘텐츠가 로컬 컴퓨터의 휴지통으로 이동되며 사용자가 컴퓨터에 직접 복원할 수 있습니다.
+>공유된 CX Enterprise 폴더 및 자산은 1:1 관계로 Creative Cloud 데스크톱에 미러링됩니다. CX Enterprise 사용자가 폴더를 변경(공유 삭제, 추가 또는 제거)하면 Creative Cloud 데스크탑 및 웹에서 작업이 미러링됩니다. 따라서 폴더가 공유되지 않으면 로컬 시스템에서 폴더 및 에셋이 삭제됩니다. 공유가 제거되면 폴더 및 해당 콘텐츠가 로컬 컴퓨터의 휴지통으로 이동되며 사용자가 컴퓨터에 직접 복원할 수 있습니다.
 
 ## 비공유 폴더를 공유 폴더로
 

@@ -1,6 +1,6 @@
 ---
 title: Assets 공유를 위한 파일 요구 사항
-description: Adobe Experience Cloud와 Creative Cloud 간에 에셋을 공유하기 위해 허용되는 파일 형식 및 크기 제한에 대해 알아봅니다.
+description: Adobe CX Enterprise과 Creative Cloud 간에 에셋을 공유하기 위해 허용되는 파일 형식 및 크기 제한에 대해 알아봅니다.
 solution: Experience Cloud
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 feature: Assets
@@ -20,20 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 122
-ht-degree: 95%
+source-wordcount: 142
+ht-degree: 73%
 
 ---
 
 # 에셋 공유를 위한 파일 요구 사항
 
-Experience Cloud와 Creative Cloud 간에 에셋을 공유하기 위해 허용되는 파일 형식 및 크기 제한입니다.
+CX Enterprise과 Creative Cloud 간에 에셋을 공유하기 위해 허용되는 파일 형식 및 크기 제한입니다.
 
 ## 업로드할 수 있는 파일 형식
 
-업로드할 수 있는 파일 형식에는 대부분의 이미지, 문서 및 멀티미디어가 포함됩니다. [!DNL Experience Cloud] 에셋 파일 형식에 대한 자세한 내용은 [지원되는 형식](https://helpx.adobe.com/kr/experience-manager/brand-portal/using/brand-portal-supported-formats.html)을 참조하십시오.
+업로드할 수 있는 파일 형식에는 대부분의 이미지, 문서 및 멀티미디어가 포함됩니다. [!DNL CX Enterprise] 에셋 파일 형식에 대한 자세한 내용은 [지원되는 형식](https://helpx.adobe.com/kr/experience-manager/brand-portal/using/brand-portal-supported-formats.html)을 참조하십시오.
 
 ## 파일 크기 제한
 

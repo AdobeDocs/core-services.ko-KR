@@ -1,5 +1,5 @@
 ---
-description: Experience Cloud의 특정 애플리케이션용 통합 검색 기능에 대해 알아봅니다.
+description: CX Enterprise의 특정 애플리케이션에 대한 통합 검색 기능에 대해 알아봅니다.
 solution: Experience Cloud
 title: Experience Cloud 통합 검색
 index: true
@@ -22,22 +22,22 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 80%
+source-wordcount: 639
+ht-degree: 76%
 
 ---
 
-# Experience Cloud의 [!UICONTROL Unified Search]
+# CX Enterprise의 [!UICONTROL Unified Search]
 
 [!UICONTROL Unified Search] 검색을 사용하면 원활하고 일관성 있는 원클릭 환경에서 검색 가능한 비즈니스 개체 또는 엔터티를 찾을 수 있습니다. 이 검색은 최근에 액세스한 개체도 표시합니다.
 
 ![오브젝트 및 엔티티를 전역으로 검색](../assets/platform-search.png)
 
-## [!UICONTROL Unified Search]에 액세스 
+## [!UICONTROL Unified Search]에 액세스
 
-[!UICONTROL Unified Search]은(는) 페이지 상단의 Experience Cloud 헤더의 모든 페이지에서 사용할 수 있습니다. 키보드 단축키 `command /` 또는 `ctrl /`을 사용하여 검색할 수도 있습니다.
+[!UICONTROL Unified Search]은(는) 페이지 상단의 CX Enterprise 헤더의 모든 페이지에서 사용할 수 있습니다. 키보드 단축키 `command /` 또는 `ctrl /`을 사용하여 검색할 수도 있습니다.
 
 이 기능은 현재 다음과 같은 지원되는 제품에 대해서만 사용할 수 있습니다.
 
@@ -52,11 +52,11 @@ ht-degree: 80%
 
 당사의 알고리즘은 가장 관련성이 높은 레코드를 먼저 표시합니다. 결과 순서는 다음과 같은 몇 가지 요인에 따라 달라집니다.
 
-기능 및 오브젝트 권한
+기능 및 개체 권한
 일치율
-정확히 일치하는 항목 유무
+정확한 일치 여부
 
-Experience Cloud의 ![[!UICONTROL Unified Search]](../assets/unified-search-results.png)
+CX Enterprise의 ![[!UICONTROL Unified Search]](../assets/unified-search-results.png)
 
 검색 가능한 비즈니스 오브젝트는 다음과 같습니다.
 
@@ -77,7 +77,7 @@ Experience Cloud의 ![[!UICONTROL Unified Search]](../assets/unified-search-resu
 
 예를 들어 _스키마를 만드는 방법_&#x200B;은(는) _[!UICONTROL Learning]_&#x200B;아래의 Experience League에서 결과를 생성합니다.
 
-Experience Cloud 도움말의 ![[!UICONTROL Unified Search]](../assets/unified-search-learning.png)
+CX Enterprise 도움말의 ![[!UICONTROL Unified Search]](../assets/unified-search-learning.png)
 
 검색 알고리즘은 가장 관련성이 높은 레코드를 먼저 표시합니다. 결과 순서는 다음과 같은 몇 가지 요인에 따라 달라집니다.
 

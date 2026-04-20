@@ -1,5 +1,5 @@
 ---
-description: Experience Cloud에서 업로드되고 사용되는 PII(개인 식별 정보)와 관련된 고려 사항 및 모범 사례에 대해 알아보십시오.
+description: CX Enterprise에서 업로드되고 사용되는 PII(개인 식별 정보)와 관련된 고려 사항 및 모범 사례에 대해 알아봅니다.
 solution: Experience Cloud
 title: ' [!DNL Customer Attributes]에 대한 개인 정보 고려 사항'
 feature: Customer Attributes
@@ -22,16 +22,16 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 509
-ht-degree: 99%
+source-wordcount: 511
+ht-degree: 92%
 
 ---
 
 # [!DNL Customer Attributes]에 대한 개인정보 보호 고려 사항
 
-Adobe Experience Cloud에서 업로드되고 사용되는 PII(개인 식별 정보)와 관련된 고려 사항 및 모범 사례입니다.
+Adobe CX Enterprise에서 업로드되고 사용되는 PII(개인 식별 정보)와 관련된 고려 사항 및 우수 사례입니다.
 
 * 이름과 성
 * 집 또는 기타 실제 주소

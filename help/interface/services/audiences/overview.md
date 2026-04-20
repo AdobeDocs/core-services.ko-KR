@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Audience Library]'
-description: Experience Cloud [!DNL Audience Library]의 방문자 데이터를 대상자 세분화로 변환하는 방법에 대해 알아봅니다.
+description: CX Enterprise [!DNL Audience Library]에서 방문자 데이터를 대상자 세분화로 변환하는 방법에 대해 알아봅니다.
 solution: Experience Cloud
 type: Documentation
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
@@ -22,23 +22,23 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 684
-ht-degree: 70%
+source-wordcount: 745
+ht-degree: 44%
 
 ---
 
-# Experience Cloud Audiences
+# CX Enterprise 대상
 
-[!DNL Audience Library]이(가) Experience Cloud에 대상을 표시합니다. 대상자는 방문자의 컬렉션입니다([!DNL Experience Cloud] ID 목록). 방문자 데이터를 대상자 세분화로 변환하는 작업을 관리할 수 있습니다. 이와 같이 대상을 만들고 관리하는 것은 세그먼트를 만들고 사용하는 것과 비슷합니다. 대상자 세그먼트를 제품 및 서비스에 공유할 수도 있습니다 [!DNL Experience Cloud].
+[!DNL Audience Library]이(가) CX Enterprise에 대상을 표시합니다. 대상자는 방문자의 컬렉션입니다([!DNL CX Enterprise] ID 목록). 방문자 데이터를 대상자 세분화로 변환하는 작업을 관리할 수 있습니다. 이와 같이 대상을 만들고 관리하는 것은 세그먼트를 만들고 사용하는 것과 비슷합니다. 대상자 세그먼트를 제품 및 서비스에 공유할 수도 있습니다 [!DNL CX Enterprise].
 
-![Experience Cloud Audiences](assets/audiences.png)
+![CX Enterprise 대상](assets/audiences.png)
 
 다음과 같은 다양한 소스에서 대상자를 만들거나 파생할 수 있습니다.
 
-* [!DNL Experience Cloud]에서 새로 만든 항목
-* [!DNL Analytics]에 게시된 [!DNL Experience Cloud]개 세그먼트
+* [!DNL CX Enterprise]에서 새로 만든 항목
+* [!DNL CX Enterprise]에 게시된 [!DNL Analytics]개 세그먼트
 * [!DNL Audience Manager]
 
 **실시간 및 기존 대상자**
@@ -46,20 +46,20 @@ ht-degree: 70%
 실시간 타겟팅 사용 사례를 파악하기 위해 소스에 관계없이 모든 대상자에 액세스할 수 있습니다. 하지만 Analytics에서 Audience Manager로 공유한 대상자는 실시간 타겟팅에 액세스할 수 없습니다. 시스템은 다음과 같은 두 가지 방식으로 대상자를 평가합니다.
 
 * Analytics에서 가져온 기존 대상자는 4시간마다 평가됩니다. 처리 및 공유에 걸리는 총 시간은 최대 8시간입니다. 기존 대상자에는 항상 재방문자가 포함됩니다.
-* Experience Cloud Audiences에서 가져온 실시간 대상자는 실시간으로 평가됩니다.
+* CX Enterprise 대상에서 가져온 실시간 대상은 실시간으로 평가됩니다.
 
 ## 애플리케이션에서 대상자가 사용되는 방식
 
-다음 테이블에서는 Experience Cloud 애플리케이션에서 대상자가 어떻게 사용되는지에 대해 설명합니다.
+다음 표에서는 CX Enterprise 애플리케이션에서 대상이 사용되는 방식을 설명합니다.
 
 | 솔루션 | 설명 |
 | --- | --- |
-| Experience Cloud 대상자 | 대상 라이브러리를 사용하여 대상을 기본적으로 만들고, 관리하고, 공유합니다. 다음과 같은 작업을 수행할 수 있습니다.<ul><li>원시 분석 속성을 사용하여 실시간 대상을 사용합니다.</li><li>대상을 결합하여 복합 대상을 만들고 실시간 및 내역 데이터 연결.</li><li>예상 대상 크기의 그래픽 보기를 참조하십시오.</li></ul><br>만들려는 대상자 유형에 대한 추천 사항은 [대상자 만들기 옵션](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ko)을 참조하십시오. |
-| Analytics | 세분화에서 세그먼트를 빌드하여 보고서 세트와 함께 결합한 다음 세그먼트를 Experience Cloud에 게시할 수 있습니다. 세그먼트를 게시하면 Experience Cloud의 [!DNL Audience Library] 페이지에 표시됩니다. 자세한 내용은 [&#x200B; 도움말의 &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)Experience Cloud에 세그먼트 게시[!DNL Analytics]를 참조하십시오. 대상자는 [!DNL Adobe Target] 및 [!DNL Audience Manager]에서 전달된 캠페인 경험의 타깃팅된 대상으로도 사용할 수 있습니다. [!DNL Adobe Analytics]에서 대상을 공유하고 활성 캠페인에서 사용하도록 선택하면 지난 90일 동안 세그먼트 정의 기준을 충족한 방문자 프로필이 [!UICONTROL Audience Services]&#x200B;(으)로 전송됩니다. 공유 대상자에 대한 제한이 75개로 늘어났습니다. [!DNL Analytics]에서 Experience Cloud로 공유하는 대상자는 2천만 명의 고유 멤버를 초과할 수 없습니다. 또한 캐싱으로 인해, Analytics에서 삭제된 보고서 세트는 삭제가 Experience Cloud에 표시되는 데 12시간이 필요합니다. |
+| CX Enterprise 대상 | 대상 라이브러리를 사용하여 대상을 기본적으로 만들고, 관리하고, 공유합니다. 다음과 같은 작업을 수행할 수 있습니다.<ul><li>원시 분석 속성을 사용하여 실시간 대상을 사용합니다.</li><li>대상을 결합하여 복합 대상을 만들고 실시간 및 내역 데이터 연결.</li><li>예상 대상 크기의 그래픽 보기를 참조하십시오.</li></ul><br>만들려는 대상자 유형에 대한 추천 사항은 [대상자 만들기 옵션](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ko)을 참조하십시오. |
+| Analytics | 세그멘테이션에서 세그먼트를 빌드하여 보고서 세트와 함께 결합한 다음 세그먼트를 CX Enterprise에 게시할 수 있습니다. 세그먼트를 게시하면 CX Enterprise의 [!DNL Audience Library] 페이지에 표시됩니다. 자세한 내용은 [!DNL Analytics] 도움말의 [CX Enterprise에 세그먼트 게시](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)를 참조하십시오. 대상자는 [!DNL Adobe Target] 및 [!DNL Audience Manager]에서 전달된 캠페인 경험의 타깃팅된 대상으로도 사용할 수 있습니다. [!DNL Adobe Analytics]에서 대상을 공유하고 활성 캠페인에서 사용하도록 선택하면 지난 90일 동안 세그먼트 정의 기준을 충족한 방문자 프로필이 [!UICONTROL Audience Services]&#x200B;(으)로 전송됩니다. 공유 대상자에 대한 제한이 75개로 늘어났습니다. [!DNL Analytics]에서 CX Enterprise으로 공유한 대상은 2천만 명의 고유 구성원을 초과할 수 없습니다. 또한 캐싱으로 인해, Analytics에서 삭제된 보고서 세트는 삭제가 CX Enterprise에 표시되는 데 12시간이 필요합니다. |
 | Mobile Services | [!UICONTROL Device Types] 보고서의 Sunburst 시각화를 사용하여 모바일 트래픽을 분석합니다. |
-| [!DNL Target] | [ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)는 방문자 ID 및 데이터를 여러 애플리케이션에서 사용하기 위해 실행 가능한 하나의 프로필에 통합합니다. Adobe Analytics의 세그먼트 만들기 프로세스 동안 [!UICONTROL Publish to Experience Cloud] 확인란을 선택하면 Adobe Target의 사용자 지정 대상 라이브러리 내에서 세그먼트를 사용할 수 있습니다. [!DNL Analytics]나 [!DNL Audience Manager]에서 만들어진 세그먼트는 [!DNL Target]의 활동에 사용할 수 있습니다. 예를 들어 [!DNL Analytics]에서 만들어진 대상자 세그먼트 및 [!DNL Analytics] 전환 지표에 따라 캠페인 활동을 만들 수 있습니다. |
-| [!DNL Audience Manager] | 공유 대상자는 [!DNL Audience Manager] 세분화에서 사용할 수 있습니다. 모든 Experience Cloud 대상자는 기본적으로 다음 기능을 제공하는 [!DNL Audience Manager]에서 사용할 수 있습니다.<ul><li>기본 제공 자동화(애플리케이션 워크플로에서 공유 및 소비되는 방식에 관계없음)</li><li>오프사이트 대상</li><li>유사 잠재고객 모델링</li></ul> |
-| 캠페인 | <ul><li>다양한 Adobe Experience Cloud 애플리케이션의 공유 대상자를 Adobe Campaign에 가져오기.</li><li>공유 대상자의 양식에서 받는 사람 목록 내보내기. 이러한 공유 대상자는 사용하는 여러 Adobe Experience Cloud 애플리케이션에서 사용할 수 있습니다.</li></ul> |
+| [!DNL Target] | [ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)는 방문자 ID 및 데이터를 여러 애플리케이션에서 사용하기 위해 실행 가능한 하나의 프로필에 통합합니다. Adobe Analytics의 세그먼트 만들기 프로세스 동안 [!UICONTROL Publish to CX Enterprise] 확인란을 선택하면 Adobe Target의 사용자 지정 대상 라이브러리 내에서 세그먼트를 사용할 수 있습니다. [!DNL Analytics]나 [!DNL Audience Manager]에서 만들어진 세그먼트는 [!DNL Target]의 활동에 사용할 수 있습니다. 예를 들어 [!DNL Analytics]에서 만들어진 대상자 세그먼트 및 [!DNL Analytics] 전환 지표에 따라 캠페인 활동을 만들 수 있습니다. |
+| [!DNL Audience Manager] | 공유 대상자는 [!DNL Audience Manager] 세분화에서 사용할 수 있습니다. 모든 CX Enterprise 대상은 기본적으로 다음을 제공하는 [!DNL Audience Manager]에서 사용할 수 있습니다.<ul><li>기본 제공 자동화(애플리케이션 워크플로에서 공유 및 소비되는 방식에 관계없음)</li><li>오프사이트 대상</li><li>유사 잠재고객 모델링</li></ul> |
+| 캠페인 | <ul><li>다른 Adobe CX Enterprise 애플리케이션의 공유 대상을 Adobe Campaign으로 가져옵니다.</li><li>공유 대상자의 양식에서 받는 사람 목록 내보내기. 이러한 공유 대상은 사용하는 다른 Adobe CX Enterprise 애플리케이션에서 사용할 수 있습니다.</li></ul> |
 | Advertising Cloud | 대상자를 대상으로 사용합니다. |
 
 {style="table-layout:auto"}
@@ -70,9 +70,9 @@ ht-degree: 70%
 
 ## 대상자 라이브러리 인터페이스 요소
 
-[!DNL Experience Cloud]은(는) 기본적인 실시간 대상 식별을 사용하여 대상을 만들고 관리하기 위한 라이브러리를 제공합니다.
+[!DNL CX Enterprise]은(는) 기본적인 실시간 대상 식별을 사용하여 대상을 만들고 관리하기 위한 라이브러리를 제공합니다.
 
-**[!UICONTROL Experience Cloud]** > **[!UICONTROL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Audience Library]**
+**[!UICONTROL CX Enterprise]** > **[!UICONTROL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Audience Library]**
 
 ![대상자 라이브러리의 대상자 추가](assets/audience_library.png)
 
@@ -82,7 +82,7 @@ ht-degree: 70%
 | 신규 | [대상자 만들기](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/audiences/create). |
 | 제목 및 설명 | 대상자를 식별하고 설명하는 열 머리글입니다. |
 | 작성자 | 대상자 세그먼트를 만든 사용자입니다. |
-| 소스 | 대상자가 만들어진 위치를 식별합니다.<ul><li>**Analytics:** Adobe Analytics에서 만든 후 Experience Cloud에 게시한 세그먼트입니다.</li><li>**Experience Cloud:** [Experience Cloud Audiences에서 생성된](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/audiences/create) 새 대상자입니다.</li><li>**Audience Manager:** Audience Manager에서 만든 대상자는 Experience Cloud Audiences에 자동으로 표시됩니다.</li></ul> |
+| 소스 | 대상자가 만들어진 위치를 식별합니다.<ul><li>**Analytics:** Adobe Analytics에서 만든 후 CX Enterprise에 게시한 세그먼트입니다.</li><li>**CX Enterprise:** 새 대상 [CX Enterprise 대상에서 생성됨](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/audiences/create).</li><li>**Audience Manager:** Audience Manager에서 만든 대상은 CX Enterprise 대상에 자동으로 표시됩니다.</li></ul> |
 | 현재 크기 | 현재 대상자 크기입니다. |
 | 활성 | 세그먼트의 활성 상태입니다. |
 
@@ -90,4 +90,4 @@ ht-degree: 70%
 
 ## Adobe Analytics에서 대상 게시
 
-자세한 내용은 Adobe Analytics 설명서의 [Experience Cloud에 세그먼트 게시](https://experienceleague.adobe.com/ko/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)를 참조하십시오.
+자세한 내용은 Adobe Analytics 설명서의 [CX Enterprise에 세그먼트 게시](https://experienceleague.adobe.com/ko/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)를 참조하십시오.

@@ -1,5 +1,5 @@
 ---
-description: 애플리케이션 간에 공유할 수 있는 Experience Cloud Assets에 대해 알아보십시오.
+description: 애플리케이션 간에 공유할 수 있는 CX Enterprise Assets에 대해 알아봅니다.
 solution: Experience Cloud
 title: 자산 개요
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
@@ -21,21 +21,21 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 316
-ht-degree: 86%
+source-wordcount: 320
+ht-degree: 69%
 
 ---
 
-# Experience Cloud Assets 개요
+# CX Enterprise Assets 개요
 
-Experience Cloud Assets는 애플리케이션 간에 공유할 수 있는 마케팅 준비가 끝난 자산에 대해 중앙 집중식 단일 저장소를 제공합니다. 자산은 디지털 문서, 이미지, 비디오, 오디오 또는 그 일부로, 다양한 표현물과 하위 자산(예: [!DNL Photoshop] 파일의 레이어, [!DNL PowerPoint] 파일의 슬라이드, PDF의 페이지, ZIP에 있는 파일)을 가질 수 있습니다.
+CX Enterprise Assets은 애플리케이션 간에 공유할 수 있는 마케팅 준비가 끝난 에셋에 대해 중앙 집중식 단일 저장소를 제공합니다. 자산은 디지털 문서, 이미지, 비디오, 오디오 또는 그 일부로, 다양한 표현물과 하위 자산(예: [!DNL Photoshop] 파일의 레이어, [!DNL PowerPoint] 파일의 슬라이드, PDF의 페이지, ZIP에 있는 파일)을 가질 수 있습니다.
 
 자산 서비스에는 다음이 포함됩니다.
 
 * 자산 스토리지, 관리 인터페이스, 임베드된 선택 인터페이스(애플리케이션에서 액세스).
-* Creative Cloud, Experience Cloud 공동 작업 및 Experience Cloud 애플리케이션과 상호 작용합니다.
+* Creative Cloud, CX Enterprise 공동 작업 및 CX Enterprise 애플리케이션과 통합됩니다.
 
 자산을 사용하면 일관성 및 브랜드 준수가 향상되며 마켓 출시 속도도 빨라집니다. 다음과 같은 애플리케이션의 워크플로를 능률화할 수 있습니다.
 
@@ -44,9 +44,9 @@ Experience Cloud Assets는 애플리케이션 간에 공유할 수 있는 마케
 * **[!DNL Adobe Campaign]**: 이메일 뉴스레터 및 캠페인에 자산 배치
 
 
-## Experience Cloud Assets로 이동
+## CX Enterprise Assets으로 이동
 
-![Experience Cloud Assets로 이동](../../assets/asset-nav.png)
+![CX Enterprise Assets으로 이동](../../assets/asset-nav.png)
 
 ## 도구 모음 액세스
 

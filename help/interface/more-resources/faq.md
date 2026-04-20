@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience Cloud를 사용하는 관리자를 위한 브라우저 지원에 대해 알아보고, 일반적인 질문에 대한 답변을 얻을 수 있습니다.
+description: Adobe CX Enterprise의 관리자를 위한 브라우저 지원에 대해 알아보고, 일반적인 질문에 대한 답변을 얻을 수 있습니다.
 solution: Experience Cloud
 title: Experience Cloud FAQ
 index: true
@@ -22,22 +22,22 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 697
-ht-degree: 76%
+source-wordcount: 730
+ht-degree: 47%
 
 ---
 
-# Experience Cloud FAQ
+# CX Enterprise에 대한 FAQ
 
-Experience Cloud를 사용하는 관리자를 위한 브라우저 지원, 일반적인 질문과 답변을 살펴볼 수 있습니다.
+CX Enterprise의 관리자를 위한 브라우저 지원 및 일반적인 질문과 대답에 대해 알아봅니다.
 
-+++Experience Cloud에서 지원되는 브라우저는 무엇입니까?
++++CX Enterprise에서 지원되는 브라우저는 무엇입니까?
 
 Adobe은 다음 브라우저의 현재 및 이전 두 버전을 지원합니다.
 
-* Microsoft® Edge
+* ® Edge
 * Google Chrome
 * Mozilla Firefox
 * Safari
@@ -47,13 +47,13 @@ Adobe은 다음 브라우저의 현재 및 이전 두 버전을 지원합니다.
 
 >[!NOTE]
 >
->Experience Cloud 도메인에서 실행 중인 모든 애플리케이션이 전체 브라우저를 지원하는 것은 아닙니다. 확실치 않다면 특정 애플리케이션의 설명서를 참조하십시오.
+>CX Enterprise 도메인에서 실행 중인 모든 애플리케이션이 모든 브라우저를 지원하는 것은 아닙니다. 확실치 않다면 특정 애플리케이션의 설명서를 참조하십시오.
 
 +++
 
 +++지원되는 언어
 
-Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사용자의 기본 언어를 지원합니다. 현재 지원되는 언어는 다음과 같습니다.
+CX Enterprise은 Adobe 사용자 계정 환경 설정에 설정되는 각 사용자의 기본 언어를 지원합니다. 현재 지원되는 언어는 다음과 같습니다.
 
 * 중국어
 * 영어
@@ -66,19 +66,19 @@ Experience Cloud는 Adobe 사용자 계정 환경 설정에 설정되는 각 사
 * 스페인어
 * 대만어
 
-응용 프로그램 팀은 글로벌 언어 지원에 전념하고 있지만 모든 응용 프로그램이 위에 언급된 모든 언어로 제공되지 않습니다. 기본 언어가 Experience Cloud 애플리케이션에서 지원되지 않는 경우 보조 언어를 기본값으로 설정할 수 있습니다. [Experience Cloud 사용자 환경 설정](https://experience.adobe.com/preferences)에서 수행할 수 있습니다.
+응용 프로그램 팀은 글로벌 언어 지원에 전념하고 있지만 모든 응용 프로그램이 위에 언급된 모든 언어로 제공되지 않습니다. 기본 언어가 CX Enterprise 애플리케이션에서 지원되지 않는 경우 보조 언어를 기본값으로 설정할 수 있습니다. [CX Enterprise 사용자 환경 설정](https://experience.adobe.com/preferences)에서 수행할 수 있습니다.
 
 +++
 
-+++Adobe에서 우리 회사에 Adobe Experience Cloud 액세스 비용을 청구합니까?
++++Adobe에서 우리 회사에 Adobe CX Enterprise 액세스 비용을 청구합니까?
 
-아니요. Adobe Experience Cloud은 추가 비용 없이 제공됩니다. 그렇지만 특정 핵심 서비스에는 추가 비용이 있을 수 있습니다.
+아니요. Adobe CX Enterprise은 추가 비용 없이 포함됩니다. 그렇지만 특정 핵심 서비스에는 추가 비용이 있을 수 있습니다.
 
 +++
 
-+++우리 회사에서 Experience Cloud 인터페이스를 통해 로그인해야 하는 이유는 무엇입니까?
++++우리 회사에서 CX Enterprise 인터페이스를 통해 로그인해야 하는 이유는 무엇입니까?
 
-Experience Cloud 인터페이스에서 제공하는 기능은 귀하의 비즈니스에 새로운 가치를 부여합니다. 또한 향후 애플리케이션에 액세스하기 위한 표준 경로로 사용되며 결과적으로는 다른 개별 애플리케이션 로그인 흐름을 대체하게 됩니다. Experience Cloud를 통해 로그인하면 나중에 원활하게 전환할 수 있습니다.
+CX Enterprise 인터페이스에서 제공하는 기능은 귀하의 비즈니스에 새로운 가치를 부여합니다. 또한 향후 애플리케이션에 액세스하기 위한 표준 경로로 사용되며 결과적으로는 다른 개별 애플리케이션 로그인 흐름을 대체하게 됩니다. CX Enterprise을 통해 로그인하면 나중에 원활하게 전환할 수 있습니다.
 
 +++
 
@@ -92,10 +92,10 @@ Adobe 고객 지원 센터는 사용자의 명시적 인증을 요구하는 Adob
 
 +++프로비저닝이란 무엇입니까?
 
-Experience Cloud의 프로비저닝은 다음을 의미합니다.
+CX Enterprise에서의 프로비저닝은 다음을 의미합니다.
 
-* 사용자는 Experience Cloud에 로그인하고 애플리케이션을 연결할 수 있습니다.
-* Experience Cloud을 통해 사용할 수 있는 기능을 사용할 수 있습니다.
+* 사용자는 CX Enterprise에 로그인하고 애플리케이션을 연결할 수 있습니다.
+* CX Enterprise을 통해 사용할 수 있는 기능을 사용할 수 있습니다.
 * 애플리케이션별 로그인 프로세스의 사용을 중단할 준비를 갖출 수 있습니다.
 * 애플리케이션에 대한 액세스 제어 권한은 그대로 유지할 수 있습니다.
 
@@ -117,7 +117,7 @@ Experience Cloud의 프로비저닝은 다음을 의미합니다.
 
 +++
 
-+++Experience Cloud에 로그인할 수 없으면 어떻게 해야 합니까?
++++CX Enterprise에 로그인할 수 없으면 어떻게 해야 합니까?
 
 Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있습니다. 사용자에게 로그인 지침이 포함된 이메일이 전송됩니다.
 
@@ -141,7 +141,7 @@ Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있
 
 +++조직이란 무엇입니까?
 
-[조직](../administration/organizations.md)은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 항목입니다. 조직은 모든 Experience Cloud 제품 및 애플리케이션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
+[조직](../administration/organizations.md)은(는) 관리자가 그룹과 사용자를 구성하고, CX Enterprise에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 엔터티입니다. 조직은 모든 CX Enterprise 제품 및 애플리케이션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
 
 +++
 
@@ -153,7 +153,7 @@ Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있
 
 +++사용자 중 한 명이 회사를 퇴사할 경우 어떻게 해야 합니까?
 
-애플리케이션 자체에서 액세스 권한이 제거됩니다. 따라서 Experience Cloud에서 또는 직접 로그인을 통해 제품에 액세스할 수 없습니다. Experience Cloud 수준에서도 제거해야 합니다.
+애플리케이션 자체에서 액세스 권한이 제거됩니다. CX Enterprise에서 또는 직접 로그인을 통해 제품에 액세스할 수 없습니다. CX Enterprise 수준에서도 제거해야 합니다.
 
 +++
 

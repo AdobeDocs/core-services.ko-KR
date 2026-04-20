@@ -22,16 +22,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 62%
+source-wordcount: 515
+ht-degree: 60%
 
 ---
 
 # 대상자 만들기
 
-[!UICONTROL Audience Library]에서 특성 규칙을 사용하여 대상을 만들고 Experience Cloud 애플리케이션에서 공유할 복합 대상을 정의할 수 있습니다.
+[!UICONTROL Audience Library]에서 특성 규칙을 사용하여 대상을 만들고 CX Enterprise 애플리케이션에서 공유할 복합 대상을 정의할 수 있습니다.
 
 이 문서는 다음 방법을 이해하는 데 도움이 됩니다.
 
@@ -52,13 +52,13 @@ ht-degree: 62%
 다음 예에서는 복합 대상자에 대한 규칙을 만드는 방법을 보여 줍니다. 이 대상자는 다음으로 구성됩니다.
 
 * 페이지 데이터 또는 원시 분석 데이터에서 파생된 홈/가든 섹션
-* [!DNL Adobe Analytics] 세그먼트 [게시](overview.md)에서 [!DNL Experience Cloud]까지 파생된 Chrome 및 Safari 사용자.
+* [!DNL Adobe Analytics] 세그먼트 [게시](overview.md)에서 [!DNL CX Enterprise]까지 파생된 Chrome 및 Safari 사용자.
 
   ![복합 대상자에 대한 규칙 만들기](assets/audience_create.png)
 
 **대상자를 만들려면**
 
-1. [!DNL Experience Cloud]개의 앱(![앱 아이콘](assets/apps-icon.png))을 클릭한 다음 **[!UICONTROL People]** > **[!UICONTROL Audience Library].**&#x200B;을 클릭합니다
+1. [!DNL CX Enterprise]개의 앱(![앱 아이콘](assets/apps-icon.png))을 클릭한 다음 **[!UICONTROL People]** > **[!UICONTROL Audience Library].**&#x200B;을 클릭합니다
 
 1. [!UICONTROL Audiences] 페이지에서 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다. ![새 대상](assets/add_icon_small.png)
 
@@ -71,9 +71,9 @@ ht-degree: 62%
 
      >[!NOTE]
      >
-     >캐싱으로 인해, Analytics에서 삭제된 보고서 세트는 삭제가 Experience Cloud에 표시되는 데 12시간이 필요합니다.
+     >캐싱으로 인해, Analytics에서 삭제된 보고서 세트는 삭제가 CX Enterprise에 표시되는 데 12시간이 필요합니다.
 
-   * **[!UICONTROL Experience Cloud:]** 원본에서 파생된 [!DNL Experience Cloud] 특성 데이터입니다. 예를 들어 [!DNL Analytics]에서 만든 대상자 세그먼트의 데이터이거나 [!DNL Audience Manager]의 데이터일 수 있습니다.
+   * [!DNL CX Enterprise] 원본에서 파생된 **[!UICONTROL CX Enterprise:]** 특성 데이터입니다. 예를 들어 [!DNL Analytics]에서 만든 대상자 세그먼트의 데이터이거나 [!DNL Audience Manager]의 데이터일 수 있습니다.
 
 1. 대상 규칙을 정의한 다음 **[!UICONTROL Save].**&#x200B;을(를) 클릭합니다.
 
@@ -93,7 +93,7 @@ ht-degree: 62%
 
 *Chrome 및 Safari 방문자*&#x200B;는 Analytics에서 공유되는 대상자 세그먼트입니다.
 
-* **[!UICONTROL Attribute Source:]** Experience Cloud
+* **[!UICONTROL Attribute Source:]** CX Enterprise
 * **[!UICONTROL Dimension:]**&#x200B;명의 Chrome 및 Safari 방문자
 
 ![Chrome/Safari 방문자](assets/chrome_safari.png)
@@ -104,11 +104,11 @@ ht-degree: 62%
 
 결과 규칙은 홈/가든을 방문한 Chrome/Safari 사용자로 구성되는 정의된 대상자입니다. 뜰/가구 세그먼트는 사이트 섹션을 방문하는 모든 방문자에 대한 추가적인 인사이트를 제공합니다.
 
-![Experience Cloud에서 정의된 대상자](assets/defined_audience.png)
+CX Enterprise에서 ![정의된 대상](assets/defined_audience.png)
 
 * **이전 예상:** (점선 원) [!DNL Analytics] 데이터를 기반으로 만들어진 규칙을 나타냅니다.
 * **실제 대상:** (실선 원)30일 동안의 Audience Manager 데이터를 포함하여 만들어진 모든 규칙입니다. Audience Manager 데이터가 30일이 되면 선은 실선이 되고 실제 수치를 나타냅니다.
 
 지정된 기간 동안 데이터 수집이 완료되면 원이 합쳐지면서 정의된 대상자를 표시합니다.
 
-대상이 저장되면 다른 Experience Cloud 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/ko/docs/target/using/activities/activities)에 포함할 수 있습니다.
+대상이 저장되면 다른 CX Enterprise 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/ko/docs/target/using/activities/activities)에 포함할 수 있습니다.
