@@ -9,11 +9,20 @@ role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
 TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 1273
@@ -37,7 +46,7 @@ CX Enterprise 사용자를 위한 용어 참조 및 Creative Cloud에서 해당 
 | **데이터 사용 적용** | 특별한 용도는 없습니다. | 데이터 사용 시 Adobe 기업 개인정보 처리방침, 계약 고려 사항 및 일반 개인정보 보호 원칙을 준수할 수 있도록 데이터 사용 메타데이터를 사용하기 위해 시스템(애플리케이션, 앱, 서비스, SDK, API 등)을 통해 제정되고 정의된 정책, 시스템 디자인, 관행 및 절차. |
 | **장치** | 특별한 용도는 없습니다. | 애플리케이션이 실행되는 태블릿, 휴대폰 또는 데스크탑 등의 하드웨어 디바이스. |
 | **Device Co-op** | 특별한 용도는 없습니다. | 디바이스 간에 개인을 더 잘 식별하고 더 의미 있고 일관된 환경을 제공하기 위해 소비자가 사용하는 디바이스에 대한 데이터를 공유하는 데 동의한 브랜드 그룹. |
-| **[!UICONTROL CX Enterprise ID Service](ECID)** | 특별한 용도는 없습니다. | 사이트 방문자에게 지정된 고유한 영구 ID. Experience Platform ID 서비스에서 사용할 수 있는 특정 엔티티입니다. [자세히...](https://experienceleague.adobe.com/docs/id-service/using/home.html) |
+| **[!UICONTROL CX Enterprise ID Service] (ECID)** | 특별한 용도는 없습니다. | 사이트 방문자에게 지정된 고유한 영구 ID. Experience Platform ID 서비스에서 사용할 수 있는 특정 엔티티입니다. [자세히...](https://experienceleague.adobe.com/docs/id-service/using/home.html) |
 | **[!UICONTROL Experience Platform Identity Service]** | 특별한 용도는 없습니다. | ID를 연결하는 서비스입니다. 사람 기반의 경험 관리를 위한 디바이스 연결 서비스입니다. |
 | **연결** | 특별한 용도는 없습니다. 연결은 하이퍼링크 탐색 및 글꼴, 속성, 레이어 등의 항목 연결을 나타냅니다. | CX Enterprise에서 연결은 일반적으로 서로 다른 애플리케이션 계정을 인터페이스에 연결하는 것을 말합니다.<br> [조직 및 계정 연결](../administration/organizations.md)을 참조하십시오.<br>또한 다른 사용자에게 전송된 Analytics 보고서에 대한 표준 URL을 연결이라고도 합니다. |
 | **위치** | Creative Cloud에서 위치는 파일 위치 또는 열린 이미지나 문서의 위치를 나타냅니다. | CX Enterprise에서 위치는 대상이 콘텐츠를 보고 상호 작용할 수 있는 장소입니다. 위치와 콘텐츠 간의 연관성이 다소 정적이거나 캠페인 규칙에 따라 동적으로 관리할 수 있습니다. 위치는 콘텐츠를 게재할 수 있는 방법 및 지표를 수집할 수 있는 방법을 결정하는 특정 채널에 항상 속합니다.<br>해당 예는 다음과 같습니다.<ul><li>Sites</li><li>속성(소셜)</li><li>인벤토리 표시</li><li>랜딩 페이지</li><li>모바일 애플리케이션</li><li>슬롯(비디오)</li></ul> |
