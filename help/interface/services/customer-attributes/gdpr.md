@@ -7,17 +7,13 @@ role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 TQID: https://experienceleague.adobe.com/wU6Y5XK5Fs9-w7Jl7THXjturzTVrsB7eh7GdExsS2TQ
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
-source-wordcount: 392
-ht-degree: 91%
+source-wordcount: 407
+ht-degree: 82%
 
 ---
 
@@ -29,13 +25,13 @@ ht-degree: 91%
 >
 >이 문서의 콘텐츠는 법률적인 조언이 아니며, 법률적인 조언을 대체하지 않습니다. GDPR에 대한 법률 자문을 구하십시오.
 
-2018년 5월 25일부터 적용되는 [개인정보 보호 규정](https://business.adobe.com/kr/privacy/general-data-protection-regulation.html)은 유럽 연합(EU)의 국경 내의 모든 개인(데이터 주체)이 개인 데이터를 통제하도록 규정하고 있습니다. 또한 국제 비즈니스를 위한 규정 환경을 간소화합니다. 이 법은 데이터 관리자의 비즈니스 위치에 상관없이 개인 데이터를 처리할 때 EU의 경계 내에서 개인 데이터를 수집하거나, 행동을 모니터링하거나, 개인 데이터를 수집하는 모든 기업(데이터 관리자)에 적용됩니다.
+2018년 5월 25일부터 적용되는 [개인정보 보호 규정](https://business.adobe.com/privacy/general-data-protection-regulation.html)은 유럽 연합(EU)의 국경 내의 모든 개인(데이터 주체)이 개인 데이터를 통제하도록 규정하고 있습니다. 또한 국제 비즈니스를 위한 규정 환경을 간소화합니다. 이 법은 데이터 관리자의 비즈니스 위치에 상관없이 개인 데이터를 처리할 때 EU의 경계 내에서 개인 데이터를 수집하거나, 행동을 모니터링하거나, 개인 데이터를 수집하는 모든 기업(데이터 관리자)에 적용됩니다.
 
-Adobe Experience Cloud는 고객을 대신하여 수신하여 보관하는 모든 개인 데이터에 대한 데이터 처리자의 역할을 합니다. 귀하는 정보 통제자로서 Adobe Experience Cloud가 귀하를 대신하여 처리하고 저장하는 개인 데이터를 결정합니다.
+Adobe CX Enterprise은 고객을 대신하여 수신하여 저장하는 모든 개인 데이터에 대한 데이터 처리자 역할을 합니다. 귀하는 데이터 관리자로서 Adobe CX Enterprise이 귀하를 대신하여 처리하고 저장하는 개인 데이터를 결정합니다.
 
 이 문서에서는 [!DNL Customer Attributes]가 Adobe Experience Platform Privacy Service API 및 Privacy Service UI를 사용하여 데이터 주체의 GDPR 데이터 액세스 및 삭제 권한을 지원하는 방법에 대해 설명합니다.
 
-GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스](https://business.adobe.com/kr/privacy/general-data-protection-regulation.html)를 참조하십시오.
+GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스](https://business.adobe.com/privacy/general-data-protection-regulation.html)를 참조하십시오.
 
 ## [!DNL Customer Attributes]에 대한 요청을 전송하기 위한 필수 설정
 

@@ -8,16 +8,13 @@ role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
 TQID: https://experienceleague.adobe.com/lbDHQNLf--xowxe4ZVZsGptwKyEzvT1wQV0QTFJyKpk
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
-source-wordcount: 298
-ht-degree: 10%
+source-wordcount: 309
+ht-degree: 13%
 
 ---
 
@@ -27,7 +24,7 @@ Adobe Advertising(이전의 Adobe Advertising Cloud)는 쿠키를 사용하여 �
 
 >[!NOTE]
 >
->[ECID(Adobe Experience Cloud ID) 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko-KR)를 사용하는 Beta Adobe Advertising Javascript 태그는 Adobe Advertising 쿠키가 아닌 자사 [Experience Cloud](experience-cloud.md) `s_ecid` 쿠키를 만듭니다.
+>[ECID(Adobe CX Enterprise ID) 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko-KR)를 사용하는 Beta Adobe Advertising Javascript 태그는 Adobe Advertising 쿠키가 아닌 자사 [CX Enterprise](experience-cloud.md) `s_ecid` 쿠키를 만듭니다.
 
 | 쿠키 이름 | 만료 | 크기 | 위치 | 설명 |
 | --- | --- | --- | --- | --- |

@@ -1,5 +1,5 @@
 ---
-description: Experience Cloud의 공통 인터페이스 구성 요소에 대해 설명서 업데이트가 발생하는 위치를 알아봅니다.
+description: CX Enterprise의 공통 인터페이스 구성 요소에 대해 설명서 업데이트가 발생하는 위치를 알아봅니다.
 solution: Experience Cloud
 title: 설명서 업데이트
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -8,31 +8,21 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 TQID: https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 656
-ht-degree: 66%
+ht-degree: 46%
 
 ---
 
 # 설명서 업데이트
 
-Experience Cloud의 중앙 인터페이스 및 관리를 위해 설명서 업데이트가 발생하는 위치를 알아봅니다.
+CX Enterprise의 중앙 인터페이스 및 관리를 위해 설명서 업데이트가 발생하는 위치를 알아봅니다.
 
 **2026년 3월**
 
@@ -40,7 +30,7 @@ Experience Cloud의 중앙 인터페이스 및 관리를 위해 설명서 업데
 
 **2025년 11월**
 
-Experience Cloud의 [Agentic AI에 대한 업데이트](../features/agentic-ai.md)
+CX Enterprise의 [Agentic AI에 대한 업데이트](../features/agentic-ai.md)
 
 **2025년 10월**
 
@@ -52,7 +42,7 @@ Experience Cloud의 [Agentic AI에 대한 업데이트](../features/agentic-ai.m
 
 **2025년 2월**
 
-[Experience Cloud에서 사용자 및 제품 관리](../administration/admin-console.md)를 추가했습니다. 이 페이지는 관리자가 모든 애플리케이션에 대한 사용자 및 제품 관리(Admin Console) 도움말을 찾을 수 있도록 도와줍니다.
+[CX Enterprise에서 사용자 및 제품 관리](../administration/admin-console.md)를 추가했습니다. 이 페이지는 관리자가 모든 애플리케이션에 대한 사용자 및 제품 관리(Admin Console) 도움말을 찾을 수 있도록 도와줍니다.
 
 **2024년 11월**
 
@@ -66,7 +56,7 @@ Experience Cloud의 [Agentic AI에 대한 업데이트](../features/agentic-ai.m
 
 **26 2024년 4월**
 
-설명서 아키텍처의 전체 개량. [Adobe Experience Cloud IP 주소](../data-collection/ip-addresses.md) 및 [지역 데이터 수집](../data-collection/rdc.md)도 추가되었습니다.
+설명서 아키텍처의 전체 개량. [Adobe CX Enterprise IP 주소](../data-collection/ip-addresses.md) 및 [지역 데이터 수집](../data-collection/rdc.md)도 추가되었습니다.
 
 **2024년 4월 9일**
 
@@ -88,7 +78,7 @@ Adobe 지원팀이 Adobe 클라우드 환경에 액세스하여 문제를 해결
 
 | 기능 | 설명 |
 | ------- | ------- |
-| 홈 페이지 | 환경 설정의 법적 고지 사항 및 언어 선택을 포함하여 Experience Cloud 홈 바닥글 정보가 사용자 프로필 카드로 이동되었습니다. |
+| 홈 페이지 | 환경 설정의 법적 고지 사항 및 언어 선택을 포함하여 CX Enterprise 홈 바닥글 정보가 사용자 프로필 카드로 이동되었습니다. |
 | AEP 대시보드 | [!DNL Helios Lite]은 Experience Platform 위젯 생성 워크플로 내에서 차트 권장 사항을 제공합니다. 데이터 선택(현재 단일 변수 데이터 선택)이 주어지면 helios는 해당 데이터 선택과 동반될 수 있는 적절한 시각화를 권장합니다. |
 | AEP 대시보드 | [!DNL Instory]은 차트에 대한 ML 기반 서면 내레이션 및 캡션을 제공합니다. 그래프로 표시된 데이터의 주요 변경 사항 및 인시던트를 호출하는 관련 글머리 기호로 AEP 대시보드 페이지의 차트를 장식합니다. |
 
@@ -97,7 +87,7 @@ Adobe 지원팀이 Adobe 클라우드 환경에 액세스하여 문제를 해결
 | 기능 | 설명 |
 | ------- | ------- |
 | 통합 검색 | 통합 검색은 검색 인덱스에 오브젝트 유형을 계속 추가합니다. 이번 업데이트를 통해 글로벌 검색은 이제 Experience League 콘텐츠와 다음 Journey Optimizer 오브젝트 유형을 검색합니다. <ul><li>데이터 세트</li><li>대상</li><li>쿼리</li><li>스키마</li><li>세그먼트</li><li>소스</li><li>오퍼</li><li>구성 요소</li><li>메시지</li><li>여정</li></ul> |
-| 제품 사용 데이터 동의 | 초기 로그인 시 Adobe가 사용자에게 유용하고 개인 맞춤화된 콘텐츠(Experience Cloud 제품 사용 데이터를 기반으로 하는 튜토리얼, 안내서, 빠른 팁, 권장 사항, 학습 비디오 등)를 제공할 수 있는 방법에 대한 환경 설정을 제출하라는 메시지가 표시됩니다. <https://experience.adobe.com/preferences>에서 이러한 데이터의 수집 및 사용에 대한 환경 설정 업데이트도 이 요청에 포함됩니다. |
+| 제품 사용 데이터 동의 | 초기 로그인 시 Adobe이 사용자에게 CX Enterprise 제품 사용 데이터를 기반으로 하는 튜토리얼, 안내서, 빠른 팁, 권장 사항, 학습 비디오 등과 같은 유용하고 개인 맞춤화된 콘텐츠를 제공할 수 있는 방법에 대한 환경 설정을 제출하라는 메시지가 표시됩니다. <https://experience.adobe.com/preferences>에서 이러한 데이터의 수집 및 사용에 대한 환경 설정 업데이트도 이 요청에 포함됩니다. |
 
 **24 2021년 8월**
 
@@ -113,11 +103,11 @@ Adobe 지원팀이 Adobe 클라우드 환경에 액세스하여 문제를 해결
 
 **2021년 6월 1일**
 
-Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한 새로운 도움말로 [랜딩 페이지](../experience-cloud.md)를 업데이트했습니다.
+CX Enterprise 액세스, 글로벌 검색, 환경 설정 및 알림에 대한 새로운 도움말로 [랜딩 페이지](../experience-cloud.md)를 업데이트했습니다.
 
 **2020년 8월 19일**
 
-정책 정보로 업데이트한 [Experience Cloud 사용자 세부 사항 보기 (관리 도구)](../administration/admin-tool-experience-cloud.md)
+정책 정보로 [CX Enterprise 사용자 세부 정보 보기(관리 도구)](../administration/admin-tool-experience-cloud.md)를 업데이트했습니다.
 
 **19 2020년 5월**
 
@@ -136,7 +126,7 @@ Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한
 
 **2020년 2월**
 
-[Experience Cloud 사용자 세부 사항 보기(관리 도구)](../administration/admin-tool-experience-cloud.md)를 추가했습니다.
+[CX Enterprise 사용자 세부 정보 보기(관리 도구)](../administration/admin-tool-experience-cloud.md)를 추가했습니다.
 
 **업데이트 날짜: 2018년 9월 5일**
 
@@ -164,19 +154,19 @@ Experience Cloud 액세스, 글로벌 검색, 환경 설정 및 알림에 대한
 
 **9 2016년 5월**
 
-통합 문서에 관한 종합 자료인 [Experience Cloud 통합](../administration/integrations.md)이 추가되었습니다.
+통합 문서에 대한 종합 자료인 [CX Enterprise 통합](../administration/integrations.md)이 추가되었습니다.
 
 **11 2016년 2월**
 
-[Experience Cloud Assets](../services/assets/experience-cloud-assets.md)이 추가되었습니다.
+[CX Enterprise Assets](../services/assets/experience-cloud-assets.md)을(를) 추가했습니다.
 
 **15 2015년 1월**
 
-이제 Experience Cloud 사용자가 폴더를 Creative Cloud에 공유하고 두 클라우드 간 에셋과 주석을 동기화할 수 있다는 내용이 추가되었습니다. [에셋 공유](../services/assets/share.md)를 참조하십시오.
+이제 CX Enterprise 사용자가 폴더를 Creative Cloud에 공유하고 두 클라우드 간 에셋과 주석을 동기화할 수 있다는 내용이 추가되었습니다. [에셋 공유](../services/assets/share.md)를 참조하십시오.
 
 **17 2014년 7월**
 
-관리자용 [Experience Cloud FAQ](faq.md)가 추가되었습니다.
+관리자용 [CX Enterprise FAQ](faq.md)가 추가되었습니다.
 
 **22 2014년 5월**
 

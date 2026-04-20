@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience Cloud에서  [!DNL Customer Attributes] 스키마의 유효성을 검사하는 방법을 알아봅니다.
+description: Adobe CX Enterprise에서  [!DNL Customer Attributes] 스키마의 유효성을 검사하는 방법을 알아봅니다.
 solution: Experience Cloud
 title: ' [!DNL Customer Attributes] 스키마의 유효성을 검사하는 방법'
 feature: Customer Attributes
@@ -8,23 +8,15 @@ role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
 TQID: https://experienceleague.adobe.com/J-AaDn4HtD1bS-VCPn2XiPLVBbTnYyl5o1NpJ9HFj1g
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 310
-ht-degree: 37%
+source-wordcount: 308
+ht-degree: 43%
 
 ---
 
@@ -50,7 +42,7 @@ ht-degree: 37%
 
    [!UICONTROL Edit Schema] 페이지에서 각 스키마 행은 업로드된 CSV 파일의 열을 나타냅니다.
 
-   ![Experience Cloud에서 스키마 페이지 편집](assets/schema-edit.png)
+   ![CX Enterprise에서 스키마 페이지 편집](assets/schema-edit.png)
 
 **작업**
 
@@ -60,10 +52,10 @@ ht-degree: 37%
 
 * **[!UICONTROL FTP Setup:]** FTP 계정을 만들어 [FTP를 통해 데이터를 업로드](t-upload-attributes-ftp.md)(선택 사항).
 
-* **[!UICONTROL ID Lookup:]** `.csv`의 CID(고객 ID)를 입력하여 해당 ID에 대한 Experience Cloud 정보를 조회합니다. 이 기능은 방문자에 대한 속성 데이터가 표시되지 않는 문제를 해결하는 데 유용합니다.
+* **[!UICONTROL ID Lookup:]** `.csv`의 CID(고객 ID)를 입력하여 해당 ID에 대한 CX Enterprise 정보를 조회합니다. 이 기능은 방문자에 대한 속성 데이터가 표시되지 않는 문제를 해결하는 데 유용합니다.
 
-   * 최신 Experience Cloud ID 서비스를 사용하는 경우 **[!UICONTROL ECID (Experience Cloud ID):]**&#x200B;이(가) 표시됩니다. MCID 서비스를 사용하고 있지만 ID가 표시되지 않는 경우 Experience Cloud에서 해당 CID에 대한 별칭을 수신하지 못한 것입니다. 방문자가 로그인되어 있지 않거나 해당 ID가 구현되지 않은 것입니다.
+   * 최신 CX Enterprise ID 서비스를 사용하는 경우 **[!UICONTROL ECID (CX Enterprise ID):]**&#x200B;이(가) 표시됩니다. MCID 서비스를 사용하고 있지만 ID가 표시되지 않는 경우 CX Enterprise에서 해당 CID에 대한 별칭을 수신하지 못한 것입니다. 방문자가 로그인되어 있지 않거나 해당 ID가 구현되지 않은 것입니다.
 
    * **[!UICONTROL CID (customer ID):]** 이 CID와 연결된 특성입니다. prop 또는 eVar을 사용하여 CID(AVID)를 업로드하며 속성은 표시되지만 AVID는 표시되지 않는 경우 방문자가 사이트에 로그인되어 있지 않은 것입니다.
 
-   * prop 또는 eVar을 사용하여 CID를 업로드하는 경우 **[!UICONTROL AVID (Analytics visitor ID):]**&#x200B;이(가) 표시됩니다. 이러한 ID가 Experience Cloud에 전달되는 경우 입력한 CID와 연결된 모든 방문자 ID가 여기에 표시됩니다.
+   * prop 또는 eVar을 사용하여 CID를 업로드하는 경우 **[!UICONTROL AVID (Analytics visitor ID):]**&#x200B;이(가) 표시됩니다. 이러한 ID가 CX Enterprise에 전달되는 경우 입력한 CID와 연결된 모든 방문자 ID가 여기에 표시됩니다.

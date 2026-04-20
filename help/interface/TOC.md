@@ -3,20 +3,19 @@ role: User,Admin
 user-guide-title: Experience Cloud 인터페이스 및 관리
 breadcrumb-title: Experience Cloud 인터페이스 및 관리
 title: Experience Cloud 인터페이스 및 관리
-description: Experience Cloud 인터페이스, 쿠키 및 계정 환경 설정에 대해 알아봅니다. 제품을 관리하고 고객 속성 및 대상자 라이브러리를 포함하는 People 서비스를 구성합니다. Experience Cloud Assets를 공유합니다.
+description: CX Enterprise 인터페이스, 쿠키 및 계정 환경 설정에 대해 알아봅니다. 제품을 관리하고 고객 속성 및 대상자 라이브러리를 포함하는 People 서비스를 구성합니다. CX Enterprise Assets 공유
 index: true
-source-git-commit: 763b52c8d49073f08c01191634008bdca19746d1
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 85%
+ht-degree: 71%
 
 ---
 
+# CX Enterprise 인터페이스 및 관리 {#interface}
 
-# Experience Cloud 인터페이스 및 관리 {#interface}
-
-+ [Experience Cloud 인터페이스 및 관리](/help/interface/experience-cloud.md)
-+ Experience Cloud의 AI {#features}
++ [CX Enterprise 인터페이스 및 관리](/help/interface/experience-cloud.md)
++ CX Enterprise의 AI {#features}
    + [생성형 AI](/help/interface/features/generative-ai.md)
    + [에이전틱 AI](features/agentic-ai.md)
    + {hide-from-toc}[AI 모니터링](/help/interface/features/ai-monitoring.md)
@@ -66,7 +65,7 @@ ht-degree: 85%
       + [Advertising 쿠키](/help/interface/data-collection/cookies/advertising.md)
       + [Analytics 쿠키](/help/interface/data-collection/cookies/analytics.md)
       + [Audience Manager 쿠키](/help/interface/data-collection/cookies/audience-manager.md)
-      + [Experience Cloud 쿠키](/help/interface/data-collection/cookies/experience-cloud.md)
+      + [CX Enterprise 쿠키](/help/interface/data-collection/cookies/experience-cloud.md)
       + [Target 쿠키](/help/interface/data-collection/cookies/target.md)
       + [Web SDK 쿠키](/help/interface/data-collection/cookies/web-sdk.md)
    + [지역 데이터 수집](/help/interface/data-collection/rdc.md)

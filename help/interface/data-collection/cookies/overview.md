@@ -1,40 +1,32 @@
 ---
-description: Adobe Experience Cloud의 솔루션 및 서비스에서 쿠키가 사용되는 방법을 알아봅니다.
+description: Adobe CX Enterprise의 솔루션 및 서비스에서 쿠키가 사용되는 방법을 알아봅니다.
 title: Experience Cloud에서 쿠키를 사용하는 방법
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
 TQID: https://experienceleague.adobe.com/GH5WHcI9440NKYpUzizHlhOMlBSf-Y0WQ5GDBaSvqNI
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 600
-ht-degree: 11%
+source-wordcount: 624
+ht-degree: 8%
 
 ---
 
-# Experience Cloud에서 쿠키를 사용하는 방법
+# CX Enterprise에서 쿠키를 사용하는 방법
 
-Adobe Experience Cloud은 쿠키를 사용합니다. 쿠키는 웹 사이트가 나중에 사용하기 위해 브라우저에 전송하는 작은 데이터입니다. 쿠키는 사용자가 다시 방문하거나 페이지 사이를 이동할 때 웹 사이트가 기억하도록 도와줍니다. 쿠키는 방문 횟수를 추적하고 한 장치를 다른 장치와 구별하는 데 도움이 됩니다.
+Adobe CX Enterprise은 쿠키를 사용합니다. 쿠키는 웹 사이트가 나중에 사용하기 위해 브라우저에 전송하는 작은 데이터입니다. 쿠키는 사용자가 다시 방문하거나 페이지 사이를 이동할 때 웹 사이트가 기억하도록 도와줍니다. 쿠키는 방문 횟수를 추적하고 한 장치를 다른 장치와 구별하는 데 도움이 됩니다.
 
 법률은 종종 누군가의 디바이스에서 쿠키를 저장하거나 사용하기 전에 권한을 얻도록 요구합니다. Adobe에서는 법률 팀에 문의하여 적용되는 규칙을 이해할 것을 권장합니다.
 
 ## 자사 쿠키 정보
 
-Adobe Experience Cloud은 쿠키를 사용하여 페이지 보기 수 또는 브라우저 세션 간에 지속되지 않는 정보를 추적합니다. 가능한 경우, Adobe은 자사 쿠키(자체 웹 사이트에 연결됨)를 사용합니다. 소유한 여러 사이트 또는 도메인에서 활동을 추적하려면 서드파티 쿠키가 필요합니다.
+Adobe CX Enterprise은 쿠키를 사용하여 페이지 보기 수 또는 브라우저 세션 간에 지속되지 않는 정보를 추적합니다. 가능한 경우, Adobe은 자사 쿠키(자체 웹 사이트에 연결됨)를 사용합니다. 소유한 여러 사이트 또는 도메인에서 활동을 추적하려면 서드파티 쿠키가 필요합니다.
 
 일부 브라우저 및 안티스파이웨어 도구는 서드파티 쿠키를 차단합니다. Adobe에는 쿠키가 차단된 경우에도 쿠키가 계속 작동하는지 확인하는 방법이 있습니다. 이 방법이 작동하는 방식은 사용자가 Experience Platform ID 서비스(ECID) 또는 이전 Analytics 쿠키(예: `s_vi` 쿠키)를 사용하는지에 따라 다릅니다.
 
-* [Experience Cloud Identity 서비스](https://experienceleague.adobe.com/ko/docs/id-service/using/intro/overview): ECID 서비스는 수집 도메인과 사이트 도메인의 일치 여부에 관계없이 항상 자사 쿠키를 설정합니다. JavaScript을 사용하여 사이트의 도메인에 쿠키를 배치합니다.
+* [CX Enterprise Identity 서비스](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview): ECID 서비스는 수집 도메인과 사이트 도메인의 일치 여부에 관계없이 항상 자사 쿠키를 설정합니다. JavaScript을 사용하여 사이트의 도메인에 쿠키를 배치합니다.
 
 * [Analytics 레거시 식별자](analytics.md)(예: `s_vi` 쿠키): 쿠키가 퍼스트 파티 또는 서드파티인지 여부는 설정에 따라 다릅니다.
 
@@ -53,7 +45,7 @@ Adobe Experience Cloud은 쿠키를 사용하여 페이지 보기 수 또는 브
 
 Adobe은 개인 정보 보호 및 데이터 보안을 중요하게 생각합니다. 개인 정보 보호 조직, 규제 기관 및 AdChoices와 같은 프로그램과 함께 작동하여 사람들이 데이터 사용 방법을 제어할 수 있도록 합니다.
 
-Adobe Experience Cloud의 대부분의 쿠키는 개인 정보를 저장하지 않습니다. 이 솔루션은 안전하고 귀사에서만 보고, 컨텐츠 및 광고에 사용됩니다. Adobe은 이 데이터를 다른 고객 또는 서드파티와 공유하지 않습니다. 단, 익명의 업계 전체 보고서(예: Digital Marketing Insight 보고서)는 예외입니다.
+Adobe CX Enterprise의 대부분의 쿠키는 개인 정보를 저장하지 않습니다. 이 솔루션은 안전하고 귀사에서만 보고, 컨텐츠 및 광고에 사용됩니다. Adobe은 이 데이터를 다른 고객 또는 서드파티와 공유하지 않습니다. 단, 익명의 업계 전체 보고서(예: Digital Marketing Insight 보고서)는 예외입니다.
 
 Adobe은 서로 다른 회사의 브라우저 데이터를 결합하지 않습니다. 개인정보 보호를 위해 일부 Adobe 도구는 각 웹 사이트에서 자체 쿠키 세트를 사용할 수 있도록 합니다. 또한 일부는 쿠키에 자체 도메인을 사용할 수 있도록 허용하므로, 자사 쿠키를 보다 안전하게 사용할 수 있습니다.
 

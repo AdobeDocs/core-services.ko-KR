@@ -1,6 +1,6 @@
 ---
 title: 사용자 및 사용자 세부 정보 보기
-description: Experience Cloud의 관리 도구에 대해 알아봅니다. 모든 Experience Cloud 사용자 및 정책의 정렬과 필터링 가능한 목록을 봅니다.
+description: CX Enterprise의 관리 도구에 대해 알아봅니다. 모든 CX Enterprise 사용자 및 정책의 정렬 및 필터링 가능한 목록을 봅니다.
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -9,22 +9,19 @@ role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 TQID: https://experienceleague.adobe.com/zq5NfbuRlyx2Y0e-u-B8CErQPhfn4Re8-6z3sN9QGE0
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 1182
-ht-degree: 75%
+source-wordcount: 1198
+ht-degree: 69%
 
 ---
 
-# Experience Cloud [!UICONTROL Admin Tool]
+# CX Enterprise [!UICONTROL Admin Tool]
 
-관리자는 [!UICONTROL Admin Tool]에서 모든 Experience Cloud 사용자 및 정책을 세부 정보와 함께 정렬 및 필터링 가능한 목록으로 볼 수 있습니다. 사용자 세부 정보에는 사용자의 제품 액세스, 역할 및 마지막으로 액세스한 정보가 포함됩니다. 정책 세부 사항에는 정책의 (제품 프로필) 사용자, 그룹, 개발자, 통합 및 관리 목록과 정책에 대한 자세한 권한 및 리소스 정보가 포함됩니다.
+관리자는 [!UICONTROL Admin Tool]에서 모든 CX Enterprise 사용자 및 정책을 세부 정보와 함께 정렬 및 필터링 가능한 목록으로 볼 수 있습니다. 사용자 세부 정보에는 사용자의 제품 액세스, 역할 및 마지막으로 액세스한 정보가 포함됩니다. 정책 세부 사항에는 정책의 (제품 프로필) 사용자, 그룹, 개발자, 통합 및 관리 목록과 정책에 대한 자세한 권한 및 리소스 정보가 포함됩니다.
 
 1. `https://experience.adobe.com/.`에 로그인합니다.
 
@@ -38,7 +35,7 @@ ht-degree: 75%
 
 ## 사용자 페이지
 
-이 페이지에는 조직에서 Experience Cloud에 액세스할 수 있는 전체 사용자 목록이 표시됩니다. 여기에서는 애플리케이션 권한 및 마지막 로그인에 대한 정보가 제공됩니다. 사용자 목록을 검색, 정렬 및 필터링하여 요구에 맞게 표시할 수 있습니다.
+이 페이지에는 조직에서 CX Enterprise에 액세스할 수 있는 전체 사용자 목록이 표시됩니다. 여기에서는 애플리케이션 권한 및 마지막 로그인에 대한 정보가 제공됩니다. 사용자 목록을 검색, 정렬 및 필터링하여 요구에 맞게 표시할 수 있습니다.
 
 ![Admin Console 사용자 페이지](../assets/admin-tool-users.png)
 
@@ -47,8 +44,8 @@ ht-degree: 75%
 | [!UICONTROL Name] | 사용자의 이름과 성씨를 입력합니다. 이 열을 A에서 Z로 또는 Z에서 A로 정렬할 수 있습니다. 사용자에 대한 자세한 내용을 보려면 사용자 이름을 클릭하십시오. |
 | [!UICONTROL Email] | 사용자와 연결된 이메일 주소입니다. 열은 A->Z, Z->A로 정렬할 수 있습니다. |
 | [!UICONTROL ID Type] | 사용자 계정의 ID 유형입니다. 특정 ID 유형이 표시되도록 필터를 적용할 수 있습니다. 자세한 내용은 [ID 유형 관리](https://helpx.adobe.com/kr/enterprise/using/identity.html) 를 참조하십시오. |
-| [!UICONTROL Solutions] | 사용자가 액세스할 수 있는 Experience Cloud 애플리케이션 요약입니다. 특정 애플리케이션 액세스 권한으로 사용자 목록의 범위를 좁히는 필터를 적용할 수 있습니다. |
-| [!UICONTROL Last Login] | 가장 최근 사용자가 Experience Cloud에 로그인한 시간 및 날짜입니다. 이 열은 오름차순 또는 내림차순 날짜로 정렬할 수 있습니다. <br> **중요:** 2020년 1월 13일부터 사용자의 마지막 로그인 데이터는 365일 동안 보관됩니다. 이 정보는 Experience Cloud의 현재 로그인 활동을 표시하기 위한 것으로, 2020년 1월 13일 이전에 비활성 계정에 대해 조치를 취하기 위한 권장 사항은 아닙니다. |
+| [!UICONTROL Solutions] | 사용자가 액세스할 수 있는 CX Enterprise 애플리케이션 요약입니다. 특정 애플리케이션 액세스 권한으로 사용자 목록의 범위를 좁히는 필터를 적용할 수 있습니다. |
+| [!UICONTROL Last Login] | 가장 최근 사용자가 CX Enterprise에 로그인한 시간 및 날짜입니다. 이 열은 오름차순 또는 내림차순 날짜로 정렬할 수 있습니다. <br> **중요:** 2020년 1월 13일부터 사용자의 마지막 로그인 데이터는 365일 동안 보관됩니다. 이 정보는 CX Enterprise의 현재 로그인 활동을 표시하기 위한 것으로, 2020년 1월 13일 이전에 비활성 계정에 대해 조치를 취하기 위한 권장 사항은 아닙니다. |
 
 ## 사용자 목록 보기 사용자 지정
 
@@ -86,7 +83,7 @@ ht-degree: 75%
 
 ## 솔루션 요약
 
-이 섹션에는 사용자가 액세스할 수 있는 Experience Cloud 애플리케이션 요약이 표시됩니다. 해당되는 경우 제품 관리 역할을 포함합니다.
+이 섹션에는 사용자가 액세스할 수 있는 CX Enterprise 애플리케이션 요약이 표시됩니다. 해당되는 경우 제품 관리 역할을 포함합니다.
 
 ## 자세한 제품 액세스 목록
 
@@ -102,7 +99,7 @@ ht-degree: 75%
 
 ## 정책 페이지
 
-이 페이지에는 조직의 전체 Experience Cloud 정책 목록이 표시됩니다. 제품, 인스턴스, 사용자 및 개발자에 대한 정보를 제공합니다. 정책 목록을 검색, 정렬 및 필터링하여 요구에 맞게 표시할 수 있습니다.
+이 페이지에는 조직의 전체 CX Enterprise 정책 목록이 표시됩니다. 제품, 인스턴스, 사용자 및 개발자에 대한 정보를 제공합니다. 정책 목록을 검색, 정렬 및 필터링하여 요구에 맞게 표시할 수 있습니다.
 
 ![Admin Console의 정책 페이지](../assets/admin-tool-policies.png)
 
@@ -169,4 +166,4 @@ ht-degree: 75%
 
 ## 관련 정보
 
-* [의 &#x200B;](https://helpx.adobe.com/kr/enterprise/using/users.html)사용자 관리[!DNL Admin Console]
+* [!DNL Admin Console]의 [사용자 관리](https://helpx.adobe.com/kr/enterprise/using/users.html)

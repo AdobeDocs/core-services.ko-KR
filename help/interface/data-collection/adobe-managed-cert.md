@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience Cloud 자사 쿠키에 사용할 보안 인증서를 설정하는 방법을 알아봅니다.
+description: Adobe CX Enterprise 자사 쿠키에 사용할 보안 인증서를 설정하는 방법을 알아봅니다.
 solution: Experience Cloud,Analytics
 title: Adobe 관리 인증서 프로그램
 index: true
@@ -10,31 +10,14 @@ role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 TQID: https://experienceleague.adobe.com/LWbjh-jXKmY6mcl047uzA1ZkhZlAmeNpt9JRg3Ynt9E
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
-  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
-  - id: e992d880-33bc-4949-a648-aa7d410276cd
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: c8add8f2-4250-4fd9-9cde-9707036c567did: d2311670-43bd-4c2e-bc98-1da2aaba9cefid: e992d880-33bc-4949-a648-aa7d410276cdid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 1106
+source-wordcount: 1234
 ht-degree: 3%
 
 ---
@@ -114,12 +97,12 @@ Aliases: smetrics.example.com
 
 인증서가 올바르게 작동하는지 확인한 후에는 이러한 값을 사용하도록 Adobe 구현을 업데이트할 수 있습니다.
 
-* **웹 SDK 태그 확장**: 확장을 구성할 때 [[!UICONTROL Edge domain]](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) 필드를 업데이트합니다.
-* **웹 SDK(alloy)**: [`edgeDomain`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/edgedomain) 명령 내에서 [`configure`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/overview) 속성을 업데이트합니다.
-* **Adobe Analytics 확장**: 확장을 구성할 때 [[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/analytics/overview) 필드를 업데이트합니다. [방문자 ID 서비스 태그 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/id-service/overview)도 설치되어 있는지 확인하십시오. 자세한 내용은 [Analytics 태그 확장을 사용한 방문자 식별](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/analytics-extension)을 참조하십시오.
-* **AppMeasurement**: [`trackingServerSecure`](https://experienceleague.adobe.com/ko/docs/analytics/implementation/vars/config-vars/trackingserversecure) 구성 변수를 업데이트합니다. [을(를) 사용하여 &#x200B;](https://experienceleague.adobe.com/ko/docs/id-service/using/home)방문자 ID 서비스`VisitorAPI.js`도 구현했는지 확인하십시오. 자세한 내용은 [AppMeasurement을 사용한 방문자 식별](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/analytics-extension)을 참조하십시오.
+* **웹 SDK 태그 확장**: 확장을 구성할 때 [[!UICONTROL Edge domain]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) 필드를 업데이트합니다.
+* **웹 SDK(alloy)**: [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) 명령 내에서 [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) 속성을 업데이트합니다.
+* **Adobe Analytics 확장**: 확장을 구성할 때 [[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) 필드를 업데이트합니다. [방문자 ID 서비스 태그 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)도 설치되어 있는지 확인하십시오. 자세한 내용은 [Analytics 태그 확장을 사용한 방문자 식별](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension)을 참조하십시오.
+* **AppMeasurement**: [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure) 구성 변수를 업데이트합니다. `VisitorAPI.js`을(를) 사용하여 [방문자 ID 서비스](https://experienceleague.adobe.com/en/docs/id-service/using/home)도 구현했는지 확인하십시오. 자세한 내용은 [AppMeasurement을 사용한 방문자 식별](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension)을 참조하십시오.
 
-사이트에서 여러 구현 방법을 사용하지만 이러한 방법을 동시에 모두 업데이트할 수 없는 경우에는 유예 기간 구성을 고려해 보십시오. 방문자가 사이트에서 새 방문자로 계산되지 않도록 하는 방법에 대한 추가 단계는 [방문자 ID 서비스 마이그레이션 고려 사항](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/migration)을 참조하십시오.
+사이트에서 여러 구현 방법을 사용하지만 이러한 방법을 동시에 모두 업데이트할 수 없는 경우에는 유예 기간 구성을 고려해 보십시오. 방문자가 사이트에서 새 방문자로 계산되지 않도록 하는 방법에 대한 추가 단계는 [방문자 ID 서비스 마이그레이션 고려 사항](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration)을 참조하십시오.
 
 ## 유지 관리 및 갱신
 
@@ -157,7 +140,7 @@ Adobe은 DigiCert와 협력하여 SHA-2 인증서를 발행합니다.
 
 +++이 프로그램은 추가 비용이 발생합니까?
 
-아니요. Adobe은 모든 Adobe Experience Cloud 고객에게 추가 비용 없이 이 서비스를 제공합니다.
+아니요. Adobe은 모든 Adobe CX Enterprise 고객에게 추가 비용 없이 이 서비스를 제공합니다.
 
 +++
 
