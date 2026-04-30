@@ -1,5 +1,5 @@
 ---
-title: Experience Cloud UI 구성 요소 및 서비스
+title: CX 엔터프라이즈 중앙 UI 및 관리
 description: UI 구성 요소, Adobe Admin Console의 사용자 및 제품 관리, 대상 라이브러리, 고객 속성, CX Enterprise Assets 등에 대해 알아봅니다.
 cloud: Experience Cloud
 product: experience cloud
@@ -13,7 +13,7 @@ getting-started-url: https://helpx.adobe.com/kr/experience-cloud-core-services/g
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.ko-KR
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 904e2603fc9f40bca8317881fc3b0b4e34e04300
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 66%
