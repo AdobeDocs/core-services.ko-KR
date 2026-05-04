@@ -3,35 +3,28 @@ title: 지역 데이터 수집
 description: CX Enterprise의 지역 데이터 수집에 대해 알아봅니다.
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 TQID: https://experienceleague.adobe.com/hjHQDRoNOP2e6pKhKHB9DZaII2o8eJVzL5wjRzaMFwM
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 233d1554de9e37fccd5cf47fec2c4222d7a5e807
 workflow-type: tm+mt
-source-wordcount: 299
+source-wordcount: 361
 ht-degree: 0%
 
 ---
 
 # 지역 데이터 수집
 
-Adobe CX Enterprise은 RDC(지역 데이터 수집)를 사용하므로 방문자와 Adobe 간의 상호 작용이 가능한 한 방문자에게 가까운 위치에서 발생합니다. 에지 사이트에서 로컬로 수집된 데이터는 처리를 위해 핵심 사이트로 안전하게 전달됩니다. 처리된 데이터는 Adobe CX Enterprise 제품 및 서비스에 사용할 수 있습니다.
+Adobe CX Enterprise는 RDC(지역 데이터 수집)를 사용하므로 방문자와 Adobe 간의 상호 작용이 가능한 한 방문자에게 가까운 위치에서 발생합니다. 에지 사이트에서 로컬로 수집된 데이터는 처리를 위해 핵심 사이트로 안전하게 전달됩니다. 처리가 완료되면 Adobe CX 엔터프라이즈 제품 및 서비스에 데이터를 사용할 수 있습니다.
 
 지역 데이터 수집 워크플로우는 다음과 같은 몇 가지 이점을 제공합니다.
 
 * **성능**: RDC를 사용하면 방문자가 가장 가까운 에지 사이트에 연결됩니다. 이 최적화는 가장 빠른 응답 시간을 제공하여 더 정확한 추적과 더 빠른 로드 시간을 제공합니다.
 * **중복성**: 에지 사이트와 핵심 사이트 간 통신이 중단되면 Adobe 인프라에서 데이터를 로컬로 저장한 다음 통신이 복원되면 핵심 사이트로 전달합니다. Adobe은 특정 위치가 중단되는 경우 트래픽을 다른 에지 사이트로 라우팅할 수도 있습니다.
 
-현재 RDC에는 다음 위치(변경될 수 있음)가 포함되어 있습니다.
-
 ## 자사 데이터 수집
+
+자사 데이터 수집은 CNAME 구현을 사용하여 고유한 도메인을 통해 Adobe으로 데이터를 전달합니다. RDC 유형이 [Adobe 관리 인증서 프로그램](adobe-managed-cert.md) 설정 프로세스의 일부로 선택됩니다. RDC 유형을 확인하거나 업데이트하려면 Adobe 계정 팀에 문의하십시오. 다음과 같은 RDC 유형 및 관련 데이터 센터를 사용할 수 있습니다.
 
 | RDC 유형 | 데이터 수집 센터 |
 | --- | --- |
@@ -42,18 +35,15 @@ Adobe CX Enterprise은 RDC(지역 데이터 수집)를 사용하므로 방문자
 | 아시아 태평양만 | 뭄바이, 싱가포르, 도쿄, 시드니 |
 | 중국만 해당* | 베이징 |
 
-{style="table-layout:auto"}
-
-_*중국 RDC에는 중국 성능 최적화 추가 기능 패키지가 필요하며 AppMeasurement 데이터 수집을 사용하는 Adobe Analytics에만 적용됩니다. 다른 CX Enterprise 서비스 및 웹 SDK 데이터 수집은 지원되지 않습니다. 중국 성능 최적화 추가 기능 패키지에 대한 자세한 내용은 Adobe 계정 팀에 문의하십시오._
+_*중국 RDC에는 중국 성능 최적화 추가 기능 패키지가 필요하며 AppMeasurement 데이터 수집을 사용하는 Adobe Analytics에만 적용됩니다. 다른 CX 엔터프라이즈 서비스 및 웹 SDK 데이터 수집은 지원되지 않습니다. 중국 성능 최적화 추가 기능 패키지에 대한 자세한 내용은 Adobe 계정 팀에 문의하십시오._
 
 ## 타사 데이터 수집
 
-타사 데이터 수집에는 웹 사이트 도메인과 일치하지 않는 쿠키 도메인이 포함됩니다. `adobedc.net`, `omtrdc.net` 및 `2o7.net`을(를) 예로 들 수 있습니다.
+서드파티 데이터 수집은 웹 사이트 도메인과 일치하지 않는 쿠키 도메인을 사용합니다. `adobedc.net`, `omtrdc.net` 및 `2o7.net`을(를) 예로 들 수 있습니다.
 
 | RDC 유형 | 데이터 수집 센터 |
 | --- | --- |
 | 기본 | 오리건, 버지니아, 아일랜드, 파리, 뭄바이, 싱가포르, 도쿄, 시드니 |
 | 기본값 + 중국* | 베이징*, 오레곤, 버지니아, 아일랜드, 파리, 뭄바이, 싱가포르, 도쿄, 시드니 |
 
-{style="table-layout:auto"}
-
+_*중국 성능 최적화 추가 기능 패키지가 필요합니다. 자세한 내용은 위의 자사 데이터 수집 섹션을 참조하십시오._
