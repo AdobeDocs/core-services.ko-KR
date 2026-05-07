@@ -1,5 +1,5 @@
 ---
-description: Adobe CX Enterprise 용어와 Creative Cloud의 차이점에 대해 알아봅니다.
+description: Adobe 제품 및 인터페이스 용어가 CX Enterprise, Experience Cloud 솔루션, Creative Cloud, Experience League 및 기타 지원 경험과 어떻게 다른지 알아보십시오.
 solution: Experience Cloud
 title: 용어
 feature-set: Experience Cloud Services
@@ -8,24 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 581cd64936e5740d6288564abd25b5dd358f0dc6
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 504cdc98f97b744efa27d3c09cd69cf7f81412a4
 workflow-type: tm+mt
-source-wordcount: 1273
-ht-degree: 68%
+source-wordcount: 692
+ht-degree: 5%
 
 ---
 
@@ -35,33 +26,23 @@ ht-degree: 68%
 TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
 -->
 
-CX Enterprise 사용자를 위한 용어 참조 및 Creative Cloud에서 그러한 용어를 사용하는 방법을 설명합니다(해당하는 경우).
+동일한 단어가 다른 Adobe 환경(CX 엔터프라이즈, 마케팅 앱, 디자인 앱 또는 지원 사이트)에 표시되는 경우 이 표를 사용합니다. 전체 용어집이 아닙니다. 자세한 내용은 [Experience League](https://experienceleague.adobe.com)에서 제품별 도움말을 참조하세요.
 
-| 용어 | Creative Cloud | CX 엔터프라이즈 |
-| --- | ----- | ---- |
-| **자산** | Creative Cloud에서 자산은 일반적으로 이미지 파일입니다.<br>자산은 Photoshop 파일의 레이어, PowerPoint 파일의 슬라이드, PDF의 페이지, ZIP에 들어 있는 파일일 수 있습니다. | CX Enterprise에서 에셋은 디지털 문서, 이미지, 비디오 또는 오디오 파일로, 다양한 표현물과 하위 에셋을 가질 수 있습니다. 해당 예는 다음과 같습니다.<ul><li>파일</li><li>문서</li><li>이미지</li><li>비디오</li><li>오디오 클립</li><li>프레젠테이션</li><li>이미지 템플릿</li><li>비디오 템플릿</li></ul> |
-| **속성** | | 사람들이 [세그먼트](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko)에 대한 자격이 되는 경우 공통으로 가지는 사항. (Audience Manager의 [트레이트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=ko)와 비슷합니다.) |
-| **대상자** | Creative Cloud에서 대상자는 비디오를 보는 사람이 될 수 있습니다. | CX Enterprise에서 대상은 캠페인 활동에서 타깃팅할 수 있는 사람의 컬렉션입니다.<br>대상자의 멤버십은 방문자의 컨텍스트에 따라 작동하는 규칙 세트 또는 고정된 목록을 기반으로 결정할 수 있습니다. Facebook 그룹의 이메일 구독자 또는 멤버 목록을 예로 들 수 있습니다.<br>[CX Enterprise 대상](../services/audiences/overview.md)에서 대상을 만들고 관리하는 것은 CX Enterprise에 공유하는 기능을 추가하여 세그먼트를 만들고 사용하는 것과 비슷합니다.<br>**Adobe Target**<br> Adobe Target에서 대상은 이전에 세그먼트라고 불렀습니다.<br>**Adobe Analytics**<br> Analytics에서 대상자는 웹 사이트 방문자로 생각할 수 있습니다. 대상 세그먼트를 만들고 대상을 CX Enterprise에 게시할 수 있습니다. |
-| **캠페인** | Creative Cloud에서 캠페인은 Creative Cloud 이미지 자산을 사용하는 마케팅 캠페인으로 생각할 수 있습니다. | CX Enterprise에서 캠페인은 대상에 표시되는 컨텐츠 내용을 결정합니다. 콘텐츠가 표시되는 위치와 시기도 결정합니다. 캠페인에는 특정 목표가 있으며, 지표로 목표를 추적합니다.<br>캠페인을 실행하기 위해서는 캠페인의 규칙 세트와 방문자의 컨텍스트가 일치해야 하고, 위치 채널의 기술적 제한에 따른 콘텐츠 게재가 필요합니다.<br>Adobe Target에서 캠페인과 활동이라는 용어는 동의어입니다. |
-| **채널** | Creative Cloud에서 채널은 서로 다른 유형의 정보를 저장하는 회색 음영 이미지일 수 있습니다. 정보 채널과 색상 채널이 있습니다. | CX Enterprise에서 채널은 위치 속성이나 캠페인에 있는 활동입니다.<br>Analytics에서 마케팅 채널은 이메일 캠페인 방식 등 일반적으로 방문자가 사이트에 도착하는 방식에 대한 통찰력을 제공하는 데 사용됩니다.<br>해당 예는 다음과 같습니다.<ul><li>이메일</li><li>디스플레이 광고</li><li>소셜 네트워크</li><li>유료 검색</li><li>자연어 검색</li><li>참조 도메인</li></ul> |
-| **콘텐츠** | Creative Cloud에서 콘텐츠는 페이지의 텍스트 및 이미지를 나타냅니다. 이 용어는 Creative과 CX Enterprises 간에 유사하게 사용됩니다. | CX Enterprise에서 콘텐츠는 특정 목표를 지원하기 위해 캠페인의 일부로 사용할 수 있는 마케팅 콘텐츠를 나타냅니다.<br>콘텐츠는 특정 위치에 사용되고 자산으로 구성될 수 있습니다. 콘텐츠는 제품 정보처럼 구조화하거나, 모바일 애플리케이션의 화면 또는 웹 페이지처럼 구조화하지 않을 수 있습니다.<br>해당 예는 다음과 같습니다.<ul><li>웹 페이지</li><li>배너</li><li>상태 업데이트</li><li>댓글</li><li>텍스트 광고</li><li>제품 정보</li><li>제품 평가</li><li>양식 데이터</li><li>검색 색인의 문서</li><li>소셜 게시물</li><li>문서</li><li>발행물</li></ul> |
-| **대시보드** | 특별한 용도는 없습니다. | 하나의 보기에서 여러 주요 지표를 나타내는 데이터 시각화 컬렉션입니다. |
-| **데이터 사용 적용** | 특별한 용도는 없습니다. | 데이터 사용 시 Adobe 기업 개인정보 처리방침, 계약 고려 사항 및 일반 개인정보 보호 원칙을 준수할 수 있도록 데이터 사용 메타데이터를 사용하기 위해 시스템(애플리케이션, 앱, 서비스, SDK, API 등)을 통해 제정되고 정의된 정책, 시스템 디자인, 관행 및 절차. |
-| **장치** | 특별한 용도는 없습니다. | 애플리케이션이 실행되는 태블릿, 휴대폰 또는 데스크탑 등의 하드웨어 디바이스. |
-| **Device Co-op** | 특별한 용도는 없습니다. | 디바이스 간에 개인을 더 잘 식별하고 더 의미 있고 일관된 환경을 제공하기 위해 소비자가 사용하는 디바이스에 대한 데이터를 공유하는 데 동의한 브랜드 그룹. |
-| **[!UICONTROL CX Enterprise ID Service] (ECID)** | 특별한 용도는 없습니다. | 사이트 방문자에게 지정된 고유한 영구 ID. Experience Platform ID 서비스에서 사용할 수 있는 특정 엔티티입니다. [자세히...](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko) |
-| **[!UICONTROL Experience Platform Identity Service]** | 특별한 용도는 없습니다. | ID를 연결하는 서비스입니다. 사람 기반의 경험 관리를 위한 디바이스 연결 서비스입니다. |
-| **연결** | 특별한 용도는 없습니다. 연결은 하이퍼링크 탐색 및 글꼴, 속성, 레이어 등의 항목 연결을 나타냅니다. | CX Enterprise에서 연결은 일반적으로 서로 다른 애플리케이션 계정을 인터페이스에 연결하는 것을 말합니다.<br> [조직 및 계정 연결](../administration/organizations.md)을 참조하십시오.<br>또한 다른 사용자에게 전송된 Analytics 보고서에 대한 표준 URL을 연결이라고도 합니다. |
-| **위치** | Creative Cloud에서 위치는 파일 위치 또는 열린 이미지나 문서의 위치를 나타냅니다. | CX Enterprise에서 위치는 대상이 컨텐츠를 보고 상호 작용할 수 있는 장소입니다. 위치와 콘텐츠 간의 연관성이 다소 정적이거나 캠페인 규칙에 따라 동적으로 관리할 수 있습니다. 위치는 콘텐츠를 게재할 수 있는 방법 및 지표를 수집할 수 있는 방법을 결정하는 특정 채널에 항상 속합니다.<br>해당 예는 다음과 같습니다.<ul><li>Sites</li><li>속성(소셜)</li><li>인벤토리 표시</li><li>랜딩 페이지</li><li>모바일 애플리케이션</li><li>슬롯(비디오)</li></ul> |
-| **지표** | Creative Cloud에서 사용되지 않습니다. | 주요 개념 및 목표에 대한 숫자들을 집계합니다. Analytics에서 지표는 보기 수, 선택 횟수, 다시 로드 횟수, 평균 체류 시간, 판매량, 주문 수, 매출액 등과 같은 방문자 활동에 대한 수량 정보입니다. |
-| **조직** | Creative Cloud에서 사용되지 않습니다. | 조직은 관리자가 사용자와 제품을 구성하고 CX Enterprise에서 단일 사인온을 제어할 수 있도록 해 주는 CX Enterprise 엔티티입니다. 대부분의 경우, 조직은 청구 회사입니다. |
-| **Portfolio** | 여러 파일 또는 자산의 어셈블리입니다. | 캠페인 컨테이너. |
-| **제품 프로필** | [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-products.html)를 참조하십시오. | 사용자가 제품 또는 서비스에 대한 이용 자격을 충족하려면 사용자가 제품 프로필의 일부여야 합니다. 제품 관리자는 사용자가 구입한 플랜과 연결하여 제품 프로필에 라이선스를 할당합니다.<br>사용자는 여러 제품 프로필에 속할 수 있으며 각각 사용자에게 서로 다른 라이선스가 부여됩니다. 사용자의 최종 자격 요건은 해당 사용자에게 각 제품 프로필로 제공된 모든 라이선스의 통합입니다. |
-| **일정** | Adobe Story의 장면 시퀀스 또는 ColdFusion의 예약된 작업일 수 있습니다. | CX Enterprise에서 예약은 캠페인, 채널 및 활동 활성화의 시작 날짜(년, 월, 일) 및 종료 날짜입니다. 활동 예약에는 분 단위까지의 세부 기간이 있습니다. 예약을 변경하면 카드가 만들어집니다.<br>해당 예는 다음과 같습니다.<ul><li>캠페인 예약</li><li>채널 예약</li><li>활동 예약</li></ul> |
-| **세그먼트** | N/A | 대상자를 평가하는 규칙 세트의 출력입니다. Analytics에서 선택적으로 [세그먼트](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko)를 사용하여 CX Enterprise에 전달할 수 있는 대상을 정의할 수 있습니다. <br>Audience Manager에서 세그먼트는 방문자의 멤버십 자격 또는 해당 세그먼트에 포함할 수 있는 자격을 부여하는 [트레이트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=ko) 및 모든 기준의 컬렉션입니다. 또한, 이러한 공통적인 속성을 공유하는 사람들의 컬렉션이기도 합니다. |
-| **공유** | Creative Cloud에서는 플랫폼 간에 외부적으로 파일을 공유할 수 있습니다(소셜, 커뮤니티, 이메일 등). | CX Enterprise에서는 인터페이스 내의 보드 안에서 에셋을 카드로만 공유할 수 있습니다. 사이트에 로그인한 사람은 공유를 사용할 수 있습니다. |
-| **솔루션** | 특별한 용도는 없습니다. | CX Enterprise에서 애플리케이션은 Adobe Analytics, Adobe Target 등과 같은 제품으로 알려져 있습니다. |
-| **트레이트** | N/A | 키-값 쌍(예:color=blue)입니다. Audience Manager에서 [트레이트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=ko)는 세그먼트를 만드는 데 사용됩니다. |
+| 용어 | CX Enterprise 및 이 안내서 | 기타 일반적인 Adobe 사용 |
+| --- | --- | --- |
+| **Adobe CX Enterprise** | `experience.adobe.com`에서 마케팅 응용 프로그램을 열고 환경 설정 및 알림을 설정하고 공유 인터페이스 서비스(예: 고객 특성 및 [대상 라이브러리](../services/audiences/overview.md))에 연결하는 통합 웹 경험입니다. 이전에는 *Adobe Experience Cloud*&#x200B;이었습니다. | **Adobe Experience Platform**(고객 데이터 인프라, 샌드박스, 데이터 세트)와 같은 제품이 아닙니다. **Adobe Creative Cloud**&#x200B;이(가) 아닙니다(디자인 및 미디어 앱). |
+| **Adobe Experience Platform** | 데이터 수집, ID 또는 플랫폼 에이전트를 솔루션에 연결하면 표시됩니다. 일부 탐색 검색 및 AI 기능은 플랫폼으로 지원됩니다. | 데이터 및 오케스트레이션 플랫폼. CX Enterprise 셸 또는 홈 페이지를 의미하는 경우 &quot;Experience Platform&quot;를 사용하지 마십시오. |
+| **Experience League** | 도움말 및 제품 내 링크를 통해 **설명서**, **튜토리얼**, 학습 플레이리스트, 릴리스 노트 및 Adobe 솔루션에 대한 커뮤니티 컨텍스트에 대한 정보를 얻을 수 있습니다. [Experience League 홈](https://experienceleague.adobe.com)에서 시작합니다. | 개인 및 팀에 대한 **계정**, **계획**, **청구**, 다운로드 및 제품 간 문제 해결을 강조하는 **[Adobe 도움말 센터](https://helpx.adobe.com/support.html)**&#x200B;을 보완합니다. 암호 재설정, 계획 변경 및 유사한 작업에 대해서는 도움말 센터를 사용하십시오. 제품 사용 방법 콘텐츠에 대해서는 Experience League을 사용하십시오. |
+| **AI Assistant/agentic AI** | 이 안내서의 AI 주제에 설명된 제품 내 도우미 및 조정된 에이전트. 액세스 및 크레딧은 제품 권한에 따라 다릅니다. | 다른 Adobe 표면(예: **Firefly** 또는 **Express**)에서는 다양한 범위 및 정책이 있는 &quot;AI&quot; 기능을 사용합니다. |
+| **조직** | **IMS 조직**: CX Enterprise의 엔터프라이즈 라이선스, 사용자 디렉터리, SSO 및 Admin Console 관리 경계. [조직 및 계정 연결](../administration/organizations.md)을 참조하세요. | Analytics *보고서 세트*, Target *속성* 또는 Experience Platform *샌드박스*&#x200B;가 아닙니다(제품별 컨테이너임). |
+| **관리 콘솔** | 사용자, 제품 프로필 및 ID를 위한 `adminconsole.adobe.com`의 엔터프라이즈 컨트롤 플레인. CX 엔터프라이즈 **관리** 항목에서 연결됨. [사용자 및 제품 관리](../administration/admin-console.md)를 참조하세요. | 각 앱(예: Analytics 관리 도구 또는 Journey Optimizer 권한 화면) 내의 **제품 내 관리자**&#x200B;와 다릅니다. |
+| **제품 프로필** | 제품 또는 기능에 대한 액세스 권한을 부여하는 Admin Console의 라이선스 번들. 권한을 부여하려면 사용자가 프로필에 속해야 합니다. [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-products.html)를 참조하십시오. | 모든 제품 내 &quot;작업 공간&quot;, &quot;컨테이너&quot; 또는 &quot;속성&quot; 이름과 호환할 수 없으며 솔루션에 따라 다릅니다. |
+| **계정 연결** | 서비스가 한 명의 사용자를 인식하도록 조직의 Adobe ID에 애플리케이션 로그인(예: Analytics 또는 Target 자격 증명)을 연결합니다. [조직 및 계정 연결](../administration/organizations.md)을 참조하세요. | **디렉터리 동기화**, **SSO** 또는 **페더레이션** 설정과 같지 않습니다(Admin Console의 조직 전체 ID 결정). |
+| **Experience Cloud ID 서비스/ECID** | 솔루션에서 사용되는 영구 방문자 식별자(종종 태그 또는 웹 SDK과 함께 배포됨). 이전 Analytics 토론에서 일반적으로 **Experience Cloud ID** 또는 **MID**(으)로 참조됩니다. [ID 서비스 개요](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 참조하세요. | 구현에서 연결할 수 있지만 단일 앱의 이전 쿠키 이름 또는 **Experience Platform** ID 그래프 개념과 다릅니다. |
+| **고객 속성** | 사용자 서비스를 통해 Analytics, Target 및 관련 워크플로우에서 사용하기 위해 업로드하고 매핑하는 CRM 또는 엔터프라이즈 특성입니다. [고객 특성](../services/customer-attributes/attributes.md) 항목을 참조하십시오. | 제품 경계를 확인하지 않고 **Audience Manager 특성**&#x200B;만 또는 모든 **Real-Time CDP** 프로필 필드와 동일시하지 마십시오. |
+| **대상자 라이브러리** | 통합 애플리케이션 전반에서 대상을 구성하고 공유할 수 있는 CX Enterprise UI | **Audience Manager** 및 **Target**&#x200B;에서도 &quot;대상&quot;을 사용하지만 제품별로 세분화 규칙과 대상이 다릅니다. |
+| **세그먼트**(Analytics) | Adobe Analytics에서 빌드하고, 지원되는 경우 공유 대상을 향해 게시할 수 있는 규칙 기반 대상 정의입니다. | **Audience Manager**&#x200B;에서 세그먼트는 **트레이트**&#x200B;를 결합합니다. 명명은 겹치지만 구현은 동일하지 않습니다. **Target**&#x200B;에서 &quot;대상&quot;이 많은 위치에서 이전 &quot;세그먼트&quot; 레이블을 대체했습니다. |
+| **Assets(Experience Cloud Assets)** | CX 엔터프라이즈 마케팅 워크플로우와 승인된 **Creative Cloud** 사용자 간의 공동 작업을 위한 공유 폴더 및 파일입니다. [Assets 개요](../services/assets/experience-cloud-assets.md)를 참조하세요. | **Creative Cloud**&#x200B;에서 &quot;에셋&quot;은 일반적으로 디자인 파일(PSD, AI, INDD)을 의미합니다. 같은 단어, 다른 공유 및 거버넌스 모델. |
 
 {style="table-layout:auto"}
 
