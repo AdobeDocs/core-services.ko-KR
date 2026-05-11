@@ -8,21 +8,14 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-TQID: https://experienceleague.adobe.com/xE4H6kdjbKSwVygCsOV4zTBqPoBHAVMHfJMyYOummg0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/gMxoCIKGEqZIN-DwgvSVfh36iiYLFqB58dRBfsgamBc'
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id:id:
+role_v2: id:
+level_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 639
 ht-degree: 76%
@@ -37,7 +30,7 @@ ht-degree: 76%
 
 ## [!UICONTROL Unified Search]에 액세스
 
-[!UICONTROL Unified Search]은(는) 페이지 상단의 CX Enterprise 헤더의 모든 페이지에서 사용할 수 있습니다. 키보드 단축키 `command /` 또는 `ctrl /`을 사용하여 검색할 수도 있습니다.
+[!UICONTROL Unified Search]은(는) 페이지 상단의 CX 엔터프라이즈 헤더의 모든 페이지에서 사용할 수 있습니다. 키보드 단축키 `command /` 또는 `ctrl /`을 사용하여 검색할 수도 있습니다.
 
 이 기능은 현재 다음과 같은 지원되는 제품에 대해서만 사용할 수 있습니다.
 
@@ -75,16 +68,16 @@ CX Enterprise의 ![[!UICONTROL Unified Search]](../assets/unified-search-results
 
 또한 Experience League 및 커뮤니티에서 도움말 문서를 찾을 수 있습니다. 자연어 쿼리가 지원됩니다.
 
-예를 들어 _스키마를 만드는 방법_&#x200B;은(는) _[!UICONTROL Learning]_&#x200B;아래의 Experience League에서 결과를 생성합니다.
+예를 들어 _스키마를 만드는 방법_&#x200B;은(는) _[!UICONTROL Learning]_아래의 Experience League에서 결과를 생성합니다.
 
-CX Enterprise 도움말의 ![[!UICONTROL Unified Search]](../assets/unified-search-learning.png)
+CX 엔터프라이즈 도움말의 ![[!UICONTROL Unified Search]](../assets/unified-search-learning.png)
 
 검색 알고리즘은 가장 관련성이 높은 레코드를 먼저 표시합니다. 결과 순서는 다음과 같은 몇 가지 요인에 따라 달라집니다.
 
 * 오브젝트에 액세스할 수 있는 사용자 권한
 * 일치율
 * 정확한 일치
-* _[!UICONTROL Top Results]_&#x200B;섹션에는 상위 30개 결과가 표시됩니다.
+* _[!UICONTROL Top Results]_섹션에는 상위 30개 결과가 표시됩니다.
 
 검색을 구체화하려면 다음 중 하나를 클릭하십시오.
 

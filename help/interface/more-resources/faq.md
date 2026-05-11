@@ -1,5 +1,5 @@
 ---
-description: Adobe CX Enterprise의 관리자를 위한 브라우저 지원에 대해 알아보고, 일반적인 질문에 대한 답변을 얻을 수 있습니다.
+description: Adobe CX Enterprise의 관리자를 위한 브라우저 지원에 대해 알아보고 일반적인 질문에 대한 답변을 얻을 수 있습니다.
 solution: Experience Cloud
 title: Experience Cloud FAQ
 index: true
@@ -8,21 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-TQID: https://experienceleague.adobe.com/-uw6vdjg2n7wEREmEzir2-2WSL8slWi8vBRg4oXYJlo
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/UPPlaj8UOGygam8nRfGKE-c-Q-l8qtfaUWzPmXqBLJM'
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: e1eba07e-ab89-466f-9ab5-ceb891d7a67did: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id:id:id:id:
+role_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 730
 ht-degree: 47%
@@ -47,13 +39,13 @@ Adobe은 다음 브라우저의 현재 및 이전 두 버전을 지원합니다.
 
 >[!NOTE]
 >
->CX Enterprise 도메인에서 실행 중인 모든 애플리케이션이 모든 브라우저를 지원하는 것은 아닙니다. 확실치 않다면 특정 애플리케이션의 설명서를 참조하십시오.
+>CX 엔터프라이즈 도메인에서 실행되는 모든 애플리케이션이 모든 브라우저를 지원하는 것은 아닙니다. 확실치 않다면 특정 애플리케이션의 설명서를 참조하십시오.
 
 +++
 
 +++지원되는 언어
 
-CX Enterprise은 Adobe 사용자 계정 환경 설정에 설정되는 각 사용자의 기본 언어를 지원합니다. 현재 지원되는 언어는 다음과 같습니다.
+CX Enterprise는 Adobe 사용자 계정 환경 설정에 설정된 대로 각 사용자의 기본 언어를 지원합니다. 현재 지원되는 언어는 다음과 같습니다.
 
 * 중국어
 * 영어
@@ -66,19 +58,19 @@ CX Enterprise은 Adobe 사용자 계정 환경 설정에 설정되는 각 사용
 * 스페인어
 * 대만어
 
-응용 프로그램 팀은 글로벌 언어 지원에 전념하고 있지만 모든 응용 프로그램이 위에 언급된 모든 언어로 제공되지 않습니다. 기본 언어가 CX Enterprise 애플리케이션에서 지원되지 않는 경우 보조 언어를 기본값으로 설정할 수 있습니다. [CX Enterprise 사용자 환경 설정](https://experience.adobe.com/preferences)에서 수행할 수 있습니다.
+응용 프로그램 팀은 글로벌 언어 지원에 전념하고 있지만 모든 응용 프로그램이 위에 언급된 모든 언어로 제공되지 않습니다. CX 엔터프라이즈 애플리케이션에서 기본 언어가 지원되지 않는 경우 보조 언어를 기본값으로 설정할 수도 있습니다. [CX 엔터프라이즈 사용자 환경 설정](https://experience.adobe.com/preferences)에서 수행할 수 있습니다.
 
 +++
 
-+++Adobe에서 우리 회사에 Adobe CX Enterprise 액세스 비용을 청구합니까?
++++Adobe에서 우리 회사에 Adobe CX 엔터프라이즈 액세스에 대한 비용을 청구합니까?
 
-아니요. Adobe CX Enterprise은 추가 비용 없이 포함됩니다. 그렇지만 특정 핵심 서비스에는 추가 비용이 있을 수 있습니다.
+아니요. Adobe CX Enterprise는 추가 비용 없이 제공됩니다. 그렇지만 특정 핵심 서비스에는 추가 비용이 있을 수 있습니다.
 
 +++
 
-+++우리 회사에서 CX Enterprise 인터페이스를 통해 로그인해야 하는 이유는 무엇입니까?
++++우리 회사에서 CX 엔터프라이즈 인터페이스를 통해 로그인해야 하는 이유는 무엇입니까?
 
-CX Enterprise 인터페이스에서 제공하는 기능은 귀하의 비즈니스에 새로운 가치를 부여합니다. 또한 향후 애플리케이션에 액세스하기 위한 표준 경로로 사용되며 결과적으로는 다른 개별 애플리케이션 로그인 흐름을 대체하게 됩니다. CX Enterprise을 통해 로그인하면 나중에 원활하게 전환할 수 있습니다.
+CX 엔터프라이즈 인터페이스에서 제공하는 기능을 통해 새로운 비즈니스 가치를 창출할 수 있습니다. 또한 향후 애플리케이션에 액세스하기 위한 표준 경로로 사용되며 결과적으로는 다른 개별 애플리케이션 로그인 흐름을 대체하게 됩니다. CX Enterprise 를 통해 로그인하면 나중에 원활하게 전환할 수 있습니다.
 
 +++
 
@@ -92,10 +84,10 @@ Adobe 고객 지원 센터는 사용자의 명시적 인증을 요구하는 Adob
 
 +++프로비저닝이란 무엇입니까?
 
-CX Enterprise에서의 프로비저닝은 다음을 의미합니다.
+CX Enterprise에서 프로비저닝은 다음을 의미합니다.
 
 * 사용자는 CX Enterprise에 로그인하고 애플리케이션을 연결할 수 있습니다.
-* CX Enterprise을 통해 사용할 수 있는 기능을 사용할 수 있습니다.
+* CX Enterprise 를 통해 제공되는 기능을 사용할 수 있습니다.
 * 애플리케이션별 로그인 프로세스의 사용을 중단할 준비를 갖출 수 있습니다.
 * 애플리케이션에 대한 액세스 제어 권한은 그대로 유지할 수 있습니다.
 
@@ -113,15 +105,15 @@ CX Enterprise에서의 프로비저닝은 다음을 의미합니다.
 
 * 사용자 자격 및 제품 관리는 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)&#x200B;(제품 링크)에서 수행됩니다.
 
-* **중요:** Analytics 관리자는 [Admin Console의 Analytics 사용자 관리](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ko)에서 사용자 ID를 Analytics 관리 도구에서 Admin Console로 마이그레이션하는 작업에 대해 참조하십시오.
+* **중요:** Analytics 관리자는 [Admin Console의 Analytics 사용자 관리](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html)에서 사용자 ID를 Analytics 관리 도구에서 Admin Console로 마이그레이션하는 작업에 대해 참조하십시오.
 
 +++
 
-+++CX Enterprise에 로그인할 수 없으면 어떻게 해야 합니까?
++++CX Enterprise에 로그인할 수 없는 경우 어떻게 해야 합니까?
 
 Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있습니다. 사용자에게 로그인 지침이 포함된 이메일이 전송됩니다.
 
-[Adobe 지원 센터에 문의](https://experienceleague.adobe.com/ko?support-solution=General#support)하여 귀사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
+[Adobe 지원 센터에 문의](https://experienceleague.adobe.com/?support-solution=General#support)하여 귀사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
 
 +++
 
@@ -141,7 +133,7 @@ Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있
 
 +++조직이란 무엇입니까?
 
-[조직](../administration/organizations.md)은(는) 관리자가 그룹과 사용자를 구성하고, CX Enterprise에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 엔터티입니다. 조직은 모든 CX Enterprise 제품 및 애플리케이션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
+[조직](../administration/organizations.md)은(는) 관리자가 그룹과 사용자를 구성하고 CX Enterprise에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 엔터티입니다. 조직은 모든 CX 엔터프라이즈 제품 및 애플리케이션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다.
 
 +++
 
@@ -153,7 +145,7 @@ Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있
 
 +++사용자 중 한 명이 회사를 퇴사할 경우 어떻게 해야 합니까?
 
-애플리케이션 자체에서 액세스 권한이 제거됩니다. CX Enterprise에서 또는 직접 로그인을 통해 제품에 액세스할 수 없습니다. CX Enterprise 수준에서도 제거해야 합니다.
+애플리케이션 자체에서 액세스 권한이 제거됩니다. 이 고객은 CX Enterprise에서 또는 직접 로그인을 통해 제품에 액세스할 수 없습니다. CX 엔터프라이즈 수준에서도 제거해야 합니다.
 
 +++
 

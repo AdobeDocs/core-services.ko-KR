@@ -7,14 +7,11 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-TQID: https://experienceleague.adobe.com/7vFfu0DyoTnsrlrWVApm0LLW4jsC0LoXb55jJ3jdxeY
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b46d8d782c26f14cf77da1c29cb79936b9e1f0da
+TQID: 'https://experienceleague.adobe.com/abkUuVeMwvEfGzXNvFGtEwJwim8AAEqD8PWWONdp64s'
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 579
 ht-degree: 43%
@@ -54,7 +51,7 @@ CX 엔터프라이즈 헤더에서 다음을 수행할 수 있습니다.
 
    예를 들어 조직에 Federated ID와 도메인 `example.com`가 있는 경우 URL 링크를 `https://experience.adobe.com/#/sso:@example.com`로 설정합니다. 애플리케이션 경로가 첨부된 이 URL을 책갈피로 지정하여 바로 특정 애플리케이션으로 이동할 수도 있습니다. (예: Adobe Analytics의 경우 `https://experience.adobe.com/#/sso:@example.com/analytics`.)
 
-   **참고:** 조직의 관리자가 IP 주소별로 Adobe 제품에 대한 액세스를 제한할 수 있습니다. 이 경우 CX Enterprise에 로그인하거나 이 기능이 활성화된 조직으로 전환하면 오류가 발생할 수 있습니다. 자세한 내용은 [IP 주소로 제품 액세스 제한](https://helpx.adobe.com/kr/enterprise/using/ip-based-access.html)을 참조하세요.
+   **참고:** 조직의 관리자가 IP 주소별로 Adobe 제품에 대한 액세스를 제한할 수 있습니다. 이 경우 CX Enterprise에 로그인하거나 이 기능이 활성화된 조직으로 전환하면 오류가 발생할 수 있습니다. 자세한 내용은 [IP 주소로 제품 액세스 제한](https://helpx.adobe.com/enterprise/using/ip-based-access.html)을 참조하세요.
 
 
 ## CX 엔터프라이즈 애플리케이션 액세스
@@ -67,7 +64,7 @@ CX Enterprise에 로그인한 후 통합 헤더에서 모든 애플리케이션,
 
 ## 도움말 및 지원 요청
 
-헤더의 **[!UICONTROL Help center]**(![asset](assets/help-icon.png))을 사용하여 [Experience League](https://experienceleague.adobe.com/ko#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선순위가 지정된 지원 티켓을 만들 수도 있습니다.
+헤더의 **[!UICONTROL Help center]**(![asset](assets/help-icon.png))을 사용하여 [Experience League](https://experienceleague.adobe.com/#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선순위가 지정된 지원 티켓을 만들 수도 있습니다.
 
 ![도움말 및 지원 요청](assets/search-menu.png)
 
@@ -75,7 +72,7 @@ CX Enterprise에 로그인한 후 통합 헤더에서 모든 애플리케이션,
 
 * **[!UICONTROL Support]:** 지원 티켓을 만들거나 Twitter를 사용하여 [!UICONTROL Support]에 문의하세요.
 * **[!UICONTROL Feedback]:** CX 엔터프라이즈 환경에 대한 피드백을 공유합니다. 귀하의 피드백은 Adobe의 제품 및 서비스를 개선하는 데 사용됩니다.
-* **[!UICONTROL Status]:** `https://status.adobe.com/ko-kr/experience_cloud`(으)로 이동하여 제품 작동 상태 및 [!UICONTROL Manage Subscriptions]을(를) 확인합니다.
+* **[!UICONTROL Status]:** `https://status.adobe.com/experience_cloud`(으)로 이동하여 제품 작동 상태 및 [!UICONTROL Manage Subscriptions]을(를) 확인합니다.
 * **[!UICONTROL Developer Connection]:** `adobe.io`(으)로 이동하여 개발자 설명서를 찾습니다.
 
 ## 사용자 프로필 관리

@@ -1,30 +1,33 @@
 ---
-description: CX Enterprise의 중앙 인터페이스 구성 요소에 대해 알아봅니다. Admin Console에서 사용자 및 제품 관리에 대한 도움말을 보고 CX Enterprise 서비스용 애플리케이션을 사용하도록 설정하십시오. 대상 라이브러리, 고객 속성, CX Enterprise Assets 등에 대한 도움말을 봅니다.
+description: CX Enterprise용 중앙 인터페이스 구성 요소에 대해 알아봅니다. Admin Console에서 사용자 및 제품 관리에 대한 도움말을 확인하고 CX 엔터프라이즈 서비스용 애플리케이션을 사용하도록 설정합니다. 대상 라이브러리, 고객 특성, CX 엔터프라이즈 Assets 등에 대한 도움말을 봅니다.
 title: Experience Cloud 인터페이스 및 관리
 hide: true
-hidefromtoc: true
+hidefromtoc: 'yes'
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/sCznsFJ8wGaA-je8lk39b7DBMALtSFtD3aAl0Bb-K14'
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: 504
 ht-degree: 50%
 
 ---
 
-# CX Enterprise 인터페이스 및 관리
+# CX 엔터프라이즈 인터페이스 및 관리
 
-[CX Enterprise](https://experience.adobe.com)은(는) Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능 및 서비스에 빠르게 액세스할 수 있습니다.
+[CX 엔터프라이즈](https://experience.adobe.com)는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능 및 서비스에 빠르게 액세스할 수 있습니다.
 
 10월 30일 숨김
 
-![CX Enterprise](assets/landing.png)
+![CX 엔터프라이즈](assets/landing.png)
 
 CX Enterprise 헤더에서 다음을 수행할 수 있습니다.
 
-* 모든 CX Enterprise 애플리케이션 및 서비스에 액세스
+* 모든 CX 엔터프라이즈 애플리케이션 및 서비스 액세스
 * 도움말 메뉴에서 제품 설명서, 튜토리얼 및 커뮤니티 게시물 검색 Experience League에서 결과 보기
 * 검색 필드에서 글로벌 검색을 사용하여 전역으로 비즈니스 오브젝트 검색 (Experience Platform 사용자만 해당)
 * 계정 [환경 설정](features/account-preferences.md) 관리 (경고, 알림 및 구독)
@@ -45,29 +48,29 @@ CX Enterprise 헤더에서 다음을 수행할 수 있습니다.
 
    [조직](administration/organizations.md)은 인터페이스 헤더에 표시됩니다.
 
-   조직이 Federated ID를 사용하는 경우 CX Enterprise을 통해 이메일 주소와 암호를 입력할 필요 없이 조직의 SSO(Single Sign-On)로 로그인할 수 있습니다. 이 작업을 수행하려면 `#/sso:@domain`을(를) CX Enterprise URL(`https://experience.adobe.com`)에 추가하십시오.
+   조직이 Federated ID를 사용하는 경우 CX Enterprise를 사용하면 이메일 주소와 암호를 입력할 필요 없이 조직의 SSO(Single Sign-On)로 로그인할 수 있습니다. 이 작업을 수행하려면 CX 엔터프라이즈 URL(`https://experience.adobe.com`)에 `#/sso:@domain`을(를) 추가하십시오.
 
    예를 들어 조직에 Federated ID와 도메인 `example.com`가 있는 경우 URL 링크를 `https://experience.adobe.com/#/sso:@example.com`로 설정합니다. 애플리케이션 경로가 첨부된 이 URL을 책갈피로 지정하여 바로 특정 애플리케이션으로 이동할 수도 있습니다. (예: Adobe Analytics의 경우 `https://experience.adobe.com/#/sso:@example.com/analytics`.)
 
-## CX Enterprise 애플리케이션 액세스 {#navigation}
+## CX 엔터프라이즈 애플리케이션 액세스 {#navigation}
 
 CX Enterprise에 로그인한 후 통합 헤더에서 모든 애플리케이션, 서비스 및 조직에 빠르게 액세스할 수 있습니다.
 
-조직의 CX Enterprise 응용 프로그램 및 서비스에 액세스하려면 응용 프로그램 선택기 ![메뉴](assets/apps-icon.png)(으)로 이동하십시오.
+조직의 CX 엔터프라이즈 응용 프로그램 및 서비스에 액세스하려면 응용 프로그램 선택기 ![메뉴](assets/apps-icon.png)로 이동하십시오.
 
-![CX Enterprise 응용 프로그램에 액세스](assets/platform-core-services.png)
+![CX 엔터프라이즈 애플리케이션에 액세스](assets/platform-core-services.png)
 
 ## 도움말 및 지원 요청 {#support}
 
-헤더의 **[!UICONTROL Help center]**(![asset](assets/help-icon.png))을 사용하여 [Experience League](https://experienceleague.adobe.com/ko#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선순위가 지정된 지원 티켓을 만들 수도 있습니다.
+헤더의 **[!UICONTROL Help center]**(![asset](assets/help-icon.png))을 사용하여 [Experience League](https://experienceleague.adobe.com/#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선순위가 지정된 지원 티켓을 만들 수도 있습니다.
 
 ![도움말 및 지원 요청](assets/search-menu.png)
 
 [!UICONTROL Help] 메뉴를 통해 다음에 액세스할 수도 있습니다.
 
 * **[!UICONTROL Support]:** 지원 티켓을 만들거나 Twitter를 사용하여 [!UICONTROL Support]에 문의하세요.
-* **[!UICONTROL Feedback]:** CX Enterprise 경험에 대한 피드백을 공유합니다. 귀하의 피드백은 Adobe의 제품 및 서비스를 개선하는 데 사용됩니다.
-* **[!UICONTROL Status]:** `https://status.adobe.com/ko-kr/experience_cloud`(으)로 이동하여 제품 작동 상태 및 [!UICONTROL Manage Subscriptions]을(를) 확인합니다.
+* **[!UICONTROL Feedback]:** CX 엔터프라이즈 환경에 대한 피드백을 공유합니다. 귀하의 피드백은 Adobe의 제품 및 서비스를 개선하는 데 사용됩니다.
+* **[!UICONTROL Status]:** `https://status.adobe.com/experience_cloud`(으)로 이동하여 제품 작동 상태 및 [!UICONTROL Manage Subscriptions]을(를) 확인합니다.
 * **[!UICONTROL Developer Connection]:** `adobe.io`(으)로 이동하여 개발자 설명서를 찾습니다.
 
 ## 사용자 프로필 관리
