@@ -10,12 +10,29 @@ role: Admin, User
 level: Beginner, Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
 TQID: 'https://experienceleague.adobe.com/c6o7NcoqRE6juwlyq-SbBk43i9JXNsi6UhXHJOPfPNE'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 subfeature_v2: id:id:
 role_v2: id:id:
 level_v2: id:id:
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e4bd5f48-22a4-465d-a046-5ffb52e27856id: e9001ce2-5245-4a8e-8601-dd958009072fid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 3165
@@ -146,7 +163,7 @@ AI Assistant는 다음 위치에서 AEM as a Cloud Service을 지원합니다.
 
 #### Experience Manager Sites
 
-AEM Sites에서는 _[!UICONTROL Generate Variations]_을(를) 사용할 수 있습니다. 이 기능은 생성 인공 지능을 사용하여 입력 프롬프트에 따라 콘텐츠 변형을 만듭니다. 프롬프트는 Adobe에서 제공하거나 사용자가 생성 및 관리합니다.
+AEM Sites에서는 _[!UICONTROL Generate Variations]_&#x200B;을(를) 사용할 수 있습니다. 이 기능은 생성 인공 지능을 사용하여 입력 프롬프트에 따라 콘텐츠 변형을 만듭니다. 프롬프트는 Adobe에서 제공하거나 사용자가 생성 및 관리합니다.
 
 변형을 만든 후에는 웹 사이트의 콘텐츠를 사용하고 Edge Delivery Services의 [실험](https://www.aem.live/docs/experimentation) 기능을 사용하여 성공을 측정할 수 있습니다. Firefly의 생성 AI 기능을 사용하여 Adobe Express에서 이미지를 생성하는 옵션도 있습니다.
 
