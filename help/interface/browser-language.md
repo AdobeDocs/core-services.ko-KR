@@ -1,6 +1,6 @@
 ---
 title: 브라우저 및 언어 지원
-description: CX Enterprise 애플리케이션에 대한 브라우저 및 언어 지원에 대해 알아봅니다. 계정 프로필에서 기본 및 보조 언어를 선택합니다.
+description: CX 엔터프라이즈 애플리케이션에 대한 브라우저 및 언어 지원에 대해 알아봅니다. 계정 프로필에서 기본 및 보조 언어를 선택합니다.
 solution: Experience Cloud
 feature: Account Preferences
 topic: Administration
@@ -21,16 +21,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 242
 ht-degree: 40%
 
 ---
 
-# CX Enterprise의 브라우저 및 언어 지원
+# CX Enterprise 의 브라우저 및 언어 지원
 
-최상의 성능을 위해 CX Enterprise은 최신 버전과 두 개의 이전 버전을 포함하여 가장 인기 있는 브라우저에 최적화되었습니다.
+최상의 성능을 위해 CX Enterprise는 최신 버전과 두 개의 이전 버전을 포함하여 가장 많이 사용되는 브라우저에 최적화되었습니다.
 
 * Chrome
 * Edge
@@ -42,11 +42,11 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->CX Enterprise 도메인에서 실행 중인 모든 애플리케이션이 모든 브라우저를 지원하는 것은 아닙니다. 확실치 않다면 특정 애플리케이션의 설명서를 참조하십시오.
+>CX 엔터프라이즈 도메인에서 실행되는 모든 애플리케이션이 모든 브라우저를 지원하는 것은 아닙니다. 확실치 않다면 특정 애플리케이션의 설명서를 참조하십시오.
 
-## CX Enterprise의 언어 지원
+## CX Enterprise 언어 지원
 
-CX Enterprise 사용자 인터페이스는 다음 언어로 제공됩니다.
+CX 엔터프라이즈 사용자 인터페이스는 다음 언어로 제공됩니다.
 
 * 영어(미국)
 * 프랑스어(프랑스)
@@ -75,7 +75,7 @@ CX Enterprise 사용자 인터페이스는 다음 언어로 제공됩니다.
 
 1. **[!UICONTROL Select language]**&#x200B;의 **[!UICONTROL First language]** 메뉴에서 언어를 선택하십시오.
 
-   모든 응용 프로그램 팀은 글로벌 언어 지원에 전념하지만 모든 응용 프로그램이 인터페이스에 나열된 모든 언어로 제공되지 않습니다. 기본 언어가 CX Enterprise 애플리케이션에서 지원되지 않는 경우 보조 기본 언어를 설정할 수 있습니다.
+   모든 응용 프로그램 팀은 글로벌 언어 지원에 전념하지만 모든 응용 프로그램이 인터페이스에 나열된 모든 언어로 제공되지 않습니다. CX 엔터프라이즈 애플리케이션에서 기본 언어가 지원되지 않는 경우 보조 기본 언어를 설정할 수 있습니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 

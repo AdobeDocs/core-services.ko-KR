@@ -1,5 +1,5 @@
 ---
-description: 사용 데이터를 기반으로 이메일, CX Enterprise 제품 및 Experience League 커뮤니티 내에서 개인화된 도움말과 프로모션을 받을 수 있습니다.
+description: 사용 데이터를 기반으로 이메일, CX 엔터프라이즈 제품 및 Experience League 커뮤니티 내에서 개인화된 도움말과 프로모션을 받을 수 있습니다.
 solution: Experience Cloud
 title: Experience Cloud 맞춤형 학습 환경 설정
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 105
 ht-degree: 20%
@@ -25,7 +25,7 @@ ht-degree: 20%
 
 # 개인화된 학습 환경 설정
 
-Adobe은 Adobe 제품에서의 작업을 기반으로 개인화된 유용한 콘텐츠를 제공합니다. 제품 사용 데이터는 이 컨텍스트를 사용자에게 맞춤화하는 방법을 알려줍니다. [CX Enterprise 환경 설정](https://experience.adobe.com/preferences) 페이지에서 제품 사용 데이터를 공유하도록 옵트인하거나 옵트아웃할 수 있습니다.
+Adobe은 Adobe 제품에서의 작업을 기반으로 개인화된 유용한 콘텐츠를 제공합니다. 제품 사용 데이터는 이 컨텍스트를 사용자에게 맞춤화하는 방법을 알려줍니다. [CX 엔터프라이즈 환경 설정](https://experience.adobe.com/preferences) 페이지에서 제품 사용 데이터 공유를 옵트인하거나 옵트아웃할 수 있습니다.
 
 <!--
 ## Personalized training and support recommendations for your Adobe products and services

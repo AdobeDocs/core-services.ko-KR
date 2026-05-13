@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 129
 ht-degree: 15%
@@ -23,9 +23,9 @@ ht-degree: 15%
 
 # CX Enterprise에서 사용하는 도메인
 
-CX Enterprise은 다음 호스트를 사용하여 애플리케이션을 제공하고 성능을 향상시키며 제품 경험을 향상시킵니다. Adobe은 최적의 환경을 위해 이러한 도메인을 조직의 네트워크 또는 방화벽을 통해 허용하는 것을 권장합니다.
+CX Enterprise 는 다음 호스트를 사용하여 애플리케이션을 제공하고 성능을 향상시키며 제품 사용 환경을 개선합니다. Adobe은 최적의 환경을 위해 이러한 도메인을 조직의 네트워크 또는 방화벽을 통해 허용하는 것을 권장합니다.
 
-아래 나열된 도메인 외에도 개별 Adobe CX Enterprise 제품에는 다음과 같은 도메인을 사용하는 것이 있습니다.
+아래 나열된 도메인 외에도 개별 Adobe CX Enterprise 제품에는 다음과 같은 자체 도메인이 있습니다.
 
 * [Adobe Analytics](https://experienceleague.adobe.com/ko/docs/analytics/technotes/domains)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/domains)

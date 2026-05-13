@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 402
 ht-degree: 52%
@@ -31,9 +31,9 @@ ht-degree: 52%
 
 CCPA는 2020년 1월 1일에 발효되는 캘리포니아 주의 새로운 개인 정보 보호법입니다. CCPA는 캘리포니아 주민에게 개인정보에 대한 새로운 권리를 제공하고 캘리포니아에서 사업을 하는 특정 업체들에 데이터 보호 책임을 부과합니다. CCPA는 소비자에게 개인 정보를 액세스하고 삭제할 수 있는 권한과 서드파티에 대한 개인 정보 &quot;판매&quot;의 자격이 되는 특정 활동을 거부할 수 있는 권한을 제공합니다.
 
-기업은 Adobe CX Enterprise이 기업을 대신하여 처리하고 저장하는 개인 데이터를 결정합니다.
+기업은 Adobe CX Enterprise가 기업을 대신하여 처리하고 저장하는 개인 데이터를 결정합니다.
 
-Adobe CX Enterprise은 서비스 제공업체로서 귀사가 CX Enterprise 제품 및 서비스 사용에 적용되는 CCPA에 따른 의무를 이행할 수 있도록 지원을 제공합니다. 이 지원에는 개인정보 액세스 및 삭제 요청 관리가 포함됩니다.
+Adobe CX Enterprise는 서비스 제공업체로서 귀사가 CX Enterprise 제품 및 서비스 사용에 적용되는 CCPA에 따른 의무를 이행할 수 있도록 지원을 제공합니다. 이 지원에는 개인정보 액세스 및 삭제 요청 관리가 포함됩니다.
 
 이 문서에서는 [!DNL Customer Attributes]이(가) Adobe Experience Platform Privacy Service API 및 Privacy Service UI를 사용하여 데이터 주체의 CCPA 데이터 액세스 및 삭제 권한을 지원하는 방법에 대해 설명합니다.
 

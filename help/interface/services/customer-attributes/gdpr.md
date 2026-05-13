@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 407
 ht-degree: 82%
@@ -31,7 +31,7 @@ ht-degree: 82%
 
 2018년 5월 25일부터 적용되는 [개인정보 보호 규정](https://business.adobe.com/kr/privacy/general-data-protection-regulation.html)은 유럽 연합(EU)의 국경 내의 모든 개인(데이터 주체)이 개인 데이터를 통제하도록 규정하고 있습니다. 또한 국제 비즈니스를 위한 규정 환경을 간소화합니다. 이 법은 데이터 관리자의 비즈니스 위치에 상관없이 개인 데이터를 처리할 때 EU의 경계 내에서 개인 데이터를 수집하거나, 행동을 모니터링하거나, 개인 데이터를 수집하는 모든 기업(데이터 관리자)에 적용됩니다.
 
-Adobe CX Enterprise은 고객을 대신하여 수신하여 저장하는 모든 개인 데이터에 대한 데이터 처리자 역할을 합니다. 귀하는 데이터 관리자로서 Adobe CX Enterprise이 귀하를 대신하여 처리하고 저장하는 개인 데이터를 결정합니다.
+Adobe CX Enterprise는 고객을 대신하여 수신 및 저장하는 모든 개인 데이터에 대한 데이터 처리자 역할을 합니다. 귀하는 데이터 제어자로서 Adobe CX Enterprise가 귀하를 대신하여 처리하고 저장하는 개인 데이터를 결정합니다.
 
 이 문서에서는 [!DNL Customer Attributes]가 Adobe Experience Platform Privacy Service API 및 Privacy Service UI를 사용하여 데이터 주체의 GDPR 데이터 액세스 및 삭제 권한을 지원하는 방법에 대해 설명합니다.
 

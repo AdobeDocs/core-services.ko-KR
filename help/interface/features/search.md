@@ -22,7 +22,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 639
 ht-degree: 76%
@@ -37,7 +37,7 @@ ht-degree: 76%
 
 ## [!UICONTROL Unified Search]에 액세스
 
-[!UICONTROL Unified Search]은(는) 페이지 상단의 CX Enterprise 헤더의 모든 페이지에서 사용할 수 있습니다. 키보드 단축키 `command /` 또는 `ctrl /`을 사용하여 검색할 수도 있습니다.
+[!UICONTROL Unified Search]은(는) 페이지 상단의 CX 엔터프라이즈 헤더의 모든 페이지에서 사용할 수 있습니다. 키보드 단축키 `command /` 또는 `ctrl /`을 사용하여 검색할 수도 있습니다.
 
 이 기능은 현재 다음과 같은 지원되는 제품에 대해서만 사용할 수 있습니다.
 
@@ -77,7 +77,7 @@ CX Enterprise의 ![[!UICONTROL Unified Search]](../assets/unified-search-results
 
 예를 들어 _스키마를 만드는 방법_&#x200B;은(는) _[!UICONTROL Learning]_&#x200B;아래의 Experience League에서 결과를 생성합니다.
 
-CX Enterprise 도움말의 ![[!UICONTROL Unified Search]](../assets/unified-search-learning.png)
+CX 엔터프라이즈 도움말의 ![[!UICONTROL Unified Search]](../assets/unified-search-learning.png)
 
 검색 알고리즘은 가장 관련성이 높은 레코드를 먼저 표시합니다. 결과 순서는 다음과 같은 몇 가지 요인에 따라 달라집니다.
 

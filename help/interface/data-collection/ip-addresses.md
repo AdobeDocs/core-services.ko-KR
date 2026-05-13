@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 426
 ht-degree: 8%
@@ -26,7 +26,7 @@ ht-degree: 8%
 >
 >Adobe은 이 문서를 최신 상태로 유지하기 위해 최선을 다하고 있지만 IP 범위 목록이 동일하게 유지된다고 보장할 수 없습니다. 비즈니스의 성장 및 확장과 같은 변화가 있을 수 있으며, 인터넷 레지스트리에서 Adobe의 IP 주소 공간을 변경해야 하거나, 인터넷 서비스 공급자가 제대로 작동하지 않을 수 있습니다.
 
-아래에 나열된 IP 주소 블록 외에도 개별 Adobe CX Enterprise 제품에는 사용하는 자체 IP 주소가 있습니다.
+아래에 나열된 IP 주소 블록 외에도 개별 Adobe CX 엔터프라이즈 제품에는 다음과 같은 용도로 사용하는 자체 IP 주소가 있습니다.
 
 * [Adobe Analytics](https://experienceleague.adobe.com/ko/docs/analytics/technotes/ip-addresses)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/ip-addresses)
@@ -49,12 +49,12 @@ ht-degree: 8%
 
 {style="table-layout:auto"}
 
-## Adobe CX Enterprise 데이터 수집 및 FTP IP 주소 블록
+## Adobe CX 엔터프라이즈 데이터 수집 및 FTP IP 주소 블록
 
 조직에서 특정 IP 주소 범위를 허용하고자 할 경우 다음 표를 참조할 수 있습니다. 이러한 서비스에는 다음이 포함됩니다.
 
-* 모든 CX Enterprise 제품에 대한 데이터 수집 서버
-* 모든 CX Enterprise 제품용 FTP 서버
+* 모든 CX 엔터프라이즈 제품을 위한 데이터 수집 서버
+* 모든 CX 엔터프라이즈 제품용 FTP 서버
 
 이 섹션의 모든 IP 범위는 위 표에 포함되어 있습니다.
 
@@ -92,7 +92,7 @@ ht-degree: 8%
 
 {style="table-layout:auto"}
 
-Adobe CX Enterprise은 제한된 용량에서 IPv6도 지원합니다. 이러한 IP 블록은 위의 IPv4 블록들과 유사한 데이터 수집 목적을 제공하지만 FTP는 포함하지 않습니다.
+Adobe CX Enterprise는 제한된 용량으로 IPv6도 지원합니다. 이러한 IP 블록은 위의 IPv4 블록들과 유사한 데이터 수집 목적을 제공하지만 FTP는 포함하지 않습니다.
 
 | 위치 | Host |
 | --- | --- |

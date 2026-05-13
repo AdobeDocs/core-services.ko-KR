@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 408
 ht-degree: 47%
@@ -28,7 +28,7 @@ ht-degree: 47%
 
 # 고객 속성 가입 구성
 
-[!DNL Customer Attributes]개의 구독을 통해 CX Enterprise과 응용 프로그램([!DNL Analytics] 및 [!DNL Target]) 간에 고객 특성 데이터 흐름을 사용할 수 있습니다.
+[!DNL Customer Attributes] 구독을 통해 CX Enterprise와 애플리케이션([!DNL Analytics] 및 [!DNL Target]) 간에 고객 특성 데이터 흐름을 사용할 수 있습니다.
 
 예를 들어 Adobe Analytics 가입을 구성하면 속성 데이터를 보고서에서 사용할 수 있습니다. [!DNL Adobe Target]을(를) 사용하는 경우 타깃팅 및 세그멘테이션을 위해 고객 특성을 업로드할 수 있습니다.
 

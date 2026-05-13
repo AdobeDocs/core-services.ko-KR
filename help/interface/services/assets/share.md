@@ -1,5 +1,5 @@
 ---
-description: Creative Cloud 사용자와 CX Enterprise 에셋 폴더를 공유하는 방법에 대해 알아봅니다.
+description: Creative Cloud 사용자와 CX 엔터프라이즈 자산 폴더를 공유하는 방법에 대해 알아봅니다.
 solution: Experience Cloud
 title: Experience Cloud 자산 폴더 공유
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
@@ -21,16 +21,16 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 451
 ht-degree: 39%
 
 ---
 
-# CX Enterprise 자산 폴더 공유
+# CX 엔터프라이즈 자산 폴더 공유
 
-CX Enterprise과 Creative Cloud 간에 폴더 및 에셋을 공유합니다. 공유 에셋에 공동 작업을 수행하고, 주석을 달고, Adobe Target과 같은 CX Enterprise 애플리케이션에서 사용합니다. 공유 폴더는 CX Enterprise에서 가져와야 합니다.
+CX Enterprise와 Creative Cloud 간에 폴더 및 에셋을 공유합니다. 공유 에셋에 공동 작업을 수행하고, 주석을 달고, Adobe Target과 같은 CX 엔터프라이즈 애플리케이션에서 사용합니다. 공유 폴더는 CX Enterprise에서 가져와야 합니다.
 
 **공유의 이점**
 
@@ -42,7 +42,7 @@ CX Enterprise과 Creative Cloud 간에 폴더 및 에셋을 공유합니다. 공
 
 Creative Cloud 사용자가 에셋에 액세스하려면 CX Enterprise에 허용 목록에 포함되어야 합니다. [Creative Cloud 사용자 관리](manage-cc-users.md)를 참조하십시오.
 
-**CX Enterprise 자산 폴더를 공유하려면**
+**CX 엔터프라이즈 자산 폴더를 공유하려면**
 
 1. 자산 폴더에서 **[!UICONTROL Share to Creative Cloud]**&#x200B;을(를) 클릭합니다.
 
@@ -67,7 +67,7 @@ Creative Cloud 사용자가 에셋에 액세스하려면 CX Enterprise에 허용
 
    ![이미지에 주석 추가](../../assets/asset_comment_cc.png)
 
-   CX Enterprise에서 이미지를 선택한 다음 타임라인 아이콘을 선택하여 이미지에 주석을 추가합니다. 주석은 Creative Cloud 및 CX Enterprise의 자산에서 동기화됩니다.
+   CX Enterprise에서 이미지를 선택한 다음 타임라인 아이콘을 선택하여 이미지에 주석을 추가합니다. 주석은 Creative Cloud 및 CX Enterprise의 에셋에서 동기화됩니다.
 
    ![이미지에 주석 추가](../../assets/asset_comment_mac.png)
 

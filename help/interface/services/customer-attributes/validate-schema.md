@@ -21,7 +21,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 308
 ht-degree: 43%
@@ -50,7 +50,7 @@ ht-degree: 43%
 
    [!UICONTROL Edit Schema] 페이지에서 각 스키마 행은 업로드된 CSV 파일의 열을 나타냅니다.
 
-   ![CX Enterprise에서 스키마 페이지 편집](assets/schema-edit.png)
+   ![CX Enterprise의 스키마 편집 페이지](assets/schema-edit.png)
 
 **작업**
 
@@ -66,4 +66,4 @@ ht-degree: 43%
 
    * **[!UICONTROL CID (customer ID):]** 이 CID와 연결된 특성입니다. prop 또는 eVar을 사용하여 CID(AVID)를 업로드하며 속성은 표시되지만 AVID는 표시되지 않는 경우 방문자가 사이트에 로그인되어 있지 않은 것입니다.
 
-   * prop 또는 eVar을 사용하여 CID를 업로드하는 경우 **[!UICONTROL AVID (Analytics visitor ID):]**&#x200B;이(가) 표시됩니다. 이러한 ID가 CX Enterprise에 전달되는 경우 입력한 CID와 연결된 모든 방문자 ID가 여기에 표시됩니다.
+   * prop 또는 eVar을 사용하여 CID를 업로드하는 경우 **[!UICONTROL AVID (Analytics visitor ID):]**&#x200B;이(가) 표시됩니다. 이러한 ID가 CX Enterprise로 전달되는 경우 입력한 CID와 연결된 모든 방문자 ID가 여기에 표시됩니다.

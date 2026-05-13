@@ -22,7 +22,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 515
 ht-degree: 60%
@@ -31,7 +31,7 @@ ht-degree: 60%
 
 # 대상자 만들기
 
-[!UICONTROL Audience Library]에서 특성 규칙을 사용하여 대상을 만들고 CX Enterprise 애플리케이션에서 공유할 복합 대상을 정의할 수 있습니다.
+[!UICONTROL Audience Library]에서 속성 규칙을 사용하여 대상을 만들고 CX 엔터프라이즈 애플리케이션에서 공유할 복합 대상을 정의할 수 있습니다.
 
 이 문서는 다음 방법을 이해하는 데 도움이 됩니다.
 
@@ -93,7 +93,7 @@ ht-degree: 60%
 
 *Chrome 및 Safari 방문자*&#x200B;는 Analytics에서 공유되는 대상자 세그먼트입니다.
 
-* **[!UICONTROL Attribute Source:]** CX Enterprise
+* **[!UICONTROL Attribute Source:]** CX 엔터프라이즈
 * **[!UICONTROL Dimension:]**&#x200B;명의 Chrome 및 Safari 방문자
 
 ![Chrome/Safari 방문자](assets/chrome_safari.png)
@@ -104,11 +104,11 @@ ht-degree: 60%
 
 결과 규칙은 홈/가든을 방문한 Chrome/Safari 사용자로 구성되는 정의된 대상자입니다. 뜰/가구 세그먼트는 사이트 섹션을 방문하는 모든 방문자에 대한 추가적인 인사이트를 제공합니다.
 
-CX Enterprise에서 ![정의된 대상](assets/defined_audience.png)
+![CX Enterprise에서 정의된 대상](assets/defined_audience.png)
 
 * **이전 예상:** (점선 원) [!DNL Analytics] 데이터를 기반으로 만들어진 규칙을 나타냅니다.
 * **실제 대상:** (실선 원)30일 동안의 Audience Manager 데이터를 포함하여 만들어진 모든 규칙입니다. Audience Manager 데이터가 30일이 되면 선은 실선이 되고 실제 수치를 나타냅니다.
 
 지정된 기간 동안 데이터 수집이 완료되면 원이 합쳐지면서 정의된 대상자를 표시합니다.
 
-대상이 저장되면 다른 CX Enterprise 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/ko/docs/target/using/activities/activities)에 포함할 수 있습니다.
+대상이 저장되면 다른 CX 엔터프라이즈 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/ko/docs/target/using/activities/activities)에 포함할 수 있습니다.

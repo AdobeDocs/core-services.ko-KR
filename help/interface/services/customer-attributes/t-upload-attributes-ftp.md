@@ -1,5 +1,5 @@
 ---
-description: FTP를 통해 CX Enterprise에 고객 속성 데이터를 업로드하는 방법을 알아봅니다.
+description: FTP를 통해 고객 속성 데이터를 CX Enterprise로 업로드하는 방법을 알아봅니다.
 solution: Experience Cloud
 title: FTP를 통한 고객 속성 데이터 파일 업로드
 feature: Customer Attributes
@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 379
 ht-degree: 53%
@@ -28,7 +28,7 @@ ht-degree: 53%
 
 # FTP를 통한 데이터 파일 업로드 (선택 사항)
 
-드래그 앤 드롭을 사용하여 업로드하지 않는 경우에는 FTP를 통해 CX Enterprise으로 고객 속성 데이터를 업로드할 수 있습니다.
+드래그 앤 드롭을 사용하여 업로드하지 않는 경우에는 FTP를 통해 고객 속성 데이터를 CX Enterprise로 업로드할 수 있습니다.
 
 CX Enterprise에서 고객 속성 소스 및 FTP 계정을 만든 후에 데이터를 업로드할 수 있습니다. 속성 소스당 FTP 계정을 1개 만듭니다. 업로드한 파일은 해당 계정의 루트 폴더에 저장됩니다. 데이터는 `.csv` 형식이어야 하며, 업로드가 완료되었음을 나타내는 두 번째 `.fin` 파일도 있어야 합니다.
 
