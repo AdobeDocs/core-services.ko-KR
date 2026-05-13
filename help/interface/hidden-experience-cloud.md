@@ -2,20 +2,14 @@
 description: CX Enterprise용 중앙 인터페이스 구성 요소에 대해 알아봅니다. Admin Console에서 사용자 및 제품 관리에 대한 도움말을 확인하고 CX 엔터프라이즈 서비스용 애플리케이션을 사용하도록 설정합니다. 대상 라이브러리, 고객 특성, CX 엔터프라이즈 Assets 등에 대한 도움말을 봅니다.
 title: Experience Cloud 인터페이스 및 관리
 hide: true
-hidefromtoc: 'yes'
+hidefromtoc: true
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-TQID: 'https://experienceleague.adobe.com/sCznsFJ8wGaA-je8lk39b7DBMALtSFtD3aAl0Bb-K14'
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 504
+source-wordcount: '504'
 ht-degree: 50%
 
 ---
@@ -65,7 +59,7 @@ CX Enterprise에 로그인한 후 통합 헤더에서 모든 애플리케이션,
 
 ## 도움말 및 지원 요청 {#support}
 
-헤더의 **[!UICONTROL Help center]**(![asset](assets/help-icon.png))을 사용하여 [Experience League](https://experienceleague.adobe.com/ko#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선순위가 지정된 지원 티켓을 만들 수도 있습니다.
+헤더의 **[!UICONTROL Help center]**(![asset](assets/help-icon.png))을 사용하여 [Experience League](https://experienceleague.adobe.com/#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선순위가 지정된 지원 티켓을 만들 수도 있습니다.
 
 ![도움말 및 지원 요청](assets/search-menu.png)
 
@@ -73,7 +67,7 @@ CX Enterprise에 로그인한 후 통합 헤더에서 모든 애플리케이션,
 
 * **[!UICONTROL Support]:** 지원 티켓을 만들거나 Twitter를 사용하여 [!UICONTROL Support]에 문의하세요.
 * **[!UICONTROL Feedback]:** CX 엔터프라이즈 환경에 대한 피드백을 공유합니다. 귀하의 피드백은 Adobe의 제품 및 서비스를 개선하는 데 사용됩니다.
-* **[!UICONTROL Status]:** `https://status.adobe.com/ko-kr/experience_cloud`(으)로 이동하여 제품 작동 상태 및 [!UICONTROL Manage Subscriptions]을(를) 확인합니다.
+* **[!UICONTROL Status]:** `https://status.adobe.com/experience_cloud`(으)로 이동하여 제품 작동 상태 및 [!UICONTROL Manage Subscriptions]을(를) 확인합니다.
 * **[!UICONTROL Developer Connection]:** `adobe.io`(으)로 이동하여 개발자 설명서를 찾습니다.
 
 ## 사용자 프로필 관리

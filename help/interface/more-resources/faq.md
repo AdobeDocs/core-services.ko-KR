@@ -8,18 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-TQID: 'https://experienceleague.adobe.com/UPPlaj8UOGygam8nRfGKE-c-Q-l8qtfaUWzPmXqBLJM'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: e1eba07e-ab89-466f-9ab5-ceb891d7a67d
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id:id:id:id:
-role_v2: id:
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
+TQID: https://experienceleague.adobe.com/-uw6vdjg2n7wEREmEzir2-2WSL8slWi8vBRg4oXYJlo
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 730
 ht-degree: 47%
@@ -110,7 +105,7 @@ CX Enterprise에서 프로비저닝은 다음을 의미합니다.
 
 * 사용자 자격 및 제품 관리는 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)&#x200B;(제품 링크)에서 수행됩니다.
 
-* **중요:** Analytics 관리자는 [Admin Console의 Analytics 사용자 관리](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ko)에서 사용자 ID를 Analytics 관리 도구에서 Admin Console로 마이그레이션하는 작업에 대해 참조하십시오.
+* **중요:** Analytics 관리자는 [Admin Console의 Analytics 사용자 관리](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html)에서 사용자 ID를 Analytics 관리 도구에서 Admin Console로 마이그레이션하는 작업에 대해 참조하십시오.
 
 +++
 
@@ -118,7 +113,7 @@ CX Enterprise에서 프로비저닝은 다음을 의미합니다.
 
 Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있습니다. 사용자에게 로그인 지침이 포함된 이메일이 전송됩니다.
 
-[Adobe 지원 센터에 문의](https://experienceleague.adobe.com/ko?support-solution=General#support)하여 귀사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
+[Adobe 지원 센터에 문의](https://experienceleague.adobe.com/?support-solution=General#support)하여 귀사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
 
 +++
 
