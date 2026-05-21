@@ -14,10 +14,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 25446910430bf15dcfa0fc70e25e0681f9faeb95
 workflow-type: tm+mt
-source-wordcount: 579
-ht-degree: 43%
+source-wordcount: 548
+ht-degree: 45%
 
 ---
 
@@ -97,7 +97,4 @@ CX Enterprise에 로그인한 후 통합 헤더에서 모든 애플리케이션,
 
 알림 및 경고를 관리하려면 [계정 환경 설정 및 알림](features/account-preferences.md)을 참조하십시오.
 
-## 용어
-
-Adobe은 마케팅 앱, Creative Cloud, Experience League 및 지원 사이트에서 유사한 이름을 사용합니다. 이러한 용어가 CX Enterprise와 다른 곳에서 어떻게 적용되는지 간략하게 비교하려면 [용어](more-resources/terms.md)를 참조하십시오.
 
