@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 1706e3f7c2a29cc85299913657fa6c049c3217fa
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 52%
+source-wordcount: 1501
+ht-degree: 50%
 
 ---
 
@@ -42,11 +42,17 @@ CX 엔터프라이즈 중앙 인터페이스 구성 요소의 기능, 릴리스 
 
 모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [CX 엔터프라이즈 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
 
+## 2026년 6월
+
+| 일자 | 업데이트 | 설명 |
+| ------- | ------- | ------- |
+| 2026년 6월 1일 | Agentic AI 사용 모니터링 | 이제 CX Enterprise는 기존 애플리케이션에서 에이전트 AI 사용을 모니터링하는 대시보드를 제공합니다. 채택을 추적하고, 대화 및 피드백을 검토하고, AI Assistant 및 기타 대화 화면을 통해 액세스되는 Experience Platform 에이전트에 대한 AI 크레딧 소비를 관리합니다. 개요, 사용자, 피드백 및 AI 크레딧 보기를 통해 거버넌스 이해 당사자가 데이터를 사용하여 채택을 안내할 수 있습니다. 대시보드 액세스 및 사용 권한에 대해서는 [Agentic AI 사용 모니터링](../features/monitoring.md)을 참조하십시오. |
+
 ## 2026년 4월
 
 | 일자 | 업데이트 | 설명 |
 | ------- | ------- | ------- |
-| 2026년 4월 20일 | Adobe CX 엔터프라이즈 인터페이스 새로 고침 | `https://experience.adobe.com/home`에 홈 페이지의 새로운 모양과 느낌입니다. 브랜드 변경 릴리스를 통해 UI가 새로 고쳐지고 전체 _어두운 모드_&#x200B;가 지원되며 접근성이 향상되어 모든 기능이 동일하게 유지됩니다. |
+| 2026년 4월 20일 | Adobe CX 엔터프라이즈 인터페이스 새로 고침 | `https://experience.adobe.com/home` 홈페이지에 새로운 디자인이 적용되었습니다. 브랜드 변경 릴리스를 통해 UI가 새로 고쳐지고 전체 _어두운 모드_&#x200B;가 지원되며 접근성이 향상되어 모든 기능이 동일하게 유지됩니다. |
 
 ## 2026년 1월
 
