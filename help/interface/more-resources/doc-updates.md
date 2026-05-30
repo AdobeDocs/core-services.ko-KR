@@ -8,24 +8,14 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 TQID: https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1706e3f7c2a29cc85299913657fa6c049c3217fa
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f8271b21134641c4576abc8a7e1fb8874ae68350
 workflow-type: tm+mt
-source-wordcount: 788
+source-wordcount: 787
 ht-degree: 39%
 
 ---
@@ -36,7 +26,7 @@ CX Enterprise의 중앙 인터페이스 및 관리를 위해 설명서 업데이
 
 ## 2026년 6월
 
-* 개요, 사용자, 피드백 및 AI 크레딧 보기, 대화 재생 및 거버넌스 사용자를 위한 권한을 포함하여 라이선스 사용 및 Agentic AI 모니터링 대시보드에 대한 적용 범위가 포함된 [Agentic AI 사용 모니터링](../features/monitoring.md)을 게시했습니다.
+* 개요, 사용자, 피드백 및 AI 크레딧 보기, 대화 재생 및 거버넌스 사용자를 위한 권한을 포함하여 라이선스 사용 및 Agentic AI 모니터링 대시보드에 대한 적용 범위가 포함된 [Agentic AI 모니터링](../features/monitoring.md)을 게시했습니다.
 * Agentic AI 사용 모니터링을 위한 [2026년 6월 릴리스 정보](release-notes.md)가 추가되었습니다.
 
 ## 2026년 5월
