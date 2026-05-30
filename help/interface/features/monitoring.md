@@ -1,6 +1,6 @@
 ---
 title: Agentic AI 사용 모니터링
-description: CX Enterprise의 AI 사용 모니터링에 대해 알아봅니다. 채택률을 추적하고, 대화 및 피드백을 검토하고, 사용, 품질 및 비용 가시성에 대한 AI 크레딧을 관리합니다.
+description: CX Enterprise의 AI 사용 모니터링을 위한 대시보드에 대해 알아봅니다. 채택률을 추적하고, 대화 및 피드백을 검토하고, 사용, 품질 및 비용 가시성에 대한 AI 크레딧을 관리합니다.
 solution: Experience Cloud, Experience Platform
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
@@ -17,14 +17,14 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 5fdb68aa750cd4c31b2e28cbd89e37e3e029cacb
+source-git-commit: c3e850d9398b5439a45fd493036776b729bec7e9
 workflow-type: tm+mt
 source-wordcount: 948
 ht-degree: 2%
 
 ---
 
-# Agentic AI 사용 모니터링 대시보드
+# 아젠틱 AI 모니터링
 
 CX Enterprise는 기존 CX Enterprise 애플리케이션에서 에이전트 AI 사용을 모니터링하는 두 개의 대시보드를 제공합니다. 이 대시보드는 사용자가 [!DNL AI Assistant] 및 다른 대화 영역을 통해 액세스하는 [!DNL Experience Platform Agents]의 채택, 참여, 피드백 품질 및 AI 크레딧 소비를 이해하는 데 도움이 됩니다.
 

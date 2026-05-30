@@ -5,10 +5,10 @@ breadcrumb-title: CX 엔터프라이즈 인터페이스 및 관리
 title: CX 엔터프라이즈 인터페이스 및 관리 가이드
 description: CX 엔터프라이즈 인터페이스 및 관리에 대해 자세히 알아보십시오. AI, 관리, 공유 서비스, 데이터 수집, 쿠키, 릴리스 정보 및 FAQ에 대한 항목을 찾아봅니다.
 index: true
-source-git-commit: 25446910430bf15dcfa0fc70e25e0681f9faeb95
+source-git-commit: f8271b21134641c4576abc8a7e1fb8874ae68350
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 61%
+source-wordcount: '210'
+ht-degree: 60%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 61%
 + CX Enterprise의 AI {#features}
    + [생성형 AI](/help/interface/features/generative-ai.md)
    + [에이전틱 AI](features/agentic-ai.md)
-   + {hide-from-toc}[모니터링](/help/interface/features/monitoring.md)
+   + {hide-from-toc}[에이전트 AI 모니터링](/help/interface/features/monitoring.md)
    + [에이전트 작업 및 AI 신용 소비](/help/interface/features/ai-credit-consumption.md)
 + 관리 {#administration}
    + [계정 환경 설정 및 알림](/help/interface/features/account-preferences.md)
