@@ -27,9 +27,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5fdb68aa750cd4c31b2e28cbd89e37e3e029cacb
+source-git-commit: cb57ca633a2b72cab93edbbb06cbd3bb7199eec7
 workflow-type: tm+mt
-source-wordcount: 1501
+source-wordcount: 1500
 ht-degree: 50%
 
 ---
@@ -46,7 +46,7 @@ CX 엔터프라이즈 중앙 인터페이스 구성 요소의 기능, 릴리스 
 
 | 일자 | 업데이트 | 설명 |
 | ------- | ------- | ------- |
-| 2026년 6월 1일 | Agentic AI 사용 모니터링 | 이제 CX Enterprise는 기존 애플리케이션에서 에이전트 AI 사용을 모니터링하는 대시보드를 제공합니다. 채택을 추적하고, 대화 및 피드백을 검토하고, AI Assistant 및 기타 대화 화면을 통해 액세스되는 Experience Platform 에이전트에 대한 AI 크레딧 소비를 관리합니다. 개요, 사용자, 피드백 및 AI 크레딧 보기를 통해 거버넌스 이해 당사자가 데이터를 사용하여 채택을 안내할 수 있습니다. 대시보드 액세스 및 사용 권한에 대해서는 [Agentic AI 사용 모니터링](../features/monitoring.md)을 참조하십시오. |
+| 2026년 6월 1일 | Agentic AI 사용 모니터링 | 이제 CX Enterprise는 기존 애플리케이션에서 에이전트 AI 사용을 모니터링하는 대시보드를 제공합니다. 채택을 추적하고, 대화 및 피드백을 검토하고, AI Assistant 및 기타 대화 화면을 통해 액세스되는 Experience Platform 에이전트에 대한 AI 크레딧 소비를 관리합니다. 개요, 사용자, 피드백 및 AI 크레딧 보기를 통해 거버넌스 이해 당사자가 데이터를 사용하여 채택을 안내할 수 있습니다. 대시보드 액세스 및 사용 권한에 대해서는 [Agentic AI 모니터링](../features/monitoring.md)을 참조하십시오. |
 
 ## 2026년 4월
 
