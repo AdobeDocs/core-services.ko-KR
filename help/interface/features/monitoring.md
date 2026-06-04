@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 19922aed1ca7f9beb0229cea90e6f68abda0d217
+source-git-commit: 9c847f904b899fbe1273b91bd776083d0b4a71a1
 workflow-type: tm+mt
-source-wordcount: 882
+source-wordcount: 881
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ Agentic AI 모니터링 대시보드에는 다음 보기가 포함됩니다.
 
 [소개 비디오 보기](https://video.tv.adobe.com/v/3491864?learn=on)
 
-## 대시보드 권한 활성화(관리자) {#permissions}
+## 대시보드 권한 활성화 {#permissions}
 
 승인된 각 사용자에 대한 제품 프로필 또는 역할을 업데이트하여 [!DNL Adobe Experience Platform]의 대시보드 액세스 권한을 부여합니다. [!UICONTROL 모니터링] 기능은 권한이 활성화된 후에 CX 엔터프라이즈 홈 페이지의 사용자에게 표시됩니다.
 
@@ -73,7 +73,7 @@ Agentic AI 모니터링 대시보드에는 다음 보기가 포함됩니다.
 
 1. 대시보드를 보려면 CX 엔터프라이즈 홈으로 돌아간 다음 **[!UICONTROL 모니터링]**&#x200B;을 클릭합니다.
 
-![에이전트 AI 모니터링 대시보드](../features/assets/monitoring.png)
+   ![에이전트 AI 모니터링 대시보드](../features/assets/monitoring.png)
 
 ## 개요 대시보드
 
