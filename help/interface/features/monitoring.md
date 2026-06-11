@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: ae47fb846467d50b57764f525a359dfcf78cf597
+source-git-commit: 0c5f2ec6554118a19e4cfc82901eb76468fdceff
 workflow-type: tm+mt
-source-wordcount: 866
+source-wordcount: 917
 ht-degree: 2%
 
 ---
@@ -27,6 +27,11 @@ ht-degree: 2%
 # Agentic AI 모니터링 대시보드
 
 Agentic AI 모니터링 대시보드는 COE(Center of Excellence) 멤버 및 기타 거버넌스 관련자들에게 agentic AI 사용 및 채택에 대한 가시성을 제공합니다. 7일 또는 30일 기간 동안의 추세를 보고 [!DNL AI Assistant] 또는 다른 대화 표면(예: [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms))을 사용하여 [!DNL Experience Platform Agents]과(와) 상호 작용하는 사용자, 이러한 상호 작용에서 수행하는 작업 및 받는 값을 확인할 수 있습니다. 이러한 뷰를 함께 사용하면 가정 대신 데이터를 사용하여 에이전트 채택을 안내할 수 있습니다.
+
+**가용성**
+
+* 현재 하나 이상의 Experience Platform 기본 애플리케이션(Customer Journey Analytics, Journey Optimizer 또는 Real-Time CDP)에 대한 라이센스가 있는 모든 계정은 이 대시보드에 액세스할 수 있습니다
+* Experimentation Accelerator, LLM Optimizer, Sites Optimizer 등과 같은 [AI 기반 응용 프로그램](agentic-ai.md#ai-first-cx-enterprise-applications)의 사용 및 채택 지표는 이 대시보드의 범위에 있지 않습니다.
 
 [!UICONTROL 모니터링] 대시보드에는 다음 보기가 포함되어 있습니다.
 
