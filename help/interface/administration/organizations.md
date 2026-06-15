@@ -9,22 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 TQID: https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 585
-ht-degree: 33%
+source-wordcount: 598
+ht-degree: 32%
 
 ---
 
@@ -36,7 +29,7 @@ ht-degree: 33%
 
 ![CX 엔터프라이즈 조직](../assets/organizations-menu.png)
 
-올바른 조직에 로그인했는지 확인하려면 **[!UICONTROL Profile]**&#x200B;을(를) 클릭하여 기본 조직 이름을 확인합니다. 둘 이상의 조직에 액세스할 수 있는 경우 헤더 막대에서 다른 조직을 보고 전환할 수도 있습니다.
+올바른 조직에 로그인했는지 확인하려면 **[!UICONTROL 프로필]**&#x200B;을 클릭하여 기본 조직 이름을 확인합니다. 둘 이상의 조직에 액세스할 수 있는 경우 헤더 막대에서 다른 조직을 보고 전환할 수도 있습니다.
 
 >[!NOTE]
 >
@@ -50,7 +43,7 @@ ht-degree: 33%
 
 ## 조직 ID 보기
 
-지원을 위해 할당된 조직 ID를 찾을 수 있습니다. 헤더에서 **[!UICONTROL Organization]** 선택기를 사용하여 올바른 조직에 있는지 확인하거나 조직 간에 전환할 수 있습니다.
+지원을 위해 할당된 조직 ID를 찾을 수 있습니다. 헤더에서 **[!UICONTROL 조직]** 선택기를 사용하여 올바른 조직에 있는지 확인하거나 조직 간에 전환할 수 있습니다.
 
 조직 ID 는 공급된 CX Enterprise 회사와 연관된 ID 입니다. 이 ID는 24자의 영숫자 문자열과 `@AdobeOrg`(포함 필수)로 구성됩니다.
 
@@ -62,7 +55,7 @@ ht-degree: 33%
 
    ![할당된 조직 ID](../assets/assigned-organization.png)
 
-1. **[!UICONTROL User Information]**&#x200B;에서 **[!UICONTROL Current Org ID]**&#x200B;을(를) 찾으면 조직 ID를 찾을 수 있습니다.
+1. **[!UICONTROL 사용자 정보]**&#x200B;에서 **[!UICONTROL 현재 조직 ID]**&#x200B;를 찾으면 조직 ID를 찾을 수 있습니다.
 
    또는 관리자가 Admin Console([https://adminconsole.adobe.com](https://adminconsole.adobe.com)&#x200B;(으)로 이동)에 로그인하고 URL에서 조직 ID를 볼 수 있습니다.
 
@@ -82,7 +75,7 @@ ht-degree: 33%
 
 1. Adobe ID 또는 Enterprise ID를 사용하여 로그인합니다.
 
-1. **[!UICONTROL Application selector]**&#x200B;을(를) 클릭합니다. ( ![메뉴](../assets/apps-icon.png)).
+1. **[!UICONTROL 응용 프로그램 선택기]**&#x200B;를 클릭합니다. ( ![메뉴](../assets/apps-icon.png)).
 
    ![Adobe ID에 애플리케이션 계정 연결](../assets/solutions-active.png)
 
@@ -94,15 +87,15 @@ ht-degree: 33%
 
    이 유형의 메시지는 적절한 그룹에 속하거나 애플리케이션에 대한 권한이 있지만, 계정 자격 증명을 아직 Adobe ID에 연결하지 않은 경우 표시됩니다.
 
-1. **[!UICONTROL Link Account]**&#x200B;을(를) 클릭한 다음 자격 증명을 제공합니다.
+1. **[!UICONTROL 계정 연결]**&#x200B;을 클릭한 다음 자격 증명을 제공합니다.
 
 ## 기본 조직 지정
 
 로그인할 때 사용할 기본 조직을 지정할 수 있습니다.
 
-1. 헤더에서 **[!UICONTROL Profile]**&#x200B;을(를) 클릭한 다음 기본 설정을 클릭합니다.
+1. 헤더에서 **[!UICONTROL 프로필]**&#x200B;을 클릭한 다음 기본 설정을 클릭합니다.
 
-1. [!UICONTROL General]에서 기본 조직을 선택합니다.
+1. [!UICONTROL 일반]에서 기본 조직을 선택합니다.
 
 
 ![프로필 편집](../assets/edit-profile.png)
@@ -113,6 +106,6 @@ ht-degree: 33%
 
 일반적으로, 계정 연결은 Adobe ID가 이전 사용자에게 연결되어 있어서 실패합니다. 계정 연결에 실패하면
 
-* [Adobe 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support)에 문의하십시오.
+* [Adobe 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support)에 문의하십시오.
 * 문제가 해결되는 동안 표준 로그인을 사용하여 애플리케이션에 액세스합니다.
 

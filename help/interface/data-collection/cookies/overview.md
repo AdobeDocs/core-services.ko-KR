@@ -4,17 +4,9 @@ title: Experience Cloud에서 쿠키를 사용하는 방법
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
 TQID: https://experienceleague.adobe.com/GH5WHcI9440NKYpUzizHlhOMlBSf-Y0WQ5GDBaSvqNI
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 624
@@ -34,7 +26,7 @@ Adobe CX Enterprise는 쿠키를 사용하여 페이지 보기 수 또는 브라
 
 일부 브라우저 및 안티스파이웨어 도구는 서드파티 쿠키를 차단합니다. Adobe에는 쿠키가 차단된 경우에도 쿠키가 계속 작동하는지 확인하는 방법이 있습니다. 이 방법이 작동하는 방식은 사용자가 Experience Platform ID 서비스(ECID) 또는 이전 Analytics 쿠키(예: `s_vi` 쿠키)를 사용하는지에 따라 다릅니다.
 
-* [CX Enterprise Identity Service](https://experienceleague.adobe.com/ko/docs/id-service/using/intro/overview): ECID 서비스는 수집 도메인과 사이트 도메인의 일치 여부에 관계없이 항상 자사 쿠키를 설정합니다. JavaScript을 사용하여 사이트의 도메인에 쿠키를 배치합니다.
+* [CX Enterprise Identity Service](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview): ECID 서비스는 수집 도메인과 사이트 도메인의 일치 여부에 관계없이 항상 자사 쿠키를 설정합니다. JavaScript을 사용하여 사이트의 도메인에 쿠키를 배치합니다.
 
 * [Analytics 레거시 식별자](analytics.md)(예: `s_vi` 쿠키): 쿠키가 퍼스트 파티 또는 서드파티인지 여부는 설정에 따라 다릅니다.
 

@@ -7,16 +7,13 @@ role: Admin
 level: Experienced
 exl-id: 08713a68-8a24-4f18-9d77-c332f434eea6
 TQID: https://experienceleague.adobe.com/Rrw6Hh1r73V9BMRbyeKpcYUBaXsmcZjKit1vHbeWoVs
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 54
-ht-degree: 42%
+source-wordcount: 60
+ht-degree: 38%
 
 ---
 
@@ -24,8 +21,8 @@ ht-degree: 42%
 
 스키마에서 속성을 삭제 및 교체하는 방법.
 
-1. [!UICONTROL Edit Customer Attribute Source] 페이지에서 구독 구성을 클릭합니다.
+1. [!UICONTROL 고객 특성 편집 Source] 페이지에서 구독 구성을 클릭합니다.
 
-1. **[!UICONTROL Target]** 또는 **[!UICONTROL Analytics]**&#x200B;에 대해 매핑된 값을 제거합니다.
+1. **[!UICONTROL Target]** 또는 **[!UICONTROL Analytics]**&#x200B;에 대해 매핑된 값을 제거하십시오.
 
 1. [업데이트된 필드가 있는 새 데이터 파일을 업로드합니다](t-crs-usecase.md).
