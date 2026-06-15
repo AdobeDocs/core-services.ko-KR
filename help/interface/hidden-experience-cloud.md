@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 50%
+source-wordcount: '519'
+ht-degree: 48%
 
 ---
 
@@ -34,7 +34,7 @@ CX Enterprise 헤더에서 다음을 수행할 수 있습니다.
 로그인한 다음 올바른 [조직](administration/organizations.md)에 속해 있는지 확인하십시오.
 
 1. [Adobe CX Enterprise](https://experience.adobe.com)&#x200B;(으)로 이동합니다.
-1. Adobe 이메일 주소를 입력한 다음 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
+1. Adobe 이메일 주소를 입력한 다음 **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 1. 계정을 클릭합니다.
 1. 암호를 입력합니다.
 1. 올바른 조직에 속해 있는지 확인합니다.
@@ -59,25 +59,25 @@ CX Enterprise에 로그인한 후 통합 헤더에서 모든 애플리케이션,
 
 ## 도움말 및 지원 요청 {#support}
 
-헤더의 **[!UICONTROL Help center]**(![asset](assets/help-icon.png))을 사용하여 [Experience League](https://experienceleague.adobe.com/ko#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선순위가 지정된 지원 티켓을 만들 수도 있습니다.
+헤더의 **[!UICONTROL 도움말 센터]**(![에셋](assets/help-icon.png))를 사용하여 [Experience League](https://experienceleague.adobe.com/ko#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선순위가 지정된 지원 티켓을 만들 수도 있습니다.
 
 ![도움말 및 지원 요청](assets/search-menu.png)
 
-[!UICONTROL Help] 메뉴를 통해 다음에 액세스할 수도 있습니다.
+[!UICONTROL 도움말] 메뉴로 다음에 액세스할 수도 있습니다.
 
-* **[!UICONTROL Support]:** 지원 티켓을 만들거나 Twitter를 사용하여 [!UICONTROL Support]에 문의하세요.
-* **[!UICONTROL Feedback]:** CX 엔터프라이즈 환경에 대한 피드백을 공유합니다. 귀하의 피드백은 Adobe의 제품 및 서비스를 개선하는 데 사용됩니다.
-* **[!UICONTROL Status]:** `https://status.adobe.com/ko-kr/experience_cloud`(으)로 이동하여 제품 작동 상태 및 [!UICONTROL Manage Subscriptions]을(를) 확인합니다.
+* **[!UICONTROL 지원]:** 지원 티켓을 만들거나 Twitter를 사용하여 [!UICONTROL 지원]에 문의하세요.
+* **[!UICONTROL 피드백]:** CX 엔터프라이즈 환경에 대한 피드백을 공유합니다. 귀하의 피드백은 Adobe의 제품 및 서비스를 개선하는 데 사용됩니다.
+* **[!UICONTROL 상태]:** `https://status.adobe.com/ko-kr/experience_cloud`(으)로 이동하여 제품 작동 상태 및 [!UICONTROL 구독 관리]를 확인하세요.
 * **[!UICONTROL Developer Connection]:** `adobe.io`(으)로 이동하여 개발자 설명서를 찾습니다.
 
 ## 사용자 프로필 관리
 
-[!UICONTROL Profile] 메뉴에서 다음을 수행할 수 있습니다.
+[!UICONTROL 프로필] 메뉴에서 다음 작업을 수행할 수 있습니다.
 
 * 어두운 테마 지정 (일부 애플리케이션에서는 이 테마를 지원하지 않음)
 * CX Enterprise [환경 설정](features/account-preferences.md) 관리
 * [조직](administration/organizations.md) 선택 또는 검색
-* [!UICONTROL Legal Notices] 보기
+* [!UICONTROL 법적 고지 사항] 보기
 * 로그아웃
 * 계정 환경 설정, 알림 및 구독 구성
 

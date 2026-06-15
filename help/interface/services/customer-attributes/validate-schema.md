@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 308
-ht-degree: 43%
+source-wordcount: 345
+ht-degree: 39%
 
 ---
 
@@ -42,28 +42,28 @@ ht-degree: 43%
 
 1. [!DNL Customer Attributes]에서 편집할 특성 원본을 클릭합니다.
 
-1. **[!UICONTROL Edit Customer Attribute Source]**&#x200B;에서 **[!UICONTROL File Upload]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 고객 특성 편집 Source]**&#x200B;에서 **[!UICONTROL 파일 업로드]**&#x200B;를 클릭합니다.
 
-1. [!UICONTROL File Upload and Schema Validation] 페이지에서 **[!UICONTROL Actions]** > **[!UICONTROL View/Edit Schema]**&#x200B;을(를) 클릭합니다
+1. [!UICONTROL 파일 업로드 및 스키마 유효성 검사] 페이지에서 **[!UICONTROL 작업]** > **[!UICONTROL 스키마 보기/편집]**&#x200B;을 클릭합니다
 
    ![스키마 편집](assets/actions.png)
 
-   [!UICONTROL Edit Schema] 페이지에서 각 스키마 행은 업로드된 CSV 파일의 열을 나타냅니다.
+   [!UICONTROL 스키마 편집] 페이지에서 각 스키마 행은 업로드된 CSV 파일의 열을 나타냅니다.
 
    ![CX Enterprise의 스키마 편집 페이지](assets/schema-edit.png)
 
 **작업**
 
-* **[!UICONTROL Add Data:]** 새 특성 데이터를 이 데이터 원본에 업로드합니다.
+* **[!UICONTROL 데이터 추가:]** 새 특성 데이터를 이 데이터 원본에 업로드합니다.
 
-* **[!UICONTROL View/Edit Schema:]** 다음 단계에 설명된 대로 표시 이름을 특성 데이터에 매핑합니다.
+* **[!UICONTROL 스키마 보기/편집:]** 다음 단계에 설명된 대로 표시 이름을 특성 데이터에 매핑합니다.
 
-* **[!UICONTROL FTP Setup:]** FTP 계정을 만들어 [FTP를 통해 데이터를 업로드](t-upload-attributes-ftp.md)(선택 사항).
+* **[!UICONTROL FTP 설정:]** FTP 계정을 만들어 [FTP를 통해 데이터를 업로드](t-upload-attributes-ftp.md)(선택 사항).
 
-* **[!UICONTROL ID Lookup:]** `.csv`의 CID(고객 ID)를 입력하여 해당 ID에 대한 CX Enterprise 정보를 조회합니다. 이 기능은 방문자에 대한 속성 데이터가 표시되지 않는 문제를 해결하는 데 유용합니다.
+* **[!UICONTROL ID 조회:]** `.csv`의 CID(고객 ID)를 입력하여 해당 ID에 대한 CX Enterprise 정보를 조회합니다. 이 기능은 방문자에 대한 속성 데이터가 표시되지 않는 문제를 해결하는 데 유용합니다.
 
-   * 최신 CX Enterprise ID 서비스를 사용하는 경우 **[!UICONTROL ECID (CX Enterprise ID):]**&#x200B;이(가) 표시됩니다. MCID 서비스를 사용하고 있지만 ID가 표시되지 않는 경우 CX Enterprise에서 해당 CID에 대한 별칭을 수신하지 못한 것입니다. 방문자가 로그인되어 있지 않거나 해당 ID가 구현되지 않은 것입니다.
+   * **[!UICONTROL ECID(CX Enterprise ID):]** 최신 CX Enterprise ID 서비스를 사용하는 경우에 표시됩니다. MCID 서비스를 사용하고 있지만 ID가 표시되지 않는 경우 CX Enterprise에서 해당 CID에 대한 별칭을 수신하지 못한 것입니다. 방문자가 로그인되어 있지 않거나 해당 ID가 구현되지 않은 것입니다.
 
-   * **[!UICONTROL CID (customer ID):]** 이 CID와 연결된 특성입니다. prop 또는 eVar을 사용하여 CID(AVID)를 업로드하며 속성은 표시되지만 AVID는 표시되지 않는 경우 방문자가 사이트에 로그인되어 있지 않은 것입니다.
+   * **[!UICONTROL CID(고객 ID):]** 이 CID와 연결된 특성입니다. prop 또는 eVar을 사용하여 CID(AVID)를 업로드하며 속성은 표시되지만 AVID는 표시되지 않는 경우 방문자가 사이트에 로그인되어 있지 않은 것입니다.
 
-   * prop 또는 eVar을 사용하여 CID를 업로드하는 경우 **[!UICONTROL AVID (Analytics visitor ID):]**&#x200B;이(가) 표시됩니다. 이러한 ID가 CX Enterprise로 전달되는 경우 입력한 CID와 연결된 모든 방문자 ID가 여기에 표시됩니다.
+   * **[!UICONTROL AVID(Analytics 방문자 ID):]**&#x200B;은(는) prop 또는 eVar을 사용하여 CID를 업로드하는 경우에 표시됩니다. 이러한 ID가 CX Enterprise로 전달되는 경우 입력한 CID와 연결된 모든 방문자 ID가 여기에 표시됩니다.

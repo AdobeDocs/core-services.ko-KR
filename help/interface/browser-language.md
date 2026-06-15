@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 40%
+source-wordcount: 249
+ht-degree: 39%
 
 ---
 
@@ -69,13 +69,13 @@ CX 엔터프라이즈 사용자 인터페이스는 다음 언어로 제공됩니
 
 **기본 언어를 지정하려면**
 
-1. CX Enterprise에서 **[!UICONTROL Profile]** > [환경 설정](https://experience.adobe.com/preferences)을 클릭합니다.
+1. CX Enterprise에서 **[!UICONTROL 프로필]** > [환경 설정](https://experience.adobe.com/preferences)을 클릭합니다.
 
-1. **[!UICONTROL Profile]**&#x200B;에서 언어 링크를 클릭합니다.
+1. **[!UICONTROL 프로필]**&#x200B;에서 언어 링크를 클릭합니다.
 
-1. **[!UICONTROL Select language]**&#x200B;의 **[!UICONTROL First language]** 메뉴에서 언어를 선택하십시오.
+1. **[!UICONTROL 언어 선택]**&#x200B;의 **[!UICONTROL 첫 언어]** 메뉴에서 언어를 선택하십시오.
 
    모든 응용 프로그램 팀은 글로벌 언어 지원에 전념하지만 모든 응용 프로그램이 인터페이스에 나열된 모든 언어로 제공되지 않습니다. CX 엔터프라이즈 애플리케이션에서 기본 언어가 지원되지 않는 경우 보조 기본 언어를 설정할 수 있습니다.
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 

@@ -1,5 +1,5 @@
 ---
-description: Adobe 제품 및 인터페이스 용어가 CX Enterprise, Experience Cloud 솔루션, Creative Cloud, Experience League 및 기타 지원 경험과 어떻게 다른지 알아보십시오.
+description: CX 엔터프라이즈, Experience Cloud 솔루션, Creative Cloud, Experience League 및 기타 지원 경험에서 Adobe 제품 및 인터페이스 용어가 어떻게 다른지 알아봅니다.
 solution: Experience Cloud
 title: 용어
 feature-set: Experience Cloud Services
@@ -39,7 +39,7 @@ TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0H
 
 | 용어 | CX Enterprise 및 이 안내서 | 기타 일반적인 Adobe 사용 |
 | --- | --- | --- |
-| **Adobe CX Enterprise** | `experience.adobe.com`에서 마케팅 응용 프로그램을 열고 환경 설정 및 알림을 설정하고 공유 인터페이스 서비스(예: 고객 특성 및 [대상 라이브러리](../services/audiences/overview.md))에 연결하는 통합 웹 경험입니다. 이전에는 *Adobe Experience Cloud*&#x200B;이었습니다. | **Adobe Experience Platform**(고객 데이터 인프라, 샌드박스, 데이터 세트)와 같은 제품이 아닙니다. **Adobe Creative Cloud**&#x200B;이(가) 아닙니다(디자인 및 미디어 앱). |
+| **Adobe CX Enterprise** | `experience.adobe.com`에서 마케팅 응용 프로그램을 열고 환경 설정 및 알림을 설정하고 공유 인터페이스 서비스(예: 고객 특성 및 [대상 라이브러리](../services/audiences/overview.md))에 연결하는 통합 웹 경험입니다. 이전 *Adobe Experience Cloud*. | **Adobe Experience Platform**(고객 데이터 인프라, 샌드박스, 데이터 세트)와 같은 제품이 아닙니다. **Adobe Creative Cloud**&#x200B;이(가) 아닙니다(디자인 및 미디어 앱). |
 | **Adobe Experience Platform** | 데이터 수집, ID 또는 플랫폼 에이전트를 솔루션에 연결하면 표시됩니다. 일부 탐색 검색 및 AI 기능은 플랫폼으로 지원됩니다. | 데이터 및 오케스트레이션 플랫폼. CX Enterprise 셸 또는 홈 페이지를 의미하는 경우 &quot;Experience Platform&quot;를 사용하지 마십시오. |
 | **Experience League** | 도움말 및 제품 내 링크를 통해 **설명서**, **튜토리얼**, 학습 플레이리스트, 릴리스 노트 및 Adobe 솔루션에 대한 커뮤니티 컨텍스트에 대한 정보를 얻을 수 있습니다. [Experience League 홈](https://experienceleague.adobe.com/ko)에서 시작합니다. | 개인 및 팀에 대한 **계정**, **계획**, **청구**, 다운로드 및 제품 간 문제 해결을 강조하는 **[Adobe 도움말 센터](https://helpx.adobe.com/kr/support.html)**&#x200B;을 보완합니다. 암호 재설정, 계획 변경 및 유사한 작업에 대해서는 도움말 센터를 사용하십시오. 제품 사용 방법 콘텐츠에 대해서는 Experience League을 사용하십시오. |
 | **AI Assistant/agentic AI** | 이 안내서의 AI 주제에 설명된 제품 내 도우미 및 조정된 에이전트. 액세스 및 크레딧은 제품 권한에 따라 다릅니다. | 다른 Adobe 표면(예: **Firefly** 또는 **Express**)에서는 다양한 범위 및 정책이 있는 &quot;AI&quot; 기능을 사용합니다. |

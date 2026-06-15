@@ -24,20 +24,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 639
-ht-degree: 76%
+source-wordcount: 660
+ht-degree: 74%
 
 ---
 
-# CX Enterprise의 [!UICONTROL Unified Search]
+# CX Enterprise의 [!UICONTROL 통합 검색]
 
-[!UICONTROL Unified Search] 검색을 사용하면 원활하고 일관성 있는 원클릭 환경에서 검색 가능한 비즈니스 개체 또는 엔터티를 찾을 수 있습니다. 이 검색은 최근에 액세스한 개체도 표시합니다.
+[!UICONTROL 통합 검색] 검색을 사용하면 원활하고 일관성 있는 원클릭 환경에서 검색 가능한 비즈니스 개체 또는 엔터티를 찾을 수 있습니다. 이 검색은 최근에 액세스한 개체도 표시합니다.
 
 ![오브젝트 및 엔티티를 전역으로 검색](../assets/platform-search.png)
 
-## [!UICONTROL Unified Search]에 액세스
+## [!UICONTROL 통합 검색]에 액세스
 
-[!UICONTROL Unified Search]은(는) 페이지 상단의 CX 엔터프라이즈 헤더의 모든 페이지에서 사용할 수 있습니다. 키보드 단축키 `command /` 또는 `ctrl /`을 사용하여 검색할 수도 있습니다.
+[!UICONTROL 통합 검색]은(는) 페이지 상단의 CX 엔터프라이즈 헤더의 모든 페이지에서 사용할 수 있습니다. 키보드 단축키 `command /` 또는 `ctrl /`을 사용하여 검색할 수도 있습니다.
 
 이 기능은 현재 다음과 같은 지원되는 제품에 대해서만 사용할 수 있습니다.
 
@@ -56,7 +56,7 @@ ht-degree: 76%
 일치율
 정확한 일치 여부
 
-CX Enterprise의 ![[!UICONTROL Unified Search]](../assets/unified-search-results.png)
+CX Enterprise의 ![[!UICONTROL 통합 검색]](../assets/unified-search-results.png)
 
 검색 가능한 비즈니스 오브젝트는 다음과 같습니다.
 
@@ -75,23 +75,23 @@ CX Enterprise의 ![[!UICONTROL Unified Search]](../assets/unified-search-results
 
 또한 Experience League 및 커뮤니티에서 도움말 문서를 찾을 수 있습니다. 자연어 쿼리가 지원됩니다.
 
-예를 들어 _스키마를 만드는 방법_&#x200B;은(는) _[!UICONTROL Learning]_&#x200B;아래의 Experience League에서 결과를 생성합니다.
+예를 들어 _스키마를 만드는 방법_&#x200B;은(는) _[!UICONTROL 학습]_&#x200B;에 있는 Experience League에서 결과를 생성합니다.
 
-CX 엔터프라이즈 도움말의 ![[!UICONTROL Unified Search]](../assets/unified-search-learning.png)
+CX Enterprise 도움말의 ![[!UICONTROL 통합 검색]](../assets/unified-search-learning.png)
 
 검색 알고리즘은 가장 관련성이 높은 레코드를 먼저 표시합니다. 결과 순서는 다음과 같은 몇 가지 요인에 따라 달라집니다.
 
 * 오브젝트에 액세스할 수 있는 사용자 권한
 * 일치율
 * 정확한 일치
-* _[!UICONTROL Top Results]_&#x200B;섹션에는 상위 30개 결과가 표시됩니다.
+* _[!UICONTROL 상위 결과]_ 섹션에는 상위 30개 결과가 표시됩니다.
 
 검색을 구체화하려면 다음 중 하나를 클릭하십시오.
 
-* **[!UICONTROL All Learning]**: Experience League에서 검색을 엽니다.
-* **[!UICONTROL Show all...]**: 결과를 세분화하고 필터링할 수 있습니다.
+* **[!UICONTROL 모든 학습]**: Experience League에서 검색을 엽니다.
+* **[!UICONTROL 모두 표시...]**: 결과를 세분화하고 필터링할 수 있습니다.
 
-## [!UICONTROL Unified Search]개 기능
+## [!UICONTROL 통합 검색] 기능
 
 통합 검색에는 다음과 같은 기능이 추가되었습니다.
 
