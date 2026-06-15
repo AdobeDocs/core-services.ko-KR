@@ -59,7 +59,7 @@ CX Enterprise에 로그인한 후 통합 헤더에서 모든 애플리케이션,
 
 ## 도움말 및 지원 요청 {#support}
 
-헤더의 **[!UICONTROL 도움말 센터]**(![에셋](assets/help-icon.png))를 사용하여 [Experience League](https://experienceleague.adobe.com/#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선순위가 지정된 지원 티켓을 만들 수도 있습니다.
+헤더의 **[!UICONTROL 도움말 센터]**(![에셋](assets/help-icon.png))를 사용하여 [Experience League](https://experienceleague.adobe.com/ko#home)의 도움말 콘텐츠(설명서, 튜토리얼 및 교육 과정)와 개별 애플리케이션의 추가 리소스가 포함된 학습 및 도움말을 이용하십시오. 오픈엔드 피드백을 제출하고 우선순위가 지정된 지원 티켓을 만들 수도 있습니다.
 
 ![도움말 및 지원 요청](assets/search-menu.png)
 
@@ -67,7 +67,7 @@ CX Enterprise에 로그인한 후 통합 헤더에서 모든 애플리케이션,
 
 * **[!UICONTROL 지원]:** 지원 티켓을 만들거나 Twitter를 사용하여 [!UICONTROL 지원]에 문의하세요.
 * **[!UICONTROL 피드백]:** CX 엔터프라이즈 환경에 대한 피드백을 공유합니다. 귀하의 피드백은 Adobe의 제품 및 서비스를 개선하는 데 사용됩니다.
-* **[!UICONTROL 상태]:** `https://status.adobe.com/experience_cloud`(으)로 이동하여 제품 작동 상태 및 [!UICONTROL 구독 관리]를 확인하세요.
+* **[!UICONTROL 상태]:** `https://status.adobe.com/ko-kr/experience_cloud`(으)로 이동하여 제품 작동 상태 및 [!UICONTROL 구독 관리]를 확인하세요.
 * **[!UICONTROL Developer Connection]:** `adobe.io`(으)로 이동하여 개발자 설명서를 찾습니다.
 
 ## 사용자 프로필 관리

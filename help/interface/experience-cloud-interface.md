@@ -80,7 +80,7 @@ CX Enterprise에 로그인한 후 통합 헤더에서 모든 애플리케이션,
 
 ## CX Enterprise에서 검색 및 지원
 
-CX 엔터프라이즈 검색을 사용하면 [Experience League](https://experienceleague.adobe.com/#home)에서 도움말(설명서, 튜토리얼 및 과정)을 검색할 수 있습니다.
+CX 엔터프라이즈 검색을 사용하면 [Experience League](https://experienceleague.adobe.com/ko#home)에서 도움말(설명서, 튜토리얼 및 과정)을 검색할 수 있습니다.
 
 ![CX Enterprise에서 검색 및 지원](assets/search-menu.png)
 
@@ -88,7 +88,7 @@ CX 엔터프라이즈 검색을 사용하면 [Experience League](https://experie
 
 * **[!UICONTROL 지원]:** 지원 티켓을 만들거나 Twitter를 사용하여 [!UICONTROL 지원]에 문의하세요.
 * **[!UICONTROL 피드백]:** 피드백을 통해 Adobe에 연락하여 여러분의 의견을 보내 주십시오.
-* **[!UICONTROL 상태]:** `https://status.adobe.com/experience_cloud`(으)로 이동하여 제품 작동 상태 및 [!UICONTROL 구독 관리]를 확인하세요.
+* **[!UICONTROL 상태]:** `https://status.adobe.com/ko-kr/experience_cloud`(으)로 이동하여 제품 작동 상태 및 [!UICONTROL 구독 관리]를 확인하세요.
 * **[!UICONTROL Developer Connection]:** `adobe.io`(으)로 이동하여 개발자 설명서를 찾습니다.
 
 ## 계정 환경 설정
