@@ -1,6 +1,6 @@
 ---
 title: Agentic AI 사용 모니터링
-description: CX Enterprise의 AI 사용 모니터링을 위한 대시보드에 대해 알아봅니다. 채택률을 추적하고, 대화 및 피드백을 검토하고, 사용, 품질 및 비용 가시성에 대한 AI 크레딧을 관리합니다.
+description: CX Enterprise에서의 AI 사용량 모니터링을 위한 대시보드에 대해 알아봅니다. 채택률을 추적하고, 대화 및 피드백을 검토하고, 사용, 품질 및 비용 가시성에 대한 AI 크레딧을 관리합니다.
 solution: Experience Cloud, Experience Platform
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 5c3f20052f8c0a847cd0c56f02697c1d749c040c
+source-git-commit: 79c2a309c7df2d6afd36b38134609a144a40a482
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 1009
 ht-degree: 2%
 
 ---
@@ -49,6 +49,14 @@ Agentic AI 모니터링 대시보드는 COE(Center of Excellence) 멤버 및 기
 ## 대시보드 권한 활성화 {#permissions}
 
 승인된 각 사용자에 대한 제품 프로필 또는 역할을 업데이트하여 [!DNL Adobe Experience Platform]의 대시보드 액세스 권한을 부여합니다. [!UICONTROL 모니터링] 기능은 권한이 활성화된 후에 CX 엔터프라이즈 홈 페이지의 사용자에게 표시됩니다.
+
+>[!IMPORTANT]
+>
+>모니터링 데이터는 기본 프로덕션 샌드박스에서만 사용할 수 있습니다. 개발 샌드박스는 모니터링 데이터를 보는 데 지원되지 않습니다. 사용자는 기본 프로덕션 샌드박스에 대해 필요한 모니터링 권한이 있어야 하며, 모니터링 데이터를 보려면 해당 샌드박스로 전환해야 합니다.
+>
+>혼동을 방지하기 위해 Adobe에서는 기본 프로덕션 샌드박스를 비롯한 모든 샌드박스에 대해 모니터링 권한을 부여하는 것이 좋습니다. 이렇게 하면 사용자가 현재 선택한 샌드박스에 관계없이 모니터링 대시보드에 액세스할 수 있으며 지원되지 않는 샌드박스를 빈 대시보드나 작동하지 않는 대시보드로 오인할 가능성을 줄일 수 있습니다.
+
+**대시보드 권한을 활성화하려면**
 
 1. [!DNL Experience Platform] **관리** > **권한**(으)로 이동합니다.
 
