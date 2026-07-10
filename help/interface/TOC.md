@@ -20,7 +20,7 @@ ht-degree: 57%
    + [에이전틱 AI](features/agentic-ai.md)
    + [아젠틱 AI 모니터링](/help/interface/features/monitoring.md)
    + [에이전트 작업 및 AI 신용 소비](/help/interface/features/ai-credit-consumption.md)
-   + [무생식 도구](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
+   + [무생식 도구](https://experienceleague.adobe.com/ko/docs/cx-enterprise-agentic-tools/using/overview)
 + 관리 {#administration}
    + [계정 환경 설정 및 알림](/help/interface/features/account-preferences.md)
    + [브라우저 및 언어 지원](/help/interface/browser-language.md)
