@@ -22,9 +22,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: 687
 ht-degree: 5%
 
 ---
@@ -47,7 +47,7 @@ TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0H
 | **관리 콘솔** | 사용자, 제품 프로필 및 ID를 위한 `adminconsole.adobe.com`의 엔터프라이즈 컨트롤 플레인. CX 엔터프라이즈 **관리** 항목에서 연결됨. [사용자 및 제품 관리](../administration/admin-console.md)를 참조하세요. | 각 앱(예: Analytics 관리 도구 또는 Journey Optimizer 권한 화면) 내의 **제품 내 관리자**&#x200B;와 다릅니다. |
 | **제품 프로필** | 제품 또는 기능에 대한 액세스 권한을 부여하는 Admin Console의 라이선스 번들. 권한을 부여하려면 사용자가 프로필에 속해야 합니다. [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-products.html)를 참조하십시오. | 모든 제품 내 &quot;작업 공간&quot;, &quot;컨테이너&quot; 또는 &quot;속성&quot; 이름과 호환할 수 없으며 솔루션에 따라 다릅니다. |
 | **계정 연결** | 서비스가 한 명의 사용자를 인식하도록 조직의 Adobe ID에 애플리케이션 로그인(예: Analytics 또는 Target 자격 증명)을 연결합니다. [조직 및 계정 연결](../administration/organizations.md)을 참조하세요. | **디렉터리 동기화**, **SSO** 또는 **페더레이션** 설정과 같지 않습니다(Admin Console의 조직 전체 ID 결정). |
-| **Experience Cloud ID 서비스/ECID** | 솔루션에서 사용되는 영구 방문자 식별자(종종 태그 또는 웹 SDK과 함께 배포됨). 이전 Analytics 토론에서 일반적으로 **Experience Cloud ID** 또는 **MID**(으)로 참조됩니다. [ID 서비스 개요](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 참조하세요. | 구현에서 연결할 수 있지만 단일 앱의 이전 쿠키 이름 또는 **Experience Platform** ID 그래프 개념과 다릅니다. |
+| **방문자 ID 서비스/ECID** | 솔루션에서 사용되는 영구 방문자 식별자(종종 태그 또는 웹 SDK과 함께 배포됨). 일반적으로 이전 Analytics 토론에서 **MID**(으)로 참조됩니다. [방문자 ID 서비스 개요](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 참조하세요. | 구현에서 연결할 수 있지만 단일 앱의 이전 쿠키 이름 또는 **Experience Platform ID 서비스** 개념과 다릅니다. |
 | **고객 속성** | 사용자 서비스를 통해 Analytics, Target 및 관련 워크플로우에서 사용하기 위해 업로드하고 매핑하는 CRM 또는 엔터프라이즈 특성입니다. [고객 특성](../services/customer-attributes/attributes.md) 항목을 참조하십시오. | 제품 경계를 확인하지 않고 **Audience Manager 특성**&#x200B;만 또는 모든 **Real-Time CDP** 프로필 필드와 동일시하지 마십시오. |
 | **대상자 라이브러리** | 통합 애플리케이션 전반에서 대상을 구성하고 공유할 수 있는 CX Enterprise UI | **Audience Manager** 및 **Target**&#x200B;에서도 &quot;대상&quot;을 사용하지만 제품별로 세분화 규칙과 대상이 다릅니다. |
 | **세그먼트**(Analytics) | Adobe Analytics에서 빌드하고, 지원되는 경우 공유 대상을 향해 게시할 수 있는 규칙 기반 대상 정의입니다. | **Audience Manager**&#x200B;에서 세그먼트는 **트레이트**&#x200B;를 결합합니다. 명명은 겹치지만 구현은 동일하지 않습니다. **Target**&#x200B;에서 &quot;대상&quot;이 많은 위치에서 이전 &quot;세그먼트&quot; 레이블을 대체했습니다. |

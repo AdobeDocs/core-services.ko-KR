@@ -30,9 +30,9 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 1116
+source-wordcount: 1113
 ht-degree: 31%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 31%
 
 * CX Enterprise에서 회사 프로비저닝.
 * 관리자가 될 수 있도록 설정.
-* [CX Enterprise ID 서비스 구현](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko).
+* [방문자 ID 서비스 구현](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko).
 * [!UICONTROL Platform 데이터 수집]을 통해 [!DNL Analytics] 및 [!DNL Target] 구현을 현대화하십시오.
 * [고객 특성](../services/customer-attributes/attributes.md) 및 [대상 라이브러리](../services/audiences/overview.md)와 같은 CX 엔터프라이즈 서비스를 사용하십시오.
 
@@ -56,13 +56,13 @@ ht-degree: 31%
 * [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)
 * [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=ko)
 * [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=ko)
-* [CX Enterprise ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)
+* [방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)
 
-## CX Enterprise ID 서비스
+## 방문자 ID 서비스
 
-ID 서비스는 CX Enterprise의 모든 애플리케이션에서 방문자를 식별하는 범용 영구 ID를 제공합니다. Analytics, Audience Manager, Adobe Target, 비디오 하트비트 및 기타 CX 엔터프라이즈 애플리케이션 및 제품과 같은 서비스에 대한 ID 생성 코드를 대체할 수 있습니다.
+방문자 ID 서비스는 CX Enterprise의 모든 애플리케이션에서 방문자를 식별하는 범용 영구 ID를 제공합니다. Analytics, Audience Manager, Adobe Target, 비디오 하트비트 및 기타 CX 엔터프라이즈 애플리케이션 및 제품과 같은 서비스에 대한 ID 생성 코드를 대체할 수 있습니다.
 
-[CX Enterprise ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko) 보기
+[방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko) 보기
 
 **해당 애플리케이션 또는 서비스**
 
