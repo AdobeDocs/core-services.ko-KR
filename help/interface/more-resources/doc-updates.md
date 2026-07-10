@@ -36,7 +36,7 @@ CX Enterprise의 중앙 인터페이스 및 관리를 위해 설명서 업데이
 
 ## 2026년 7월
 
-* 조직 전환기에서 게스트 사용자에 대한 계정 전환을 포함하여 [Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)의 CX Enterprise 지원에 대한 [2026년 7월 릴리스 정보](release-notes.md)를 추가했습니다.
+* 조직 전환기에서 게스트 사용자에 대한 계정 전환을 포함하여 [Federated Guest Access](https://helpx.adobe.com/kr/business/enterprise/using/federated-guest-access.html)의 CX Enterprise 지원에 대한 [2026년 7월 릴리스 정보](release-notes.md)를 추가했습니다.
 
 ## 2026년 6월
 
