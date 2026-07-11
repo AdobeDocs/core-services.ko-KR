@@ -17,21 +17,21 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 79c2a309c7df2d6afd36b38134609a144a40a482
+source-git-commit: 85c9350ea17e02e72354db5abbbf898829e338ae
 workflow-type: tm+mt
-source-wordcount: 1009
+source-wordcount: 994
 ht-degree: 2%
 
 ---
 
 # Agentic AI 모니터링 대시보드
 
-Agentic AI 모니터링 대시보드는 COE(Center of Excellence) 멤버 및 기타 거버넌스 관련자들에게 agentic AI 사용 및 채택에 대한 가시성을 제공합니다. 7일 또는 30일 기간 동안의 추세를 보고 [!DNL AI Assistant] 또는 다른 대화 표면(예: [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms))을 사용하여 [!DNL Experience Platform Agents]과(와) 상호 작용하는 사용자, 이러한 상호 작용에서 수행하는 작업 및 받는 값을 확인할 수 있습니다. 이러한 뷰를 함께 사용하면 가정 대신 데이터를 사용하여 에이전트 채택을 안내할 수 있습니다.
+Agentic AI 모니터링 대시보드는 COE(Center of Excellence) 멤버 및 기타 거버넌스 관련자들에게 agentic AI 사용 및 채택에 대한 가시성을 제공합니다. [!DNL AI Assistant] 또는 다른 표면(예: [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms))을 사용하여 [!DNL Experience Platform Agents] 및 해당 사용자가 받는 값과 상호 작용하는 사용자를 보려면 7일 또는 30일 트렌드를 확인하십시오. 이러한 뷰를 함께 사용하면 가정 대신 데이터를 사용하여 에이전트 채택을 안내할 수 있습니다.
 
 **가용성**
 
 * 현재 하나 이상의 Experience Platform 기본 애플리케이션(Customer Journey Analytics, Journey Optimizer 또는 Real-Time CDP)에 대한 라이센스가 있는 모든 계정은 이 대시보드에 액세스할 수 있습니다
-* Experimentation Accelerator, LLM Optimizer, Sites Optimizer 등과 같은 [AI 기반 응용 프로그램](agentic-ai.md#ai-first-cx-enterprise-applications)의 사용 및 채택 지표는 이 대시보드의 범위에 있지 않습니다.
+* Experimentation Accelerator, LLM Optimizer 및 Sites Optimizer과 같은 [AI 기반 응용 프로그램](agentic-ai.md#ai-first-cx-enterprise-applications)의 사용 및 채택 지표는 이 대시보드의 범위에 포함되지 않습니다.
 
 [!UICONTROL 모니터링] 대시보드에는 다음 보기가 포함되어 있습니다.
 
@@ -42,7 +42,7 @@ Agentic AI 모니터링 대시보드는 COE(Center of Excellence) 멤버 및 기
 | **피드백** | 응답 품질 및 사용자 만족도에 대한 신호 |
 | **AI 점수** | 신용 소비 추세 및 잔액 |
 
-사용 모니터링 범위의 에이전트는 [Adobe CX Enterprise의 Agentic AI](agentic-ai.md) 설명서의 [기존 CX Enterprise 앱의 AI 에이전트](agentic-ai.md#existing-apps-table)에 나열되어 있습니다.
+[Adobe CX Enterprise의 Agentic AI](agentic-ai.md) 설명서에는 기존 CX Enterprise 앱의 [AI 에이전트](agentic-ai.md#existing-apps-table)에서 사용 모니터링 범위의 에이전트가 나열됩니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491873?captions=kor&learn=on)
 
@@ -90,7 +90,7 @@ Agentic AI 모니터링 대시보드는 COE(Center of Excellence) 멤버 및 기
 
 ## 개요 대시보드
 
-개요 대시보드는 조직 전체의 채택 및 참여 지표를 위한 중앙 위치입니다. 이는 고도의 트렌드를 심층적인 분석으로 연결한다. 모든 지표에서 개별 대화로 드릴다운하여 수치를 유도하는 항목을 확인할 수 있습니다.
+개요 대시보드는 조직 전체의 채택 및 참여 지표를 위한 중앙 위치입니다. 이는 고도의 트렌드를 심층적인 분석으로 연결한다. 수치를 유도하는 요소를 확인하려면 모든 지표에서 개별 대화를 자세히 살펴보십시오.
 
 ### 개요 대시보드의 지표
 
@@ -117,7 +117,7 @@ Agentic AI 모니터링 대시보드는 COE(Center of Excellence) 멤버 및 기
 ### 사용자 대시보드의 지표
 
 * **시간에 따른 채택 및 참여 트렌드:** 선택한 기간 동안 사용자 세그먼트가 어떻게 변경되는지 추적합니다. 사용자는 다음과 같이 분류됩니다.
-   * **새로 만들기:** 선택한 기간의 첫 번째 활동으로, 이전 12개월에는 활동이 없습니다.
+   * **새로 만들기:** 선택한 기간의 첫 번째 활동으로 이전 12개월 동안 활동이 없습니다.
    * **반복:** 선택한 기간과 이전 기간의 활동입니다.
    * **선택한 기간에** 활동이 반환되지만 이전 기간에는 반환되지 않습니다.
    * **비활성:** 선택한 기간에는 활동이 없지만 이전 기간에는 활동이 있습니다.
@@ -129,7 +129,7 @@ Agentic AI 모니터링 대시보드는 COE(Center of Excellence) 멤버 및 기
 
 ## 피드백 대시보드
 
-피드백 대시보드에는 에이전트 상호 작용에 대해 제출된 사용자 피드백이 표시됩니다. 사용자가 긍정적 또는 부정적으로 표시한 대화를 보고 피드백 이면의 상호 작용을 조사할 수 있다. 피드백 요약에서 개별 대화를 드릴다운하여 프롬프트, 응답, 추론 세부 정보 및 피드백 메모를 검토합니다.
+피드백 대시보드에는 에이전트 상호 작용에 대해 제출된 사용자 피드백이 표시됩니다. 사용자가 긍정적 또는 부정적으로 표시한 대화를 보고 피드백 이면의 상호 작용을 조사할 수 있다. 프롬프트, 응답, 추론 세부 정보 및 피드백 메모를 검토하려면 피드백 요약에서 개별 대화를 자세히 살펴보십시오.
 
 ### 피드백 대시보드의 지표
 

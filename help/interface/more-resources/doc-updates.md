@@ -23,16 +23,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f8271b21134641c4576abc8a7e1fb8874ae68350
+source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
 workflow-type: tm+mt
-source-wordcount: 787
-ht-degree: 39%
+source-wordcount: 820
+ht-degree: 37%
 
 ---
 
 # 설명서 업데이트
 
 CX Enterprise의 중앙 인터페이스 및 관리를 위해 설명서 업데이트가 발생하는 위치에 대해 알아봅니다.
+
+## 2026년 7월
+
+* 조직 전환기에서 게스트 사용자에 대한 계정 전환을 포함하여 [Federated Guest Access](https://helpx.adobe.com/kr/business/enterprise/using/federated-guest-access.html)의 CX Enterprise 지원에 대한 [2026년 7월 릴리스 정보](release-notes.md)를 추가했습니다.
 
 ## 2026년 6월
 
@@ -43,7 +47,7 @@ CX Enterprise의 중앙 인터페이스 및 관리를 위해 설명서 업데이
 
 CX 엔터프라이즈 중앙 인터페이스 가이드의 4월 및 5월 업데이트:
 
-* 가이드 전반에서 설명, 링크 텍스트 및 자동 태그 메타데이터를 포함하여 Experience Cloud에서 **CX Enterprise**(으)로 문서를 새롭게 브랜딩했습니다.
+* 가이드 전체에서 설명, 링크 텍스트 및 자동 태그 메타데이터를 포함하여 Experience Cloud에서 **CX Enterprise**(으)로 문서를 새롭게 브랜딩했습니다.
 * `https://experience.adobe.com/home`에 새로 고친 홈 페이지에 대한 [2026년 4월 릴리스 정보](release-notes.md)를 추가했습니다(UI 새로 고침, 다크 모드 및 접근성 개선).
 * CX Enterprise의 [Agentic AI](../features/agentic-ai.md)를 업데이트했습니다. Adobe Marketing Agent for Microsoft 365 Copilot, 수정된 에이전트 기능 및 기존 앱 에이전트 테이블의 **상태 데이터/HIPAA 지원** 열을 업데이트했습니다.
 * [지역 데이터 수집](../data-collection/rdc.md), [호스트 이름 전달의 유효성 검사](../data-collection/adobe-managed-cert.md) 및 [용어](terms.md)에 대한 부분 업데이트입니다.

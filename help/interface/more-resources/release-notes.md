@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ebc6db2d5ef00f036ba97027f71129d426f18bf5
+source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
 workflow-type: tm+mt
-source-wordcount: 1556
-ht-degree: 54%
+source-wordcount: 1617
+ht-degree: 56%
 
 ---
 
@@ -42,12 +42,18 @@ CX 엔터프라이즈 중앙 인터페이스 구성 요소의 기능, 릴리스 
 
 모든 애플리케이션에 대해 설명하는 릴리스 정보가 필요하면 [CX 엔터프라이즈 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
 
+## 2026년 7월
+
+| 일자 | 업데이트 | 설명 |
+| ------- | ------- | ------- |
+| 2026년 7월 10일 | Federate Guest 고객을 위한 CX 엔터프라이즈 지원 | [Federated Guest Access](https://helpx.adobe.com/kr/business/enterprise/using/federated-guest-access.html)을(를) 활성화하여 자체 도메인에서 게스트 사용자를 안전하게 인증한 경우 CX Enterprise를 통해 해당 사용자가 계정 간에 전환할 수 있습니다. [CX Enterprise](https://experience.adobe.com) 페이지의 조직 전환기에서 계정을 전환할 수 있습니다. |
+
 ## 2026년 6월
 
 | 일자 | 업데이트 | 설명 |
 | ------- | ------- | ------- |
 | 2026년 6월 11일 | [!DNL CX Enterprise Coworker] | [[!DNL CX Enterprise Coworker]](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)은(는) 엔드 투 엔드 고객 경험 워크플로를 자동화하는 아젠틱 AI 애플리케이션입니다. [!DNL Coworker]은(는) 신호를 감지하고 대상자를 빌드하며 몇 시간 내에 기본 제공 거버넌스를 사용하여 캠페인을 시작합니다. 설명서가 곧 제공됩니다. |
-| 2026년 6월 1일 | [!UICONTROL 모니터링] | 이제 CX Enterprise는 기존 애플리케이션에서 에이전트 AI 사용을 모니터링하는 대시보드를 제공합니다. 채택을 추적하고, 대화 및 피드백을 검토하고, AI Assistant 및 기타 대화 화면을 통해 액세스되는 Experience Platform 에이전트에 대한 AI 크레딧 소비를 관리합니다. 개요, 사용자, 피드백 및 AI 크레딧 보기를 통해 거버넌스 이해 당사자가 데이터를 사용하여 채택을 안내할 수 있습니다. 대시보드 액세스 및 사용 권한에 대해서는 [Agentic AI 모니터링](../features/monitoring.md)을 참조하십시오. |
+| 2026년 6월 1일 | [!UICONTROL 모니터링] | 이제 CX Enterprise는 기존 애플리케이션에서 에이전틱 AI 사용을 모니터링하는 대시보드를 제공합니다. AI 어시스턴트 및 기타 대화형 표면을 통해 액세스하는 Experience Platform Agent의 채택 현황을 추적하고, 대화 및 피드백을 검토하며, AI 크레딧 소모량을 관리합니다. 개요, 사용자, 피드백 및 AI 크레딧 보기를 통해 거버넌스 이해 당사자가 데이터를 사용하여 채택을 안내할 수 있습니다. 대시보드 액세스 및 사용 권한에 대해서는 [Agentic AI 모니터링](../features/monitoring.md)을 참조하십시오. |
 
 ## 2026년 4월
 

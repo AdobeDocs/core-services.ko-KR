@@ -5,10 +5,10 @@ breadcrumb-title: CX 엔터프라이즈 인터페이스 및 관리
 title: CX 엔터프라이즈 인터페이스 및 관리 가이드
 description: CX 엔터프라이즈 인터페이스 및 관리에 대해 자세히 알아보십시오. AI, 관리, 공유 서비스, 데이터 수집, 쿠키, 릴리스 정보 및 FAQ에 대한 항목을 찾아봅니다.
 index: true
-source-git-commit: cb57ca633a2b72cab93edbbb06cbd3bb7199eec7
+source-git-commit: 88f8ee46073227afb5a9691155a70bd43f01a188
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 60%
+source-wordcount: '222'
+ht-degree: 57%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 60%
    + [에이전틱 AI](features/agentic-ai.md)
    + [아젠틱 AI 모니터링](/help/interface/features/monitoring.md)
    + [에이전트 작업 및 AI 신용 소비](/help/interface/features/ai-credit-consumption.md)
+   + [무생식 도구](https://experienceleague.adobe.com/ko/docs/cx-enterprise-agentic-tools/using/overview)
 + 관리 {#administration}
    + [계정 환경 설정 및 알림](/help/interface/features/account-preferences.md)
    + [브라우저 및 언어 지원](/help/interface/browser-language.md)

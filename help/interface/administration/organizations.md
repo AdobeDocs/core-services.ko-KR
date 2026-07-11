@@ -1,7 +1,7 @@
 ---
-description: 조직(IMS 조직 ID) 및 CX Enterprise에 솔루션 계정을 연결하는 방법에 대해 알아봅니다.
+description: 조직(IMS 조직 ID), 계정 전환 및 솔루션 계정 연결에 대해 알아봅니다.
 solution: Experience Cloud
-title: 조직 및 계정 연결
+title: 조직 및 계정
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Organizations
 topic: Administration
@@ -21,14 +21,14 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
 workflow-type: tm+mt
-source-wordcount: 598
-ht-degree: 32%
+source-wordcount: 660
+ht-degree: 29%
 
 ---
 
-# 조직 및 계정 연결
+# 조직 및 계정
 
 *조직*(조직 ID)은 관리자가 그룹과 사용자를 구성하고, CX Enterprise에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 항목입니다.
 
@@ -47,6 +47,14 @@ ht-degree: 32%
 조직이 Federated ID를 사용하는 경우 CX Enterprise를 사용하면 이메일 주소와 암호를 입력할 필요 없이 조직의 SSO(Single Sign-On)로 로그인할 수 있습니다. 이 작업을 수행하려면 CX 엔터프라이즈 URL(`https://experience.adobe.com`)에 `#/sso:@domain`을(를) 추가하십시오.
 
 예를 들어 조직에 Federated ID와 도메인 `example.com`가 있는 경우 URL 링크를 `https://experience.adobe.com/#/sso:@example.com`로 설정합니다. 애플리케이션 경로가 첨부된 이 URL을 책갈피로 지정하여 바로 특정 애플리케이션으로 이동할 수도 있습니다. (예: Adobe Analytics의 경우 `https://experience.adobe.com/#/sso:@example.com/analytics`.)
+
+### 페더레이션 게스트 계정
+
+[페더레이션 게스트 액세스](https://helpx.adobe.com/kr/business/enterprise/using/federated-guest-access.html)를 사용하도록 설정하여 자신의 도메인에서 게스트 사용자를 안전하게 인증할 수 있습니다. 이러한 사용자는 모든 CX Enterprise 페이지에서 기존 조직 내의 계정 간에 전환할 수 있습니다.
+
+페더레이션 게스트 계정으로 전환하려면 [CX Enterprise](https://experience.adobe.com) 페이지의 **[!UICONTROL 조직]** 메뉴에서 **[!UICONTROL 다른 계정]**&#x200B;을 찾으십시오.
+
+![페더레이션 계정 전환기](../assets/federated-account-switcher.png)
 
 ## 조직 ID 보기
 
