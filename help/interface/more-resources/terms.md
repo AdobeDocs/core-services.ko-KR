@@ -22,7 +22,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+source-git-commit: 929f3df66ce2ff819248671dfc560f0a2a468836
 workflow-type: tm+mt
 source-wordcount: 687
 ht-degree: 5%
@@ -32,7 +32,7 @@ ht-degree: 5%
 # 용어
 
 <!--
-TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
+TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR%2D%2D%2DBnMM7lJgN0HZDsk
 -->
 
 동일한 단어가 다른 Adobe 환경(CX 엔터프라이즈, 마케팅 앱, 디자인 앱 또는 지원 사이트)에 표시되는 경우 이 표를 사용합니다. 전체 용어집이 아닙니다. 자세한 내용은 [Experience League](https://experienceleague.adobe.com/ko)에서 제품별 도움말을 참조하세요.
