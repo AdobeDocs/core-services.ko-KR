@@ -52,7 +52,7 @@ ht-degree: 28%
 
 ## 페더레이션 게스트 계정
 
-[페더레이션 게스트 액세스](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)를 사용하도록 설정하여 자신의 도메인에서 게스트 사용자를 안전하게 인증할 수 있습니다. 활성화된 경우 조직 메뉴가 변경되어 CX Enterprise 페이지의 기존 조직 내에서 계정 간을 전환할 수 있습니다.
+[페더레이션 게스트 액세스](https://helpx.adobe.com/kr/business/enterprise/using/federated-guest-access.html)를 사용하도록 설정하여 자신의 도메인에서 게스트 사용자를 안전하게 인증할 수 있습니다. 활성화된 경우 조직 메뉴가 변경되어 CX Enterprise 페이지의 기존 조직 내에서 계정 간을 전환할 수 있습니다.
 
 페더레이션 게스트 계정으로 전환하려면 [CX Enterprise](https://experience.adobe.com) 페이지의 **[!UICONTROL 조직]** 메뉴에서 **[!UICONTROL 다른 계정]**&#x200B;을 찾으십시오.
 
@@ -125,6 +125,6 @@ ht-degree: 28%
 
 일반적으로, 계정 연결은 Adobe ID가 이전 사용자에게 연결되어 있어서 실패합니다. 계정 연결에 실패하면
 
-* [Adobe 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support)에 문의하십시오.
+* [Adobe 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support)에 문의하십시오.
 * 문제가 해결되는 동안 표준 로그인을 사용하여 애플리케이션에 액세스합니다.
 
