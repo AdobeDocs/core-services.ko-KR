@@ -9,22 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 TQID: https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
 workflow-type: tm+mt
-source-wordcount: 677
-ht-degree: 28%
+source-wordcount: 506
+ht-degree: 17%
 
 ---
 
@@ -52,7 +45,7 @@ ht-degree: 28%
 
 ## 페더레이션 게스트 계정
 
-[페더레이션 게스트 액세스](https://helpx.adobe.com/kr/business/enterprise/using/federated-guest-access.html)를 사용하도록 설정하여 자신의 도메인에서 게스트 사용자를 안전하게 인증할 수 있습니다. 활성화된 경우 조직 메뉴가 변경되어 CX Enterprise 페이지의 기존 조직 내에서 계정 간을 전환할 수 있습니다.
+[페더레이션 게스트 액세스](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)를 사용하도록 설정하여 자신의 도메인에서 게스트 사용자를 안전하게 인증할 수 있습니다. 활성화된 경우 조직 메뉴가 변경되어 CX Enterprise 페이지의 기존 조직 내에서 계정 간을 전환할 수 있습니다.
 
 페더레이션 게스트 계정으로 전환하려면 [CX Enterprise](https://experience.adobe.com) 페이지의 **[!UICONTROL 조직]** 메뉴에서 **[!UICONTROL 다른 계정]**&#x200B;을 찾으십시오.
 
@@ -86,28 +79,6 @@ ht-degree: 28%
 
    `C538193582390300A495CC9@AdobeOrg`
 
-## Adobe ID에 애플리케이션 계정 연결
-
-일반적으로 CX 엔터프라이즈 관리자는 애플리케이션 및 서비스에 대한 액세스 권한을 부여합니다. 드문 경우이긴 하지만 애플리케이션 자격 증명을 Adobe ID에 연결할 수 있습니다.
-
-1. CX Enterprise로 전자 메일 초대장의 단계를 따릅니다.
-
-1. Adobe ID 또는 Enterprise ID를 사용하여 로그인합니다.
-
-1. **[!UICONTROL 응용 프로그램 선택기]**&#x200B;를 클릭합니다. ( ![메뉴](../assets/apps-icon.png)).
-
-   ![Adobe ID에 애플리케이션 계정 연결](../assets/solutions-active.png)
-
-   액세스 권한이 있는 애플리케이션에 색상이 지정됩니다.
-
-1. 원하는 애플리케이션을 클릭합니다.
-
-   ![응용 프로그램 클릭](../assets/analytics-link-accounts.png)
-
-   이 유형의 메시지는 적절한 그룹에 속하거나 애플리케이션에 대한 권한이 있지만, 계정 자격 증명을 아직 Adobe ID에 연결하지 않은 경우 표시됩니다.
-
-1. **[!UICONTROL 계정 연결]**&#x200B;을 클릭한 다음 자격 증명을 제공합니다.
-
 ## 기본 조직 지정
 
 로그인할 때 사용할 기본 조직을 지정할 수 있습니다.
@@ -118,13 +89,3 @@ ht-degree: 28%
 
 
 ![프로필 편집](../assets/edit-profile.png)
-
-## 계정 연결 문제 해결
-
-계정 연결에서 비롯되는 문제들에 대한 도움말.
-
-일반적으로, 계정 연결은 Adobe ID가 이전 사용자에게 연결되어 있어서 실패합니다. 계정 연결에 실패하면
-
-* [Adobe 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support)에 문의하십시오.
-* 문제가 해결되는 동안 표준 로그인을 사용하여 애플리케이션에 액세스합니다.
-
