@@ -52,7 +52,7 @@ ht-degree: 17%
 
 ## 페더레이션 게스트 계정
 
-[페더레이션 게스트 액세스](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)를 사용하도록 설정하여 자신의 도메인에서 게스트 사용자를 안전하게 인증할 수 있습니다. 활성화된 경우 조직 메뉴가 변경되어 CX Enterprise 페이지의 기존 조직 내에서 계정 간을 전환할 수 있습니다.
+[페더레이션 게스트 액세스](https://helpx.adobe.com/kr/business/enterprise/using/federated-guest-access.html)를 사용하도록 설정하여 자신의 도메인에서 게스트 사용자를 안전하게 인증할 수 있습니다. 활성화된 경우 조직 메뉴가 변경되어 CX Enterprise 페이지의 기존 조직 내에서 계정 간을 전환할 수 있습니다.
 
 페더레이션 게스트 계정으로 전환하려면 [CX Enterprise](https://experience.adobe.com) 페이지의 **[!UICONTROL 조직]** 메뉴에서 **[!UICONTROL 다른 계정]**&#x200B;을 찾으십시오.
 
