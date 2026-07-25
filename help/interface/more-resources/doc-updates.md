@@ -40,7 +40,7 @@ CX Enterprise의 중앙 인터페이스 및 관리를 위해 설명서 업데이
 
 ## 2026년 6월
 
-* 개요, 사용자, 피드백 및 AI 크레딧 보기, 대화 재생 및 거버넌스 사용자를 위한 권한을 포함하여 라이선스 사용 및 Agentic AI 모니터링 대시보드에 대한 적용 범위가 포함된 [Agentic AI 모니터링](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)을 게시했습니다.
+* 개요, 사용자, 피드백 및 AI 크레딧 보기, 대화 재생 및 거버넌스 사용자를 위한 권한을 포함하여 라이선스 사용 및 Agentic AI 모니터링 대시보드에 대한 적용 범위가 포함된 [Agentic AI 모니터링](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)을 게시했습니다.
 * Agentic AI 사용 모니터링을 위한 [2026년 6월 릴리스 정보](release-notes.md)가 추가되었습니다.
 
 ## 2026년 5월
@@ -49,16 +49,16 @@ CX 엔터프라이즈 중앙 인터페이스 가이드의 4월 및 5월 업데�
 
 * 가이드 전체에서 설명, 링크 텍스트 및 자동 태그 메타데이터를 포함하여 Experience Cloud에서 **CX Enterprise**(으)로 문서를 새롭게 브랜딩했습니다.
 * `https://experience.adobe.com/home`에 새로 고친 홈 페이지에 대한 [2026년 4월 릴리스 정보](release-notes.md)를 추가했습니다(UI 새로 고침, 다크 모드 및 접근성 개선).
-* CX Enterprise의 [Agentic AI](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)를 업데이트했습니다. Adobe Marketing Agent for Microsoft 365 Copilot, 수정된 에이전트 기능 및 기존 앱 에이전트 테이블의 **상태 데이터/HIPAA 지원** 열을 업데이트했습니다.
+* CX Enterprise의 [Agentic AI](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)를 업데이트했습니다. Adobe Marketing Agent for Microsoft 365 Copilot, 수정된 에이전트 기능 및 기존 앱 에이전트 테이블의 **상태 데이터/HIPAA 지원** 열을 업데이트했습니다.
 * [지역 데이터 수집](../data-collection/rdc.md), [호스트 이름 전달의 유효성 검사](../data-collection/adobe-managed-cert.md) 및 [용어](terms.md)에 대한 부분 업데이트입니다.
 
 ## 2026년 3월
 
-[AI 작업 및 크레딧 사용량](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)이 추가됨
+[AI 작업 및 크레딧 사용량](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)이 추가됨
 
 ## 2025년 11월
 
-CX Enterprise의 [Agentic AI에 대한 업데이트](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
+CX Enterprise의 [Agentic AI에 대한 업데이트](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
 
 ## 2025년 10월
 
