@@ -32,9 +32,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 55066e485981ca25ca33c9151a85bae5432a3212
 workflow-type: tm+mt
-source-wordcount: 1248
+source-wordcount: 1282
 ht-degree: 2%
 
 ---
@@ -43,16 +43,17 @@ ht-degree: 2%
 
 Adobe 관리 인증서 프로그램은 CNAME 구현에 필요한 자사 인증서를 설정하는 권장 프로세스입니다. 프로그램이 구성되면 완전히 자동화됩니다. 만료된 인증서로 인해 데이터 수집에 영향을 주지 않도록 적시에 인증서를 갱신합니다. 프로그램은 처음 100개의 CNAME에 대해 무료입니다.
 
-현재 자체 인증서를 관리하는 경우 자사 쿠키 사용을 위해 인증서를 구매, 유지 관리 및 Adobe에 제공할 책임이 있습니다. Adobe 고객 지원 센터에 문의하여 Adobe 관리 인증서 프로그램으로의 마이그레이션에 대해 논의할 수 있습니다.
+현재 자체 인증서를 관리하는 경우 자사 쿠키 사용을 위해 인증서를 구매, 유지 관리 및 Adobe에 제공할 책임이 있습니다. Adobe 관리 인증서 프로그램으로의 마이그레이션에 대해 논의하려면 Adobe 고객 지원 센터에 문의하십시오.
 
 ## 구현
 
-자사 데이터 수집을 위한 새 인증서를 구현하려면 다음 단계를 따르십시오.
+자사 데이터 수집을 위한 새 인증서를 구현하려면 다음 단계를 수행합니다.
 
 1. [자사 도메인 요청 양식](cookies/assets/First_Party_Domain_Request_Form.xlsx)을 다운로드하여 작성
 1. Adobe 고객 지원 센터에서 Adobe 관리 인증서 프로그램에 대한 자사 데이터 수집을 설정하도록 요청하는 티켓을 엽니다. 조직에 데이터 상주 또는 준수 요구 사항이 있는 경우 요청에 원하는 [RDC 유형](rdc.md)을(를) 지정하십시오.
 1. 티켓을 받으면 Adobe 담당자가 CNAME 레코드를 제공합니다. Adobe에서 귀하를 대신하여 인증서를 구입할 수 있으려면 먼저 회사의 DNS 서버에서 이 레코드를 구성해야 합니다. 예를 들어 호스트 이름 `data.example.com`은(는) `hiodsibxvip01.data.adobedc.net`을(를) 가리킵니다.
 1. CNAME 레코드가 조직 서버에 있으면 Adobe은 DigiCert와 협력하여 Adobe 데이터 수집 서버에서 인증서를 구입하고 설치합니다.
+1. 자사 용도로 Adobe CNAME에서 호스팅할 때 `robots.txt` 파일을 업데이트해야 하는 경우 고객 지원 센터에 문의하십시오. 이러한 요청은 Google이 하위 도메인에서 크롤링을 차단하도록 `robots.txt` 파일을 업데이트하려는 경우에 적용됩니다.
 
 ## 호스트 이름 전달의 유효성 검사
 
@@ -112,7 +113,7 @@ Aliases: data.example.com
 
 ## 구현 코드 업데이트
 
-인증서가 올바르게 작동하는지 확인한 후에는 새 CNAME 호스트 이름을 사용하도록 Adobe 구현을 업데이트할 수 있습니다.
+새 CNAME 호스트 이름을 사용하려면 인증서가 올바르게 작동하는지 확인한 후 Adobe 구현을 업데이트합니다.
 
 * **웹 SDK 태그 확장**: 확장을 구성할 때 [[!UICONTROL Edge 도메인]](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/configure/general) 필드를 업데이트합니다.
 * **웹 SDK(alloy)**: `configure` 명령 내에서 [`edgeDomain`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/edgedomain) 속성을 업데이트합니다.
@@ -133,13 +134,13 @@ Aliases: data.example.com
 
 +++이 프로세스는 안전합니까?
 
-예. Adobe 관리 인증서 프로그램은 인증서를 Adobe에 제공하는 조직보다 안전합니다. Adobe 및 발급 인증 기관 외부에서 인증서나 개인 키를 변경하지 않습니다.
+예. Adobe 관리 인증서 프로그램은 인증서를 Adobe에 제공하는 조직보다 안전합니다. 인증서나 개인 키가 Adobe 및 발급 인증 기관 외부로 전송되지 않습니다.
 
 +++
 
 +++Adobe은 어떻게 도메인의 인증서를 구입할 수 있습니까?
 
-Adobe 소유 호스트 이름에 지정된 호스트 이름을 지정한 경우에만 인증서를 구입할 수 있습니다. 기본적으로 이 호스트 이름을 Adobe에 위임하고 Adobe이 사용자를 대신하여 인증서를 구매할 수 있도록 합니다.
+Adobe 소유 호스트 이름에 지정된 호스트 이름을 지정한 경우에만 인증서를 구입할 수 있습니다. 이 호스트 이름을 Adobe에 위임하고 Adobe이 사용자를 대신하여 인증서를 구매할 수 있도록 합니다.
 
 +++
 
@@ -179,7 +180,7 @@ Adobe은 자사 데이터 수집에서의 보안에 대한 다양한 고객 요�
 
 +++지원되는 HTTPS 인증서 유형은 무엇입니까?
 
-Adobe은 다양한 고객 요구 사항을 충족하기 위해 RSA 및 ECC 인증서 유형을 모두 지원합니다. RSA 인증서는 클라이언트에 대해 더 광범위하게 지원되지만 ECC 인증서는 서버 측과 클라이언트 측에서 처리 시간이 줄어듭니다. Adobe 관리 인증서의 경우 RSA와 ECC가 모두 제공됩니다. 고객 관리 인증서의 경우 RSA가 필요하며 ECC를 사용하는 것이 좋습니다. 최신 클라이언트는 RSA와 ECC를 모두 지원합니다. 다음 클라이언트는 일반적으로 RSA 인증서만 지원합니다.
+Adobe은 다양한 고객 요구 사항을 충족하기 위해 RSA 및 ECC 인증서 유형을 모두 지원합니다. RSA 인증서는 클라이언트에 대해 더 광범위하게 지원되지만 ECC 인증서는 서버 측과 클라이언트 측에서 처리 시간이 줄어듭니다. Adobe 관리 인증서의 경우 RSA와 ECC가 모두 제공됩니다. 고객 관리 인증서의 경우 RSA가 필요하며 ECC를 사용하는 것이 좋습니다. 최신 클라이언트는 RSA와 ECC를 모두 지원합니다. 다음 클라이언트는 RSA 인증서만 지원합니다.
 
 * Windows Vista 이하(2012년에 마지막으로 업데이트됨)
 * Windows Phone 8.0 이하(2014년에 마지막으로 업데이트됨)
