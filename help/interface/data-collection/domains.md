@@ -27,7 +27,7 @@ CX Enterprise 는 다음 호스트를 사용하여 애플리케이션을 제공�
 
 * [Adobe Analytics](https://experienceleague.adobe.com/ko/docs/analytics/technotes/domains)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/domains)
-* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
+* [Marketo Engage](https://experienceleague.adobe.com/ko/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | 기술 | 도메인 |
 | --- | --- |
