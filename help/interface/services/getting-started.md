@@ -1,7 +1,7 @@
 ---
 description: 교차 애플리케이션 서비스를 위한 Adobe Analytics 및 Adobe Target 애플리케이션을 현대화합니다. CX 엔터프라이즈 서비스를 사용하는 방법을 알아봅니다.
 solution: Experience Cloud
-title: Experience Cloud 서비스 시작
+title: CX Enterprise 시작하기
 index: true
 feature: Central Interface Components
 topic: Administration
@@ -9,31 +9,14 @@ role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
 TQID: https://experienceleague.adobe.com/5SyRdqyQkymJJygKeQ9FXIYoVe70br51DY2VKmqSC0E
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: dab36b01-8bfa-48f3-8392-626455a058e6
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: d27b1945-f442-4607-91bd-537a0b16e687
-  - id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1
-  - id: ecb4a972-6786-444c-a014-abc528b9407a
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: dab36b01-8bfa-48f3-8392-626455a058e6id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: d27b1945-f442-4607-91bd-537a0b16e687id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1id: ecb4a972-6786-444c-a014-abc528b9407aid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6b2470a7d7bb71228c7707dbb59111451495b358
 workflow-type: tm+mt
-source-wordcount: 2083
+source-wordcount: 2082
 ht-degree: 41%
 
 ---
@@ -94,9 +77,9 @@ CX Enterprise 사용을 위한 [!DNL Analytics] 및 [!DNL Adobe Target] 요구 �
 
 방문자 ID 서비스 에서는 교차 애플리케이션 통합을 위한 공통 ID를 제공하고 [!DNL Customer Attributes]을(를) 통해 업로드된 CRM 데이터를 기반으로 도메인 간 방문자 식별 및 장치/브라우저 간 타깃팅 및 개인화를 위한 경로를 제공합니다.
 
-CX 엔터프라이즈 핵심 서비스를 사용하는 가장 간단한 방법은 방문자 ID 서비스를 구현하는 [[!UICONTROL Experience Cloud ID 서비스] 태그 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko)을 통해 Analytics 및 Adobe Target에 대해 자동으로 활성화하는 것입니다.
+CX 엔터프라이즈 핵심 서비스를 사용하는 가장 간단한 방법은 방문자 ID 서비스를 구현하는 [[!UICONTROL Experience Cloud ID 서비스] 태그 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)을 통해 Analytics 및 Adobe Target에 대해 자동으로 활성화하는 것입니다.
 
-전체 방문자 ID 서비스 도움말은 [방문자 ID 서비스 개요](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko#intro)를 참조하십시오.
+전체 방문자 ID 서비스 도움말은 [방문자 ID 서비스 개요](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html#intro)를 참조하십시오.
 
 
 **[!UICONTROL Experience Platform 태그]를 사용하지 않습니까?**
@@ -105,12 +88,12 @@ CX 엔터프라이즈 핵심 서비스를 사용하는 가장 간단한 방법�
 
 | 작업 | 설명 |
 | --- | --- |
-| [Analytics에 대한 방문자 ID 서비스(`VisitorAPI.js`) 구현](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/overview) | [고객 ID](https://experienceleague.adobe.com/ko/docs/id-service/using/reference/authenticated-state)를 추가적으로 설정하는 것도 좋습니다. 이러한 ID는 각 방문자와 연결되며 CX Enterprise의 현재 및 향후 기능을 활성화합니다. |
-| 기존 `s_code` 를 버전 H.27.3 이상으로 업데이트하거나 기존 `AppMeasurement.js` 를 버전 1.4 이상으로 업데이트합니다. | 이러한 파일은 Analytics 관리 도구의 [코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ko)에서 다운로드할 수 있습니다. (`AppMeasurement.js`에 대한 자세한 내용이 필요한 경우 [JavaScript 구현](https://experienceleague.adobe.com/ko/docs/analytics/implementation/js/overview#js) 안내서를 사용할 수 있습니다.) |
+| [Analytics에 대한 방문자 ID 서비스(`VisitorAPI.js`) 구현](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) | [고객 ID](https://experienceleague.adobe.com/en/docs/id-service/using/reference/authenticated-state)를 추가적으로 설정하는 것도 좋습니다. 이러한 ID는 각 방문자와 연결되며 CX Enterprise의 현재 및 향후 기능을 활성화합니다. |
+| 기존 `s_code` 를 버전 H.27.3 이상으로 업데이트하거나 기존 `AppMeasurement.js` 를 버전 1.4 이상으로 업데이트합니다. | 이러한 파일은 Analytics 관리 도구의 [코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html)에서 다운로드할 수 있습니다. (`AppMeasurement.js`에 대한 자세한 내용이 필요한 경우 [JavaScript 구현](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview#js) 안내서를 사용할 수 있습니다.) |
 
 ### Analytics 및 Adobe Target - 고객 ID 동기화 {#sync-ids}
 
-방문자 ID 서비스 설정의 일부로, Analytics 및 [!DNL Target]에 대해 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)를 CX Enterprise와 동기화하는 것이 좋습니다.
+방문자 ID 서비스 설정의 일부로, Analytics 및 [!DNL Target]에 대해 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)를 CX Enterprise와 동기화하는 것이 좋습니다.
 
 Adobe Target에서 `mbox3rdpartyid`는 고객 ID를 가져와 [!DNL Target]으로 보내야 합니다. ([!DNL Target]에서 [고객 속성 사용](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=ko-KR) 을 참조하십시오.)
 
@@ -129,7 +112,7 @@ Adobe Target에서 `mbox3rdpartyid`는 고객 ID를 가져와 [!DNL Target]으�
 
 ### Mobile SDK
 
-[Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=ko-KR) 및 [iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ko-KR) 모바일 애플리케이션에서 추가 고객 ID를 설정하는 방법에 대한 구문 예는 *방문자 ID 서비스™1&rbrace; 섹션을 참조하십시오.*
+[Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=ko-KR) 및 [iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ko-KR) 모바일 애플리케이션에서 추가 고객 ID를 설정하는 방법에 대한 구문 예는 *방문자 ID 서비스™1} 섹션을 참조하십시오.*
 
 ### 이전 데이터의 속성 활성화
 
@@ -141,13 +124,13 @@ Adobe Target에서 `mbox3rdpartyid`는 고객 ID를 가져와 [!DNL Target]으�
 
 자사 쿠키를 사용하는 경우 데이터 수집 CNAME 및 도메인 간 추적에 대한 자세한 내용은 [Adobe 관리 인증서 프로그램](/help/interface/data-collection/adobe-managed-cert.md)을 참조하세요.
 
-방문자 API를 비롯한 JavaScript 라이브러리를 업데이트하여 Analytics 구현을 현대화하는 것이 좋습니다. 이를 가장 간단하게 해내는 방법은 [Adobe Analytics 확장 기능](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ko)을 Experience Platform 데이터 수집에 추가하는 것입니다.
+방문자 API를 비롯한 JavaScript 라이브러리를 업데이트하여 Analytics 구현을 현대화하는 것이 좋습니다. 이를 가장 간단하게 해내는 방법은 [Adobe Analytics 확장 기능](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)을 Experience Platform 데이터 수집에 추가하는 것입니다.
 
 ## Adobe Target 구현 업데이트
 
-* 라이브러리 검색이 자동으로 수행되도록 [!UICONTROL Adobe Target] 태그에 [Experience Platform 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=ko)을 추가하는 것이 좋습니다. 태그를 사용하여 Adobe Target(및 기타 애플리케이션)용 방문자 ID 서비스를 구현하는 [[!UICONTROL Experience Cloud ID 서비스] 태그 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko)을 설정할 수도 있습니다. 이 태그 확장은 Adobe Target에서 People 서비스를 사용하기 위해 **필수**&#x200B;입니다.
-* [!UICONTROL Experience Platform] 태그를 사용하지 않는 경우 [mbox 라이브러리를 수동으로 업데이트](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=ko)하십시오.
-* [!DNL Adobe Target]에 대한 보고 소스로 Adobe Analytics를 사용하기 위한 액세스 권한을 요청하십시오. [!DNL Target] 및 [!DNL Analytics] 데이터가 처리 중에 동일한 서버 호출에 결합되므로 방문자가 두 애플리케이션 간에 연결됩니다. [Analytics for Target 구현](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko)을 참조하십시오.
+* 라이브러리 검색이 자동으로 수행되도록 [!UICONTROL Adobe Target] 태그에 [Experience Platform 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html)을 추가하는 것이 좋습니다. 태그를 사용하여 Adobe Target(및 기타 애플리케이션)용 방문자 ID 서비스를 구현하는 [[!UICONTROL Experience Cloud ID 서비스] 태그 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)을 설정할 수도 있습니다. 이 태그 확장은 Adobe Target에서 People 서비스를 사용하기 위해 **필수**&#x200B;입니다.
+* [!UICONTROL Experience Platform] 태그를 사용하지 않는 경우 [mbox 라이브러리를 수동으로 업데이트](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html)하십시오.
+* [!DNL Adobe Target]에 대한 보고 소스로 Adobe Analytics를 사용하기 위한 액세스 권한을 요청하십시오. [!DNL Target] 및 [!DNL Analytics] 데이터가 처리 중에 동일한 서버 호출에 결합되므로 방문자가 두 애플리케이션 간에 연결됩니다. [Analytics for Target 구현](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)을 참조하십시오.
 
   >[!IMPORTANT]
   >
