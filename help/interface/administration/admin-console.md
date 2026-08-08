@@ -1,10 +1,10 @@
 ---
 title: 사용자 및 제품 라이선스 관리
 description: Admin Console for CX 엔터프라이즈 애플리케이션에서 사용자 및 제품 라이센스를 관리합니다.
-application: Experience Cloud
 index: true
 feature: Admin Console
 topic: Administration
+solution: CX Enterprise
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
@@ -28,9 +28,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
+source-git-commit: cedbdaa0a783bd9777c169b1257ca5ebf6b48c08
 workflow-type: tm+mt
-source-wordcount: 1132
+source-wordcount: 1073
 ht-degree: 7%
 
 ---
@@ -128,7 +128,7 @@ CX 엔터프라이즈 응용 프로그램의 ID 및 제품 라이선스를 관�
 * [Marketo Engage](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/administration/marketo-with-adobe-identity/subscription-and-user-migration/understanding-marketo-subscription-and-user-migration-to-the-adobe-admin-console)
 * [Marketo Measure](https://experienceleague.adobe.com/ko/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup)
 * [Mix Modeler](https://experienceleague.adobe.com/ko/docs/mix-modeler/using/data-governance/access-controls)
-* [Target](https://experienceleague.adobe.com/ko/docs/target/using/administer/start-target)
+* [대상](https://experienceleague.adobe.com/ko/docs/target/using/administer/start-target)
 * [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console)
 
 모든 Adobe 응용 프로그램에 대한 대부분의 관리 콘솔 도움말은 [Enterprise 및 Teams 관리 안내서](https://helpx.adobe.com/kr/enterprise/admin-guide.html)에 설명되어 있습니다.

@@ -1,7 +1,6 @@
 ---
 title: 사용자 및 사용자 세부 정보 보기
 description: CX Enterprise의 관리 툴에 대해 알아봅니다. 모든 CX Enterprise 사용자 및 정책을 정렬 및 필터링 가능한 목록으로 표시합니다.
-application: Experience Cloud
 index: true
 feature: Admin Console
 topic: Administration
@@ -21,7 +20,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
+source-git-commit: c164f824b75aed7e39419f4edf99eaa44442382c
 workflow-type: tm+mt
 source-wordcount: 1271
 ht-degree: 66%
