@@ -3,42 +3,63 @@ description: Adobe CX Enterprise 자사 쿠키와 함께 사용할 보안 인증
 solution: Experience Cloud,Analytics
 title: Adobe 관리 인증서 프로그램
 index: true
-snippet: y
+snippet: 'y'
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-TQID: https://experienceleague.adobe.com/LWbjh-jXKmY6mcl047uzA1ZkhZlAmeNpt9JRg3Ynt9E
+autotag-review: '2026-09-09T20:12:24.943Z'
+TQID: 'https://experienceleague.adobe.com/8CSBLQaw3KOByyxxCYr1By4gyAQsDIhiofOdAzn38dg'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+    internal-label: Methods
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: e992d880-33bc-4949-a648-aa7d410276cd
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Validation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55066e485981ca25ca33c9151a85bae5432a3212
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 1282
+source-wordcount: '1282'
 ht-degree: 2%
-
 ---
-
 # Adobe 관리 인증서 프로그램
 
 Adobe 관리 인증서 프로그램은 CNAME 구현에 필요한 자사 인증서를 설정하는 권장 프로세스입니다. 프로그램이 구성되면 완전히 자동화됩니다. 만료된 인증서로 인해 데이터 수집에 영향을 주지 않도록 적시에 인증서를 갱신합니다. 프로그램은 처음 100개의 CNAME에 대해 무료입니다.
@@ -115,12 +136,12 @@ Aliases: data.example.com
 
 새 CNAME 호스트 이름을 사용하려면 인증서가 올바르게 작동하는지 확인한 후 Adobe 구현을 업데이트합니다.
 
-* **웹 SDK 태그 확장**: 확장을 구성할 때 [[!UICONTROL Edge 도메인]](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/configure/general) 필드를 업데이트합니다.
-* **웹 SDK(alloy)**: `configure` 명령 내에서 [`edgeDomain`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/edgedomain) 속성을 업데이트합니다.
-* **Adobe Analytics 확장**: 확장을 구성할 때 [[!UICONTROL SSL 추적 서버]](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/analytics/overview) 필드를 업데이트합니다. [방문자 ID 서비스 태그 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/id-service/overview)도 설치되어 있는지 확인하십시오. 자세한 내용은 [Analytics 태그 확장을 사용한 방문자 식별](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/analytics-extension)을 참조하십시오.
-* **AppMeasurement**: [`trackingServerSecure`](https://experienceleague.adobe.com/ko/docs/analytics/implementation/vars/config-vars/trackingserversecure) 구성 변수를 업데이트합니다. `VisitorAPI.js`을(를) 사용하여 [방문자 ID 서비스](https://experienceleague.adobe.com/ko/docs/id-service/using/home)도 구현했는지 확인하십시오. 자세한 내용은 [AppMeasurement을 사용한 방문자 식별](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/appmeasurement)을 참조하십시오.
+* **웹 SDK 태그 확장**: 확장을 구성할 때 [[!UICONTROL Edge 도메인]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/general) 필드를 업데이트합니다.
+* **웹 SDK(alloy)**: `configure` 명령 내에서 [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/edgedomain) 속성을 업데이트합니다.
+* **Adobe Analytics 확장**: 확장을 구성할 때 [[!UICONTROL SSL 추적 서버]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) 필드를 업데이트합니다. [방문자 ID 서비스 태그 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)도 설치되어 있는지 확인하십시오. 자세한 내용은 [Analytics 태그 확장을 사용한 방문자 식별](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension)을 참조하십시오.
+* **AppMeasurement**: [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure) 구성 변수를 업데이트합니다. `VisitorAPI.js`을(를) 사용하여 [방문자 ID 서비스](https://experienceleague.adobe.com/ko/docs/id-service/using/home)도 구현했는지 확인하십시오. 자세한 내용은 [AppMeasurement을 사용한 방문자 식별](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/appmeasurement)을 참조하십시오.
 
-사이트에서 여러 구현 방법을 사용하지만 이러한 방법을 동시에 모두 업데이트할 수 없는 경우에는 유예 기간 구성을 고려해 보십시오. 방문자가 사이트에서 새 방문자로 계산되지 않도록 하는 방법에 대한 추가 단계는 [방문자 ID 서비스 마이그레이션 고려 사항](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/migration)을 참조하십시오.
+사이트에서 여러 구현 방법을 사용하지만 이러한 방법을 동시에 모두 업데이트할 수 없는 경우에는 유예 기간 구성을 고려해 보십시오. 방문자가 사이트에서 새 방문자로 계산되지 않도록 하는 방법에 대한 추가 단계는 [방문자 ID 서비스 마이그레이션 고려 사항](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration)을 참조하십시오.
 
 ## 유지 관리 및 갱신
 

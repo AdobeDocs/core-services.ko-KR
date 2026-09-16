@@ -8,27 +8,36 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-TQID: https://experienceleague.adobe.com/2i8AyRTW37TGYTpcLBh-ZMTyET0NvpRweTnUuk8Nnis
+TQID: 'https://experienceleague.adobe.com/2i8AyRTW37TGYTpcLBh-ZMTyET0NvpRweTnUuk8Nnis'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: '371'
 ht-degree: 66%
-
 ---
-
 # CX 엔터프라이즈 쿠키
 
 Adobe CX Enterprise는 쿠키를 사용하여 CX 엔터프라이즈 애플리케이션에서 사용되는 방문자 ID를 저장합니다. 이러한 쿠키는 특히 [experience.adobe.com](https://experience.adobe.com)에서 Adobe CX 엔터프라이즈 응용 프로그램에 액세스하는 데 적용됩니다.
@@ -72,9 +81,9 @@ Adobe CX Enterprise는 쿠키를 사용하여 CX 엔터프라이즈 애플리케
 
 **쿠키 이름: AMCV_###@AdobeOrg**
 
-[방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)는 JavaScript을 사용하여 현재 웹 사이트의 도메인에 있는 `AMCV_###@AdobeOrg` 쿠키에 고유한 방문자 ID를 저장합니다. 여기서 `###`은(는) `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`과(와) 같은 임의의 문자열을 나타냅니다.
+[방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)는 JavaScript을 사용하여 현재 웹 사이트의 도메인에 있는 `AMCV_###@AdobeOrg` 쿠키에 고유한 방문자 ID를 저장합니다. 여기서 `###`은(는) `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`과(와) 같은 임의의 문자열을 나타냅니다.
 
-[쿠키 및 방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko)도 참조하세요.
+[쿠키 및 방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)도 참조하세요.
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 

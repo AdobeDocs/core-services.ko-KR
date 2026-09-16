@@ -8,27 +8,36 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-TQID: https://experienceleague.adobe.com/xXhiBeGGEVpvdjZdpL2Q9-3eDn-gN58dynb56daQcig
+TQID: 'https://experienceleague.adobe.com/xXhiBeGGEVpvdjZdpL2Q9-3eDn-gN58dynb56daQcig'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: '549'
 ht-degree: 56%
-
 ---
-
 # 대상자 만들기
 
 [!UICONTROL 대상 라이브러리]에서 특성 규칙을 사용하여 대상을 만들고 CX 엔터프라이즈 애플리케이션에서 공유할 복합 대상을 정의할 수 있습니다.
@@ -111,4 +120,4 @@ ht-degree: 56%
 
 지정된 기간 동안 데이터 수집이 완료되면 원이 합쳐지면서 정의된 대상자를 표시합니다.
 
-대상이 저장되면 다른 CX 엔터프라이즈 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/ko/docs/target/using/activities/activities)에 포함할 수 있습니다.
+대상이 저장되면 다른 CX 엔터프라이즈 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)에 포함할 수 있습니다.

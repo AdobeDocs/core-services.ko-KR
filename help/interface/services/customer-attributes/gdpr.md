@@ -6,21 +6,26 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-TQID: https://experienceleague.adobe.com/wU6Y5XK5Fs9-w7Jl7THXjturzTVrsB7eh7GdExsS2TQ
+TQID: 'https://experienceleague.adobe.com/wU6Y5XK5Fs9-w7Jl7THXjturzTVrsB7eh7GdExsS2TQ'
 product_v2:
   - id: e1971122-7081-4556-9222-8a31bd71800c
+    internal-label: Experience Cloud Services
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Privacy
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 409
+source-wordcount: '409'
 ht-degree: 81%
-
 ---
-
 # [!DNL Customer Attributes] 개인정보 보호 규정 지원
 
 이 페이지는 [!DNL Customer Attributes]가 데이터 보호 규정(GDPR)을 어떻게 지원하는지 설명합니다.
@@ -29,13 +34,13 @@ ht-degree: 81%
 >
 >이 문서의 콘텐츠는 법률적인 조언이 아니며, 법률적인 조언을 대체하지 않습니다. GDPR에 대한 법률 자문을 구하십시오.
 
-2018년 5월 25일부터 적용되는 [개인정보 보호 규정](https://business.adobe.com/kr/privacy/general-data-protection-regulation.html)은 유럽 연합(EU)의 국경 내의 모든 개인(데이터 주체)이 개인 데이터를 통제하도록 규정하고 있습니다. 또한 국제 비즈니스를 위한 규정 환경을 간소화합니다. 이 법은 데이터 관리자의 비즈니스 위치에 상관없이 개인 데이터를 처리할 때 EU의 경계 내에서 개인 데이터를 수집하거나, 행동을 모니터링하거나, 개인 데이터를 수집하는 모든 기업(데이터 관리자)에 적용됩니다.
+2018년 5월 25일부터 적용되는 [개인정보 보호 규정](https://business.adobe.com/privacy/general-data-protection-regulation.html)은 유럽 연합(EU)의 국경 내의 모든 개인(데이터 주체)이 개인 데이터를 통제하도록 규정하고 있습니다. 또한 국제 비즈니스를 위한 규정 환경을 간소화합니다. 이 법은 데이터 관리자의 비즈니스 위치에 상관없이 개인 데이터를 처리할 때 EU의 경계 내에서 개인 데이터를 수집하거나, 행동을 모니터링하거나, 개인 데이터를 수집하는 모든 기업(데이터 관리자)에 적용됩니다.
 
 Adobe CX Enterprise는 고객을 대신하여 수신 및 저장하는 모든 개인 데이터에 대한 데이터 처리자 역할을 합니다. 귀하는 데이터 제어자로서 Adobe CX Enterprise가 귀하를 대신하여 처리하고 저장하는 개인 데이터를 결정합니다.
 
 이 문서에서는 [!DNL Customer Attributes]가 Adobe Experience Platform Privacy Service API 및 Privacy Service UI를 사용하여 데이터 주체의 GDPR 데이터 액세스 및 삭제 권한을 지원하는 방법에 대해 설명합니다.
 
-GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스](https://business.adobe.com/kr/privacy/general-data-protection-regulation.html)를 참조하십시오.
+GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스](https://business.adobe.com/privacy/general-data-protection-regulation.html)를 참조하십시오.
 
 ## [!DNL Customer Attributes]에 대한 요청을 전송하기 위한 필수 설정
 
@@ -63,9 +68,9 @@ GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스
 * &quot;key&quot;: &lt;*일반적으로 고객의 이름*>
 * &quot;action&quot;: **access** 또는 **delete**
 * &quot;user IDs&quot;:
-   * &quot;namespace&quot;: &lt;*CRS 데이터 소스의 별칭 ID*>
-   * &quot;type&quot;: **integrationCode**
-   * &quot;value&quot;: &lt;*CRM ID*>
+  * &quot;namespace&quot;: &lt;*CRS 데이터 소스의 별칭 ID*>
+  * &quot;type&quot;: **integrationCode**
+  * &quot;value&quot;: &lt;*CRM ID*>
 * &quot;include&quot;: **CRS**(요청에 적용되는 Adobe 제품)
 * &quot;regulation&quot;: **gdpr**(요청에 적용되는 개인정보 보호 규정)
 

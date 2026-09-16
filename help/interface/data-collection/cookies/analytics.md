@@ -8,25 +8,33 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-TQID: https://experienceleague.adobe.com/H-N88ygcQUcUIej1Kkwlv9UmIe1qPDYwo-qF3TdDqHg
+TQID: 'https://experienceleague.adobe.com/H-N88ygcQUcUIej1Kkwlv9UmIe1qPDYwo-qF3TdDqHg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '582'
 ht-degree: 9%
-
 ---
-
 # Adobe Analytics 쿠키
 
 Adobe Analytics는 쿠키를 사용하여 서로 다른 브라우저의 요청을 구분하고 애플리케이션이 나중에 사용할 수 있도록 유용한 정보를 저장합니다. 또한 검색 정보를 고객 레코드와 연결하는 데 사용할 수도 있습니다.
@@ -42,11 +50,11 @@ Analytics는 쿠키를 사용하여 새로운 방문자를 익명으로 정의�
 | **`s_fid`** | 2년 | 33바이트 | 자사 | 대체 고유 방문자 ID 및 타임스탬프를 저장합니다. 타사 쿠키 제한 사항으로 인해 표준 `s_vi` 쿠키를 설정할 수 없는 경우 JavaScript에서 설정합니다. 자사 쿠키 구현에 사용되지 않습니다. |
 | **`s_ac`** | 즉각적인 상태가 됨 | 1바이트 | 자사 | AppMeasurement 쿠키를 설정할 올바른 도메인을 확인하는 데 도움이 됩니다. 정적 값 `"1"`을(를) 포함합니다. 이 쿠키가 설정되면 즉시 삭제됩니다. |
 
-Adobe Analytics에서 쿠키를 사용하여 방문자를 식별하는 방법에 대한 자세한 내용은 [Adobe Analytics의 방문자 식별](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/overview)을 참조하십시오.
+Adobe Analytics에서 쿠키를 사용하여 방문자를 식별하는 방법에 대한 자세한 내용은 [Adobe Analytics의 방문자 식별](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)을 참조하십시오.
 
 ## 플러그인에 의해 설정된 쿠키
 
-일부 구현에서는 Analytics에 추가 기능을 제공하는 코드 조각인 플러그인을 사용합니다. 이러한 플러그인은 위에 나열되지 않은 쿠키를 설정할 수 있습니다. 사용 가능한 플러그인 목록과 플러그인이 설정하는 쿠키는 [Analytics 플러그인 개요](https://experienceleague.adobe.com/ko/docs/analytics/implementation/vars/plugins/impl-plugins)를 참조하십시오.
+일부 구현에서는 Analytics에 추가 기능을 제공하는 코드 조각인 플러그인을 사용합니다. 이러한 플러그인은 위에 나열되지 않은 쿠키를 설정할 수 있습니다. 사용 가능한 플러그인 목록과 플러그인이 설정하는 쿠키는 [Analytics 플러그인 개요](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins)를 참조하십시오.
 
 ## Analytics 쿠키 삭제 결과
 

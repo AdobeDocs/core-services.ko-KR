@@ -8,26 +8,36 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-TQID: https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU
+TQID: 'https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
+  - id: f7bdf6be-dd3b-4d2d-ac52-0e62ed0d3102
+    internal-label: Admin Console
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+    internal-label: Organizations
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 506
+source-wordcount: '506'
 ht-degree: 17%
-
 ---
-
 # 조직 및 계정
 
 *조직*(조직 ID)은 관리자가 그룹과 사용자를 구성하고, CX Enterprise에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 항목입니다.
@@ -52,7 +62,7 @@ ht-degree: 17%
 
 ## 페더레이션 게스트 계정
 
-[페더레이션 게스트 액세스](https://helpx.adobe.com/kr/business/enterprise/using/federated-guest-access.html)를 사용하도록 설정하여 자신의 도메인에서 게스트 사용자를 안전하게 인증할 수 있습니다. 활성화된 경우 조직 메뉴가 변경되어 CX Enterprise 페이지의 기존 조직 내에서 계정 간을 전환할 수 있습니다.
+[페더레이션 게스트 액세스](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)를 사용하도록 설정하여 자신의 도메인에서 게스트 사용자를 안전하게 인증할 수 있습니다. 활성화된 경우 조직 메뉴가 변경되어 CX Enterprise 페이지의 기존 조직 내에서 계정 간을 전환할 수 있습니다.
 
 페더레이션 게스트 계정으로 전환하려면 [CX Enterprise](https://experience.adobe.com) 페이지의 **[!UICONTROL 조직]** 메뉴에서 **[!UICONTROL 다른 계정]**&#x200B;을 찾으십시오.
 

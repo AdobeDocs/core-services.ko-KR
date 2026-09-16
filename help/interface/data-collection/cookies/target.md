@@ -8,26 +8,34 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-TQID: https://experienceleague.adobe.com/nLAm--3HmxWHqWupFrmLTo9TbdAHajPR44VwWAVM9pE
+TQID: 'https://experienceleague.adobe.com/nLAm--3HmxWHqWupFrmLTo9TbdAHajPR44VwWAVM9pE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 706
+source-wordcount: '706'
 ht-degree: 22%
-
 ---
-
 # Adobe Target 쿠키
 
 Adobe Target은 쿠키를 사용하여 웹 사이트 운영자가 어떤 온라인 콘텐츠 및 오퍼가 방문자와 관련이 있는지 테스트할 수 있도록 합니다.
@@ -36,7 +44,7 @@ Adobe Target은 쿠키를 사용하여 웹 사이트 운영자가 어떤 온라�
 >
 >이 문서의 정보는 [Adobe Target JavaScript 라이브러리](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ko-KR){target=_blank}(`at.js`)에만 적용됩니다. 웹 SDK을 사용하는 Target 구현에 대한 정보는 [Adobe Experience Platform Web SDK 쿠키](web-sdk.md)를 참조하십시오.
 >
->필요한 경우 쿠키 지속 시간을 제외하고 이 문서에서 설명한 설정을 변경할 수 있습니다. 쿠키 설정을 변경할 때 [계정 담당자에게 문의](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html?lang=ko){target=_blank}합니다.
+>필요한 경우 쿠키 지속 시간을 제외하고 이 문서에서 설명한 설정을 변경할 수 있습니다. 쿠키 설정을 변경할 때 [계정 담당자에게 문의](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank}합니다.
 
 ## 자사 쿠키
 
@@ -44,7 +52,7 @@ Adobe Target은 쿠키를 사용하여 웹 사이트 운영자가 어떤 온라�
 
 | Cookie | 세부 사항 |
 | --- | --- |
-| `mbox` | 방문자에 대한 익명 식별자를 저장합니다.<P>**쿠키 도메인**: mbox를 제공하는 도메인입니다. 이 쿠키는 회사 도메인에서 제공되므로 쿠키는 자사 쿠키입니다. 도메인 이름에 `example.co.uk`과(와) 같은 국가 코드가 포함되어 있는 경우 클라이언트 서비스와 작업하여 이 코드를 지원하도록 `at.js`을(를) 구성하십시오. 필요한 경우 쿠키 도메인을 사용자 지정하는 방법에 대한 자세한 내용은 Adobe Target 개발자 가이드의 [targetGlobalSettings](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ko-KR){target=_blank}에서 `cookieDomain`을(를) 참조하십시오.<P>**서버 도메인**: `clientcode.tt.omtrdc.net`(Adobe Target 계정에 대해 클라이언트 코드 사용).<P>**쿠키 지속 시간**: 쿠키는 마지막 로그인부터 2년 동안 방문자의 브라우저에 유지됩니다. 쿠키 지속 시간은 변경할 수 없습니다.<P>쿠키는 방문자가 [!DNL Target] 활동을 경험하는 방식을 관리하기 위해 일부 값을 유지합니다.<P>**세션 ID**: 지정된 사용자 세션의 고유 식별자입니다. 30분 동안 활동이 없으면 기본적으로 세션이 만료됩니다. `sessionId`을(를) 직접 생성하는 경우(예: [서버측 구현](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ko){target=_blank}의 경우) 다음을 확인하십시오.<ul><li>세션 ID는 인쇄 가능한 모든 문자열이 될 수 있습니다. 단, 공백, 물음표( ? ), 중괄호( { } ) 또는 슬래시( / )를 사용할 수 있습니다.</li><li>세션 ID는 1자에서 128자 사이여야 합니다.</li><li>특정 세션의 경우 쿠키의 값이 여러 요청에서 동일하게 유지되어야 합니다.</li><li>특정 시점에 지정된 방문자에 대해 병렬 세션(개별 `sessionIds`)이 있어서는 안 됩니다.</li></ul>에지 클러스터의 특정 노드에 대한 라우팅은 세션 ID를 사용하여 수행됩니다.<ul><li>세션은 서버측에서 30분 동안 활성화됩니다. 따라서 `tntId/thirdPartyId`에 대해 마지막으로 요청한 후 30분 이내에 특정 `tntId/thirdPartyId`에 대해 다른 세션 ID를 사용해서는 안 됩니다. 그렇지 않으면, 프로필 변경 사항이 일관되지 않고 예측할 수 없습니다.</li><li>새 세션 ID는 방문자가 30분 동안 활동이 없으면 사용해야 합니다.</li><li>여러 `tntIds/thirdPartyIds`에서 동일한 세션 ID를 사용하면 `tntId/thirdPartyIDs`에서 식별하는 프로필에 예측 불가능한 변경 사항을 초래할 수 있습니다.</li></ul>참고: 지정된 세션 ID는 [동시 요청 수 제한](https://experienceleague.adobe.com/docs/target/using/troubleshoot/target-limits.html?lang=ko#content-delivery){target=_blank}을 참조하십시오.<P>**pc ID**: 방문자 브라우저의 반영구 ID입니다. 쿠키가 수동으로 삭제될 때까지 지속됩니다.<P>**check**: 방문자가 쿠키를 지원하는지 확인하는 데 사용되는 간단한 테스트 값입니다. 방문자가 페이지를 요청할 때마다 설정합니다.<P>**disable**: 방문자의 로드 시간이 at.js 파일에 구성된 시간을 초과하는 경우 설정합니다. 기본적으로 이 시간 초과는 1시간 동안 지속됩니다. |
+| `mbox` | 방문자에 대한 익명 식별자를 저장합니다.<P>**쿠키 도메인**: mbox를 제공하는 도메인입니다. 이 쿠키는 회사 도메인에서 제공되므로 쿠키는 자사 쿠키입니다. 도메인 이름에 `example.co.uk`과(와) 같은 국가 코드가 포함되어 있는 경우 클라이언트 서비스와 작업하여 이 코드를 지원하도록 `at.js`을(를) 구성하십시오. 필요한 경우 쿠키 도메인을 사용자 지정하는 방법에 대한 자세한 내용은 Adobe Target 개발자 가이드의 [targetGlobalSettings](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ko-KR){target=_blank}에서 `cookieDomain`을(를) 참조하십시오.<P>**서버 도메인**: `clientcode.tt.omtrdc.net`(Adobe Target 계정에 대해 클라이언트 코드 사용).<P>**쿠키 지속 시간**: 쿠키는 마지막 로그인부터 2년 동안 방문자의 브라우저에 유지됩니다. 쿠키 지속 시간은 변경할 수 없습니다.<P>쿠키는 방문자가 [!DNL Target] 활동을 경험하는 방식을 관리하기 위해 일부 값을 유지합니다.<P>**세션 ID**: 지정된 사용자 세션의 고유 식별자입니다. 30분 동안 활동이 없으면 기본적으로 세션이 만료됩니다. `sessionId`을(를) 직접 생성하는 경우(예: [서버측 구현](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}의 경우) 다음을 확인하십시오.<ul><li>세션 ID는 인쇄 가능한 모든 문자열이 될 수 있습니다. 단, 공백, 물음표( ? ), 중괄호( { } ) 또는 슬래시( / )를 사용할 수 있습니다.</li><li>세션 ID는 1자에서 128자 사이여야 합니다.</li><li>특정 세션의 경우 쿠키의 값이 여러 요청에서 동일하게 유지되어야 합니다.</li><li>특정 시점에 지정된 방문자에 대해 병렬 세션(개별 `sessionIds`)이 있어서는 안 됩니다.</li></ul>에지 클러스터의 특정 노드에 대한 라우팅은 세션 ID를 사용하여 수행됩니다.<ul><li>세션은 서버측에서 30분 동안 활성화됩니다. 따라서 `tntId/thirdPartyId`에 대해 마지막으로 요청한 후 30분 이내에 특정 `tntId/thirdPartyId`에 대해 다른 세션 ID를 사용해서는 안 됩니다. 그렇지 않으면, 프로필 변경 사항이 일관되지 않고 예측할 수 없습니다.</li><li>새 세션 ID는 방문자가 30분 동안 활동이 없으면 사용해야 합니다.</li><li>여러 `tntIds/thirdPartyIds`에서 동일한 세션 ID를 사용하면 `tntId/thirdPartyIDs`에서 식별하는 프로필에 예측 불가능한 변경 사항을 초래할 수 있습니다.</li></ul>참고: 지정된 세션 ID는 [동시 요청 수 제한](https://experienceleague.adobe.com/docs/target/using/troubleshoot/target-limits.html#content-delivery){target=_blank}을 참조하십시오.<P>**pc ID**: 방문자 브라우저의 반영구 ID입니다. 쿠키가 수동으로 삭제될 때까지 지속됩니다.<P>**check**: 방문자가 쿠키를 지원하는지 확인하는 데 사용되는 간단한 테스트 값입니다. 방문자가 페이지를 요청할 때마다 설정합니다.<P>**disable**: 방문자의 로드 시간이 at.js 파일에 구성된 시간을 초과하는 경우 설정합니다. 기본적으로 이 시간 초과는 1시간 동안 지속됩니다. |
 | `at_check` | 브라우저에서 쿠키 읽기/쓰기 기능이 활성화되어 있는지 확인하는 임시 쿠키. |
 | `mboxEdgeCluster` | 이 쿠키는 [overrideMboxEdgeServer 설정](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ko-KR){target=_blank}이(가) `true`(으)로 설정된 경우에만 존재합니다. |
 
