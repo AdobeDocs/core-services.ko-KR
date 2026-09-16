@@ -85,7 +85,7 @@ Creative Cloud 사용자가 에셋에 액세스하려면 CX Enterprise에 허용
 
    Creative Cloud 사용자를 모두 제거했으면 폴더 공유가 취소되고 Creative Cloud 사용자는 더 이상 액세스할 수 없습니다.
 
-공유 자산을 사용하는 다른 방법에는 활동의 이미지에 대한 Adobe Target의 [오퍼 라이브러리](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)에서 자산을 로드하거나 교체하는 것이 포함됩니다.
+공유 자산을 사용하는 다른 방법에는 활동의 이미지에 대한 Adobe Target의 [오퍼 라이브러리](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=ko)에서 자산을 로드하거나 교체하는 것이 포함됩니다.
 
 Creative Cloud에 폴더를 공유하면 폴더에 Creative Cloud 로고가 표시됩니다.
 
@@ -101,5 +101,5 @@ Creative Cloud에 폴더를 공유하면 폴더에 Creative Cloud 로고가 표�
 
 [!DNL Adobe Target]에서 활동을 만들면 [!UICONTROL 오퍼 라이브러리]에서 이미지를 변경하여 공유 이미지 자산을 사용할 수 있습니다.
 
-[!DNL Target] 도움말에서 [오퍼 라이브러리](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)를 참조하십시오.
+[!DNL Target] 도움말에서 [오퍼 라이브러리](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=ko)를 참조하십시오.
 
