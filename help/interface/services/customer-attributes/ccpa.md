@@ -1,6 +1,6 @@
 ---
 title: 캘리포니아 소비자 개인 정보 보호법을 위한 [!DNL Customer Attributes] 지원
-description: 캘리포니아 소비자 개인 정보 보호법  [!DNL Customer Attributes] 지원에 대해 알아보기
+description: 캘리포니아 소비자 개인 정보 보호법을 위한 [!DNL Customer Attributes] 지원에 대해 알아보기
 feature: Customer Attributes
 topic: Administration
 role: Admin
@@ -9,16 +9,20 @@ exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
 TQID: 'https://experienceleague.adobe.com/YPl1rlZRciwN6GM7mtkqMKjPsW-H1ueMG4zqbH8auho'
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
+    internal-label: Privacy
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 404
+source-wordcount: '405'
 ht-degree: 52%
-
 ---
-
 # 캘리포니아 소비자 개인 정보 보호법을 위한 [!DNL Customer Attributes] 지원
 
 이 페이지에서는 CCPA(캘리포니아 소비자 개인 정보 보호법)에 대한 [!DNL Customer Attributes] 지원에 대해 설명합니다.

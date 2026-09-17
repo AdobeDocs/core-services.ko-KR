@@ -7,25 +7,32 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-TQID: https://experienceleague.adobe.com/jI2dWXMmrrWxceVi-sZtzF5cTF11iy4d7QKkx71vF-I
+TQID: 'https://experienceleague.adobe.com/jI2dWXMmrrWxceVi-sZtzF5cTF11iy4d7QKkx71vF-I'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 394
+source-wordcount: '394'
 ht-degree: 51%
-
 ---
-
 # FTP를 통한 데이터 파일 업로드 (선택 사항)
 
 드래그 앤 드롭을 사용하여 업로드하지 않는 경우에는 FTP를 통해 고객 속성 데이터를 CX Enterprise로 업로드할 수 있습니다.
@@ -73,11 +80,11 @@ CX Enterprise에서 고객 속성 소스 및 FTP 계정을 만든 후에 데이�
 
 * **[!UICONTROL 유형:]** 다음과 같은 데이터 유형:
 
-   * **문자열:** 일련의 문자들.
+  * **문자열:** 일련의 문자들.
 
-   * **정수:** 범자연수.
+  * **정수:** 범자연수.
 
-   * **숫자:** 최대 2개의 소수 자리를 가질 수 있습니다.
+  * **숫자:** 최대 2개의 소수 자리를 가질 수 있습니다.
 
 * **[!UICONTROL 표시 이름:]** 특성의 이름입니다. 예를들어 특성 *customer age*&#x200B;을(를) *customer Since*(으)로 변경할 수 있습니다.
 

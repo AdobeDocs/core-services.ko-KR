@@ -1,34 +1,43 @@
 ---
-description: ' [!DNL Customer Attributes] 데이터 소스를 만들고 CX Enterprise에 업로드하는 방법을 알아봅니다.'
+description: '[!DNL Customer Attributes] 데이터 소스를 만들고 CX Enterprise에 업로드하는 방법을 알아봅니다.'
 solution: Experience Cloud
-title: ' [!DNL Customer Attributes] 데이터 Source 파일 만들기 및 업로드'
+title: '[!DNL Customer Attributes] 데이터 Source 파일 만들기 및 업로드'
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-TQID: https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E
+TQID: 'https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 1181
+source-wordcount: '1183'
 ht-degree: 41%
-
 ---
-
 # 고객 속성 데이터 만들기 및 업로드
 
 고객 특성 원본(`.csv` 및 `.fin` 파일)을 만들고 데이터를 업로드합니다. 준비가 되면 데이터 소스를 활성화할 수도 있습니다. 데이터 소스가 활성화되면 특성 데이터를 [!DNL Analytics] 및 [!DNL Target]과(와) 공유합니다.
@@ -96,29 +105,29 @@ CX Enterprise의 _[!UICONTROL 고객 특성 Source 만들기]_ 페이지에서 �
 
      별칭 ID 는 추가 고객 ID 값을 설정하는 특정 영역에 해당합니다. 예:
 
-      * **태그:** 별칭 ID는 [[!UICONTROL Experience Cloud ID 서비스]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko) 태그 확장의 [!UICONTROL 고객 설정]에 있는 *통합 코드* 값에 해당합니다.
+     * **태그:** 별칭 ID는 [[!UICONTROL Experience Cloud ID 서비스]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko) 태그 확장의 [!UICONTROL 고객 설정]에 있는 *통합 코드* 값에 해당합니다.
 
-      * **방문자 ID 서비스:** 별칭 ID는 각 방문자와 연결할 수 있는 추가 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)에 해당합니다.
+     * **방문자 ID 서비스:** 별칭 ID는 각 방문자와 연결할 수 있는 추가 [고객 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)에 해당합니다.
 
-        예를 들어 *&quot;crm_id&quot;*:
+       예를 들어 *&quot;crm_id&quot;*:
 
-        ```
-        "crm_id":"67312378756723456"
-        ```
+       ```
+       "crm_id":"67312378756723456"
+       ```
 
-      * **iOS:** 별칭 ID는 [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ko-KR)의 *&quot;idType&quot;*&#x200B;에 해당합니다.
+     * **iOS:** 별칭 ID는 [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ko-KR)의 *&quot;idType&quot;*&#x200B;에 해당합니다.
 
-        예:
+       예:
 
-        `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
+       `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android™:** 별칭 ID는 [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=ko-KR)의 *&quot;idType&quot;*&#x200B;에 해당됩니다.
+     * **Android™:** 별칭 ID는 [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=ko-KR)의 *&quot;idType&quot;*&#x200B;에 해당됩니다.
 
-        예:
+       예:
 
-        `identifiers.put(`**`"idType"`**`, "idValue");`
+       `identifiers.put(`**`"idType"`**`, "idValue");`
 
-        별칭 ID 필드 및 고객 ID와 관련된 데이터 처리에 대한 자세한 내용은 [여러 데이터 소스 활용](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)을 참조하십시오.
+       별칭 ID 필드 및 고객 ID와 관련된 데이터 처리에 대한 자세한 내용은 [여러 데이터 소스 활용](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)을 참조하십시오.
 
    * **[!UICONTROL 네임스페이스 코드:]** AEP WebSDK 구현의 일부로 [IdentityMap](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/identity/overview)을(를) 사용할 때 이 값을 사용하여 고객 특성 소스를 식별하십시오.
 

@@ -1,33 +1,42 @@
 ---
-description: Adobe CX Enterprise에서  [!DNL Customer Attributes] 스키마의 유효성을 검사하는 방법을 알아봅니다.
+description: Adobe CX Enterprise에서 [!DNL Customer Attributes] 스키마의 유효성을 검사하는 방법을 알아봅니다.
 solution: Experience Cloud
-title: ' [!DNL Customer Attributes] 스키마의 유효성을 검사하는 방법'
+title: '[!DNL Customer Attributes] 스키마의 유효성을 검사하는 방법'
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-TQID: https://experienceleague.adobe.com/J-AaDn4HtD1bS-VCPn2XiPLVBbTnYyl5o1NpJ9HFj1g
+TQID: 'https://experienceleague.adobe.com/J-AaDn4HtD1bS-VCPn2XiPLVBbTnYyl5o1NpJ9HFj1g'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 341
+source-wordcount: '343'
 ht-degree: 39%
-
 ---
-
 # 스키마 유효성 검사
 
 유효성 검사 프로세스를 사용하여 표시 이름 및 설명을 업로드된 속성(문자열, 정수, 숫자 등)에 매핑할 수 있습니다.
@@ -62,8 +71,8 @@ ht-degree: 39%
 
 * **[!UICONTROL ID 조회:]** `.csv`의 CID(고객 ID)를 입력하여 해당 ID에 대한 CX Enterprise 정보를 조회합니다. 이 기능은 방문자에 대한 속성 데이터가 표시되지 않는 문제를 해결하는 데 유용합니다.
 
-   * 방문자 ID 서비스를 사용하는 경우 **[!UICONTROL ECID:]**&#x200B;이(가) 표시됩니다. 방문자 ID 서비스를 사용하고 있지만 여기에 ID가 나열되어 있지 않은 경우 CX Enterprise가 해당 CID에 대한 별칭을 수신하지 못했습니다. 방문자가 로그인되어 있지 않거나 해당 ID가 구현되지 않은 것입니다.
+  * 방문자 ID 서비스를 사용하는 경우 **[!UICONTROL ECID:]**&#x200B;이(가) 표시됩니다. 방문자 ID 서비스를 사용하고 있지만 여기에 ID가 나열되어 있지 않은 경우 CX Enterprise가 해당 CID에 대한 별칭을 수신하지 못했습니다. 방문자가 로그인되어 있지 않거나 해당 ID가 구현되지 않은 것입니다.
 
-   * **[!UICONTROL CID(고객 ID):]** 이 CID와 연결된 특성입니다. prop 또는 eVar을 사용하여 CID(AVID)를 업로드하며 속성은 표시되지만 AVID는 표시되지 않는 경우 방문자가 사이트에 로그인되어 있지 않은 것입니다.
+  * **[!UICONTROL CID(고객 ID):]** 이 CID와 연결된 특성입니다. prop 또는 eVar을 사용하여 CID(AVID)를 업로드하며 속성은 표시되지만 AVID는 표시되지 않는 경우 방문자가 사이트에 로그인되어 있지 않은 것입니다.
 
-   * **[!UICONTROL AVID(Analytics 방문자 ID):]**&#x200B;은(는) prop 또는 eVar을 사용하여 CID를 업로드하는 경우에 표시됩니다. 이러한 ID가 CX Enterprise로 전달되는 경우 입력한 CID와 연결된 모든 방문자 ID가 여기에 표시됩니다.
+  * **[!UICONTROL AVID(Analytics 방문자 ID):]**&#x200B;은(는) prop 또는 eVar을 사용하여 CID를 업로드하는 경우에 표시됩니다. 이러한 ID가 CX Enterprise로 전달되는 경우 입력한 CID와 연결된 모든 방문자 ID가 여기에 표시됩니다.

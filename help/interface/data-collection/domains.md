@@ -9,16 +9,20 @@ exl-id: a15918f0-c03b-4d32-a254-47f46023b127
 TQID: 'https://experienceleague.adobe.com/ULsmTOkKlh0XCTxITC7OdSC6cDT4aCty4bilg04EV4w'
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 135
+source-wordcount: '135'
 ht-degree: 19%
-
 ---
-
 # CX Enterprise에서 사용하는 도메인
 
 CX Enterprise 는 다음 호스트를 사용하여 애플리케이션을 제공하고 성능을 향상시키며 제품 사용 환경을 개선합니다. Adobe은 최적의 환경을 위해 이러한 도메인을 조직의 네트워크 또는 방화벽을 통해 허용하는 것을 권장합니다.

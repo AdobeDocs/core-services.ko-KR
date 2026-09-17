@@ -9,32 +9,39 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
-TQID: https://experienceleague.adobe.com/sRgVt31HAxmjTMmMB0Kfs5fYEXKDjDu73hhAgfixu4o
+TQID: 'https://experienceleague.adobe.com/sRgVt31HAxmjTMmMB0Kfs5fYEXKDjDu73hhAgfixu4o'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: '628'
 ht-degree: 90%
-
 ---
-
 # 공유 폴더 동작
 
 이동, 삭제 및 복원 시 공유 폴더의 동작 방식에 대한 규칙입니다.
 
 >[!NOTE]
 >
->공유된 CX 엔터프라이즈 폴더 및 자산은 1:1 관계로 Creative Cloud 데스크탑에 미러링됩니다. CX 엔터프라이즈 사용자가 폴더를 변경 (공유 삭제, 추가 또는 제거)하면 Creative Cloud 데스크톱 및 웹에서 작업이 미러링됩니다. 따라서 폴더가 공유되지 않으면 로컬 시스템에서 폴더 및 에셋이 삭제됩니다. 공유가 제거되면 폴더 및 해당 콘텐츠가 로컬 컴퓨터의 휴지통으로 이동되며 사용자가 컴퓨터에 직접 복원할 수 있습니다.
+>공유 CX 엔터프라이즈 폴더 및 에셋은 Creative Cloud 데스크탑에 1:1 관계로 미러링됩니다. CX 엔터프라이즈 사용자가 폴더를 변경 (공유 삭제, 추가 또는 제거)하면 Creative Cloud 데스크톱 및 웹에서 작업이 미러링됩니다. 따라서 폴더가 공유되지 않으면 로컬 시스템에서 폴더 및 에셋이 삭제됩니다. 공유가 제거되면 폴더 및 해당 콘텐츠가 로컬 컴퓨터의 휴지통으로 이동되며 사용자가 컴퓨터에 직접 복원할 수 있습니다.
 
 ## 비공유 폴더를 공유 폴더로
 
