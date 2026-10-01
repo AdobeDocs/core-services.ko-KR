@@ -147,7 +147,7 @@ Adobe Target에서 `mbox3rdpartyid`는 고객 ID를 가져와 [!DNL Target]으�
 
 ### Mobile SDK
 
-[Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=ko-KR) 및 [iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ko-KR) 모바일 애플리케이션에서 추가 고객 ID를 설정하는 방법에 대한 구문 예는 *방문자 ID 서비스™1} 섹션을 참조하십시오.*
+[Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=ko-KR) 및 [iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ko-KR) 모바일 애플리케이션에서 추가 고객 ID를 설정하는 방법에 대한 구문 예는 *방문자 ID 서비스™1&rbrace; 섹션을 참조하십시오.*
 
 ### 이전 데이터의 속성 활성화
 
