@@ -1,31 +1,36 @@
 ---
-description: 사용 데이터를 기반으로 이메일, CX 엔터프라이즈 제품 및 Experience League 커뮤니티 내에서 개인화된 도움말과 프로모션을 받을 수 있습니다.
+description: 사용 데이터를 기반으로 이메일, CX Enterprise 제품 및 Experience League 커뮤니티 내에서 개인화된 도움말과 프로모션을 받을 수 있습니다.
 solution: Experience Cloud
 title: Experience Cloud 맞춤형 학습 환경 설정
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 TQID: https://experienceleague.adobe.com/XL454ZwYb9liDNLbDcA7ZYRG-8OHpwuQEmvHCo0q-j4
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
-source-wordcount: 105
+source-wordcount: '105'
 ht-degree: 20%
-
 ---
-
 # 개인화된 학습 환경 설정
 
-Adobe은 Adobe 제품에서의 작업을 기반으로 개인화된 유용한 콘텐츠를 제공합니다. 제품 사용 데이터는 이 컨텍스트를 사용자에게 맞춤화하는 방법을 알려줍니다. [CX 엔터프라이즈 환경 설정](https://experience.adobe.com/preferences) 페이지에서 제품 사용 데이터 공유를 옵트인하거나 옵트아웃할 수 있습니다.
+Adobe은 Adobe 제품에서의 작업을 기반으로 개인화된 유용한 콘텐츠를 제공합니다. 제품 사용 데이터는 이 컨텍스트를 사용자에게 맞춤화하는 방법을 알려줍니다. [CX Enterprise 환경 설정](https://experience.adobe.com/preferences) 페이지에서 제품 사용 데이터를 공유하도록 옵트인하거나 옵트아웃할 수 있습니다.
 
 <!--
 ## Personalized training and support recommendations for your Adobe products and services

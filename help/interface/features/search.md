@@ -11,24 +11,29 @@ exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
 TQID: https://experienceleague.adobe.com/xE4H6kdjbKSwVygCsOV4zTBqPoBHAVMHfJMyYOummg0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '660'
 ht-degree: 74%
-
 ---
-
 # CX Enterprise의 [!UICONTROL 통합 검색]
 
 [!UICONTROL 통합 검색] 검색을 사용하면 원활하고 일관성 있는 원클릭 환경에서 검색 가능한 비즈니스 개체 또는 엔터티를 찾을 수 있습니다. 이 검색은 최근에 액세스한 개체도 표시합니다.
@@ -37,7 +42,7 @@ ht-degree: 74%
 
 ## [!UICONTROL 통합 검색]에 액세스
 
-[!UICONTROL 통합 검색]은(는) 페이지 상단의 CX 엔터프라이즈 헤더의 모든 페이지에서 사용할 수 있습니다. 키보드 단축키 `command /` 또는 `ctrl /`을 사용하여 검색할 수도 있습니다.
+[!UICONTROL 통합 검색]은(는) 페이지 상단의 CX Enterprise 헤더의 모든 페이지에서 사용할 수 있습니다. 키보드 단축키 `command /` 또는 `ctrl /`을 사용하여 검색할 수도 있습니다.
 
 이 기능은 현재 다음과 같은 지원되는 제품에 대해서만 사용할 수 있습니다.
 
@@ -48,7 +53,7 @@ ht-degree: 74%
 
 ## 검색 가능한 오브젝트 및 필드
 
-입력할 때 표시할 액세스 권한이 있는 오브젝트에서 일치하는 상위 결과가 표시됩니다.
+입력하면 액세스 권한이 있는 오브젝트의 일치하는 상위 결과가 표시됩니다.
 
 당사의 알고리즘은 가장 관련성이 높은 레코드를 먼저 표시합니다. 결과 순서는 다음과 같은 몇 가지 요인에 따라 달라집니다.
 
@@ -93,17 +98,17 @@ CX Enterprise 도움말의 ![[!UICONTROL 통합 검색]](../assets/unified-searc
 
 ## [!UICONTROL 통합 검색] 기능
 
-통합 검색에는 다음과 같은 기능이 추가되었습니다.
+통합 검색에서는 다음 기능을 사용할 수 있습니다.
 
 | 기능 | 설명 |
 | ------- | ------- |
 | 글로벌 언어 지원 | 글로벌 검색은 독일어, 스페인어, 프랑스어, 이탈리아어, 일본어, 한국어, 포르투갈어 및 중국어에 대한 쿼리를 인식하며 검색 결과를 생성합니다. |
-| 오타 허용치 | 통합 검색은 고급 알고리즘을 사용하여 강력한 오타 허용치를 제공합니다. 이러한 알고리즘은 오타를 자동으로 편집하고 적절한 검색 결과를 제공합니다. |
+| 오타 허용치 | 통합 검색은 고급 알고리즘을 사용하여 강력한 오타 허용 기능을 제공합니다. 이러한 알고리즘은 오타를 자동으로 편집하고 적절한 검색 결과를 제공합니다. |
 | 강조 표시 | 검색 응답은 검색 쿼리에서 일치하는 키워드를 강조 표시하므로 해당 쿼리와 일치하는 섹션 및 단어를 손쉽게 찾을 수 있습니다. 강조 표시는 맞춤법이 틀린 단어에도 적용됩니다. |
 | 스니펫 | 검색 응답에서 검색 결과에 대한 스니펫을 볼 수 있습니다. 스니펫은 일치하는 단어와 일치하는 키워드 주위의 일부 콘텐츠를 반환합니다. |
 | 정지어 | 영어에서 자주 사용되는 몇몇 단어는 _정지어_&#x200B;로 정의됩니다. 검색 쿼리에 정지어가 포함되는 경우 해당 정지어에는 중요도가 낮게 부여됩니다. <br>정지어는 다음과 같습니다. _a, an, and, are, as, at, be, but, by, for, if, in, into, is, it, no, not, of, on, or, such, that, the, their, then, there, these, they, this, to, was, will, with_ <br>다른 글로벌 언어에서는 정지어가 지원되지 않습니다. |
-| 자연어 쿼리 | Experience League 커뮤니티에서 도움말 문서 또는 토론을 검색할 때 자연어를 사용하여 질문을 입력하고 응답을 얻을 수 있습니다. 검색 예: “스키마를 만들려면 어떻게 해야 합니까?” |
-| 따옴표를 사용한 정확한 검색 | 쿼리에 따옴표를 사용하여 정확한 검색을 수행할 수 있습니다. 정확한 일치 쿼리에는 오타가 수정되지 않습니다. 예: “Luma Journey 2022” |
+| 자연어 쿼리 | Experience League Communities에서 도움말 문서 또는 토론을 검색할 때 자연어를 사용하여 질문을 입력하고 응답을 얻을 수 있습니다. 검색 예: “스키마를 만들려면 어떻게 해야 합니까?” |
+| 따옴표를 사용한 정확한 검색 | 쿼리에 따옴표를 사용하여 정확한 검색을 수행할 수 있습니다. 정확한 일치 쿼리에는 오타가 수정되지 않습니다. 예: &quot;Luma Journey 2022&quot;. |
 | 필터 | 전체 검색 결과 팝업에 _오브젝트 유형_&#x200B;과 같은 필터 및 기타 오브젝트별 필터를 적용할 수 있습니다. 검색 쿼리를 입력한 다음 Enter 키를 누르면 필터가 포함된 전체 페이지 팝업이 열립니다. |
 
 {style="table-layout:auto"}

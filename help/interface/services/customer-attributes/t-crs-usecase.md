@@ -1,5 +1,5 @@
 ---
-description: '[!DNL Customer Attributes] 데이터 소스를 만들고 CX Enterprise에 업로드하는 방법을 알아봅니다.'
+description: '[!DNL Customer Attributes] 데이터 원본을 만들고 CX Enterprise에 업로드하는 방법을 알아봅니다.'
 solution: Experience Cloud
 title: '[!DNL Customer Attributes] 데이터 Source 파일 만들기 및 업로드'
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 41%
@@ -52,7 +52,7 @@ ht-degree: 41%
 
   고객 특성에 액세스할 수 있는지 확인하려면 [!DNL CX Enterprise] 관리자가 [CX Enterprise](https://experience.adobe.com)에 로그인해야 합니다. **[!UICONTROL Admin Console]** > **[!UICONTROL 제품]**(으)로 이동합니다. *[!DNL Customer Attributes]*&#x200B;이(가) [!UICONTROL 제품 프로필] 중 하나로 표시되면 작업을 시작할 수 있습니다.
 
-  [!DNL Customer Attributes]에 추가된 사용자의 경우 CX 엔터프라이즈 인터페이스 왼쪽에 [!DNL Customer Attributes] 메뉴 항목이 표시됩니다.
+  [!DNL Customer Attributes]에 추가된 사용자의 경우 CX Enterprise 인터페이스 왼쪽에 [!DNL Customer Attributes] 메뉴 항목이 표시됩니다.
 
 * **Adobe Target** 고객 속성에 `at.js`(임의 버전) 또는 `mbox.js` 버전 58 이상이 필요합니다.
 
@@ -145,13 +145,13 @@ CX Enterprise의 _[!UICONTROL 고객 특성 Source 만들기]_ 페이지에서 �
 
 1. `.csv` 또는 `.zip` 또는 `.gzip` 데이터 파일을 드래그 앤 드롭 창으로 드래그 앤 드롭합니다.
 
->[!IMPORTANT]
->
->특정 데이터 파일 요구 사항이 있습니다. 자세한 내용은 [데이터 파일 요구 사항](crs-data-file.md) 을 참조하십시오.
+   >[!IMPORTANT]
+   >
+   >특정 데이터 파일 요구 사항이 있습니다. 자세한 내용은 [데이터 파일 요구 사항](crs-data-file.md) 을 참조하십시오.
 
-파일을 업로드한 후에는 이 페이지의 [!UICONTROL 파일 업로드] 제목 아래에 표 데이터가 표시됩니다. 스키마의 유효성을 검사하거나, 구독을 구성하거나, FTP를 설정할 수 있습니다.
+   파일을 업로드한 후에는 이 페이지의 [!UICONTROL 파일 업로드] 제목 아래에 표 데이터가 표시됩니다. 스키마의 유효성을 검사하거나, 구독을 구성하거나, FTP를 설정할 수 있습니다.
 
-![특성](assets/file_upload_attributes.png)
+   ![특성](assets/file_upload_attributes.png)
 
 * **[!UICONTROL Unique customer ID:]** 이 특성 소스에 업로드한 고유한 ID 수를 표시합니다.
 
@@ -177,7 +177,7 @@ CX Enterprise의 _[!UICONTROL 고객 특성 Source 만들기]_ 페이지에서 �
 
 ## 구독 구성 및 속성 소스 활성화
 
-구독을 구성하면 CX Enterprise 와 애플리케이션 간에 데이터 흐름이 설정됩니다. 속성 소스를 활성화하면 데이터가 가입 중인 애플리케이션으로 유입될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 대조됩니다.
+구독을 구성하면 CX Enterprise과 애플리케이션 간에 데이터 흐름이 설정됩니다. 속성 소스를 활성화하면 데이터가 가입 중인 애플리케이션으로 유입될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 대조됩니다.
 
 [구독 구성 및 데이터 소스 활성화](subscription.md)를 참조하십시오.
 
@@ -189,7 +189,7 @@ CX Enterprise의 _[!UICONTROL 고객 특성 Source 만들기]_ 페이지에서 �
 
 ![업로드한 속성에 따른 Analytics 세그먼트](assets/08_crs_usecase.png)
 
-CX Enterprise에 게시한 세그먼트는 CX Enterprise Audiences 및 Audience Manager에서 사용할 수 있습니다.
+CX Enterprise에 게시한 세그먼트는 CX Enterprise 대상 및 Audience Manager에서 사용할 수 있습니다.
 
 ## Adobe Target에서 [!DNL Customer Attributes] 데이터 사용
 
