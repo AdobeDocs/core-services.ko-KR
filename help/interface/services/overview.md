@@ -13,7 +13,7 @@ product_v2:
     internal-label: CX Enterprise
 feature_v2:
   - id: dab36b01-8bfa-48f3-8392-626455a058e6
-    internal-label: Experience Cloud Services
+    internal-label: Experience Cloud services
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
     internal-label: Administration
 subfeature_v2:
@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
+source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 43%
@@ -62,8 +62,8 @@ CX Enterprise에서 공유 서비스 및 응용 프로그램에 액세스하려�
 | [대상자 라이브러리](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/audiences/overview) | 대상자는 방문자의 컬렉션입니다(방문자 ID 목록). Adobe [!DNL Audience Library]을(를) 통해 방문자 데이터를 대상자 세분화로 변환하는 작업을 관리할 수 있습니다. |
 | [고객 속성](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/customer-attributes/attributes) | 이벤트 또는 데이터 소스에 저장된 컨텍스트 데이터를 사용하여 실시간 오케스트레이션 사용 사례 구축. [!UICONTROL Journey Orchestration]은(는) Experience Platform과 통합된 응용 프로그램 서비스입니다. |
 | [자산](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/assets/experience-cloud-assets) | CX Enterprise Assets은 애플리케이션 간에 공유할 수 있는 마케팅 준비가 끝난 에셋에 대해 중앙 집중식 단일 저장소를 제공합니다. |
-| [트리거](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/triggers) | CX Enterprise의 트리거 를 통해 주요 소비자 행동을 식별, 정의 및 모니터링한 다음 교차 애플리케이션 커뮤니케이션을 생성하여 방문자를 다시 참여하도록 할 수 있습니다. 실시간 의사 결정 및 개인화에서 트리거를 사용할 수 있습니다. |
-| [Adobe Exchange 마켓플레이스](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/exchange) | Exchange Marketplace는 앱을 통해 디지털 마케팅 확장 기능을 검색, 탐색, 선택, 지불, 다운로드할 수 있는 단일 대상입니다. 앱에는 데이터 커넥터, Adobe의 핵심 제품에 대한 사용자 지정 구성, 서드파티 애플리케이션 및 보고서가 포함됩니다. |
+| [트리거](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers) | CX Enterprise의 트리거 를 통해 주요 소비자 행동을 식별, 정의 및 모니터링한 다음 교차 애플리케이션 커뮤니케이션을 생성하여 방문자를 다시 참여하도록 할 수 있습니다. 실시간 의사 결정 및 개인화에서 트리거를 사용할 수 있습니다. |
+| [Adobe Exchange 마켓플레이스](https://experienceleague.adobe.com/en/docs/core-services/interface/services/exchange) | Exchange Marketplace는 앱을 통해 디지털 마케팅 확장 기능을 검색, 탐색, 선택, 지불, 다운로드할 수 있는 단일 대상입니다. 앱에는 데이터 커넥터, Adobe의 핵심 제품에 대한 사용자 지정 구성, 서드파티 애플리케이션 및 보고서가 포함됩니다. |
 
 {style="table-layout:auto"}
 
