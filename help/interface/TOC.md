@@ -1,20 +1,18 @@
 ---
 role: User,Admin
-user-guide-title: CX 엔터프라이즈 중앙 인터페이스 및 관리 가이드
-breadcrumb-title: CX 엔터프라이즈 인터페이스 및 관리
-title: CX 엔터프라이즈 인터페이스 및 관리 가이드
-description: CX 엔터프라이즈 인터페이스 및 관리에 대해 자세히 알아보십시오. AI, 관리, 공유 서비스, 데이터 수집, 쿠키, 릴리스 정보 및 FAQ에 대한 항목을 찾아봅니다.
+user-guide-title: CX Enterprise 중앙 인터페이스 및 관리 안내서
+breadcrumb-title: CX Enterprise 인터페이스 및 관리
+title: CX Enterprise 인터페이스 및 관리 안내서
+description: CX Enterprise 인터페이스 및 관리에 대해 알아봅니다. AI, 관리, 공유 서비스, 데이터 수집, 쿠키, 릴리스 정보 및 FAQ에 대한 항목을 찾아봅니다.
 index: true
-source-git-commit: 90efd37625c8ca89bc3ec7fc3f8df20d8c5e331b
+source-git-commit: a714343bc3e17145e51fd99f64690e7d69ab4d9d
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 61%
-
+source-wordcount: '207'
+ht-degree: 57%
 ---
+# CX Enterprise 인터페이스 및 관리 {#interface}
 
-# CX 엔터프라이즈 인터페이스 및 관리 {#interface}
-
-+ [CX 엔터프라이즈 인터페이스 및 관리](/help/interface/experience-cloud.md)
++ [CX Enterprise 인터페이스 및 관리](/help/interface/experience-cloud.md)
 + 관리 {#administration}
   + [계정 환경 설정 및 알림](/help/interface/features/account-preferences.md)
   + [브라우저 및 언어 지원](/help/interface/browser-language.md)
@@ -52,7 +50,10 @@ ht-degree: 61%
   + [트리거](/help/interface/services/triggers.md)
   + [Adobe Exchange](/help/interface/services/exchange.md)
 + 데이터 수집 {#data-collection}
+  + [데이터 수집 도메인 선택](/help/interface/data-collection/collection-domain.md)
   + [Adobe 관리 인증서 프로그램](/help/interface/data-collection/adobe-managed-cert.md)
+  + [고객 관리 인증서](/help/interface/data-collection/customer-managed-cert.md)
+  + [CDN을 통해 데이터 수집 경로 지정](/help/interface/data-collection/cdn.md)
   + [IP 주소](/help/interface/data-collection/ip-addresses.md)
   + [도메인](/help/interface/data-collection/domains.md)
   + 쿠키 {#cookies}
@@ -60,7 +61,7 @@ ht-degree: 61%
     + [Advertising 쿠키](/help/interface/data-collection/cookies/advertising.md)
     + [Analytics 쿠키](/help/interface/data-collection/cookies/analytics.md)
     + [Audience Manager 쿠키](/help/interface/data-collection/cookies/audience-manager.md)
-    + [CX 엔터프라이즈 쿠키](/help/interface/data-collection/cookies/experience-cloud.md)
+    + [CX Enterprise 쿠키](/help/interface/data-collection/cookies/experience-cloud.md)
     + [Target 쿠키](/help/interface/data-collection/cookies/target.md)
     + [Web SDK 쿠키](/help/interface/data-collection/cookies/web-sdk.md)
   + [지역 데이터 수집](/help/interface/data-collection/rdc.md)

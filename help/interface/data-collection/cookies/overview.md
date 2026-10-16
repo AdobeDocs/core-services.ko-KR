@@ -6,42 +6,48 @@ exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
 TQID: https://experienceleague.adobe.com/GH5WHcI9440NKYpUzizHlhOMlBSf-Y0WQ5GDBaSvqNI
 product_v2:
   - id: e1971122-7081-4556-9222-8a31bd71800c
+    internal-label: Experience Cloud Services
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Privacy
+source-git-commit: 18fd590d6f0fd1800e3d5c62851453aa91d9db5f
 workflow-type: tm+mt
-source-wordcount: 622
+source-wordcount: '644'
 ht-degree: 8%
-
 ---
-
 # CX Enterprise에서 쿠키를 사용하는 방법
 
-Adobe CX Enterprise 는 쿠키를 사용합니다. 쿠키는 웹 사이트가 나중에 사용하기 위해 브라우저에 전송하는 작은 데이터입니다. 쿠키는 사용자가 다시 방문하거나 페이지 사이를 이동할 때 웹 사이트가 기억하도록 도와줍니다. 쿠키는 방문 횟수를 추적하고 한 장치를 다른 장치와 구별하는 데 도움이 됩니다.
+Adobe CX Enterprise은 쿠키를 사용합니다. 쿠키는 웹 사이트가 나중에 사용하기 위해 브라우저에 전송하는 작은 데이터입니다. 쿠키는 사용자가 다시 방문하거나 페이지 사이를 이동할 때 웹 사이트가 기억하도록 도와줍니다. 쿠키는 방문 횟수를 추적하고 한 장치를 다른 장치와 구별하는 데 도움이 됩니다.
 
 법률은 종종 누군가의 디바이스에서 쿠키를 저장하거나 사용하기 전에 권한을 얻도록 요구합니다. Adobe에서는 법률 팀에 문의하여 적용되는 규칙을 이해할 것을 권장합니다.
 
 ## 자사 쿠키 정보
 
-Adobe CX Enterprise는 쿠키를 사용하여 페이지 보기 수 또는 브라우저 세션 간에 지속되지 않는 정보를 추적합니다. 가능한 경우, Adobe은 자사 쿠키(자체 웹 사이트에 연결됨)를 사용합니다. 소유한 여러 사이트 또는 도메인에서 활동을 추적하려면 서드파티 쿠키가 필요합니다.
+Adobe CX Enterprise은 쿠키를 사용하여 페이지 보기 수 또는 브라우저 세션 간에 지속되지 않는 정보를 추적합니다. 가능한 경우, Adobe은 자사 쿠키(자체 웹 사이트에 연결됨)를 사용합니다. 소유한 여러 사이트 또는 도메인에서 활동을 추적하려면 서드파티 쿠키가 필요합니다.
 
-일부 브라우저 및 안티스파이웨어 도구는 서드파티 쿠키를 차단합니다. Adobe에는 쿠키가 차단된 경우에도 쿠키가 계속 작동하는지 확인하는 방법이 있습니다. 이 방법이 작동하는 방식은 방문자 ID 서비스(`VisitorAPI.js`) 또는 이전 Analytics 쿠키(예: `s_vi` 쿠키)를 사용하는지에 따라 다릅니다.
+일부 브라우저는 서드파티 쿠키를 차단합니다. Adobe에는 쿠키가 차단된 경우에도 쿠키가 계속 작동하는지 확인하는 방법이 있습니다. 이 프로세스의 작동 방식은 방문자 ID 서비스(`VisitorAPI.js`) 또는 이전 Analytics 쿠키(예: `s_vi` 쿠키)를 사용하는지에 따라 다릅니다.
 
 * [방문자 ID 서비스](https://experienceleague.adobe.com/ko/docs/id-service/using/intro/overview): 방문자 ID 서비스는 수집 도메인과 사이트 도메인의 일치 여부에 관계없이 항상 자사 쿠키를 설정합니다. JavaScript을 사용하여 사이트의 도메인에 쿠키를 배치합니다.
 
 * [Analytics 레거시 식별자](analytics.md)(예: `s_vi` 쿠키): 쿠키가 퍼스트 파티 또는 서드파티인지 여부는 설정에 따라 다릅니다.
 
-   * 데이터 수집 서버가 사이트의 도메인과 일치하면, 쿠키는 자사 쿠키입니다.
-   * 일치하지 않으면 쿠키는 서드파티입니다. 서드파티 쿠키가 차단되면 Adobe은 일반적인 쿠키가 아닌 대체 쿠키(`s_fid`)를 설정합니다.
+  * 데이터 수집 서버가 사이트의 도메인과 일치하면, 쿠키는 자사 쿠키입니다.
+  * 일치하지 않으면 쿠키는 서드파티입니다. 서드파티 쿠키가 차단되면 Adobe은 일반적인 쿠키가 아닌 대체 쿠키(`s_fid`)를 설정합니다.
 
-수집 서버가 사이트의 도메인과 일치하는지 확인하기 위해 **CNAME 설정**&#x200B;을 사용할 수 있습니다. 여기에는 Adobe 서버로 사용자 정의 도메인(소유)을 가리키도록 DNS 설정을 업데이트하는 작업이 포함됩니다. 이렇게 하면 추적 쿠키가 자사 쿠키로 표시됩니다. 하나의 CNAME이 여러 도메인에서 작동할 수 있지만 CNAME과 일치하지 않는 도메인은 여전히 서드파티 쿠키를 설정합니다.
+수집 서버가 사이트의 도메인과 일치하는지 확인하기 위해 **CNAME 설정**&#x200B;을 사용할 수 있습니다. 이 설정에는 Adobe 서버로 사용자 정의 도메인(소유한 도메인)을 가리키도록 DNS 설정을 업데이트하는 작업이 포함됩니다. 이 구성을 사용하면 추적 쿠키가 자사 쿠키로 표시됩니다. 하나의 CNAME이 여러 도메인에서 작동할 수 있지만 CNAME과 일치하지 않는 도메인은 여전히 서드파티 쿠키를 설정합니다. 또한 고유한 도메인을 사용하는 CDN을 통해 [데이터 수집을 라우팅](../cdn.md)할 수 있습니다. 모든 옵션에 대해서는 [데이터 수집 도메인 선택](../collection-domain.md)을 참조하십시오.
 
 >[!NOTE]
 >
