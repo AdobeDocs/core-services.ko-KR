@@ -1,5 +1,5 @@
 ---
-title: CX 엔터프라이즈 중앙 UI 및 관리
+title: CX Enterprise 중앙 UI 및 관리
 description: UI 구성 요소, Adobe Admin Console의 사용자 및 제품 관리, 대상 라이브러리, 고객 속성, CX Enterprise Assets 등에 대해 알아봅니다.
 cloud: Experience Cloud
 product: experience cloud
@@ -7,20 +7,19 @@ solution: CX Enterprise
 solution-title: Experience Platform
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/kr/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
-git-repo: https://github.com/Adobe-Enterprise-Docs/core-services.ko-KR
+git-repo: https://github.com/Adobe-Enterprise-Docs/core-services.en
 usetq: true
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 source-git-commit: cedbdaa0a783bd9777c169b1257ca5ebf6b48c08
 workflow-type: tm+mt
-source-wordcount: 202
-ht-degree: 65%
-
+source-wordcount: '195'
+ht-degree: 68%
 ---
-
 
 # 내부용 메타데이터
 
