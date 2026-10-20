@@ -39,7 +39,7 @@ Adobe CX Enterprise는 서비스 제공업체로서 귀사가 CX Enterprise 제�
 
 이 문서에서는 [!DNL Customer Attributes]이(가) Adobe Experience Platform Privacy Service API 및 Privacy Service UI를 사용하여 데이터 주체의 CCPA 데이터 액세스 및 삭제 권한을 지원하는 방법에 대해 설명합니다.
 
-CCPA를 위한 Adobe 개인정보보호 서비스에 대한 자세한 내용은 [Adobe 개인정보보호 센터](https://www.adobe.com/privacy/ccpa.html)를 참조하십시오.
+CCPA를 위한 Adobe 개인정보보호 서비스에 대한 자세한 내용은 [Adobe 개인정보보호 센터](https://www.adobe.com/kr/privacy/ccpa.html)를 참조하십시오.
 
 ## [!DNL Customer Attributes]에 대한 요청을 전송하기 위한 필수 설정
 
