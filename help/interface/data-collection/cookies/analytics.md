@@ -50,11 +50,11 @@ Analytics는 쿠키를 사용하여 새로운 방문자를 익명으로 정의�
 | **`s_fid`** | 2년 | 33바이트 | 자사 | 대체 고유 방문자 ID 및 타임스탬프를 저장합니다. 타사 쿠키 제한 사항으로 인해 표준 `s_vi` 쿠키를 설정할 수 없는 경우 JavaScript에서 설정합니다. 자사 쿠키 구현에 사용되지 않습니다. |
 | **`s_ac`** | 즉각적인 상태가 됨 | 1바이트 | 자사 | AppMeasurement 쿠키를 설정할 올바른 도메인을 확인하는 데 도움이 됩니다. 정적 값 `"1"`을(를) 포함합니다. 이 쿠키가 설정되면 즉시 삭제됩니다. |
 
-Adobe Analytics에서 쿠키를 사용하여 방문자를 식별하는 방법에 대한 자세한 내용은 [Adobe Analytics의 방문자 식별](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)을 참조하십시오.
+Adobe Analytics에서 쿠키를 사용하여 방문자를 식별하는 방법에 대한 자세한 내용은 [Adobe Analytics의 방문자 식별](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/overview)을 참조하십시오.
 
 ## 플러그인에 의해 설정된 쿠키
 
-일부 구현에서는 Analytics에 추가 기능을 제공하는 코드 조각인 플러그인을 사용합니다. 이러한 플러그인은 위에 나열되지 않은 쿠키를 설정할 수 있습니다. 사용 가능한 플러그인 목록과 플러그인이 설정하는 쿠키는 [Analytics 플러그인 개요](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins)를 참조하십시오.
+일부 구현에서는 Analytics에 추가 기능을 제공하는 코드 조각인 플러그인을 사용합니다. 이러한 플러그인은 위에 나열되지 않은 쿠키를 설정할 수 있습니다. 사용 가능한 플러그인 목록과 플러그인이 설정하는 쿠키는 [Analytics 플러그인 개요](https://experienceleague.adobe.com/ko/docs/analytics/implementation/vars/plugins/impl-plugins)를 참조하십시오.
 
 ## Analytics 쿠키 삭제 결과
 
