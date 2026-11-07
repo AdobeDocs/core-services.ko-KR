@@ -1,7 +1,7 @@
 ---
 description: Adobe CX Enterprise에서 사용 가능한 애플리케이션 통합을 찾습니다.
 solution: Experience Cloud
-title: Experience Cloud 통합
+title: CX Enterprise 통합
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
 topic: Administration
@@ -51,7 +51,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 31%
@@ -174,7 +174,7 @@ Adobe Target을 Adobe Analytics 및 기타 CX Enterprise 애플리케이션과 �
 
 도움말: [CX Enterprise 및 Creative Cloud과 AEM Assets 통합 구성](https://experienceleague.adobe.com/docs/?lang=ko)
 
-AEM(Adobe Experience Manager) 에셋 내의 에셋을 Adobe Creative Cloud와 동기화하거나 그 반대로 동기화합니다. 자산을 CX Enterprise과 동기화하거나 그 반대로 동기화할 수 있습니다. CX Enterprise을 통해 이러한 동기화를 설정할 수 있습니다.
+Adobe Experience Manager (AEM) Assets의 에셋을 Adobe Creative Cloud와 동기화하거나 그 반대로 동기화합니다. 자산을 CX Enterprise과 동기화하거나 그 반대로 동기화할 수 있습니다. CX Enterprise을 통해 이러한 동기화를 설정할 수 있습니다.
 
 **해당 애플리케이션 또는 서비스**
 

@@ -1,7 +1,7 @@
 ---
 description: 고객 속성, 대상자 및 사용자 관리와 같은 CX Enterprise 서비스에 대한 최신 기능, 릴리스 정보 및 알려진 문제에 대해 알아봅니다.
 solution: Experience Cloud
-title: Experience Cloud 인터페이스의 누적 릴리스 정보
+title: CX Enterprise 인터페이스에 대한 누적 릴리스 노트
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature-set: Experience Cloud
 feature: Release Notes
@@ -42,7 +42,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 56%
@@ -57,7 +57,7 @@ CX Enterprise 중앙 인터페이스 구성 요소에 대한 기능, 릴리스 �
 
 ## 2026년 7월
 
-| 일자 | 업데이트 | 설명 |
+| 날짜 | 업데이트 | 설명 |
 | ------- | ------- | ------- |
 | 2026년 7월 10일 | Federated Guest Access CX Enterprise 지원 | [페더레이션 게스트 액세스](https://helpx.adobe.com/kr/business/enterprise/using/federated-guest-access.html)를 사용하도록 설정하여 자체 도메인에서 게스트 사용자를 안전하게 인증한 경우 CX Enterprise을 통해 해당 사용자가 계정 간에 전환할 수 있습니다. [CX Enterprise](https://experience.adobe.com) 페이지의 조직 전환기에서 계정을 전환할 수 있습니다. |
 
@@ -494,7 +494,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **Known Issues** 
 
-* Linking and unlinking your dynamic tag management organization with CX Enterprise is not working for newly created CX Enterprise organizations. Adobe is working to fix this and restore normal functionality with the May release. If you experience problems when trying to single-sign on into dynamic tag management via CX Enterprise, use the legacy login at `dtm.adobe.com`.
+* Linking and unlinking your dynamic tag management organization with CX Enterprise is not working for newly created Adobe organizations. Adobe is working to fix this and restore normal functionality with the May release. If you experience problems when trying to single-sign on into dynamic tag management via CX Enterprise, use the legacy login at `dtm.adobe.com`.
 * A known issue is preventing audience sharing from report suites which are not owned by the linked Analytics account. Remedial efforts are underway
 
 ## March 2015

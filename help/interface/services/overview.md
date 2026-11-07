@@ -1,7 +1,7 @@
 ---
 description: CX Enterprise 사용자 및 제품 관리, 대상, 고객 속성, Journey Orchestration, 오퍼, 장소, Experience Platform 및 모바일 서비스에 대해 알아봅니다.
 solution: Experience Cloud
-title: Experience Cloud 서비스 개요
+title: CX Enterprise 서비스 개요
 feature: Central Interface Components
 topic: Administration
 role: Admin
@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 43%
+ht-degree: 41%
 ---
 # CX Enterprise 인터페이스 개요
 

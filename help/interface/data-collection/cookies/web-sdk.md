@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7b12d5debfccd62ab7b416e9a6fe278d251a4ca5
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '981'
 ht-degree: 0%
 ---
 # Adobe Experience Platform Web SDK 쿠키
@@ -53,7 +53,7 @@ Adobe Experience Platform Web SDK은 쿠키를 사용하여 구현에 따른 값
 | **`kndctr_<orgId>_bc_session_id`** | 없음(세션 쿠키) | | Brand Concierge 구성 요소(베타)를 사용할 때 표시됩니다. Brand Concierge 채팅 세션 ID를 저장합니다. 웹 SDK은 [`stickyConversationSession`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/conversation)을(를) 사용하도록 설정한 경우에만 이 쿠키를 읽으므로 채팅 세션이 페이지 로드 중에 지속됩니다. |
 | **`mbox`** | 63072000(2년) | | [`targetMigrationEnabled`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled)이(가) 활성화된 경우 표시됩니다. 웹 SDK에서 Target [mbox 쿠키](https://developer.adobe.com/target/implement/client-side/atjs/atjs-cookies/)를 설정할 수 있습니다. |
 | **`mboxEdgeCluster`** | 1800(30분) | | [`targetMigrationEnabled`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled)이(가) 활성화된 경우 표시됩니다. 웹 SDK에서 올바른 에지 클러스터를 `at.js`에 전달하면 사용자가 사이트를 탐색할 때 Target 프로필이 동기화 상태를 유지할 수 있습니다. `kndctr_<orgId>_cluster` 쿠키가 없으면 웹 SDK도 이 쿠키를 읽어 요청을 일치하는 Edge Network 영역으로 라우팅합니다. |
-| **`s_ecid`** | 63115200(2년) | ~45바이트 | `s_ecid=MCMID\|<ECID>` 형식의 CX Enterprise ID(ECID/MID) 복사본을 포함합니다. 주로 CNAME(자사) 시나리오에서 ECID의 자사 백업 역할을 합니다. [`idMigrationEnabled`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)을(를) 사용하도록 설정하면 웹 SDK이 이 쿠키를 읽어 기존 ECID를 다시 사용합니다. |
+| **`s_ecid`** | 63115200(2년) | ~45바이트 | `s_ecid=MCMID\|<ECID>` 형식의 ECID/MID 복사본을 포함합니다. 주로 CNAME(자사) 시나리오에서 ECID의 자사 백업 역할을 합니다. [`idMigrationEnabled`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)을(를) 사용하도록 설정하면 웹 SDK이 이 쿠키를 읽어 기존 ECID를 다시 사용합니다. |
 | **Audience Manager 쿠키 대상**(이름은 다름) | 대상이 다른 라이프타임을 지정하지 않는 한 10일 864000 | 다양함 | Edge Network이 방문자에 대해 Audience Manager [쿠키 대상](https://experienceleague.adobe.com/ko/docs/audience-manager/user-guide/features/destinations/custom-destinations/create-cookie-destination)을 반환하는 경우 표시됩니다. 웹 SDK은 대상에 정의된 쿠키 이름, 값 및 도메인을 사용하여 자사 쿠키를 기록합니다. 값은 URL로 인코딩되며 Audience Manager Data Integration Library(DIL)와 일치합니다. |
 
 Edge Network은 `secure` 및 `sameSite="none"` 특성을 사용하여 모든 쿠키를 설정합니다. 현재 웹 사이트에 보안 섹션과 비보안 섹션이 모두 있는 경우 사용자 식별이 부정확할 수 있습니다. 사용자가 사이트의 보안 섹션에서 비보안 섹션으로 이동하면 Edge Network은 요청을 통해 새 `ECID`을(를) 생성합니다.
