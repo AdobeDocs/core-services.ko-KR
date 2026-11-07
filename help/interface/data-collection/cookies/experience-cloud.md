@@ -1,7 +1,7 @@
 ---
-description: 방문자 ID 서비스가 CX 엔터프라이즈 애플리케이션 간에 어떻게 저장되고 사용되는지 알아봅니다.
+description: 방문자 ID 서비스가 CX Enterprise 애플리케이션 전반에서 어떻게 저장되고 사용되는지 알아봅니다.
 solution: Experience Cloud,Analytics,Target
-title: Experience Cloud 쿠키
+title: CX Enterprise 쿠키
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
 topic: Administration
@@ -33,14 +33,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '366'
 ht-degree: 66%
 ---
-# CX 엔터프라이즈 쿠키
+# CX Enterprise 쿠키
 
-Adobe CX Enterprise는 쿠키를 사용하여 CX 엔터프라이즈 애플리케이션에서 사용되는 방문자 ID를 저장합니다. 이러한 쿠키는 특히 [experience.adobe.com](https://experience.adobe.com)에서 Adobe CX 엔터프라이즈 응용 프로그램에 액세스하는 데 적용됩니다.
+Adobe CX Enterprise은 쿠키를 사용하여 CX Enterprise 애플리케이션에서 사용되는 방문자 ID를 저장합니다. 이러한 쿠키는 특히 [experience.adobe.com](https://experience.adobe.com)에서 Adobe CX Enterprise 애플리케이션에 액세스하는 데 적용됩니다.
 
 **쿠키 이름: s_ecid**
 
@@ -54,7 +54,7 @@ Adobe CX Enterprise는 쿠키를 사용하여 CX 엔터프라이즈 애플리케
  <tbody> 
   <tr> 
    <td colname="col1"> <p>정보가 저장됨 </p> </td> 
-   <td colname="col2"> <p> CX Enterprise ID(ECID) 또는 MID의 사본을 포함합니다. MID는 이 구문, s_ecid=MCMID|&lt;ECID&gt;를 따르는 키-값 쌍에 저장됩니다. </p> </td> 
+   <td colname="col2"> <p> ECID 또는 MID의 복사본을 포함합니다. MID는 이 구문, s_ecid=MCMID|&lt;ECID&gt;를 따르는 키-값 쌍에 저장됩니다. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> 만료 </p> </td> 
@@ -81,9 +81,9 @@ Adobe CX Enterprise는 쿠키를 사용하여 CX 엔터프라이즈 애플리케
 
 **쿠키 이름: AMCV_###@AdobeOrg**
 
-[방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)는 JavaScript을 사용하여 현재 웹 사이트의 도메인에 있는 `AMCV_###@AdobeOrg` 쿠키에 고유한 방문자 ID를 저장합니다. 여기서 `###`은(는) `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`과(와) 같은 임의의 문자열을 나타냅니다.
+[방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)는 JavaScript을 사용하여 현재 웹 사이트의 도메인에 있는 `AMCV_###@AdobeOrg` 쿠키에 ECID를 저장합니다. 여기서 `###`은(는) `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`과(와) 같은 임의의 문자열을 나타냅니다.
 
-[쿠키 및 방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko)도 참조하세요.
+[쿠키 및 방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)도 참조하세요.
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -95,7 +95,7 @@ Adobe CX Enterprise는 쿠키를 사용하여 CX 엔터프라이즈 애플리케
  <tbody> 
   <tr> 
    <td colname="col1"> <p>정보가 저장됨 </p> </td> 
-   <td colname="col2"> <p> CX 엔터프라이즈 솔루션에서 사용하는 고유 방문자 ID. </p> </td> 
+   <td colname="col2"> <p> CX Enterprise 솔루션에서 사용하는 고유 방문자 ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 만료 </p> </td> 
@@ -103,11 +103,11 @@ Adobe CX Enterprise는 쿠키를 사용하여 CX 엔터프라이즈 애플리케
   </tr> 
   <tr> 
    <td colname="col1"> <p> 사용 </p> </td> 
-   <td colname="col2"> <p> 이 쿠키는 고유한 방문자를 식별하는 데 사용됩니다. </p> </td> 
+   <td colname="col2"> <p> 이 쿠키는 고유 방문자를 식별하는 데 사용됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 위치 </p> </td> 
-   <td colname="col2"> <p> 이 쿠키는 웹 사이트의 도메인에서 저장됩니다(이미지 요청의 도메인이 아님). </p> </td> 
+   <td colname="col2"> <p> 이 쿠키는 웹 사이트의 도메인에 저장됩니다(이미지 요청의 도메인이 아님). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 크기 </p> </td> 

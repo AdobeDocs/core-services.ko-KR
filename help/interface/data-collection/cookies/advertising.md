@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '306'
 ht-degree: 13%
 ---
 # Adobe Advertising 쿠키
@@ -41,7 +41,7 @@ Adobe Advertising(이전의 Adobe Advertising Cloud)는 쿠키를 사용하여 �
 
 >[!NOTE]
 >
->[ECID(Adobe CX Enterprise ID) 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko-KR)를 사용하는 Beta Adobe Advertising Javascript 태그는 Adobe Advertising 쿠키가 아닌 자사 [CX Enterprise](experience-cloud.md) `s_ecid` 쿠키를 만듭니다.
+>[방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko-KR)를 사용하는 Beta Adobe Advertising Javascript 태그는 Adobe Advertising 쿠키가 아닌 자사 [CX Enterprise](experience-cloud.md) `s_ecid` 쿠키를 만듭니다.
 
 | 쿠키 이름 | 만료 | 크기 | 위치 | 설명 |
 | --- | --- | --- | --- | --- |

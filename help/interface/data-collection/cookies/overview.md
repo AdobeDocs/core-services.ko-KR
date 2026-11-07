@@ -1,6 +1,6 @@
 ---
 description: Adobe CX Enterprise의 솔루션 및 서비스에서 쿠키가 사용되는 방법을 알아봅니다.
-title: Experience Cloud에서 쿠키를 사용하는 방법
+title: CX Enterprise에서 쿠키를 사용하는 방법
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
 TQID: https://experienceleague.adobe.com/GH5WHcI9440NKYpUzizHlhOMlBSf-Y0WQ5GDBaSvqNI
@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 18fd590d6f0fd1800e3d5c62851453aa91d9db5f
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 8%
@@ -40,7 +40,7 @@ Adobe CX Enterprise은 쿠키를 사용하여 페이지 보기 수 또는 브라
 
 일부 브라우저는 서드파티 쿠키를 차단합니다. Adobe에는 쿠키가 차단된 경우에도 쿠키가 계속 작동하는지 확인하는 방법이 있습니다. 이 프로세스의 작동 방식은 방문자 ID 서비스(`VisitorAPI.js`) 또는 이전 Analytics 쿠키(예: `s_vi` 쿠키)를 사용하는지에 따라 다릅니다.
 
-* [방문자 ID 서비스](https://experienceleague.adobe.com/ko/docs/id-service/using/intro/overview): 방문자 ID 서비스는 수집 도메인과 사이트 도메인의 일치 여부에 관계없이 항상 자사 쿠키를 설정합니다. JavaScript을 사용하여 사이트의 도메인에 쿠키를 배치합니다.
+* [방문자 ID 서비스](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview): 방문자 ID 서비스는 수집 도메인과 사이트 도메인의 일치 여부에 관계없이 항상 자사 쿠키를 설정합니다. JavaScript을 사용하여 사이트의 도메인에 쿠키를 배치합니다.
 
 * [Analytics 레거시 식별자](analytics.md)(예: `s_vi` 쿠키): 쿠키가 퍼스트 파티 또는 서드파티인지 여부는 설정에 따라 다릅니다.
 

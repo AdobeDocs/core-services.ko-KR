@@ -1,7 +1,7 @@
 ---
-description: CX Enterprise에서 승인된 Creative Cloud 사용자를 관리하는 관리 툴에 대해 알아봅니다.
+description: CX Enterprise에서 승인된 Creative Cloud 사용자를 관리하기 위한 관리 도구에 대해 알아봅니다.
 solution: Experience Cloud
-title: Experience Cloud에서 Creative Cloud 사용자 관리
+title: CX Enterprise에서 Creative Cloud 사용자 관리
 feature: Assets
 topic: Administration
 role: Admin
@@ -28,14 +28,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 46%
 ---
 # Creative Cloud 사용자 관리
 
-CX Enterprise 는 승인된 Creative Cloud 사용자를 관리하는 관리 툴을 제공합니다. 이러한 사용자는 임시로 캠페인 폴더에 초대될 수 있습니다. 관리자가 목록에 추가한 사용자만 캠페인에 초대될 수 있습니다. 추가된 사용자는 CX Enterprise의 자동 완성 사용자 목록에 표시됩니다.
+CX Enterprise은 승인된 Creative Cloud 사용자를 관리하기 위한 관리 도구를 제공합니다. 이러한 사용자는 임시로 캠페인 폴더에 초대될 수 있습니다. 관리자가 목록에 추가한 사용자만 캠페인에 초대될 수 있습니다. 추가된 사용자는 CX Enterprise의 자동 완성 사용자 목록에 표시됩니다.
 
 >[!NOTE]
 >

@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '579'
 ht-degree: 9%
 ---
 # Adobe Analytics 쿠키
@@ -43,18 +43,18 @@ Analytics는 쿠키를 사용하여 새로운 방문자를 익명으로 정의�
 
 | 쿠키 이름 | 만료 | 크기 | 위치 | 설명 |
 | --- | --- | --- | --- | --- |
-| **`s_ecid`** | 13개월 | 45바이트 | 자사 | CX Enterprise ID(ECID) 또는 MID를 저장합니다. HTTP 응답으로 설정됩니다. MID는 `s_ecid=MCMID` 형식으로 저장됩니다. 클라이언트가 AMCV 쿠키를 설정한 후에 를 설정합니다. 영구적 자사 ID 추적을 허용하며 AMCV 쿠키가 만료되는 경우 참조 ID로 사용됩니다. `SameSite`이(가) &quot;Lax&quot;로 설정되어 있습니다. 웹 SDK을 사용하여 Adobe Analytics을 구현하는 경우 쿠키 만료는 2년으로 설정되지만 대부분의 최신 브라우저에서는 만료가 13개월로 잘립니다. |
+| **`s_ecid`** | 13개월 | 45바이트 | 자사 | ECID 또는 MID를 저장합니다. HTTP 응답으로 설정됩니다. MID는 `s_ecid=MCMID` 형식으로 저장됩니다. 클라이언트가 AMCV 쿠키를 설정한 후에 를 설정합니다. 영구적 자사 ID 추적을 허용하며 AMCV 쿠키가 만료되는 경우 참조 ID로 사용됩니다. `SameSite`이(가) &quot;Lax&quot;로 설정되어 있습니다. 웹 SDK을 사용하여 Adobe Analytics을 구현하는 경우 쿠키 만료는 2년으로 설정되지만 대부분의 최신 브라우저에서는 만료가 13개월로 잘립니다. |
 | **`s_cc`** | Session | 4바이트 | 자사 | 쿠키가 활성화되었는지 여부를 확인합니다. JavaScript에서 설정합니다. |
 | **`s_sq`** | Session | 100-200바이트 | 자사 | Activity Map에서 사용됩니다. 여기에는 방문자가 클릭한 이전 링크에 대한 정보가 포함되어 있습니다. JavaScript에서 설정합니다. |
 | **`s_vi`** | 2년 | 44바이트 | 자사 또는 `*.omtrdc.net`(타사) | 고유 방문자 ID 및 타임스탬프를 저장합니다. HTTP 응답으로 설정됩니다. 각 방문자 ID는 Adobe 서버의 방문자 프로필과 연결됩니다. 방문자 프로필은 모든 방문자 ID 쿠키 만료와 관계없이 비활성 기간 1년 후 삭제됩니다. `SameSite`이(가) &quot;없음&quot;이고 연결이 HTTPS인 경우 `Secure` 플래그가 설정됩니다. `SameSite`은(는) 기본적으로 자사 쿠키에 대해 &quot;Lax&quot;입니다. `omtrdc.net` 또는 `2o7.net`에서와 같이 서드파티 쿠키를 사용할 때 `SameSite`은(는) &quot;없음&quot;입니다. 단일 CNAME을 사용하여 여러 도메인 또는 속성을 추적할 때 `SameSite`을(를) &quot;없음&quot;으로 설정합니다. |
 | **`s_fid`** | 2년 | 33바이트 | 자사 | 대체 고유 방문자 ID 및 타임스탬프를 저장합니다. 타사 쿠키 제한 사항으로 인해 표준 `s_vi` 쿠키를 설정할 수 없는 경우 JavaScript에서 설정합니다. 자사 쿠키 구현에 사용되지 않습니다. |
 | **`s_ac`** | 즉각적인 상태가 됨 | 1바이트 | 자사 | AppMeasurement 쿠키를 설정할 올바른 도메인을 확인하는 데 도움이 됩니다. 정적 값 `"1"`을(를) 포함합니다. 이 쿠키가 설정되면 즉시 삭제됩니다. |
 
-Adobe Analytics에서 쿠키를 사용하여 방문자를 식별하는 방법에 대한 자세한 내용은 [Adobe Analytics의 방문자 식별](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/overview)을 참조하십시오.
+Adobe Analytics에서 쿠키를 사용하여 방문자를 식별하는 방법에 대한 자세한 내용은 [Adobe Analytics의 방문자 식별](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)을 참조하십시오.
 
 ## 플러그인에 의해 설정된 쿠키
 
-일부 구현에서는 Analytics에 추가 기능을 제공하는 코드 조각인 플러그인을 사용합니다. 이러한 플러그인은 위에 나열되지 않은 쿠키를 설정할 수 있습니다. 사용 가능한 플러그인 목록과 플러그인이 설정하는 쿠키는 [Analytics 플러그인 개요](https://experienceleague.adobe.com/ko/docs/analytics/implementation/vars/plugins/impl-plugins)를 참조하십시오.
+일부 구현에서는 Analytics에 추가 기능을 제공하는 코드 조각인 플러그인을 사용합니다. 이러한 플러그인은 위에 나열되지 않은 쿠키를 설정할 수 있습니다. 사용 가능한 플러그인 목록과 플러그인이 설정하는 쿠키는 [Analytics 플러그인 개요](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins)를 참조하십시오.
 
 ## Analytics 쿠키 삭제 결과
 
