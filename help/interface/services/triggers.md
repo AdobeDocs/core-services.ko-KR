@@ -44,7 +44,7 @@ ht-degree: 59%
 ---
 # CX Enterprise 트리거
 
-CX Enterprise의 [!UICONTROL 트리거]를 통해 주요 소비자 행동을 식별하고, 정의하고, 모니터한 다음 교차 애플리케이션 커뮤니케이션을 생성하여 방문자로 하여금 다시 참여하도록 할 수 있습니다. 실시간 의사 결정 및 개인화에서 트리거를 사용할 수 있습니다. Adobe Campaign에서 [!UICONTROL 트리거]를 사용하는 방법에 대한 자세한 내용은 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)을(를) 참조하십시오.
+CX Enterprise의 [!UICONTROL 트리거]를 통해 주요 소비자 행동을 식별하고, 정의하고, 모니터한 다음 교차 애플리케이션 커뮤니케이션을 생성하여 방문자로 하여금 다시 참여하도록 할 수 있습니다. 실시간 의사 결정 및 개인화에서 트리거를 사용할 수 있습니다. Adobe Campaign에서 [!UICONTROL 트리거]를 사용하는 방법에 대한 자세한 내용은 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=ko)을(를) 참조하십시오.
 
 예:
 
@@ -98,7 +98,7 @@ CX Enterprise의 [!UICONTROL 트리거]를 통해 주요 소비자 행동을 식
    {style="table-layout:auto"}
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-1. [!DNL Adobe Campaign]에서 [실시간 재마케팅](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)에 트리거를 사용합니다.
+1. [!DNL Adobe Campaign]에서 [실시간 재마케팅](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=ko)에 트리거를 사용합니다.
 
 ## 예제 트리거
 
