@@ -1,7 +1,7 @@
 ---
 title: 대상 라이브러리에서 대상을 만드는 방법
 description: 대상 라이브러리에서 속성 규칙을 사용하여 공유 가능한 대상을 만드는 방법을 알아봅니다. 규칙을 구성하고 복합 대상을 정의하는 방법을 알아봅니다.
-solution: Experience Cloud
+solution: CX Enterprise
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
@@ -33,14 +33,14 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 56%
 ---
 # 대상자 만들기
 
-[!UICONTROL 대상 라이브러리]에서 특성 규칙을 사용하여 대상을 만들고 CX 엔터프라이즈 애플리케이션에서 공유할 복합 대상을 정의할 수 있습니다.
+[!UICONTROL 대상 라이브러리]에서 특성 규칙을 사용하여 대상을 만들고 CX Enterprise 애플리케이션에서 공유할 복합 대상을 정의할 수 있습니다.
 
 이 문서는 다음 방법을 이해하는 데 도움이 됩니다.
 
@@ -82,7 +82,7 @@ ht-degree: 56%
      >
      >캐싱으로 인해, Analytics에서 삭제된 보고서 세트는 삭제가 CX Enterprise에 표시되는 데 12시간이 필요합니다.
 
-   * **[!UICONTROL CX 엔터프라이즈:]** 특성 데이터는 [!DNL CX Enterprise] 소스에서 파생됩니다. 예를 들어 [!DNL Analytics]에서 만든 대상자 세그먼트의 데이터이거나 [!DNL Audience Manager]의 데이터일 수 있습니다.
+   * [!DNL CX Enterprise] 원본에서 파생된 **[!UICONTROL CX Enterprise:]** 특성 데이터입니다. 예를 들어 [!DNL Analytics]에서 만든 대상자 세그먼트의 데이터이거나 [!DNL Audience Manager]의 데이터일 수 있습니다.
 
 1. 대상 규칙을 정의한 다음 **[!UICONTROL 저장].**&#x200B;을 클릭합니다.
 
@@ -113,11 +113,11 @@ ht-degree: 56%
 
 결과 규칙은 홈/가든을 방문한 Chrome/Safari 사용자로 구성되는 정의된 대상자입니다. 뜰/가구 세그먼트는 사이트 섹션을 방문하는 모든 방문자에 대한 추가적인 인사이트를 제공합니다.
 
-![CX Enterprise에서 정의된 대상](assets/defined_audience.png)
+CX Enterprise에서 ![정의된 대상](assets/defined_audience.png)
 
 * **이전 예상:** (점선 원) [!DNL Analytics] 데이터를 기반으로 만들어진 규칙을 나타냅니다.
 * **실제 대상:** (실선 원)30일 동안의 Audience Manager 데이터를 포함하여 만들어진 모든 규칙입니다. Audience Manager 데이터가 30일이 되면 선은 실선이 되고 실제 수치를 나타냅니다.
 
 지정된 기간 동안 데이터 수집이 완료되면 원이 합쳐지면서 정의된 대상자를 표시합니다.
 
-대상이 저장되면 다른 CX 엔터프라이즈 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/ko/docs/target/using/activities/activities)에 포함할 수 있습니다.
+대상이 저장되면 다른 CX Enterprise 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)에 포함할 수 있습니다.

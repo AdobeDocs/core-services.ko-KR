@@ -1,6 +1,6 @@
 ---
 description: Adobe CX Enterprise의 관리자를 위한 브라우저 지원에 대해 알아보고, 일반적인 질문에 대한 답변을 얻을 수 있습니다.
-solution: Experience Cloud
+solution: CX Enterprise
 title: CX Enterprise에 대해 자주 묻는 질문
 index: true
 feature: Admin Console
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 46%
@@ -122,7 +122,7 @@ CX Enterprise에서의 프로비저닝은 다음을 의미합니다.
 
 * 사용자 자격 및 제품 관리는 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)&#x200B;(제품 링크)에서 수행됩니다.
 
-* **중요:** Analytics 관리자는 [Admin Console의 Analytics 사용자 관리](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=ko)에서 사용자 ID를 Analytics 관리 도구에서 Admin Console로 마이그레이션하는 작업에 대해 참조하십시오.
+* **중요:** Analytics 관리자는 [Admin Console의 Analytics 사용자 관리](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html)에서 사용자 ID를 Analytics 관리 도구에서 Admin Console로 마이그레이션하는 작업에 대해 참조하십시오.
 
 +++
 
@@ -130,7 +130,7 @@ CX Enterprise에서의 프로비저닝은 다음을 의미합니다.
 
 Admin Console 관리자는 사용자에게 액세스 권한을 부여할 수 있습니다. 사용자에게 로그인 지침이 포함된 이메일이 전송됩니다.
 
-[Adobe 지원 센터에 문의](https://experienceleague.adobe.com/ko?support-solution=General#support)하여 귀사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
+[Adobe 지원 센터에 문의](https://experienceleague.adobe.com/?support-solution=General#support)하여 귀사가 완전히 프로비저닝되었는지 확인해야 할 수 있습니다.
 
 +++
 

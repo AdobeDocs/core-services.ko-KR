@@ -1,6 +1,6 @@
 ---
 description: CX Enterprise에서 업로드되고 사용되는 PII(개인 식별 정보)와 관련된 고려 사항 및 모범 사례에 대해 알아봅니다.
-solution: Experience Cloud
+solution: CX Enterprise
 title: '[!DNL Customer Attributes]에 대한 개인 정보 고려 사항'
 feature: Customer Attributes
 topic: Administration
@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 92%
@@ -48,9 +48,9 @@ Adobe CX Enterprise에서 업로드되고 사용되는 PII(개인 식별 정보)
 * 이메일 주소
 * 전화 번호
 * 사회 보장 번호
-* 개인에게 실제로 또는 온라인으로 연결하도록 하는 기타 식별자입니다. (위치마다 다릅니다. 비즈니스를 수행하는 모든 위치에 대한 개인정보 및 PII와 관련된 현지 법률 및 규정을 확인하고 준수하십시오.)
+* 개인에게 실제로 또는 온라인으로 연락할 수 있게 하는 기타 식별자입니다. (위치마다 다릅니다. 비즈니스를 수행하는 모든 위치에 대한 개인정보 및 PII와 관련된 현지 법률 및 규정을 확인하고 준수하십시오.)
 
-Adobe는 광고주가 해당 사이트를 방문하거나 애플리케이션을 사용하는 소비자에 대한 행동 정보를 수집할 수 있는 도구를 제공합니다. 또한 광고주가 다른 정보 관리 시스템 내에서 유지할 수 있는 오프라인 또는 외부 고객 레코드로 이 정보를 개선할 수 있도록 합니다.
+Adobe는 광고주가 해당 사이트를 방문하거나 애플리케이션을 사용하는 소비자에 대한 행동 정보를 수집할 수 있는 도구를 제공합니다. Adobe는 또한 광고주가 다른 정보 관리 시스템 내에서 유지할 수 있는 오프라인 또는 외부 고객 레코드로 이 정보를 개선할 수 있는 도구를 제공합니다.
 
 광고주가 이렇게 하는 한 가지 일반적인 이유는 소비자에게 적합한 마케팅 및 광고 결정을 내릴 때 사용할 수 있도록 이 정보를 개선하기 위해서입니다. Adobe Analytics 및 Target에서 광고주는 개인에게 연락하는 데 사용할 수 없도록 해시 처리한 후에만 이메일 주소와 같은 PII(개인 식별 정보)를 업로드할 수 있습니다. 해시 처리된 정보는 여전히 분석 및 마케팅 용도로 사용할 수 있습니다. 다시 말해서 Adobe는 광고주가 의료 기록, 금융 계좌 정보 및 미성년자에 대한 정보 등의 민감한 개인정보를 Adobe에 보내지 못하게 합니다.
 
@@ -58,7 +58,7 @@ Adobe는 이러한 유형의 마케팅 및 광고 결정 시 고객 개인정보
 
 ## 모범 사례
 
-Adobe Analytics 또는 Adobe Target에 PII를 업로드할 때 고객은 PII를 해시 처리한 후 Adobe에 업로드하는 것이 좋습니다. 해시 처리된 정보는 여전히 분석 및 마케팅 용도로 사용할 수 있습니다. 다시 말해서 Adobe는 광고주가 의료 기록, 금융 계좌 정보 및 미성년자에 대한 정보 등의 민감한 개인정보를 Adobe Analytics 및 Adobe Target에 보내지 못하게 합니다.
+Adobe Analytics 또는 Adobe Target에 PII를 업로드할 때 Adobe는 고객이 Adobe에 업로드하기 전에 PII를 해시 처리할 것을 권장합니다. 해시 처리된 정보는 여전히 분석 및 마케팅 용도로 사용할 수 있습니다. 다시 말해서 Adobe는 광고주가 의료 기록, 금융 계좌 정보 및 미성년자에 대한 정보 등의 민감한 개인정보를 Adobe Analytics 및 Adobe Target에 보내지 못하게 합니다.
 
 Adobe는 광고주가 마케팅 목적으로 사용하기 적합한 정보를 고려하고 어떤 상황에서 광고주가 이러한 정보를 사용할 수 있는지 신중히 고려할 것을 권장합니다.
 

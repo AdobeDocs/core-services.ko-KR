@@ -1,6 +1,6 @@
 ---
 description: 애플리케이션 간에 공유할 수 있는 CX Enterprise Assets에 대해 알아봅니다.
-solution: Experience Cloud
+solution: CX Enterprise
 title: 자산 개요
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
@@ -31,19 +31,19 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 70%
 ---
-# CX 엔터프라이즈 Assets 개요
+# CX Enterprise Assets 개요
 
-CX Enterprise Assets 는 애플리케이션 간에 공유할 수 있는 마케팅 준비가 끝난 에셋에 대해 중앙 집중식 단일 저장소를 제공합니다. 자산은 디지털 문서, 이미지, 비디오, 오디오 또는 그 일부로, 다양한 표현물과 하위 자산(예: [!DNL Photoshop] 파일의 레이어, [!DNL PowerPoint] 파일의 슬라이드, PDF의 페이지, ZIP에 있는 파일)을 가질 수 있습니다.
+CX Enterprise Assets은 애플리케이션 간에 공유할 수 있는 마케팅 준비가 끝난 에셋에 대해 중앙 집중식 단일 저장소를 제공합니다. 자산은 디지털 문서, 이미지, 비디오, 오디오 또는 그 일부로, 다양한 표현물과 하위 자산(예: [!DNL Photoshop] 파일의 레이어, [!DNL PowerPoint] 파일의 슬라이드, PDF의 페이지, ZIP에 있는 파일)을 가질 수 있습니다.
 
-자산 서비스에는 다음이 포함됩니다.
+에셋 서비스에는 다음이 포함됩니다.
 
-* 자산 스토리지, 관리 인터페이스, 임베드된 선택 인터페이스(애플리케이션에서 액세스).
-* Creative Cloud, CX 엔터프라이즈 협업 및 CX 엔터프라이즈 애플리케이션과의 통합
+* 에셋 스토리지, 관리 인터페이스, 임베드된 선택 인터페이스(애플리케이션에서 액세스).
+* Creative Cloud, CX Enterprise 공동 작업 및 CX Enterprise 애플리케이션과 통합됩니다.
 
 자산을 사용하면 일관성 및 브랜드 준수가 향상되며 마켓 출시 속도도 빨라집니다. 다음과 같은 애플리케이션의 워크플로를 능률화할 수 있습니다.
 
@@ -52,9 +52,9 @@ CX Enterprise Assets 는 애플리케이션 간에 공유할 수 있는 마케�
 * **[!DNL Adobe Campaign]**: 이메일 뉴스레터 및 캠페인에 자산 배치
 
 
-## CX Enterprise Assets 로 이동
+## CX Enterprise Assets으로 이동
 
-![CX 엔터프라이즈 Assets으로 이동](../../assets/asset-nav.png)
+![CX Enterprise Assets으로 이동](../../assets/asset-nav.png)
 
 ## 도구 모음 액세스
 
@@ -70,7 +70,7 @@ CX Enterprise Assets 는 애플리케이션 간에 공유할 수 있는 마케�
 
 ## 자산 편집
 
-자산을 편집하면 다음을 포함한 기능을 사용할 수 있습니다.
+에셋을 편집하면 다음을 포함한 기능을 사용할 수 있습니다.
 
 * 자르기
 * 회전
@@ -96,9 +96,9 @@ CX Enterprise Assets 는 애플리케이션 간에 공유할 수 있는 마케�
 
 ![전체 화면 자산 보기](../../assets/asset-zoom.png)
 
-## 자산 속성 보기
+## 에셋 속성 보기
 
-속성을 사용한 카드 보기, 목록 보기, 열 보기 중 선택하여 자산을 쉽게 찾을 수 있습니다.
+속성을 사용한 카드 보기, 목록 보기, 열 보기 중 선택하여 에셋을 쉽게 찾을 수 있습니다.
 
 자산의 속성을 보려면 **[!UICONTROL 보기]** > **[!UICONTROL 속성]**&#x200B;을 클릭하십시오.
 
@@ -106,7 +106,7 @@ CX Enterprise Assets 는 애플리케이션 간에 공유할 수 있는 마케�
 
 ## 사용량 보고서 실행
 
-사용자 수, 사용한 저장소 및 전체 자산을 참고하십시오.
+사용자 수, 사용한 스토리지 및 전체 에셋을 참고하십시오.
 
 **[!UICONTROL 도구]** > **[!UICONTROL 보고서]** > **[!UICONTROL 사용량 보고서]**&#x200B;를 클릭합니다.
 

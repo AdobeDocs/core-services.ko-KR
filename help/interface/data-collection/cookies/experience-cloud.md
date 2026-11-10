@@ -1,6 +1,6 @@
 ---
 description: 방문자 ID 서비스가 CX Enterprise 애플리케이션 전반에서 어떻게 저장되고 사용되는지 알아봅니다.
-solution: Experience Cloud,Analytics,Target
+solution: CX Enterprise,Analytics,Target
 title: CX Enterprise 쿠키
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 66%
@@ -81,9 +81,9 @@ Adobe CX Enterprise은 쿠키를 사용하여 CX Enterprise 애플리케이션�
 
 **쿠키 이름: AMCV_###@AdobeOrg**
 
-[방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)는 JavaScript을 사용하여 현재 웹 사이트의 도메인에 있는 `AMCV_###@AdobeOrg` 쿠키에 ECID를 저장합니다. 여기서 `###`은(는) `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`과(와) 같은 임의의 문자열을 나타냅니다.
+[방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)는 JavaScript을 사용하여 현재 웹 사이트의 도메인에 있는 `AMCV_###@AdobeOrg` 쿠키에 ECID를 저장합니다. 여기서 `###`은(는) `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`과(와) 같은 임의의 문자열을 나타냅니다.
 
-[쿠키 및 방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko)도 참조하세요.
+[쿠키 및 방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)도 참조하세요.
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 

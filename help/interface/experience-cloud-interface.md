@@ -1,6 +1,6 @@
 ---
 description: CX Enterprise의 중앙 인터페이스 구성 요소와 로그인하는 방법에 대해 알아봅니다. 글로벌 검색, 계정 환경 설정, 인터페이스를 탐색하고 도움을 받는 방법에 대해 알아봅니다.
-solution: Experience Cloud
+solution: CX Enterprise
 title: CX Enterprise 중앙 UI 구성 요소
 feature: Central Interface Components
 topic: Administration
@@ -18,7 +18,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 40%
@@ -90,7 +90,7 @@ CX Enterprise에 로그인한 후 통합 헤더에서 모든 애플리케이션,
 
 ## CX Enterprise의 검색 및 지원
 
-CX Enterprise 검색을 사용하면 [Experience League](https://experienceleague.adobe.com/ko#home)에서 도움말(설명서, 튜토리얼 및 과정)을 검색할 수 있습니다.
+CX Enterprise 검색을 사용하면 [Experience League](https://experienceleague.adobe.com/#home)에서 도움말(설명서, 튜토리얼 및 과정)을 검색할 수 있습니다.
 
 ![CX Enterprise에서 검색 및 지원](assets/search-menu.png)
 
@@ -98,7 +98,7 @@ CX Enterprise 검색을 사용하면 [Experience League](https://experienceleagu
 
 * **[!UICONTROL 지원]:** 지원 티켓을 만들거나 Twitter를 사용하여 [!UICONTROL 지원]에 문의하세요.
 * **[!UICONTROL 피드백]:** 피드백을 통해 Adobe에 연락하여 여러분의 의견을 보내 주십시오.
-* **[!UICONTROL 상태]:** `https://status.adobe.com/ko-kr/experience_cloud`(으)로 이동하여 제품 작동 상태 및 [!UICONTROL 구독 관리]를 확인하세요.
+* **[!UICONTROL 상태]:** `https://status.adobe.com/experience_cloud`(으)로 이동하여 제품 작동 상태 및 [!UICONTROL 구독 관리]를 확인하세요.
 * **[!UICONTROL Developer Connection]:** `adobe.io`(으)로 이동하여 개발자 설명서를 찾습니다.
 
 ## 계정 환경 설정

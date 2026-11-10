@@ -1,7 +1,7 @@
 ---
 description: Adobe CX Enterprise의 Audience Manager 쿠키에 대해 알아봅니다.
 keywords: 쿠키
-solution: Experience Cloud, Audience Manager
+solution: CX Enterprise, Audience Manager
 title: Audience Manager 쿠키
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 feature: Cookies
@@ -44,7 +44,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 94%
@@ -69,7 +69,7 @@ Audience Manager는 몇 가지 간단한 쿠키를 사용하여 다양한 기능
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>콘텐츠</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">demdex</span> 쿠키에는 아래 예와 같이 고유 사용자 ID(UUID)가 포함되어 있습니다. </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=ko" format="https" scope="external">Audience Manager의 ID 색인</a>을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">demdex</span> 쿠키에는 아래 예와 같이 고유 사용자 ID(UUID)가 포함되어 있습니다. </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Audience Manager의 ID 색인</a>을 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>기타 특성</b> </p> </td> 
@@ -140,7 +140,7 @@ dextp 쿠키 데이터 구문:
      </ul> </p> <p>새 스타일 쿠키: </p> <p> 
      <ul id="ul_F05A91A455FA44C7A71186C0C9E31630"> 
       <li id="li_A8C9638173684359BABC4207845A4F48">읽을 수 있는 데이터 공급자 이름을 숫자 ID로 바꿉니다. </li> 
-      <li id="li_28F1E2DB24904E53BE9718AD788CE61E">ID 1 또는 ID 2로 통화 유형을 식별합니다. ID 1은 ID 동기화 호출을 나타냅니다. ID 2는 더 이상 사용되지 않는 호출을 나타냅니다. ID 2의 dextp 쿠키는 많지 않거나 없어야 합니다. </li> 
+      <li id="li_28F1E2DB24904E53BE9718AD788CE61E">ID 1 또는 ID 2로 호출 유형을 식별합니다. ID 1은 ID 동기화 호출을 나타냅니다. ID 2는 더 이상 사용되지 않는 호출을 나타냅니다. ID 2의 dextp 쿠키는 많지 않거나 없어야 합니다. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -162,7 +162,7 @@ dextp 쿠키 데이터 구문:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>용도</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span>가 데이터를 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=ko" format="https" scope="external">대상</a>에 전송하는 중 오류가 발생하면 이 쿠키를 설정합니다 . </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span>가 데이터를 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">대상</a>에 전송하는 중 오류가 발생하면 이 쿠키를 설정합니다 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>콘텐츠</b> </p> </td> 
