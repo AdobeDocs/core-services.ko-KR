@@ -1,7 +1,7 @@
 ---
 description: CX Enterprise에서 이동, 삭제 및 복원 시 공유 폴더의 동작 방식 규칙에 대해 알아봅니다.
 keywords: 에셋 공유, Creative Cloud, 핵심 서비스
-solution: Experience Cloud
+solution: CX Enterprise
 title: 공유 폴더 동작
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 feature: Assets
@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 90%
@@ -41,7 +41,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->공유 CX 엔터프라이즈 폴더 및 에셋은 Creative Cloud 데스크탑에 1:1 관계로 미러링됩니다. CX 엔터프라이즈 사용자가 폴더를 변경 (공유 삭제, 추가 또는 제거)하면 Creative Cloud 데스크톱 및 웹에서 작업이 미러링됩니다. 따라서 폴더가 공유되지 않으면 로컬 시스템에서 폴더 및 에셋이 삭제됩니다. 공유가 제거되면 폴더 및 해당 콘텐츠가 로컬 컴퓨터의 휴지통으로 이동되며 사용자가 컴퓨터에 직접 복원할 수 있습니다.
+>공유된 CX Enterprise 폴더 및 에셋은 Creative Cloud 데스크탑에 1:1 관계로 미러링됩니다. CX Enterprise 사용자가 폴더를 변경(공유 삭제, 추가 또는 제거)하면 Creative Cloud 데스크탑 및 웹에서 작업이 미러링됩니다. 따라서 폴더가 공유되지 않으면 로컬 시스템에서 폴더 및 에셋이 삭제됩니다. 공유가 제거되면 폴더 및 해당 콘텐츠가 로컬 컴퓨터의 휴지통으로 이동되며 사용자가 컴퓨터에 직접 복원할 수 있습니다.
 
 ## 비공유 폴더를 공유 폴더로
 
@@ -95,7 +95,7 @@ ht-degree: 90%
 
 ## 보관 또는 삭제된 소유 폴더
 
-소유하는 공유 폴더를 보관(웹을 통해)하거나 삭제(데스크탑을 통해)합니다.
+소유한 공유 폴더를 보관(웹을 통해)하거나 삭제(데스크탑을 통해)합니다.
 
 ![보관 또는 삭제된 소유 폴더](../../assets/07_assets_move.png)
 
@@ -103,7 +103,7 @@ ht-degree: 90%
 
 ## 공유 폴더를 다른 공유 폴더로
 
-소유한 공유 폴더를 소유 또는 소유하지 않은 다른 공유 폴더로 이동합니다.
+소유한 공유 폴더를 자신이 소유했을 수도 있고 소유하지 않았을 수도 있는 다른 공유 폴더로 이동합니다.
 
 ![공유 폴더를 다른 공유 폴더로](../../assets/09_assets_move.png)
 

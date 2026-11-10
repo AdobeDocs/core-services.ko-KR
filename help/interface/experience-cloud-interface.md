@@ -1,6 +1,6 @@
 ---
 description: CX Enterprise의 중앙 인터페이스 구성 요소와 로그인하는 방법에 대해 알아봅니다. 글로벌 검색, 계정 환경 설정, 인터페이스를 탐색하고 도움을 받는 방법에 대해 알아봅니다.
-solution: Experience Cloud
+solution: CX Enterprise
 title: CX Enterprise 중앙 UI 구성 요소
 feature: Central Interface Components
 topic: Administration
@@ -18,7 +18,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 40%

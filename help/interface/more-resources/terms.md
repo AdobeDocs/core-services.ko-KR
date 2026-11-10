@@ -1,6 +1,6 @@
 ---
 description: Adobe 제품 및 인터페이스 용어가 CX Enterprise, 해당 솔루션, Creative Cloud, Experience League 및 기타 지원 경험과 어떻게 다른지 알아보십시오.
-solution: Experience Cloud
+solution: CX Enterprise
 title: 용어
 feature-set: Experience Cloud Services
 feature: Central Interface Components
@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 5%

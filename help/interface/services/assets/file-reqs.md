@@ -1,7 +1,7 @@
 ---
 title: Assets 공유를 위한 파일 요구 사항
-description: Adobe CX Enterprise 및 Creative Cloud 간에 에셋을 공유하기 위해 허용되는 파일 형식 및 크기 제한에 대해 알아봅니다.
-solution: Experience Cloud
+description: Adobe CX Enterprise과 Creative Cloud 간에 에셋을 공유하기 위해 허용되는 파일 형식 및 크기 제한에 대해 알아봅니다.
+solution: CX Enterprise
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 feature: Assets
 topic: Administration
@@ -29,14 +29,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 73%
 ---
 # 에셋 공유를 위한 파일 요구 사항
 
-CX Enterprise와 Creative Cloud 간에 에셋을 공유하기 위해 허용되는 파일 형식 및 크기 제한입니다.
+CX Enterprise과 Creative Cloud 간에 에셋을 공유하기 위해 허용되는 파일 형식 및 크기 제한입니다.
 
 ## 업로드할 수 있는 파일 형식
 

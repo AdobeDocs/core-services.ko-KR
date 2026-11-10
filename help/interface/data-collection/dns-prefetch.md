@@ -1,6 +1,6 @@
 ---
-description: CX Enterprise의 다양한 애플리케이션과 서비스를 사용하여 페이지 로드 시간을 줄이는 데 도움이 되는 DNS 프리페치를 구현하는 방법을 알아봅니다.
-solution: Experience Cloud
+description: CX Enterprise의 다양한 애플리케이션 및 서비스에서 페이지 로드 시간을 줄이는 데 도움이 되는 DNS 프리페치를 구현하는 방법을 알아봅니다.
+solution: CX Enterprise
 title: DNS 프리페치 사용
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 topic: Administration
@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 77%
@@ -41,14 +41,14 @@ ht-degree: 77%
 
 브라우저에서는 DNS 프리페치를 사용하여 웹 페이지에 링크된 도메인 이름을 해당 IP 주소로 자동으로 확인합니다. 브라우저에서 웹 페이지를 로드하면 프리페치 프로세스가 시작됩니다. 예를 들어 페이지에 `www.adobe.com`에 대한 선택 가능 링크가 포함되어 있다고 가정하겠습니다. 브라우저에 이 페이지가 로드되면 _DNS 시스템_ 을 사용하여 링크된 도메인 이름을 검색하고 해당 숫자 IP 주소로 확인합니다. 사이트 방문자가 해당 링크 또는 버튼을 클릭하기 전에 도메인 이름이 이미 IP 주소로 확인되었으므로 DNS 프리페치는 페이지 성능을 향상시키는 데 도움이 됩니다. DNS 프리페치 프로세스는 사용자에게 투명합니다.
 
-## DNS 프리페치 및 Adobe CX 엔터프라이즈 애플리케이션
+## DNS 프리페치 및 Adobe CX Enterprise 애플리케이션
 
 DNS 프리페치는 페이지에 임베드된 정적 링크에서 자동으로 작동합니다. 즉, 다음과 같은 이유로 다른 [!UICONTROL CX Enterprise] 응용 프로그램 및 서비스에서는 자동 DNS 프리페치가 작동하지 않습니다.
 
-* 각 CX 엔터프라이즈 애플리케이션이나 서비스는 페이지가 로드될 때 동적으로 DNS 호출을 생성합니다.
+* 각 CX Enterprise 애플리케이션 또는 서비스는 페이지가 로드될 때 동적으로 DNS 호출을 생성합니다.
 * 이러한 호출을 수행하기 전에 브라우저에서 IP 주소로 도메인 이름을 확인할 수 없습니다.
 
-그러나 CX 엔터프라이즈 애플리케이션을 사용하여 DNS 프리페치를 수동으로 구현할 수 있습니다. 아래 그림과 같이 HTML `<dns-prefetch>` 태그를 페이지 코드의 `<head>` 섹션에 추가하면 됩니다. 제대로 구현되면 DNS 프리페치가 페이지 로드 시간을 몇 밀리초 줄일 수 있습니다.
+하지만 CX Enterprise 애플리케이션으로 DNS 프리페치를 수동으로 구현할 수 있습니다. 아래 그림과 같이 HTML `<dns-prefetch>` 태그를 페이지 코드의 `<head>` 섹션에 추가하면 됩니다. 제대로 구현되면 DNS 프리페치가 페이지 로드 시간을 몇 밀리초 줄일 수 있습니다.
 
 ## DNS 프리페치 코드 샘플
 

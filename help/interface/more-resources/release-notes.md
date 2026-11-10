@@ -1,6 +1,6 @@
 ---
 description: 고객 속성, 대상자 및 사용자 관리와 같은 CX Enterprise 서비스에 대한 최신 기능, 릴리스 정보 및 알려진 문제에 대해 알아봅니다.
-solution: Experience Cloud
+solution: CX Enterprise
 title: CX Enterprise 인터페이스에 대한 누적 릴리스 노트
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature-set: Experience Cloud
@@ -42,7 +42,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 56%

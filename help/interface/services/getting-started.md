@@ -1,6 +1,6 @@
 ---
 description: 교차 애플리케이션 서비스를 위한 Adobe Analytics 및 Adobe Target 애플리케이션을 현대화합니다. CX Enterprise 서비스를 사용하는 방법을 알아봅니다.
-solution: Experience Cloud
+solution: CX Enterprise
 title: CX Enterprise 시작
 index: true
 feature: Central Interface Components
@@ -51,7 +51,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 41%

@@ -1,6 +1,6 @@
 ---
-description: CX Enterprise용 중앙 인터페이스 구성 요소에 대해 알아봅니다. Admin Console에서 사용자 및 제품 관리에 대한 도움말을 확인하고 CX 엔터프라이즈 서비스용 애플리케이션을 사용하도록 설정합니다. 대상 라이브러리, 고객 특성, CX 엔터프라이즈 Assets 등에 대한 도움말을 봅니다.
-title: Experience Cloud 인터페이스 설명서
+description: CX Enterprise의 중앙 인터페이스 구성 요소에 대해 알아봅니다. Admin Console에서 사용자 및 제품 관리에 대한 도움말을 보고 CX Enterprise 서비스용 애플리케이션을 사용하도록 설정하십시오. 대상 라이브러리, 고객 속성, CX Enterprise Assets 등에 대한 도움말을 봅니다.
+title: CX Enterprise 인터페이스 설명서
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
 topic: Administration
@@ -13,14 +13,14 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 60%
+ht-degree: 57%
 ---
-# CX 엔터프라이즈 중앙 인터페이스 개요
+# CX Enterprise 중앙 인터페이스 개요
 
-[CX 엔터프라이즈](https://experience.adobe.com)는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능 및 서비스에 빠르게 액세스할 수 있습니다.
+[CX Enterprise](https://experience.adobe.com)은(는) Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능 및 서비스에 빠르게 액세스할 수 있습니다.
 <!--
 ![CX Enterprise](assets/landing.png)
 

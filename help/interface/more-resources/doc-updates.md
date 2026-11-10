@@ -1,6 +1,6 @@
 ---
-description: CX Enterprise의 공통 인터페이스 구성 요소에 대한 설명서 업데이트가 발생하는 위치를 알아봅니다.
-solution: Experience Cloud
+description: CX Enterprise의 공통 인터페이스 구성 요소에 대해 설명서 업데이트가 발생하는 위치를 알아봅니다.
+solution: CX Enterprise
 title: 설명서 업데이트
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 topic: Administration
@@ -36,18 +36,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 35%
 ---
 # 설명서 업데이트
 
-CX Enterprise의 중앙 인터페이스 및 관리를 위해 설명서 업데이트가 발생하는 위치에 대해 알아봅니다.
+CX Enterprise의 중앙 인터페이스 및 관리를 위해 설명서 업데이트가 발생하는 위치를 알아봅니다.
 
 ## 2026년 7월
 
-* 조직 전환기에서 게스트 사용자에 대한 계정 전환을 포함하여 [Federated Guest Access](https://helpx.adobe.com/kr/business/enterprise/using/federated-guest-access.html)의 CX Enterprise 지원에 대한 [2026년 7월 릴리스 정보](release-notes.md)를 추가했습니다.
+* 조직 전환기에서 게스트 사용자에 대한 계정 전환을 포함하여 [페더레이션 게스트 액세스](https://helpx.adobe.com/kr/business/enterprise/using/federated-guest-access.html)의 CX Enterprise 지원에 대한 [2026년 7월 릴리스 정보](release-notes.md)가 추가되었습니다.
 
 ## 2026년 6월
 
@@ -56,11 +56,11 @@ CX Enterprise의 중앙 인터페이스 및 관리를 위해 설명서 업데이
 
 ## 2026년 5월
 
-CX 엔터프라이즈 중앙 인터페이스 가이드의 4월 및 5월 업데이트:
+CX Enterprise 중앙 인터페이스 안내서의 4월 및 5월 업데이트:
 
-* 가이드 전체에서 설명, 링크 텍스트 및 자동 태그 메타데이터를 포함하여 Experience Cloud에서 **CX Enterprise**(으)로 문서를 새롭게 브랜딩했습니다.
+* 가이드 전체에서 설명, 링크 텍스트 및 자동 태그 메타데이터를 포함하여 Experience Cloud에서 **CX Enterprise**(으)로 설명서를 브랜드화했습니다.
 * `https://experience.adobe.com/home`에 새로 고친 홈 페이지에 대한 [2026년 4월 릴리스 정보](release-notes.md)를 추가했습니다(UI 새로 고침, 다크 모드 및 접근성 개선).
-* CX Enterprise의 [Agentic AI](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)를 업데이트했습니다. Adobe Marketing Agent for Microsoft 365 Copilot, 수정된 에이전트 기능 및 기존 앱 에이전트 테이블의 **상태 데이터/HIPAA 지원** 열을 업데이트했습니다.
+* CX Enterprise의 [Agentic AI를 업데이트했습니다](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai): Adobe Marketing Agent for Microsoft 365 Copilot, 수정된 에이전트 기능 및 기존 앱 에이전트 테이블의 **상태 데이터/HIPAA 준비** 열.
 * [지역 데이터 수집](../data-collection/rdc.md), [호스트 이름 전달의 유효성 검사](../data-collection/adobe-managed-cert.md) 및 [용어](terms.md)에 대한 부분 업데이트입니다.
 
 ## 2026년 3월
@@ -117,7 +117,7 @@ Adobe 지원팀이 Adobe 클라우드 환경에 액세스하여 문제를 해결
 
 | 기능 | 설명 |
 | ------- | ------- |
-| 홈 페이지 | 기본 설정의 법적 고지 사항 및 언어 선택을 포함하여 CX 엔터프라이즈 홈 바닥글 정보가 사용자 프로필 카드로 이동되었습니다. |
+| 홈 페이지 | 환경 설정의 법적 고지 사항 및 언어 선택을 포함하여 CX Enterprise 홈 바닥글 정보가 사용자 프로필 카드로 이동되었습니다. |
 | AEP 대시보드 | [!DNL Helios Lite]은 Experience Platform 위젯 생성 워크플로 내에서 차트 권장 사항을 제공합니다. 데이터 선택(현재 단일 변수 데이터 선택)이 주어지면 helios는 해당 데이터 선택과 동반될 수 있는 적절한 시각화를 권장합니다. |
 | AEP 대시보드 | [!DNL Instory]은 차트에 대한 ML 기반 서면 내레이션 및 캡션을 제공합니다. 그래프로 표시된 데이터의 주요 변경 사항 및 인시던트를 호출하는 관련 글머리 기호로 AEP 대시보드 페이지의 차트를 장식합니다. |
 
@@ -126,7 +126,7 @@ Adobe 지원팀이 Adobe 클라우드 환경에 액세스하여 문제를 해결
 | 기능 | 설명 |
 | ------- | ------- |
 | 통합 검색 | 통합 검색은 검색 인덱스에 오브젝트 유형을 계속 추가합니다. 이번 업데이트를 통해 글로벌 검색은 이제 Experience League 콘텐츠와 다음 Journey Optimizer 오브젝트 유형을 검색합니다. <ul><li>데이터 세트</li><li>대상</li><li>쿼리</li><li>스키마</li><li>세그먼트</li><li>소스</li><li>오퍼</li><li>구성 요소</li><li>메시지</li><li>여정</li></ul> |
-| 제품 사용 데이터 동의 | 초기 로그인 시 Adobe이 사용자에게 유용하고 개인 맞춤화된 콘텐츠(CX 엔터프라이즈 제품 사용 데이터를 기반으로 하는 튜토리얼, 안내서, 빠른 팁, 권장 사항, 학습 비디오 등)를 제공할 수 있는 방법에 대한 환경 설정을 제출하라는 메시지가 표시됩니다. <https://experience.adobe.com/preferences>에서 이러한 데이터의 수집 및 사용에 대한 환경 설정 업데이트도 이 요청에 포함됩니다. |
+| 제품 사용 데이터 동의 | 초기 로그인 시 Adobe이 사용자에게 CX Enterprise 제품 사용 데이터를 기반으로 하는 튜토리얼, 안내서, 빠른 팁, 권장 사항, 학습 비디오 등과 같은 유용하고 개인 맞춤화된 콘텐츠를 제공할 수 있는 방법에 대한 환경 설정을 제출하라는 메시지가 표시됩니다. <https://experience.adobe.com/preferences>에서 이러한 데이터의 수집 및 사용에 대한 환경 설정 업데이트도 이 요청에 포함됩니다. |
 
 ## 2021년 8월 24일
 
@@ -142,11 +142,11 @@ Adobe 지원팀이 Adobe 클라우드 환경에 액세스하여 문제를 해결
 
 ## 2021년 6월 1일
 
-CX 엔터프라이즈 액세스, 글로벌 검색, 환경 설정 및 알림에 대한 새로운 도움말로 [랜딩 페이지](../experience-cloud.md)를 업데이트했습니다.
+CX Enterprise 액세스, 글로벌 검색, 환경 설정 및 알림에 대한 새로운 도움말로 [랜딩 페이지](../experience-cloud.md)를 업데이트했습니다.
 
 ## 2020년 8월 19일
 
-정책 정보로 [CX 엔터프라이즈 사용자 세부 정보 보기(관리 도구)](../administration/admin-tool-experience-cloud.md)를 업데이트했습니다.
+정책 정보로 [CX Enterprise 사용자 세부 정보 보기(관리 도구)](../administration/admin-tool-experience-cloud.md)를 업데이트했습니다.
 
 ## 2020년 5월 19일
 
@@ -156,7 +156,7 @@ CX 엔터프라이즈 액세스, 글로벌 검색, 환경 설정 및 알림에 �
 
 다음 페이지가 추가되었습니다.
 
-* [개인정보 보호 규정 지원](../services/customer-attributes/gdpr.md)
+* [일반 데이터 보호 규정 지원](../services/customer-attributes/gdpr.md)
 * [캘리포니아 소비자 개인정보 보호법 지원](../services/customer-attributes/ccpa.md)
 
 ## 2020년 3월 10일
@@ -165,7 +165,7 @@ CX 엔터프라이즈 액세스, 글로벌 검색, 환경 설정 및 알림에 �
 
 ## 2020년 2월 20일
 
-[CX 엔터프라이즈 사용자 세부 정보 보기(관리 도구)](../administration/admin-tool-experience-cloud.md)를 추가했습니다.
+[CX Enterprise 사용자 세부 정보 보기(관리 도구)](../administration/admin-tool-experience-cloud.md)를 추가했습니다.
 
 ## 업데이트 날짜: 2018년 9월 5일
 
@@ -193,11 +193,11 @@ CX 엔터프라이즈 액세스, 글로벌 검색, 환경 설정 및 알림에 �
 
 ## 2016년 5월 9일
 
-통합 문서에 대한 종합 자료인 [CX 엔터프라이즈 통합](../administration/integrations.md)이 추가되었습니다.
+통합 문서에 대한 종합 자료인 [CX Enterprise 통합](../administration/integrations.md)이 추가되었습니다.
 
 ## 2016년 2월 11일
 
-[CX Enterprise Assets](../services/assets/experience-cloud-assets.md)이(가) 추가되었습니다.
+[CX Enterprise Assets](../services/assets/experience-cloud-assets.md)을(를) 추가했습니다.
 
 ## 2015년 1월 15일
 

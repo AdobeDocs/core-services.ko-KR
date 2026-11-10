@@ -1,7 +1,7 @@
 ---
 description: Adobe CX Enterprise의 Audience Manager 쿠키에 대해 알아봅니다.
 keywords: 쿠키
-solution: Experience Cloud, Audience Manager
+solution: CX Enterprise, Audience Manager
 title: Audience Manager 쿠키
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 feature: Cookies
@@ -44,7 +44,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 94%
@@ -140,7 +140,7 @@ dextp 쿠키 데이터 구문:
      </ul> </p> <p>새 스타일 쿠키: </p> <p> 
      <ul id="ul_F05A91A455FA44C7A71186C0C9E31630"> 
       <li id="li_A8C9638173684359BABC4207845A4F48">읽을 수 있는 데이터 공급자 이름을 숫자 ID로 바꿉니다. </li> 
-      <li id="li_28F1E2DB24904E53BE9718AD788CE61E">ID 1 또는 ID 2로 통화 유형을 식별합니다. ID 1은 ID 동기화 호출을 나타냅니다. ID 2는 더 이상 사용되지 않는 호출을 나타냅니다. ID 2의 dextp 쿠키는 많지 않거나 없어야 합니다. </li> 
+      <li id="li_28F1E2DB24904E53BE9718AD788CE61E">ID 1 또는 ID 2로 호출 유형을 식별합니다. ID 1은 ID 동기화 호출을 나타냅니다. ID 2는 더 이상 사용되지 않는 호출을 나타냅니다. ID 2의 dextp 쿠키는 많지 않거나 없어야 합니다. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

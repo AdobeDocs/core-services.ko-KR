@@ -1,6 +1,6 @@
 ---
 description: CX Enterprise의 특정 애플리케이션에 대한 통합 검색 기능에 대해 알아봅니다.
-solution: Experience Cloud
+solution: CX Enterprise
 title: CX Enterprise 통합 검색
 index: true
 feature: Central Interface Components
@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 73%
