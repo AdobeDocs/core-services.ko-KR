@@ -33,20 +33,16 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: 3292f78ff6778df2ca1aecb752cf1aa24c043ef3
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 56%
+source-wordcount: '548'
+ht-degree: 52%
 ---
-# 대상자 만들기
+# 대상자 만들기 {#create-audience}
 
-[!UICONTROL 대상 라이브러리]에서 특성 규칙을 사용하여 대상을 만들고 CX Enterprise 애플리케이션에서 공유할 복합 대상을 정의할 수 있습니다.
+[!UICONTROL 대상 라이브러리]에서 특성 규칙을 사용하여 대상을 만들고, 개별 규칙을 만들고, 규칙을 CX Enterprise 응용 프로그램 간에 공유할 수 있도록 복합 대상으로 결합할 수 있습니다.
 
-이 문서는 다음 방법을 이해하는 데 도움이 됩니다.
-
-* 대상자 만들기
-* 규칙 만들기
-* 규칙을 사용하여 복합 대상자 정의
+## 복합 대상자 {#composite-audiences}
 
 다음 그래픽에는 복합 대상자의 두 가지 규칙이 나와 있습니다.
 
@@ -58,14 +54,9 @@ ht-degree: 56%
 >
 >대상자는 지정된 기간 동안의 데이터 수집이 완료된 후에 완전히 정의됩니다.
 
-다음 예에서는 복합 대상자에 대한 규칙을 만드는 방법을 보여 줍니다. 이 대상자는 다음으로 구성됩니다.
+## 대상 규칙 작성 {#build-audience-rules}
 
-* 페이지 데이터 또는 원시 분석 데이터에서 파생된 홈/가든 섹션
-* [!DNL Adobe Analytics] 세그먼트 [게시](overview.md)에서 [!DNL CX Enterprise]까지 파생된 Chrome 및 Safari 사용자.
-
-  ![복합 대상자에 대한 규칙 만들기](assets/audience_create.png)
-
-**대상자를 만들려면**
+다음 단계를 사용하여 대상자를 만들고 [!UICONTROL 대상자 라이브러리]에서 규칙을 정의합니다.
 
 1. [!DNL CX Enterprise]개의 앱(![앱 아이콘](assets/apps-icon.png))을 클릭한 다음 **[!UICONTROL 사용자]** > **[!UICONTROL 대상 라이브러리].**&#x200B;를 클릭합니다.
 
@@ -86,11 +77,18 @@ ht-degree: 56%
 
 1. 대상 규칙을 정의한 다음 **[!UICONTROL 저장].**&#x200B;을 클릭합니다.
 
-**예: 복합 대상에 대한 규칙 정의**
+## 복합 대상자 예 {#example-composite-audience}
+
+다음 예에서는 복합 대상자에 대한 규칙을 만드는 방법을 보여 줍니다. 이 대상자는 다음으로 구성됩니다.
+
+* 페이지 데이터 또는 원시 분석 데이터에서 파생된 홈/가든 섹션
+* [!DNL Adobe Analytics] 세그먼트 [게시](overview.md)에서 [!DNL CX Enterprise]까지 파생된 Chrome 및 Safari 사용자.
+
+  ![복합 대상자에 대한 규칙 만들기](assets/audience_create.png)
 
 >[!NOTE]
 >
->이러한 규칙을 작성할 때 구현 변수를 이해해야 합니다.
+>대상자 규칙을 정의할 때 구현 변수를 이해해야 합니다.
 
 [!UICONTROL 규칙]에서 *`Home & Garden`* 특성 선택 사항을 정의합니다.
 
@@ -120,4 +118,4 @@ CX Enterprise에서 ![정의된 대상](assets/defined_audience.png)
 
 지정된 기간 동안 데이터 수집이 완료되면 원이 합쳐지면서 정의된 대상자를 표시합니다.
 
-대상이 저장되면 다른 CX Enterprise 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/ko/docs/target/using/activities/activities)에 포함할 수 있습니다.
+대상이 저장되면 다른 CX Enterprise 애플리케이션에서 사용할 수 있습니다. 예를 들어 공유 대상을 Adobe Target [activity](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)에 포함할 수 있습니다.
